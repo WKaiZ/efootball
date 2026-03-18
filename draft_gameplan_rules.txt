@@ -74,6 +74,17 @@ Starter replacement rule (when jerseys fail)
   - First try promoting the best already-selected substitute whose MAIN position matches that starter slot, and backfill that cleared substitute slot later.
   - If promotion is not possible, replace the starter with the best next available candidate for that slot.
 
+- Vacant slot fill (proficient/semi-proficient)
+  - After starter + substitute selection/jersey assignment, if any formation slot is still empty, try to fill it from players that were not selected in starters/subs and do not have a jersey assigned yet.
+  - Proficient fill:
+    - If the vacant slot exists in the candidate player's `proficient_positions`, you may place the player there and assign them a jersey number (no jersey number conflicts).
+    - Jersey-signing priority for proficient-position fills is lower than every card type jersey assignment that already happened, but higher than semiproficient-position fills.
+    - `Standard` card types are considered last (after Epic/BigTime/Showtime/Highlight for proficient fills).
+  - Semiproficient fill:
+    - If no proficient-position candidates can fill the vacancy, try `semiproficient_positions` the same way.
+    - `Standard` card types are considered last (after Epic/BigTime/Showtime/Highlight for semiproficient fills).
+  - If still no candidate works, the slot remains `VACANT` in the output.
+
 Data source
 - All necessary information is pulled from the SQLite database (players, game_data, jersey history).
 
