@@ -13,6 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
+  [LWF] VACANT
   [RMF] Maghnes Akliouche (RMF) rating 94.00 #12
   [AMF] Eduardo Camavinga (AMF) rating 95.33 #25
   [CMF] Adrien Rabiot (CMF) rating 95.08 #14

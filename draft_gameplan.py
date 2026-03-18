@@ -97,37 +97,59 @@ def pick_best(candidates):
 
 
 def choose_initial_lineup(roles_by_pos):
-    starters = []
-    used_ids = set()
-    for slot in FORMATION:
-        slot_candidates = [r for r in roles_by_pos.get(slot, []) if r.player_id not in used_ids]
-        non_std = [r for r in slot_candidates if not is_standard(r)]
-        best = pick_best(non_std)
-        if best is None:
-            std = [r for r in slot_candidates if is_standard(r)]
-            best = pick_best(std)
-        starters.append(best)
-        if best is not None:
+    slot_count = len(FORMATION)
+    slots = FORMATION[:]
+
+    def available_roles(slot, used_ids, for_subs):
+        direct_roles = roles_by_pos.get(slot, [])
+
+        nonstd = [r for r in direct_roles if r.player_id not in used_ids and not is_standard(r)]
+
+        if for_subs and slot in ("LWF", "RWF") and not nonstd:
+            ss_roles = roles_by_pos.get("SS", [])
+            nonstd = [r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)]
+
+        if nonstd:
+            return nonstd
+
+        std = [r for r in direct_roles if r.player_id not in used_ids and is_standard(r)]
+        if for_subs and slot in ("LWF", "RWF") and not std:
+            return []
+        return std
+
+    def fill_slots(for_subs, initially_used_ids):
+        filled = [None] * slot_count
+        used_ids = set(initially_used_ids)
+        unfilled = set(range(slot_count))
+
+        while unfilled:
+            best = None
+            best_rating = -1e18
+            best_idx = None
+
+            for slot_idx in unfilled:
+                slot = slots[slot_idx]
+                candidates = available_roles(slot, used_ids, for_subs)
+                if not candidates:
+                    continue
+                top = max(candidates, key=lambda r: r.rating)
+                if top.rating > best_rating:
+                    best = top
+                    best_rating = top.rating
+                    best_idx = slot_idx
+
+            if best is None:
+                break
+
+            filled[best_idx] = best
             used_ids.add(best.player_id)
+            unfilled.remove(best_idx)
 
-    subs = []
-    for slot in FORMATION:
-        slot_candidates = [r for r in roles_by_pos.get(slot, []) if r.player_id not in used_ids]
-        non_std = [r for r in slot_candidates if not is_standard(r)]
-        best = pick_best(non_std)
+        return filled
 
-        if best is None and slot in ("LWF", "RWF"):
-            ss_candidates = [r for r in roles_by_pos.get("SS", []) if r.player_id not in used_ids and not is_standard(r)]
-            best = pick_best(ss_candidates)
-
-        if best is None:
-            std = [r for r in slot_candidates if is_standard(r)]
-            best = pick_best(std)
-
-        subs.append(best)
-        if best is not None:
-            used_ids.add(best.player_id)
-
+    starters = fill_slots(for_subs=False, initially_used_ids=set())
+    used_for_subs = {p.player_id for p in starters if p is not None}
+    subs = fill_slots(for_subs=True, initially_used_ids=used_for_subs)
     return starters, subs
 
 
@@ -157,9 +179,12 @@ def load_jersey_stats(conn, player_id):
 
     def pref_list(nums):
         counts = {}
-        for n in nums:
+        first_idx = {}
+        for idx, n in enumerate(nums):
             counts[n] = counts.get(n, 0) + 1
-        return [n for n, _ in sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))]
+            if n not in first_idx:
+                first_idx[n] = idx
+        return [n for n, _ in sorted(counts.items(), key=lambda kv: (-kv[1], first_idx[kv[0]], kv[0]))]
 
     overall_prefs = pref_list(all_nums)
     recent_prefs = pref_list(recent_slice)
@@ -409,22 +434,26 @@ def build_gameplan(conn, roles_by_pos):
     starter_asg = []
     for slot, p in zip(FORMATION, starters):
         if p is None:
+            starter_asg.append(None)
             continue
         jersey = assignments.get(p.player_id)
         if jersey is None:
+            starter_asg.append(None)
             continue
         starter_asg.append(Assignment(slot=slot, player=p, jersey=jersey))
 
     sub_asg = []
     for slot, p in zip(FORMATION, subs):
         if p is None:
+            sub_asg.append(None)
             continue
         jersey = assignments.get(p.player_id)
         if jersey is None:
+            sub_asg.append(None)
             continue
         sub_asg.append(Assignment(slot=slot, player=p, jersey=jersey))
 
-    used_ids = {a.player.player_id for a in starter_asg + sub_asg}
+    used_ids = {a.player.player_id for a in (starter_asg + sub_asg) if a is not None}
     all_roles = []
     for lst in roles_by_pos.values():
         for r in lst:
@@ -462,13 +491,23 @@ def main():
 
         lines = []
         lines.append("Starters:")
-        for a in starter_asg:
-            lines.append(f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}")
+        for slot, a in zip(FORMATION, starter_asg):
+            if a is None:
+                lines.append(f"  [{slot}] VACANT")
+            else:
+                lines.append(
+                    f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
+                )
 
         lines.append("")
         lines.append("Substitutes:")
-        for a in sub_asg:
-            lines.append(f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}")
+        for slot, a in zip(FORMATION, sub_asg):
+            if a is None:
+                lines.append(f"  [{slot}] VACANT")
+            else:
+                lines.append(
+                    f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
+                )
 
         if wildcard_asg is not None:
             lines.append("")

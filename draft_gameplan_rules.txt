@@ -2,6 +2,7 @@ Draft gameplan rules (reference)
 
 Goal
 - Build a 23-player gameplan: 11 starters + 11 substitutes + 1 wildcard.
+- Output will mark any empty formation slot as `VACANT`.
 
 Formation (default)
 - Slot order (each exactly one player):
@@ -10,14 +11,18 @@ Formation (default)
 
 Player selection
 - Choose STARTERS first, then choose SUBSTITUTES.
-- For each slot, pick the available player with the HIGHEST rating for that slot.
 - Only the player’s MAIN position may be used for eligibility (do not use proficient or semi‑proficient positions).
 - The same player_id may not appear more than once anywhere in the gameplan (no duplicates across starters, subs, wildcard).
 - Starters are fixed once chosen (do not change starter selection based on substitutes).
-- Selection uses card-type tiers:
-  - First try Epic/Showtime/Highlight for the slot.
-  - If none exist for that slot (vacant), then allow Standard players for that slot.
-  - Only for SUBSTITUTE LWF or RWF vacancies: you may use an SS player to fill the slot.
+- Selection is rating-driven and does not depend on formation order:
+  - At each step, pick the highest-rated eligible MAIN-position role across all unfilled slots.
+  - Prefer non-standard cards for a slot: Epic/BigTime/Showtime/Highlight.
+  - If a slot has no eligible non-standard roles, allow Standard roles for that slot.
+  - Within the non-standard (or Standard) group, higher rating wins.
+
+- Substitute-specific SS fallback:
+  - Only for SUBSTITUTE LWF or RWF vacancies: you may use an SS player to fill the slot, but only when no eligible non-standard direct roles exist for that slot.
+  - In the Standard stage, do not use SS to fill substitutes.
 
 Jersey number assignment (overall)
 - Assign jerseys after players are selected.
@@ -34,6 +39,7 @@ Jersey number assignment priority & preferences
 
 2) Card-type priority (after applying recent=True locks)
    - Epic
+  - BigTime
    - Showtime
    - Highlight
    - Standard
@@ -45,8 +51,12 @@ Additional ordering notes
 - Wildcard may be any remaining player; it is chosen only after starters + substitutes are finalized.
 
 3) How each card-type chooses numbers
+  - BigTime:
+    - Treated as an Epic-tier card for jersey-assignment priority.
+    - Preference list is based on the player's jersey history order (newest → oldest), with duplicates removed while preserving that order.
    - Epic:
      - Preference list is based on MOST-WORN jersey number over all years.
+    - If two jersey numbers have the same total wear count, prefer the jersey number that appeared earlier in the jersey history (newest first).
      - If conflict: higher rating keeps the number, lower rating tries their next most-worn, and so on until a free number is found.
      - The “next-most-worn” does not outrank other players’ “most-worn”; whenever a conflict happens, higher rating wins and the other player keeps moving down their own preference list.
    - Showtime / Highlight / Standard:
@@ -58,6 +68,11 @@ Wildcard rule
 - Then assign the wildcard a jersey number:
   - Assign using the same jersey preference rules as their card type (must be a number they actually wore).
   - If none of their worn numbers are available, try the next-highest-rated remaining player, and so on, until one works.
+
+Starter replacement rule (when jerseys fail)
+- If a selected starter cannot be assigned ANY available jersey number:
+  - First try promoting the best already-selected substitute whose MAIN position matches that starter slot, and backfill that cleared substitute slot later.
+  - If promotion is not possible, replace the starter with the best next available candidate for that slot.
 
 Data source
 - All necessary information is pulled from the SQLite database (players, game_data, jersey history).

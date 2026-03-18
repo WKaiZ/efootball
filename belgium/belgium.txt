@@ -5,9 +5,9 @@ Starters:
   [AMF] Eden Hazard (AMF) rating 98.91 #7
   [CMF] Youri Tielemans (CMF) rating 95.21 #8
   [DMF] Amadou Onana (DMF) rating 95.18 #6
-  [LB] Arthur Theate (LB) rating 94.07 #3
+  [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Thomas Vermaelen (CB) rating 96.44 #4
-  [CB] Koni De Winter (CB) rating 94.33 #16
+  [CB] Arthur Theate (CB) rating 94.49 #3
   [RB] Timothy Castagne (RB) rating 93.28 #21
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
@@ -18,9 +18,9 @@ Substitutes:
   [AMF] Kevin De Bruyne (AMF) rating 95.83 #14
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
-  [LB] Maxim De Cuyper (LB) rating 74.31 #5
+  [LB] Joaquin Seys (LB) rating 67.94 #22
+  [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.06 #2
-  [CB] Wout Faes (CB) rating 76.57 #22
   [RB] Thomas Meunier (RB) rating 93.22 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
