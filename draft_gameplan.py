@@ -6,13 +6,25 @@ DB_PATH = "pes.db"
 
 
 class PlayerRole:
-    def __init__(self, player_id, name, position, rating, recent, card_type):
+    def __init__(
+        self,
+        player_id,
+        name,
+        position,
+        rating,
+        recent,
+        card_type,
+        proficient_positions,
+        semiproficient_positions,
+    ):
         self.player_id = player_id
         self.name = name
         self.position = position
         self.rating = rating
         self.recent = recent
         self.card_type = card_type
+        self.proficient_positions = proficient_positions
+        self.semiproficient_positions = semiproficient_positions
 
 
 class Assignment:
@@ -40,18 +52,23 @@ def load_roles(conn, country_name):
     cur.execute(
         """
         SELECT gd.player_id, p.name, gd.position, gd.rating, gd.recent, gd.card_type,
-               gd.proficient_positions
+               gd.proficient_positions, gd.semiproficient_positions
         FROM game_data gd
         JOIN players p ON gd.player_id = p.player_id
         WHERE gd.country = ?
-        """
-        ,
+        """,
         (country_name,),
     )
     roles_by_pos = {}
-    for pid, name, pos, rating, recent, card_type, profs in cur.fetchall():
+    for pid, name, pos, rating, recent, card_type, profs, semis in cur.fetchall():
         main_pos = pos.strip().upper()
         recent_flag = bool(recent)
+        prof_list = []
+        if profs:
+            prof_list = [x.strip().upper() for x in profs.split(",") if x.strip()]
+        semi_list = []
+        if semis:
+            semi_list = [x.strip().upper() for x in semis.split(",") if x.strip()]
         role = PlayerRole(
             player_id=str(pid),
             name=name,
@@ -59,6 +76,8 @@ def load_roles(conn, country_name):
             rating=float(rating),
             recent=recent_flag,
             card_type=(card_type or "").strip(),
+            proficient_positions=set(prof_list),
+            semiproficient_positions=set(semi_list),
         )
         roles_by_pos.setdefault(main_pos, []).append(role)
     return roles_by_pos
@@ -238,6 +257,24 @@ def jersey_prefs_for_player(conn, p):
                 ordered_unique.append(n)
         prefs = ordered_unique
     return most_recent, prefs
+
+
+def try_assign_jersey_for_player(conn, p, used_numbers, assignments):
+    if p is None:
+        return None
+    if p.player_id in assignments:
+        return assignments[p.player_id]
+    most_recent, prefs = jersey_prefs_for_player(conn, p)
+    if p.recent and most_recent is not None and most_recent not in used_numbers:
+        assignments[p.player_id] = most_recent
+        used_numbers.add(most_recent)
+        return most_recent
+    for num in prefs:
+        if num not in used_numbers:
+            assignments[p.player_id] = num
+            used_numbers.add(num)
+            return num
+    return None
 
 
 def assign_group_jerseys(
@@ -430,6 +467,80 @@ def build_gameplan(conn, roles_by_pos):
             break
 
     assignments, used_numbers = assign_jerseys(conn, starters, subs)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+
+    for i, p in enumerate(starters):
+        if p is None:
+            continue
+        if p.player_id not in assignments:
+            starters[i] = None
+            used_ids.discard(p.player_id)
+    for i, p in enumerate(subs):
+        if p is None:
+            continue
+        if p.player_id not in assignments:
+            subs[i] = None
+            used_ids.discard(p.player_id)
+
+    all_roles = []
+    for lst in roles_by_pos.values():
+        all_roles.extend(lst)
+
+    remaining_roles = [r for r in all_roles if r.player_id not in used_ids]
+
+    starter_vacant_indices = [i for i, p in enumerate(starters) if p is None]
+    sub_vacant_indices = [i for i, p in enumerate(subs) if p is None]
+
+    def fill_vacancies(vacant_indices, target_list, pos_set_name, want_standard):
+        nonlocal used_ids
+        for i in vacant_indices:
+            if target_list[i] is not None:
+                continue
+            slot = FORMATION[i]
+            eligible = []
+            for r in remaining_roles:
+                if r.player_id in used_ids:
+                    continue
+                if want_standard and not is_standard(r):
+                    continue
+                if not want_standard and is_standard(r):
+                    continue
+                if pos_set_name == "proficient":
+                    if slot in r.proficient_positions:
+                        eligible.append(r)
+                else:
+                    if slot in r.semiproficient_positions:
+                        eligible.append(r)
+
+            eligible.sort(key=lambda r: r.rating, reverse=True)
+
+            placed = False
+            for cand in eligible:
+                num = try_assign_jersey_for_player(conn, cand, used_numbers, assignments)
+                if num is None:
+                    continue
+                target_list[i] = cand
+                used_ids.add(cand.player_id)
+                placed = True
+                break
+            if not placed:
+                target_list[i] = None
+
+    fill_vacancies(starter_vacant_indices, starters, "proficient", want_standard=False)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(starter_vacant_indices, starters, "proficient", want_standard=True)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies([i for i, p in enumerate(starters) if p is None], starters, "semiproficient", want_standard=False)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies([i for i, p in enumerate(starters) if p is None], starters, "semiproficient", want_standard=True)
+
+    fill_vacancies(sub_vacant_indices, subs, "proficient", want_standard=False)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(sub_vacant_indices, subs, "proficient", want_standard=True)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies([i for i, p in enumerate(subs) if p is None], subs, "semiproficient", want_standard=False)
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies([i for i, p in enumerate(subs) if p is None], subs, "semiproficient", want_standard=True)
 
     starter_asg = []
     for slot, p in zip(FORMATION, starters):
