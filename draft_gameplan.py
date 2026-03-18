@@ -25,7 +25,7 @@ class Assignment:
 DEFAULT_FORMATION = ["CF", "LWF", "RWF", "AMF", "CMF", "DMF", "LB", "CB", "CB", "RB", "GK"]
 FORMATION = DEFAULT_FORMATION[:]
 
-NON_STANDARD = {"epic", "showtime", "highlight"}
+NON_STANDARD = {"epic", "bigtime", "showtime", "highlight"}
 
 
 def load_roles(conn, country_name):
@@ -168,7 +168,7 @@ def load_jersey_stats(conn, player_id):
 
 def card_priority(card_type):
     ct = card_type.lower()
-    if ct == "epic":
+    if ct in ("epic", "bigtime"):
         return 0
     if ct == "showtime":
         return 1
@@ -182,6 +182,21 @@ def jersey_prefs_for_player(conn, p):
     ct = p.card_type.lower()
     if ct == "epic":
         prefs = overall_prefs
+    elif ct == "bigtime":
+        cur = conn.cursor()
+        cur.execute(
+            "SELECT number FROM jersey WHERE player_id = ? ORDER BY idx ASC",
+            (p.player_id,),
+        )
+        seq_rows = cur.fetchall()
+        seq = [int(r[0]) for r in seq_rows]
+        seen = set()
+        ordered_unique = []
+        for n in seq:
+            if n not in seen:
+                seen.add(n)
+                ordered_unique.append(n)
+        prefs = ordered_unique
     else:
         cur = conn.cursor()
         cur.execute(
@@ -283,6 +298,15 @@ def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids):
     return max(candidates, key=lambda r: r.rating)
 
 
+def find_player_index(players, player_id):
+    for i, p in enumerate(players):
+        if p is None:
+            continue
+        if p.player_id == player_id:
+            return i
+    return None
+
+
 def next_candidate_for_sub_wing(
     slot,
     roles_by_pos,
@@ -319,8 +343,30 @@ def build_gameplan(conn, roles_by_pos):
                 continue
             excluded = starter_excluded.setdefault(i, set())
             excluded.add(p.player_id)
-            repl = next_candidate_for_slot(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded)
-            starters[i] = repl
+            slot = FORMATION[i]
+            used_without_this_starter = used_ids - {p.player_id}
+            repl = None
+
+            best_sub_idx = None
+            best_sub = None
+            for j, sp in enumerate(subs):
+                if sp is None:
+                    continue
+                if sp.player_id in excluded:
+                    continue
+                if sp.position != slot:
+                    continue
+                if best_sub is None or sp.rating > best_sub.rating:
+                    best_sub = sp
+                    best_sub_idx = j
+
+            if best_sub is not None:
+                repl = best_sub
+                starters[i] = repl
+                subs[best_sub_idx] = None
+            else:
+                repl = next_candidate_for_slot(slot, roles_by_pos, used_without_this_starter, excluded)
+                starters[i] = repl
             replaced = True
             break
 
@@ -339,6 +385,21 @@ def build_gameplan(conn, roles_by_pos):
                 subs[i] = repl
                 replaced = True
                 break
+
+        if replaced:
+            used_ids = {p.player_id for p in (starters + subs) if p is not None}
+            for j, sp in enumerate(subs):
+                if sp is not None:
+                    continue
+                excluded = sub_excluded.setdefault(j, set())
+                slot = FORMATION[j]
+                if slot in ("LWF", "RWF"):
+                    repl = next_candidate_for_sub_wing(slot, roles_by_pos, used_ids, excluded)
+                else:
+                    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded)
+                subs[j] = repl
+                if repl is not None:
+                    used_ids.add(repl.player_id)
 
         if not replaced:
             break

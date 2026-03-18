@@ -1,6 +1,6 @@
 Starters:
-  [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LWF] Franck Ribéry (LWF) rating 98.32 #7
+  [CF] Ousmane Dembélé (CF) rating 99.48 #7
+  [LWF] Bradley Barcola (LWF) rating 95.72 #20
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
   [CMF] Warren Zaïre-Emery (CMF) rating 95.13 #18
@@ -12,8 +12,7 @@ Starters:
   [GK] Mike Maignan (GK) rating 95.31 #16
 
 Substitutes:
-  [CF] Hugo Ekitiké (CF) rating 96.00 #19
-  [LWF] Bradley Barcola (LWF) rating 95.72 #20
+  [CF] Marcus Thuram (CF) rating 98.11 #9
   [RMF] Maghnes Akliouche (RMF) rating 94.00 #12
   [AMF] Eduardo Camavinga (AMF) rating 95.33 #25
   [CMF] Adrien Rabiot (CMF) rating 95.08 #14
@@ -25,4 +24,4 @@ Substitutes:
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Wildcard:
-  [WILD] Dayot Upamecano (CB) rating 95.35 #13
+  [WILD] Hugo Ekitiké (CF) rating 96.00 #19
