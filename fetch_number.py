@@ -51,14 +51,21 @@ def rewrite_names_in_txt(raw_lines, name_changes):
         if not stripped or stripped.startswith("#"):
             out.append(original)
             continue
-        parts = [p.strip() for p in line.split(",")]
-        if not parts:
+        comma_idx = line.find(",")
+        if comma_idx == -1:
+            first = line.strip()
+            rest = ""
+        else:
+            first = line[:comma_idx].strip()
+            rest = line[comma_idx:]
+
+        if not first:
             out.append(original)
             continue
-        key = normalize_name(parts[0])
+        key = normalize_name(first)
         if key in name_changes:
-            parts[0] = name_changes[key]
-            new_line = ", ".join(parts)
+            new_first = name_changes[key]
+            new_line = f"{new_first}{rest}"
             out.append(new_line)
             if new_line != original:
                 changed = True
@@ -365,7 +372,7 @@ async def main():
             if not nums:
                 had_error = True
             official = get_official_name(conn, pid)
-            if official and normalize_name(official) != normalize_name(name):
+            if official and official.strip() != name.strip():
                 name_changes[normalize_name(name)] = official
             if not used_cache:
                 await asyncio.sleep(5)

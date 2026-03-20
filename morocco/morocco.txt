@@ -1,0 +1,25 @@
+Starters:
+  [CF] Ayoub El Kaabi (CF) rating 93.03 #20
+  [LWF] Osame Sahraoui (LMF) rating 92.95 #24
+  [RWF] Ismael Saibari (AMF) rating 91.24 #11
+  [AMF] Brahim Díaz (AMF) rating 97.79 #10
+  [CMF] VACANT
+  [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
+  [LB] VACANT
+  [CB] Nayef Aguerd (CB) rating 94.56 #5
+  [CB] Medhi Benatia (CB) rating 94.38 #6
+  [RB] Achraf Hakimi (RB) rating 95.94 #2
+  [GK] Yassine Bounou (GK) rating 96.28 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Amine Adli (AMF) rating 94.14 #21
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Omar El Hilali (RB) rating 94.08 #15
+  [GK] VACANT
