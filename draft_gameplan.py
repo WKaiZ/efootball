@@ -119,56 +119,161 @@ def choose_initial_lineup(roles_by_pos):
     slot_count = len(FORMATION)
     slots = FORMATION[:]
 
-    def available_roles(slot, used_ids, for_subs):
+    def available_roles_for_sub(slot, used_ids):
         direct_roles = roles_by_pos.get(slot, [])
 
-        nonstd = [r for r in direct_roles if r.player_id not in used_ids and not is_standard(r)]
+        nonstd = [
+            r for r in direct_roles if r.player_id not in used_ids and not is_standard(r)
+        ]
 
-        if for_subs and slot in ("LWF", "RWF") and not nonstd:
+        if slot in ("LWF", "RWF") and not nonstd:
             ss_roles = roles_by_pos.get("SS", [])
-            nonstd = [r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)]
+            nonstd = [
+                r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)
+            ]
 
         if nonstd:
             return nonstd
 
-        std = [r for r in direct_roles if r.player_id not in used_ids and is_standard(r)]
-        if for_subs and slot in ("LWF", "RWF") and not std:
+        std = [
+            r for r in direct_roles if r.player_id not in used_ids and is_standard(r)
+        ]
+        if slot in ("LWF", "RWF") and not std:
             return []
         return std
 
-    def fill_slots(for_subs, initially_used_ids):
-        filled = [None] * slot_count
-        used_ids = set(initially_used_ids)
-        unfilled = set(range(slot_count))
+    all_roles = []
+    for lst in roles_by_pos.values():
+        all_roles.extend(lst)
 
+    def fill_starters_stage(empty_slots, used_ids, candidate_selector):
+        filled = [None] * slot_count
+        for i in range(slot_count):
+            if i not in empty_slots:
+                filled[i] = "LOCKED"
+
+        unfilled = set(empty_slots)
         while unfilled:
-            best = None
+            best_player = None
+            best_slot_idx = None
             best_rating = -1e18
-            best_idx = None
 
             for slot_idx in unfilled:
                 slot = slots[slot_idx]
-                candidates = available_roles(slot, used_ids, for_subs)
+                candidates = candidate_selector(slot, used_ids)
                 if not candidates:
                     continue
                 top = max(candidates, key=lambda r: r.rating)
                 if top.rating > best_rating:
-                    best = top
                     best_rating = top.rating
-                    best_idx = slot_idx
+                    best_player = top
+                    best_slot_idx = slot_idx
 
-            if best is None:
+            if best_player is None:
                 break
 
-            filled[best_idx] = best
-            used_ids.add(best.player_id)
-            unfilled.remove(best_idx)
+            filled[best_slot_idx] = best_player
+            used_ids.add(best_player.player_id)
+            unfilled.remove(best_slot_idx)
 
+        # Convert "LOCKED" placeholders into None; we only use filled slots for starters.
+        for i in range(slot_count):
+            if filled[i] == "LOCKED":
+                filled[i] = None
         return filled
 
-    starters = fill_slots(for_subs=False, initially_used_ids=set())
+    starters = [None] * slot_count
+    used_ids = set()
+    empty_slots = set(range(slot_count))
+
+    # Stage A: non-standard (Epic/BigTime/Showtime/Highlight) via MAIN position only.
+    def cand_stage_a(slot, used_ids):
+        return [
+            r
+            for r in roles_by_pos.get(slot, [])
+            if r.player_id not in used_ids and not is_standard(r)
+        ]
+
+    stage_a_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_a)
+    for idx in range(slot_count):
+        if stage_a_filled[idx] is not None:
+            starters[idx] = stage_a_filled[idx]
+            used_ids.add(starters[idx].player_id)
+            empty_slots.discard(idx)
+
+    # Stage B: non-standard via proficient_positions.
+    def cand_stage_b(slot, used_ids):
+        return [
+            r
+            for r in all_roles
+            if r.player_id not in used_ids
+            and (slot in r.proficient_positions)
+            and not is_standard(r)
+        ]
+
+    stage_b_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_b)
+    for idx in range(slot_count):
+        if stage_b_filled[idx] is not None:
+            starters[idx] = stage_b_filled[idx]
+            used_ids.add(starters[idx].player_id)
+            empty_slots.discard(idx)
+
+    # Stage C: Standard via proficient_positions.
+    def cand_stage_c(slot, used_ids):
+        return [
+            r
+            for r in all_roles
+            if r.player_id not in used_ids
+            and (slot in r.proficient_positions)
+            and is_standard(r)
+        ]
+
+    stage_c_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_c)
+    for idx in range(slot_count):
+        if stage_c_filled[idx] is not None:
+            starters[idx] = stage_c_filled[idx]
+            used_ids.add(starters[idx].player_id)
+            empty_slots.discard(idx)
+
+    # Stage D: Standard via MAIN position only (final fallback).
+    def cand_stage_d(slot, used_ids):
+        return [
+            r
+            for r in roles_by_pos.get(slot, [])
+            if r.player_id not in used_ids and is_standard(r)
+        ]
+
+    stage_d_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_d)
+    for idx in range(slot_count):
+        if stage_d_filled[idx] is not None:
+            starters[idx] = stage_d_filled[idx]
+            used_ids.add(starters[idx].player_id)
+            empty_slots.discard(idx)
+
     used_for_subs = {p.player_id for p in starters if p is not None}
-    subs = fill_slots(for_subs=True, initially_used_ids=used_for_subs)
+    # Substitutes: keep existing behavior (MAIN position only + SS fallback for SUB LWF/RWF).
+    subs = [None] * slot_count
+    unfilled = set(range(slot_count))
+    while unfilled:
+        best_player = None
+        best_slot_idx = None
+        best_rating = -1e18
+        for slot_idx in unfilled:
+            slot = slots[slot_idx]
+            candidates = available_roles_for_sub(slot, used_for_subs)
+            if not candidates:
+                continue
+            top = max(candidates, key=lambda r: r.rating)
+            if top.rating > best_rating:
+                best_rating = top.rating
+                best_player = top
+                best_slot_idx = slot_idx
+        if best_player is None:
+            break
+        subs[best_slot_idx] = best_player
+        used_for_subs.add(best_player.player_id)
+        unfilled.remove(best_slot_idx)
+
     return starters, subs
 
 
@@ -293,6 +398,23 @@ def try_assign_jersey_for_player_blocked(conn, p, used_numbers, assignments, blo
             continue
         assignments[p.player_id] = num
         used_numbers.add(num)
+        return num
+    return None
+
+
+def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers):
+    if p is None:
+        return None
+    blocked = blocked_numbers if blocked_numbers is not None else set()
+    if p.player_id in assignments:
+        num = assignments[p.player_id]
+        return None if num in blocked else num
+    most_recent, prefs = jersey_prefs_for_player(conn, p)
+    if p.recent and most_recent is not None and most_recent not in used_numbers and most_recent not in blocked:
+        return most_recent
+    for num in prefs:
+        if num in used_numbers or num in blocked:
+            continue
         return num
     return None
 
@@ -511,45 +633,73 @@ def build_gameplan(conn, roles_by_pos):
     starter_vacant_indices = [i for i, p in enumerate(starters) if p is None]
     sub_vacant_indices = [i for i, p in enumerate(subs) if p is None]
 
-    def fill_vacancies(vacant_indices, target_list, pos_set_name, want_standard, blocked_numbers, update_blocked):
+    def fill_vacancies(
+        vacant_indices,
+        target_list,
+        pos_set_name,
+        want_standard,
+        blocked_numbers,
+        update_blocked,
+        allow_from_subs,
+    ):
         nonlocal used_ids
-        for i in vacant_indices:
-            if target_list[i] is not None:
-                continue
-            slot = FORMATION[i]
-            eligible = []
-            for r in remaining_roles:
-                if r.player_id in used_ids:
-                    continue
-                if want_standard and not is_standard(r):
-                    continue
-                if not want_standard and is_standard(r):
-                    continue
-                if pos_set_name == "proficient":
-                    if slot in r.proficient_positions:
-                        eligible.append(r)
-                else:
-                    if slot in r.semiproficient_positions:
-                        eligible.append(r)
-
-            eligible.sort(key=lambda r: r.rating, reverse=True)
-
-            placed = False
-            for cand in eligible:
-                if blocked_numbers is None:
-                    num = try_assign_jersey_for_player(conn, cand, used_numbers, assignments)
-                else:
-                    num = try_assign_jersey_for_player_blocked(conn, cand, used_numbers, assignments, blocked_numbers)
-                if num is None:
-                    continue
-                target_list[i] = cand
-                used_ids.add(cand.player_id)
-                if update_blocked and blocked_numbers is not None:
-                    blocked_numbers.add(num)
-                placed = True
+        while True:
+            open_slots = [i for i in vacant_indices if target_list[i] is None]
+            if not open_slots:
                 break
-            if not placed:
-                target_list[i] = None
+
+            candidate_roles = all_roles if allow_from_subs else remaining_roles
+            best_slot = None
+            best_player = None
+            best_number = None
+            best_rating = -1e18
+
+            for i in open_slots:
+                slot = FORMATION[i]
+                for r in candidate_roles:
+                    sub_idx_for_r = find_player_index(subs, r.player_id)
+                    if r.player_id in used_ids and (not allow_from_subs or sub_idx_for_r is None):
+                        continue
+                    if want_standard and not is_standard(r):
+                        continue
+                    if not want_standard and is_standard(r):
+                        continue
+                    if pos_set_name == "proficient":
+                        if slot not in r.proficient_positions:
+                            continue
+                    elif pos_set_name == "semiproficient":
+                        if slot not in r.semiproficient_positions:
+                            continue
+                    elif pos_set_name == "main":
+                        # MAIN-position fallback for Standard placement.
+                        if slot != r.position:
+                            continue
+                    else:
+                        raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
+
+                    num = choose_jersey_for_player(conn, r, used_numbers, assignments, blocked_numbers)
+                    if num is None:
+                        continue
+
+                    if r.rating > best_rating:
+                        best_slot = i
+                        best_player = r
+                        best_number = num
+                        best_rating = r.rating
+
+            if best_player is None:
+                break
+
+            moved_from_sub_idx = find_player_index(subs, best_player.player_id)
+            if moved_from_sub_idx is not None and allow_from_subs:
+                subs[moved_from_sub_idx] = None
+
+            target_list[best_slot] = best_player
+            used_ids.add(best_player.player_id)
+            assignments[best_player.player_id] = best_number
+            used_numbers.add(best_number)
+            if update_blocked and blocked_numbers is not None:
+                blocked_numbers.add(best_number)
 
     starter_blocked_numbers = set()
     for p in starters:
@@ -559,21 +709,106 @@ def build_gameplan(conn, roles_by_pos):
         if num is not None:
             starter_blocked_numbers.add(num)
 
-    fill_vacancies(starter_vacant_indices, starters, "proficient", want_standard=False, blocked_numbers=starter_blocked_numbers, update_blocked=True)
+    # Starter vacancy fill order:
+    # 1) Proficient non-standard
+    # 2) Proficient standard
+    # 3) Standard by MAIN position (final fallback)
+    fill_vacancies(
+        starter_vacant_indices,
+        starters,
+        "proficient",
+        want_standard=False,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies([i for i, p in enumerate(starters) if p is None], starters, "semiproficient", want_standard=False, blocked_numbers=starter_blocked_numbers, update_blocked=True)
+    fill_vacancies(
+        [i for i, p in enumerate(starters) if p is None],
+        starters,
+        "proficient",
+        want_standard=True,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies([i for i, p in enumerate(starters) if p is None], starters, "proficient", want_standard=True, blocked_numbers=starter_blocked_numbers, update_blocked=True)
-    used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies([i for i, p in enumerate(starters) if p is None], starters, "semiproficient", want_standard=True, blocked_numbers=starter_blocked_numbers, update_blocked=True)
+    fill_vacancies(
+        [i for i, p in enumerate(starters) if p is None],
+        starters,
+        "main",
+        want_standard=True,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
 
-    fill_vacancies(sub_vacant_indices, subs, "proficient", want_standard=False, blocked_numbers=None, update_blocked=False)
+    # Substitute vacancy fill order:
+    # 1) MAIN non-standard
+    # 2) MAIN standard
+    # 3) Proficient non-standard
+    # 4) Proficient standard
+    # 5) Semiproficient non-standard
+    # 6) Semiproficient standard
+    fill_vacancies(
+        sub_vacant_indices,
+        subs,
+        "main",
+        want_standard=False,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies(sub_vacant_indices, subs, "proficient", want_standard=True, blocked_numbers=None, update_blocked=False)
+    fill_vacancies(
+        [i for i, p in enumerate(subs) if p is None],
+        subs,
+        "main",
+        want_standard=True,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies([i for i, p in enumerate(subs) if p is None], subs, "semiproficient", want_standard=False, blocked_numbers=None, update_blocked=False)
+    fill_vacancies(
+        [i for i, p in enumerate(subs) if p is None],
+        subs,
+        "proficient",
+        want_standard=False,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies([i for i, p in enumerate(subs) if p is None], subs, "semiproficient", want_standard=True, blocked_numbers=None, update_blocked=False)
+    fill_vacancies(
+        [i for i, p in enumerate(subs) if p is None],
+        subs,
+        "proficient",
+        want_standard=True,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(
+        [i for i, p in enumerate(subs) if p is None],
+        subs,
+        "semiproficient",
+        want_standard=False,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(
+        [i for i, p in enumerate(subs) if p is None],
+        subs,
+        "semiproficient",
+        want_standard=True,
+        blocked_numbers=None,
+        update_blocked=False,
+        allow_from_subs=False,
+    )
 
     starter_asg = []
     for slot, p in zip(FORMATION, starters):
