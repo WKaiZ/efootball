@@ -3,7 +3,7 @@ Starters:
   [LWF] Bradley Barcola (LWF) rating 95.72 #20
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
-  [CMF] Warren Zaïre-Emery (CMF) rating 95.13 #18
+  [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Patrick Vieira (DMF) rating 99.55 #4
   [LB] Theo Hernández (LB) rating 95.43 #22
   [CB] Lilian Thuram (CB) rating 100.24 #15
