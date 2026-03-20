@@ -11,18 +11,22 @@ Formation (default)
 
 Player selection
 - Choose STARTERS first, then choose SUBSTITUTES.
-- Only the player’s MAIN position may be used for eligibility (do not use proficient or semi‑proficient positions).
+- Starters eligibility is staged (proficient only applies after elite MAIN is attempted):
+  - Stage A: consider only non-Standard cards (`Epic`/`BigTime`/`Showtime`/`Highlight`) whose `MAIN position` matches the slot.
+  - Stage B: for any starter slots still VACANT after Stage A, consider eligible non-Standard cards whose `proficient_positions` includes the slot.
+  - Stage C: if still VACANT, consider Standard cards whose `MAIN position` matches the slot. (`proficient_positions` then goes to Standard; semiproficient is not used for starters.)
+- Substitutes eligibility remains MAIN position only during initial selection (plus the SS LWF/RWF fallback rule).
+- For substitute vacancy fill, direct MAIN-position replacements have higher priority than fallback placements via `proficient_positions`, and `semiproficient_positions` are only considered after MAIN and proficient options both fail.
 - The same player_id may not appear more than once anywhere in the gameplan (no duplicates across starters, subs, wildcard).
 - Starters are fixed once chosen (do not change starter selection based on substitutes).
 - Selection is rating-driven and does not depend on formation order:
-  - At each step, pick the highest-rated eligible MAIN-position role across all unfilled slots.
-  - Prefer non-standard cards for a slot: Epic/BigTime/Showtime/Highlight.
-  - If a slot has no eligible non-standard roles, allow Standard roles for that slot.
-  - Within the non-standard (or Standard) group, higher rating wins.
+  - Within each stage (A/B/C), repeatedly assign the single highest-rated eligible role across all currently VACANT slots.
+  - A new stage begins only when no further assignments are possible in the previous stage.
 
 - Substitute-specific SS fallback:
   - Only for SUBSTITUTE LWF or RWF vacancies: you may use an SS player to fill the slot, but only when no eligible non-standard direct roles exist for that slot.
   - In the Standard stage, do not use SS to fill substitutes.
+  - More generally, substitute slots that cannot be satisfied directly by MAIN position (for example `SS`) are lower priority than direct MAIN-position substitute assignments; only after direct substitute slots are handled do fallback fills apply in this order: `proficient_positions` first, then `semiproficient_positions`.
 
 Jersey number assignment (overall)
 - Assign jerseys after players are selected.
@@ -74,15 +78,13 @@ Starter replacement rule (when jerseys fail)
   - First try promoting the best already-selected substitute whose MAIN position matches that starter slot, and backfill that cleared substitute slot later.
   - If promotion is not possible, replace the starter with the best next available candidate for that slot.
 
-- Vacant slot fill (proficient/semi-proficient)
+- Vacant slot fill (proficient only)
   - After starter + substitute selection/jersey assignment, if any formation slot is still empty, try to fill it from players that were not selected in starters/subs and do not have a jersey assigned yet.
   - Proficient fill:
     - If the vacant slot exists in the candidate player's `proficient_positions`, you may place the player there and assign them a jersey number (no jersey number conflicts).
-    - Jersey-signing priority for proficient-position fills is lower than every card type jersey assignment that already happened, but higher than semiproficient-position fills.
+    - Jersey-signing priority for proficient-position fills is lower than every card type jersey assignment that already happened, but higher than Standard fills.
     - `Standard` card types are considered last (after Epic/BigTime/Showtime/Highlight for proficient fills).
-  - Semiproficient fill:
-    - If no proficient-position candidates can fill the vacancy, try `semiproficient_positions` the same way.
-    - `Standard` card types are considered last (after Epic/BigTime/Showtime/Highlight for semiproficient fills).
+  - If no proficient-position candidates can fill the vacancy, try `Standard` (in MAIN) for that slot.
   - If still no candidate works, the slot remains `VACANT` in the output.
 
 Data source

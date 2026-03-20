@@ -128,6 +128,10 @@ def extract_national_numbers_from_html(html):
             continue
         num = m.group(1)
 
+        club_low = club_cell.strip().lower()
+        if re.search(r"\s+b$", club_low):
+            continue
+
         if any(
             u in club_cell
             for u in (
