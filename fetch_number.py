@@ -155,43 +155,99 @@ def extract_national_numbers_from_html(html):
 
 
 def get_transfermarkt_id(player):
-    query = urllib.parse.quote(player + " transfermarkt")
-    url = f"https://duckduckgo.com/html/?q={query}"
-
-    print(f"Searching ID for {player} via DuckDuckGo...")
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-    except requests.RequestException as e:
-        print(f"  Request failed while searching ID for {player}: {e}")
-        return None
-
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    for a in soup.find_all("a", href=True):
-        link = a.get("href")
-
-        if link and (link.startswith("/l/") or "duckduckgo.com/l/?" in link):
+    def unwrap_duckduckgo_link(link):
+        if not link:
+            return None
+        if link.startswith("/l/") or "duckduckgo.com/l/?" in link:
             if link.startswith("//"):
                 link_to_parse = "https:" + link
             elif link.startswith("/"):
                 link_to_parse = "https://duckduckgo.com" + link
             else:
                 link_to_parse = link
-
             parsed = urllib.parse.urlparse(link_to_parse)
             qs = urllib.parse.parse_qs(parsed.query)
             if "uddg" in qs and qs["uddg"]:
-                link = qs["uddg"][0]
+                return qs["uddg"][0]
+        return link
 
-        if not link:
+    def score_candidate(player_name, link, text):
+        if not link or "transfermarkt." not in link or "/spieler/" not in link:
+            return None
+        m = re.search(r"/spieler/(\d+)", link)
+        if not m:
+            return None
+        pid = m.group(1)
+        parsed = urllib.parse.urlparse(link)
+        path = parsed.path.lower()
+        slug = ""
+        parts = [p for p in path.split("/") if p]
+        if parts:
+            slug = parts[0].replace("-", " ")
+        player_norm = normalize_name(player_name)
+        text_norm = normalize_name(text)
+        slug_norm = normalize_name(slug)
+        player_tokens = [tok for tok in player_norm.split() if tok]
+
+        score = 0
+        if slug_norm == player_norm:
+            score += 100
+        elif player_norm and player_norm in slug_norm:
+            score += 80
+
+        if text_norm.startswith(player_norm):
+            score += 60
+        elif player_norm and player_norm in text_norm:
+            score += 40
+
+        token_matches = sum(1 for tok in player_tokens if tok in slug_norm or tok in text_norm)
+        score += token_matches * 10
+
+        if token_matches == 0:
+            return None
+        return score, pid
+
+    queries = [
+        f"{player} transfermarkt",
+        f"\"{player}\" transfermarkt",
+        f"{player} transfermarkt player",
+        f"{player} transfermarkt spieler",
+    ]
+
+    print(f"Searching ID for {player} via DuckDuckGo...")
+    best = None
+    seen_pids = set()
+
+    for raw_query in queries:
+        query = urllib.parse.quote(raw_query)
+        url = f"https://duckduckgo.com/html/?q={query}"
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+        except requests.RequestException as e:
+            print(f"  Request failed while searching ID for {player}: {e}")
             continue
 
-        if "transfermarkt.com" in link and "/spieler/" in link:
-            m = re.search(r"/spieler/(\d+)", link)
-            if m:
-                pid = m.group(1)
-                print(f"  Found ID for {player}: {pid}")
-                return pid
+        soup = BeautifulSoup(r.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            link = unwrap_duckduckgo_link(a.get("href"))
+            text = " ".join(a.get_text(" ", strip=True).split())
+            scored = score_candidate(player, link, text)
+            if not scored:
+                continue
+            score, pid = scored
+            if pid in seen_pids:
+                continue
+            seen_pids.add(pid)
+            if best is None or score > best[0]:
+                best = (score, pid)
+                if score >= 100:
+                    break
+        if best is not None and best[0] >= 100:
+            break
+
+    if best is not None:
+        print(f"  Found ID for {player}: {best[1]}")
+        return best[1]
 
     print(f"  ID not found in search results for {player}")
     return None
