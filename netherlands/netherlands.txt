@@ -1,0 +1,28 @@
+Starters:
+  [CF] Marco van Basten (CF) rating 98.73 #9
+  [LWF] Cody Gakpo (LWF) rating 94.99 #11
+  [RWF] Dirk Kuyt (RWF) rating 95.92 #7
+  [AMF] Johan Cruyff (AMF) rating 99.67 #14
+  [CMF] Clarence Seedorf (CMF) rating 99.00 #10
+  [DMF] Edgar Davids (DMF) rating 98.02 #8
+  [LB] Giovanni van Bronckhorst (LB) rating 97.01 #5
+  [CB] Virgil van Dijk (CB) rating 97.05 #4
+  [CB] Frank Rijkaard (CB) rating 98.33 #6
+  [RB] Jurriën Timber (RB) rating 95.99 #3
+  [GK] Edwin van der Sar (GK) rating 100.03 #1
+
+Substitutes:
+  [CF] Ruud van Nistelrooy (CF) rating 95.78 #12
+  [LWF] Steven Bergwijn (LWF) rating 76.69 #25
+  [RWF] Steven Berghuis (RWF) rating 94.30 #17
+  [AMF] Wesley Sneijder (AMF) rating 96.38 #16
+  [CMF] Mark van Bommel (CMF) rating 96.65 #18
+  [DMF] Phillip Cocu (DMF) rating 96.93 #20
+  [LB] Jorrel Hato (LB) rating 94.41 #21
+  [CB] Micky van de Ven (CB) rating 96.00 #15
+  [CB] Ronald Koeman (CB) rating 96.01 #13
+  [RB] Lutsharel Geertruida (RB) rating 95.11 #2
+  [GK] Bart Verbruggen (GK) rating 93.92 #23
+
+Wildcard:
+  [WILD] Ryan Gravenberch (CMF) rating 96.23 #26
