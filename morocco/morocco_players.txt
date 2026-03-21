@@ -35,7 +35,7 @@ Amine Harit, AMF, 74.26, False, Standard, [AMF, LWF, RWF, LMF], [CF, SS, CMF, RM
 Bilal El Khannouss, AMF, 73.11, True, Standard, [AMF], [SS, CMF, LMF]
 Adel Taarabt, AMF, 73.34, False, Standard, [AMF, CMF, SS, LWF, LMF], [CF, DMF, RWF, RMF]
 Abdelhamid Sabiri, AMF, 72.78, False, Standard, [AMF, CMF, LMF], [CF, SS]
-Neil El Aynaoui, CMF, 73,76, True, Standard, [CMF, DMF], [AMF, LMF]
+Neil El Aynaoui, CMF, 73.76, True, Standard, [CMF, DMF], [AMF, LMF]
 Azzedine Ounahi, CMF, 73.97, False, Standard, [AMF, CMF, DMF], [LWF, LMF,RWF, RMF]
 Imrân Louza, CMF, 73.53, False, Standard, [CMF, DMF], [AMF, SS]
 Yassine Kechta, CMF, 72.03, False, Standard, [CMF, AMF, DMF], [SS, LWF, LMF, RWF, RMF]

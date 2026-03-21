@@ -452,10 +452,23 @@ def assign_group_jerseys(
     for prio in range(4):
         prio_players = sorted(buckets[prio], key=lambda r: r.rating, reverse=True)
         for p in prio_players:
+            if p.player_id in assignments:
+                continue
             prefs = prefs_map.get(p.player_id, [])
-            for num in prefs:
+            for pref_idx, num in enumerate(prefs):
                 if num in used_numbers:
                     continue
+                if pref_idx > 0:
+                    blocked_by_other_first_choice = False
+                    for other in prio_players:
+                        if other.player_id == p.player_id or other.player_id in assignments:
+                            continue
+                        other_prefs = prefs_map.get(other.player_id, [])
+                        if other_prefs and other_prefs[0] == num:
+                            blocked_by_other_first_choice = True
+                            break
+                    if blocked_by_other_first_choice:
+                        continue
                 assignments[p.player_id] = num
                 used_numbers.add(num)
                 break
