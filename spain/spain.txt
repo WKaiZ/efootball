@@ -1,0 +1,28 @@
+Starters:
+  [CF] Raúl (CF) rating 98.86 #7
+  [LWF] Nico Williams (LWF) rating 95.76 #11
+  [RWF] Lamine Yamal (RWF) rating 97.86 #19
+  [AMF] Isco (AMF) rating 95.99 #22
+  [CMF] Andrés Iniesta (CMF) rating 97.70 #6
+  [DMF] Rodri (DMF) rating 99.15 #16
+  [LB] Sergi Barjuan (LB) rating 98.36 #12
+  [CB] Gerard Piqué (CB) rating 98.44 #3
+  [CB] Dean Huijsen (CB) rating 96.56 #5
+  [RB] Albert Ferrer (RB) rating 96.99 #2
+  [GK] Iker Casillas (GK) rating 98.59 #1
+
+Substitutes:
+  [CF] Fernando Morientes (CF) rating 97.96 #9
+  [LWF] Ferran Torres (LWF) rating 95.00 #21
+  [RWF] Pedro (RWF) rating 93.18 #13
+  [AMF] Dani Olmo (AMF) rating 95.67 #10
+  [CMF] Pedri (CMF) rating 97.43 #20
+  [DMF] Xavi (DMF) rating 97.06 #8
+  [LB] Jordi Alba (LB) rating 97.74 #18
+  [CB] Eric García (CB) rating 95.96 #14
+  [CB] Pau Cubarsí (CB) rating 95.23 #15
+  [RB] Lucas Vázquez (RB) rating 93.81 #17
+  [GK] Unai Simón (GK) rating 95.29 #23
+
+Wildcard:
+  [WILD] Pep Guardiola (DMF) rating 95.57 #4

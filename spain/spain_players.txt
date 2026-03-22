@@ -1,72 +1,85 @@
-Fermín López,
-Pedro Porro,
-Mikel Oyarzabal,
-Pau Torres,
-José Gayà,
-Fernando Torres,
-Andrés Iniesta,
-Nacho Fernández,
-Daniel Carvajal,
-Marcos Llorente,
-Xavi,
-David de Gea,
-Ferran Torres,
-Jordi Alba,
-Sergio Busquets,
-Eric García,
-Dani Ceballos,
-Pedro,
-Fabián Ruiz,
-Xabi Alonso,
-Pablo Barrios,
-Rodri,
-David Villa,
-Raúl,
-Ayoze Pérez,
-Marc Cucurella,
-Marcos Alonso,
-Pedri,
-Oihan Sancet,
-Raúl Asencio,
-Óscar Mingueza,
-Isco,
-Lamine Yamal,
-Gavi,
-Fran García,
-Álex Baena,
-David Raya,
-Gerard Moreno,
-Alejandro Balde,
-Ansu Fati,
-Iker Casillas,
-Aleix García,
-Carles Puyol,
-Lucas Vázquez,
-Sergi Roberto,
-Carlos Soler,
-Robin Le Normand,
-Pablo Fornals,
-Guti,
-Sergi Roberto,
-Dani Vivian,
-Álex Remiro,
-Sergi Barjuan,
-Mikel Merino,
-Martín Zubimendi,
-Álvaro Morata,
-Pep Guardiola,
-Alejandro Grimaldo,
-Samu Aghehowa,
-Unai Simón,
-Saúl Ñíguez,
-Brais Méndez,
-Thiago Alcántara,
-Nico Williams,
-Dean Huijsen,
-Gerard Piqué,
-Robert Sánchez,
-Marc Bartra,
-Albert Ferrer,
-Mario Hermoso,
-Pau Cubarsí,
-Dani Olmo,
+Fermín López, CMF, 92.03, True, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
+Fermín López, AMF, 95.00, True, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
+Pedro Porro, RB, 93.22, True, Highlight, [RB, RMF], [RWF]
+Pedro Porro, RMF, 95.01, True, Highlight, [RB, RMF], [RWF]
+Mikel Oyarzabal, LMF, 94.08, True, Highlight, [CF, LMF, SS, LWF, RWF, AMF], [CMF, RMF]
+Mikel Oyarzabal, CF, 94.22, True, Showtime, [CF, LMF, SS, LWF, RWF, AMF], [CMF, RMF]
+Pau Torres, CB, 94.84, False, Highlight, [CB], []
+José Gayà, LB, 93.11, False, Highlight, [LB, LMF], [LWF]
+Fernando Torres, CF, 96.02, False, Epic, [CF, SS], [LWF]
+Andrés Iniesta, LWF, 93.71, False, Epic, [LWF, AMF, CMF, RWF], [SS, LMF, RMF]
+Andrés Iniesta, CMF, 97.70, False, Epic, [LWF, AMF, CMF, LMF], [SS, DMF]
+Nacho Fernández, CB, 92.28, False, Highlight, [CB, RB, LB], []
+Daniel Carvajal, RB, 93.19, False, Highlight, [RB], [LB, CB, RMF]
+Marcos Llorente, RB, 94.99, True, Highlight, [RB, CMF, DMF, SS, AMF, RMF], [RWF, CF]
+Xavi, DMF, 97.06, False, Epic, [AMF, CMF, DMF], []
+David de Gea, GK, 93.04, False, Highlight, [GK], []
+Ferran Torres, CF, 95.63, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
+Ferran Torres, RWF, 94.91, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
+Ferran Torres, LMF, 94.05, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
+Ferran Torres, LWF, 95.00, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
+Jordi Alba, LB, 97.74, False, BigTime, [LB, LMF], [LWF]
+Sergio Busquets, DMF, 98.11, False, Epic, [DMF, CMF], [CB]
+Eric García, RB, 93.54, False, Highlight, [CB, RB, DMF], [RMF]
+Eric García, CB, 95.96, False, Highlight, [CB, RB, DMF], [LB]
+Dani Ceballos, CMF, 93.21, False, Highlight, [CMF, AMF], [LMF, DMF]
+Pedro, AMF, 92.95, False, Highlight, [AMF, LWF, RWF, SS, RMF], [CF, CMF]
+Pedro, RWF, 93.18, False, Highlight, [AMF, LWF, RWF, SS, RMF], [CF, RMF]
+Fabián Ruiz, CMF, 94.71, True, Highlight, [CMF, AMF, DMF], [LMF, RMF]
+Xabi Alonso, DMF, 96.19, False, Epic, [DMF, CMF], [AMF]
+Pablo Barrios, CMF, 94.89, False, Highlight, [CMF], [RWF, AMF, DMF]
+Rodri, DMF, 99.15, False, Showtime, [DMF, CMF], [CB]
+David Villa, CF, 95.32, False, Epic, [CF, LWF, SS], [RWF, AMF, LMF]
+Raúl, AMF, 96.98, False, Epic, [LWF, CF, SS, LMF, AMF], [CMF, RWF, RMF]
+Raúl, CF, 98.86, False, Epic, [CF, SS, AMF], [LWF, RWF]
+Ayoze Pérez, CF, 92.99, False, Highlight, [CF, SS, RWF, RMF, LMF], [LWF, AMF, CMF]
+Marc Cucurella, LB, 94.97, True, Highlight, [LB, CB, LMF], [LWF]
+Marcos Alonso, LB, 94.16, False, Highlight, [LB, LMF, CB], []
+Pedri, CMF, 97.43, False, BigTime, [LWF, LMF, AMF, CMF, DMF], []
+Oihan Sancet, AMF, 96.61, False, Highlight, [AMF, SS, CMF], [CF, DMF]
+Raúl Asencio, CB, 94.99, False, Highlight, [CB], []
+Óscar Mingueza, RB, 95.00, False, Highlight, [RB, CB, RMF], []
+Isco, AMF, 95.99, False, Highlight, [AMF, CMF, LWF, RWF, LMF, RMF], [CF, SS]
+Lamine Yamal, RWF, 97.86, False, BigTime, [RWF, RMF], [LWF, CF, SS]
+Lamine Yamal, RMF, 98.94, False, BigTime, [RWF, RMF], [LWF, CF, SS]
+Gavi, CMF, 94.42, False, Highlight, [LWF, AMF, CMF], [SS, RWF, LMF, RMF, DMF]
+Fran García, LB, 93.94, False, Highlight, [LB], [LMF, LWF]
+Álex Baena, LMF, 95.35, True, Highlight, [AMF, LMF, CMF, LWF], [CF, RWF, SS, DMF]
+Álex Baena, AMF, 95.22, True, Highlight, [AMF, LMF, CMF, LWF], [CF, RWF, SS, DMF]
+David Raya, GK, 95.01, True, Highlight, [GK], []
+Gerard Moreno, CF, 94.07, False, Highlight, [CF, RWF], [LWF, SS, AMF, LMF, RMF]
+Alejandro Balde, LB, 96.42, False, Highlight, [LB], [RB, LMF, LWF]
+Ansu Fati, CF, 93.33, False, Highlight, [CF, LWF, LMF], [SS, RWF]
+Iker Casillas, GK, 98.59, False, Epic,  [GK], []
+Aleix García, CMF, 95.10, True, Highlight, [CMF, DMF, AMF], []
+Carles Puyol, CB, 95.87, False, Epic, [CB], []
+Lucas Vázquez, RB, 93.81, False, Highlight, [RB, RMF, RWF], [LWF, LMF]
+Sergi Roberto, RB, 93.44, False, Highlight, [RB, CMF, RMF], [RWF, DMF, LB]
+Carlos Soler, CMF, 94.34, False, Highlight, [AMF, CMF], [LWF, RWF, LB, RB, LMF, RMF, DMF]
+Robin Le Normand, CB, 94.98, False, Highlight, [CB], []
+Pablo Fornals, AMF, 95.20, True, Highlight, [AMF, LWF, LMF], [SS, CMF, RWF, RMF]
+Guti, CMF, 96.95, False, Epic, [CMF, AMF, LMF], [DMF, SS]
+Fernando Morientes, CF, 97.96, False, Epic, [CF], [SS]
+Dani Vivian, CB, 95.07, True, Highlight, [CB], [DMF, RB]
+Álex Remiro, GK, 95.02, True, Highlight, [GK], []
+Sergi Barjuan, LB, 98.36, False, Epic, [LB, CB], [LMF]
+Mikel Merino, CF, 94.38, True, Highlight, [CMF, CF], [SS, AMF, DMF]
+Mikel Merino, CMF, 95.10, True, Highlight, [CMF, CF], [SS, AMF, DMF]
+Martín Zubimendi, DMF, 95.98, True, Highlight, [DMF, CMF], []
+Álvaro Morata, CF, 95.29, False, Highlight, [CF], [LWF, SS, AMF, LMF]
+Pep Guardiola, DMF, 95.57, False, Epic, [DMF], [CMF]
+Alejandro Grimaldo, LB, 95.11, False, Highlight, [LB, LMF], [LWF]
+Samu Aghehowa, CF, 94.38, True, Highlight, [CF], [SS]
+Unai Simón, GK, 95.29, True, Highlight, [GK], []
+Saúl Ñíguez, DMF, 92.89, False, Highlight, [LMF, CMF, DMF, RMF], [AMF, LB]
+Brais Méndez, CMF, 94.20, False, Highlight, [CMF, AMF, RWF, RMF], [LWF, LMF, CF, SS, DMF]
+Thiago Alcántara, CMF, 95.98, False, Epic, [CMF, AMF, DMF], []
+Nico Williams, LWF, 95.76, False, Highlight, [LWF, RWF, LMF, RMF], []
+Dean Huijsen, CB, 96.56, False, Showtime, [CB], []
+Gerard Piqué, CB, 98.44, False, Epic, [CB], []
+Robert Sánchez, GK, 93.99, False, Highlight, [GK], []
+Marc Bartra, CB, 93.42, False, Highlight, [CB, RB], [CMF, DMF, RMF] 
+Albert Ferrer, RB, 96.99, False, Epic, [RB, CB], [DMF, RMF]
+Mario Hermoso, CB, 94.55, False, Highlight, [LB, CB], []
+Pau Cubarsí, CB, 95.23, True, Highlight, [CB], []
+Dani Olmo, AMF, 95.67, True, Showtime, [AMF, LWF, RWF, LMF], [CF, SS, CMF, RMF]

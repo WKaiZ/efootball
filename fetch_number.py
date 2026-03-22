@@ -20,6 +20,13 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0",
 }
 
+MANUAL_ID_OVERRIDES = {
+    "brazil": {
+        "vitinho": {"player_id": "468249", "preserve_name": True},
+        "pepe": {"player_id": "520662", "preserve_name": True},
+    }
+}
+
 def normalize_name(name):
     nfkd = unicodedata.normalize("NFKD", name)
     no_accents = "".join(ch for ch in nfkd if not unicodedata.combining(ch))
@@ -40,6 +47,11 @@ def get_official_name(conn, player_id):
     cur.execute("SELECT name FROM players WHERE player_id = ?", (str(player_id),))
     row = cur.fetchone()
     return row[0] if row else None
+
+
+def get_manual_override(country_name, player_name):
+    country_overrides = MANUAL_ID_OVERRIDES.get(normalize_name(country_name), {})
+    return country_overrides.get(normalize_name(player_name))
 
 
 def rewrite_names_in_txt(raw_lines, name_changes):
@@ -308,7 +320,7 @@ def load_cached_numbers_from_db(conn, player_id):
     return sorted(nums_by_country.keys(), key=int)
 
 
-async def fetch_numbers_for_player(playwright, name, player_id, conn):
+async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None):
     nums = load_cached_numbers_from_db(conn, player_id)
     if nums:
         return nums, True
@@ -349,6 +361,8 @@ async def fetch_numbers_for_player(playwright, name, player_id, conn):
             parts = title_text.split(" - ", 1)
             if parts:
                 official_name = parts[0].strip()
+        if db_name_override:
+            official_name = db_name_override
 
         debug_dir = "debug_html"
         os.makedirs(debug_dir, exist_ok=True)
@@ -405,6 +419,8 @@ async def main():
         with open(players_file, "r", encoding="utf-8") as f:
             raw_lines = [line.rstrip("\n") for line in f]
 
+        country_name = os.path.basename(os.path.normpath(country_folder.strip()))
+
         players = []
         for line in raw_lines:
             if not line.strip() or line.lstrip().startswith("#"):
@@ -419,7 +435,10 @@ async def main():
         name_changes = {}
 
         for name in players:
+            override = get_manual_override(country_name, name)
             pid_str = id_map.get(normalize_name(name))
+            if override:
+                pid_str = override["player_id"]
             if not pid_str:
                 pid_str = get_transfermarkt_id(name)
                 time.sleep(5)
@@ -428,11 +447,12 @@ async def main():
                 had_error = True
                 continue
             pid = int(pid_str)
-            nums, used_cache = await fetch_numbers_for_player(p, name, pid, conn)
+            db_name_override = name if override and override.get("preserve_name") else None
+            nums, used_cache = await fetch_numbers_for_player(p, name, pid, conn, db_name_override=db_name_override)
             if not nums:
                 had_error = True
             official = get_official_name(conn, pid)
-            if official and official.strip() != name.strip():
+            if not override and official and official.strip() != name.strip():
                 name_changes[normalize_name(name)] = official
             if not used_cache:
                 await asyncio.sleep(5)
