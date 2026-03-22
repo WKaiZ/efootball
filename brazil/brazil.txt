@@ -20,7 +20,7 @@ Substitutes:
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Caio Henrique (LB) rating 94.42 #16
   [CB] Murillo (CB) rating 95.27 #14
-  [CB] Roger Ibañez (CB) rating 94.31 #15
+  [CB] Fabrício Bruno (CB) rating 94.56 #15
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 
