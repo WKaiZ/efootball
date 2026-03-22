@@ -22,8 +22,11 @@ HEADERS = {
 
 MANUAL_ID_OVERRIDES = {
     "brazil": {
+        "ederson": {"player_id": "607854", "preserve_name": True},
         "vitinho": {"player_id": "468249", "preserve_name": True},
         "pepe": {"player_id": "520662", "preserve_name": True},
+        "pedro": {"player_id": "432895", "preserve_name": True},
+        "allan": {"player_id": "126422", "preserve_name": True},
     }
 }
 
@@ -52,6 +55,26 @@ def get_official_name(conn, player_id):
 def get_manual_override(country_name, player_name):
     country_overrides = MANUAL_ID_OVERRIDES.get(normalize_name(country_name), {})
     return country_overrides.get(normalize_name(player_name))
+
+
+def country_display_name(country_name):
+    return country_name.replace("_", " ").strip().title()
+
+
+def parse_args(argv):
+    country_folder = "belgium"
+    force_refetch = False
+    positional = []
+    for arg in argv[1:]:
+        if arg in ("--refetch", "--refresh", "--no-cache"):
+            force_refetch = True
+        else:
+            positional.append(arg)
+    if len(positional) > 1:
+        raise SystemExit("Usage: python fetch_number.py [--refetch] [country_folder]")
+    if positional:
+        country_folder = positional[0]
+    return country_folder, force_refetch
 
 
 def rewrite_names_in_txt(raw_lines, name_changes):
@@ -292,7 +315,7 @@ def init_db():
     return conn
 
 
-def load_cached_numbers_from_db(conn, player_id):
+def load_cached_numbers_from_db(conn, player_id, country_filter=None):
     cur = conn.cursor()
     cur.execute(
         "SELECT name FROM players WHERE player_id = ?",
@@ -300,10 +323,21 @@ def load_cached_numbers_from_db(conn, player_id):
     )
     name_row = cur.fetchone()
     db_name = name_row[0] if name_row else str(player_id)
-    cur.execute(
-        "SELECT number, country FROM jersey WHERE player_id = ? ORDER BY idx ASC",
-        (str(player_id),),
-    )
+    if country_filter:
+        cur.execute(
+            """
+            SELECT number, country
+            FROM jersey
+            WHERE player_id = ? AND LOWER(country) = LOWER(?)
+            ORDER BY idx ASC
+            """,
+            (str(player_id), country_filter),
+        )
+    else:
+        cur.execute(
+            "SELECT number, country FROM jersey WHERE player_id = ? ORDER BY idx ASC",
+            (str(player_id),),
+        )
     rows = cur.fetchall()
     if not rows:
         return []
@@ -312,7 +346,10 @@ def load_cached_numbers_from_db(conn, player_id):
     for num, country in rows:
         nums_by_country.setdefault(str(num), set()).add(country)
 
-    print(f"{db_name} {player_id} national jersey numbers (cached):")
+    if country_filter:
+        print(f"{db_name} {player_id} national jersey numbers (cached for {country_filter}):")
+    else:
+        print(f"{db_name} {player_id} national jersey numbers (cached):")
     for n in sorted(nums_by_country.keys(), key=int):
         countries = ", ".join(sorted(nums_by_country[n]))
         print(f"  {n}: {countries}")
@@ -320,8 +357,8 @@ def load_cached_numbers_from_db(conn, player_id):
     return sorted(nums_by_country.keys(), key=int)
 
 
-async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None):
-    nums = load_cached_numbers_from_db(conn, player_id)
+async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None, cache_country_filter=None):
+    nums = load_cached_numbers_from_db(conn, player_id, country_filter=cache_country_filter)
     if nums:
         return nums, True
 
@@ -409,7 +446,7 @@ async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_ov
 async def main():
     conn = init_db()
     async with async_playwright() as p:
-        country_folder = sys.argv[1] if len(sys.argv) > 1 else "belgium"
+        country_folder, force_refetch = parse_args(sys.argv)
         players_file = resolve_players_file(country_folder)
 
         if not os.path.exists(players_file):
@@ -420,6 +457,7 @@ async def main():
             raw_lines = [line.rstrip("\n") for line in f]
 
         country_name = os.path.basename(os.path.normpath(country_folder.strip()))
+        country_label = country_display_name(country_name)
 
         players = []
         for line in raw_lines:
@@ -447,8 +485,26 @@ async def main():
                 had_error = True
                 continue
             pid = int(pid_str)
+            if force_refetch:
+                cur = conn.cursor()
+                cur.execute(
+                    """
+                    DELETE FROM jersey
+                    WHERE player_id = ? AND LOWER(country) = LOWER(?)
+                    """,
+                    (str(pid), country_label),
+                )
+                conn.commit()
             db_name_override = name if override and override.get("preserve_name") else None
-            nums, used_cache = await fetch_numbers_for_player(p, name, pid, conn, db_name_override=db_name_override)
+            cache_country_filter = country_label if force_refetch else None
+            nums, used_cache = await fetch_numbers_for_player(
+                p,
+                name,
+                pid,
+                conn,
+                db_name_override=db_name_override,
+                cache_country_filter=cache_country_filter,
+            )
             if not nums:
                 had_error = True
             official = get_official_name(conn, pid)

@@ -714,6 +714,143 @@ def build_gameplan(conn, roles_by_pos):
             if update_blocked and blocked_numbers is not None:
                 blocked_numbers.add(best_number)
 
+    def player_number_preference_order(p):
+        most_recent, prefs = jersey_prefs_for_player(conn, p)
+        ordered = []
+        if p.recent and most_recent is not None:
+            ordered.append(most_recent)
+        for num in prefs:
+            if num not in ordered:
+                ordered.append(num)
+        return ordered
+
+    def role_matches_stage(slot, r, pos_set_name, want_standard):
+        if want_standard != is_standard(r):
+            return False
+        if pos_set_name == "main":
+            return slot == r.position
+        if pos_set_name == "proficient":
+            return slot in r.proficient_positions
+        if pos_set_name == "semiproficient":
+            return slot in r.semiproficient_positions
+        return False
+
+    def best_sub_replacement(slot, temp_used_ids, temp_used_numbers, temp_assignments, exclude_ids):
+        stage_order = [
+            ("main", False),
+            ("main", True),
+            ("proficient", False),
+            ("proficient", True),
+            ("semiproficient", False),
+            ("semiproficient", True),
+        ]
+        for pos_set_name, want_standard in stage_order:
+            best_player = None
+            best_number = None
+            best_rating = -1e18
+            for r in all_roles:
+                if r.player_id in temp_used_ids or r.player_id in exclude_ids:
+                    continue
+                if not role_matches_stage(slot, r, pos_set_name, want_standard):
+                    continue
+                num = choose_jersey_for_player(conn, r, temp_used_numbers, temp_assignments, None)
+                if num is None:
+                    continue
+                if r.rating > best_rating:
+                    best_player = r
+                    best_number = num
+                    best_rating = r.rating
+            if best_player is not None:
+                return best_player, best_number
+        return None, None
+
+    def try_swap_fill_sub_vacancies():
+        nonlocal used_ids, used_numbers, assignments
+        stage_order = [
+            ("main", False),
+            ("main", True),
+            ("proficient", False),
+            ("proficient", True),
+            ("semiproficient", False),
+            ("semiproficient", True),
+        ]
+        while True:
+            vacant_indices = [i for i, p in enumerate(subs) if p is None]
+            if not vacant_indices:
+                break
+
+            best_swap = None
+            best_rating = -1e18
+
+            for vacant_idx in vacant_indices:
+                vacant_slot = FORMATION[vacant_idx]
+                for pos_set_name, want_standard in stage_order:
+                    for candidate in all_roles:
+                        if candidate.player_id in used_ids:
+                            continue
+                        if not role_matches_stage(vacant_slot, candidate, pos_set_name, want_standard):
+                            continue
+
+                        for num in player_number_preference_order(candidate):
+                            holder_idx = None
+                            holder = None
+                            for j, sp in enumerate(subs):
+                                if sp is None:
+                                    continue
+                                if assignments.get(sp.player_id) == num:
+                                    holder_idx = j
+                                    holder = sp
+                                    break
+                            if holder is None:
+                                continue
+
+                            temp_used_ids = (used_ids - {holder.player_id}) | {candidate.player_id}
+                            temp_assignments = dict(assignments)
+                            temp_assignments.pop(holder.player_id, None)
+                            temp_assignments[candidate.player_id] = num
+                            temp_used_numbers = set(used_numbers)
+
+                            replacement, replacement_num = best_sub_replacement(
+                                FORMATION[holder_idx],
+                                temp_used_ids,
+                                temp_used_numbers,
+                                temp_assignments,
+                                exclude_ids={candidate.player_id, holder.player_id},
+                            )
+                            if replacement is None:
+                                continue
+
+                            if candidate.rating > best_rating:
+                                best_rating = candidate.rating
+                                best_swap = (
+                                    vacant_idx,
+                                    candidate,
+                                    num,
+                                    holder_idx,
+                                    holder,
+                                    replacement,
+                                    replacement_num,
+                                )
+
+                    if best_swap is not None:
+                        break
+                if best_swap is not None:
+                    break
+
+            if best_swap is None:
+                break
+
+            vacant_idx, candidate, num, holder_idx, holder, replacement, replacement_num = best_swap
+            subs[vacant_idx] = candidate
+            subs[holder_idx] = replacement
+            used_ids.discard(holder.player_id)
+            used_ids.add(candidate.player_id)
+            used_ids.add(replacement.player_id)
+            assignments.pop(holder.player_id, None)
+            assignments[candidate.player_id] = num
+            assignments[replacement.player_id] = replacement_num
+            used_numbers = set(assignments.values())
+
     starter_blocked_numbers = set()
     for p in starters:
         if p is None:
@@ -822,6 +959,8 @@ def build_gameplan(conn, roles_by_pos):
         update_blocked=False,
         allow_from_subs=False,
     )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    try_swap_fill_sub_vacancies()
 
     starter_asg = []
     for slot, p in zip(FORMATION, starters):

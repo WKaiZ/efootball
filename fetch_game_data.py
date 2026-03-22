@@ -6,6 +6,22 @@ import unicodedata
 
 DB_PATH = "pes.db"
 
+MANUAL_ID_OVERRIDES = {
+    "brazil": {
+        "ederson": "607854",
+        "vitinho": "468249",
+        "pepe": "520662",
+        "pedro": "432895",
+        "allan": "126422",
+    },
+    "portugal": {
+        "pepe": "14132",
+    },
+    "spain": {
+        "pedro": "65278",
+    },
+}
+
 
 def normalize_name(name):
     nfkd = unicodedata.normalize("NFKD", name)
@@ -74,6 +90,11 @@ def load_player_id_map(conn):
         key = normalize_name(name)
         mapping[key] = pid
     return mapping
+
+
+def get_manual_override(country_name, player_name):
+    country_overrides = MANUAL_ID_OVERRIDES.get(normalize_name(country_name), {})
+    return country_overrides.get(normalize_name(player_name))
 
 
 def levenshtein(a, b):
@@ -213,7 +234,10 @@ def main():
                 continue
 
             norm_name = normalize_name(data["name"])
-            if norm_name in name_map:
+            manual_player_id = get_manual_override(country_name, data["name"])
+            if manual_player_id:
+                player_id = manual_player_id
+            elif norm_name in name_map:
                 player_id = name_map[norm_name]
             else:
                 best_key = None
