@@ -7,12 +7,17 @@ import unicodedata
 DB_PATH = "pes.db"
 
 MANUAL_ID_OVERRIDES = {
+    "argentina": {
+        "nico gonzalez": "486031",
+    },
     "brazil": {
+        "gabriel": "435338",
         "ederson": "607854",
         "vitinho": "468249",
         "pepe": "520662",
         "pedro": "432895",
         "allan": "126422",
+        "oscar": "85314",
     },
     "portugal": {
         "pepe": "14132",

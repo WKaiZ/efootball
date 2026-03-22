@@ -22,12 +22,17 @@ HEADERS = {
 }
 
 MANUAL_ID_OVERRIDES = {
+    "argentina": {
+        "nico gonzalez": {"player_id": "486031", "preserve_name": True},
+    },
     "brazil": {
+        "gabriel": {"player_id": "435338", "preserve_name": True},
         "ederson": {"player_id": "607854", "preserve_name": True},
         "vitinho": {"player_id": "468249", "preserve_name": True},
         "pepe": {"player_id": "520662", "preserve_name": True},
         "pedro": {"player_id": "432895", "preserve_name": True},
         "allan": {"player_id": "126422", "preserve_name": True},
+        "oscar": {"player_id": "85314", "preserve_name": True},
     },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},
@@ -177,6 +182,22 @@ def espn_request_json(url, params=None):
     return r.json()
 
 
+def is_womens_espn_competition(text):
+    low = (text or "").strip().lower()
+    return any(
+        marker in low
+        for marker in (
+            "women",
+            "women's",
+            "womens",
+            "wworld",
+            "shebelieves",
+            "femen",
+            "femin",
+        )
+    )
+
+
 def lookup_espn_team(country_label):
     queries = [
         f"{country_label} national team",
@@ -197,6 +218,8 @@ def lookup_espn_team(country_label):
             if name_norm != target:
                 continue
             league = (item.get("league") or "").lower()
+            if is_womens_espn_competition(league):
+                continue
             score = 0
             if league == "fifa.world":
                 score += 100
@@ -259,6 +282,40 @@ def build_local_player_profiles(raw_lines):
                 if role:
                     profile["roles"].add(role)
     return profiles
+
+
+def compatible_name_tokens(local_name, espn_alias):
+    local_tokens = [tok for tok in normalize_name(local_name).split() if tok]
+    espn_tokens = [tok for tok in normalize_name(espn_alias).split() if tok]
+    if not local_tokens or not espn_tokens:
+        return False
+    if local_tokens == espn_tokens:
+        return True
+    if len(local_tokens) != len(espn_tokens):
+        return False
+    if local_tokens[-1] != espn_tokens[-1]:
+        return False
+    for left, right in zip(local_tokens[:-1], espn_tokens[:-1]):
+        if left == right:
+            continue
+        if left.startswith(right) or right.startswith(left):
+            continue
+        return False
+    return True
+
+
+def invalid_transfermarkt_title(title_text):
+    low = normalize_name(title_text)
+    return low in {
+        "502 bad gateway",
+        "503 service unavailable",
+        "504 gateway timeout",
+        "403 forbidden",
+        "429 too many requests",
+        "access denied",
+        "just a moment",
+        "error",
+    }
 
 
 def espn_lineup_role(position_abbreviation):
@@ -400,7 +457,7 @@ def map_recent_players_to_roster(player_profiles, latest_match):
                 continue
             if espn_role and profile["roles"] and espn_role not in profile["roles"]:
                 continue
-            if key in espn_player["aliases"]:
+            if any(compatible_name_tokens(key, alias) for alias in espn_player["aliases"]):
                 matched_key = key
                 break
         if matched_key is None:
@@ -791,7 +848,9 @@ async def fetch_numbers_for_player(
             title_text = title_tag.string.strip()
             parts = title_text.split(" - ", 1)
             if parts:
-                official_name = parts[0].strip()
+                candidate_name = parts[0].strip()
+                if not invalid_transfermarkt_title(candidate_name):
+                    official_name = candidate_name
         if db_name_override:
             official_name = db_name_override
 
@@ -884,6 +943,7 @@ async def main():
                 print(f"Skipping {name}: could not resolve Transfermarkt ID.")
                 had_error = True
                 continue
+            id_map[normalize_name(name)] = str(pid_str)
             pid = int(pid_str)
             should_clear_country_cache = force_refetch and pid not in refreshed_player_ids
             if should_clear_country_cache:

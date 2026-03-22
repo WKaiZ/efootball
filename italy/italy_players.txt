@@ -1,70 +1,81 @@
-Giovanni Di Lorenzo,
-Andrea Cambiaso,
-Roberto Baggio,
-Matteo Gabbia,
-Federico Chiesa,
-Paolo Maldini,
-Francesco Acerbi,
-Matteo Politano,
-Federico Dimarco,
-Riccardo Calafiori,
-Nicolò Barella,
-Gianluigi Buffon,
-Stephan El Shaarawy,
-Destiny Udogie,
-Federico Gatti,
-Alessandro Costacurta,
-Leonardo Bonucci,
-Alessandro Bastoni,
-Fabio Cannavaro,
-Davide Frattesi,
-Matteo Darmian,
-Alessandro Buongiorno,
-Alessandro Nesta,
-Giuseppe Bergomi,
-Leonardo Spinazzola,
-Mateo Retegui,
-Lorenzo Insigne,
-Bryan Cristante,
-Lorenzo Pellegrini,
-Giorgio Chiellini,
-Samuele Ricci,
-Guglielmo Vicario,
-Christian Panucci,
-Francesco Totti,
-Christian Abbiati,
-Massimo Oddo,
-Gennaro Gattuso,
-Jorginho,
-Michele Di Gregorio,
-Franco Baresi,
-Massimo Ambrosini,
-Gianluigi Donnarumma,
-Manuel Locatelli,
-Riccardo Ferri,
-Andrea Pirlo,
-Gianfranco Zola,
-Christian Vieri,
-Pio Esposito, 
-Alessandro Del Piero,
-Demetrio Albertini,
-Roberto Donadoni,
-Danilo Cataldi,
-Davide Zappacosta,
-Marco Carnesecchi,
-Rolando Mandragora,
-Giorgio Scalvini,
-Moise Kean,
-Tommaso Pobega,
-Ivan Provedel,
-Nicolò Zaniolo,
-Domenico Berardi,
-Wilfried Gnonto,
-Nicolò Rovella,
-Raoul Bellanova,
-Sandro Tonali,
-Mattia Zaccagni,
-Riccardo Orsolini,
-Ciro Immobile,
-Wladimiro Falcone,
+Giovanni Di Lorenzo, CB, 93.39, True, Highlight, [CB, RB, RMF], [LB]
+Giovanni Di Lorenzo, RB, 95.14, True, Highlight, [CB, RB, RMF], [LB]
+Andrea Cambiaso, LB, 93.50, True, Highlight, [LB, LMF, RB, RMF], []
+Andrea Cambiaso, LMF, 94.42, True, Highlight, [LB, LMF, RB, RMF], [LWF]
+Roberto Baggio, CF, 96.94, False, Epic, [CF, SS, AMF], []
+Roberto Baggio, AMF, 97.83, False, Epic, [CF, SS, AMF, LWF], [RWF, CMF]
+Matteo Gabbia, CB, 91.77, True, Highlight, [CB], [CMF, DMF]
+Federico Chiesa, LWF, 94.39, False, Highlight, [LWF, CF, RWF, SS, LMF, RMF], [AMF]
+Paolo Maldini, LB, 97.30, False, Epic, [CB, LB, LMF], [RB, RMF]
+Francesco Acerbi, CB, 94.00, False, Highlight, [CB], []
+Matteo Politano, RWF, 94.89, True, Highlight, [RWF, LWF, SS, RMF], [CF, AMF, LMF]
+Federico Dimarco, LB, 94.23, True, Highlight, [LB, LMF, CB], [LWF]
+Federico Dimarco, LMF, 94.92, True, Highlight, [LB, LMF, CB], [LWF]
+Riccardo Calafiori, CB, 96.40, False, Highlight, [LMF, CB, LB], []
+Riccardo Calafiori, LB, 95.82, False, Highlight, [LMF, CB, LB], []
+Nicolò Barella, CMF, 96.03, True, Highlight, [CMF, AMF, DMF], [LMF, RMF]
+Nicolò Barella, DMF, 95.26, True, Highlight, [CMF, AMF, DMF], [LMF, RMF, SS]
+Gianluigi Buffon, GK, 99.98, False, Epic, [GK], []
+Stephan El Shaarawy, CF, 93.79, False, Highlight, [CF, LWF, RWF, SS, LMF, RMF], [AMF]
+Destiny Udogie, LB, 94.21, False, Highlight, [LB, LMF], []
+Federico Gatti, CB, 93.82, False, Highlight, [CB], []
+Alessandro Costacurta, RB, 97.15, False, Epic, [LB, RB, CB], [DMF, RMF]
+Leonardo Bonucci, CB, 97.17, False, Epic, [CB], []
+Alessandro Bastoni, CB, 95.00, True, Highlight, [CB], []
+Fabio Cannavaro, CB, 99.00, False, Epic, [CB], [RB]
+Davide Frattesi, CMF, 94.04, True, Highlight, [CMF], [AMF, DMF, RMF]
+Matteo Darmian, RB, 95.16, False, Highlight, [LMF, RMF, LB, RB, CB], []
+Alessandro Buongiorno, CB, 95.28, True, Highlight, [CB], [LMF, LB]
+Alessandro Nesta, CB, 97.65, False, Epic, [CB], []
+Giuseppe Bergomi, RB, 96.45, False, Epic, [RB, CB], [RMF, LB]
+Leonardo Spinazzola, LB, 93.26, False, Highlight, [LB, RB, LMF], [LWF, RWF, RMF, CMF]
+Mateo Retegui, CF, 94.99, True, Highlight, [CF], [SS]
+Lorenzo Insigne, LWF, 97.73, False, BigTime, [LWF, LMF, SS], [CF, AMF, RWF]
+Bryan Cristante, DMF, 94.19, True, Highlight, [DMF, CMF, AMF, CB], []
+Lorenzo Pellegrini, AMF, 93.99, False, Highlight, [AMF, CMF], [SS, LWF, LMF, DMF]
+Giorgio Chiellini, CB, 96.79, False, Epic, [LB, CB], []
+Samuele Ricci, DMF, 93.13, True, Highlight, [DMF, CMF], [AMF, SS]
+Guglielmo Vicario, GK, 94.93, True, Highlight, [GK], []
+Christian Panucci, RB, 96.96, False, Epic, [RB, LB], [CB, RMF]
+Francesco Totti, AMF, 99.59, False, Epic, [AMF, SS, CF], [LWF, RWF, CMF]
+Christian Abbiati, GK, 97.74, False, Epic, [GK], []
+Massimo Oddo, RB, 98.21, False, Epic, [RB], [RMF, CB]
+Gennaro Gattuso, DMF, 97.38, False, Epic, [DMF, CMF], [AMF, RMF]
+Jorginho, DMF, 93.05, False, Highlight, [DMF, CMF], []
+Michele Di Gregorio, GK, 94.33, False, Highlight, [GK], []
+Franco Baresi, CB, 98.40, False, Epic, [CB], []
+Massimo Ambrosini, DMF, 97.01, False, Epic, [DMF, CMF], [AMF, LMF, RMF]
+Gianluigi Donnarumma, GK, 97.34, True, Highlight, [GK], []
+Manuel Locatelli, DMF, 94.96, True, Highlight, [DMF, CMF], [AMF]
+Riccardo Ferri, CB, 97.48, False, Epic, [CB], []
+Andrea Pirlo, DMF, 98.10, False, Epic, [DMF, CMF], []
+Gianfranco Zola, SS, 99.85, False, Epic, [CF, SS, AMF], [LWF, LMF, CMF]
+Christian Vieri, CF, 98.01, False, Epic, [CF], [SS]
+Pio Esposito, CF, 93.34, True, Highlight, [CF], [LWF, SS]
+Alessandro Del Piero, CF, 98.58, False, Epic, [CF, SS, AMF], []
+Demetrio Albertini, DMF, 96.16, False, Epic, [AMF, CMF, DMF], []
+Roberto Donadoni, CMF, 97.54, False, Epic, [LMF, LWF, RWF, RMF, CMF, AMF], [SS, DMF]
+Danilo Cataldi, DMF, 94.18, False, Highlight, [CMF, DMF], [AMF]
+Davide Zappacosta, RMF, 93.99, False, Highlight, [RMF, RB, LMF], [RWF, LB]
+Davide Zappacosta, RB, 94.02, False, Highlight, [RMF, RB, LMF], [LB]
+Marco Carnesecchi, GK, 94.98, True, Highlight, [GK], []
+Rolando Mandragora, DMF, 95.21, False, Highlight, [DMF, CMF], [AMF, CB]
+Giorgio Scalvini, CB, 94.78, False, Highlight, [CB], [DMF, CMF]
+Moise Kean, CF, 94.98, False, Highlight, [CF, LWF], [SS, RWF, LMF]
+Tommaso Pobega, DMF, 92.99, False, Highlight, [CMF, DMF], [SS, AMF, RWF]
+Tommaso Pobega, CMF, 93.26, False, Highlight, [CMF], [SS, AMF, RWF, DMF]
+Ivan Provedel, GK, 94.44, False, Highlight, [GK], []
+Nicolò Zaniolo, AMF, 94.24, False, Highlight, [LWF, SS, RWF, AMF, LMF, RMF], [CF, CMF]
+Domenico Berardi, RWF, 93.34, False, Highlight, [RWF, SS, RMF], [LWF, CF]
+Wilfried Gnonto, LWF, 91.43, False, Highlight, [LWF, RWF, LMF, RMF], [CF, SS, AMF]
+Nicolò Rovella, DMF, 94.24, False, Highlight, [CMF, DMF], [AMF]
+Raoul Bellanova, RB, 94.20, True, Highlight, [RB, RMF], [LB]
+Sandro Tonali, DMF, 95.22, False, Highlight, [DMF, CMF], []
+Mattia Zaccagni, LWF, 95.99, True, Highlight, [LWF, LMF, AMF], [SS, CMF]
+Riccardo Orsolini, RMF, 95.01, True, Highlight, [RMF, RWF, LWF, SS], [CF, AMF, LMF]
+Ciro Immobile, CF, 95.24, False, Showtime, [CF], [LWF, SS]
+Wladimiro Falcone, GK, 93.97, False, Highlight, [GK], []
+Riccardo Orsolini, RWF, 78,21, True, Standard, [RWF, SS, LWF, RMF], [CF, AMF, LMF]
+Federico Bernardeschi, RWF, 74.55, False, Standard, [RWF, RMF], [CF, SS, LWF, LMF, AMF]
+Matteo Cancellieri, RWF, 73.17, False, Standard, [RWF, SS, LWF], [CF, LMF, RMF]
 

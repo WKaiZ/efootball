@@ -1,10 +1,43 @@
-Josko Gvardiol
-Josip Stanisic,
-Luka Modrić,
-Petar Sučić,
-Mario Pašalić,
-Nikola Vlašić,
-Ivan Perišić,
-Martin Baturina,
-Ante Budimir,
-Luka Sucic,
+Josko Gvardiol, LB, 95.77, True, Highlight, [LB, CB], [LMF]
+Josko Gvardiol, CB, 95.36, True, Highlight, [LB, CB], []
+Josip Stanisic, RB, 93.23, True, Highlight, [RB, CB, LB], [RMF]
+Luka Modrić, DMF, 94.05, True, Highlight, [DMF, CMF, AMF], []
+Luka Modrić, CMF, 94.23, True, Highlight, [CMF, AMF], [DMF]
+Petar Sučić, DMF, 93.28, True, Highlight, [DMF], [CMF]
+Mario Pašalić, AMF, 94.26, True, Highlight, [AMF, CMF, DMF], [LWF, RWF, SS, LMF]
+Nikola Vlašić, AMF, 95.45, True, Highlight, [AMF, SS, RMF], [RWF, LWF, LMF, CMF]
+Ivan Perišić, RMF, 93.99, True, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF, CMF]
+Ivan Perišić, RWF, 93.94, True, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF, CMF]
+Martin Baturina, CMF, 94.17, False, Highlight, [CMF, AMF], [SS, LMF, DMF]
+Ante Budimir, CF, 94.98, False, Highlight, [CF], [SS]
+Luka Sucic, CMF, 94.04, False, Highlight, [CMF], [AMF, DMF, LMF, RMF]
+Bruno Petkovic, CF, 76.15, False, Standard, [CF], [SS, RWF, AMF]
+Petar Musa, CF, 74.74, True, Standard, [CF], [SS]
+Franjo Ivanović, CF, 72.59, False, Standard, [CF], [SS, RWF]
+Matija Frigan, CF, 71.20, False, Standard, [CF], [LWF, RWF, SS]
+Igor Matanovic, CF, 70.95, True, Standard, [CF], [SS]
+Marco Pašalić, RWF, 72.40, True, Standard, [RWF], [RMF, LWF, LMF, LB]
+Marko Pjaca, LWF, 73.11, False, Standard, [LWF, CF, SS, RWF, AMF], [LMF, RMF]
+Andrej Kramaric, SS, 77.27, True, Standard, [CF, SS, AMF], [LWF, RWF, CMF, RMF]
+Marcelo Brozović, DMF, 77.30, False, Standard, [CMF, DMF, AMF], [RMF]
+Kristijan Jakic, DMF, 73.37, True, Standard, [DMF, CB], [CMF, RB]
+Nikola Moro, DMF, 73.59, True, Standard, [DMF, CMF], [AMF]
+Borna Sosa, LB, 75.43, False, Standard, [LB, LMF], []
+Domagoj Bradarić, LB, 75.20, False, Standard, [LMF, LB], []
+Josip Sutalo, CB, 76.06, True, Standard, [CB], []
+Marin Pongracic, CB, 75.54, True, Standard, [CB], [DMF, RB]
+Duje Caleta-Car, CB, 74.07, True, Standard, [CB], []
+Martin Erlić, CB, 74.59, True, Standard, [CB], []
+Matej Mitrovic, CB, 72.88, False, Standard, [CB], [DMF, RB]
+Filip Uremovic, CB, 71.97, False, Standard, [CB], [DMF, RB]
+Josip Juranovic, RB, 76.18, False, Standard, [RB, RMF, LB], [CMF]
+Ivan Smolcic, RB, 68.52, False, Standard, [RB, CB], [RMF]
+Dominik Livakovic, GK, 78.61, True, Standard, [GK], []
+Ivo Grbic, GK, 74.67, False, Standard, [GK], []
+Dominik Kotarski, GK, 74.46, False, Standard, [GK], []
+Ivica Ivusic, GK, 73.46, False, Standard, [GK], []
+Karlo Letica, GK, 71.67, False, Standard, [GK], []
+Ivor Pandur, GK, 70.95, True, Standard, [GK], []
+
+
+
