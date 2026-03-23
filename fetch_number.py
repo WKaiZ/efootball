@@ -298,6 +298,11 @@ def compatible_name_tokens(local_name, espn_alias):
     for left, right in zip(local_tokens[:-1], espn_tokens[:-1]):
         if left == right:
             continue
+        # ESPN often exposes initials like "F Torres" → alias "f torres". A single-letter
+        # token must not match a full first name via startswith (e.g. "f" vs "fernando"),
+        # or a different player (Fernando Torres) steals Ferran Torres's roster slot.
+        if min(len(left), len(right)) == 1 and max(len(left), len(right)) > 1:
+            return False
         if left.startswith(right) or right.startswith(left):
             continue
         return False
@@ -331,6 +336,21 @@ def espn_lineup_role(position_abbreviation):
     if abbr in {"F", "FW", "CF", "CF-L", "CF-R", "LW", "RW", "ST", "SS"}:
         return "F"
     return None
+
+
+def roster_role_compatible(profile_roles, espn_role):
+    """Whether an ESPN lineup bucket can match a local card role.
+
+    Lineups often label attackers as AM (→ M) while cards use CF/SS (→ F), so
+    strict equality misses real appearances. G/D stay strict; M/F can pair.
+    """
+    if not espn_role or not profile_roles:
+        return True
+    if espn_role in profile_roles:
+        return True
+    if espn_role in {"M", "F"} and profile_roles & {"M", "F"}:
+        return True
+    return False
 
 
 def fetch_espn_athlete_role(athlete_id):
@@ -455,7 +475,7 @@ def map_recent_players_to_roster(player_profiles, latest_match):
         for key, profile in roster_names:
             if key in taken:
                 continue
-            if espn_role and profile["roles"] and espn_role not in profile["roles"]:
+            if not roster_role_compatible(profile["roles"], espn_role):
                 continue
             if any(compatible_name_tokens(key, alias) for alias in espn_player["aliases"]):
                 matched_key = key
@@ -464,7 +484,7 @@ def map_recent_players_to_roster(player_profiles, latest_match):
             for key, profile in roster_names:
                 if key in taken:
                     continue
-                if espn_role and profile["roles"] and espn_role not in profile["roles"]:
+                if not roster_role_compatible(profile["roles"], espn_role):
                     continue
                 roster_tokens = [tok for tok in key.split() if tok]
                 if len(roster_tokens) == 1:

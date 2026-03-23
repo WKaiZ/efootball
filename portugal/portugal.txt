@@ -14,14 +14,14 @@ Starters:
 Substitutes:
   [CF] Gonçalo Ramos (CF) rating 95.98 #26
   [LMF] João Félix (LWF) rating 94.44 #11
-  [RMF] Francisco Conceição (RMF) rating 94.37 #20
+  [RMF] Francisco Conceição (RMF) rating 94.37 #21
   [AMF] Bruno Fernandes (AMF) rating 95.84 #8
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] João Palhinha (DMF) rating 94.99 #6
   [LB] Nuno Tavares (LB) rating 94.43 #2
   [CB] Gonçalo Inácio (CB) rating 94.21 #14
   [CB] António Silva (CB) rating 94.99 #24
-  [RB] João Cancelo (RB) rating 95.26 #21
+  [RB] João Cancelo (RB) rating 95.26 #20
   [GK] Rui Silva (GK) rating 77.81 #22
 
 Wildcard:
