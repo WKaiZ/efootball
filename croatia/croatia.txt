@@ -12,17 +12,17 @@ Starters:
   [GK] Dominik Livakovic (GK) rating 78.61 #1
 
 Substitutes:
-  [CF] Petar Musa (CF) rating 74.74 #18
+  [CF] Bruno Petkovic (CF) rating 76.15 #7
   [LWF] Andrej Kramaric (SS) rating 77.27 #9
-  [RWF] Marco Pašalić (RWF) rating 72.40 #7
+  [RWF] Marco Pašalić (RWF) rating 72.40 #24
   [AMF] Mario Pašalić (AMF) rating 94.26 #15
   [CMF] Martin Baturina (CMF) rating 94.17 #16
   [DMF] Nikola Moro (DMF) rating 73.59 #8
   [LB] Borna Sosa (LB) rating 75.43 #19
-  [CB] Martin Erlić (CB) rating 74.59 #22
+  [CB] Martin Erlić (CB) rating 74.59 #25
   [CB] Duje Caleta-Car (CB) rating 74.07 #5
-  [RB] Josip Juranovic (RB) rating 76.18 #21
+  [RB] Josip Juranovic (RB) rating 76.18 #22
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
-  [WILD] Luka Sucic (CMF) rating 94.04 #25
+  [WILD] Luka Sucic (CMF) rating 94.04 #21

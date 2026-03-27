@@ -251,7 +251,7 @@ def choose_initial_lineup(roles_by_pos):
             empty_slots.discard(idx)
 
     used_for_subs = {p.player_id for p in starters if p is not None}
-    # Substitutes: keep existing behavior (MAIN position only + SS fallback for SUB LWF/RWF).
+    # Substitutes: rating-driven across all vacant slots, MAIN position only + SS fallback for SUB LWF/RWF.
     subs = [None] * slot_count
     unfilled = set(range(slot_count))
     while unfilled:
@@ -508,8 +508,8 @@ def assign_jerseys(conn, starters, subs):
     return assignments, used_numbers
 
 
-def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids):
-    candidates = [r for r in roles_by_pos.get(slot, []) if r.player_id not in used_ids and r.player_id not in excluded_ids]
+def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs=None):
+    candidates = [r for r in roles_by_pos.get(slot, []) if r.player_id not in excluded_ids and (r.player_id not in used_ids or (subs and any(sp and sp.player_id == r.player_id for sp in subs)))]
     if not candidates:
         return None
     return max(candidates, key=lambda r: r.rating)
@@ -529,11 +529,12 @@ def next_candidate_for_sub_wing(
     roles_by_pos,
     used_ids,
     excluded_ids,
+    subs=None,
 ):
-    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids)
+    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs)
     if repl is not None:
         return repl
-    ss_candidates = [r for r in roles_by_pos.get("SS", []) if r.player_id not in used_ids and r.player_id not in excluded_ids and not is_standard(r)]
+    ss_candidates = [r for r in roles_by_pos.get("SS", []) if r.player_id not in excluded_ids and (r.player_id not in used_ids or (subs and any(sp and sp.player_id == r.player_id for sp in subs)))]
     if not ss_candidates:
         return None
     return max(ss_candidates, key=lambda r: r.rating)
@@ -596,12 +597,18 @@ def build_gameplan(conn, roles_by_pos):
                 excluded = sub_excluded.setdefault(i, set())
                 excluded.add(p.player_id)
                 if FORMATION[i] in ("LWF", "RWF"):
-                    repl = next_candidate_for_sub_wing(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded)
+                    repl = next_candidate_for_sub_wing(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded, subs)
                 else:
-                    repl = next_candidate_for_slot(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded)
+                    repl = next_candidate_for_slot(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded, subs)
+                if repl is not None and repl.player_id in (used_ids - {p.player_id}):
+                    # Remove from current sub slot
+                    for k, sp in enumerate(subs):
+                        if sp and sp.player_id == repl.player_id:
+                            subs[k] = None
+                            break
                 subs[i] = repl
-                replaced = True
-                break
+                if repl is not None:
+                    used_ids.add(repl.player_id)
 
         if replaced:
             used_ids = {p.player_id for p in (starters + subs) if p is not None}
