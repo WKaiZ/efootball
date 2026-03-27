@@ -75,7 +75,7 @@ Mattia Zaccagni, LWF, 95.99, True, Highlight, [LWF, LMF, AMF], [SS, CMF]
 Riccardo Orsolini, RMF, 95.01, True, Highlight, [RMF, RWF, LWF, SS], [CF, AMF, LMF]
 Ciro Immobile, CF, 95.24, False, Showtime, [CF], [LWF, SS]
 Wladimiro Falcone, GK, 93.97, False, Highlight, [GK], []
-Riccardo Orsolini, RWF, 78,21, True, Standard, [RWF, SS, LWF, RMF], [CF, AMF, LMF]
+Riccardo Orsolini, RWF, 78.21, True, Standard, [RWF, SS, LWF, RMF], [CF, AMF, LMF]
 Federico Bernardeschi, RWF, 74.55, False, Standard, [RWF, RMF], [CF, SS, LWF, LMF, AMF]
 Matteo Cancellieri, RWF, 73.17, False, Standard, [RWF, SS, LWF], [CF, LMF, RMF]
 

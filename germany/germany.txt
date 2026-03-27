@@ -7,7 +7,7 @@ Starters:
   [DMF] Joshua Kimmich (DMF) rating 95.19 #6
   [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
   [CB] Franz Beckenbauer (CB) rating 99.41 #5
-  [CB] Nico Schlotterbeck (CB) rating 97.32 #15
+  [CB] Emre Can (CB) rating 96.47 #23
   [RB] Philipp Lahm (RB) rating 99.27 #16
   [GK] Oliver Kahn (GK) rating 97.27 #1
 
@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Leon Goretzka (CMF) rating 93.36 #19
   [DMF] Felix Nmecha (DMF) rating 95.02 #13
   [LB] Robin Gosens (LMF) rating 75.32 #3
-  [CB] Emre Can (CB) rating 96.47 #23
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
+  [CB] Nico Schlotterbeck (CB) rating 95.32 #15
   [RB] Thilo Kehrer (CB) rating 76.98 #4
   [GK] Manuel Neuer (GK) rating 95.58 #12
 
