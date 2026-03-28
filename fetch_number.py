@@ -373,8 +373,10 @@ def levenshtein(a, b):
         prev = curr
     return prev[-1]
 
-def espn_request_json(url, params=None):
-    r = requests.get(url, params=params, headers=HEADERS, timeout=20)
+def espn_request_json(url, params=None, timeout=None):
+    if timeout is None:
+        timeout = float(os.environ.get('ESPN_REQUEST_TIMEOUT', '30'))
+    r = requests.get(url, params=params, headers=HEADERS, timeout=timeout)
     r.raise_for_status()
     return r.json()
 
@@ -559,12 +561,36 @@ def _espn_event_team_completed_datetime(team_id, event, now_utc):
             return dt
     return None
 
+def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout):
+    board = espn_request_json(
+        'https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard',
+        params={'dates': dates_param, 'limit': 500},
+        timeout=timeout,
+    )
+    for event in board.get('events', []):
+        dt = _espn_event_team_completed_datetime(team_id, event, now_utc)
+        if dt is None:
+            continue
+        eid = str(event.get('id') or '')
+        if not eid:
+            continue
+        prev = event_times.get(eid)
+        if prev is None or dt > prev:
+            event_times[eid] = dt
+
+
 def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, chunk_days=14):
     now = datetime.now(timezone.utc)
     event_times = {}
     latest_sched_dt = None
+    schedule_timeout = float(os.environ.get('ESPN_SCHEDULE_TIMEOUT', '30'))
+    scoreboard_timeout = float(os.environ.get('ESPN_SCOREBOARD_TIMEOUT', '60'))
     try:
-        schedule = espn_request_json(f'https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}/schedule', params={'limit': 100})
+        schedule = espn_request_json(
+            f'https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}/schedule',
+            params={'limit': 100},
+            timeout=schedule_timeout,
+        )
         for event in schedule.get('events', []):
             dt = _espn_event_team_completed_datetime(team_id, event, now)
             if dt is None:
@@ -591,23 +617,35 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
     while scan_end >= oldest:
         start_date = max(oldest, scan_end - timedelta(days=chunk_days - 1))
         dates_param = f"{start_date.strftime('%Y%m%d')}-{scan_end.strftime('%Y%m%d')}"
-        try:
-            board = espn_request_json('https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard', params={'dates': dates_param, 'limit': 500})
-            for event in board.get('events', []):
-                dt = _espn_event_team_completed_datetime(team_id, event, now)
-                if dt is None:
-                    continue
-                eid = str(event.get('id') or '')
-                if not eid:
-                    continue
-                prev = event_times.get(eid)
-                if prev is None or dt > prev:
-                    event_times[eid] = dt
-        except requests.RequestException:
-            pass
+        for attempt in range(3):
+            try:
+                _merge_scoreboard_window(team_id, dates_param, now, event_times, scoreboard_timeout)
+                break
+            except requests.RequestException:
+                if attempt == 2:
+                    print(f'  Warning: ESPN scoreboard failed for {dates_param} after 3 tries (timeout {scoreboard_timeout}s).')
+                time.sleep(1.0 * (attempt + 1))
         scan_end = start_date - timedelta(days=1)
     if not event_times:
         return None
+    _, best_dt = max(event_times.items(), key=lambda kv: kv[1])
+    stale_days = (now.date() - best_dt.date()).days
+    if stale_days > 21:
+        supplemental_start = max(cap_start, (now - timedelta(days=45)).date())
+        sup_param = f"{supplemental_start.strftime('%Y%m%d')}-{end_date.strftime('%Y%m%d')}"
+        for attempt in range(3):
+            try:
+                _merge_scoreboard_window(team_id, sup_param, now, event_times, scoreboard_timeout)
+                break
+            except requests.RequestException:
+                time.sleep(1.5 * (attempt + 1))
+        else:
+            _, best_dt2 = max(event_times.items(), key=lambda kv: kv[1])
+            if best_dt2 <= best_dt:
+                print(
+                    f'  Warning: Latest completed ESPN match looks stale ({best_dt2.date()}). '
+                    'Scoreboard may be failing; try again or pass --gameid <eventId>.'
+                )
     return max(event_times.items(), key=lambda kv: kv[1])[0]
 
 def fetch_latest_espn_roster(country_label, game_id=None):

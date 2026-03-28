@@ -176,7 +176,6 @@ def parse_line(line, line_no):
         elif low == "false":
             recent = False
         else:
-            # Assume this is card_type (e.g., Highlight, Legend, Showtime)
             if not card_type:
                 card_type = tok
 

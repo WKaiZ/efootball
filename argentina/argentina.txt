@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
   [LWF] Diego Maradona (SS) rating 95.02 #6
-  [RWF] Giuliano Simeone (RWF) rating 94.21 #16
+  [RWF] Franco Mastantuono (RWF) rating 94.35 #22
   [AMF] Paulo Dybala (AMF) rating 95.98 #19
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Leandro Paredes (DMF) rating 94.26 #5
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Gerónimo Rulli (GK) rating 93.94 #12
 
 Wildcard:
-  [WILD] Lautaro Martínez (CF) rating 95.99 #22
+  [WILD] Enzo Fernández (CMF) rating 95.15 #24
