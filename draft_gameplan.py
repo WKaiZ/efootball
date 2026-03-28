@@ -176,7 +176,6 @@ def choose_initial_lineup(roles_by_pos):
             used_ids.add(best_player.player_id)
             unfilled.remove(best_slot_idx)
 
-        # Convert "LOCKED" placeholders into None; we only use filled slots for starters.
         for i in range(slot_count):
             if filled[i] == "LOCKED":
                 filled[i] = None
@@ -186,7 +185,6 @@ def choose_initial_lineup(roles_by_pos):
     used_ids = set()
     empty_slots = set(range(slot_count))
 
-    # Stage A: non-standard (Epic/BigTime/Showtime/Highlight) via MAIN position only.
     def cand_stage_a(slot, used_ids):
         return [
             r
@@ -201,7 +199,6 @@ def choose_initial_lineup(roles_by_pos):
             used_ids.add(starters[idx].player_id)
             empty_slots.discard(idx)
 
-    # Stage B: non-standard via proficient_positions.
     def cand_stage_b(slot, used_ids):
         return [
             r
@@ -218,14 +215,11 @@ def choose_initial_lineup(roles_by_pos):
             used_ids.add(starters[idx].player_id)
             empty_slots.discard(idx)
 
-    # Stage C: Standard via proficient_positions.
     def cand_stage_c(slot, used_ids):
         return [
             r
-            for r in all_roles
-            if r.player_id not in used_ids
-            and (slot in r.proficient_positions)
-            and is_standard(r)
+            for r in roles_by_pos.get(slot, [])
+            if r.player_id not in used_ids and is_standard(r)
         ]
 
     stage_c_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_c)
@@ -235,12 +229,13 @@ def choose_initial_lineup(roles_by_pos):
             used_ids.add(starters[idx].player_id)
             empty_slots.discard(idx)
 
-    # Stage D: Standard via MAIN position only (final fallback).
     def cand_stage_d(slot, used_ids):
         return [
             r
-            for r in roles_by_pos.get(slot, [])
-            if r.player_id not in used_ids and is_standard(r)
+            for r in all_roles
+            if r.player_id not in used_ids
+            and (slot in r.proficient_positions)
+            and is_standard(r)
         ]
 
     stage_d_filled = fill_starters_stage(empty_slots, used_ids, cand_stage_d)
@@ -251,7 +246,6 @@ def choose_initial_lineup(roles_by_pos):
             empty_slots.discard(idx)
 
     used_for_subs = {p.player_id for p in starters if p is not None}
-    # Substitutes: rating-driven across all vacant slots, MAIN position only + SS fallback for SUB LWF/RWF.
     subs = [None] * slot_count
     unfilled = set(range(slot_count))
     while unfilled:
@@ -601,7 +595,6 @@ def build_gameplan(conn, roles_by_pos):
                 else:
                     repl = next_candidate_for_slot(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded, subs)
                 if repl is not None and repl.player_id in (used_ids - {p.player_id}):
-                    # Remove from current sub slot
                     for k, sp in enumerate(subs):
                         if sp and sp.player_id == repl.player_id:
                             subs[k] = None
@@ -691,7 +684,6 @@ def build_gameplan(conn, roles_by_pos):
                         if slot not in r.semiproficient_positions:
                             continue
                     elif pos_set_name == "main":
-                        # MAIN-position fallback for Standard placement.
                         if slot != r.position:
                             continue
                     else:
@@ -866,10 +858,6 @@ def build_gameplan(conn, roles_by_pos):
         if num is not None:
             starter_blocked_numbers.add(num)
 
-    # Starter vacancy fill order:
-    # 1) Proficient non-standard
-    # 2) Proficient standard
-    # 3) Standard by MAIN position (final fallback)
     fill_vacancies(
         starter_vacant_indices,
         starters,
@@ -900,13 +888,6 @@ def build_gameplan(conn, roles_by_pos):
         allow_from_subs=True,
     )
 
-    # Substitute vacancy fill order:
-    # 1) MAIN non-standard
-    # 2) MAIN standard
-    # 3) Proficient non-standard
-    # 4) Proficient standard
-    # 5) Semiproficient non-standard
-    # 6) Semiproficient standard
     fill_vacancies(
         sub_vacant_indices,
         subs,

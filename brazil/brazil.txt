@@ -19,7 +19,7 @@ Substitutes:
   [CMF] Gerson (CMF) rating 77.28 #19
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Caio Henrique (LB) rating 94.42 #16
-  [CB] Leo Pereira (CB) rating 94.91 #15
+  [CB] Léo Pereira (CB) rating 94.91 #15
   [CB] Murillo (CB) rating 95.27 #14
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23

@@ -7,7 +7,7 @@ Goal
 Formation (default)
 - Slot order (each exactly one player):
   CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
-- If a different formation is stated in the future, use that instead.
+- Override: `{country}_formation.txt` in the country folder (comma-separated positions); if missing, the default above is used.
 
 Player selection
 - Choose STARTERS first, then choose SUBSTITUTES.
@@ -15,9 +15,10 @@ Player selection
   - Stage A: non-Standard cards (`Epic`/`BigTime`/`Showtime`/`Highlight`) in their `MAIN position`.
   - Stage B: if starter slots are still `VACANT`, non-Standard cards via `proficient_positions`.
   - Stage C: if starter slots are still `VACANT`, Standard cards in their `MAIN position`.
+  - Stage D: if starter slots are still `VACANT`, Standard cards via `proficient_positions`.
   - `semiproficient_positions` are not used for starters.
-- Substitutes use `MAIN position` only during initial selection, except for the `SS` fallback rule for substitute `LWF`/`RWF`.
-- If substitute slots remain `VACANT`, fill them in this order:
+- Initial substitutes: same rating-driven “pick the best eligible player for any open sub slot” pattern as starters, but each slot only considers `MAIN position` matches; for sub `LWF`/`RWF`, if there is no non-Standard direct winger, non-Standard `SS` may be used (Standard wings and Standard `SS` are not used in that fallback).
+- If substitute slots are still `VACANT` after lineup + jersey processing, fill them in this order:
   - `MAIN` non-Standard
   - `MAIN` Standard
   - `proficient_positions` non-Standard
@@ -25,9 +26,9 @@ Player selection
   - `semiproficient_positions` non-Standard
   - `semiproficient_positions` Standard
 - The same player_id may not appear more than once anywhere in the gameplan (no duplicates across starters, subs, wildcard).
-- Starters are fixed once chosen (do not change starter selection based on substitutes).
+- Initial starters are chosen before the first substitute pass; after that, starters may still change (jersey failures, promotions, vacancy fill) while honoring uniqueness.
 - Selection is rating-driven and does not depend on formation order:
-  - Within each stage (A/B/C), repeatedly assign the single highest-rated eligible role across all currently VACANT slots.
+  - Within each starter stage (A/B/C/D), repeatedly assign the single highest-rated eligible role across all currently VACANT starter slots.
   - A new stage begins only when no further assignments are possible in the previous stage.
 
 - Substitute-specific SS fallback:
@@ -38,40 +39,30 @@ Player selection
 Jersey number assignment (overall)
 - Assign jerseys after players are selected.
 - If a player cannot be assigned ANY available jersey number, that player is eliminated from the gameplan.
-- Starters have higher priority than substitutes in jersey assignment.
-  - Assign starter jerseys first.
-  - Then assign substitute jerseys from the remaining numbers.
-  - A substitute with recent=True cannot override a starter’s jersey.
-- Standard players do not override already-assigned numbers, even if recent=True; they only compete within the Standard stage.
+- Jersey assignment order by group (each group runs the same internal recent-lock + card-tier logic):
+  - non-Standard starters, then non-Standard substitutes (excluding SS-on-wing subs), then non-Standard substitutes slotted as `SS` on `LWF`/`RWF`, then Standard starters, then Standard substitutes.
+  - So a Standard starter is assigned after those non-Standard substitute groups (numbers already taken stay taken).
+- A substitute with recent=True cannot take a number already assigned to someone else; it does not override starters.
 
 Jersey number assignment priority & preferences
 1) recent=True lock (within the group being assigned)
    - If recent is marked True, that player secures the MOST RECENT jersey number they have worn (newest → oldest).
 
 2) Card-type priority (after applying recent=True locks)
-   - Epic
-   - BigTime
-   - Showtime
-   - Highlight
-   - Standard
+   - Epic and BigTime share the highest tier in code (then Showtime, then Highlight, then Standard).
 
 Additional ordering notes
-- SS used as SUBSTITUTE LWF/RWF (vacancy fill) has lower priority than already-assigned Epic/Showtime/Highlight players,
-  but higher priority than Standard players.
-- Wildcard has the lowest priority overall (after substitutes, including substitute Standards).
+- Within the non-Standard substitute jersey phase, a sub playing `SS` on a wing slot is assigned after other non-Standard subs but before any Standard starter/sub jersey assignment.
+- Wildcard has the lowest priority overall (after starters + subs are resolved for the main 22).
 - Wildcard may be any remaining player; it is chosen only after starters + substitutes are finalized.
 
 3) How each card-type chooses numbers
-  - BigTime:
-    - Treated as Epic-tier for jersey-assignment priority.
-    - Preference list is the player's jersey history order (newest → oldest), with duplicates removed while preserving order.
   - Epic:
-    - Preference list is based on MOST-WORN jersey number over all years.
-    - If two jersey numbers have the same total wear count, prefer the one that appeared earlier in jersey history (newest first).
-    - If there is a conflict, higher rating keeps the number and the lower-rated player moves to their next preference.
-    - A player's "next-most-worn" does not outrank another player's "most-worn".
-  - Showtime / Highlight / Standard:
-    - Follow the same conflict-resolution logic as Epic, but preference is based on the MOST FREQUENT number worn RECENTLY.
+    - Preference list is based on MOST-WORN jersey number over all stored history.
+    - Tie-break among equal wear counts: earlier in stored jersey order (newest entries first in the DB ordering used by the script).
+  - BigTime / Showtime / Highlight / Standard:
+    - **Number preference list** (all except Epic): jersey history order from the DB (newest → older), with duplicates removed while preserving that order (BigTime, Showtime, Highlight, and Standard use this same preference shape in code).
+  - Within a jersey group, a lower-priority player will not take a number that is still another (same-group) player’s first choice when that tie-break applies.
 
 Wildcard rule
 - After all starter + substitute jersey numbers are assigned, select the wildcard:
@@ -85,12 +76,10 @@ Starter replacement rule (when jerseys fail)
   - First try promoting the best already-selected substitute whose MAIN position matches that starter slot, and backfill that cleared substitute slot later.
   - If promotion is not possible, replace the starter with the best next available candidate for that slot.
 
-- Vacant slot fill
-  - After starter + substitute selection/jersey assignment, if any formation slot is still empty, try to fill it from players that were not selected in starters/subs and do not have a jersey assigned yet.
-  - First try `proficient_positions`.
-  - Then try Standard players in `MAIN position`.
-  - Jersey priority for proficient-position fills is lower than all earlier card-type jersey assignment, but higher than Standard fills.
-  - If still no candidate works, the slot remains `VACANT` in the output.
+- Vacant slot fill (starters)
+  - After starter + substitute selection/jersey assignment, empty starter slots: non-Standard via `proficient_positions`, then Standard via `proficient_positions`, then Standard in `MAIN position` (can pull from bench roles where allowed by code). Numbers already on starters block picking duplicates for those fills.
+  - If still no candidate works, the slot stays empty (`VACANT` in the output).
+- Vacant sub slots may also use an extra swap routine in code (reassign another sub to free a number) before remaining `VACANT`.
 
 Data source
 - All necessary information is pulled from the SQLite database (players, game_data, jersey history).

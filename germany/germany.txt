@@ -12,12 +12,12 @@ Starters:
   [GK] Oliver Kahn (GK) rating 97.27 #1
 
 Substitutes:
-  [CF] Gerd Müller (CF) rating 99.05 #9
+  [CF] Gerd Müller (CF) rating 99.05 #13
   [LMF] David Raum (LMF) rating 93.96 #22
   [RWF] Karim Adeyemi (RWF) rating 94.47 #20
   [AMF] Florian Wirtz (AMF) rating 97.25 #17
   [CMF] Leon Goretzka (CMF) rating 93.36 #19
-  [DMF] Felix Nmecha (DMF) rating 95.02 #13
+  [DMF] Felix Nmecha (DMF) rating 95.02 #7
   [LB] Robin Gosens (LMF) rating 75.32 #3
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
   [CB] Nico Schlotterbeck (CB) rating 95.32 #15
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Manuel Neuer (GK) rating 95.58 #12
 
 Wildcard:
-  [WILD] Kai Havertz (CF) rating 96.37 #7
+  [WILD] Thomas Müller (AMF) rating 95.36 #25
