@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Xavi (DMF) rating 97.06 #8
   [LB] Jordi Alba (LB) rating 97.74 #18
-  [CB] Eric García (CB) rating 95.96 #14
   [CB] Pau Cubarsí (CB) rating 95.23 #4
+  [CB] Eric García (CB) rating 95.96 #14
   [RB] Marcos Llorente (RB) rating 94.99 #5
   [GK] Unai Simón (GK) rating 95.29 #23
 

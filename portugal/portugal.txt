@@ -1,28 +1,28 @@
 Starters:
   [CF] Cristiano Ronaldo (CF) rating 99.07 #17
-  [LMF] Pedro Neto (LMF) rating 98.71 #9
+  [LMF] Pedro Neto (LMF) rating 98.71 #18
   [RMF] Luís Figo (RMF) rating 100.33 #7
-  [AMF] Rui Costa (AMF) rating 98.11 #4
+  [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Vitinha (CMF) rating 98.42 #23
-  [DMF] Bernardo Silva (DMF) rating 95.44 #10
-  [LB] Nuno Mendes (LB) rating 97.40 #19
-  [CB] Pepe (CB) rating 97.47 #5
-  [CB] Rúben Dias (CB) rating 96.96 #3
+  [DMF] Bernardo Silva (DMF) rating 95.44 #11
+  [LB] Nuno Mendes (LB) rating 97.40 #25
+  [CB] Pepe (CB) rating 97.47 #3
+  [CB] Rúben Dias (CB) rating 96.96 #4
   [RB] João Neves (RB) rating 95.62 #15
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
-  [CF] Gonçalo Ramos (CF) rating 95.98 #26
-  [LMF] João Félix (LWF) rating 94.44 #11
-  [RMF] Francisco Conceição (RMF) rating 94.37 #21
+  [CF] Gonçalo Ramos (CF) rating 95.98 #9
+  [LMF] Diogo Dalot (LMF) rating 94.24 #2
+  [RMF] Francisco Conceição (RMF) rating 94.37 #26
   [AMF] Bruno Fernandes (AMF) rating 95.84 #8
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] João Palhinha (DMF) rating 94.99 #6
-  [LB] Nuno Tavares (LB) rating 94.43 #2
+  [LB] Raphaël Guerreiro (LB) rating 93.09 #5
   [CB] Gonçalo Inácio (CB) rating 94.21 #14
   [CB] António Silva (CB) rating 94.99 #24
   [RB] João Cancelo (RB) rating 95.26 #20
   [GK] Rui Silva (GK) rating 77.81 #22
 
 Wildcard:
-  [WILD] Matheus Nunes (RB) rating 94.00 #18
+  [WILD] Matheus Nunes (RB) rating 94.00 #21

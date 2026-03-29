@@ -472,26 +472,47 @@ def build_local_player_profiles(raw_lines):
                     profile['roles'].add(role)
     return profiles
 
+def _name_token_is_initial_abbrev(tok):
+    return len(tok) == 2 and tok[1] == '.' and tok[0].isalpha()
+
+
+def _espn_token_equiv(local_tok, espn_tok):
+    if local_tok == espn_tok:
+        return True
+    if min(len(local_tok), len(espn_tok)) == 1 and max(len(local_tok), len(espn_tok)) > 1:
+        return False
+    if _name_token_is_initial_abbrev(espn_tok) and local_tok.startswith(espn_tok[0]) and len(local_tok) > 1:
+        return True
+    if _name_token_is_initial_abbrev(local_tok) and espn_tok.startswith(local_tok[0]) and len(espn_tok) > 1:
+        return True
+    if local_tok.startswith(espn_tok) or espn_tok.startswith(local_tok):
+        return True
+    return False
+
+
+def _local_tokens_match_espn_ordered_subsequence(local_tokens, espn_tokens):
+    """Each local token must match some ESPN token in order (ESPN may have extra given / maternal names)."""
+    i = 0
+    for et in espn_tokens:
+        if i >= len(local_tokens):
+            break
+        if _espn_token_equiv(local_tokens[i], et):
+            i += 1
+    return i == len(local_tokens)
+
+
 def compatible_name_tokens(local_name, espn_alias):
-    local_tokens = [tok for tok in normalize_name(local_name).split() if tok]
-    espn_tokens = [tok for tok in normalize_name(espn_alias).split() if tok]
+    ln = normalize_name(local_name)
+    an = normalize_name(espn_alias)
+    if not ln or not an:
+        return False
+    if ln == an:
+        return True
+    local_tokens = [tok for tok in ln.split() if tok]
+    espn_tokens = [tok for tok in an.split() if tok]
     if not local_tokens or not espn_tokens:
         return False
-    if local_tokens == espn_tokens:
-        return True
-    if len(local_tokens) != len(espn_tokens):
-        return False
-    if local_tokens[-1] != espn_tokens[-1]:
-        return False
-    for left, right in zip(local_tokens[:-1], espn_tokens[:-1]):
-        if left == right:
-            continue
-        if min(len(left), len(right)) == 1 and max(len(left), len(right)) > 1:
-            return False
-        if left.startswith(right) or right.startswith(left):
-            continue
-        return False
-    return True
+    return _local_tokens_match_espn_ordered_subsequence(local_tokens, espn_tokens)
 
 def invalid_transfermarkt_title(title_text):
     low = normalize_name(title_text)
@@ -543,9 +564,12 @@ def season_label_for_match_date(match_dt):
     end_year = start_year + 1
     return f'{start_year % 100:02d}/{end_year % 100:02d}'
 
-def _espn_event_team_completed_datetime(team_id, event, now_utc):
+def _espn_event_team_lineup_datetime(team_id, event, now_utc):
     comp = (event.get('competitions') or [{}])[0]
-    if not comp.get('status', {}).get('type', {}).get('completed'):
+    status_type = comp.get('status', {}).get('type', {}) or {}
+    completed = bool(status_type.get('completed'))
+    state = (status_type.get('state') or '').lower()
+    if not completed and state != 'in':
         return None
     raw = event.get('date') or comp.get('date')
     if not raw:
@@ -568,7 +592,7 @@ def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout
         timeout=timeout,
     )
     for event in board.get('events', []):
-        dt = _espn_event_team_completed_datetime(team_id, event, now_utc)
+        dt = _espn_event_team_lineup_datetime(team_id, event, now_utc)
         if dt is None:
             continue
         eid = str(event.get('id') or '')
@@ -592,7 +616,7 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
             timeout=schedule_timeout,
         )
         for event in schedule.get('events', []):
-            dt = _espn_event_team_completed_datetime(team_id, event, now)
+            dt = _espn_event_team_lineup_datetime(team_id, event, now)
             if dt is None:
                 continue
             eid = event.get('id')
@@ -643,7 +667,7 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
             _, best_dt2 = max(event_times.items(), key=lambda kv: kv[1])
             if best_dt2 <= best_dt:
                 print(
-                    f'  Warning: Latest completed ESPN match looks stale ({best_dt2.date()}). '
+                    f'  Warning: Latest ESPN lineup source looks stale ({best_dt2.date()}). '
                     'Scoreboard may be failing; try again or pass --gameid <eventId>.'
                 )
     return max(event_times.items(), key=lambda kv: kv[1])[0]

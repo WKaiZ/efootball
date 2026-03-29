@@ -396,7 +396,7 @@ def try_assign_jersey_for_player_blocked(conn, p, used_numbers, assignments, blo
     return None
 
 
-def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers):
+def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers, fallback_reserved=None):
     if p is None:
         return None
     blocked = blocked_numbers if blocked_numbers is not None else set()
@@ -406,8 +406,10 @@ def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers
     most_recent, prefs = jersey_prefs_for_player(conn, p)
     if p.recent and most_recent is not None and most_recent not in used_numbers and most_recent not in blocked:
         return most_recent
-    for num in prefs:
+    for pref_idx, num in enumerate(prefs):
         if num in used_numbers or num in blocked:
+            continue
+        if pref_idx > 0 and not p.recent and fallback_reserved and num in fallback_reserved:
             continue
         return num
     return None
@@ -419,6 +421,7 @@ def assign_group_jerseys(
     used_numbers,
     assignments,
     allow_recent_lock,
+    fallback_reserved=None,
 ):
     most_recent_map = {}
     prefs_map = {}
@@ -444,7 +447,7 @@ def assign_group_jerseys(
         buckets[card_priority(p.card_type)].append(p)
 
     for prio in range(4):
-        prio_players = sorted(buckets[prio], key=lambda r: r.rating, reverse=True)
+        prio_players = sorted(buckets[prio], key=lambda r: (0 if r.recent else 1, -r.rating))
         for p in prio_players:
             if p.player_id in assignments:
                 continue
@@ -453,6 +456,8 @@ def assign_group_jerseys(
                 if num in used_numbers:
                     continue
                 if pref_idx > 0:
+                    if not p.recent and fallback_reserved and num in fallback_reserved:
+                        continue
                     blocked_by_other_first_choice = False
                     for other in prio_players:
                         if other.player_id == p.player_id or other.player_id in assignments:
@@ -468,7 +473,7 @@ def assign_group_jerseys(
                 break
 
 
-def assign_jerseys(conn, starters, subs):
+def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
     starter_players_all = [p for p in starters if p is not None]
     sub_players_all = [p for p in subs if p is not None]
 
@@ -489,16 +494,14 @@ def assign_jerseys(conn, starters, subs):
             else:
                 sub_nonstd_normal.append(p)
 
-    most_recent_map = {}
-    prefs_map = {}
     used_numbers = set()
     assignments = {}
 
     assign_group_jerseys(conn, starter_nonstd, used_numbers, assignments, allow_recent_lock=True)
-    assign_group_jerseys(conn, sub_nonstd_normal, used_numbers, assignments, allow_recent_lock=True)
-    assign_group_jerseys(conn, sub_ss_nonstd, used_numbers, assignments, allow_recent_lock=True)
+    assign_group_jerseys(conn, sub_nonstd_normal, used_numbers, assignments, allow_recent_lock=True, fallback_reserved=recent_soft_reserved)
+    assign_group_jerseys(conn, sub_ss_nonstd, used_numbers, assignments, allow_recent_lock=True, fallback_reserved=recent_soft_reserved)
     assign_group_jerseys(conn, starter_std, used_numbers, assignments, allow_recent_lock=True)
-    assign_group_jerseys(conn, sub_std, used_numbers, assignments, allow_recent_lock=True)
+    assign_group_jerseys(conn, sub_std, used_numbers, assignments, allow_recent_lock=True, fallback_reserved=recent_soft_reserved)
     return assignments, used_numbers
 
 
@@ -534,17 +537,56 @@ def next_candidate_for_sub_wing(
     return max(ss_candidates, key=lambda r: r.rating)
 
 
+def try_free_jersey_via_swap(conn, candidate, used_numbers, assignments, lineup_players, starter_ids=None):
+    if not candidate.recent:
+        return None
+    _, prefs = jersey_prefs_for_player(conn, candidate)
+    rev = {v: k for k, v in assignments.items()}
+    pid_to_player = {p.player_id: p for p in lineup_players if p is not None}
+    protected = set(starter_ids) if starter_ids else set()
+    for num in prefs:
+        if num not in used_numbers:
+            return num
+        holder_id = rev.get(num)
+        if holder_id is None:
+            continue
+        if holder_id in protected:
+            continue
+        holder = pid_to_player.get(holder_id)
+        if holder is None or holder.recent:
+            continue
+        _, holder_prefs = jersey_prefs_for_player(conn, holder)
+        for alt in holder_prefs:
+            if alt == num or alt in used_numbers:
+                continue
+            assignments[holder_id] = alt
+            used_numbers.discard(num)
+            used_numbers.add(alt)
+            return num
+    return None
+
+
 def build_gameplan(conn, roles_by_pos):
     starters, subs = choose_initial_lineup(roles_by_pos)
     if not all_unique(starters + subs):
         raise RuntimeError("Internal error: duplicate player_id selected.")
+
+    recent_soft_reserved = set()
 
     attempts = 0
     starter_excluded = {}
     sub_excluded = {}
     while attempts < 50:
         attempts += 1
-        assignments, used_numbers = assign_jerseys(conn, starters, subs)
+
+        recent_soft_reserved = set()
+        for p in starters + subs:
+            if p is not None and p.recent:
+                mr, _, _ = load_jersey_stats(conn, p.player_id)
+                if mr is not None:
+                    recent_soft_reserved.add(mr)
+
+        assignments, used_numbers = assign_jerseys(conn, starters, subs, recent_soft_reserved=recent_soft_reserved)
         used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
         replaced = False
@@ -583,6 +625,7 @@ def build_gameplan(conn, roles_by_pos):
             break
 
         if not replaced:
+            any_sub_changed = False
             for i, p in enumerate(subs):
                 if p is None:
                     continue
@@ -595,11 +638,32 @@ def build_gameplan(conn, roles_by_pos):
                 else:
                     repl = next_candidate_for_slot(FORMATION[i], roles_by_pos, used_ids - {p.player_id}, excluded, subs)
                 if repl is not None and repl.player_id in (used_ids - {p.player_id}):
-                    for k, sp in enumerate(subs):
-                        if sp and sp.player_id == repl.player_id:
-                            subs[k] = None
-                            break
+                    existing_idx = find_player_index(subs, repl.player_id)
+                    if existing_idx is not None:
+                        existing = subs[existing_idx]
+                        if existing is not None and existing.rating >= repl.rating:
+                            repl = None
+                        else:
+                            subs[existing_idx] = None
                 subs[i] = repl
+                if repl is not None:
+                    used_ids.add(repl.player_id)
+                any_sub_changed = True
+
+            if not any_sub_changed:
+                break
+
+            used_ids = {p.player_id for p in (starters + subs) if p is not None}
+            for j, sp in enumerate(subs):
+                if sp is not None:
+                    continue
+                excluded = sub_excluded.setdefault(j, set())
+                slot = FORMATION[j]
+                if slot in ("LWF", "RWF"):
+                    repl = next_candidate_for_sub_wing(slot, roles_by_pos, used_ids, excluded)
+                else:
+                    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded)
+                subs[j] = repl
                 if repl is not None:
                     used_ids.add(repl.player_id)
 
@@ -618,10 +682,7 @@ def build_gameplan(conn, roles_by_pos):
                 if repl is not None:
                     used_ids.add(repl.player_id)
 
-        if not replaced:
-            break
-
-    assignments, used_numbers = assign_jerseys(conn, starters, subs)
+    assignments, used_numbers = assign_jerseys(conn, starters, subs, recent_soft_reserved=recent_soft_reserved)
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
     for i, p in enumerate(starters):
@@ -645,6 +706,15 @@ def build_gameplan(conn, roles_by_pos):
 
     starter_vacant_indices = [i for i, p in enumerate(starters) if p is None]
     sub_vacant_indices = [i for i, p in enumerate(subs) if p is None]
+
+    def lineup_soft_reserved():
+        result = set()
+        for p in starters + subs:
+            if p is not None and p.recent:
+                mr, _, _ = load_jersey_stats(conn, p.player_id)
+                if mr is not None:
+                    result.add(mr)
+        return result
 
     def fill_vacancies(
         vacant_indices,
@@ -689,7 +759,13 @@ def build_gameplan(conn, roles_by_pos):
                     else:
                         raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
 
-                    num = choose_jersey_for_player(conn, r, used_numbers, assignments, blocked_numbers)
+                    num = choose_jersey_for_player(conn, r, used_numbers, assignments, blocked_numbers, fallback_reserved=recent_soft_reserved)
+                    if num is None and r.recent:
+                        num = try_free_jersey_via_swap(
+                            conn, r, used_numbers, assignments,
+                            [p for p in starters + subs if p is not None],
+                            starter_ids={p.player_id for p in starters if p is not None},
+                        )
                     if num is None:
                         continue
 
@@ -762,6 +838,43 @@ def build_gameplan(conn, roles_by_pos):
             if best_player is not None:
                 return best_player, best_number
         return None, None
+
+    def upgrade_subs():
+        nonlocal used_ids, used_numbers, assignments
+        changed = True
+        while changed:
+            changed = False
+            dyn_reserved = lineup_soft_reserved()
+            for i, p in enumerate(subs):
+                if p is None:
+                    continue
+                slot = FORMATION[i]
+                for candidate in all_roles:
+                    if candidate.player_id in used_ids:
+                        continue
+                    if candidate.position != slot:
+                        continue
+                    if is_standard(candidate) != is_standard(p):
+                        continue
+                    if candidate.rating <= p.rating:
+                        continue
+                    old_num = assignments.pop(p.player_id, None)
+                    if old_num is not None:
+                        used_numbers.discard(old_num)
+                    used_ids.discard(p.player_id)
+                    num = choose_jersey_for_player(conn, candidate, used_numbers, assignments, None, fallback_reserved=dyn_reserved)
+                    if num is None:
+                        if old_num is not None:
+                            assignments[p.player_id] = old_num
+                            used_numbers.add(old_num)
+                        used_ids.add(p.player_id)
+                        continue
+                    subs[i] = candidate
+                    assignments[candidate.player_id] = num
+                    used_numbers.add(num)
+                    used_ids.add(candidate.player_id)
+                    changed = True
+                    break
 
     def try_swap_fill_sub_vacancies():
         nonlocal used_ids, used_numbers, assignments
@@ -948,6 +1061,7 @@ def build_gameplan(conn, roles_by_pos):
         allow_from_subs=False,
     )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    upgrade_subs()
     try_swap_fill_sub_vacancies()
 
     starter_asg = []
@@ -981,11 +1095,13 @@ def build_gameplan(conn, roles_by_pos):
     wildcard_asg = None
     for candidate in sorted(all_roles, key=lambda r: r.rating, reverse=True):
         _mr, prefs = jersey_prefs_for_player(conn, candidate)
+        num = None
         for n in prefs:
             if n not in used_numbers:
-                wildcard_asg = Assignment(slot="WILD", player=candidate, jersey=n)
+                num = n
                 break
-        if wildcard_asg is not None:
+        if num is not None:
+            wildcard_asg = Assignment(slot="WILD", player=candidate, jersey=num)
             break
 
     return starter_asg, sub_asg, wildcard_asg

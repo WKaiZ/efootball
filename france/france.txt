@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Mattéo Guendouzi (CMF) rating 94.98 #12
   [DMF] Boubacar Kamara (DMF) rating 95.27 #13
   [LB] Lucas Hernández (LB) rating 94.06 #21
-  [CB] William Saliba (CB) rating 96.99 #17
   [CB] Ibrahima Konaté (CB) rating 96.69 #24
+  [CB] William Saliba (CB) rating 96.99 #17
   [RB] Jules Koundé (RB) rating 95.10 #5
   [GK] Brice Samba (GK) rating 94.95 #1
 
