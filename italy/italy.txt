@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Gennaro Gattuso (DMF) rating 97.38 #8
   [LB] Riccardo Calafiori (LB) rating 95.82 #13
-  [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [CB] Alessandro Nesta (CB) rating 97.65 #2
+  [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [RB] Alessandro Costacurta (RB) rating 97.15 #4
   [GK] Christian Abbiati (GK) rating 97.74 #12
 
