@@ -10,7 +10,7 @@ Ivan Perišić, RMF, 93.99, False, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF
 Ivan Perišić, RWF, 93.94, False, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF, CMF]
 Martin Baturina, CMF, 94.17, True, Highlight, [CMF, AMF], [SS, LMF, DMF]
 Ante Budimir, CF, 94.98, True, Highlight, [CF], [SS]
-Luka Sucic, CMF, 94.04, True, Highlight, [CMF], [AMF, DMF, LMF, RMF]
+Luka Sucic, CMF, 94.16, True, Highlight, [CMF, AMF], [DMF, LMF, RMF]
 Bruno Petkovic, CF, 76.15, False, Standard, [CF], [SS, RWF, AMF]
 Petar Musa, CF, 74.74, True, Standard, [CF], [SS]
 Franjo Ivanović, CF, 72.59, False, Standard, [CF], [SS, RWF]

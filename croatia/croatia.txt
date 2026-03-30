@@ -25,4 +25,4 @@ Substitutes:
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
-  [WILD] Luka Sucic (CMF) rating 94.04 #21
+  [WILD] Luka Sucic (CMF) rating 94.16 #21

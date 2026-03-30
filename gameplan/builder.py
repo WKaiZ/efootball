@@ -154,8 +154,11 @@ def build_gameplan(conn, roles_by_pos):
         blocked_numbers,
         update_blocked,
         allow_from_subs,
+        swap_protected_player_ids=None,
     ):
         nonlocal used_ids
+        if swap_protected_player_ids is None:
+            swap_protected_player_ids = {p.player_id for p in starters if p is not None}
         while True:
             open_slots = [i for i in vacant_indices if target_list[i] is None]
             if not open_slots:
@@ -204,7 +207,7 @@ def build_gameplan(conn, roles_by_pos):
                             used_numbers,
                             assignments,
                             [p for p in starters + subs if p is not None],
-                            starter_ids={p.player_id for p in starters if p is not None},
+                            starter_ids=swap_protected_player_ids,
                         )
                     if num is None:
                         continue
@@ -400,6 +403,26 @@ def build_gameplan(conn, roles_by_pos):
     fill_vacancies(
         starter_vacant_indices,
         starters,
+        "main",
+        want_standard=False,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(
+        [i for i, p in enumerate(starters) if p is None],
+        starters,
+        "main",
+        want_standard=True,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(
+        [i for i, p in enumerate(starters) if p is None],
+        starters,
         "proficient",
         want_standard=False,
         blocked_numbers=starter_blocked_numbers,
@@ -411,16 +434,6 @@ def build_gameplan(conn, roles_by_pos):
         [i for i, p in enumerate(starters) if p is None],
         starters,
         "proficient",
-        want_standard=True,
-        blocked_numbers=starter_blocked_numbers,
-        update_blocked=True,
-        allow_from_subs=True,
-    )
-    used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies(
-        [i for i, p in enumerate(starters) if p is None],
-        starters,
-        "main",
         want_standard=True,
         blocked_numbers=starter_blocked_numbers,
         update_blocked=True,
@@ -435,6 +448,8 @@ def build_gameplan(conn, roles_by_pos):
         blocked_numbers=None,
         update_blocked=False,
         allow_from_subs=False,
+        swap_protected_player_ids={p.player_id for p in starters if p is not None}
+        | {p.player_id for i, p in enumerate(subs) if p is not None and p.position == FORMATION[i]},
     )
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
     for spec in (
@@ -445,6 +460,12 @@ def build_gameplan(conn, roles_by_pos):
         ("semiproficient", True),
     ):
         pos_set, want_std = spec
+        main_sub_ids = {
+            p.player_id
+            for i, p in enumerate(subs)
+            if p is not None and p.position == FORMATION[i]
+        }
+        protected_swap_ids = {p.player_id for p in starters if p is not None} | main_sub_ids
         fill_vacancies(
             [i for i, p in enumerate(subs) if p is None],
             subs,
@@ -453,6 +474,7 @@ def build_gameplan(conn, roles_by_pos):
             blocked_numbers=None,
             update_blocked=False,
             allow_from_subs=False,
+            swap_protected_player_ids=protected_swap_ids,
         )
         used_ids = {p.player_id for p in (starters + subs) if p is not None}
 

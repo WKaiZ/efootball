@@ -14,10 +14,10 @@ Starters:
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
   [LWF] Bradley Barcola (LWF) rating 95.72 #20
-  [RMF] Maghnes Akliouche (RMF) rating 94.00 #25
+  [RMF] Christian Karembeu (RMF) rating 96.12 #12
   [AMF] Eduardo Camavinga (AMF) rating 95.33 #6
-  [CMF] Mattéo Guendouzi (CMF) rating 94.98 #12
-  [DMF] Boubacar Kamara (DMF) rating 95.27 #13
+  [CMF] Rayan Cherki (AMF) rating 95.21 #25
+  [DMF] N'Golo Kanté (DMF) rating 93.96 #13
   [LB] Lucas Hernández (LB) rating 94.06 #21
   [CB] Ibrahima Konaté (CB) rating 96.69 #24
   [CB] William Saliba (CB) rating 96.99 #17

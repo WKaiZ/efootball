@@ -182,11 +182,23 @@ def assign_group_jerseys(
 
 
 def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
-    starter_players_all = [p for p in starters if p is not None]
-    sub_players_all = [p for p in subs if p is not None]
-
-    starter_nonstd = [p for p in starter_players_all if not is_standard(p)]
-    starter_std = [p for p in starter_players_all if is_standard(p)]
+    starter_main_nonstd = []
+    starter_main_std = []
+    starter_prof_nonstd = []
+    starter_prof_std = []
+    for slot, p in zip(FORMATION, starters):
+        if p is None:
+            continue
+        if p.position == slot:
+            if is_standard(p):
+                starter_main_std.append(p)
+            else:
+                starter_main_nonstd.append(p)
+        else:
+            if is_standard(p):
+                starter_prof_std.append(p)
+            else:
+                starter_prof_nonstd.append(p)
 
     sub_ss_nonstd = []
     sub_nonstd_normal = []
@@ -205,7 +217,20 @@ def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
     used_numbers = set()
     assignments = {}
 
-    assign_group_jerseys(conn, starter_nonstd, used_numbers, assignments, allow_recent_lock=True)
+    assign_group_jerseys(
+        conn,
+        starter_main_nonstd,
+        used_numbers,
+        assignments,
+        allow_recent_lock=True,
+    )
+    assign_group_jerseys(
+        conn,
+        starter_prof_nonstd,
+        used_numbers,
+        assignments,
+        allow_recent_lock=True,
+    )
     assign_group_jerseys(
         conn,
         sub_nonstd_normal,
@@ -222,7 +247,20 @@ def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
         allow_recent_lock=True,
         fallback_reserved=recent_soft_reserved,
     )
-    assign_group_jerseys(conn, starter_std, used_numbers, assignments, allow_recent_lock=True)
+    assign_group_jerseys(
+        conn,
+        starter_main_std,
+        used_numbers,
+        assignments,
+        allow_recent_lock=True,
+    )
+    assign_group_jerseys(
+        conn,
+        starter_prof_std,
+        used_numbers,
+        assignments,
+        allow_recent_lock=True,
+    )
     assign_group_jerseys(
         conn,
         sub_std,

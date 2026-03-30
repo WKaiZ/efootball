@@ -4,7 +4,7 @@ Starters:
   [RWF] Matteo Politano (RWF) rating 94.89 #7
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #17
-  [DMF] Andrea Pirlo (DMF) rating 98.10 #21
+  [DMF] Gennaro Gattuso (DMF) rating 99.40 #8
   [LB] Paolo Maldini (LB) rating 97.30 #3
   [CB] Fabio Cannavaro (CB) rating 99.00 #5
   [CB] Franco Baresi (CB) rating 98.40 #6
@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Riccardo Orsolini (RWF) rating 78.21 #23
   [AMF] Roberto Baggio (AMF) rating 97.83 #16
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
-  [DMF] Gennaro Gattuso (DMF) rating 97.38 #8
+  [DMF] Andrea Pirlo (DMF) rating 98.10 #21
   [LB] Riccardo Calafiori (LB) rating 95.82 #13
   [CB] Alessandro Nesta (CB) rating 97.65 #2
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
