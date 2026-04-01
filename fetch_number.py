@@ -485,7 +485,21 @@ def _espn_token_equiv(local_tok, espn_tok):
         return True
     if _name_token_is_initial_abbrev(local_tok) and espn_tok.startswith(local_tok[0]) and len(espn_tok) > 1:
         return True
-    if local_tok.startswith(espn_tok) or espn_tok.startswith(local_tok):
+    short = min(len(local_tok), len(espn_tok))
+    long_tok, short_tok = (
+        (local_tok, espn_tok) if len(local_tok) >= len(espn_tok) else (espn_tok, local_tok)
+    )
+    if short < 4 and (local_tok.startswith(espn_tok) or espn_tok.startswith(local_tok)):
+        return True
+    if short >= 3 and long_tok.startswith(short_tok) and short_tok != long_tok:
+        return True
+    return False
+
+
+def _surname_tokens_compatible(local_last, espn_last):
+    if local_last == espn_last:
+        return True
+    if min(len(local_last), len(espn_last)) >= 4 and levenshtein(local_last, espn_last) <= 2:
         return True
     return False
 
@@ -512,6 +526,11 @@ def compatible_name_tokens(local_name, espn_alias):
     espn_tokens = [tok for tok in an.split() if tok]
     if not local_tokens or not espn_tokens:
         return False
+    if len(espn_tokens) == 2 and _name_token_is_initial_abbrev(espn_tokens[0]):
+        return False
+    if len(local_tokens) >= 2 and len(espn_tokens) >= 2:
+        if not _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1]):
+            return False
     return _local_tokens_match_espn_ordered_subsequence(local_tokens, espn_tokens)
 
 def invalid_transfermarkt_title(title_text):
@@ -539,11 +558,7 @@ def espn_lineup_role(position_abbreviation):
 def roster_role_compatible(profile_roles, espn_role):
     if not espn_role or not profile_roles:
         return True
-    if espn_role in profile_roles:
-        return True
-    if espn_role in {'M', 'F'} and profile_roles & {'M', 'F'}:
-        return True
-    return False
+    return espn_role in profile_roles
 
 def fetch_espn_athlete_role(athlete_id):
     if not athlete_id:
@@ -750,12 +765,9 @@ def map_recent_players_to_roster(player_profiles, latest_match):
                     continue
                 roster_tokens = [tok for tok in key.split() if tok]
                 if len(roster_tokens) == 1:
-                    if any((roster_tokens[0] in alias.split() for alias in espn_player['aliases'])):
+                    if any((roster_tokens[0] == t for alias in espn_player['aliases'] for t in alias.split())):
                         matched_key = key
                         break
-                elif any((alias.startswith(key + ' ') or key.startswith(alias + ' ') for alias in espn_player['aliases'])):
-                    matched_key = key
-                    break
         if matched_key is None:
             continue
         taken.add(matched_key)

@@ -4,7 +4,7 @@ Starters:
   [RWF] Matteo Politano (RWF) rating 94.89 #7
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #17
-  [DMF] Gennaro Gattuso (DMF) rating 99.40 #8
+  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Paolo Maldini (LB) rating 97.30 #3
   [CB] Fabio Cannavaro (CB) rating 99.00 #5
   [CB] Franco Baresi (CB) rating 98.40 #6

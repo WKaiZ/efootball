@@ -13,10 +13,10 @@ Starters:
 
 Substitutes:
   [CF] Adriano (CF) rating 98.39 #9
-  [LWF] Vinicius Junior (LWF) rating 99.11 #18
-  [RWF] Raphinha (RWF) rating 94.31 #11
+  [LWF] Neymar (LWF) rating 99.19 #11
+  [RWF] Raphinha (RWF) rating 94.31 #19
   [AMF] Matheus Cunha (AMF) rating 96.23 #21
-  [CMF] Gerson (CMF) rating 77.28 #19
+  [CMF] Joelinton (CMF) rating 94.78 #18
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Caio Henrique (LB) rating 94.42 #16
   [CB] Murillo (CB) rating 95.27 #14
