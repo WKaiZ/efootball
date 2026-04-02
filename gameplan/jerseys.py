@@ -123,13 +123,112 @@ def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers
     return None
 
 
+def _assign_epic_nonrecent_greedy(
+    players, used_numbers, assignments, most_recent_map, prefs_map
+):
+    epic_nr = [
+        p
+        for p in players
+        if p.player_id not in assignments
+        and card_priority(p.card_type) == 0
+        and not p.recent
+    ]
+    prio_players = sorted(epic_nr, key=lambda r: -r.rating)
+    bench_recent_non_epic = [
+        q
+        for q in players
+        if q.recent and card_priority(q.card_type) > 0 and q.player_id not in assignments
+    ]
+    for p in prio_players:
+        prefs = prefs_map.get(p.player_id, [])
+        for pref_idx, num in enumerate(prefs):
+            if num in used_numbers:
+                continue
+            blocked_by_recent_mr = False
+            for q in bench_recent_non_epic:
+                mq = most_recent_map.get(q.player_id)
+                if mq is None or mq != num:
+                    continue
+                if (
+                    pref_idx > 0
+                    and p.rating > q.rating
+                    and most_recent_map.get(p.player_id) != num
+                ):
+                    continue
+                blocked_by_recent_mr = True
+                break
+            if blocked_by_recent_mr:
+                continue
+            if pref_idx > 0:
+                blocked_by_other_first_choice = False
+                for other in prio_players:
+                    if other.player_id == p.player_id or other.player_id in assignments:
+                        continue
+                    other_prefs = prefs_map.get(other.player_id, [])
+                    if other_prefs and other_prefs[0] == num:
+                        blocked_by_other_first_choice = True
+                        break
+                if blocked_by_other_first_choice:
+                    continue
+            assignments[p.player_id] = num
+            used_numbers.add(num)
+            break
+
+
+def _assign_substitute_group(
+    conn,
+    players,
+    used_numbers,
+    assignments,
+):
+    if not players:
+        return
+    most_recent_map = {}
+    prefs_map = {}
+    for p in players:
+        if p.player_id not in most_recent_map:
+            mr, prefs = jersey_prefs_for_player(conn, p)
+            most_recent_map[p.player_id] = mr
+            prefs_map[p.player_id] = prefs
+
+    _assign_epic_nonrecent_greedy(
+        players, used_numbers, assignments, most_recent_map, prefs_map
+    )
+
+    for p in sorted(
+        (
+            x
+            for x in players
+            if x.player_id not in assignments
+            and x.recent
+            and card_priority(x.card_type) > 0
+        ),
+        key=lambda r: -r.rating,
+    ):
+        mr = most_recent_map.get(p.player_id)
+        if mr is not None and mr not in used_numbers:
+            assignments[p.player_id] = mr
+            used_numbers.add(mr)
+
+    remaining = [p for p in players if p.player_id not in assignments]
+    if remaining:
+        assign_group_jerseys(
+            conn,
+            remaining,
+            used_numbers,
+            assignments,
+            allow_recent_lock=True,
+            recent_lock_global=False,
+        )
+
+
 def assign_group_jerseys(
     conn,
     players,
     used_numbers,
     assignments,
     allow_recent_lock,
-    fallback_reserved=None,
+    recent_lock_global=False,
 ):
     most_recent_map = {}
     prefs_map = {}
@@ -140,13 +239,16 @@ def assign_group_jerseys(
             most_recent_map[p.player_id] = mr
             prefs_map[p.player_id] = prefs
 
-    if allow_recent_lock:
-        for p in players:
-            if p.recent:
-                mr = most_recent_map.get(p.player_id)
-                if mr is not None and mr not in used_numbers and p.player_id not in assignments:
-                    assignments[p.player_id] = mr
-                    used_numbers.add(mr)
+    if allow_recent_lock and recent_lock_global:
+        for p in sorted(players, key=lambda r: -r.rating):
+            if p.player_id in assignments:
+                continue
+            if not p.recent:
+                continue
+            mr = most_recent_map.get(p.player_id)
+            if mr is not None and mr not in used_numbers:
+                assignments[p.player_id] = mr
+                used_numbers.add(mr)
 
     buckets = {0: [], 1: [], 2: [], 3: []}
     for p in players:
@@ -155,7 +257,17 @@ def assign_group_jerseys(
         buckets[card_priority(p.card_type)].append(p)
 
     for prio in range(4):
-        prio_players = sorted(buckets[prio], key=lambda r: (0 if r.recent else 1, -r.rating))
+        prio_players = sorted(buckets[prio], key=lambda r: -r.rating)
+        if allow_recent_lock and not recent_lock_global:
+            for p in prio_players:
+                if p.player_id in assignments:
+                    continue
+                if not p.recent:
+                    continue
+                mr = most_recent_map.get(p.player_id)
+                if mr is not None and mr not in used_numbers:
+                    assignments[p.player_id] = mr
+                    used_numbers.add(mr)
         for p in prio_players:
             if p.player_id in assignments:
                 continue
@@ -164,8 +276,6 @@ def assign_group_jerseys(
                 if num in used_numbers:
                     continue
                 if pref_idx > 0:
-                    if not p.recent and fallback_reserved and num in fallback_reserved:
-                        continue
                     blocked_by_other_first_choice = False
                     for other in prio_players:
                         if other.player_id == p.player_id or other.player_id in assignments:
@@ -181,7 +291,7 @@ def assign_group_jerseys(
                 break
 
 
-def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
+def assign_jerseys(conn, starters, subs):
     starter_main_nonstd = []
     starter_main_std = []
     starter_prof_nonstd = []
@@ -223,6 +333,7 @@ def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
         used_numbers,
         assignments,
         allow_recent_lock=True,
+        recent_lock_global=True,
     )
     assign_group_jerseys(
         conn,
@@ -230,29 +341,17 @@ def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
         used_numbers,
         assignments,
         allow_recent_lock=True,
+        recent_lock_global=True,
     )
-    assign_group_jerseys(
-        conn,
-        sub_nonstd_normal,
-        used_numbers,
-        assignments,
-        allow_recent_lock=True,
-        fallback_reserved=recent_soft_reserved,
-    )
-    assign_group_jerseys(
-        conn,
-        sub_ss_nonstd,
-        used_numbers,
-        assignments,
-        allow_recent_lock=True,
-        fallback_reserved=recent_soft_reserved,
-    )
+    _assign_substitute_group(conn, sub_nonstd_normal, used_numbers, assignments)
+    _assign_substitute_group(conn, sub_ss_nonstd, used_numbers, assignments)
     assign_group_jerseys(
         conn,
         starter_main_std,
         used_numbers,
         assignments,
         allow_recent_lock=True,
+        recent_lock_global=True,
     )
     assign_group_jerseys(
         conn,
@@ -260,13 +359,7 @@ def assign_jerseys(conn, starters, subs, recent_soft_reserved=None):
         used_numbers,
         assignments,
         allow_recent_lock=True,
+        recent_lock_global=True,
     )
-    assign_group_jerseys(
-        conn,
-        sub_std,
-        used_numbers,
-        assignments,
-        allow_recent_lock=True,
-        fallback_reserved=recent_soft_reserved,
-    )
+    _assign_substitute_group(conn, sub_std, used_numbers, assignments)
     return assignments, used_numbers

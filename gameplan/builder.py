@@ -41,7 +41,7 @@ def build_gameplan(conn, roles_by_pos):
 
         recent_soft_reserved = _recent_soft_reserved_numbers(conn, starters, subs)
 
-        assignments, used_numbers = assign_jerseys(conn, starters, subs, recent_soft_reserved=recent_soft_reserved)
+        assignments, used_numbers = assign_jerseys(conn, starters, subs)
         used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
         replaced = False
@@ -118,7 +118,7 @@ def build_gameplan(conn, roles_by_pos):
             used_ids = {p.player_id for p in (starters + subs) if p is not None}
             refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos)
 
-    assignments, used_numbers = assign_jerseys(conn, starters, subs, recent_soft_reserved=recent_soft_reserved)
+    assignments, used_numbers = assign_jerseys(conn, starters, subs)
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
     for i, p in enumerate(starters):
@@ -284,15 +284,16 @@ def build_gameplan(conn, roles_by_pos):
                 if p is None:
                     continue
                 slot = FORMATION[i]
-                for candidate in all_roles:
-                    if candidate.player_id in used_ids:
-                        continue
-                    if candidate.position != slot:
-                        continue
-                    if is_standard(candidate) != is_standard(p):
-                        continue
-                    if candidate.rating <= p.rating:
-                        continue
+                candidates = [
+                    c
+                    for c in all_roles
+                    if c.player_id not in used_ids
+                    and c.position == slot
+                    and is_standard(c) == is_standard(p)
+                    and c.rating > p.rating
+                ]
+                candidates.sort(key=lambda r: r.rating, reverse=True)
+                for candidate in candidates:
                     old_num = assignments.pop(p.player_id, None)
                     if old_num is not None:
                         used_numbers.discard(old_num)
