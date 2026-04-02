@@ -16,6 +16,8 @@ usage() {
   echo "  ./run_workflow.sh belgium france germany"
 }
 
+find . -depth -type d -name "__pycache__" -exec rm -rf {} +
+
 REFETCH_FLAG=""
 countries=()
 
