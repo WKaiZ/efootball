@@ -3,8 +3,8 @@ Starters:
   [LWF] Cody Gakpo (LWF) rating 94.99 #11
   [RWF] Dirk Kuyt (RWF) rating 95.92 #7
   [AMF] Johan Cruyff (AMF) rating 99.67 #14
-  [CMF] Clarence Seedorf (CMF) rating 99.00 #10
-  [DMF] Edgar Davids (DMF) rating 98.02 #8
+  [CMF] Mark van Bommel (CMF) rating 96.65 #6
+  [DMF] Clarence Seedorf (DMF) rating 99.26 #10
   [LB] Giovanni van Bronckhorst (LB) rating 97.01 #5
   [CB] Jaap Stam (CB) rating 99.09 #3
   [CB] Virgil van Dijk (CB) rating 97.05 #4
@@ -16,13 +16,13 @@ Substitutes:
   [LWF] Arnaut Danjuma (LWF) rating 75.32 #22
   [RWF] Steven Berghuis (RWF) rating 94.30 #15
   [AMF] Wesley Sneijder (AMF) rating 96.38 #20
-  [CMF] Mark van Bommel (CMF) rating 96.65 #18
-  [DMF] Phillip Cocu (DMF) rating 96.93 #6
+  [CMF] Frenkie de Jong (CMF) rating 96.37 #21
+  [DMF] Edgar Davids (DMF) rating 98.02 #8
   [LB] Jorrel Hato (LB) rating 94.41 #25
   [CB] Frank Rijkaard (CB) rating 96.97 #17
   [CB] Ronald Koeman (CB) rating 96.01 #13
-  [RB] Jeremie Frimpong (RB) rating 94.43 #21
+  [RB] Jeremie Frimpong (RB) rating 94.43 #26
   [GK] Bart Verbruggen (GK) rating 93.92 #23
 
 Wildcard:
-  [WILD] Ryan Gravenberch (CMF) rating 96.23 #26
+  [WILD] Ryan Gravenberch (CMF) rating 96.23 #16

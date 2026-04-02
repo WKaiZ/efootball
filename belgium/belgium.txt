@@ -20,7 +20,7 @@ Substitutes:
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Joaquin Seys (LB) rating 67.94 #22
   [CB] Koni De Winter (CB) rating 94.33 #16
-  [CB] Zeno Debast (CB) rating 93.06 #2
+  [CB] Zeno Debast (CB) rating 93.95 #2
   [RB] Thomas Meunier (RB) rating 93.22 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 

@@ -6,8 +6,8 @@ Starters:
   [CMF] Roberto Donadoni (CMF) rating 97.54 #17
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Paolo Maldini (LB) rating 97.30 #3
+  [CB] Alessandro Nesta (CB) rating 100.56 #13
   [CB] Fabio Cannavaro (CB) rating 99.00 #5
-  [CB] Franco Baresi (CB) rating 98.40 #6
   [RB] Massimo Oddo (RB) rating 98.21 #22
   [GK] Gianluigi Buffon (GK) rating 99.98 #1
 
@@ -18,11 +18,11 @@ Substitutes:
   [AMF] Roberto Baggio (AMF) rating 97.83 #16
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Andrea Pirlo (DMF) rating 98.10 #21
-  [LB] Riccardo Calafiori (LB) rating 95.82 #13
-  [CB] Alessandro Nesta (CB) rating 97.65 #2
+  [LB] Andrea Cambiaso (LB) rating 93.50 #15
+  [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [RB] Alessandro Costacurta (RB) rating 97.15 #4
   [GK] Christian Abbiati (GK) rating 97.74 #12
 
 Wildcard:
-  [WILD] Gianfranco Zola (SS) rating 99.85 #15
+  [WILD] Christian Panucci (RB) rating 96.96 #2
