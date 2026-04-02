@@ -6,8 +6,8 @@ Starters:
   [CMF] Roberto Donadoni (CMF) rating 97.54 #17
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Paolo Maldini (LB) rating 97.30 #3
-  [CB] Alessandro Nesta (CB) rating 100.56 #13
   [CB] Fabio Cannavaro (CB) rating 99.00 #5
+  [CB] Alessandro Nesta (CB) rating 98.91 #13
   [RB] Massimo Oddo (RB) rating 98.21 #22
   [GK] Gianluigi Buffon (GK) rating 99.98 #1
 

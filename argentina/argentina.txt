@@ -5,7 +5,7 @@ Starters:
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #11
   [CMF] Alexis Mac Allister (CMF) rating 96.80 #20
   [DMF] Alan Varela (DMF) rating 94.32 #21
-  [LB] Javier Zanetti (LB) rating 99.32 #8
+  [LB] Javier Zanetti (LB) rating 99.02 #8
   [CB] Cristian Romero (CB) rating 95.21 #13
   [CB] Lisandro Martínez (CB) rating 94.93 #2
   [RB] Nahuel Molina (RB) rating 93.98 #26
