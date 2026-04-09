@@ -151,6 +151,7 @@ def _assign_epic_nonrecent_greedy(
                     continue
                 if (
                     pref_idx > 0
+                    and pref_idx <= 2
                     and p.rating > q.rating
                     and most_recent_map.get(p.player_id) != num
                 ):

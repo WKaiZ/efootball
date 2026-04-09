@@ -6,7 +6,7 @@ Starters:
   [CMF] Vitinha (CMF) rating 98.42 #23
   [DMF] Bernardo Silva (DMF) rating 95.44 #11
   [LB] Nuno Mendes (LB) rating 97.40 #25
-  [CB] Pepe (CB) rating 97.47 #3
+  [CB] Pepe (CB) rating 100.42 #3
   [CB] Rúben Dias (CB) rating 96.96 #4
   [RB] João Neves (RB) rating 95.62 #15
   [GK] Diogo Costa (GK) rating 95.05 #1
