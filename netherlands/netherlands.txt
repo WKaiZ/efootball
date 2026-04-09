@@ -15,7 +15,7 @@ Substitutes:
   [CF] Ruud van Nistelrooy (CF) rating 95.78 #12
   [LWF] Arnaut Danjuma (LWF) rating 75.32 #22
   [RWF] Steven Berghuis (RWF) rating 94.30 #15
-  [AMF] Wesley Sneijder (AMF) rating 99.20 #20
+  [AMF] Wesley Sneijder (AMF) rating 97.78 #20
   [CMF] Mark van Bommel (CMF) rating 96.65 #18
   [DMF] Phillip Cocu (DMF) rating 96.93 #6
   [LB] Jorrel Hato (LB) rating 94.41 #25
