@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Bilal El Khannouss (AMF) rating 73.11 #23
   [CMF] Azzedine Ounahi (CMF) rating 73.97 #8
   [DMF] Oussama El Azzouzi (DMF) rating 70.83 #16
-  [LB] Anass Salah-Eddine (LB) rating 70.33 #26
+  [LB] Anass Salah-Eddine (LB) rating 71.36 #26
   [CB] Chadi Riad (CB) rating 74.06 #18
   [CB] Jawad El Yamiq (CB) rating 74.27 #14
   [RB] Omar El Hilali (RB) rating 94.08 #15
