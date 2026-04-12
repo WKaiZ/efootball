@@ -31,6 +31,10 @@ MANUAL_ID_OVERRIDES = {
         "richard rios": "735573",
         "dani torres": "93142",
     },
+    "senegal" : {
+        'souleymane basse': '1111589',
+        'formose mendy': "649023",
+    }
 }
 
 

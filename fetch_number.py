@@ -138,8 +138,15 @@ MANUAL_ID_OVERRIDES = {
     'colombia': {
         'david silva': {'player_id': '74071', 'preserve_name': True},
         'richard rios': {'player_id': '159497', 'preserve_name': True},
-        "luis suarez": {'player_id': "424784", 'preserve_name': True},
-        "dani torres": {'player_id': "93142", 'preserve_name': True}
+        'luis suarez': {'player_id': '424784', 'preserve_name': True},
+        'dani torres': {'player_id': '93142', 'preserve_name': True}
+    },
+    'senegal': {
+        'idrissa gueye': {
+            'CF': {'player_id': '1178488', 'preserve_name': True}
+        },
+        'souleymane basse': {'player_id': '1111589', 'preserve_name': True},
+        'formose mendy': {'player_id': "649023", "preserve_name": True},
     }
 }
 
@@ -303,9 +310,17 @@ def get_official_name(conn, player_id):
     row = cur.fetchone()
     return row[0] if row else None
 
-def get_manual_override(country_name, player_name):
+def get_manual_override(country_name, player_name, position=None):
     country_overrides = MANUAL_ID_OVERRIDES.get(normalize_name(country_name), {})
-    return country_overrides.get(normalize_name(player_name))
+    override = country_overrides.get(normalize_name(player_name))
+    if not override:
+        return None
+    if 'player_id' in override:
+        return override
+    if position:
+        pos_key = position.strip().upper()
+        return override.get(pos_key) or override.get('default')
+    return None
 
 def country_display_name(country_name):
     return country_name.replace('_', ' ').strip().title()
@@ -475,6 +490,24 @@ def build_espn_player_aliases(player_entry):
             aliases.add(normalize_name(raw))
     return {alias for alias in aliases if alias}
 
+POSITION_SEARCH_PHRASES = {
+    'GK': 'goalkeeper',
+    'CB': 'center back',
+    'LB': 'left back',
+    'RB': 'right back',
+    'LWB': 'left wing back',
+    'RWB': 'right wing back',
+    'DMF': 'defensive midfielder',
+    'CMF': 'central midfielder',
+    'AMF': 'attacking midfielder',
+    'LMF': 'left midfielder',
+    'RMF': 'right midfielder',
+    'LWF': 'left wing forward',
+    'RWF': 'right wing forward',
+    'CF': 'center forward',
+    'SS': 'second striker',
+}
+
 def local_position_role(position):
     pos = (position or '').strip().upper()
     if pos == 'GK':
@@ -486,6 +519,11 @@ def local_position_role(position):
     if pos in {'LWF', 'RWF', 'SS', 'CF'}:
         return 'F'
     return None
+
+def position_search_phrase(position):
+    if not position:
+        return ''
+    return POSITION_SEARCH_PHRASES.get(position.strip().upper(), '')
 
 def build_local_player_profiles(raw_lines):
     profiles = {}
@@ -508,6 +546,22 @@ def build_local_player_profiles(raw_lines):
                 if role:
                     profile['roles'].add(role)
     return profiles
+
+def build_local_player_search_hints(raw_lines):
+    hints = {}
+    for line in raw_lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith('#'):
+            continue
+        parts = [p.strip() for p in line.split(',')]
+        if len(parts) < 2:
+            continue
+        name = parts[0]
+        main_pos = parts[1]
+        phrase = position_search_phrase(main_pos)
+        if phrase:
+            hints[normalize_name(name)] = phrase
+    return hints
 
 def _name_token_is_initial_abbrev(tok):
     return len(tok) == 2 and tok[1] == '.' and tok[0].isalpha()
@@ -887,13 +941,13 @@ def extract_national_numbers_from_html(html):
         club_low = club_cell.strip().lower()
         if re.search('\\s+b$', club_low):
             continue
-        if any((u in club_cell for u in ('U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U23', 'Olympic'))):
+        if any((u in club_cell for u in ('U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U23', 'Olympic', 'Olympia'))):
             continue
         by_number.setdefault(num, set()).add(club_cell)
         entries.append({'season': season, 'country': club_cell, 'number': num})
     return (by_number, entries)
 
-async def get_transfermarkt_id(player, page):
+async def get_transfermarkt_id(player, page, country_label=None, position_hint=None):
     wid = wikidata_transfermarkt_player_id(player)
     if wid:
         print(f'  Found ID for {player}: {wid} (Wikidata)')
@@ -903,7 +957,13 @@ async def get_transfermarkt_id(player, page):
         print(f'  Found ID for {player}: {ddg_html} (DuckDuckGo HTML)')
         return ddg_html
     name_normalized = normalize_name(player)
-    search_url = f'https://www.transfermarkt.com/suche/spieler?query={urllib.parse.quote(name_normalized)}'
+    query_parts = [name_normalized]
+    if position_hint:
+        query_parts.append(normalize_name(position_hint))
+    if country_label:
+        query_parts.append(normalize_name(country_label))
+    search_query = ' '.join(part for part in query_parts if part)
+    search_url = f'https://www.transfermarkt.com/suche/spieler?query={urllib.parse.quote(search_query)}'
     try:
         await page.goto(search_url)
         await page.wait_for_load_state('domcontentloaded')
@@ -1081,6 +1141,7 @@ async def main():
         country_label = country_display_name(country_name)
         players = []
         seen_names = set()
+        player_positions = {}
         for line in raw_lines:
             if not line.strip() or line.lstrip().startswith('#'):
                 continue
@@ -1088,11 +1149,14 @@ async def main():
             if not parts:
                 continue
             nk = normalize_name(parts[0])
+            if nk not in player_positions and len(parts) >= 2:
+                player_positions[nk] = parts[1]
             if nk in seen_names:
                 continue
             seen_names.add(nk)
             players.append(parts[0])
         player_profiles = build_local_player_profiles(raw_lines)
+        player_search_hints = build_local_player_search_hints(raw_lines)
         latest_match = None
         recent_flags = {}
         recent_numbers = {}
@@ -1113,12 +1177,18 @@ async def main():
         browser = await launch_chromium(p)
         page = await browser.new_page()
         for name in players:
-            override = get_manual_override(country_name, name)
+            player_position = player_positions.get(normalize_name(name))
+            override = get_manual_override(country_name, name, position=player_position)
             pid_str = id_map.get(normalize_name(name))
             if override:
                 pid_str = override['player_id']
             if not pid_str:
-                pid_str = await get_transfermarkt_id(name, page)
+                pid_str = await get_transfermarkt_id(
+                    name,
+                    page,
+                    country_label=country_label,
+                    position_hint=player_search_hints.get(normalize_name(name)),
+                )
                 await asyncio.sleep(5)
             if not pid_str:
                 print(f'Skipping {name}: could not resolve Transfermarkt ID.')
