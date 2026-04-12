@@ -34,7 +34,15 @@ MANUAL_ID_OVERRIDES = {
     "senegal" : {
         'souleymane basse': '1111589',
         'formose mendy': "649023",
-    }
+    },
+    "mexico": {
+        "henry martin": "286339",
+        "guillermo martinez": "347932",
+        "erick sanchez": "370875",
+        "osvaldo rodriguez": "295426",
+        "johan vasquez": "532937",
+        "felipe rodriguez": "102699",
+    },
 }
 
 

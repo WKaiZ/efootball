@@ -147,7 +147,15 @@ MANUAL_ID_OVERRIDES = {
         },
         'souleymane basse': {'player_id': '1111589', 'preserve_name': True},
         'formose mendy': {'player_id': "649023", "preserve_name": True},
-    }
+    },
+    'mexico': {
+        'henry martin': {'player_id': '286339', 'preserve_name': True},
+        'guillermo martinez': {'player_id': '347932', 'preserve_name': True},
+        'erick sanchez': {'player_id': '370875', 'preserve_name': True},
+        'osvaldo rodriguez': {'player_id': '295426', 'preserve_name': True},
+        'johan vasquez': {'player_id': '532937', 'preserve_name': True},
+        'felipe rodriguez': {'player_id': '102699', 'preserve_name': True},
+    },
 }
 
 def normalize_name(name):
@@ -941,7 +949,7 @@ def extract_national_numbers_from_html(html):
         club_low = club_cell.strip().lower()
         if re.search('\\s+b$', club_low):
             continue
-        if any((u in club_cell for u in ('U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U23', 'Olympic', 'Olympia'))):
+        if any((u in club_cell for u in ('U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U22', 'U23', 'Olympic', 'Olympia'))):
             continue
         by_number.setdefault(num, set()).add(club_cell)
         entries.append({'season': season, 'country': club_cell, 'number': num})

@@ -1,0 +1,28 @@
+Starters:
+  [CF] Santiago Gimenez (CF) rating 93.82 #11
+  [LWF] Hirving Lozano (LWF) rating 76.16 #13
+  [RWF] Roberto Alvarado (RWF) rating 75.12 #25
+  [AMF] Diéter Villalpando (AMF) rating 73.19 #22
+  [CMF] Álvaro Fidalgo (CMF) rating 76.08 #19
+  [DMF] Edson Álvarez (DMF) rating 77.46 #21
+  [LB] Jesús Angulo (LB) rating 73.77 #27
+  [CB] Rafa Márquez (CB) rating 96.20 #4
+  [CB] Israel Reyes (CB) rating 74.18 #15
+  [RB] Kevin Álvarez (RB) rating 74.26 #2
+  [GK] Luis Malagón (GK) rating 75.55 #1
+
+Substitutes:
+  [CF] Raúl Jiménez (CF) rating 76.65 #9
+  [LWF] Marcelo Flores (LWF) rating 72.25 #18
+  [RWF] Uriel Antuna (RWF) rating 74.34 #10
+  [AMF] Jonathan dos Santos (DMF) rating 72.89 #6
+  [CMF] Erick Sánchez (CMF) rating 75.05 #14
+  [DMF] Luis Romo (DMF) rating 75.48 #7
+  [LB] Osvaldo Rodríguez (LB) rating 72.21 #31
+  [CB] Gilberto Sepúlveda (CB) rating 73.37 #20
+  [CB] Johan Vásquez (CB) rating 73.36 #5
+  [RB] Julián Araujo (RB) rating 74.19 #16
+  [GK] Raúl Rangel (GK) rating 73.63 #12
+
+Wildcard:
+  [WILD] Érick Gutiérrez (DMF) rating 74.17 #8
