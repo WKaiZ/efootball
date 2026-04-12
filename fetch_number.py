@@ -134,6 +134,12 @@ MANUAL_ID_OVERRIDES = {
     }, 
     'italy': {
         'luca pellegrini': {'player_id': '346567', 'preserve_name': True}
+    },
+    'colombia': {
+        'david silva': {'player_id': '74071', 'preserve_name': True},
+        'richard rios': {'player_id': '159497', 'preserve_name': True},
+        "luis suarez": {'player_id': "424784", 'preserve_name': True},
+        "dani torres": {'player_id': "93142", 'preserve_name': True}
     }
 }
 
