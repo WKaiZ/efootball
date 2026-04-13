@@ -1,0 +1,28 @@
+Starters:
+  [CF] Folarin Balogun (CF) rating 93.99 #20
+  [LWF] Jordan Morris (LWF) rating 73.82 #13
+  [RWF] Christian Pulisic (RWF) rating 96.98 #10
+  [AMF] Malik Tillman (AMF) rating 94.37 #17
+  [CMF] Weston McKennie (CMF) rating 95.00 #8
+  [DMF] Johnny Cardoso (DMF) rating 93.98 #15
+  [LB] Antonee Robinson (LB) rating 95.01 #5
+  [CB] Chris Richards (CB) rating 76.47 #3
+  [CB] Cameron Carter-Vickers (CB) rating 76.43 #2
+  [RB] Sergiño Dest (RB) rating 74.33 #18
+  [GK] Zack Steffen (GK) rating 74.77 #22
+
+Substitutes:
+  [CF] Brandon Vazquez (CF) rating 74.94 #19
+  [LWF] Max Arfsten (LMF) rating 71.11 #27
+  [RWF] Paul Arriola (RWF) rating 73.71 #7
+  [AMF] Brenden Aaronson (AMF) rating 73.14 #11
+  [CMF] Yunus Musah (CMF) rating 74.52 #6
+  [DMF] Tyler Adams (DMF) rating 76.37 #4
+  [LB] Sam Vines (LB) rating 70.58 #21
+  [CB] Tim Ream (CB) rating 74.59 #14
+  [CB] Miles Robinson (CB) rating 74.51 #12
+  [RB] Alex Freeman (RB) rating 73.02 #16
+  [GK] Matt Turner (GK) rating 74.74 #1
+
+Wildcard:
+  [WILD] Ricardo Pepi (CF) rating 74.53 #9

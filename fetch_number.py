@@ -156,6 +156,9 @@ MANUAL_ID_OVERRIDES = {
         'johan vasquez': {'player_id': '532937', 'preserve_name': True},
         'felipe rodriguez': {'player_id': '102699', 'preserve_name': True},
     },
+    'usa': {
+        'patrick agyemang': {'player_id': '1089574', 'preserve_name': True},
+    },
 }
 
 def normalize_name(name):
@@ -331,7 +334,7 @@ def get_manual_override(country_name, player_name, position=None):
     return None
 
 def country_display_name(country_name):
-    return country_name.replace('_', ' ').strip().title()
+    return country_name.replace('_', ' ').replace('-', ' ').strip().title()
 
 def parse_args(argv):
     country_folder = 'belgium'
