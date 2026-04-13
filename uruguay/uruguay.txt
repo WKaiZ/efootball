@@ -1,0 +1,28 @@
+Starters:
+  [CF] Luis Suárez (CF) rating 98.73 #9
+  [LWF] Darwin Núñez (CF) rating 94.70 #19
+  [RWF] Facundo Torres (RWF) rating 75.64 #11
+  [AMF] Giorgian de Arrascaeta (AMF) rating 93.85 #10
+  [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
+  [DMF] Manuel Ugarte (DMF) rating 94.12 #5
+  [LB] Joaquín Piquerez (LB) rating 94.91 #22
+  [CB] Ronald Araujo (CB) rating 95.02 #4
+  [CB] José María Giménez (CB) rating 94.51 #2
+  [RB] Federico Valverde (RB) rating 95.52 #15
+  [GK] Fernando Muslera (GK) rating 78.60 #23
+
+Substitutes:
+  [CF] Diego Forlán (CF) rating 98.33 #21
+  [LWF] Brian Rodríguez (LWF) rating 73.61 #18
+  [RWF] Cristian Olivera (RWF) rating 73.66 #17
+  [AMF] Tiago Palacios (AMF) rating 74.77 #8
+  [CMF] Fernando Gorriarán (CMF) rating 76.07 #6
+  [DMF] Mauro Arambarri (DMF) rating 94.07 #20
+  [LB] Mathías Olivera (LB) rating 94.22 #16
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
+  [CB] Santiago Bueno (CB) rating 75.23 #3
+  [RB] Guillermo Varela (RB) rating 73.35 #13
+  [GK] Sergio Rochet (GK) rating 75.67 #1
+
+Wildcard:
+  [WILD] Lucas Torreira (DMF) rating 78.11 #14

@@ -156,6 +156,13 @@ MANUAL_ID_OVERRIDES = {
         'johan vasquez': {'player_id': '532937', 'preserve_name': True},
         'felipe rodriguez': {'player_id': '102699', 'preserve_name': True},
     },
+    'uruguay': {
+        'luis suarez': {'player_id': '44352', 'preserve_name': True},
+        'sebastian caceres': {'player_id': '532389', 'preserve_name': True},
+        'jose luis rodriguez': {'player_id': '430339', 'preserve_name': True},
+        'emiliano martinez': {'player_id': '707447', 'preserve_name': True},
+        'agustin alvarez': {'player_id': '812625', 'preserve_name': True},
+    },
     'usa': {
         'patrick agyemang': {'player_id': '1089574', 'preserve_name': True},
     },
@@ -906,6 +913,54 @@ def merge_jersey_entries(espn_entry, transfermarkt_entries):
             return entries
     return [espn_entry] + entries
 
+def _split_jersey_entries_by_nation(entries, expected_nation_label):
+    exp = normalize_name(expected_nation_label)
+    matching = []
+    foreign = []
+    for e in entries:
+        c = normalize_name((e.get('country') or ''))
+        if c == exp:
+            matching.append(e)
+        else:
+            foreign.append(e)
+    return (matching, foreign)
+
+def warn_jersey_entries_nation_mismatch(entries, expected_nation_label, player_name, player_id):
+    if not expected_nation_label or not entries:
+        return
+    matching, foreign = _split_jersey_entries_by_nation(entries, expected_nation_label)
+    if not matching and foreign:
+        foreign_labels = sorted({e['country'] for e in foreign})
+        print(
+            f'  Warning: No {expected_nation_label} national shirt number for {player_name} ({player_id}); '
+            f'Transfermarkt lists only: {", ".join(foreign_labels)}'
+        )
+    elif matching and foreign:
+        foreign_labels = sorted({e['country'] for e in foreign})
+        print(
+            f'  Warning: {player_name} ({player_id}) has national shirt numbers for other nations too: '
+            f'{", ".join(foreign_labels)}'
+        )
+
+def warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label):
+    if not expected_nation_label:
+        return
+    cur = conn.cursor()
+    cur.execute('SELECT name FROM players WHERE player_id = ?', (str(player_id),))
+    row = cur.fetchone()
+    db_name = row[0] if row else str(player_id)
+    cur.execute('SELECT DISTINCT country FROM jersey WHERE player_id = ?', (str(player_id),))
+    countries = [r[0] for r in cur.fetchall()]
+    if not countries:
+        return
+    exp = normalize_name(expected_nation_label)
+    if any((normalize_name(c) == exp for c in countries)):
+        return
+    print(
+        f'  Warning: Cached jersey rows for {db_name} ({player_id}) include no {expected_nation_label} entry; '
+        f'nations present: {", ".join(sorted(countries))}'
+    )
+
 def store_jersey_entries(conn, player_id, official_name, entries, cache_country_filter=None):
     by_number = {}
     for entry in entries:
@@ -952,7 +1007,11 @@ def extract_national_numbers_from_html(html):
         club_low = club_cell.strip().lower()
         if re.search('\\s+b$', club_low):
             continue
-        if any((u in club_cell for u in ('U15', 'U16', 'U17', 'U18', 'U19', 'U20', 'U21', 'U22', 'U23', 'Olympic', 'Olympia'))):
+        skip_team_markers = (
+            'u15', 'u16', 'u17', 'u18', 'u19', 'u20', 'u21', 'u22', 'u23',
+            'olympic', 'olympics', 'olympia', 'olympiad',
+        )
+        if any((marker in club_low for marker in skip_team_markers)):
             continue
         by_number.setdefault(num, set()).add(club_cell)
         entries.append({'season': season, 'country': club_cell, 'number': num})
@@ -1081,9 +1140,10 @@ def load_cached_numbers_from_db(conn, player_id, country_filter=None):
         print(f'  {n}: {countries}')
     return sorted(nums_by_country.keys(), key=int)
 
-async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None, cache_country_filter=None, espn_seed_entry=None):
+async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None, cache_country_filter=None, espn_seed_entry=None, expected_nation_label=None):
     nums = load_cached_numbers_from_db(conn, player_id, country_filter=cache_country_filter)
     if nums:
+        warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label)
         return (nums, True)
     url = f'https://www.transfermarkt.com/-/rueckennummern/spieler/{player_id}'
     try:
@@ -1092,6 +1152,7 @@ async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_ov
         print(f'  Timeout loading {url}. Skipping for now.')
         if espn_seed_entry:
             official_name = db_name_override or name
+            warn_jersey_entries_nation_mismatch([espn_seed_entry], expected_nation_label, official_name, player_id)
             nums, by_number = store_jersey_entries(conn, player_id, official_name, [espn_seed_entry], cache_country_filter=cache_country_filter)
             print(f'{official_name} {player_id} national jersey numbers (ESPN fallback):')
             for n in nums:
@@ -1128,6 +1189,7 @@ async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_ov
             print(f'  Failed to write debug HTML for {player_id}: {e}')
     entries = tm_only_entries
     entries = merge_jersey_entries(espn_seed_entry, entries)
+    warn_jersey_entries_nation_mismatch(entries, expected_nation_label, official_name, player_id)
     nums, by_number = store_jersey_entries(conn, player_id, official_name, entries, cache_country_filter=cache_country_filter)
     if by_number:
         print(f'{official_name} {player_id} national jersey numbers:')
@@ -1215,7 +1277,16 @@ async def main():
             db_name_override = name if override and override.get('preserve_name') else None
             cache_country_filter = country_label if force_refetch else None
             espn_seed_entry = recent_numbers.get(normalize_name(name)) if force_refetch else None
-            nums, used_cache = await fetch_numbers_for_player(p, name, pid, conn, db_name_override=db_name_override, cache_country_filter=cache_country_filter, espn_seed_entry=espn_seed_entry)
+            nums, used_cache = await fetch_numbers_for_player(
+                p,
+                name,
+                pid,
+                conn,
+                db_name_override=db_name_override,
+                cache_country_filter=cache_country_filter,
+                espn_seed_entry=espn_seed_entry,
+                expected_nation_label=country_label,
+            )
             if not nums:
                 had_error = True
             refreshed_player_ids.add(pid)
