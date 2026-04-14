@@ -21,7 +21,6 @@ Christian Fassnacht, RWF, 72.23, False, Standard, [CF, RWF, RMF], [LWF, SS, AMF,
 Dereck Kutesa, RMF, 72.21, False, Standard, [LWF, LMF, RWF, RMF], [CF, SS, AMF, CMF]
 Christian Witzig, LMF, 71.53, False, Standard, [LWF, LMF, AMF, CMF], [SS, RWF, DMF]
 Xherdan Shaqiri, AMF, 74.45, False, Standard, [AMF, RWF, RMF], [LWF, CF, SS, LMF, CMF]
-Fabian Rieder, AMF, 72.73, True, Standard, [AMF, CMF], [SS, LMF, DMF]
 Remo Freuler, CMF, 75.47, True, Standard, [AMF, CMF, DMF], [LMF]
 Djibril Sow, CMF, 75.00, True, Standard, [CMF, DMF], [AMF]
 Vincent Sierro, CMF, 74.12, True, Standard, [CMF, DMF], [LMF, AMF, RMF]

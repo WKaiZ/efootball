@@ -2,7 +2,7 @@ Starters:
   [CF] Noah Okafor (CF) rating 95.18 #23
   [LWF] Rubén Vargas (LMF) rating 93.13 #17
   [RWF] Dan Ndoye (LMF) rating 93.45 #11
-  [AMF] Fabian Rieder (AMF) rating 72.73 #22
+  [AMF] Fabian Rieder (AMF) rating 93.24 #22
   [CMF] Granit Xhaka (CMF) rating 95.40 #10
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
   [LB] Ulisses Garcia (LB) rating 73.25 #19
