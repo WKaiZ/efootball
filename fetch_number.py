@@ -106,7 +106,8 @@ async def fetch_transfermarkt_rueckennummern_html(playwright, url: str):
     return await _transfermarkt_rueckennummern_playwright(playwright, url)
 MANUAL_ID_OVERRIDES = {
     'argentina': {
-        'nico gonzalez': {'player_id': '486031', 'preserve_name': True}
+        'nico gonzalez': {'player_id': '486031', 'preserve_name': True},
+        'emiliano martinez': {'player_id': '111873', 'preserve_name': True},
     },
     'brazil': {
         'gabriel': {'player_id': '435338', 'preserve_name': True},

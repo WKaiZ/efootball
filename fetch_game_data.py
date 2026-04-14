@@ -9,6 +9,7 @@ DB_PATH = "pes.db"
 MANUAL_ID_OVERRIDES = {
     "argentina": {
         "nico gonzalez": "486031",
+        "emiliano martinez": "111873",
     },
     "brazil": {
         "gabriel": "435338",
