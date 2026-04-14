@@ -1,0 +1,28 @@
+Starters:
+  [CF] Rasmus Højlund (CF) rating 95.06 #9
+  [LWF] Mikkel Damsgaard (LWF) rating 93.39 #14
+  [RWF] Gustav Isaksen (RWF) rating 93.34 #8
+  [AMF] Jacob Bruun Larsen (LWF) rating 93.13 #11
+  [CMF] Christian Eriksen (CMF) rating 94.26 #10
+  [DMF] Pierre-Emile Højbjerg (CMF) rating 94.14 #23
+  [LB] Patrick Dorgu (LB) rating 94.08 #5
+  [CB] Andreas Christensen (CB) rating 93.40 #6
+  [CB] Joachim Andersen (CB) rating 78.21 #2
+  [RB] Alexander Bah (RB) rating 76.19 #18
+  [GK] Peter Schmeichel (GK) rating 99.74 #1
+
+Substitutes:
+  [CF] Mika Biereth (CF) rating 92.94 #12
+  [LWF] Martin Braithwaite (CF) rating 75.36 #15
+  [RWF] Anders Dreyer (RWF) rating 75.11 #20
+  [AMF] Noah Nartey (AMF) rating 72.18 #19
+  [CMF] Mathias Jensen (CMF) rating 94.00 #7
+  [DMF] Morten Hjulmand (DMF) rating 79.20 #21
+  [LB] Victor Kristiansen (LB) rating 73.92 #17
+  [CB] Victor Nelsson (CB) rating 76.30 #3
+  [CB] Jannik Vestergaard (CB) rating 74.72 #4
+  [RB] Rasmus Kristensen (RB) rating 75.05 #13
+  [GK] Filip Jørgensen (GK) rating 94.29 #22
+
+Wildcard:
+  [WILD] Kasper Schmeichel (GK) rating 76.62 #16
