@@ -163,6 +163,9 @@ MANUAL_ID_OVERRIDES = {
         'emiliano martinez': {'player_id': '707447', 'preserve_name': True},
         'agustin alvarez': {'player_id': '812625', 'preserve_name': True},
     },
+    'switzerland': {
+        'dominik schmid': {'player_id': '359409', 'preserve_name': True},
+    },
     'usa': {
         'patrick agyemang': {'player_id': '1089574', 'preserve_name': True},
     },

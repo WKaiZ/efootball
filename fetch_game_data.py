@@ -50,6 +50,9 @@ MANUAL_ID_OVERRIDES = {
         "emiliano martinez": "707447",
         "agustin alvarez": "812625",
     },
+    "switzerland": {
+        "dominik schmid": "359409",
+    },
     "usa": {
         "patrick agyemang": "1089574",
     },
