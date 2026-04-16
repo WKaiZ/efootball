@@ -32,6 +32,37 @@ def build_gameplan(conn, roles_by_pos):
     if not all_unique(starters + subs):
         raise RuntimeError("Internal error: duplicate player_id selected.")
 
+    all_roles = []
+    for lst in roles_by_pos.values():
+        all_roles.extend(lst)
+
+    def best_starter_replacement(slot, used_ids, excluded_ids, subs=None):
+        stage_order = (
+            ("main", False),
+            ("proficient", False),
+            ("main", True),
+            ("proficient", True),
+        )
+        for pos_set_name, want_standard in stage_order:
+            candidates = []
+            for r in all_roles:
+                if r.player_id in excluded_ids:
+                    continue
+                if r.player_id in used_ids and not (
+                    subs and any(sp and sp.player_id == r.player_id for sp in subs)
+                ):
+                    continue
+                if want_standard != is_standard(r):
+                    continue
+                if pos_set_name == "main" and slot != r.position:
+                    continue
+                if pos_set_name == "proficient" and slot not in r.proficient_positions:
+                    continue
+                candidates.append(r)
+            if candidates:
+                return max(candidates, key=lambda r: r.rating)
+        return None
+
     recent_soft_reserved = set()
     attempts = 0
     starter_excluded = {}
@@ -56,26 +87,17 @@ def build_gameplan(conn, roles_by_pos):
             used_without_this_starter = used_ids - {p.player_id}
             repl = None
 
-            best_sub_idx = None
-            best_sub = None
-            for j, sp in enumerate(subs):
-                if sp is None:
-                    continue
-                if sp.player_id in excluded:
-                    continue
-                if sp.position != slot:
-                    continue
-                if best_sub is None or sp.rating > best_sub.rating:
-                    best_sub = sp
-                    best_sub_idx = j
-
-            if best_sub is not None:
-                repl = best_sub
-                starters[i] = repl
-                subs[best_sub_idx] = None
-            else:
-                repl = next_candidate_for_slot(slot, roles_by_pos, used_without_this_starter, excluded)
-                starters[i] = repl
+            repl = best_starter_replacement(
+                slot,
+                used_without_this_starter,
+                excluded,
+                subs,
+            )
+            if repl is not None:
+                moved_sub_idx = find_player_index(subs, repl.player_id)
+                if moved_sub_idx is not None:
+                    subs[moved_sub_idx] = None
+            starters[i] = repl
             replaced = True
             break
 
@@ -133,10 +155,6 @@ def build_gameplan(conn, roles_by_pos):
         if p.player_id not in assignments:
             subs[i] = None
             used_ids.discard(p.player_id)
-
-    all_roles = []
-    for lst in roles_by_pos.values():
-        all_roles.extend(lst)
 
     remaining_roles = [r for r in all_roles if r.player_id not in used_ids]
 
@@ -414,16 +432,6 @@ def build_gameplan(conn, roles_by_pos):
     fill_vacancies(
         [i for i, p in enumerate(starters) if p is None],
         starters,
-        "main",
-        want_standard=True,
-        blocked_numbers=starter_blocked_numbers,
-        update_blocked=True,
-        allow_from_subs=True,
-    )
-    used_ids = {p.player_id for p in (starters + subs) if p is not None}
-    fill_vacancies(
-        [i for i, p in enumerate(starters) if p is None],
-        starters,
         "proficient",
         want_standard=False,
         blocked_numbers=starter_blocked_numbers,
@@ -435,6 +443,16 @@ def build_gameplan(conn, roles_by_pos):
         [i for i, p in enumerate(starters) if p is None],
         starters,
         "proficient",
+        want_standard=True,
+        blocked_numbers=starter_blocked_numbers,
+        update_blocked=True,
+        allow_from_subs=True,
+    )
+    used_ids = {p.player_id for p in (starters + subs) if p is not None}
+    fill_vacancies(
+        [i for i, p in enumerate(starters) if p is None],
+        starters,
+        "main",
         want_standard=True,
         blocked_numbers=starter_blocked_numbers,
         update_blocked=True,
