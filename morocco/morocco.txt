@@ -6,8 +6,8 @@ Starters:
   [CMF] Ismael Saibari (AMF) rating 91.24 #11
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
   [LB] Souffian El Karouani (LB) rating 73.33 #3
-  [CB] Romain Saïss (CB) rating 76.55 #6
   [CB] Medhi Benatia (CB) rating 94.38 #5
+  [CB] Omar El Hilali (RB) rating 94.08 #15
   [RB] Achraf Hakimi (RB) rating 95.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
@@ -19,9 +19,9 @@ Substitutes:
   [CMF] Azzedine Ounahi (CMF) rating 73.97 #8
   [DMF] Oussama El Azzouzi (DMF) rating 70.83 #16
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
-  [CB] Chadi Riad (CB) rating 74.06 #18
-  [CB] Jawad El Yamiq (CB) rating 74.27 #14
-  [RB] Omar El Hilali (RB) rating 94.08 #15
+  [CB] Jawad El Yamiq (CB) rating 74.27 #18
+  [CB] Romain Saïss (CB) rating 76.55 #6
+  [RB] Noussair Mazraoui (RB) rating 75.30 #14
   [GK] Munir El Kajoui (GK) rating 73.42 #12
 
 Wildcard:
