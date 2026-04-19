@@ -84,5 +84,5 @@ Darwin Quintero, SS, 73.98, False, Standard, [SS, AMF, LWF, RWF], [CF, LMF, CMF,
 Teófilo Gutiérrez, SS, 73.97, False, Standard, [SS, CF, AMF], [CMF]
 Yairo Moreno, LMF, 72.53, False, Standard, [LMF, CMF, LB], [AMF, SS, LWF]
 Kevin Velasco, RMF, 72.06, False, Standard, [LWF, LMF, RWF, RMF], [AMF, CMF, LB]
-Fredy Hinestroza, LMF, 71.52, False, Standard, [LWF, LMF, RWF], [SS, AMF, RMF, LB] 
+Fredy Hinestroza, LMF, 71.52, False, Standard, [LWF, LMF, RWF], [SS, AMF, RMF, LB]
 Ian Poveda, RMF, 70.07, False, Standard, [SS, RWF, RMF], [LWF, CF, AMF, CMF]

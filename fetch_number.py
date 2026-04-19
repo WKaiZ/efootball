@@ -172,6 +172,21 @@ MANUAL_ID_OVERRIDES = {
     },
 }
 
+ESPN_NATIONAL_TEAM_ID_OVERRIDES = {
+    'italy': '162',
+}
+
+EXCLUDE_FROM_ESPN_RECENT = frozenset({
+    'el-hadji diouf',
+    'el hadji diouf',
+    'fernando torres',
+    'rui costa',
+})
+
+ESPN_LINEUP_MANUAL_ROLES = {
+    'ivan perisic': frozenset({'D'}),
+}
+
 def normalize_name(name):
     nfkd = unicodedata.normalize('NFKD', name)
     no_accents = ''.join((ch for ch in nfkd if not unicodedata.combining(ch)))
@@ -351,26 +366,39 @@ def parse_args(argv):
     country_folder = 'belgium'
     force_refetch = False
     game_id = None
+    lineup_only = False
     positional = []
     i = 1
     while i < len(argv):
         arg = argv[i]
         if arg in ('--refetch', '--refresh', '--no-cache'):
             force_refetch = True
+        elif arg in ('--lineup-only', '--espn-lineup'):
+            lineup_only = True
         elif arg == '--gameid':
             if i + 1 < len(argv):
                 game_id = argv[i + 1]
                 i += 1
             else:
-                raise SystemExit('Usage: python fetch_number.py [--refetch] [--gameid <id>] [country_folder]')
+                raise SystemExit(
+                    'Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [country_folder]'
+                )
         else:
             positional.append(arg)
         i += 1
     if len(positional) > 1:
-        raise SystemExit('Usage: python fetch_number.py [--refetch] [--gameid <id>] [country_folder]')
+        raise SystemExit(
+            'Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [country_folder]'
+        )
     if positional:
         country_folder = positional[0]
-    return (country_folder, force_refetch, game_id)
+    if lineup_only and force_refetch:
+        raise SystemExit(
+            'Cannot combine --lineup-only with --refetch. '
+            'Use --lineup-only to refresh ESPN recent flags only (no Transfermarkt). '
+            'Use --refetch for a full jersey refetch including ESPN.'
+        )
+    return (country_folder, force_refetch, game_id, lineup_only)
 
 def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
     name_changes = name_changes or {}
@@ -450,9 +478,22 @@ def levenshtein(a, b):
 def espn_request_json(url, params=None, timeout=None):
     if timeout is None:
         timeout = float(os.environ.get('ESPN_REQUEST_TIMEOUT', '30'))
-    r = requests.get(url, params=params, headers=HEADERS, timeout=timeout)
-    r.raise_for_status()
-    return r.json()
+    max_retries = max(1, int(os.environ.get('ESPN_REQUEST_RETRIES', '5')))
+    base_delay = float(os.environ.get('ESPN_RETRY_BACKOFF_SEC', '1.0'))
+    retry_status = {429, 502, 503, 504}
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, params=params, headers=HEADERS, timeout=timeout)
+        except (requests.Timeout, requests.ConnectionError):
+            if attempt >= max_retries - 1:
+                raise
+            time.sleep(min(base_delay * (2 ** attempt), 30.0))
+            continue
+        if r.status_code in retry_status and attempt < max_retries - 1:
+            time.sleep(min(base_delay * (2 ** attempt), 30.0))
+            continue
+        r.raise_for_status()
+        return r.json()
 
 def is_womens_espn_competition(text):
     low = (text or '').strip().lower()
@@ -473,9 +514,12 @@ def is_espn_womens_national_team_id(team_id):
     return bool(slug) and slug.endswith('.w')
 
 def lookup_espn_team(country_label):
+    target = normalize_name(country_label)
+    override_id = ESPN_NATIONAL_TEAM_ID_OVERRIDES.get(target)
+    if override_id:
+        return override_id
     queries = [f'{country_label} national team', country_label]
     best = None
-    target = normalize_name(country_label)
     for query in queries:
         data = espn_request_json('https://site.api.espn.com/apis/common/v3/search', params={'query': query})
         for item in data.get('items', []):
@@ -505,11 +549,15 @@ def lookup_espn_team(country_label):
     return best[1] if best else None
 
 def build_espn_player_aliases(player_entry):
-    athlete = player_entry.get('athlete', {})
+    athlete = player_entry.get('athlete', {}) or {}
     aliases = set()
     for raw in (athlete.get('fullName'), athlete.get('displayName'), athlete.get('shortName'), athlete.get('lastName')):
         if raw:
             aliases.add(normalize_name(raw))
+    fn = (athlete.get('firstName') or '').strip()
+    ln = (athlete.get('lastName') or '').strip()
+    if fn and ln:
+        aliases.add(normalize_name(f'{fn} {ln}'))
     return {alias for alias in aliases if alias}
 
 POSITION_SEARCH_PHRASES = {
@@ -602,9 +650,19 @@ def _espn_token_equiv(local_tok, espn_tok):
     long_tok, short_tok = (
         (local_tok, espn_tok) if len(local_tok) >= len(espn_tok) else (espn_tok, local_tok)
     )
-    if short < 4 and (local_tok.startswith(espn_tok) or espn_tok.startswith(local_tok)):
+    if (
+        min(len(local_tok), len(espn_tok)) >= 3
+        and short < 4
+        and (local_tok.startswith(espn_tok) or espn_tok.startswith(local_tok))
+    ):
         return True
     if short >= 3 and long_tok.startswith(short_tok) and short_tok != long_tok:
+        return True
+    if (
+        min(len(local_tok), len(espn_tok)) >= 4
+        and levenshtein(local_tok, espn_tok) <= 2
+        and local_tok[0] == espn_tok[0]
+    ):
         return True
     return False
 
@@ -640,7 +698,11 @@ def compatible_name_tokens(local_name, espn_alias):
     if not local_tokens or not espn_tokens:
         return False
     if len(espn_tokens) == 2 and _name_token_is_initial_abbrev(espn_tokens[0]):
-        return False
+        if len(local_tokens) != 2:
+            return False
+        if not _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1]):
+            return False
+        return local_tokens[0][0] == espn_tokens[0][0]
     if len(local_tokens) >= 2 and len(espn_tokens) >= 2:
         if not _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1]):
             return False
@@ -660,9 +722,9 @@ def espn_lineup_role(position_abbreviation):
         return None
     if abbr in {'G', 'GK'}:
         return 'G'
-    if abbr in {'D', 'CB', 'LB', 'RB', 'CD-L', 'CD-R', 'SW'}:
+    if abbr in {'D', 'CB', 'LB', 'RB', 'CD-L', 'CD-R', 'SW', 'LWB', 'RWB', 'WB'}:
         return 'D'
-    if abbr in {'M', 'DM', 'CM', 'CM-L', 'CM-R', 'AM', 'AM-L', 'AM-R', 'LM', 'RM'}:
+    if abbr in {'M', 'DM', 'CM', 'CM-L', 'CM-R', 'AM', 'AM-L', 'AM-R', 'LM', 'RM', 'CAM', 'CDM'}:
         return 'M'
     if abbr in {'F', 'FW', 'CF', 'CF-L', 'CF-R', 'LW', 'RW', 'ST', 'SS'}:
         return 'F'
@@ -672,6 +734,14 @@ def roster_role_compatible(profile_roles, espn_role):
     if not espn_role or not profile_roles:
         return True
     return espn_role in profile_roles
+
+def roster_role_compatible_for_espn_lineup(profile_roles, espn_role, player_key):
+    if roster_role_compatible(profile_roles, espn_role):
+        return True
+    manual = ESPN_LINEUP_MANUAL_ROLES.get(player_key)
+    if manual is not None and espn_role in manual:
+        return True
+    return False
 
 def fetch_espn_athlete_role(athlete_id):
     if not athlete_id:
@@ -852,6 +922,39 @@ def fetch_latest_espn_roster(country_label, game_id=None):
     print(f'Latest ESPN match for {country_label}: {match_name} ({date_str}) [{lineup_url}]')
     return {'event_id': str(event_id), 'date': date_str, 'season': str(summary.get('header', {}).get('season', {}).get('year', '2026')), 'country': country_label, 'lineup_url': lineup_url, 'roster': roster}
 
+def espn_full_given_family_aliases(aliases):
+    out = []
+    for a in aliases:
+        parts = [p for p in a.split() if p]
+        if len(parts) < 2:
+            continue
+        if _name_token_is_initial_abbrev(parts[0]):
+            continue
+        out.append(a)
+    return out
+
+def espn_local_matches_full_aliases(key, aliases):
+    fulls = espn_full_given_family_aliases(aliases)
+    if not fulls:
+        return True
+    return any(compatible_name_tokens(key, fa) for fa in fulls)
+
+def espn_local_name_match_score(key, aliases):
+    if key in aliases:
+        return 100000
+    best = 0
+    for a in aliases:
+        if compatible_name_tokens(key, a):
+            best = max(best, 1000 + len(a))
+    return best
+
+def espn_local_name_match_tiebreak(key, aliases):
+    dists = []
+    for a in aliases:
+        if compatible_name_tokens(key, a):
+            dists.append(levenshtein(key, a))
+    return min(dists) if dists else 9999
+
 def map_recent_players_to_roster(player_profiles, latest_match):
     if not latest_match:
         return ({}, {})
@@ -862,19 +965,31 @@ def map_recent_players_to_roster(player_profiles, latest_match):
     for espn_player in latest_match['roster']:
         matched_key = None
         espn_role = espn_player.get('role')
+        aliases = espn_player['aliases']
+        candidates = []
         for key, profile in roster_names:
-            if key in taken:
+            if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
                 continue
-            if not roster_role_compatible(profile['roles'], espn_role):
+            if not roster_role_compatible_for_espn_lineup(profile['roles'], espn_role, key):
                 continue
-            if any((compatible_name_tokens(key, alias) for alias in espn_player['aliases'])):
-                matched_key = key
-                break
+            if not any((compatible_name_tokens(key, alias) for alias in aliases)):
+                continue
+            if not espn_local_matches_full_aliases(key, aliases):
+                continue
+            candidates.append(key)
+        if candidates:
+            matched_key = max(
+                candidates,
+                key=lambda k: (
+                    espn_local_name_match_score(k, aliases),
+                    -espn_local_name_match_tiebreak(k, aliases),
+                ),
+            )
         if matched_key is None:
             for key, profile in roster_names:
-                if key in taken:
+                if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
                     continue
-                if not roster_role_compatible(profile['roles'], espn_role):
+                if not roster_role_compatible_for_espn_lineup(profile['roles'], espn_role, key):
                     continue
                 roster_tokens = [tok for tok in key.split() if tok]
                 if len(roster_tokens) == 1:
@@ -886,6 +1001,10 @@ def map_recent_players_to_roster(player_profiles, latest_match):
         taken.add(matched_key)
         recent_flags[matched_key] = True
         recent_numbers[matched_key] = {'season': latest_match['season'], 'match_date': latest_match['date'], 'country': latest_match['country'], 'number': espn_player['jersey'], 'source': 'espn'}
+    for key in EXCLUDE_FROM_ESPN_RECENT:
+        if recent_flags.get(key):
+            recent_flags[key] = False
+            recent_numbers.pop(key, None)
     return (recent_flags, recent_numbers)
 
 def season_matches_year(season_text, year):
@@ -1205,48 +1324,51 @@ async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_ov
     return (nums, False)
 
 async def main():
+    country_folder, force_refetch, game_id, lineup_only = parse_args(sys.argv)
+    players_file = resolve_players_file(country_folder)
+    if not os.path.exists(players_file):
+        print(f'No {players_file} found; nothing to do.')
+        return
+    with open(players_file, 'r', encoding='utf-8') as f:
+        raw_lines = [line.rstrip('\n') for line in f]
+    country_name = os.path.basename(os.path.normpath(country_folder.strip()))
+    country_label = country_display_name(country_name)
+    players = []
+    seen_names = set()
+    player_positions = {}
+    for line in raw_lines:
+        if not line.strip() or line.lstrip().startswith('#'):
+            continue
+        parts = [p.strip() for p in line.split(',')]
+        if not parts:
+            continue
+        nk = normalize_name(parts[0])
+        if nk not in player_positions and len(parts) >= 2:
+            player_positions[nk] = parts[1]
+        if nk in seen_names:
+            continue
+        seen_names.add(nk)
+        players.append(parts[0])
+    player_profiles = build_local_player_profiles(raw_lines)
+    player_search_hints = build_local_player_search_hints(raw_lines)
+    latest_match = None
+    recent_flags = {}
+    recent_numbers = {}
+    if lineup_only or force_refetch:
+        latest_match = fetch_latest_espn_roster(country_label, game_id)
+        recent_flags, recent_numbers = map_recent_players_to_roster(player_profiles, latest_match)
+        if recent_flags:
+            raw_lines, changed = rewrite_players_txt(raw_lines, recent_flags=recent_flags)
+            if changed:
+                with open(players_file, 'w', encoding='utf-8') as f:
+                    for ln in raw_lines:
+                        f.write(ln + '\n')
+                print(f'Updated recent flags in {players_file} from ESPN latest match.')
+    if lineup_only:
+        print('Skipping Transfermarkt jersey fetch (--lineup-only).')
+        return
     conn = init_db()
     async with async_playwright() as p:
-        country_folder, force_refetch, game_id = parse_args(sys.argv)
-        players_file = resolve_players_file(country_folder)
-        if not os.path.exists(players_file):
-            print(f'No {players_file} found; nothing to do.')
-            return
-        with open(players_file, 'r', encoding='utf-8') as f:
-            raw_lines = [line.rstrip('\n') for line in f]
-        country_name = os.path.basename(os.path.normpath(country_folder.strip()))
-        country_label = country_display_name(country_name)
-        players = []
-        seen_names = set()
-        player_positions = {}
-        for line in raw_lines:
-            if not line.strip() or line.lstrip().startswith('#'):
-                continue
-            parts = [p.strip() for p in line.split(',')]
-            if not parts:
-                continue
-            nk = normalize_name(parts[0])
-            if nk not in player_positions and len(parts) >= 2:
-                player_positions[nk] = parts[1]
-            if nk in seen_names:
-                continue
-            seen_names.add(nk)
-            players.append(parts[0])
-        player_profiles = build_local_player_profiles(raw_lines)
-        player_search_hints = build_local_player_search_hints(raw_lines)
-        latest_match = None
-        recent_flags = {}
-        recent_numbers = {}
-        if force_refetch:
-            latest_match = fetch_latest_espn_roster(country_label, game_id)
-            recent_flags, recent_numbers = map_recent_players_to_roster(player_profiles, latest_match)
-            if recent_flags:
-                raw_lines, changed = rewrite_players_txt(raw_lines, recent_flags=recent_flags)
-                if changed:
-                    with open(players_file, 'w', encoding='utf-8') as f:
-                        for ln in raw_lines:
-                            f.write(ln + '\n')
-                    print(f'Updated recent flags in {players_file} from ESPN latest match.')
         id_map = load_player_id_map(conn)
         had_error = False
         name_changes = {}
