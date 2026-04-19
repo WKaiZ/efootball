@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Fernando Gorriarán (CMF) rating 76.07 #6
   [DMF] Mauro Arambarri (DMF) rating 94.07 #20
   [LB] Mathías Olivera (LB) rating 94.22 #16
-  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [CB] Santiago Bueno (CB) rating 75.23 #3
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [RB] Guillermo Varela (RB) rating 73.35 #13
   [GK] Sergio Rochet (GK) rating 75.67 #1
 

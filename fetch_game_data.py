@@ -33,7 +33,8 @@ MANUAL_ID_OVERRIDES = {
         "dani torres": "93142",
     },
     "senegal" : {
-        'souleymane basse': '1111589',
+        'souleymane basse': '1111045',
+        'el hadji malick diouf': '1111589',
         'formose mendy': "649023",
     },
     "mexico": {
@@ -43,6 +44,7 @@ MANUAL_ID_OVERRIDES = {
         "osvaldo rodriguez": "295426",
         "johan vasquez": "532937",
         "felipe rodriguez": "102699",
+        "ivan lopez": "370861",
     },
     "uruguay": {
         "luis suarez": "44352",

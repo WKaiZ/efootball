@@ -14,15 +14,15 @@ Starters:
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
   [LWF] Ferran Torres (LWF) rating 95.00 #21
-  [RWF] Adama Traoré (RWF) rating 74.91 #20
+  [RWF] Adama Traoré (RWF) rating 74.91 #17
   [AMF] Dani Olmo (AMF) rating 95.67 #10
-  [CMF] Andrés Iniesta (CMF) rating 97.70 #13
-  [DMF] Xabi Alonso (DMF) rating 96.19 #14
-  [LB] Alejandro Grimaldo (LB) rating 95.00 #15
+  [CMF] Pedri (CMF) rating 97.43 #20
+  [DMF] Sergio Busquets (DMF) rating 98.11 #13
+  [LB] Alejandro Balde (LB) rating 96.42 #14
   [CB] Pau Cubarsí (CB) rating 95.23 #4
-  [CB] César Azpilicueta (CB) rating 94.55 #17
+  [CB] Pau Torres (CB) rating 94.84 #15
   [RB] Marcos Llorente (RB) rating 94.99 #5
   [GK] Joan García (GK) rating 95.40 #18
 
 Wildcard:
-  [WILD] Pedri (CMF) rating 97.43 #26
+  [WILD] Unai Simón (GK) rating 95.29 #23

@@ -146,7 +146,8 @@ MANUAL_ID_OVERRIDES = {
         'idrissa gueye': {
             'CF': {'player_id': '1178488', 'preserve_name': True}
         },
-        'souleymane basse': {'player_id': '1111589', 'preserve_name': True},
+        'souleymane basse': {'player_id': '1111045', 'preserve_name': True},
+        'el hadji malick diouf': {'player_id': '1111589', 'preserve_name': True},
         'formose mendy': {'player_id': "649023", "preserve_name": True},
     },
     'mexico': {
@@ -156,6 +157,7 @@ MANUAL_ID_OVERRIDES = {
         'osvaldo rodriguez': {'player_id': '295426', 'preserve_name': True},
         'johan vasquez': {'player_id': '532937', 'preserve_name': True},
         'felipe rodriguez': {'player_id': '102699', 'preserve_name': True},
+        'ivan lopez': {'player_id': '370861', 'preserve_name': True},
     },
     'uruguay': {
         'luis suarez': {'player_id': '44352', 'preserve_name': True},
@@ -1239,11 +1241,12 @@ def init_db():
     conn.commit()
     return conn
 
-def load_cached_numbers_from_db(conn, player_id, country_filter=None):
+def load_cached_numbers_from_db(conn, player_id, country_filter=None, display_name=None):
     cur = conn.cursor()
     cur.execute('SELECT name FROM players WHERE player_id = ?', (str(player_id),))
     name_row = cur.fetchone()
     db_name = name_row[0] if name_row else str(player_id)
+    label = display_name if display_name else db_name
     if country_filter:
         cur.execute('\n            SELECT number, country\n            FROM jersey\n            WHERE player_id = ? AND LOWER(country) = LOWER(?)\n            ORDER BY idx ASC\n            ', (str(player_id), country_filter))
     else:
@@ -1255,16 +1258,18 @@ def load_cached_numbers_from_db(conn, player_id, country_filter=None):
     for num, country in rows:
         nums_by_country.setdefault(str(num), set()).add(country)
     if country_filter:
-        print(f'{db_name} {player_id} national jersey numbers (cached for {country_filter}):')
+        print(f'{label} {player_id} national jersey numbers (cached for {country_filter}):')
     else:
-        print(f'{db_name} {player_id} national jersey numbers (cached):')
+        print(f'{label} {player_id} national jersey numbers (cached):')
     for n in sorted(nums_by_country.keys(), key=int):
         countries = ', '.join(sorted(nums_by_country[n]))
         print(f'  {n}: {countries}')
     return sorted(nums_by_country.keys(), key=int)
 
 async def fetch_numbers_for_player(playwright, name, player_id, conn, db_name_override=None, cache_country_filter=None, espn_seed_entry=None, expected_nation_label=None):
-    nums = load_cached_numbers_from_db(conn, player_id, country_filter=cache_country_filter)
+    nums = load_cached_numbers_from_db(
+        conn, player_id, country_filter=cache_country_filter, display_name=name
+    )
     if nums:
         warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label)
         return (nums, True)
