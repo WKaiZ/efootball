@@ -1,6 +1,6 @@
 Federico Valverde, RMF, 96.01, True, Highlight, [RWF, RMF, RB, CMF], [LMF, AMF, DMF]
 Ronald Araujo, CF, 95.03, True, Highlight, [CF, CB, RB], [SS, DMF, LB]
-Ronald Araujo, CB, 95.02, True, Highlight, [CB, RB], [DMF, LB]
+Ronald Araujo, CB, 98.51, True, Showtime, [CB, RB], [DMF, LB, CF]
 Diego Forlán, CF, 98.33, False, Epic, [CF, SS, AMF], []
 Mathías Olivera, LB, 94.22, True, Highlight, [LB, LMF], [CB]
 Manuel Ugarte, DMF, 94.12, True, Highlight, [CMF, DMF], [AMF]

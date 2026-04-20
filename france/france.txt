@@ -3,12 +3,12 @@ Starters:
   [LWF] Franck Ribéry (LWF) rating 98.32 #22
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
-  [CMF] Adrien Rabiot (CMF) rating 95.08 #14
+  [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Patrick Vieira (DMF) rating 99.55 #4
   [LB] Theo Hernández (LB) rating 95.43 #19
   [CB] Lilian Thuram (CB) rating 100.24 #15
   [CB] Marcel Desailly (CB) rating 99.57 #8
-  [RB] Warren Zaïre-Emery (RB) rating 96.51 #18
+  [RB] Jules Koundé (RB) rating 98.12 #5
   [GK] Mike Maignan (GK) rating 95.31 #16
 
 Substitutes:
@@ -16,13 +16,13 @@ Substitutes:
   [LWF] Bradley Barcola (LWF) rating 95.72 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #12
   [AMF] Eduardo Camavinga (AMF) rating 95.33 #6
-  [CMF] Rayan Cherki (AMF) rating 95.21 #25
-  [DMF] N'Golo Kanté (DMF) rating 93.96 #13
+  [CMF] Adrien Rabiot (CMF) rating 95.08 #14
+  [DMF] Boubacar Kamara (DMF) rating 95.27 #13
   [LB] Lucas Hernández (LB) rating 94.06 #21
   [CB] Ibrahima Konaté (CB) rating 96.69 #24
   [CB] William Saliba (CB) rating 96.99 #17
-  [RB] Jules Koundé (RB) rating 95.10 #5
+  [RB] Malo Gusto (RB) rating 94.30 #2
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Wildcard:
-  [WILD] Benjamin Pavard (CB) rating 94.98 #2
+  [WILD] Rayan Cherki (AMF) rating 95.21 #25

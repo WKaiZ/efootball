@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Dani Olmo (AMF) rating 95.67 #10
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Sergio Busquets (DMF) rating 98.11 #13
-  [LB] Alejandro Balde (LB) rating 96.42 #14
+  [LB] Alejandro Balde (LB) rating 97.35 #14
   [CB] Pau Cubarsí (CB) rating 95.23 #4
   [CB] Pau Torres (CB) rating 94.84 #15
   [RB] Marcos Llorente (RB) rating 94.99 #5

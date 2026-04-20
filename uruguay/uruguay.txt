@@ -6,7 +6,7 @@ Starters:
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
-  [CB] Ronald Araujo (CB) rating 95.02 #4
+  [CB] Ronald Araujo (CB) rating 98.51 #4
   [CB] José María Giménez (CB) rating 94.51 #2
   [RB] Federico Valverde (RB) rating 95.52 #15
   [GK] Fernando Muslera (GK) rating 78.60 #23
