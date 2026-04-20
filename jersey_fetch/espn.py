@@ -6,7 +6,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from jersey_fetch.constants import ESPN_NATIONAL_TEAM_ID_OVERRIDES, EXCLUDE_FROM_ESPN_RECENT, HEADERS
+from jersey_fetch.constants import EXCLUDE_FROM_ESPN_RECENT, HEADERS
 from jersey_fetch.matching import (
     compatible_name_tokens,
     espn_lineup_role,
@@ -64,9 +64,6 @@ def is_espn_womens_national_team_id(team_id):
 
 def lookup_espn_team(country_label):
     target = normalize_name(country_label)
-    override_id = ESPN_NATIONAL_TEAM_ID_OVERRIDES.get(target)
-    if override_id:
-        return override_id
     queries = [f"{country_label} national team", country_label]
     best = None
     for query in queries:

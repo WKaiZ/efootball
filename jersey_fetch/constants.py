@@ -76,10 +76,6 @@ MANUAL_ID_OVERRIDES = {
     },
 }
 
-ESPN_NATIONAL_TEAM_ID_OVERRIDES = {
-    "italy": "162",
-}
-
 EXCLUDE_FROM_ESPN_RECENT = frozenset(
     {
         "el-hadji diouf",
