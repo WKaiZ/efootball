@@ -8,7 +8,7 @@ Starters:
   [LB] Theo Hernández (LB) rating 95.43 #19
   [CB] Lilian Thuram (CB) rating 100.24 #15
   [CB] Marcel Desailly (CB) rating 99.57 #8
-  [RB] Jules Koundé (RB) rating 98.12 #5
+  [RB] Jules Koundé (RB) rating 96.79 #5
   [GK] Mike Maignan (GK) rating 95.31 #16
 
 Substitutes:
