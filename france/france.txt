@@ -15,14 +15,14 @@ Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
   [LWF] Bradley Barcola (LWF) rating 95.72 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #12
-  [AMF] Eduardo Camavinga (AMF) rating 95.33 #6
+  [AMF] Rayan Cherki (AMF) rating 95.47 #24
   [CMF] Adrien Rabiot (CMF) rating 95.08 #14
-  [DMF] Boubacar Kamara (DMF) rating 95.27 #13
+  [DMF] Claude Makélélé (DMF) rating 99.11 #6
   [LB] Lucas Hernández (LB) rating 94.06 #21
-  [CB] Ibrahima Konaté (CB) rating 96.69 #24
+  [CB] Ibrahima Konaté (CB) rating 96.69 #13
   [CB] William Saliba (CB) rating 96.99 #17
   [RB] Malo Gusto (RB) rating 94.30 #2
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Wildcard:
-  [WILD] Rayan Cherki (AMF) rating 95.21 #25
+  [WILD] Eduardo Camavinga (AMF) rating 95.33 #25
