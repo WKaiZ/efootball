@@ -43,7 +43,5 @@ Giovani Lo Celso, AMF, 92.93, False, Highlight, [AMF, CMF, RMF], [CF, SS, DMF, L
 Alan Varela, DMF, 94.32, False, Highlight, [DMF, CMF, AMF], []
 Marcos Acuña, LB, 92.25, True, Highlight, [LMF, LB, LWF], [AMF, CMF, DMF, CB, RMF]
 Diego Maradona, SS, 95.02, False, Epic, [SS, AMF], [CF]
-Emiliano Buendía, LWF, 76.13, False, Standard, [LWF, RWF, RMF, AMF, LMF], [SS]
-Benja Domínguez, LWF, 75.28, False, Standard, [LWF, LMF], [SS, AMF, CMF, RMF]
 Exequiel Palacios, CMF, 94.29, True, Highlight, [CMF, AMF], [DMF, RMF]
 Javier Saviola, CF, 98.07, False, Epic, [CF, SS], [RWF, LWF, AMF]
