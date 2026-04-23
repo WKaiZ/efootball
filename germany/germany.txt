@@ -1,6 +1,6 @@
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
-  [LMF] Jamal Musiala (LMF) rating 99.63 #14
+  [LMF] Jamal Musiala (LMF) rating 97.68 #14
   [RWF] Karim Adeyemi (RWF) rating 94.47 #20
   [AMF] Uli Hoeneß (AMF) rating 98.18 #8
   [CMF] Lothar Matthäus (CMF) rating 99.60 #10

@@ -1,6 +1,6 @@
 Jamal Musiala, AMF, 97.02, False, Highlight, [AMF, LWF, LMF, CMF], [SS, DMF, RWF, RMF]
 Jamal Musiala, RWF, 96.48, False, Highlight, [AMF, LWF, LMF, CMF, RWF], [SS, DMF, RMF]
-Jamal Musiala, LMF, 99.63, False, Showtime, [AMF, LWF, LMF, CMF], [RWF, SS, DMF, RMF]
+Jamal Musiala, LMF, 97.68, False, Showtime, [AMF, LWF, LMF, CMF], [RWF, SS, DMF, RMF]
 Serge Gnabry, AMF, 94.13, True, Highlight, [LWF, RWF, AMF, RMF], [CF, SS, LMF, CMF]
 Serge Gnabry, LMF, 92.94, True, Highlight, [LWF, RWF, LMF, RMF], [CF, SS, AMF, CMF]
 Yann Bisseck, CB, 91.99, False, Highlight, [CB], [DMF]
