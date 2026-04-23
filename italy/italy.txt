@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Roberto Baggio (AMF) rating 97.83 #16
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Andrea Pirlo (DMF) rating 98.10 #21
-  [LB] Andrea Cambiaso (LB) rating 93.50 #15
+  [LB] Matteo Ruggeri (LB) rating 94.00 #15
   [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [RB] Alessandro Costacurta (RB) rating 97.15 #4
