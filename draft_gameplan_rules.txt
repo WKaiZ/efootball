@@ -40,8 +40,8 @@ Jersey number assignment (overall)
 - Assign jerseys after players are selected.
 - If a player cannot be assigned ANY available jersey number, that player is eliminated from the gameplan.
 - Jersey assignment order by group (each group runs the same internal recent-lock + card-tier logic):
-  - non-Standard starters, then non-Standard substitutes (excluding SS-on-wing subs), then non-Standard substitutes slotted as `SS` on `LWF`/`RWF`, then Standard starters, then Standard substitutes.
-  - So a Standard starter is assigned after those non-Standard substitute groups (numbers already taken stay taken).
+  - non-Standard starters, then Standard starters, then non-Standard substitutes (excluding SS-on-wing subs), then non-Standard substitutes slotted as `SS` on `LWF`/`RWF`, then Standard substitutes.
+  - All starters (non-Standard and Standard alike) are assigned jerseys before any substitutes.
 - A substitute with recent=True cannot take a number already assigned to someone else; it does not override starters.
 
 Jersey number assignment priority & preferences
@@ -52,7 +52,7 @@ Jersey number assignment priority & preferences
    - Epic and BigTime share the highest tier in code (then Showtime, then Highlight, then Standard).
 
 Additional ordering notes
-- Within the non-Standard substitute jersey phase, a sub playing `SS` on a wing slot is assigned after other non-Standard subs but before any Standard starter/sub jersey assignment.
+- Within the non-Standard substitute jersey phase, a sub playing `SS` on a wing slot is assigned after other non-Standard subs but before any Standard sub jersey assignment.
 - Wildcard has the lowest priority overall (after starters + subs are resolved for the main 22).
 - Wildcard may be any remaining player; it is chosen only after starters + substitutes are finalized.
 

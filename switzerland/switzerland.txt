@@ -1,11 +1,11 @@
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #23
   [LWF] Rubén Vargas (LMF) rating 93.13 #17
-  [RWF] Dan Ndoye (LMF) rating 93.45 #11
+  [RWF] Dan Ndoye (RWF) rating 94.18 #11
   [AMF] Fabian Rieder (AMF) rating 93.24 #22
   [CMF] Granit Xhaka (CMF) rating 95.40 #10
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
-  [LB] Ulisses Garcia (LB) rating 73.25 #19
+  [LB] Ulisses Garcia (LB) rating 73.25 #14
   [CB] Manuel Akanji (CB) rating 95.00 #5
   [CB] Ricardo Rodríguez (CB) rating 93.31 #13
   [RB] Lucas Blondel (RB) rating 73.95 #2
@@ -17,11 +17,11 @@ Substitutes:
   [RWF] Christian Fassnacht (RWF) rating 72.23 #16
   [AMF] Zeki Amdouni (CF) rating 73.77 #25
   [CMF] Remo Freuler (CMF) rating 75.47 #8
-  [DMF] Ardon Jashari (DMF) rating 93.14 #14
+  [DMF] Ardon Jashari (DMF) rating 93.14 #18
   [LB] Loris Benito (CB) rating 72.40 #3
   [CB] Becir Omeragic (CB) rating 73.44 #24
   [CB] Nico Elvedi (CB) rating 77.44 #4
-  [RB] Jordan Lotomba (RB) rating 73.30 #26
+  [RB] Jordan Lotomba (RB) rating 73.30 #19
   [GK] Yann Sommer (GK) rating 96.23 #12
 
 Wildcard:

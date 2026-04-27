@@ -1,7 +1,7 @@
 Starters:
   [CF] Cristiano Ronaldo (CF) rating 99.07 #17
   [LMF] Pedro Neto (LMF) rating 98.71 #18
-  [RMF] Luís Figo (RMF) rating 100.33 #7
+  [RWF] Luís Figo (RWF) rating 101.42 #7
   [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Vitinha (CMF) rating 98.42 #23
   [DMF] Bernardo Silva (DMF) rating 95.44 #11
@@ -14,10 +14,10 @@ Starters:
 Substitutes:
   [CF] Gonçalo Ramos (CF) rating 95.98 #9
   [LMF] Diogo Dalot (LMF) rating 94.24 #2
-  [RMF] Francisco Conceição (RMF) rating 94.37 #26
+  [RWF] Francisco Trincão (RWF) rating 95.05 #16
   [AMF] Bruno Fernandes (AMF) rating 95.84 #8
-  [CMF] Deco (CMF) rating 96.53 #16
-  [DMF] João Palhinha (DMF) rating 94.99 #6
+  [CMF] Matheus Nunes (CMF) rating 93.18 #6
+  [DMF] João Palhinha (DMF) rating 94.99 #13
   [LB] Raphaël Guerreiro (LB) rating 93.09 #5
   [CB] Gonçalo Inácio (CB) rating 94.21 #14
   [CB] António Silva (CB) rating 94.99 #24
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Rui Silva (GK) rating 77.81 #22
 
 Wildcard:
-  [WILD] Matheus Nunes (RB) rating 94.00 #21
+  [WILD] Francisco Conceição (RMF) rating 94.37 #26

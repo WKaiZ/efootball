@@ -144,20 +144,10 @@ def _assign_epic_nonrecent_greedy(
         for pref_idx, num in enumerate(prefs):
             if num in used_numbers:
                 continue
-            blocked_by_recent_mr = False
-            for q in bench_recent_non_epic:
-                mq = most_recent_map.get(q.player_id)
-                if mq is None or mq != num:
-                    continue
-                if (
-                    pref_idx > 0
-                    and pref_idx <= 2
-                    and p.rating > q.rating
-                    and most_recent_map.get(p.player_id) != num
-                ):
-                    continue
-                blocked_by_recent_mr = True
-                break
+            blocked_by_recent_mr = any(
+                most_recent_map.get(q.player_id) == num
+                for q in bench_recent_non_epic
+            )
             if blocked_by_recent_mr:
                 continue
             if pref_idx > 0:
@@ -344,8 +334,6 @@ def assign_jerseys(conn, starters, subs):
         allow_recent_lock=True,
         recent_lock_global=True,
     )
-    _assign_substitute_group(conn, sub_nonstd_normal, used_numbers, assignments)
-    _assign_substitute_group(conn, sub_ss_nonstd, used_numbers, assignments)
     assign_group_jerseys(
         conn,
         starter_main_std,
@@ -362,5 +350,7 @@ def assign_jerseys(conn, starters, subs):
         allow_recent_lock=True,
         recent_lock_global=True,
     )
+    _assign_substitute_group(conn, sub_nonstd_normal, used_numbers, assignments)
+    _assign_substitute_group(conn, sub_ss_nonstd, used_numbers, assignments)
     _assign_substitute_group(conn, sub_std, used_numbers, assignments)
     return assignments, used_numbers

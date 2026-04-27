@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Loïs Openda (CF) rating 95.40 #19
-  [LWF] Malick Fofana (LWF) rating 75.80 #14
+  [LWF] Malick Fofana (LWF) rating 95.26 #14
   [RWF] Adnan Januzaj (RWF) rating 93.39 #20
   [AMF] Kevin De Bruyne (AMF) rating 95.83 #7
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23

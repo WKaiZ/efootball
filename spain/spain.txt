@@ -2,7 +2,7 @@ Starters:
   [CF] Raúl (CF) rating 98.86 #7
   [LWF] Nico Williams (LWF) rating 95.76 #11
   [RWF] Lamine Yamal (RWF) rating 97.86 #19
-  [AMF] Marco Asensio (AMF) rating 96.10 #10
+  [AMF] Isco (AMF) rating 95.99 #22
   [CMF] Xavi (CMF) rating 98.16 #8
   [DMF] Rodri (DMF) rating 99.15 #16
   [LB] Sergi Barjuan (LB) rating 98.36 #12
@@ -15,7 +15,7 @@ Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
   [LWF] Ferran Torres (LWF) rating 95.00 #21
   [RWF] Adama Traoré (RWF) rating 74.91 #17
-  [AMF] Isco (AMF) rating 95.99 #22
+  [AMF] Dani Olmo (AMF) rating 95.67 #10
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Sergio Busquets (DMF) rating 98.11 #13
   [LB] Alejandro Balde (LB) rating 95.80 #14

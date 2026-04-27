@@ -12,11 +12,11 @@ Starters:
   [GK] Edwin van der Sar (GK) rating 100.03 #1
 
 Substitutes:
-  [CF] Marco van Basten (CF) rating 98.73 #9
-  [LWF] Arnaut Danjuma (LWF) rating 75.32 #22
-  [RWF] Steven Berghuis (RWF) rating 93.93 #15
+  [CF] Roy Makaay (CF) rating 99.32 #18
+  [LWF] Steven Bergwijn (LWF) rating 76.69 #9
+  [RWF] Steven Berghuis (RWF) rating 93.93 #21
   [AMF] Wesley Sneijder (AMF) rating 97.78 #16
-  [CMF] Mark van Bommel (CMF) rating 96.65 #18
+  [CMF] Mark van Bommel (CMF) rating 96.65 #15
   [DMF] Phillip Cocu (DMF) rating 96.93 #6
   [LB] Jorrel Hato (LB) rating 94.41 #25
   [CB] Frank Rijkaard (CB) rating 96.97 #17
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Bart Verbruggen (GK) rating 93.92 #23
 
 Wildcard:
-  [WILD] Frenkie de Jong (CMF) rating 96.37 #21
+  [WILD] Ryan Gravenberch (CMF) rating 96.23 #26
