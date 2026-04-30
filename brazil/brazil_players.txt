@@ -1,6 +1,6 @@
 Neymar, CF, 94.75, False, BigTime, [LWF, CF, SS, LMF, AMF], [CMF, RWF, RMF]
 Neymar, LWF, 99.19, False, BigTime, [LWF, SS, LMF, AMF], [CF, RWF]
-Neymar, SS, 95.04, False, Highlight, [LWF, SS, LMF, AMF], [CF, RWF, RMF, CMF]
+Neymar, SS, 95.54, False, Highlight, [LWF, SS, AMF], [CF, RWF, RMF, CMF, LMF]
 Neymar, AMF, 95.20, False, Showtime, [LWF, SS, LMF, AMF, CF], [RWF, RMF, CMF]
 Neymar, LMF, 99.62, False, Showtime, [LWF, SS, LMF, AMF], [CF]
 Rodrygo, CF, 95.89, False, Highlight, [LWF, CF, RWF], [SS, AMF, LMF, RMF]
