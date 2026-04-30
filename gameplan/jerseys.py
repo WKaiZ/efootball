@@ -301,7 +301,8 @@ def assign_jerseys(conn, starters, subs):
             else:
                 starter_prof_nonstd.append(p)
 
-    sub_ss_nonstd = []
+    sub_ss_main_nonstd = []
+    sub_ss_prof_nonstd = []
     sub_nonstd_normal = []
     sub_std = []
     for slot, p in zip(FORMATION, subs):
@@ -311,7 +312,9 @@ def assign_jerseys(conn, starters, subs):
             sub_std.append(p)
         else:
             if slot in SUB_WING_SLOTS and p.position == "SS":
-                sub_ss_nonstd.append(p)
+                sub_ss_main_nonstd.append(p)
+            elif slot in SUB_WING_SLOTS and p.position != slot and "SS" in (p.proficient_positions or []):
+                sub_ss_prof_nonstd.append(p)
             else:
                 sub_nonstd_normal.append(p)
 
@@ -351,6 +354,7 @@ def assign_jerseys(conn, starters, subs):
         recent_lock_global=True,
     )
     _assign_substitute_group(conn, sub_nonstd_normal, used_numbers, assignments)
-    _assign_substitute_group(conn, sub_ss_nonstd, used_numbers, assignments)
+    _assign_substitute_group(conn, sub_ss_main_nonstd, used_numbers, assignments)
     _assign_substitute_group(conn, sub_std, used_numbers, assignments)
+    _assign_substitute_group(conn, sub_ss_prof_nonstd, used_numbers, assignments)
     return assignments, used_numbers

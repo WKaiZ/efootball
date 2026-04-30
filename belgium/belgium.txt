@@ -25,4 +25,4 @@ Substitutes:
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Senne Lammens (GK) rating 93.00 #12
+  [WILD] Mika Godts (LWF) rating 93.96 #26
