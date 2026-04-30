@@ -1,6 +1,6 @@
 Josko Gvardiol, LB, 95.77, False, Highlight, [LB, CB], [LMF]
 Josko Gvardiol, CB, 95.36, False, Highlight, [LB, CB], []
-Josip Stanisic, RB, 93.23, True, Highlight, [RB, CB, LB], [RMF]
+Josip Stanisic, RB, 94.10, True, Highlight, [RB, CB, LB], [RMF]
 Luka Modrić, DMF, 94.05, True, Highlight, [DMF, CMF, AMF], []
 Luka Modrić, CMF, 94.23, True, Highlight, [CMF, AMF], [DMF]
 Petar Sučić, DMF, 93.28, True, Highlight, [DMF], [CMF]

@@ -18,11 +18,11 @@ Substitutes:
   [AMF] Matheus Cunha (AMF) rating 96.23 #21
   [CMF] Joelinton (CMF) rating 94.78 #18
   [DMF] Casemiro (DMF) rating 95.20 #22
-  [LB] Caio Henrique (LB) rating 94.42 #16
+  [LB] Marcelo (LB) rating 99.45 #12
   [CB] Murillo (CB) rating 95.27 #14
   [CB] Léo Pereira (CB) rating 94.91 #15
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 
 Wildcard:
-  [WILD] Gabriel Martinelli (LWF) rating 95.98 #26
+  [WILD] Bebeto (CF) rating 97.56 #16

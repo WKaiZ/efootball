@@ -15,7 +15,7 @@ Substitutes:
   [CF] Loïs Openda (CF) rating 95.40 #19
   [LWF] Malick Fofana (LWF) rating 95.26 #14
   [RWF] Adnan Januzaj (RWF) rating 93.39 #20
-  [AMF] Kevin De Bruyne (AMF) rating 95.83 #7
+  [AMF] Kevin De Bruyne (AMF) rating 97.00 #7
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Joaquin Seys (LB) rating 67.94 #22

@@ -8,7 +8,7 @@ Starters:
   [LB] Josko Gvardiol (LB) rating 95.77 #4
   [CB] Marin Pongracic (CB) rating 75.54 #3
   [CB] Josip Sutalo (CB) rating 76.06 #6
-  [RB] Josip Stanisic (RB) rating 93.23 #2
+  [RB] Josip Stanisic (RB) rating 94.10 #2
   [GK] Dominik Livakovic (GK) rating 78.61 #1
 
 Substitutes:
