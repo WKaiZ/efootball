@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Matheus Cunha (AMF) rating 96.23 #21
   [CMF] Joelinton (CMF) rating 94.78 #18
   [DMF] Casemiro (DMF) rating 95.20 #22
-  [LB] Marcelo (LB) rating 99.20 #12
+  [LB] Marcelo (LB) rating 97.92 #12
   [CB] Murillo (CB) rating 95.27 #14
   [CB] Léo Pereira (CB) rating 94.91 #15
   [RB] Maicon (RB) rating 98.30 #13
