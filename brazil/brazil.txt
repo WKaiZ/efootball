@@ -1,6 +1,6 @@
 Starters:
-  [CF] Pelé (CF) rating 99.81 #10
-  [LWF] Ronaldinho (LWF) rating 99.95 #7
+  [CF] Adriano (CF) rating 98.39 #9
+  [LWF] Vinicius Junior (LWF) rating 100.76 #10
   [RWF] Savinho (RWF) rating 95.12 #20
   [AMF] Kaká (AMF) rating 99.35 #8
   [CMF] Ederson (CMF) rating 94.97 #17
@@ -12,10 +12,10 @@ Starters:
   [GK] Dida (GK) rating 97.90 #1
 
 Substitutes:
-  [CF] Adriano (CF) rating 98.39 #9
-  [LWF] Neymar (LWF) rating 99.19 #11
+  [CF] Romário (CF) rating 98.28 #11
+  [LWF] Ronaldinho (LWF) rating 99.95 #16
   [RWF] Raphinha (RWF) rating 94.31 #19
-  [AMF] Matheus Cunha (AMF) rating 96.23 #21
+  [AMF] Matheus Cunha (AMF) rating 96.23 #7
   [CMF] Joelinton (CMF) rating 94.78 #18
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Marcelo (LB) rating 97.92 #12
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Alisson (GK) rating 95.99 #23
 
 Wildcard:
-  [WILD] Bebeto (CF) rating 97.56 #16
+  [WILD] João Pedro (CF) rating 98.24 #21
