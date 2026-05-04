@@ -27,6 +27,8 @@ MANUAL_ID_OVERRIDES = {
         "gerson": {"player_id": "341705", "preserve_name": True},
         "fred": {"player_id": "191614", "preserve_name": True},
         "douglas luiz": {"player_id": "447661", "preserve_name": True},
+        "dudu": {"player_id": "114937", "preserve_name": True},
+        "giuliano": {"player_id": "54375", "preserve_name": True},
     },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},

@@ -2,7 +2,7 @@ Starters:
   [CF] Cristiano Ronaldo (CF) rating 99.07 #17
   [LMF] Pedro Neto (LMF) rating 98.71 #18
   [RWF] Luís Figo (RWF) rating 100.74 #7
-  [AMF] Bruno Fernandes (AMF) rating 100.20 #8
+  [AMF] Bruno Fernandes (AMF) rating 98.59 #8
   [CMF] Vitinha (CMF) rating 98.42 #23
   [DMF] Bernardo Silva (DMF) rating 95.44 #10
   [LB] Nuno Mendes (LB) rating 97.40 #25
