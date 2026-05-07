@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Christian Vieri (CF) rating 98.01 #9
-  [LWF] Federico Chiesa (LWF) rating 94.39 #14
+  [LWF] Federico Chiesa (LWF) rating 94.39 #25
   [RWF] Riccardo Orsolini (RWF) rating 78.21 #23
   [AMF] Roberto Baggio (AMF) rating 97.83 #16
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Andrea Pirlo (DMF) rating 98.10 #21
-  [LB] Matteo Ruggeri (LB) rating 94.00 #15
+  [LB] Leonardo Spinazzola (LB) rating 94.17 #4
   [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
-  [RB] Alessandro Costacurta (RB) rating 97.15 #4
-  [GK] Christian Abbiati (GK) rating 97.74 #12
+  [RB] Alessandro Costacurta (RB) rating 97.15 #14
+  [GK] Gianluigi Donnarumma (GK) rating 99.36 #12
 
 Wildcard:
-  [WILD] Christian Panucci (RB) rating 96.96 #2
+  [WILD] Gianfranco Zola (SS) rating 99.85 #15

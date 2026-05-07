@@ -3,12 +3,12 @@ Starters:
   [LWF] Osame Sahraoui (LMF) rating 92.95 #24
   [RWF] Amine Adli (AMF) rating 94.14 #21
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
-  [CMF] Ismael Saibari (AMF) rating 91.24 #11
+  [CMF] Ismael Saibari (AMF) rating 93.99 #11
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
   [LB] Souffian El Karouani (LB) rating 73.33 #3
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Omar El Hilali (RB) rating 94.08 #15
-  [RB] Achraf Hakimi (RB) rating 95.94 #2
+  [RB] Achraf Hakimi (RB) rating 99.20 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
 Substitutes:

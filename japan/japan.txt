@@ -1,8 +1,8 @@
 Starters:
   [CF] Yoichiro Kakitani (CF) rating 93.97 #11
-  [LMF] Takumi Minamino (LMF) rating 93.98 #8
+  [LWF] Keito Nakamura (LWF) rating 91.99 #13
   [RMF] Takefusa Kubo (RMF) rating 98.14 #10
-  [AMF] Shinji Okazaki (SS) rating 94.21 #9
+  [AMF] Takumi Minamino (AMF) rating 93.36 #8
   [CMF] Daichi Kamada (CMF) rating 75.25 #15
   [DMF] Ao Tanaka (DMF) rating 93.00 #17
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
@@ -12,8 +12,8 @@ Starters:
   [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Substitutes:
-  [CF] Keito Nakamura (CF) rating 92.83 #13
-  [LMF] Takuma Asano (LMF) rating 92.39 #18
+  [CF] Ayase Ueda (CF) rating 92.99 #18
+  [LWF] Shinji Okazaki (SS) rating 94.21 #9
   [RMF] Ritsu Doan (RMF) rating 94.44 #21
   [AMF] Ryotaro Ito (AMF) rating 73.12 #7
   [CMF] Yasuto Wakizaka (CMF) rating 73.13 #14
