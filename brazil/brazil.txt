@@ -6,7 +6,7 @@ Starters:
   [CMF] Ederson (CMF) rating 94.97 #17
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Roberto Carlos (LB) rating 99.93 #6
-  [CB] Gabriel (CB) rating 99.23 #3
+  [CB] Gabriel (CB) rating 97.96 #3
   [CB] Marquinhos (CB) rating 96.97 #4
   [RB] Cafu (RB) rating 98.85 #2
   [GK] Dida (GK) rating 97.90 #1
