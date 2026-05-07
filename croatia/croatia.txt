@@ -3,8 +3,8 @@ Starters:
   [LWF] Marko Pjaca (LWF) rating 72.06 #20
   [RWF] Ivan Perišić (RWF) rating 93.94 #14
   [AMF] Nikola Vlašić (AMF) rating 95.45 #13
-  [CMF] Luka Modrić (CMF) rating 94.23 #10
-  [DMF] Petar Sučić (DMF) rating 93.28 #17
+  [CMF] Martin Baturina (CMF) rating 94.17 #16
+  [DMF] Luka Modrić (DMF) rating 94.05 #10
   [LB] Josko Gvardiol (LB) rating 95.77 #4
   [CB] Marin Pongracic (CB) rating 75.54 #3
   [CB] Josip Sutalo (CB) rating 76.06 #6
@@ -16,8 +16,8 @@ Substitutes:
   [LWF] Andrej Kramaric (SS) rating 77.27 #9
   [RWF] Marco Pašalić (RWF) rating 74.31 #24
   [AMF] Mario Pašalić (AMF) rating 94.26 #15
-  [CMF] Martin Baturina (CMF) rating 94.17 #16
-  [DMF] Nikola Moro (DMF) rating 73.59 #8
+  [CMF] Luka Sucic (CMF) rating 94.16 #21
+  [DMF] Petar Sučić (DMF) rating 93.28 #17
   [LB] Borna Sosa (LB) rating 75.43 #19
   [CB] Duje Caleta-Car (CB) rating 74.07 #5
   [CB] Martin Erlić (CB) rating 73.05 #25
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
-  [WILD] Luka Sucic (CMF) rating 94.16 #21
+  [WILD] Bruno Petkovic (CF) rating 76.15 #7

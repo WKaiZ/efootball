@@ -1,4 +1,4 @@
-Alexis Saelemaekers, RMF, 95.10, True, Highlight, [LWF, LMF, RWF, RMF, RB], [AMF]
+Alexis Saelemaekers, RMF, 94.99, True, Highlight, [LWF, LMF, RWF, RMF, RB], [AMF]
 Thomas Vermaelen, CB, 96.44, False, Epic, [CB], []
 Adnan Januzaj, RWF, 93.39, False, Highlight, [LWF, LMF, RWF, RMF, AMF], [SS, CMF]
 Arthur Vermeeren, CMF, 94.04, False, Highlight, [CMF, DMF], [AMF]

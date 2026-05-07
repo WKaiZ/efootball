@@ -5,6 +5,7 @@ Christian Pulisic, CF, 96.09, True, Highlight, [LWF, CF, RWF, SS], [LMF, RMF, AM
 Christian Pulisic, AMF, 96.31, True, Highlight, [LWF, AMF, RWF], [LMF, RMF, SS, CMF]
 Christian Pulisic, LWF, 95.31, True, Highlight, [LWF, RWF], [AMF, LMF, RMF, SS, CMF]
 Christian Pulisic, RWF, 96.98, True, Highlight, [LWF, RWF, SS, AMF], [LMF, RMF, CMF]
+Christian Pulisic, SS, 95.26, True, Highlight, [LWF, RWF, SS], [AMF, LMF, RMF, CMF, CF]
 Folarin Balogun, CF, 93.99, True, Highlight, [CF], [LWF, RWF, SS, LMF]
 Malik Tillman, AMF, 94.37, True, Highlight, [AMF, CMF, SS, CF], [LWF, LMF]
 Antonee Robinson, LB, 95.01, True, Highlight, [LB, LMF], []
