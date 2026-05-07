@@ -38,6 +38,6 @@ Dominik Kotarski, GK, 74.46, False, Standard, [GK], []
 Ivica Ivusic, GK, 73.46, False, Standard, [GK], []
 Karlo Letica, GK, 71.67, True, Standard, [GK], []
 Ivor Pandur, GK, 70.95, True, Standard, [GK], []
-
-
-
+Mateo Kovacic, CMF, 79.13, False, Standard, [CMF, DMF], [AMF]
+Ivan Perišić, LMF, 75.09, True, Standard, [LMF, LWF, RWF, RMF, SS], [CF, AMF, CMF]
+Toma Bašić, CMF, 72.49, False, Standard, [CMF, DMF], [AMF, RMF]

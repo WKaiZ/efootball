@@ -25,4 +25,4 @@ Substitutes:
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
-  [WILD] Bruno Petkovic (CF) rating 76.15 #7
+  [WILD] Mateo Kovacic (CMF) rating 79.13 #8
