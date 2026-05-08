@@ -1,4 +1,4 @@
-Achraf Hakimi, RB, 99.20, True, Showtime, [RB, LB, RMF], [RWF, LMF]
+Achraf Hakimi, RB, 97.94, True, Showtime, [RB, LB, RMF], [RWF, LMF]
 Brahim Díaz, AMF, 97.79, True, Showtime, [AMF, SS, RWF, RMF, LWF], [CF, LMF, CMF]
 Brahim Díaz, RMF, 94.97, True, Highlight, [AMF, SS, RWF, RMF, LWF], [CF, LMF, CMF]
 Brahim Díaz, RWF, 77.75, True, Standard, [AMF, RWF, RMF, LWF, LMF], [CF, SS]

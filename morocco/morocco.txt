@@ -8,7 +8,7 @@ Starters:
   [LB] Souffian El Karouani (LB) rating 73.33 #3
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Omar El Hilali (RB) rating 94.08 #15
-  [RB] Achraf Hakimi (RB) rating 99.20 #2
+  [RB] Achraf Hakimi (RB) rating 97.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
 Substitutes:

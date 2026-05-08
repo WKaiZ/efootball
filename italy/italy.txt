@@ -22,7 +22,7 @@ Substitutes:
   [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [RB] Alessandro Costacurta (RB) rating 97.15 #14
-  [GK] Gianluigi Donnarumma (GK) rating 99.36 #12
+  [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
 
 Wildcard:
   [WILD] Gianfranco Zola (SS) rating 99.85 #15
