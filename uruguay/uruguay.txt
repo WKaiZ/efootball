@@ -3,12 +3,12 @@ Starters:
   [LWF] Darwin Núñez (CF) rating 94.70 #19
   [RWF] Facundo Torres (RWF) rating 94.23 #21
   [AMF] Giorgian de Arrascaeta (AMF) rating 93.85 #10
-  [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
+  [CMF] Federico Valverde (CMF) rating 99.42 #15
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
   [CB] Ronald Araujo (CB) rating 96.61 #4
   [CB] José María Giménez (CB) rating 94.51 #2
-  [RB] Federico Valverde (RB) rating 95.52 #15
+  [RB] Guillermo Varela (RB) rating 73.35 #13
   [GK] Fernando Muslera (GK) rating 78.60 #23
 
 Substitutes:
@@ -16,13 +16,13 @@ Substitutes:
   [LWF] Brian Rodríguez (LWF) rating 73.61 #18
   [RWF] Facundo Pellistri (RWF) rating 73.89 #11
   [AMF] Tiago Palacios (AMF) rating 74.77 #8
-  [CMF] Fernando Gorriarán (CMF) rating 76.07 #6
+  [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Mauro Arambarri (DMF) rating 94.07 #20
   [LB] Mathías Olivera (LB) rating 94.22 #16
   [CB] Sebastián Cáceres (CB) rating 74.41 #3
-  [CB] Santiago Bueno (CB) rating 75.23 #17
-  [RB] Guillermo Varela (RB) rating 73.35 #13
+  [CB] Santiago Bueno (CB) rating 75.23 #6
+  [RB] Agustín Sant'Anna (RB) rating 73.13 #14
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Wildcard:
-  [WILD] Lucas Torreira (DMF) rating 78.11 #14
+  [WILD] Fernando Gorriarán (CMF) rating 76.07 #24
