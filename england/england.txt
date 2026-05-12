@@ -4,7 +4,7 @@ Starters:
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
   [CMF] Steven Gerrard (CMF) rating 98.58 #18
-  [DMF] Elliot Anderson (DMF) rating 99.00 #4
+  [DMF] Elliot Anderson (DMF) rating 97.99 #4
   [LB] Lewis Hall (LB) rating 94.08 #26
   [CB] Rio Ferdinand (CB) rating 97.73 #5
   [CB] Tony Adams (CB) rating 95.62 #6

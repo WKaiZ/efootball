@@ -3,7 +3,7 @@ Starters:
   [LWF] Darwin Núñez (CF) rating 94.70 #19
   [RWF] Facundo Torres (RWF) rating 94.23 #21
   [AMF] Giorgian de Arrascaeta (AMF) rating 93.85 #10
-  [CMF] Federico Valverde (CMF) rating 99.42 #15
+  [CMF] Federico Valverde (CMF) rating 98.93 #15
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
   [CB] Ronald Araujo (CB) rating 96.61 #4

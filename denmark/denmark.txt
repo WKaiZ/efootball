@@ -25,4 +25,4 @@ Substitutes:
   [GK] Filip Jørgensen (GK) rating 94.29 #22
 
 Wildcard:
-  [WILD] Carlo Holse (RWF) rating 72.25 #24
+  [WILD] Kasper Schmeichel (GK) rating 76.62 #16
