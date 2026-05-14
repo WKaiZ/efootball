@@ -1,6 +1,6 @@
 Starters:
   [CF] Romelu Lukaku (CF) rating 95.99 #9
-  [LWF] Jérémy Doku (LWF) rating 96.47 #11
+  [LWF] Jérémy Doku (LWF) rating 96.99 #11
   [RWF] Leandro Trossard (RWF) rating 94.36 #17
   [AMF] Eden Hazard (AMF) rating 100.35 #10
   [CMF] Youri Tielemans (CMF) rating 95.21 #8

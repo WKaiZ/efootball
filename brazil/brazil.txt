@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
   [RWF] Raphinha (RWF) rating 94.31 #11
   [AMF] Matheus Cunha (AMF) rating 96.23 #21
-  [CMF] Bruno Guimarães (CMF) rating 81.19 #16
+  [CMF] Andreas Pereira (CMF) rating 93.34 #24
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Marcelo (LB) rating 97.92 #12
   [CB] Murillo (CB) rating 95.27 #14

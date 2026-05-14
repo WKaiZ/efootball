@@ -4,25 +4,25 @@ Starters:
   [RWF] Matteo Politano (RWF) rating 94.89 #7
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #17
-  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
+  [DMF] Daniele De Rossi (DMF) rating 99.22 #16
   [LB] Paolo Maldini (LB) rating 97.30 #3
-  [CB] Fabio Cannavaro (CB) rating 99.00 #5
+  [CB] Fabio Cannavaro (CB) rating 101.20 #5
   [CB] Alessandro Nesta (CB) rating 98.91 #13
   [RB] Massimo Oddo (RB) rating 98.21 #22
   [GK] Gianluigi Buffon (GK) rating 99.98 #1
 
 Substitutes:
   [CF] Christian Vieri (CF) rating 98.01 #9
-  [LWF] Federico Chiesa (LWF) rating 94.39 #25
+  [LWF] Federico Chiesa (LWF) rating 94.39 #14
   [RWF] Riccardo Orsolini (RWF) rating 78.21 #23
-  [AMF] Roberto Baggio (AMF) rating 97.83 #16
+  [AMF] Roberto Baggio (AMF) rating 97.83 #15
   [CMF] Nicolò Barella (CMF) rating 96.03 #18
-  [DMF] Andrea Pirlo (DMF) rating 98.10 #21
-  [LB] Leonardo Spinazzola (LB) rating 94.17 #4
+  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
+  [LB] Federico Dimarco (LB) rating 94.23 #12
   [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
-  [RB] Alessandro Costacurta (RB) rating 97.15 #14
-  [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
+  [RB] Alessandro Costacurta (RB) rating 97.15 #4
+  [GK] Gianluigi Donnarumma (GK) rating 99.04 #21
 
 Wildcard:
-  [WILD] Gianfranco Zola (SS) rating 99.85 #15
+  [WILD] Christian Panucci (RB) rating 96.96 #2

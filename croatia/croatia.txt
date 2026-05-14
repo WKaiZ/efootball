@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Marco Pašalić (RWF) rating 74.31 #24
   [AMF] Mario Pašalić (AMF) rating 94.26 #15
   [CMF] Luka Sucic (CMF) rating 94.16 #21
-  [DMF] Petar Sučić (DMF) rating 93.28 #17
+  [DMF] Petar Sučić (DMF) rating 93.75 #17
   [LB] Borna Sosa (LB) rating 75.43 #19
   [CB] Duje Caleta-Car (CB) rating 74.07 #5
   [CB] Martin Erlić (CB) rating 73.05 #25

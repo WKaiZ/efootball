@@ -22,7 +22,7 @@ Leandro Trossard, CF, 94.05, False, Highlight, [LWF, CF, SS, AMF, LMF], [RWF, CM
 Leandro Trossard, LWF, 95.45, False, Highlight, [LWF, CF, SS, AMF, LMF], [RWF, CMF, RMF]
 Leandro Trossard, RWF, 94.36, False, Highlight, [LWF, CF, SS, AMF, LMF, RWF], [CMF, RMF]
 Timothy Castagne, RB, 93.28, True, Highlight, [RB, RMF, LMF], [RWF, LB]
-Jérémy Doku, LWF, 96.47, True, Highlight, [LWF, RWF, LMF, RMF], []
+Jérémy Doku, LWF, 96.99, True, Highlight, [LWF, RWF, LMF, RMF], []
 Romelu Lukaku, CF, 95.99, False, Highlight, [CF], [SS]
 Roméo Lavia, DMF, 94.46, False, Highlight, [CMF, DMF], []
 Zeno Debast, CB, 93.95, True, Highlight, [CB], [DMF]

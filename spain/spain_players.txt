@@ -16,7 +16,7 @@ Marcos Llorente, RB, 94.99, True, Highlight, [RB, CMF, DMF, SS, AMF, RMF], [RWF,
 Xavi, DMF, 97.06, False, Epic, [AMF, CMF, DMF], []
 Xavi, CMF, 98.16, False, Epic, [AMF, CMF, DMF], []
 David de Gea, GK, 93.04, False, Highlight, [GK], []
-Ferran Torres, CF, 95.63, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
+Ferran Torres, CF, 95.83, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
 Ferran Torres, RWF, 94.91, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
 Ferran Torres, LMF, 94.05, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
 Ferran Torres, LWF, 95.00, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
