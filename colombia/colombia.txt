@@ -6,7 +6,7 @@ Starters:
   [CMF] Rafael Carrascal (CMF) rating 71.90 #8
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16
   [LB] Álvaro Angulo (LB) rating 74.43 #5
-  [CB] Jhon Lucumí (CB) rating 94.00 #3
+  [CB] Jhon Lucumí (CB) rating 94.97 #3
   [CB] Yerry Mina (CB) rating 93.36 #13
   [RB] Daniel Muñoz (RB) rating 92.16 #2
   [GK] David Ospina (GK) rating 75.90 #1

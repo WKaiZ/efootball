@@ -15,8 +15,8 @@ Substitutes:
   [CF] Breel Embolo (CF) rating 76.08 #7
   [LWF] Andi Zeqiri (CF) rating 72.30 #9
   [RWF] Christian Fassnacht (RWF) rating 72.23 #16
-  [AMF] Zeki Amdouni (CF) rating 73.77 #25
-  [CMF] Remo Freuler (CMF) rating 75.47 #8
+  [AMF] Remo Freuler (CMF) rating 75.47 #8
+  [CMF] Michel Aebischer (CMF) rating 94.98 #20
   [DMF] Ardon Jashari (DMF) rating 93.14 #18
   [LB] Loris Benito (CB) rating 72.40 #3
   [CB] Becir Omeragic (CB) rating 73.44 #24

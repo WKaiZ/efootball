@@ -8,20 +8,20 @@ Starters:
   [LB] Lewis Hall (LB) rating 94.08 #26
   [CB] Rio Ferdinand (CB) rating 97.73 #5
   [CB] Tony Adams (CB) rating 95.62 #6
-  [RB] Ben White (RB) rating 96.22 #12
+  [RB] Reece James (RB) rating 96.38 #2
   [GK] Jordan Pickford (GK) rating 94.98 #1
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
   [LWF] Marcus Rashford (LWF) rating 94.34 #11
-  [RMF] Cole Palmer (RMF) rating 98.93 #19
+  [RMF] Cole Palmer (RMF) rating 98.93 #24
   [SS] Phil Foden (RMF) rating 96.81 #21
   [CMF] Jude Bellingham (CMF) rating 98.27 #8
   [DMF] Declan Rice (DMF) rating 96.87 #17
   [LB] Nico O'Reilly (LB) rating 93.99 #3
   [CB] Levi Colwill (CB) rating 95.57 #15
   [CB] John Stones (CB) rating 95.03 #16
-  [RB] Djed Spence (RB) rating 94.41 #24
+  [RB] Ben White (RB) rating 96.22 #12
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Wildcard:
