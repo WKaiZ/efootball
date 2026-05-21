@@ -1,7 +1,7 @@
 Starters:
   [CF] Raúl (CF) rating 98.86 #7
   [LWF] Nico Williams (LWF) rating 95.76 #11
-  [RWF] Lamine Yamal (RWF) rating 100.45 #19
+  [RWF] Lamine Yamal (RWF) rating 99.72 #19
   [AMF] Isco (AMF) rating 95.99 #22
   [CMF] Xavi (CMF) rating 98.16 #8
   [DMF] Rodri (DMF) rating 99.15 #16
@@ -9,7 +9,7 @@ Starters:
   [CB] Gerard Piqué (CB) rating 98.44 #3
   [CB] Pau Cubarsí (CB) rating 96.99 #4
   [RB] Albert Ferrer (RB) rating 96.99 #2
-  [GK] Joan García (GK) rating 99.38 #18
+  [GK] Joan García (GK) rating 99.09 #18
 
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9

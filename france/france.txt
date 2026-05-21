@@ -1,8 +1,8 @@
 Starters:
-  [CF] Kylian Mbappé (CF) rating 100.41 #10
+  [CF] Éric Cantona (CF) rating 99.67 #18
   [LWF] Franck Ribéry (LWF) rating 98.32 #7
   [RMF] Michael Olise (RMF) rating 98.71 #11
-  [AMF] Rayan Cherki (AMF) rating 95.47 #24
+  [AMF] Michel Platini (AMF) rating 99.09 #10
   [CMF] Adrien Rabiot (CMF) rating 96.98 #14
   [DMF] Patrick Vieira (DMF) rating 99.55 #4
   [LB] Theo Hernández (LB) rating 95.43 #19
@@ -12,17 +12,17 @@ Starters:
   [GK] Mike Maignan (GK) rating 95.31 #16
 
 Substitutes:
-  [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LWF] Bradley Barcola (LWF) rating 95.72 #20
+  [CF] Kylian Mbappé (CF) rating 99.29 #20
+  [LWF] Bradley Barcola (LWF) rating 95.72 #25
   [RMF] Christian Karembeu (RMF) rating 96.12 #12
-  [AMF] Eduardo Camavinga (AMF) rating 95.33 #6
-  [CMF] Benjamin Pavard (CB) rating 94.98 #2
+  [AMF] Rayan Cherki (AMF) rating 95.47 #24
+  [CMF] Paul Pogba (CMF) rating 95.42 #6
   [DMF] N'Golo Kanté (DMF) rating 93.96 #13
   [LB] Adrien Truffert (LB) rating 94.36 #22
   [CB] Lucas Hernández (CB) rating 95.17 #21
   [CB] William Saliba (CB) rating 96.99 #17
-  [RB] Warren Zaïre-Emery (RB) rating 96.51 #18
+  [RB] Malo Gusto (RB) rating 94.30 #2
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Wildcard:
-  [WILD] Lucas Chevalier (GK) rating 94.29 #23
+  [WILD] Marcus Thuram (CF) rating 98.11 #9
