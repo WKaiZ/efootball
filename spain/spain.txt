@@ -1,28 +1,28 @@
 Starters:
   [CF] Raúl (CF) rating 98.86 #7
   [LWF] Nico Williams (LWF) rating 95.76 #11
-  [RWF] Lamine Yamal (RWF) rating 97.86 #19
+  [RWF] Lamine Yamal (RWF) rating 100.45 #19
   [AMF] Isco (AMF) rating 95.99 #22
   [CMF] Xavi (CMF) rating 98.16 #8
   [DMF] Rodri (DMF) rating 99.15 #16
   [LB] Sergi Barjuan (LB) rating 98.36 #12
   [CB] Gerard Piqué (CB) rating 98.44 #3
-  [CB] Dean Huijsen (CB) rating 96.56 #6
+  [CB] Pau Cubarsí (CB) rating 96.99 #4
   [RB] Albert Ferrer (RB) rating 96.99 #2
-  [GK] Iker Casillas (GK) rating 98.59 #1
+  [GK] Joan García (GK) rating 99.38 #18
 
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
   [LWF] Ferran Torres (LWF) rating 95.00 #21
-  [RWF] Adama Traoré (RWF) rating 74.91 #17
+  [RWF] Brais Méndez (CMF) rating 94.20 #15
   [AMF] Dani Olmo (AMF) rating 95.67 #10
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Sergio Busquets (DMF) rating 98.11 #13
   [LB] Alejandro Balde (LB) rating 95.80 #14
-  [CB] Pau Cubarsí (CB) rating 95.23 #4
-  [CB] Pau Torres (CB) rating 94.84 #15
-  [RB] Marcos Llorente (RB) rating 94.99 #5
-  [GK] Joan García (GK) rating 95.40 #18
+  [CB] Dean Huijsen (CB) rating 96.56 #6
+  [CB] Marcos Alonso (CB) rating 94.91 #17
+  [RB] Marcos Llorente (RB) rating 96.97 #5
+  [GK] Iker Casillas (GK) rating 98.59 #1
 
 Wildcard:
   [WILD] Unai Simón (GK) rating 95.29 #23
