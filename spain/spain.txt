@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
   [LWF] Ferran Torres (LWF) rating 95.00 #21
-  [RWF] Brais Méndez (CMF) rating 94.20 #15
+  [RWF] Yéremy Pino (SS) rating 77.89 #15
   [AMF] Dani Olmo (AMF) rating 95.67 #10
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Sergio Busquets (DMF) rating 98.11 #13
