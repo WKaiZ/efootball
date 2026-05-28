@@ -30,5 +30,5 @@ Thorgan Hazard, LWF, 94.24, False, Highlight, [LWF, LMF, RWF, RMF], [CF, SS, AMF
 Malick Fofana, LWF, 95.26, False, Highlight, [LWF, CF, RWF, LMF, RMF], [SS, LB]
 Maxim De Cuyper, LB, 74.31, True, Standard, [LB, LMF, LWF], [RB, RWF]
 Killian Sardella, LB, 71.27, False, Standard, [LB, CB, RB], [LMF, RMF]
-Joaquin Seys, LB, 67.94, True, Standard, [LB], [LMF, RB]
-Mika Godts, LWF, 93.96, True, Standard, [LWF], [SS, AMF, CMF, LMF]
+Joaquin Seys, LB, 71.21, True, Standard, [LB, RB], [LMF]
+Mika Godts, LWF, 93.96, True, Highlight, [LWF], [SS, AMF, CMF, LMF]

@@ -2,7 +2,7 @@ Starters:
   [CF] Duván Zapata (CF) rating 78.09 #18
   [LWF] Luis Díaz (LWF) rating 97.29 #7
   [RWF] Juan Cuadrado (RMF) rating 95.13 #11
-  [AMF] Juan Fernando Quintero (AMF) rating 75.77 #20
+  [AMF] Juan Fernando Quintero (AMF) rating 76.52 #20
   [CMF] Rafael Carrascal (CMF) rating 71.90 #8
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16
   [LB] Álvaro Angulo (LB) rating 74.43 #5
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Davinson Sánchez (CB) rating 78.43 #23
   [CB] William Tesillo (CB) rating 74.06 #6
   [RB] Santiago Arias (RB) rating 73.93 #4
-  [GK] Devis Vásquez (GK) rating 74.56 #22
+  [GK] Kevin Mier (GK) rating 75.47 #22
 
 Wildcard:
   [WILD] Jhon Córdoba (CF) rating 77.21 #24
