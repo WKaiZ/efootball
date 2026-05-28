@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Gerd Müller (CF) rating 99.05 #13
   [LMF] Marco Reus (LMF) rating 97.37 #21
-  [RWF] Thomas Müller (SS) rating 78.96 #25
+  [RWF] Jamie Leweling (RWF) rating 75.04 #9
   [AMF] Florian Wirtz (AMF) rating 97.25 #17
   [CMF] Leon Goretzka (CMF) rating 93.36 #19
   [DMF] Felix Nmecha (DMF) rating 95.02 #7
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Manuel Neuer (GK) rating 95.58 #12
 
 Wildcard:
-  [WILD] Malick Thiaw (CB) rating 94.99 #26
+  [WILD] Thomas Müller (AMF) rating 95.36 #25
