@@ -3,7 +3,7 @@ Starters:
   [LWF] Ronaldinho (LWF) rating 99.95 #7
   [RWF] Raphinha (RWF) rating 96.99 #11
   [AMF] Kaká (AMF) rating 99.35 #8
-  [CMF] Ederson (CMF) rating 94.97 #17
+  [CMF] Bruno Guimarães (CMF) rating 96.99 #17
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Roberto Carlos (LB) rating 99.93 #6
   [CB] Gabriel (CB) rating 97.96 #3
@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
   [RWF] Antony (RWF) rating 94.10 #19
   [AMF] Rivaldo (AMF) rating 97.67 #20
-  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [CMF] Ederson (CMF) rating 94.97 #24
   [DMF] Casemiro (DMF) rating 95.20 #22
   [LB] Marcelo (LB) rating 97.92 #12
   [CB] Murillo (CB) rating 95.27 #14

@@ -1,6 +1,6 @@
 Starters:
   [CF] Luis Suárez (CF) rating 98.73 #9
-  [LWF] Darwin Núñez (CF) rating 94.70 #19
+  [LWF] Darwin Núñez (CF) rating 97.38 #19
   [RWF] Facundo Torres (RWF) rating 94.23 #21
   [AMF] Giorgian de Arrascaeta (AMF) rating 93.85 #10
   [CMF] Federico Valverde (CMF) rating 98.93 #15

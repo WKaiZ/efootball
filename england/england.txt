@@ -1,11 +1,11 @@
 Starters:
-  [CF] Michael Owen (CF) rating 98.13 #20
+  [CF] Michael Owen (CF) rating 98.13 #18
   [LWF] Anthony Gordon (LWF) rating 95.91 #14
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
-  [CMF] Steven Gerrard (CMF) rating 98.58 #18
+  [CMF] Declan Rice (CMF) rating 99.23 #8
   [DMF] Elliot Anderson (DMF) rating 97.99 #4
-  [LB] Lewis Hall (LB) rating 94.08 #26
+  [LB] Luke Shaw (LB) rating 95.99 #3
   [CB] Rio Ferdinand (CB) rating 97.73 #5
   [CB] Tony Adams (CB) rating 95.62 #6
   [RB] Reece James (RB) rating 96.38 #2
@@ -14,15 +14,15 @@ Starters:
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
   [LWF] Marcus Rashford (LWF) rating 94.34 #11
-  [RMF] Cole Palmer (RMF) rating 98.93 #24
-  [SS] Phil Foden (RMF) rating 96.81 #21
-  [CMF] Jude Bellingham (CMF) rating 98.27 #8
-  [DMF] Declan Rice (DMF) rating 96.87 #17
-  [LB] Nico O'Reilly (LB) rating 93.99 #3
+  [RMF] Cole Palmer (RMF) rating 98.93 #20
+  [SS] Phil Foden (RMF) rating 96.81 #19
+  [CMF] Steven Gerrard (CMF) rating 98.58 #16
+  [DMF] James Garner (DMF) rating 94.94 #21
+  [LB] Nico O'Reilly (LB) rating 95.94 #23
   [CB] Levi Colwill (CB) rating 95.57 #15
-  [CB] John Stones (CB) rating 95.03 #16
+  [CB] Fikayo Tomori (CB) rating 94.56 #17
   [RB] Ben White (RB) rating 96.22 #12
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Wildcard:
-  [WILD] Bukayo Saka (RWF) rating 97.41 #25
+  [WILD] Jude Bellingham (AMF) rating 100.15 #26

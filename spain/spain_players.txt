@@ -1,7 +1,7 @@
 Cristhian Mosquera, CB, 96.49, True, Highlight, [CB], [RB]
 Fermín López, CMF, 92.03, True, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
 Fermín López, AMF, 95.00, True, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
-Pedro Porro, RB, 93.22, True, Highlight, [RB, RMF], [RWF]
+Pedro Porro, RB, 95.99, True, Highlight, [RB, RMF], [RWF]
 Pedro Porro, RMF, 95.01, True, Highlight, [RB, RMF], [RWF]
 Mikel Oyarzabal, LMF, 94.08, True, Highlight, [CF, LMF, SS, LWF, RWF, AMF], [CMF, RMF]
 Mikel Oyarzabal, CF, 94.22, True, Showtime, [CF, LMF, SS, LWF, RWF, AMF], [CMF, RMF]

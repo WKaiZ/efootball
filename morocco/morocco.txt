@@ -5,9 +5,9 @@ Starters:
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
   [CMF] Ismael Saibari (AMF) rating 93.99 #11
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
-  [LB] Souffian El Karouani (LB) rating 73.33 #3
-  [CB] Medhi Benatia (CB) rating 94.38 #5
-  [CB] Omar El Hilali (RB) rating 94.08 #15
+  [LB] Souffian El Karouani (LB) rating 73.33 #15
+  [CB] Medhi Benatia (CB) rating 94.38 #6
+  [CB] Issa Diop (CB) rating 93.98 #5
   [RB] Achraf Hakimi (RB) rating 97.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Hakim Ziyech (RWF) rating 76.21 #7
   [AMF] Bilal El Khannouss (AMF) rating 73.11 #23
   [CMF] Azzedine Ounahi (CMF) rating 73.97 #8
-  [DMF] Oussama El Azzouzi (DMF) rating 70.83 #16
+  [DMF] Reda Belahyane (DMF) rating 66.84 #27
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
-  [CB] Jawad El Yamiq (CB) rating 74.27 #18
-  [CB] Romain Saïss (CB) rating 76.55 #6
-  [RB] Noussair Mazraoui (RB) rating 75.30 #14
+  [CB] Chadi Riad (CB) rating 74.06 #18
+  [CB] Jawad El Yamiq (CB) rating 74.27 #14
+  [RB] Omar El Hilali (RB) rating 94.08 #16
   [GK] Munir El Kajoui (GK) rating 73.42 #12
 
 Wildcard:
-  [WILD] Eliesse Ben Seghir (LWF) rating 75.27 #13
+  [WILD] Noussair Mazraoui (RB) rating 75.30 #3
