@@ -73,6 +73,12 @@ MANUAL_ID_OVERRIDES = {
     "switzerland": {
         "dominik schmid": {"player_id": "359409", "preserve_name": True},
     },
+    "denmark": {
+        "filip jørgensen": {"player_id": "585323", "preserve_name": True},
+    },
+    "england": {
+        "alex scott": {"player_id": "855256", "preserve_name": True},
+    },
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
     },

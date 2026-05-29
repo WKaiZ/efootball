@@ -3,7 +3,7 @@ Starters:
   [LWF] Anthony Gordon (LWF) rating 95.91 #14
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
-  [CMF] Declan Rice (CMF) rating 99.23 #8
+  [CMF] Declan Rice (CMF) rating 98.93 #8
   [DMF] Elliot Anderson (DMF) rating 97.99 #4
   [LB] Luke Shaw (LB) rating 95.99 #3
   [CB] Rio Ferdinand (CB) rating 97.73 #5
