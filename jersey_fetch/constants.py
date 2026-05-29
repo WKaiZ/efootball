@@ -32,6 +32,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},
+        "andre silva": {"player_id": "198008", "preserve_name": True},
     },
     "france": {
         "maxence lacroix": {"player_id": "434224", "preserve_name": True},
