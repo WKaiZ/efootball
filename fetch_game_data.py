@@ -28,6 +28,9 @@ MANUAL_ID_OVERRIDES = {
     "spain": {
         "pedro": "65278",
     },
+    "france": {
+        "lucas hernandez": "281963",
+    },
     "colombia": {
         "luis suarez": "424784",
         "david silva": "74071",
@@ -57,6 +60,15 @@ MANUAL_ID_OVERRIDES = {
     },
     "switzerland": {
         "dominik schmid": "359409",
+    },
+    "denmark": {
+        "filip jørgensen": "585323",
+    },
+    "england": {
+        "alex scott": "855256",
+    },
+    "germany": {
+        "jamie leweling": "518505",
     },
     "usa": {
         "patrick agyemang": "1089574",

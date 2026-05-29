@@ -32,6 +32,10 @@ def invalid_transfermarkt_title(title_text):
         return True
     if "awswaf" in low.replace(" ", ""):
         return True
+    if "most valuable players" in low:
+        return True
+    if low.endswith("| transfermarkt") or low == "transfermarkt":
+        return True
     return low in {
         "502 bad gateway",
         "503 service unavailable",

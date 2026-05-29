@@ -35,6 +35,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "france": {
         "maxence lacroix": {"player_id": "434224", "preserve_name": True},
+        "lucas hernandez": {"player_id": "281963", "preserve_name": True},
     },
     "spain": {
         "pedro": {"player_id": "65278", "preserve_name": True},
@@ -78,6 +79,9 @@ MANUAL_ID_OVERRIDES = {
     },
     "england": {
         "alex scott": {"player_id": "855256", "preserve_name": True},
+    },
+    "germany": {
+        "jamie leweling": {"player_id": "518505", "preserve_name": True},
     },
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},

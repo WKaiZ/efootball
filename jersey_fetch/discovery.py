@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from jersey_fetch.constants import HTTP_BROWSER_UA
-from jersey_fetch.names import normalize_name, unwrap_duckduckgo_link
+from jersey_fetch.names import invalid_transfermarkt_title, normalize_name, unwrap_duckduckgo_link
 from jersey_fetch.transfermarkt import html_looks_like_waf_challenge
 
 
@@ -65,13 +65,51 @@ def _wikidata_p2446_transfermarkt_id(claims):
             if sn.get("snaktype") != "value":
                 continue
             dv = sn["datavalue"]["value"]
-            if isinstance(dv, str):
-                m = re.search(r"(\d{3,})", dv)
-                if m:
-                    return m.group(1)
+            if not isinstance(dv, str):
+                continue
+            url_match = re.search(r"/spieler/(\d+)", dv, flags=re.I)
+            if url_match:
+                return url_match.group(1)
+            if re.fullmatch(r"\d{3,7}", dv.strip()):
+                return dv.strip()
         except (KeyError, TypeError, ValueError):
             continue
     return None
+
+
+def transfermarkt_id_matches_player(player_name, player_id):
+    url = f"https://www.transfermarkt.com/-/profil/spieler/{player_id}"
+    try:
+        response = requests.get(
+            url,
+            headers={"User-Agent": HTTP_BROWSER_UA},
+            timeout=20,
+            allow_redirects=True,
+        )
+        if response.status_code != 200 or not response.text:
+            return False
+        soup = BeautifulSoup(response.text, "html.parser")
+        title_tag = soup.find("title")
+        if not title_tag or not title_tag.string:
+            return False
+        candidate_name = title_tag.string.strip().split(" - ", 1)[0].strip()
+        if invalid_transfermarkt_title(candidate_name):
+            return False
+        player_parts = normalize_name(player_name).split()
+        candidate_parts = normalize_name(candidate_name).split()
+        if not player_parts:
+            return False
+        if len(player_parts) >= 2 and len(candidate_parts) > len(player_parts):
+            return False
+        if candidate_parts[: len(player_parts)] != player_parts:
+            return False
+        player_tokens = [tok for tok in player_parts if len(tok) > 2]
+        if not player_tokens:
+            return True
+        candidate_norm = normalize_name(candidate_name)
+        return any(tok in candidate_norm for tok in player_tokens)
+    except requests.RequestException:
+        return False
 
 
 def wikidata_transfermarkt_player_id(player):
@@ -109,7 +147,7 @@ def wikidata_transfermarkt_player_id(player):
         entities = r2.json().get("entities") or {}
     except (requests.RequestException, KeyError, ValueError):
         return None
-    best = None
+    candidates: list[tuple[int, int, str]] = []
     for rank, eid in enumerate(ids):
         blob = entities.get(eid)
         if not blob:
@@ -123,10 +161,12 @@ def wikidata_transfermarkt_player_id(player):
         pid = _wikidata_p2446_transfermarkt_id(claims)
         if not pid:
             continue
-        key = (ls, -rank)
-        if best is None or key > best[:2]:
-            best = (ls, -rank, pid)
-    return best[2] if best else None
+        candidates.append((ls, -rank, pid))
+    candidates.sort(reverse=True)
+    for _ls, _rank, pid in candidates:
+        if transfermarkt_id_matches_player(player, pid):
+            return pid
+    return None
 
 
 def duckduckgo_html_transfermarkt_player_id(player):
