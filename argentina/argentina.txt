@@ -1,5 +1,5 @@
 Starters:
-  [CF] Carlos Tevez (CF) rating 98.22 #11
+  [CF] Carlos Tévez (CF) rating 98.22 #11
   [LWF] Alejandro Garnacho (LWF) rating 95.10 #17
   [RWF] Lionel Messi (RWF) rating 101.48 #10
   [AMF] Nico Paz (AMF) rating 98.59 #18
@@ -7,22 +7,22 @@ Starters:
   [DMF] Alan Varela (DMF) rating 94.32 #21
   [LB] Javier Zanetti (LB) rating 99.02 #8
   [CB] Cristian Romero (CB) rating 95.21 #13
-  [CB] Lisandro Martínez (CB) rating 94.93 #2
+  [CB] Lisandro Martínez (CB) rating 94.93 #6
   [RB] Nahuel Molina (RB) rating 93.98 #26
   [GK] Emiliano Martínez (GK) rating 95.52 #23
 
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
   [LWF] Paulo Dybala (SS) rating 94.37 #19
-  [RWF] Franco Mastantuono (RWF) rating 94.35 #22
+  [RWF] Ángel Di María (RWF) rating 94.53 #15
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #4
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Leandro Paredes (DMF) rating 94.26 #5
   [LB] Marcos Acuña (LB) rating 92.25 #14
-  [CB] Martín Demichelis (CB) rating 94.84 #15
+  [CB] Leonardo Balerdi (CB) rating 94.14 #25
   [CB] Nehuén Pérez (CB) rating 94.16 #3
-  [RB] Juan Foyth (RB) rating 93.31 #6
+  [RB] Juan Foyth (RB) rating 93.31 #2
   [GK] Gerónimo Rulli (GK) rating 93.94 #12
 
 Wildcard:
-  [WILD] Enzo Fernández (CMF) rating 95.15 #24
+  [WILD] Lautaro Martínez (CF) rating 97.78 #22
