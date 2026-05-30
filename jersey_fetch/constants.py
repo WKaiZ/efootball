@@ -77,6 +77,7 @@ MANUAL_ID_OVERRIDES = {
         "johan vasquez": {"player_id": "532937", "preserve_name": True},
         "felipe rodriguez": {"player_id": "102699", "preserve_name": True},
         "ivan lopez": {"player_id": "370861", "preserve_name": True},
+        "german berterame": {"player_id": "401572", "preserve_name": True},
     },
     "uruguay": {
         "luis suarez": {"player_id": "44352", "preserve_name": True},

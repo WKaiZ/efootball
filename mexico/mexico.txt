@@ -1,9 +1,9 @@
 Starters:
   [CF] Santiago Gimenez (CF) rating 93.82 #11
-  [LWF] Hirving Lozano (LWF) rating 76.16 #13
-  [RWF] Roberto Alvarado (RWF) rating 75.12 #25
+  [LWF] Hirving Lozano (LWF) rating 74.19 #13
+  [RWF] Roberto Alvarado (RWF) rating 75.13 #25
   [AMF] Diéter Villalpando (AMF) rating 73.19 #22
-  [CMF] Erick Sánchez (CMF) rating 75.05 #14
+  [CMF] Erick Sanchez (CMF) rating 75.05 #14
   [DMF] Edson Álvarez (DMF) rating 77.46 #21
   [LB] Jesús Angulo (LB) rating 73.77 #6
   [CB] Rafa Márquez (CB) rating 96.20 #4
@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Raúl Jiménez (CF) rating 76.65 #9
-  [LWF] Marcelo Flores (LWF) rating 72.25 #18
+  [LWF] Efraín Álvarez (RMF) rating 73.40 #18
   [RWF] Uriel Antuna (RWF) rating 74.34 #10
   [AMF] Brian Gutiérrez (LMF) rating 74.15 #26
   [CMF] Héctor Herrera (CMF) rating 73.86 #16
   [DMF] Luis Romo (DMF) rating 75.48 #7
-  [LB] Osvaldo Rodríguez (LB) rating 72.21 #31
-  [CB] Gilberto Sepúlveda (CB) rating 73.37 #19
-  [CB] Johan Vásquez (CB) rating 73.36 #5
-  [RB] Julián Araujo (RB) rating 74.19 #23
+  [LB] Osvaldo Rodriguez (LB) rating 72.21 #31
+  [CB] Gilberto Sepúlveda (CB) rating 73.37 #20
+  [CB] Johan Vasquez (CB) rating 73.36 #5
+  [RB] Rodrigo Huescas (RB) rating 73.29 #19
   [GK] Raúl Rangel (GK) rating 73.63 #12
 
 Wildcard:
-  [WILD] Henry Martin (CF) rating 75.14 #20
+  [WILD] Érick Gutiérrez (DMF) rating 74.17 #8

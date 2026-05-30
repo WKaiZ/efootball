@@ -64,6 +64,7 @@ MANUAL_ID_OVERRIDES = {
         "johan vasquez": "532937",
         "felipe rodriguez": "102699",
         "ivan lopez": "370861",
+        "german berterame": "401572",
     },
     "uruguay": {
         "luis suarez": "44352",
