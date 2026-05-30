@@ -19,9 +19,9 @@ Substitutes:
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Leandro Paredes (DMF) rating 94.26 #5
   [LB] Marcos Acuña (LB) rating 92.25 #14
-  [CB] Leonardo Balerdi (CB) rating 94.14 #25
+  [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Nehuén Pérez (CB) rating 94.16 #3
-  [RB] Juan Foyth (RB) rating 93.31 #2
+  [RB] VACANT
   [GK] Gerónimo Rulli (GK) rating 93.94 #12
 
 Wildcard:

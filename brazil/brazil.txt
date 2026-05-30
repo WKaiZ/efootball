@@ -4,7 +4,7 @@ Starters:
   [RWF] Raphinha (RWF) rating 96.99 #11
   [AMF] Kaká (AMF) rating 99.35 #8
   [CMF] Bruno Guimarães (CMF) rating 96.99 #17
-  [DMF] Casemiro (DMF) rating 98.06 #5
+  [DMF] Casemiro (DMF) rating 97.38 #5
   [LB] Roberto Carlos (LB) rating 99.93 #6
   [CB] Gabriel (CB) rating 97.96 #3
   [CB] Marquinhos (CB) rating 96.97 #4

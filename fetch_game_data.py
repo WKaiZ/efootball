@@ -71,6 +71,10 @@ MANUAL_ID_OVERRIDES = {
         "jose luis rodriguez": "430339",
         "emiliano martinez": "707447",
         "agustin alvarez": "812625",
+        "fernando muslera": "58088",
+        "christhian stuani": "59323",
+        "maximiliano araujo": "572675",
+        "thiago borbas": "743951",
     },
     "switzerland": {
         "dominik schmid": "359409",

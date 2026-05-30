@@ -84,6 +84,10 @@ MANUAL_ID_OVERRIDES = {
         "jose luis rodriguez": {"player_id": "430339", "preserve_name": True},
         "emiliano martinez": {"player_id": "707447", "preserve_name": True},
         "agustin alvarez": {"player_id": "812625", "preserve_name": True},
+        "fernando muslera": {"player_id": "58088", "preserve_name": True},
+        "christhian stuani": {"player_id": "59323", "preserve_name": True},
+        "maximiliano araujo": {"player_id": "572675", "preserve_name": True},
+        "thiago borbas": {"player_id": "743951", "preserve_name": True},
     },
     "switzerland": {
         "dominik schmid": {"player_id": "359409", "preserve_name": True},
