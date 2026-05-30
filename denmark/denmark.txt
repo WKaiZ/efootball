@@ -5,7 +5,7 @@ Starters:
   [AMF] Christian Eriksen (CMF) rating 94.26 #10
   [CMF] Pierre-Emile Højbjerg (CMF) rating 95.28 #23
   [DMF] Christian Nørgaard (DMF) rating 94.45 #15
-  [LB] Patrick Dorgu (LB) rating 94.08 #5
+  [LB] Patrick Dorgu (LB) rating 94.06 #5
   [CB] Victor Nelsson (CB) rating 94.96 #3
   [CB] Andreas Christensen (CB) rating 93.40 #6
   [RB] Rasmus Kristensen (RB) rating 75.05 #13

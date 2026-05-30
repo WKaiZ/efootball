@@ -1,4 +1,4 @@
-Patrick Dorgu, LB, 94.08, False, Highlight, [LB, LMF], [LWF, RWF, RMF]
+Patrick Dorgu, LB, 94.06, False, Highlight, [LB, LMF, LWF], [RB, RWF, RMF]
 Filip Jørgensen, GK, 94.29, False, Highlight, [GK], []
 Andreas Christensen, CB, 93.40, False, Highlight, [CB, DMF], [RB]
 Peter Schmeichel, GK, 99.74, False, Epic, [GK], []
