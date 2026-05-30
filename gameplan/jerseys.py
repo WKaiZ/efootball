@@ -66,6 +66,21 @@ def jersey_prefs_for_player(conn, p):
     return most_recent, prefs
 
 
+def _blocked_by_other_first_choice(players, prefs_map, assignments, p, pref_idx, num):
+    if pref_idx == 0:
+        return False
+    p_tier = card_priority(p.card_type)
+    for other in players:
+        if other.player_id == p.player_id or other.player_id in assignments:
+            continue
+        if card_priority(other.card_type) != p_tier:
+            continue
+        other_prefs = prefs_map.get(other.player_id, [])
+        if other_prefs and other_prefs[0] == num:
+            return True
+    return False
+
+
 def try_assign_jersey_for_player(conn, p, used_numbers, assignments):
     if p is None:
         return None
@@ -123,49 +138,6 @@ def choose_jersey_for_player(conn, p, used_numbers, assignments, blocked_numbers
     return None
 
 
-def _assign_epic_nonrecent_greedy(
-    players, used_numbers, assignments, most_recent_map, prefs_map
-):
-    epic_nr = [
-        p
-        for p in players
-        if p.player_id not in assignments
-        and card_priority(p.card_type) == 0
-        and not p.recent
-    ]
-    prio_players = sorted(epic_nr, key=lambda r: -r.rating)
-    bench_recent_non_epic = [
-        q
-        for q in players
-        if q.recent and card_priority(q.card_type) > 0 and q.player_id not in assignments
-    ]
-    for p in prio_players:
-        prefs = prefs_map.get(p.player_id, [])
-        for pref_idx, num in enumerate(prefs):
-            if num in used_numbers:
-                continue
-            blocked_by_recent_mr = any(
-                most_recent_map.get(q.player_id) == num
-                for q in bench_recent_non_epic
-            )
-            if blocked_by_recent_mr:
-                continue
-            if pref_idx > 0:
-                blocked_by_other_first_choice = False
-                for other in prio_players:
-                    if other.player_id == p.player_id or other.player_id in assignments:
-                        continue
-                    other_prefs = prefs_map.get(other.player_id, [])
-                    if other_prefs and other_prefs[0] == num:
-                        blocked_by_other_first_choice = True
-                        break
-                if blocked_by_other_first_choice:
-                    continue
-            assignments[p.player_id] = num
-            used_numbers.add(num)
-            break
-
-
 def _assign_substitute_group(
     conn,
     players,
@@ -174,43 +146,14 @@ def _assign_substitute_group(
 ):
     if not players:
         return
-    most_recent_map = {}
-    prefs_map = {}
-    for p in players:
-        if p.player_id not in most_recent_map:
-            mr, prefs = jersey_prefs_for_player(conn, p)
-            most_recent_map[p.player_id] = mr
-            prefs_map[p.player_id] = prefs
-
-    _assign_epic_nonrecent_greedy(
-        players, used_numbers, assignments, most_recent_map, prefs_map
+    assign_group_jerseys(
+        conn,
+        players,
+        used_numbers,
+        assignments,
+        allow_recent_lock=True,
+        recent_lock_global=True,
     )
-
-    for p in sorted(
-        (
-            x
-            for x in players
-            if x.player_id not in assignments
-            and x.recent
-            and card_priority(x.card_type) > 0
-        ),
-        key=lambda r: -r.rating,
-    ):
-        mr = most_recent_map.get(p.player_id)
-        if mr is not None and mr not in used_numbers:
-            assignments[p.player_id] = mr
-            used_numbers.add(mr)
-
-    remaining = [p for p in players if p.player_id not in assignments]
-    if remaining:
-        assign_group_jerseys(
-            conn,
-            remaining,
-            used_numbers,
-            assignments,
-            allow_recent_lock=True,
-            recent_lock_global=False,
-        )
 
 
 def assign_group_jerseys(
@@ -266,17 +209,10 @@ def assign_group_jerseys(
             for pref_idx, num in enumerate(prefs):
                 if num in used_numbers:
                     continue
-                if pref_idx > 0:
-                    blocked_by_other_first_choice = False
-                    for other in prio_players:
-                        if other.player_id == p.player_id or other.player_id in assignments:
-                            continue
-                        other_prefs = prefs_map.get(other.player_id, [])
-                        if other_prefs and other_prefs[0] == num:
-                            blocked_by_other_first_choice = True
-                            break
-                    if blocked_by_other_first_choice:
-                        continue
+                if _blocked_by_other_first_choice(
+                    players, prefs_map, assignments, p, pref_idx, num
+                ):
+                    continue
                 assignments[p.player_id] = num
                 used_numbers.add(num)
                 break

@@ -10,6 +10,7 @@ MANUAL_ID_OVERRIDES = {
     "argentina": {
         "nico gonzalez": "486031",
         "emiliano martinez": "111873",
+        "benjamin dominguez": "961022",
     },
     "brazil": {
         "gabriel": "435338",
@@ -48,6 +49,7 @@ MANUAL_ID_OVERRIDES = {
         "david silva": "74071",
         "richard rios": "735573",
         "dani torres": "93142",
+        "yeimar gomez andrade": "343359",
     },
     "senegal" : {
         'souleymane basse': '1111045',

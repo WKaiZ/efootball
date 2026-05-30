@@ -3,9 +3,9 @@ Starters:
   [LWF] Luis Díaz (LWF) rating 97.29 #7
   [RWF] Juan Cuadrado (RMF) rating 95.13 #11
   [AMF] Juan Fernando Quintero (AMF) rating 76.52 #20
-  [CMF] Rafael Carrascal (CMF) rating 71.90 #8
+  [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16
-  [LB] Álvaro Angulo (LB) rating 74.43 #5
+  [LB] Álvaro Angulo (LB) rating 74.73 #5
   [CB] Jhon Lucumí (CB) rating 94.97 #3
   [CB] Yerry Mina (CB) rating 93.36 #13
   [RB] Daniel Muñoz (RB) rating 92.16 #2
@@ -14,13 +14,13 @@ Starters:
 Substitutes:
   [CF] Jhon Durán (CF) rating 77.35 #9
   [LWF] Jáminton Campaz (LWF) rating 74.84 #21
-  [RWF] Andrés Gómez (RWF) rating 70.20 #26
+  [RWF] Felipe Pardo (RWF) rating 71.53 #17
   [AMF] Edwin Cardona (AMF) rating 74.39 #10
-  [CMF] Steven Alzate (CMF) rating 71.61 #17
-  [DMF] Juan Portilla (DMF) rating 74.30 #15
-  [LB] Frank Fabra (LB) rating 74.28 #28
+  [CMF] Rafael Carrascal (CMF) rating 71.90 #8
+  [DMF] Juan Portilla (DMF) rating 74.30 #19
+  [LB] Frank Fabra (LB) rating 74.28 #26
   [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [CB] William Tesillo (CB) rating 74.06 #6
+  [CB] Yerson Mosquera (CB) rating 73.57 #15
   [RB] Santiago Arias (RB) rating 73.93 #4
   [GK] Kevin Mier (GK) rating 75.47 #22
 

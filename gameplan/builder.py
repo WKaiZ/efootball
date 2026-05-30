@@ -363,6 +363,8 @@ def build_gameplan(conn, roles_by_pos):
                                     break
                             if holder is None:
                                 continue
+                            if holder.rating > candidate.rating:
+                                continue
 
                             temp_used_ids = (used_ids - {holder.player_id}) | {candidate.player_id}
                             temp_assignments = dict(assignments)
@@ -378,6 +380,8 @@ def build_gameplan(conn, roles_by_pos):
                                 exclude_ids={candidate.player_id, holder.player_id},
                             )
                             if replacement is None:
+                                continue
+                            if replacement.rating < holder.rating:
                                 continue
 
                             if candidate.rating > best_rating:
@@ -499,6 +503,7 @@ def build_gameplan(conn, roles_by_pos):
 
     upgrade_subs()
     try_swap_fill_sub_vacancies()
+    upgrade_subs()
 
     starter_asg = []
     for slot, p in zip(FORMATION, starters):

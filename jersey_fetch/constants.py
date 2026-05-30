@@ -12,6 +12,7 @@ MANUAL_ID_OVERRIDES = {
     "argentina": {
         "nico gonzalez": {"player_id": "486031", "preserve_name": True},
         "emiliano martinez": {"player_id": "111873", "preserve_name": True},
+        "benjamin dominguez": {"player_id": "961022", "preserve_name": True},
     },
     "brazil": {
         "gabriel": {"player_id": "435338", "preserve_name": True},
@@ -57,9 +58,10 @@ MANUAL_ID_OVERRIDES = {
     },
     "colombia": {
         "david silva": {"player_id": "74071", "preserve_name": True},
-        "richard rios": {"player_id": "159497", "preserve_name": True},
+        "richard rios": {"player_id": "735573", "preserve_name": True},
         "luis suarez": {"player_id": "424784", "preserve_name": True},
         "dani torres": {"player_id": "93142", "preserve_name": True},
+        "yeimar gomez andrade": {"player_id": "343359", "preserve_name": True},
     },
     "senegal": {
         "idrissa gueye": {"CF": {"player_id": "1178488", "preserve_name": True}},
