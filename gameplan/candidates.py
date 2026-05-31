@@ -1,4 +1,4 @@
-from gameplan.constants import SUB_WING_SLOTS
+from gameplan.constants import SUB_WING_SLOTS, is_standard
 from gameplan.formation import FORMATION
 from gameplan.jerseys import jersey_prefs_for_player
 
@@ -38,17 +38,51 @@ def next_candidate_for_sub_wing(
     excluded_ids,
     subs=None,
 ):
-    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs)
-    if repl is not None:
-        return repl
-    ss_candidates = [
+    # Non-Standard direct winger first
+    nonstd_direct = [
+        r
+        for r in roles_by_pos.get(slot, [])
+        if r.player_id not in excluded_ids
+        and _player_usable_for_slot_candidate(r, used_ids, subs)
+        and not is_standard(r)
+    ]
+    if nonstd_direct:
+        return max(nonstd_direct, key=lambda r: r.rating)
+
+    # SS fallback — non-Standard only (Standard SS must never fill a wing sub slot)
+    nonstd_ss = [
         r
         for r in roles_by_pos.get("SS", [])
-        if r.player_id not in excluded_ids and _player_usable_for_slot_candidate(r, used_ids, subs)
+        if r.player_id not in excluded_ids
+        and _player_usable_for_slot_candidate(r, used_ids, subs)
+        and not is_standard(r)
     ]
-    if not ss_candidates:
-        return None
-    return max(ss_candidates, key=lambda r: r.rating)
+    if nonstd_ss:
+        return max(nonstd_ss, key=lambda r: r.rating)
+
+    # Standard direct winger
+    std_direct = [
+        r
+        for r in roles_by_pos.get(slot, [])
+        if r.player_id not in excluded_ids
+        and _player_usable_for_slot_candidate(r, used_ids, subs)
+        and is_standard(r)
+    ]
+    if std_direct:
+        return max(std_direct, key=lambda r: r.rating)
+
+    # Standard SS — last resort
+    std_ss = [
+        r
+        for r in roles_by_pos.get("SS", [])
+        if r.player_id not in excluded_ids
+        and _player_usable_for_slot_candidate(r, used_ids, subs)
+        and is_standard(r)
+    ]
+    if std_ss:
+        return max(std_ss, key=lambda r: r.rating)
+
+    return None
 
 
 def try_free_jersey_via_swap(conn, candidate, used_numbers, assignments, lineup_players, starter_ids=None):

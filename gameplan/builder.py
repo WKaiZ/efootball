@@ -446,7 +446,7 @@ def build_gameplan(conn, roles_by_pos):
     fill_vacancies(
         [i for i, p in enumerate(starters) if p is None],
         starters,
-        "proficient",
+        "main",
         want_standard=True,
         blocked_numbers=starter_blocked_numbers,
         update_blocked=True,
@@ -456,7 +456,7 @@ def build_gameplan(conn, roles_by_pos):
     fill_vacancies(
         [i for i, p in enumerate(starters) if p is None],
         starters,
-        "main",
+        "proficient",
         want_standard=True,
         blocked_numbers=starter_blocked_numbers,
         update_blocked=True,
@@ -535,12 +535,16 @@ def build_gameplan(conn, roles_by_pos):
                 pool.append(r)
     wildcard_asg = None
     for candidate in sorted(pool, key=lambda r: r.rating, reverse=True):
-        _mr, prefs = jersey_prefs_for_player(conn, candidate)
+        most_recent_wc, prefs = jersey_prefs_for_player(conn, candidate)
         num = None
-        for n in prefs:
-            if n not in used_numbers:
-                num = n
-                break
+        # Apply recent-lock: if recent=True, try the most recently worn number first
+        if candidate.recent and most_recent_wc is not None and most_recent_wc not in used_numbers:
+            num = most_recent_wc
+        if num is None:
+            for n in prefs:
+                if n not in used_numbers:
+                    num = n
+                    break
         if num is not None:
             wildcard_asg = Assignment(slot="WILD", player=candidate, jersey=num)
             break

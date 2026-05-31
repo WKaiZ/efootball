@@ -17,7 +17,7 @@ Player selection
   - Stage C: if starter slots are still `VACANT`, Standard cards in their `MAIN position`.
   - Stage D: if starter slots are still `VACANT`, Standard cards via `proficient_positions`.
   - `semiproficient_positions` are not used for starters.
-- Initial substitutes: same rating-driven “pick the best eligible player for any open sub slot” pattern as starters, but each slot only considers `MAIN position` matches; for sub `LWF`/`RWF`, if there is no non-Standard direct winger, non-Standard `SS` may be used (Standard wings and Standard `SS` are not used in that fallback).
+- Initial substitutes: same rating-driven “pick the best eligible player for any open sub slot” pattern as starters, but each slot only considers `MAIN position` matches; for sub `LWF`/`RWF`, candidates are considered in this priority order: non-Standard direct winger → non-Standard `SS` (if no non-Standard direct winger) → Standard direct winger → Standard `SS` (last resort only).
 - If substitute slots are still `VACANT` after lineup + jersey processing, fill them in this order:
   - `MAIN` non-Standard
   - `MAIN` Standard
@@ -32,8 +32,11 @@ Player selection
   - A new stage begins only when no further assignments are possible in the previous stage.
 
 - Substitute-specific SS fallback:
-  - Only for SUBSTITUTE `LWF` or `RWF` vacancies: you may use an `SS` player, but only when no eligible non-Standard direct roles exist for that slot.
-  - Do not use `SS` to fill substitutes in the Standard stage.
+  - Only for SUBSTITUTE `LWF` or `RWF` vacancies. Candidates are tried in this priority order:
+    1. Non-Standard direct winger (`LWF`/`RWF` as MAIN position)
+    2. Non-Standard `SS` — only if no non-Standard direct winger is available
+    3. Standard direct winger
+    4. Standard `SS` — last resort, only if no Standard direct winger is available either
   - More generally, substitute slots that cannot be satisfied directly by `MAIN position` (for example `SS`) are lower priority than direct `MAIN-position` substitute assignments.
 
 Jersey number assignment (overall)
@@ -77,7 +80,7 @@ Starter replacement rule (when jerseys fail)
   - If promotion is not possible, replace the starter with the best next available candidate for that slot.
 
 - Vacant slot fill (starters)
-  - After starter + substitute selection/jersey assignment, empty starter slots: non-Standard via `proficient_positions`, then Standard via `proficient_positions`, then Standard in `MAIN position` (can pull from bench roles where allowed by code). Numbers already on starters block picking duplicates for those fills.
+  - After starter + substitute selection/jersey assignment, empty starter slots are filled in this order: non-Standard via `proficient_positions`, then Standard in `MAIN position`, then Standard via `proficient_positions` (can pull from bench roles where allowed by code). Numbers already on starters block picking duplicates for those fills.
   - If still no candidate works, the slot stays empty (`VACANT` in the output).
 - Vacant sub slots may also use an extra swap routine in code (reassign another sub to free a number) before remaining `VACANT`.
 
