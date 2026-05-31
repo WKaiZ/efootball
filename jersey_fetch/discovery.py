@@ -6,8 +6,19 @@ from bs4 import BeautifulSoup
 
 from jersey_fetch.constants import HTTP_BROWSER_UA
 from jersey_fetch.names import invalid_transfermarkt_title, normalize_name, unwrap_duckduckgo_link
+from jersey_fetch.text_utils import levenshtein
 from jersey_fetch.transfermarkt import html_looks_like_waf_challenge
 
+def _fuzzy_token_match(token, text, max_dist=2):
+
+    if token in text:
+        return True
+    if len(token) < 4:
+        return False
+    for word in text.split():
+        if abs(len(word) - len(token)) <= max_dist and levenshtein(token, word) <= max_dist:
+            return True
+    return False
 
 def score_transfermarkt_candidate(player_name, link, text):
     if not link or "transfermarkt." not in link or "/spieler/" not in link:
@@ -35,12 +46,18 @@ def score_transfermarkt_candidate(player_name, link, text):
         score += 60
     elif player_norm and player_norm in text_norm:
         score += 40
-    token_matches = sum((1 for tok in player_tokens if tok in slug_norm or tok in text_norm))
-    score += token_matches * 10
-    if token_matches == 0:
+
+    exact_matches = 0
+    fuzzy_matches = 0
+    for tok in player_tokens:
+        if tok in slug_norm or tok in text_norm:
+            exact_matches += 1
+        elif _fuzzy_token_match(tok, slug_norm) or _fuzzy_token_match(tok, text_norm):
+            fuzzy_matches += 1
+    score += exact_matches * 10 + fuzzy_matches * 6
+    if exact_matches + fuzzy_matches == 0:
         return None
     return (score, pid)
-
 
 def _wikidata_label_match_score(player, label):
     pn = normalize_name(player)
@@ -52,11 +69,13 @@ def _wikidata_label_match_score(player, label):
     if pn in ln or ln in pn:
         return 85
     toks = [t for t in pn.split() if t]
-    hits = sum((1 for t in toks if t in ln))
-    if hits == 0:
+    exact_hits = sum(1 for t in toks if t in ln)
+    fuzzy_hits = sum(1 for t in toks if t not in ln and _fuzzy_token_match(t, ln))
+    total_hits = exact_hits + fuzzy_hits
+    if total_hits == 0:
         return 0
-    return 45 + hits * 12
 
+    return 45 + exact_hits * 12 + fuzzy_hits * 7
 
 def _wikidata_p2446_transfermarkt_id(claims):
     for c in claims or []:
@@ -75,7 +94,6 @@ def _wikidata_p2446_transfermarkt_id(claims):
         except (KeyError, TypeError, ValueError):
             continue
     return None
-
 
 def transfermarkt_id_matches_player(player_name, player_id):
     url = f"https://www.transfermarkt.com/-/profil/spieler/{player_id}"
@@ -99,62 +117,93 @@ def transfermarkt_id_matches_player(player_name, player_id):
         candidate_parts = normalize_name(candidate_name).split()
         if not player_parts:
             return False
-        if len(player_parts) >= 2 and len(candidate_parts) > len(player_parts):
-            return False
-        if candidate_parts[: len(player_parts)] != player_parts:
-            return False
-        player_tokens = [tok for tok in player_parts if len(tok) > 2]
-        if not player_tokens:
-            return True
+
         candidate_norm = normalize_name(candidate_name)
-        return any(tok in candidate_norm for tok in player_tokens)
+        significant_tokens = [tok for tok in player_parts if len(tok) > 2]
+        if not significant_tokens:
+            return True
+        matched = sum(
+            1 for tok in significant_tokens if _fuzzy_token_match(tok, candidate_norm)
+        )
+
+        n = len(significant_tokens)
+        required = n if n <= 2 else max(2, round(n * 0.75))
+        return matched >= required
     except requests.RequestException:
         return False
 
-
 def wikidata_transfermarkt_player_id(player):
     try:
-        r = requests.get(
-            "https://www.wikidata.org/w/api.php",
-            params={
-                "action": "wbsearchentities",
-                "search": player,
-                "language": "en",
-                "format": "json",
-                "limit": 12,
-            },
-            headers={"User-Agent": HTTP_BROWSER_UA},
-            timeout=25,
+
+        player_norm = normalize_name(player)
+        tokens = sorted(
+            [t for t in player_norm.split() if len(t) >= 4],
+            key=lambda t: -len(t),
         )
-        r.raise_for_status()
-        hits = r.json().get("search") or []
-        if not hits:
+        all_queries = [player] + tokens
+
+        all_ids_ordered: list[str] = []
+        seen_ids: set[str] = set()
+
+        for query in all_queries:
+            r = requests.get(
+                "https://www.wikidata.org/w/api.php",
+                params={
+                    "action": "wbsearchentities",
+                    "search": query,
+                    "language": "en",
+                    "format": "json",
+                    "limit": 12,
+                },
+                headers={"User-Agent": HTTP_BROWSER_UA},
+                timeout=25,
+            )
+            r.raise_for_status()
+            hits = r.json().get("search") or []
+            for h in hits[:10]:
+                eid = h["id"]
+                if eid not in seen_ids:
+                    seen_ids.add(eid)
+                    all_ids_ordered.append(eid)
+            if all_ids_ordered and query == player:
+
+                break
+
+        if not all_ids_ordered:
             return None
-        ids = [h["id"] for h in hits][:10]
-        r2 = requests.get(
-            "https://www.wikidata.org/w/api.php",
-            params={
-                "action": "wbgetentities",
-                "ids": "|".join(ids),
-                "format": "json",
-                "props": "claims|labels",
-                "languages": "en",
-            },
-            headers={"User-Agent": HTTP_BROWSER_UA},
-            timeout=25,
-        )
-        r2.raise_for_status()
-        entities = r2.json().get("entities") or {}
+
+        entities: dict = {}
+        batch_size = 50
+        for start in range(0, len(all_ids_ordered), batch_size):
+            batch = all_ids_ordered[start : start + batch_size]
+            r2 = requests.get(
+                "https://www.wikidata.org/w/api.php",
+                params={
+                    "action": "wbgetentities",
+                    "ids": "|".join(batch),
+                    "format": "json",
+                    "props": "claims|labels",
+                    "languages": "en",
+                },
+                headers={"User-Agent": HTTP_BROWSER_UA},
+                timeout=25,
+            )
+            r2.raise_for_status()
+            entities.update(r2.json().get("entities") or {})
+
     except (requests.RequestException, KeyError, ValueError):
         return None
+
     candidates: list[tuple[int, int, str]] = []
-    for rank, eid in enumerate(ids):
+    for rank, eid in enumerate(all_ids_ordered):
         blob = entities.get(eid)
         if not blob:
             continue
         label = (blob.get("labels") or {}).get("en", {}).get("value") or ""
         ls = _wikidata_label_match_score(player, label)
-        min_ls = 55 if len(normalize_name(player).split()) <= 1 else 40
+        n_tokens = len(normalize_name(player).split())
+
+        min_ls = 65 if n_tokens >= 2 else 55
         if ls < min_ls:
             continue
         claims = (blob.get("claims") or {}).get("P2446")
@@ -168,9 +217,17 @@ def wikidata_transfermarkt_player_id(player):
             return pid
     return None
 
+def duckduckgo_html_transfermarkt_player_id(player, country_label=None, position_hint=None):
+    player_norm = normalize_name(player)
 
-def duckduckgo_html_transfermarkt_player_id(player):
-    queries = [
+    queries = []
+    if country_label and position_hint:
+        queries.append(f"{player} {country_label} {position_hint} transfermarkt")
+    if country_label:
+        queries.append(f"{player} {country_label} transfermarkt")
+    if position_hint:
+        queries.append(f"{player} {position_hint} transfermarkt")
+    queries += [
         f"{player} transfermarkt",
         f'"{player}" transfermarkt',
         f"{player} site:transfermarkt.com",
@@ -208,16 +265,19 @@ def duckduckgo_html_transfermarkt_player_id(player):
             continue
     return best[1] if best else None
 
-
 async def get_transfermarkt_id(player, page, country_label=None, position_hint=None):
     wid = wikidata_transfermarkt_player_id(player)
     if wid:
         print(f"  Found ID for {player}: {wid} (Wikidata)")
         return wid
-    ddg_html = duckduckgo_html_transfermarkt_player_id(player)
+
+    ddg_html = duckduckgo_html_transfermarkt_player_id(
+        player, country_label=country_label, position_hint=position_hint
+    )
     if ddg_html:
         print(f"  Found ID for {player}: {ddg_html} (DuckDuckGo HTML)")
         return ddg_html
+
     name_normalized = normalize_name(player)
     query_parts = [name_normalized]
     if position_hint:
@@ -243,7 +303,15 @@ async def get_transfermarkt_id(player, page, country_label=None, position_hint=N
                     return pid
     except Exception as e:
         print(f"  Transfermarkt search failed for {player}: {e}")
-    queries = [
+
+    queries = []
+    if country_label and position_hint:
+        queries.append(f"{player} {country_label} {position_hint} transfermarkt")
+    if country_label:
+        queries.append(f"{player} {country_label} transfermarkt")
+    if position_hint:
+        queries.append(f"{player} {position_hint} transfermarkt")
+    queries += [
         f"{player} transfermarkt",
         f'"{player}" transfermarkt',
         f"{player} transfermarkt player",

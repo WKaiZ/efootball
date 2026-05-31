@@ -16,7 +16,6 @@ from gameplan.jerseys import (
 from gameplan.lineup import all_unique, choose_initial_lineup
 from gameplan.models import Assignment
 
-
 def _recent_soft_reserved_numbers(conn, starters, subs):
     out = set()
     for p in starters + subs:
@@ -25,7 +24,6 @@ def _recent_soft_reserved_numbers(conn, starters, subs):
             if mr is not None:
                 out.add(mr)
     return out
-
 
 def build_gameplan(conn, roles_by_pos):
     starters, subs = choose_initial_lineup(roles_by_pos)
@@ -537,7 +535,7 @@ def build_gameplan(conn, roles_by_pos):
     for candidate in sorted(pool, key=lambda r: r.rating, reverse=True):
         most_recent_wc, prefs = jersey_prefs_for_player(conn, candidate)
         num = None
-        # Apply recent-lock: if recent=True, try the most recently worn number first
+
         if candidate.recent and most_recent_wc is not None and most_recent_wc not in used_numbers:
             num = most_recent_wc
         if num is None:

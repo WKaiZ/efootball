@@ -38,7 +38,6 @@ from jersey_fetch.transfermarkt import (
     maybe_note_transfermarkt_waf_once,
 )
 
-
 async def fetch_numbers_for_player(
     playwright,
     name,
@@ -111,7 +110,6 @@ async def fetch_numbers_for_player(
     else:
         print(f"{name} {player_id} national jersey numbers: NONE FOUND")
     return (nums, False)
-
 
 async def main():
     country_folder, force_refetch, game_id, game_index, lineup_only = parse_args(sys.argv)

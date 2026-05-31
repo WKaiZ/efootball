@@ -4,23 +4,23 @@ Starters:
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
   [AMF] Takumi Minamino (AMF) rating 93.36 #10
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
-  [DMF] Ao Tanaka (DMF) rating 93.00 #17
+  [DMF] Ao Tanaka (DMF) rating 93.00 #7
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
-  [CB] Makoto Hasebe (CB) rating 97.10 #35
+  [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Wataru Endo (CB) rating 93.56 #6
-  [RB] Ryunosuke Sato (LMF) rating 93.07 #20
+  [RB] Ryunosuke Sato (LMF) rating 93.07 #21
   [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Substitutes:
-  [CF] Kyogo Furuhashi (CF) rating 74.27 #9
-  [LWF] Shinji Okazaki (SS) rating 94.21 #12
-  [RMF] Ritsu Doan (RMF) rating 94.44 #21
-  [AMF] Ryotaro Ito (AMF) rating 73.12 #7
-  [CMF] Reo Hatate (CMF) rating 75.03 #18
-  [DMF] Ayumu Seko (DMF) rating 91.46 #4
+  [CF] Yuya Osako (CF) rating 71.98 #99
+  [LWF] Shinji Okazaki (SS) rating 94.21 #9
+  [RMF] Shunsuke Mito (RMF) rating 71.35 #14
+  [AMF] Takashi Inui (AMF) rating 70.47 #55
+  [CMF] Reo Hatate (CMF) rating 75.03 #22
+  [DMF] Ayumu Seko (DMF) rating 91.46 #20
   [LB] Sota Miura (LB) rating 71.67 #24
+  [CB] Tsukasa Shiotani (CB) rating 90.72 #18
   [CB] Hiroki Ito (CB) rating 77.22 #26
-  [CB] Maya Yoshida (CB) rating 74.72 #22
   [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
   [GK] Zion Suzuki (GK) rating 93.43 #1
 

@@ -2,14 +2,12 @@ from gameplan.constants import SUB_WING_SLOTS, is_standard
 from gameplan.formation import FORMATION
 from gameplan.jerseys import jersey_prefs_for_player
 
-
 def _player_usable_for_slot_candidate(r, used_ids, subs):
     if r.player_id not in used_ids:
         return True
     if subs and any(sp and sp.player_id == r.player_id for sp in subs):
         return True
     return False
-
 
 def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs=None):
     candidates = [
@@ -21,7 +19,6 @@ def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs=Non
         return None
     return max(candidates, key=lambda r: r.rating)
 
-
 def find_player_index(players, player_id):
     for i, p in enumerate(players):
         if p is None:
@@ -30,7 +27,6 @@ def find_player_index(players, player_id):
             return i
     return None
 
-
 def next_candidate_for_sub_wing(
     slot,
     roles_by_pos,
@@ -38,7 +34,7 @@ def next_candidate_for_sub_wing(
     excluded_ids,
     subs=None,
 ):
-    # Non-Standard direct winger first
+
     nonstd_direct = [
         r
         for r in roles_by_pos.get(slot, [])
@@ -49,7 +45,6 @@ def next_candidate_for_sub_wing(
     if nonstd_direct:
         return max(nonstd_direct, key=lambda r: r.rating)
 
-    # SS fallback — non-Standard only (Standard SS must never fill a wing sub slot)
     nonstd_ss = [
         r
         for r in roles_by_pos.get("SS", [])
@@ -60,7 +55,6 @@ def next_candidate_for_sub_wing(
     if nonstd_ss:
         return max(nonstd_ss, key=lambda r: r.rating)
 
-    # Standard direct winger
     std_direct = [
         r
         for r in roles_by_pos.get(slot, [])
@@ -71,7 +65,6 @@ def next_candidate_for_sub_wing(
     if std_direct:
         return max(std_direct, key=lambda r: r.rating)
 
-    # Standard SS — last resort
     std_ss = [
         r
         for r in roles_by_pos.get("SS", [])
@@ -83,7 +76,6 @@ def next_candidate_for_sub_wing(
         return max(std_ss, key=lambda r: r.rating)
 
     return None
-
 
 def try_free_jersey_via_swap(conn, candidate, used_numbers, assignments, lineup_players, starter_ids=None):
     if not candidate.recent:
@@ -113,12 +105,10 @@ def try_free_jersey_via_swap(conn, candidate, used_numbers, assignments, lineup_
             return num
     return None
 
-
 def _pick_replacement_sub(slot, roles_by_pos, used_ids, excluded):
     if slot in SUB_WING_SLOTS:
         return next_candidate_for_sub_wing(slot, roles_by_pos, used_ids, excluded)
     return next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded)
-
 
 def refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos):
     for j, sp in enumerate(subs):

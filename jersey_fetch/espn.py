@@ -17,7 +17,6 @@ from jersey_fetch.matching import (
 )
 from jersey_fetch.names import normalize_name
 
-
 def espn_request_json(url, params=None, timeout=None):
     if timeout is None:
         timeout = float(os.environ.get("ESPN_REQUEST_TIMEOUT", "30"))
@@ -38,7 +37,6 @@ def espn_request_json(url, params=None, timeout=None):
         r.raise_for_status()
         return r.json()
 
-
 def is_womens_espn_competition(text):
     low = (text or "").strip().lower()
     if "wworldq" in low:
@@ -46,7 +44,6 @@ def is_womens_espn_competition(text):
     return any(
         (marker in low for marker in ("women", "women's", "womens", "wworld", "shebelieves", "femen", "femin"))
     )
-
 
 @functools.lru_cache(maxsize=128)
 def espn_team_slug(team_id):
@@ -56,11 +53,9 @@ def espn_team_slug(team_id):
     except requests.RequestException:
         return ""
 
-
 def is_espn_womens_national_team_id(team_id):
     slug = espn_team_slug(str(team_id))
     return bool(slug) and slug.endswith(".w")
-
 
 def lookup_espn_team(country_label):
     target = normalize_name(country_label)
@@ -94,7 +89,6 @@ def lookup_espn_team(country_label):
             break
     return best[1] if best else None
 
-
 def build_espn_player_aliases(player_entry):
     athlete = player_entry.get("athlete", {}) or {}
     aliases = set()
@@ -112,7 +106,6 @@ def build_espn_player_aliases(player_entry):
         aliases.add(normalize_name(f"{fn} {ln}"))
     return {alias for alias in aliases if alias}
 
-
 def fetch_espn_athlete_role(athlete_id):
     if not athlete_id:
         return None
@@ -128,7 +121,6 @@ def fetch_espn_athlete_role(athlete_id):
     if abbr in {"G", "D", "M", "F"}:
         return abbr
     return None
-
 
 def _espn_event_team_lineup_datetime(team_id, event, now_utc):
     comp = (event.get("competitions") or [{}])[0]
@@ -151,7 +143,6 @@ def _espn_event_team_lineup_datetime(team_id, event, now_utc):
             return dt
     return None
 
-
 def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout):
     board = espn_request_json(
         "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard",
@@ -169,9 +160,8 @@ def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout
         if prev is None or dt > prev:
             event_times[eid] = dt
 
-
 def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, chunk_days=14, game_index=1):
-    """Return the event ID of the Nth most recent completed match (game_index=1 → latest)."""
+
     now = datetime.now(timezone.utc)
     event_times = {}
     latest_sched_dt = None
@@ -223,7 +213,7 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
         scan_end = start_date - timedelta(days=1)
     if not event_times:
         return None
-    # Sort all found events newest-first; game_index=1 → most recent, 2 → second most recent, etc.
+
     sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
     _, best_dt = sorted_events[0]
     stale_days = (now.date() - best_dt.date()).days
@@ -253,7 +243,6 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
         )
         idx = len(sorted_events) - 1
     return sorted_events[idx][0]
-
 
 def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
     team_id = lookup_espn_team(country_label)
@@ -316,7 +305,6 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
         "roster": roster,
     }
 
-
 def map_recent_players_to_roster(player_profiles, latest_match):
     if not latest_match:
         return ({}, {})
@@ -374,7 +362,6 @@ def map_recent_players_to_roster(player_profiles, latest_match):
             recent_flags[key] = False
             recent_numbers.pop(key, None)
     return (recent_flags, recent_numbers)
-
 
 def season_matches_year(season_text, year):
     if not season_text:

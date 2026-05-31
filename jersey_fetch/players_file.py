@@ -4,10 +4,8 @@ import re
 from jersey_fetch.constants import POSITION_SEARCH_PHRASES
 from jersey_fetch.names import normalize_name
 
-
 def country_display_name(country_name):
     return country_name.replace("_", " ").replace("-", " ").strip().title()
-
 
 def parse_args(argv):
     country_folder = "belgium"
@@ -63,7 +61,6 @@ def parse_args(argv):
         raise SystemExit("Cannot combine --gameid with --game-index. Use one or the other.")
     return (country_folder, force_refetch, game_id, game_index, lineup_only)
 
-
 def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
     name_changes = name_changes or {}
     recent_flags = recent_flags or {}
@@ -110,12 +107,10 @@ def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
                 changed = True
     return (out, changed)
 
-
 def resolve_players_file(country_folder):
     folder = country_folder.strip()
     country_name = os.path.basename(os.path.normpath(folder))
     return os.path.join(folder, f"{country_name}_players.txt")
-
 
 def parse_recent_flag(token):
     t = token.strip().lower()
@@ -124,7 +119,6 @@ def parse_recent_flag(token):
     if t == "false":
         return False
     return None
-
 
 def local_position_role(position):
     pos = (position or "").strip().upper()
@@ -138,12 +132,10 @@ def local_position_role(position):
         return "F"
     return None
 
-
 def position_search_phrase(position):
     if not position:
         return ""
     return POSITION_SEARCH_PHRASES.get(position.strip().upper(), "")
-
 
 def build_local_player_profiles(raw_lines):
     profiles = {}
@@ -166,7 +158,6 @@ def build_local_player_profiles(raw_lines):
                 if role:
                     profile["roles"].add(role)
     return profiles
-
 
 def build_local_player_search_hints(raw_lines):
     hints = {}
