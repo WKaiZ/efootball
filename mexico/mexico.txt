@@ -3,9 +3,9 @@ Starters:
   [LWF] Hirving Lozano (LWF) rating 74.19 #13
   [RWF] Roberto Alvarado (RWF) rating 75.13 #25
   [AMF] Diéter Villalpando (AMF) rating 73.19 #22
-  [CMF] Erick Sanchez (CMF) rating 75.05 #14
+  [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
   [DMF] Edson Álvarez (DMF) rating 77.46 #21
-  [LB] Jesús Angulo (LB) rating 73.77 #6
+  [LB] Jesús Angulo (LB) rating 73.77 #14
   [CB] Rafa Márquez (CB) rating 96.20 #4
   [CB] Israel Reyes (CB) rating 74.18 #15
   [RB] Kevin Álvarez (RB) rating 74.26 #2
@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Efraín Álvarez (RMF) rating 73.40 #18
   [RWF] Uriel Antuna (RWF) rating 74.34 #10
   [AMF] Brian Gutiérrez (LMF) rating 74.15 #26
-  [CMF] Héctor Herrera (CMF) rating 73.86 #16
+  [CMF] Erick Sanchez (CMF) rating 75.05 #6
   [DMF] Luis Romo (DMF) rating 75.48 #7
   [LB] Osvaldo Rodriguez (LB) rating 72.21 #31
   [CB] Gilberto Sepúlveda (CB) rating 73.37 #20
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Raúl Rangel (GK) rating 73.63 #12
 
 Wildcard:
-  [WILD] Érick Gutiérrez (DMF) rating 74.17 #8
+  [WILD] Érick Gutiérrez (DMF) rating 74.17 #16
