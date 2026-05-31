@@ -6,7 +6,7 @@ ENV_NAME="${ENV_NAME:-pes}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 usage() {
-  echo "Usage: ./run_workflow.sh [--refetch | --lineup-only] [<country> ...]"
+  echo "Usage: ./run_workflow.sh [--refetch | --lineup-only] [--game-index <N>] [<country> ...]"
   echo
   echo "Examples:"
   echo "  ./run_workflow.sh"
@@ -14,6 +14,7 @@ usage() {
   echo "  ./run_workflow.sh --lineup-only france"
   echo "  ./run_workflow.sh france"
   echo "  ./run_workflow.sh --refetch france"
+  echo "  ./run_workflow.sh --refetch --game-index 2 morocco"
   echo "  ./run_workflow.sh belgium france germany"
 }
 
@@ -21,16 +22,26 @@ find . -depth -type d -name "__pycache__" -exec rm -rf {} +
 
 REFETCH_FLAG=""
 LINEUP_ONLY_FLAG=""
+GAME_INDEX_FLAG=""
 countries=()
-
-for arg in "$@"; do
+args=("$@")
+i=0
+while [ $i -lt ${#args[@]} ]; do
+  arg="${args[$i]}"
   if [ "$arg" = "--refetch" ] || [ "$arg" = "--refresh" ] || [ "$arg" = "--no-cache" ]; then
     REFETCH_FLAG="--refetch"
   elif [ "$arg" = "--lineup-only" ] || [ "$arg" = "--espn-lineup" ]; then
     LINEUP_ONLY_FLAG="--lineup-only"
+  elif [ "$arg" = "--game-index" ]; then
+    i=$((i + 1))
+    if [ $i -ge ${#args[@]} ]; then
+      echo "Error: --game-index requires a value." >&2; exit 1
+    fi
+    GAME_INDEX_FLAG="--game-index ${args[$i]}"
   else
     countries+=("$arg")
   fi
+  i=$((i + 1))
 done
 
 if [ -n "$REFETCH_FLAG" ] && [ -n "$LINEUP_ONLY_FLAG" ]; then
@@ -67,11 +78,11 @@ for country in "${countries[@]}"; do
   echo "==> Running workflow for $country"
 
   if [ -n "$LINEUP_ONLY_FLAG" ]; then
-    python fetch_number.py "$LINEUP_ONLY_FLAG" "$country"
+    python fetch_number.py "$LINEUP_ONLY_FLAG" $GAME_INDEX_FLAG "$country"
   elif [ -n "$REFETCH_FLAG" ]; then
-    python fetch_number.py "$REFETCH_FLAG" "$country"
+    python fetch_number.py "$REFETCH_FLAG" $GAME_INDEX_FLAG "$country"
   else
-    python fetch_number.py "$country"
+    python fetch_number.py $GAME_INDEX_FLAG "$country"
   fi
   python fetch_game_data.py "$country"
   python draft_gameplan.py "$country"

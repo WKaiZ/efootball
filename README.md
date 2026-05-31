@@ -80,6 +80,7 @@ Flags:
 
 - `--refetch` (aliases: `--refresh`, `--no-cache`) — ignore cached jersey rows for this country and re-scrape Transfermarkt; also re-pulls ESPN.
 - `--lineup-only` (alias: `--espn-lineup`) — only update the `recent` flags in `<country>_players.txt` from the latest ESPN match. Skips all Transfermarkt traffic.
+- `--game-index <N>` — use the Nth most recent completed match instead of the latest (1 = latest, 2 = second latest, …). Useful when the most recent match has no public jersey numbers. Cannot be combined with `--gameid`.
 
 `--refetch` and `--lineup-only` are mutually exclusive.
 
@@ -93,9 +94,11 @@ You can also run any of those scripts directly if you only need that one stage.
 
 `fetch_numbers.py` is an alias of `fetch_number.py` (both just call `jersey_fetch.run.main`).
 
-Extra flag honored by `fetch_number.py` directly (not exposed by `run_workflow.sh`):
+Extra flags honored by `fetch_number.py` directly (not exposed by `run_workflow.sh`):
 
 - `--gameid <espnEventId>` — pin a specific ESPN match instead of auto-resolving the latest one.
+
+`--game-index` is available both in `run_workflow.sh` and in `fetch_number.py` directly.
 
 ---
 
@@ -164,4 +167,5 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - **First-time draft for a new country**: create `<country>/<country>_players.txt` (and optionally `<country>_formation.txt`), then `./run_workflow.sh <country>`. The first run is slow because it has to scrape Transfermarkt for every player.
 - **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
 - **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --refetch <country>`.
+- **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.
 - **Drafting from existing data without scraping**: run only `python draft_gameplan.py <country>`. This requires `game_data` rows to already exist for that country in `pes.db`.

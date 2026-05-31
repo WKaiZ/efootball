@@ -114,7 +114,7 @@ async def fetch_numbers_for_player(
 
 
 async def main():
-    country_folder, force_refetch, game_id, lineup_only = parse_args(sys.argv)
+    country_folder, force_refetch, game_id, game_index, lineup_only = parse_args(sys.argv)
     players_file = resolve_players_file(country_folder)
     if not os.path.exists(players_file):
         print(f"No {players_file} found; nothing to do.")
@@ -145,7 +145,7 @@ async def main():
     recent_flags = {}
     recent_numbers = {}
     if lineup_only or force_refetch:
-        latest_match = fetch_latest_espn_roster(country_label, game_id)
+        latest_match = fetch_latest_espn_roster(country_label, game_id, game_index=game_index)
         recent_flags, recent_numbers = map_recent_players_to_roster(player_profiles, latest_match)
         if recent_flags:
             raw_lines, changed = rewrite_players_txt(raw_lines, recent_flags=recent_flags)

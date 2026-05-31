@@ -170,7 +170,8 @@ def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout
             event_times[eid] = dt
 
 
-def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, chunk_days=14):
+def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, chunk_days=14, game_index=1):
+    """Return the event ID of the Nth most recent completed match (game_index=1 → latest)."""
     now = datetime.now(timezone.utc)
     event_times = {}
     latest_sched_dt = None
@@ -222,7 +223,9 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
         scan_end = start_date - timedelta(days=1)
     if not event_times:
         return None
-    _, best_dt = max(event_times.items(), key=lambda kv: kv[1])
+    # Sort all found events newest-first; game_index=1 → most recent, 2 → second most recent, etc.
+    sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
+    _, best_dt = sorted_events[0]
     stale_days = (now.date() - best_dt.date()).days
     if stale_days > 21:
         supplemental_start = max(cap_start, (now - timedelta(days=45)).date())
@@ -234,16 +237,25 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
             except requests.RequestException:
                 time.sleep(1.5 * (attempt + 1))
         else:
-            _, best_dt2 = max(event_times.items(), key=lambda kv: kv[1])
+            sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
+            _, best_dt2 = sorted_events[0]
             if best_dt2 <= best_dt:
                 print(
                     f"  Warning: Latest ESPN lineup source looks stale ({best_dt2.date()}). "
                     "Scoreboard may be failing; try again or pass --gameid <eventId>."
                 )
-    return max(event_times.items(), key=lambda kv: kv[1])[0]
+        sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
+    idx = max(0, game_index - 1)
+    if idx >= len(sorted_events):
+        print(
+            f"  Warning: --game-index {game_index} requested but only {len(sorted_events)} "
+            "completed match(es) found. Using the oldest available."
+        )
+        idx = len(sorted_events) - 1
+    return sorted_events[idx][0]
 
 
-def fetch_latest_espn_roster(country_label, game_id=None):
+def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
     team_id = lookup_espn_team(country_label)
     if not team_id:
         print(f"Could not resolve ESPN team ID for {country_label}.")
@@ -252,7 +264,7 @@ def fetch_latest_espn_roster(country_label, game_id=None):
         event_id = game_id
         print(f"Using provided gameId {event_id} for {country_label}.")
     else:
-        event_id = resolve_latest_completed_espn_event_id_for_team(team_id)
+        event_id = resolve_latest_completed_espn_event_id_for_team(team_id, game_index=game_index)
         if not event_id:
             print(f"No completed ESPN matches found for {country_label}.")
             return None

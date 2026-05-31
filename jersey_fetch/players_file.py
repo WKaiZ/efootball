@@ -13,6 +13,7 @@ def parse_args(argv):
     country_folder = "belgium"
     force_refetch = False
     game_id = None
+    game_index = 1
     lineup_only = False
     positional = []
     i = 1
@@ -28,14 +29,27 @@ def parse_args(argv):
                 i += 1
             else:
                 raise SystemExit(
-                    "Usage: python fetch_number.py|fetch_numbers.py [--refetch | --lineup-only] [--gameid <id>] [country_folder]"
+                    "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+                )
+        elif arg == "--game-index":
+            if i + 1 < len(argv):
+                try:
+                    game_index = int(argv[i + 1])
+                    if game_index < 1:
+                        raise ValueError
+                except ValueError:
+                    raise SystemExit("--game-index must be a positive integer (1 = latest, 2 = second latest, ...)")
+                i += 1
+            else:
+                raise SystemExit(
+                    "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
                 )
         else:
             positional.append(arg)
         i += 1
     if len(positional) > 1:
         raise SystemExit(
-            "Usage: python fetch_number.py|fetch_numbers.py [--refetch | --lineup-only] [--gameid <id>] [country_folder]"
+            "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
         )
     if positional:
         country_folder = positional[0]
@@ -45,7 +59,9 @@ def parse_args(argv):
             "Use --lineup-only to refresh ESPN recent flags only (no Transfermarkt). "
             "Use --refetch for a full jersey refetch including ESPN."
         )
-    return (country_folder, force_refetch, game_id, lineup_only)
+    if game_id and game_index != 1:
+        raise SystemExit("Cannot combine --gameid with --game-index. Use one or the other.")
+    return (country_folder, force_refetch, game_id, game_index, lineup_only)
 
 
 def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
