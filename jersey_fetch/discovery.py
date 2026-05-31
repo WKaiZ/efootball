@@ -212,6 +212,9 @@ def wikidata_transfermarkt_player_id(player):
             continue
         candidates.append((ls, -rank, pid))
     candidates.sort(reverse=True)
+    perfect = [pid for ls, _rank, pid in candidates if ls == 100]
+    if len(perfect) == 1:
+        return perfect[0]
     for _ls, _rank, pid in candidates:
         if transfermarkt_id_matches_player(player, pid):
             return pid

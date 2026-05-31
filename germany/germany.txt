@@ -1,11 +1,11 @@
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
-  [LMF] Jamal Musiala (LMF) rating 97.68 #14
-  [RWF] Karim Adeyemi (RWF) rating 94.47 #20
+  [LMF] Jamal Musiala (LMF) rating 97.68 #10
+  [RWF] Karim Adeyemi (RWF) rating 94.47 #14
   [AMF] Uli Hoeneß (AMF) rating 98.18 #8
-  [CMF] Lothar Matthäus (CMF) rating 99.60 #10
+  [CMF] Lothar Matthäus (CMF) rating 99.60 #18
   [DMF] Joshua Kimmich (DMF) rating 95.19 #6
-  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
+  [LB] David Raum (LMF) rating 93.96 #22
   [CB] Franz Beckenbauer (CB) rating 99.41 #5
   [CB] Emre Can (CB) rating 96.47 #23
   [RB] Philipp Lahm (RB) rating 99.27 #16
@@ -14,11 +14,11 @@ Starters:
 Substitutes:
   [CF] Gerd Müller (CF) rating 99.05 #13
   [LMF] Marco Reus (LMF) rating 97.37 #21
-  [RWF] Jamie Leweling (RWF) rating 75.04 #9
+  [RWF] Leroy Sané (RWF) rating 80.27 #19
   [AMF] Florian Wirtz (AMF) rating 97.25 #17
-  [CMF] Leon Goretzka (CMF) rating 93.36 #19
+  [CMF] Nadiem Amiri (CMF) rating 94.33 #20
   [DMF] Felix Nmecha (DMF) rating 95.02 #7
-  [LB] David Raum (LB) rating 78.02 #22
+  [LB] Robin Gosens (LMF) rating 75.32 #3
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
   [CB] Nico Schlotterbeck (CB) rating 95.32 #15
   [RB] Thilo Kehrer (CB) rating 76.98 #4
