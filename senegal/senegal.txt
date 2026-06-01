@@ -1,28 +1,28 @@
 Starters:
   [CF] El-Hadji Diouf (CF) rating 96.26 #11
   [LWF] Sadio Mané (LWF) rating 97.89 #10
-  [RWF] Ismaïla Sarr (RWF) rating 94.13 #18
-  [AMF] Iliman Ndiaye (RMF) rating 77.42 #13
+  [RWF] Iliman Ndiaye (RWF) rating 95.45 #13
+  [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Matar Sarr (CMF) rating 95.30 #17
-  [DMF] Cheikh Niasse (DMF) rating 93.17 #19
-  [LB] El Hadji Malick Diouf (LB) rating 75.23 #25
-  [CB] Kalidou Koulibaly (CB) rating 78.61 #3
-  [CB] Mamadou Sarr (CB) rating 74.61 #2
-  [RB] Youssouf Sabaly (RB) rating 73.45 #21
-  [GK] Edouard Mendy (GK) rating 76.67 #16
+  [DMF] Idrissa Gueye (DMF) rating 94.29 #5
+  [LB] El Hadji Malick Diouf (LB) rating 94.22 #25
+  [CB] Kalidou Koulibaly (CB) rating 95.47 #3
+  [CB] Moussa Niakhaté (CB) rating 93.28 #19
+  [RB] Krépin Diatta (RB) rating 93.19 #15
+  [GK] Edouard Mendy (GK) rating 95.14 #16
 
 Substitutes:
-  [CF] Nicolas Jackson (CF) rating 78.58 #9
-  [LWF] Assane Diao (LWF) rating 74.32 #7
+  [CF] Nicolas Jackson (CF) rating 95.29 #7
+  [LWF] Abdallah Sima (LWF) rating 74.04 #12
   [RWF] Ibrahim Mbaye (RWF) rating 91.31 #27
   [AMF] Habib Diarra (CMF) rating 74.24 #6
-  [CMF] Lamine Camara (CMF) rating 94.20 #8
-  [DMF] Pape Gueye (DMF) rating 77.40 #26
+  [CMF] Lamine Camara (CMF) rating 94.07 #8
+  [DMF] Pape Gueye (DMF) rating 94.22 #26
   [LB] Ismail Jakobs (LB) rating 73.54 #14
-  [CB] Mikayil Faye (CB) rating 72.45 #12
+  [CB] Mamadou Sarr (CB) rating 74.61 #2
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
-  [RB] Bouna Sarr (RB) rating 72.20 #20
+  [RB] Youssouf Sabaly (RB) rating 73.45 #21
   [GK] Yehvann Diouf (GK) rating 76.63 #1
 
 Wildcard:
-  [WILD] Krépin Diatta (RMF) rating 74.84 #15
+  [WILD] Cheikh Niasse (DMF) rating 93.17 #22
