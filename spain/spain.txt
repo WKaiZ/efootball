@@ -9,7 +9,7 @@ Starters:
   [CB] Gerard Piqué (CB) rating 98.44 #3
   [CB] Pau Cubarsí (CB) rating 96.99 #4
   [RB] Albert Ferrer (RB) rating 96.99 #2
-  [GK] David Raya (GK) rating 99.12 #1
+  [GK] Joan García (GK) rating 99.09 #18
 
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Dean Huijsen (CB) rating 96.56 #6
   [CB] Marcos Alonso (CB) rating 94.91 #17
   [RB] Marcos Llorente (RB) rating 96.97 #5
-  [GK] Joan García (GK) rating 99.09 #18
+  [GK] David Raya (GK) rating 98.82 #1
 
 Wildcard:
   [WILD] Iker Casillas (GK) rating 98.59 #23

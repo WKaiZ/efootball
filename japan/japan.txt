@@ -2,14 +2,14 @@ Starters:
   [CF] Yoichiro Kakitani (CF) rating 93.97 #30
   [LWF] Daizen Maeda (LWF) rating 95.11 #11
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
-  [AMF] Shunsuke Nakamura (AMF) rating 98.17 #10
+  [AMF] Shunsuke Nakamura (AMF) rating 96.64 #10
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
   [DMF] Ao Tanaka (DMF) rating 93.00 #7
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Ko Itakura (CB) rating 95.20 #4
   [RB] Ryunosuke Sato (LMF) rating 93.07 #21
-  [GK] Seigo Narazaki (GK) rating 97.21 #1
+  [GK] Seigo Narazaki (GK) rating 96.92 #1
 
 Substitutes:
   [CF] Keito Nakamura (CF) rating 92.83 #13
