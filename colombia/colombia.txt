@@ -17,10 +17,10 @@ Substitutes:
   [RWF] Felipe Pardo (RWF) rating 71.53 #17
   [AMF] Edwin Cardona (AMF) rating 74.39 #10
   [CMF] Rafael Carrascal (CMF) rating 71.90 #8
-  [DMF] Juan Portilla (DMF) rating 74.30 #19
+  [DMF] Juan Portilla (DMF) rating 74.30 #15
   [LB] Frank Fabra (LB) rating 74.28 #26
   [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [CB] Yerson Mosquera (CB) rating 73.57 #15
+  [CB] Felipe Aguilar (CB) rating 72.36 #14
   [RB] Santiago Arias (RB) rating 73.93 #4
   [GK] Kevin Mier (GK) rating 75.47 #22
 
