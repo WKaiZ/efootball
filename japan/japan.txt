@@ -1,28 +1,28 @@
 Starters:
-  [CF] Yoichiro Kakitani (CF) rating 93.97 #30
-  [LWF] Daizen Maeda (LWF) rating 95.11 #11
+  [CF] Keisuke Honda (CF) rating 98.62 #4
+  [LMF] Shinji Kagawa (LMF) rating 99.37 #10
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
-  [AMF] Shunsuke Nakamura (AMF) rating 96.64 #10
+  [AMF] Hidetoshi Nakata (AMF) rating 97.21 #7
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
-  [DMF] Ao Tanaka (DMF) rating 93.00 #7
+  [DMF] Makoto Hasebe (DMF) rating 99.34 #17
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
-  [CB] Makoto Hasebe (CB) rating 97.10 #17
-  [CB] Ko Itakura (CB) rating 95.20 #4
-  [RB] Ryunosuke Sato (LMF) rating 93.07 #21
+  [CB] Ko Itakura (CB) rating 95.20 #20
+  [CB] Wataru Endo (CB) rating 93.56 #6
+  [RB] Seiya Maikuma (RB) rating 93.04 #16
   [GK] Seigo Narazaki (GK) rating 96.92 #1
 
 Substitutes:
-  [CF] Keito Nakamura (CF) rating 92.83 #13
-  [LWF] Shinji Okazaki (SS) rating 94.21 #18
-  [RMF] Yukinari Sugawara (RB) rating 74.19 #2
-  [AMF] Takumi Minamino (AMF) rating 93.36 #9
-  [CMF] Yasuto Wakizaka (CMF) rating 73.23 #14
-  [DMF] Ayumu Seko (DMF) rating 91.46 #20
+  [CF] Yoichiro Kakitani (CF) rating 93.97 #11
+  [LMF] Takumi Minamino (LMF) rating 93.98 #13
+  [RMF] Ritsu Doan (RMF) rating 94.44 #21
+  [AMF] Shunsuke Nakamura (AMF) rating 96.64 #14
+  [CMF] Joel Chima Fujita (CMF) rating 72.97 #26
+  [DMF] Hidemasa Morita (DMF) rating 75.26 #5
   [LB] Sota Miura (LB) rating 71.67 #24
-  [CB] Wataru Endo (CB) rating 93.56 #6
-  [CB] Tsukasa Shiotani (CB) rating 90.72 #3
-  [RB] Takehiro Tomiyasu (RB) rating 75.26 #22
+  [CB] Maya Yoshida (CB) rating 93.28 #22
+  [CB] Tsukasa Shiotani (CB) rating 90.72 #18
+  [RB] Hiroki Sekine (RB) rating 92.01 #2
   [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Wildcard:
-  [WILD] Taishi Brandon Nozawa (GK) rating 92.07 #12
+  [WILD] Daizen Maeda (LWF) rating 95.11 #25
