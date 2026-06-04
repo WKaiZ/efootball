@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9
-  [LWF] Arnaut Danjuma (LWF) rating 75.32 #22
+  [LWF] Crysencio Summerville (LWF) rating 75.86 #24
   [RWF] Steven Berghuis (RWF) rating 93.93 #21
   [AMF] Wesley Sneijder (AMF) rating 97.78 #16
   [CMF] Mark van Bommel (CMF) rating 96.65 #18
