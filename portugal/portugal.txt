@@ -21,8 +21,8 @@ Substitutes:
   [LB] Raphaël Guerreiro (LB) rating 93.09 #5
   [CB] Gonçalo Inácio (CB) rating 94.21 #14
   [CB] António Silva (CB) rating 94.99 #24
-  [RB] João Cancelo (RB) rating 95.26 #20
-  [GK] Rui Silva (GK) rating 77.81 #22
+  [RB] João Cancelo (RB) rating 95.29 #20
+  [GK] Rui Silva (GK) rating 94.31 #22
 
 Wildcard:
   [WILD] Francisco Conceição (RMF) rating 94.37 #26
