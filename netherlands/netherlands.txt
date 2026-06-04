@@ -14,15 +14,15 @@ Starters:
 Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9
   [LWF] Arnaut Danjuma (LWF) rating 75.32 #22
-  [RWF] Steven Berghuis (RWF) rating 93.93 #15
+  [RWF] Steven Berghuis (RWF) rating 93.93 #21
   [AMF] Wesley Sneijder (AMF) rating 97.78 #16
   [CMF] Mark van Bommel (CMF) rating 96.65 #18
   [DMF] Phillip Cocu (DMF) rating 96.93 #6
   [LB] Jorrel Hato (LB) rating 94.41 #25
   [CB] Frank Rijkaard (CB) rating 96.97 #17
-  [CB] Ronald Koeman (CB) rating 96.01 #13
+  [CB] Micky van de Ven (CB) rating 96.00 #15
   [RB] Lutsharel Geertruida (RB) rating 95.11 #12
-  [GK] Bart Verbruggen (GK) rating 93.92 #23
+  [GK] Robin Roefs (GK) rating 94.78 #13
 
 Wildcard:
-  [WILD] Roy Makaay (CF) rating 98.62 #21
+  [WILD] Ryan Gravenberch (CMF) rating 96.23 #26

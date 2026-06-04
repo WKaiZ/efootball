@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Marco Pašalić (RWF) rating 74.31 #24
   [AMF] Mario Pašalić (AMF) rating 94.26 #15
   [CMF] Martin Baturina (CMF) rating 94.17 #16
-  [DMF] Nikola Moro (DMF) rating 93.15 #8
+  [DMF] Nikola Moro (DMF) rating 93.15 #7
   [LB] Borna Sosa (LB) rating 75.43 #19
   [CB] Martin Erlić (CB) rating 73.05 #25
   [CB] Matej Mitrovic (CB) rating 72.88 #5

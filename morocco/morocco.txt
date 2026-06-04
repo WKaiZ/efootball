@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Oussama El Azzouzi (DMF) rating 70.83 #16
   [LB] Souffian El Karouani (LB) rating 73.33 #9
-  [CB] Jawad El Yamiq (CB) rating 74.27 #14
-  [CB] Chadi Riad (CB) rating 74.06 #18
+  [CB] Jawad El Yamiq (CB) rating 74.27 #18
+  [CB] Issa Diop (CB) rating 93.98 #14
   [RB] Omar El Hilali (RB) rating 94.08 #15
   [GK] Munir El Kajoui (GK) rating 73.42 #12
 
