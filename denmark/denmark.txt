@@ -1,8 +1,8 @@
 Starters:
   [CF] Rasmus Højlund (CF) rating 95.99 #9
-  [LWF] Mikkel Damsgaard (LWF) rating 93.39 #14
+  [LWF] Jacob Bruun Larsen (LWF) rating 93.13 #11
   [RWF] Gustav Isaksen (RWF) rating 93.22 #8
-  [AMF] Christian Eriksen (CMF) rating 94.26 #10
+  [AMF] Mikkel Damsgaard (AMF) rating 95.43 #14
   [CMF] Pierre-Emile Højbjerg (CMF) rating 95.28 #23
   [DMF] Christian Nørgaard (DMF) rating 94.45 #15
   [LB] Patrick Dorgu (LB) rating 94.06 #17
@@ -13,10 +13,10 @@ Starters:
 
 Substitutes:
   [CF] Mika Biereth (CF) rating 92.94 #12
-  [LWF] Jacob Bruun Larsen (LWF) rating 93.13 #11
+  [LWF] Alexander Bah (RB) rating 73.78 #26
   [RWF] Anders Dreyer (RWF) rating 76.98 #20
   [AMF] Noah Nartey (AMF) rating 72.18 #19
-  [CMF] Mathias Jensen (CMF) rating 94.00 #7
+  [CMF] Christian Eriksen (CMF) rating 94.26 #10
   [DMF] Morten Hjulmand (DMF) rating 78.19 #21
   [LB] Daniel Wass (CMF) rating 73.27 #18
   [CB] Joachim Andersen (CB) rating 78.21 #2
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Filip Jørgensen (GK) rating 94.29 #22
 
 Wildcard:
-  [WILD] Mads Hermansen (GK) rating 74.38 #16
+  [WILD] Mathias Jensen (CMF) rating 94.00 #7
