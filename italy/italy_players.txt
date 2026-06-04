@@ -1,3 +1,4 @@
+Filippo Inzaghi, CF, 99.31, False, Epic, [CF], [SS]
 Alessandro Del Piero, CF, 98.58, False, Epic, [CF, SS, AMF], []
 Christian Vieri, CF, 98.01, False, Epic, [CF], [SS]
 Roberto Baggio, CF, 96.94, False, Epic, [CF, SS, AMF], []
