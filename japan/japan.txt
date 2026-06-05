@@ -1,10 +1,10 @@
 Starters:
-  [CF] Keisuke Honda (CF) rating 98.62 #4
-  [LMF] Shinji Kagawa (LMF) rating 99.37 #10
+  [CF] Keisuke Honda (CF) rating 97.31 #4
+  [LMF] Shinji Kagawa (LMF) rating 98.78 #10
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
   [AMF] Hidetoshi Nakata (AMF) rating 97.21 #7
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
-  [DMF] Makoto Hasebe (DMF) rating 99.34 #17
+  [DMF] Makoto Hasebe (DMF) rating 98.30 #17
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
   [CB] Ko Itakura (CB) rating 95.20 #20
   [CB] Wataru Endo (CB) rating 93.56 #6

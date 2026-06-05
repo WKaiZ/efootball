@@ -1,9 +1,9 @@
 Starters:
-  [CF] Harry Kane (CF) rating 98.34 #9
+  [CF] Michael Owen (CF) rating 98.13 #18
   [LWF] Marcus Rashford (LWF) rating 94.34 #11
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
-  [CMF] Declan Rice (CMF) rating 98.93 #18
+  [CMF] Declan Rice (CMF) rating 98.93 #8
   [DMF] Elliot Anderson (DMF) rating 97.99 #4
   [LB] Nico O'Reilly (LB) rating 96.40 #3
   [CB] Rio Ferdinand (CB) rating 97.73 #14
@@ -12,17 +12,17 @@ Starters:
   [GK] Jordan Pickford (GK) rating 94.98 #1
 
 Substitutes:
-  [CF] Mason Greenwood (CF) rating 95.96 #23
+  [CF] Andy Cole (CF) rating 97.79 #9
   [LWF] Harvey Barnes (LWF) rating 93.94 #19
   [RMF] Cole Palmer (RMF) rating 98.93 #20
   [SS] Phil Foden (RMF) rating 96.81 #17
   [CMF] Steven Gerrard (CMF) rating 98.58 #16
-  [DMF] Jordan Henderson (DMF) rating 96.28 #8
-  [LB] Lewis Hall (LB) rating 94.08 #26
+  [DMF] James Garner (DMF) rating 94.94 #21
+  [LB] Luke Shaw (LB) rating 95.99 #23
   [CB] Tony Adams (CB) rating 95.62 #6
   [CB] Levi Colwill (CB) rating 95.57 #15
   [RB] Ben White (RB) rating 96.22 #12
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Wildcard:
-  [WILD] Jude Bellingham (AMF) rating 100.15 #21
+  [WILD] Jude Bellingham (AMF) rating 100.15 #26

@@ -12,15 +12,15 @@ Starters:
   [GK] Mike Maignan (GK) rating 95.31 #16
 
 Substitutes:
-  [CF] Ousmane Dembélé (CF) rating 99.48 #12
-  [LWF] Bradley Barcola (LWF) rating 95.72 #20
-  [RMF] Maghnes Akliouche (RMF) rating 94.00 #25
+  [CF] Kylian Mbappé (CF) rating 99.29 #20
+  [LWF] Bradley Barcola (LWF) rating 95.72 #12
+  [RMF] Christian Karembeu (RMF) rating 96.12 #13
   [AMF] Rayan Cherki (AMF) rating 95.47 #24
-  [CMF] Paul Pogba (CMF) rating 95.42 #6
-  [DMF] N'Golo Kanté (DMF) rating 93.96 #13
+  [CMF] Eduardo Camavinga (CMF) rating 95.07 #21
+  [DMF] Claude Makélélé (DMF) rating 99.11 #6
   [LB] Adrien Truffert (LB) rating 94.36 #22
-  [CB] Maxence Lacroix (CB) rating 95.54 #17
-  [CB] William Saliba (CB) rating 96.99 #3
+  [CB] Maxence Lacroix (CB) rating 95.54 #26
+  [CB] William Saliba (CB) rating 96.99 #17
   [RB] Malo Gusto (RB) rating 94.30 #2
   [GK] Brice Samba (GK) rating 94.95 #1
 

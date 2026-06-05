@@ -66,6 +66,8 @@ def compatible_name_tokens(local_name, espn_alias):
     espn_tokens = [tok for tok in an.split() if tok]
     if not local_tokens or not espn_tokens:
         return False
+    if len(local_tokens) == 1 and len(espn_tokens) >= 2:
+        return local_tokens[0] in espn_tokens
     if len(espn_tokens) == 2 and _name_token_is_initial_abbrev(espn_tokens[0]):
         if len(local_tokens) != 2:
             return False

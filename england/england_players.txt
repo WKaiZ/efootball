@@ -1,6 +1,6 @@
 Michael Owen, CF, 98.13, False, Epic, [CF, SS], []
 Andy Cole, CF, 97.79, False, Epic, [CF], [SS]
-Harry Kane, CF, 98.34, False, BigTime, [CF], [SS]
+Harry Kane, CF, 97.43, False, BigTime, [CF], [SS]
 Mason Greenwood, CF, 95.96, False, Highlight, [CF, RWF, RMF, SS], []
 Ollie Watkins, CF, 94.99, False, Highlight, [CF], [LWF, LMF, SS, RWF, RMF]
 Jamie Vardy, CF, 94.99, False, Highlight, [CF], [SS]
