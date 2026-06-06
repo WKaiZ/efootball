@@ -3,25 +3,25 @@ Starters:
   [LWF] Marcus Rashford (LWF) rating 94.34 #11
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
-  [CMF] Declan Rice (CMF) rating 98.93 #8
-  [DMF] Elliot Anderson (DMF) rating 97.99 #4
+  [CMF] Declan Rice (CMF) rating 98.93 #4
+  [DMF] Elliot Anderson (DMF) rating 97.99 #8
   [LB] Nico O'Reilly (LB) rating 96.40 #3
-  [CB] Rio Ferdinand (CB) rating 97.73 #14
-  [CB] Marc Guéhi (CB) rating 96.51 #5
+  [CB] Rio Ferdinand (CB) rating 97.73 #5
+  [CB] Marc Guéhi (CB) rating 96.51 #6
   [RB] Reece James (RB) rating 96.38 #24
   [GK] Jordan Pickford (GK) rating 94.98 #1
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
-  [LWF] Harvey Barnes (LWF) rating 93.94 #19
+  [LWF] Anthony Gordon (LWF) rating 79.19 #17
   [RMF] Cole Palmer (RMF) rating 98.93 #20
-  [SS] Phil Foden (RMF) rating 96.81 #17
+  [SS] Phil Foden (RMF) rating 96.81 #19
   [CMF] Steven Gerrard (CMF) rating 98.58 #16
-  [DMF] James Garner (DMF) rating 94.94 #21
+  [DMF] Jordan Henderson (DMF) rating 96.28 #14
   [LB] Luke Shaw (LB) rating 95.99 #23
-  [CB] Tony Adams (CB) rating 95.62 #6
+  [CB] John Stones (CB) rating 95.03 #12
   [CB] Levi Colwill (CB) rating 95.57 #15
-  [RB] Ben White (RB) rating 96.22 #12
+  [RB] Ben White (RB) rating 96.22 #21
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Wildcard:
