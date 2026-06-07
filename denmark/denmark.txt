@@ -17,8 +17,8 @@ Substitutes:
   [RWF] Anders Dreyer (RWF) rating 76.98 #20
   [AMF] Noah Nartey (AMF) rating 72.18 #19
   [CMF] Christian Eriksen (CMF) rating 94.26 #10
-  [DMF] Morten Hjulmand (DMF) rating 78.19 #21
-  [LB] Daniel Wass (CMF) rating 73.27 #18
+  [DMF] Morten Hjulmand (DMF) rating 78.19 #18
+  [LB] Victor Bak (LB) rating 71.07 #21
   [CB] Joachim Andersen (CB) rating 78.21 #2
   [CB] Jannik Vestergaard (CB) rating 74.72 #4
   [RB] Rasmus Kristensen (RB) rating 75.05 #13
