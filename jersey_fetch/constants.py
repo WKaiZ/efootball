@@ -54,6 +54,7 @@ MANUAL_ID_OVERRIDES = {
     "spain": {
         "pedro": {"player_id": "65278", "preserve_name": True},
         "adama traore": {"player_id": "204103", "preserve_name": True},
+        "victor munoz": {"player_id": "935231", "preserve_name": True},
     },
     "italy": {
         "luca pellegrini": {"player_id": "346567", "preserve_name": True},
