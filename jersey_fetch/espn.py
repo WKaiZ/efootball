@@ -104,6 +104,18 @@ def build_espn_player_aliases(player_entry):
     ln = (athlete.get("lastName") or "").strip()
     if fn and ln:
         aliases.add(normalize_name(f"{fn} {ln}"))
+    elif ln:
+        ln_norm = normalize_name(ln)
+        for name_field in ("fullName", "displayName", "shortName"):
+            partial = (athlete.get(name_field) or "").strip()
+            if not partial:
+                continue
+            partial_norm = normalize_name(partial)
+            if ln_norm in partial_norm.split():
+                continue
+            if len(partial_norm.split()) == 1:
+                aliases.add(normalize_name(f"{partial} {ln}"))
+                break
     return {alias for alias in aliases if alias}
 
 def fetch_espn_athlete_role(athlete_id):
