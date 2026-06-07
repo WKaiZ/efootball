@@ -21,7 +21,7 @@ Substitutes:
   [LB] Marcos Acuña (LB) rating 92.25 #14
   [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Nehuén Pérez (CB) rating 94.16 #3
-  [RB] VACANT
+  [RB] Agustín Giay (RB) rating 73.67 #28
   [GK] Juan Musso (GK) rating 94.35 #1
 
 Wildcard:
