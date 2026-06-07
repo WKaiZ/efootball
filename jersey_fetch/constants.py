@@ -124,6 +124,7 @@ ESPN_LINEUP_MANUAL_ROLES = {
     "ivan perisic": frozenset({"D"}),
     "luca lipani": frozenset({"D"}),
     "honest ahanor": frozenset({"M"}),
+    "johan manzambi": frozenset({"F"}),
 }
 
 POSITION_SEARCH_PHRASES = {
