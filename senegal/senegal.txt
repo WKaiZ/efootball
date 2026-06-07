@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Nicolas Jackson (CF) rating 95.29 #7
   [LWF] Abdallah Sima (LWF) rating 74.04 #12
-  [RWF] Ibrahim Mbaye (RWF) rating 91.31 #27
+  [RWF] Ibrahim Mbaye (RWF) rating 91.31 #20
   [AMF] Habib Diarra (CMF) rating 74.24 #6
   [CMF] Lamine Camara (CMF) rating 94.07 #8
   [DMF] Pape Gueye (DMF) rating 94.22 #26
