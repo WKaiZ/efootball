@@ -100,6 +100,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "england": {
         "alex scott": {"player_id": "855256", "preserve_name": True},
+        "joshua king": {"player_id": "1011131", "preserve_name": True},
     },
     "germany": {
         "jamie leweling": {"player_id": "518505", "preserve_name": True},

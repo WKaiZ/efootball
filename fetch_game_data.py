@@ -86,6 +86,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "england": {
         "alex scott": "855256",
+        "joshua king": "1011131",
     },
     "germany": {
         "jamie leweling": "518505",
