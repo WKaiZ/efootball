@@ -220,21 +220,63 @@ def wikidata_transfermarkt_player_id(player):
             return pid
     return None
 
-def duckduckgo_html_transfermarkt_player_id(player, country_label=None, position_hint=None):
-    player_norm = normalize_name(player)
-
-    queries = []
+def _primary_duckduckgo_query(player, country_label=None, position_hint=None):
     if country_label and position_hint:
-        queries.append(f"{player} {country_label} {position_hint} transfermarkt")
+        return f"{player} {country_label} {position_hint} transfermarkt"
     if country_label:
-        queries.append(f"{player} {country_label} transfermarkt")
+        return f"{player} {country_label} transfermarkt"
     if position_hint:
-        queries.append(f"{player} {position_hint} transfermarkt")
-    queries += [
-        f"{player} transfermarkt",
-        f'"{player}" transfermarkt',
-        f"{player} site:transfermarkt.com",
-    ]
+        return f"{player} {position_hint} transfermarkt"
+    return f"{player} transfermarkt"
+
+def transfermarkt_http_search_player_id(player, country_label=None, position_hint=None):
+    query = player
+    url = (
+        "https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche"
+        f"?query={urllib.parse.quote(query)}"
+    )
+    try:
+        response = requests.get(
+            url,
+            headers={"User-Agent": HTTP_BROWSER_UA},
+            timeout=20,
+            allow_redirects=True,
+        )
+        if response.status_code != 200 or not response.text:
+            return None
+        soup = BeautifulSoup(response.text, "html.parser")
+        scored_hits = []
+        seen_pids = set()
+        for link in soup.select('a[href*="/spieler/"]'):
+            href = link.get("href") or ""
+            if not href.startswith("http"):
+                href = urllib.parse.urljoin("https://www.transfermarkt.com", href)
+            text = link.get_text(" ", strip=True)
+            scored = score_transfermarkt_candidate(player, href, text)
+            if not scored:
+                continue
+            score, pid = scored
+            if pid in seen_pids:
+                continue
+            seen_pids.add(pid)
+            scored_hits.append((score, pid))
+        if not scored_hits:
+            return None
+        scored_hits.sort(reverse=True)
+        unique_pids = {pid for _score, pid in scored_hits}
+        best_score, best_pid = scored_hits[0]
+        if len(unique_pids) == 1:
+            return best_pid
+        if best_score >= 100:
+            return best_pid
+        if transfermarkt_id_matches_player(player, best_pid):
+            return best_pid
+    except requests.RequestException:
+        return None
+    return None
+
+def duckduckgo_html_transfermarkt_player_id(player, country_label=None, position_hint=None):
+    queries = [_primary_duckduckgo_query(player, country_label, position_hint)]
     headers = {"User-Agent": HTTP_BROWSER_UA, "Referer": "https://html.duckduckgo.com/"}
     best = None
     seen = set()
@@ -281,6 +323,13 @@ async def get_transfermarkt_id(player, page, country_label=None, position_hint=N
         print(f"  Found ID for {player}: {ddg_html} (DuckDuckGo HTML)")
         return ddg_html
 
+    tm_http = transfermarkt_http_search_player_id(
+        player, country_label=country_label, position_hint=position_hint
+    )
+    if tm_http:
+        print(f"  Found ID for {player}: {tm_http} (Transfermarkt HTTP search)")
+        return tm_http
+
     name_normalized = normalize_name(player)
     query_parts = [name_normalized]
     if position_hint:
@@ -307,77 +356,57 @@ async def get_transfermarkt_id(player, page, country_label=None, position_hint=N
     except Exception as e:
         print(f"  Transfermarkt search failed for {player}: {e}")
 
-    queries = []
-    if country_label and position_hint:
-        queries.append(f"{player} {country_label} {position_hint} transfermarkt")
-    if country_label:
-        queries.append(f"{player} {country_label} transfermarkt")
-    if position_hint:
-        queries.append(f"{player} {position_hint} transfermarkt")
-    queries += [
-        f"{player} transfermarkt",
-        f'"{player}" transfermarkt',
-        f"{player} transfermarkt player",
-        f"{player} transfermarkt spieler",
-    ]
+    raw_query = _primary_duckduckgo_query(player, country_label, position_hint)
     print(f"Searching ID for {player} via browser (DuckDuckGo)...")
     best = None
     seen_pids = set()
-    ddg_urls = ["https://lite.duckduckgo.com/lite/?q={}", "https://duckduckgo.com/?q={}"]
-    for raw_query in queries:
-        encoded = urllib.parse.quote(raw_query)
-        for template in ddg_urls:
-            try:
-                await page.goto(template.format(encoded))
-                await page.wait_for_load_state("domcontentloaded")
-                await page.wait_for_timeout(2000)
-                selectors = (
-                    'a[href*="transfermarkt"][href*="/spieler/"]',
-                    'a[data-testid="result-title-a"]',
-                    "a.result-link",
-                )
-                for sel in selectors:
-                    results = await page.query_selector_all(sel)
-                    for result in results:
-                        try:
-                            url = await result.get_attribute("href")
-                            text = await result.inner_text()
-                        except Exception:
-                            continue
-                        url = unwrap_duckduckgo_link(url)
-                        scored = score_transfermarkt_candidate(player, url, text)
-                        if not scored:
-                            continue
-                        score, pid = scored
-                        if pid in seen_pids:
-                            continue
-                        seen_pids.add(pid)
-                        if best is None or score > best[0]:
-                            best = (score, pid)
-                html = await page.content()
-                for m in re.finditer(
-                    r"https?://www\.transfermarkt\.[a-z.]+/([a-z0-9-]+)/profil/spieler/(\d+)",
-                    html,
-                    re.I,
-                ):
-                    slug, pid = (m.group(1), m.group(2))
-                    if pid in seen_pids:
-                        continue
-                    link = f"https://www.transfermarkt.com/{slug}/profil/spieler/{pid}"
-                    scored = score_transfermarkt_candidate(player, link, slug.replace("-", " "))
-                    if not scored:
-                        continue
-                    score, _ = scored
-                    seen_pids.add(pid)
-                    if best is None or score > best[0]:
-                        best = (score, pid)
-                if best is not None and best[0] >= 100:
-                    break
-            except Exception as e:
-                print(f"  DuckDuckGo page failed for {player}: {e}")
+    encoded = urllib.parse.quote(raw_query)
+    try:
+        await page.goto(f"https://lite.duckduckgo.com/lite/?q={encoded}")
+        await page.wait_for_load_state("domcontentloaded")
+        await page.wait_for_timeout(2000)
+        selectors = (
+            'a[href*="transfermarkt"][href*="/spieler/"]',
+            'a[data-testid="result-title-a"]',
+            "a.result-link",
+        )
+        for sel in selectors:
+            results = await page.query_selector_all(sel)
+            for result in results:
+                try:
+                    url = await result.get_attribute("href")
+                    text = await result.inner_text()
+                except Exception:
+                    continue
+                url = unwrap_duckduckgo_link(url)
+                scored = score_transfermarkt_candidate(player, url, text)
+                if not scored:
+                    continue
+                score, pid = scored
+                if pid in seen_pids:
+                    continue
+                seen_pids.add(pid)
+                if best is None or score > best[0]:
+                    best = (score, pid)
+        html = await page.content()
+        for m in re.finditer(
+            r"https?://www\.transfermarkt\.[a-z.]+/([a-z0-9-]+)/profil/spieler/(\d+)",
+            html,
+            re.I,
+        ):
+            slug, pid = (m.group(1), m.group(2))
+            if pid in seen_pids:
                 continue
-        if best is not None and best[0] >= 100:
-            break
+            link = f"https://www.transfermarkt.com/{slug}/profil/spieler/{pid}"
+            scored = score_transfermarkt_candidate(player, link, slug.replace("-", " "))
+            if not scored:
+                continue
+            score, _ = scored
+            seen_pids.add(pid)
+            if best is None or score > best[0]:
+                best = (score, pid)
+    except Exception as e:
+        print(f"  DuckDuckGo page failed for {player}: {e}")
     if best is not None:
         print(f"  Found ID for {player}: {best[1]} (DuckDuckGo)")
         return best[1]

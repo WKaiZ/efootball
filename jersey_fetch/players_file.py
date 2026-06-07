@@ -87,7 +87,7 @@ def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
         new_line = f"{new_first}{rest}"
         if key in recent_flags:
             parts = [p.strip() for p in new_line.split(",")]
-            for idx in range(3, len(parts)):
+            for idx in range(2, len(parts)):
                 parsed = parse_recent_flag(parts[idx])
                 if parsed is None:
                     continue

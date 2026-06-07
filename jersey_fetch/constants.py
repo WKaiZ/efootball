@@ -13,6 +13,7 @@ MANUAL_ID_OVERRIDES = {
         "nico gonzalez": {"player_id": "486031", "preserve_name": True},
         "emiliano martinez": {"player_id": "111873", "preserve_name": True},
         "benjamin dominguez": {"player_id": "961022", "preserve_name": True},
+        "flaco lopez": {"player_id": "844797", "preserve_name": True},
     },
     "brazil": {
         "gabriel": {"player_id": "435338", "preserve_name": True},
