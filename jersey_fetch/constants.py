@@ -121,6 +121,8 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 
 ESPN_LINEUP_MANUAL_ROLES = {
     "ivan perisic": frozenset({"D"}),
+    "luca lipani": frozenset({"D"}),
+    "honest ahanor": frozenset({"M"}),
 }
 
 POSITION_SEARCH_PHRASES = {
