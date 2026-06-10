@@ -12,16 +12,16 @@ Starters:
   [GK] Emiliano Martínez (GK) rating 95.52 #23
 
 Substitutes:
-  [CF] Julián Álvarez (CF) rating 98.11 #9
+  [CF] Julián Alvarez (CF) rating 98.11 #9
   [LWF] Paulo Dybala (SS) rating 94.37 #19
-  [RWF] Ángel Di María (RWF) rating 94.53 #15
-  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #4
+  [RWF] Giuliano Simeone (RWF) rating 94.21 #16
+  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Leandro Paredes (DMF) rating 94.26 #5
   [LB] Marcos Acuña (LB) rating 92.25 #14
   [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Nehuén Pérez (CB) rating 94.16 #3
-  [RB] Agustín Giay (RB) rating 73.67 #28
+  [RB] Gonzalo Montiel (RB) rating 93.22 #4
   [GK] Juan Musso (GK) rating 94.35 #1
 
 Wildcard:
