@@ -1,15 +1,15 @@
 Starters:
   [CF] Alessandro Del Piero (CF) rating 98.58 #11
   [LWF] Lorenzo Insigne (LWF) rating 97.73 #20
-  [RWF] Matteo Politano (RWF) rating 94.89 #19
+  [RWF] Matteo Politano (RWF) rating 94.89 #17
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #7
-  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
+  [DMF] Andrea Pirlo (DMF) rating 100.24 #21
   [LB] Paolo Maldini (LB) rating 99.05 #3
   [CB] Fabio Cannavaro (CB) rating 99.64 #5
   [CB] Alessandro Nesta (CB) rating 98.91 #13
-  [RB] Massimo Oddo (RB) rating 98.21 #22
-  [GK] Gianluigi Buffon (GK) rating 99.98 #1
+  [RB] Gianluca Zambrotta (RB) rating 99.25 #19
+  [GK] Gianluigi Buffon (GK) rating 100.35 #1
 
 Substitutes:
   [CF] Filippo Inzaghi (CF) rating 98.35 #9
@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Gianfranco Zola (SS) rating 99.85 #15
   [AMF] Roberto Baggio (AMF) rating 97.83 #18
   [CMF] Nicolò Barella (CMF) rating 96.03 #2
-  [DMF] Daniele De Rossi (DMF) rating 98.15 #16
-  [LB] Federico Dimarco (LB) rating 94.23 #12
+  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
+  [LB] Leonardo Spinazzola (LB) rating 94.17 #4
   [CB] Franco Baresi (CB) rating 98.40 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #23
-  [RB] Alessandro Costacurta (RB) rating 97.15 #4
-  [GK] Gianluigi Donnarumma (GK) rating 99.04 #21
+  [RB] Massimo Oddo (RB) rating 98.21 #22
+  [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
 
 Wildcard:
-  [WILD] Andrea Pirlo (DMF) rating 98.10 #17
+  [WILD] Daniele De Rossi (DMF) rating 98.15 #16
