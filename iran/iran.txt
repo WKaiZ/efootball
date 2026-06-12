@@ -1,0 +1,28 @@
+Starters:
+  [CF] Mehdi Taremi (CF) rating 77.41 #9
+  [LWF] Mehdi Ghayedi (LWF) rating 72.15 #10
+  [RWF] Ali Gholizadeh (RWF) rating 71.20 #11
+  [AMF] Saman Ghoddos (AMF) rating 72.32 #14
+  [CMF] Seyed Mohammad Karimi (CMF) rating 70.85 #17
+  [DMF] Roozbeh Cheshmi (DMF) rating 69.65 #15
+  [LB] Ehsan Hajsafi (LB) rating 71.97 #3
+  [CB] Hossein Kanaani (CB) rating 72.62 #13
+  [CB] Majid Hosseini (CB) rating 71.80 #19
+  [RB] Sadegh Moharrami (RB) rating 72.06 #2
+  [GK] Alireza Beiranvand (GK) rating 72.45 #1
+
+Substitutes:
+  [CF] Sardar Azmoun (CF) rating 74.66 #20
+  [LWF] Allahyar Sayyadmanesh (LWF) rating 71.39 #8
+  [RWF] Mohammadmehdi Mohebi (RWF) rating 68.96 #25
+  [AMF] Mehdi Torabi (LWF) rating 71.26 #16
+  [CMF] Omid Noorafkan (CMF) rating 70.30 #21
+  [DMF] Saeed Ezatolahi (DMF) rating 68.84 #6
+  [LB] Milad Mohammadi (LB) rating 71.62 #5
+  [CB] Shoja Khalilzadeh (CB) rating 70.24 #4
+  [CB] Mohammad Daneshgar (CB) rating 69.85 #24
+  [RB] Arya Yousefi (RB) rating 70.46 #18
+  [GK] Payam Niazmand (GK) rating 70.36 #12
+
+Wildcard:
+  [WILD] Alireza Jahanbakhsh (RMF) rating 72.14 #7

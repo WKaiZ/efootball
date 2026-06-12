@@ -1,13 +1,13 @@
 Starters:
   [CF] Rasmus Højlund (CF) rating 95.99 #9
-  [LWF] Jacob Bruun Larsen (LWF) rating 93.13 #11
+  [LWF] Jacob Bruun Larsen (LWF) rating 72.58 #11
   [RWF] Gustav Isaksen (RWF) rating 93.22 #8
   [AMF] Mikkel Damsgaard (AMF) rating 95.43 #14
   [CMF] Pierre-Emile Højbjerg (CMF) rating 95.28 #23
   [DMF] Christian Nørgaard (DMF) rating 94.45 #15
   [LB] Patrick Dorgu (LB) rating 94.06 #17
-  [CB] Victor Nelsson (CB) rating 94.96 #3
   [CB] Andreas Christensen (CB) rating 93.40 #6
+  [CB] Joachim Andersen (CB) rating 78.21 #2
   [RB] Joakim Maehle (LB) rating 94.01 #5
   [GK] Peter Schmeichel (GK) rating 99.74 #1
 
@@ -19,7 +19,7 @@ Substitutes:
   [CMF] Christian Eriksen (CMF) rating 94.26 #10
   [DMF] Morten Hjulmand (DMF) rating 78.19 #18
   [LB] Victor Bak (LB) rating 71.07 #21
-  [CB] Joachim Andersen (CB) rating 78.21 #2
+  [CB] Victor Nelsson (CB) rating 76.30 #3
   [CB] Jannik Vestergaard (CB) rating 74.72 #4
   [RB] Rasmus Kristensen (RB) rating 75.05 #13
   [GK] Filip Jørgensen (GK) rating 94.29 #22

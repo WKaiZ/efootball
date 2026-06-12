@@ -106,6 +106,9 @@ MANUAL_ID_OVERRIDES = {
     "germany": {
         "jamie leweling": {"player_id": "518505", "preserve_name": True},
     },
+    "iran": {
+        "mehdi shiri": {"player_id": "280298", "preserve_name": True},
+    },
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
     },

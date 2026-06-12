@@ -92,6 +92,9 @@ MANUAL_ID_OVERRIDES = {
     "germany": {
         "jamie leweling": "518505",
     },
+    "iran": {
+        "mehdi shiri": "280298",
+    },
     "usa": {
         "patrick agyemang": "1089574",
     },
