@@ -42,6 +42,7 @@ MANUAL_ID_OVERRIDES = {
         "cassio": {"player_id": "50144", "preserve_name": True},
         "alisson": {"player_id": "105470", "preserve_name": True},
         "paulinho": {"player_id": "428791", "preserve_name": True},
+        "alex sandro": {"player_id": "79960", "preserve_name": True},
     },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},

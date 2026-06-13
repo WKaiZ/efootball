@@ -40,6 +40,8 @@ def _espn_token_equiv(local_tok, espn_tok):
 def _surname_tokens_compatible(local_last, espn_last):
     if local_last == espn_last:
         return True
+    if _espn_token_equiv(local_last, espn_last):
+        return True
     if min(len(local_last), len(espn_last)) >= 4 and levenshtein(local_last, espn_last) <= 2:
         return True
     return False
