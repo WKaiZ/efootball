@@ -1,7 +1,6 @@
 Cristiano Ronaldo, CF, 99.07, True, BigTime, [CF], [LWF, SS, RWF]
 Gonçalo Ramos, CF, 95.98, True, Highlight, [CF, SS], [AMF]
 Rafael Leão, CF, 95.97, False, Highlight, [LWF, LMF, CF], [SS, AMF, RWF]
-André Silva, CF, 93.04, False, Highlight, [CF], [SS]
 Rafael Leão, SS, 95.20, False, Highlight, [LWF, LMF, CF, SS], [AMF, RWF]
 Rafael Leão, LWF, 95.95, False, Highlight, [LWF, LMF, CF], [SS, AMF, RWF]
 Pedro Neto, LWF, 94.91, True, Highlight, [LWF, RWF, CF, SS, LMF, RMF], [AMF]
