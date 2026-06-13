@@ -8,7 +8,7 @@ Starters:
   [LB] Patrick Dorgu (LB) rating 94.06 #17
   [CB] Andreas Christensen (CB) rating 93.40 #6
   [CB] Joachim Andersen (CB) rating 78.21 #2
-  [RB] Joakim Maehle (LB) rating 94.01 #5
+  [RB] Rasmus Kristensen (RB) rating 75.05 #13
   [GK] Peter Schmeichel (GK) rating 99.74 #1
 
 Substitutes:
@@ -17,11 +17,11 @@ Substitutes:
   [RWF] Anders Dreyer (RWF) rating 76.98 #20
   [AMF] Noah Nartey (AMF) rating 72.18 #19
   [CMF] Mathias Jensen (CMF) rating 94.00 #7
-  [DMF] Morten Hjulmand (DMF) rating 78.19 #18
-  [LB] Victor Bak (LB) rating 71.07 #21
+  [DMF] Morten Hjulmand (DMF) rating 78.19 #21
+  [LB] Joakim Maehle (LB) rating 75.98 #5
   [CB] Victor Nelsson (CB) rating 76.30 #3
   [CB] Jannik Vestergaard (CB) rating 74.72 #4
-  [RB] Rasmus Kristensen (RB) rating 75.05 #13
+  [RB] Alexander Bah (RB) rating 73.78 #18
   [GK] Filip Jørgensen (GK) rating 94.29 #22
 
 Wildcard:
