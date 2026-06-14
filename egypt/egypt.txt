@@ -1,0 +1,28 @@
+Starters:
+  [CF] Mostafa Mohamed (CF) rating 73.34 #11
+  [LMF] Omar Marmoush (LMF) rating 95.74 #22
+  [RMF] Mohamed Salah (RMF) rating 97.93 #10
+  [AMF] Zizo (RWF) rating 73.11 #25
+  [CMF] Emam Ashour (CMF) rating 72.89 #8
+  [DMF] Hamdy Fathy (DMF) rating 94.20 #14
+  [LB] Mohamed Hamdi (LB) rating 72.27 #12
+  [CB] Mohamed Abdelmonem (CB) rating 72.62 #6
+  [CB] Ramy Rabia (CB) rating 72.48 #5
+  [RB] Mohamed Hany (RB) rating 71.30 #3
+  [GK] Mohamed El Shenawy (GK) rating 73.36 #1
+
+Substitutes:
+  [CF] Osama Faisal (CF) rating 70.74 #9
+  [LMF] Ibrahim Adel (LWF) rating 72.29 #20
+  [RMF] Mostafa Fathi (RWF) rating 72.58 #18
+  [AMF] Mahmoud Saber (CMF) rating 69.24 #21
+  [CMF] Mohamed Shehata (CMF) rating 70.45 #15
+  [DMF] Marwan Ateya (DMF) rating 73.41 #19
+  [LB] Ahmed Fatouh (LB) rating 71.57 #13
+  [CB] Yasser Ibrahim (CB) rating 71.60 #2
+  [CB] Hossam Abdelmaguid (CB) rating 71.10 #4
+  [RB] Tarek Alaa (RB) rating 69.96 #24
+  [GK] Oufa Shobeir (GK) rating 70.91 #23
+
+Wildcard:
+  [WILD] Trezeguet (LWF) rating 75.12 #7

@@ -92,6 +92,10 @@ MANUAL_ID_OVERRIDES = {
     "ecuador": {
         "joao ortiz": "348630",
     },
+    "egypt": {
+        "mohamed hamdi": "369901",
+        "trezeguet": "234189",
+    },
     "england": {
         "alex scott": "855256",
         "josh king": "1011131",
