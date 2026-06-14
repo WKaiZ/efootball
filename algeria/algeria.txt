@@ -1,0 +1,28 @@
+Starters:
+  [CF] Ibrahim Maza (AMF) rating 94.08 #22
+  [LWF] Yacine Brahimi (LWF) rating 75.55 #11
+  [RWF] Riyad Mahrez (RWF) rating 78.92 #7
+  [AMF] Farès Chaïbi (AMF) rating 94.20 #10
+  [CMF] Hicham Boudaoui (CMF) rating 94.17 #14
+  [DMF] Nabil Bentaleb (CMF) rating 93.41 #19
+  [LB] Rayan Aït-Nouri (LB) rating 93.99 #15
+  [CB] Ramy Bensebaini (CB) rating 95.53 #21
+  [CB] Aïssa Mandi (CB) rating 93.50 #2
+  [RB] Youcef Atal (RB) rating 72.66 #20
+  [GK] Luca Zidane (GK) rating 72.40 #23
+
+Substitutes:
+  [CF] Amine Gouiri (CF) rating 76.29 #9
+  [LWF] Adil Boulbina (LWF) rating 66.80 #27
+  [RWF] Ilan Kebbal (RWF) rating 73.41 #24
+  [AMF] Houssem Aouar (AMF) rating 76.21 #8
+  [CMF] Adem Zorgane (CMF) rating 74.07 #18
+  [DMF] Ismaël Bennacer (DMF) rating 77.32 #6
+  [LB] Jaouen Hadjam (LB) rating 72.72 #13
+  [CB] Sohaib Naïr (CB) rating 69.52 #4
+  [CB] Samir Chergui (CB) rating 69.49 #26
+  [RB] Mohamed Farsi (RB) rating 72.44 #3
+  [GK] Anthony Mandréa (GK) rating 71.50 #1
+
+Wildcard:
+  [WILD] Baghdad Bounedjah (CF) rating 74.72 #5
