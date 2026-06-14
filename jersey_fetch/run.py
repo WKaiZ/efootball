@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 from jersey_fetch.constants import DEBUG_HTML_DIR
 from jersey_fetch.discovery import get_transfermarkt_id
 from jersey_fetch.espn import fetch_latest_espn_roster, map_recent_players_to_roster
-from jersey_fetch.names import invalid_transfermarkt_title, normalize_name
+from jersey_fetch.names import invalid_transfermarkt_title, normalize_name, nation_country_names_for_filter
 from jersey_fetch.players_file import (
     build_local_player_profiles,
     build_local_player_search_hints,
@@ -186,12 +186,14 @@ async def main():
             should_clear_country_cache = force_refetch and pid not in refreshed_player_ids
             if should_clear_country_cache:
                 cur = conn.cursor()
+                country_names = nation_country_names_for_filter(country_label)
+                placeholders = ", ".join("?" * len(country_names))
                 cur.execute(
-                    """
+                    f"""
                     DELETE FROM jersey
-                    WHERE player_id = ? AND LOWER(country) = LOWER(?)
+                    WHERE player_id = ? AND country IN ({placeholders})
                     """,
-                    (str(pid), country_label),
+                    [str(pid), *country_names],
                 )
                 conn.commit()
             db_name_override = name if override and override.get("preserve_name") else None

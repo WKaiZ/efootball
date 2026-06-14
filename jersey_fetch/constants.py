@@ -124,6 +124,11 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
     }
 )
 
+ESPN_TEAM_NAME_ALIASES = {
+    "turkey": ("Türkiye", "Turkiye"),
+    "usa": ("United States",),
+}
+
 ESPN_LINEUP_MANUAL_ROLES = {
     "ivan perisic": frozenset({"D"}),
     "luca lipani": frozenset({"D"}),

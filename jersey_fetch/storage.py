@@ -1,7 +1,7 @@
 import sqlite3
 
 from jersey_fetch.constants import DB_PATH, MANUAL_ID_OVERRIDES
-from jersey_fetch.names import normalize_name
+from jersey_fetch.names import normalize_name, nation_country_names_for_filter, nation_label_variants, nation_labels_equivalent
 
 
 def init_db():
@@ -68,7 +68,7 @@ def merge_jersey_entries(espn_entry, transfermarkt_entries):
     for entry in entries:
         if int(entry["number"]) != int(espn_entry["number"]):
             continue
-        if normalize_name(entry["country"]) != normalize_name(espn_entry["country"]):
+        if not nation_labels_equivalent(entry.get("country"), espn_entry.get("country")):
             continue
         if (entry.get("season") or "").strip() == espn_season:
             return entries
@@ -76,12 +76,12 @@ def merge_jersey_entries(espn_entry, transfermarkt_entries):
 
 
 def _split_jersey_entries_by_nation(entries, expected_nation_label):
-    exp = normalize_name(expected_nation_label)
+    variants = nation_label_variants(expected_nation_label)
     matching = []
     foreign = []
     for e in entries:
         c = normalize_name((e.get("country") or ""))
-        if c == exp:
+        if c in variants:
             matching.append(e)
         else:
             foreign.append(e)
@@ -117,8 +117,8 @@ def warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label):
     countries = [r[0] for r in cur.fetchall()]
     if not countries:
         return
-    exp = normalize_name(expected_nation_label)
-    if any((normalize_name(c) == exp for c in countries)):
+    exp = nation_label_variants(expected_nation_label)
+    if any((normalize_name(c) in exp for c in countries)):
         return
     print(
         f"  Warning: Cached jersey rows for {db_name} ({player_id}) include no {expected_nation_label} entry; "
@@ -137,9 +137,11 @@ def store_jersey_entries(conn, player_id, official_name, entries, cache_country_
         (str(player_id), official_name),
     )
     if cache_country_filter:
+        country_names = nation_country_names_for_filter(cache_country_filter)
+        placeholders = ", ".join("?" * len(country_names))
         cur.execute(
-            "DELETE FROM jersey WHERE player_id = ? AND LOWER(country) = LOWER(?)",
-            (str(player_id), cache_country_filter),
+            f"DELETE FROM jersey WHERE player_id = ? AND country IN ({placeholders})",
+            [str(player_id), *country_names],
         )
     else:
         cur.execute("DELETE FROM jersey WHERE player_id = ?", (str(player_id),))
@@ -159,14 +161,16 @@ def load_cached_numbers_from_db(conn, player_id, country_filter=None, display_na
     db_name = name_row[0] if name_row else str(player_id)
     label = display_name if display_name else db_name
     if country_filter:
+        country_names = nation_country_names_for_filter(country_filter)
+        placeholders = ", ".join("?" * len(country_names))
         cur.execute(
-            """
+            f"""
             SELECT number, country
             FROM jersey
-            WHERE player_id = ? AND LOWER(country) = LOWER(?)
+            WHERE player_id = ? AND country IN ({placeholders})
             ORDER BY idx ASC
             """,
-            (str(player_id), country_filter),
+            [str(player_id), *country_names],
         )
     else:
         cur.execute(

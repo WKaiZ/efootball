@@ -6,7 +6,7 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from jersey_fetch.constants import EXCLUDE_FROM_ESPN_RECENT, HEADERS
+from jersey_fetch.constants import EXCLUDE_FROM_ESPN_RECENT, ESPN_TEAM_NAME_ALIASES, HEADERS
 from jersey_fetch.matching import (
     compatible_name_tokens,
     espn_lineup_role,
@@ -57,18 +57,41 @@ def is_espn_womens_national_team_id(team_id):
     slug = espn_team_slug(str(team_id))
     return bool(slug) and slug.endswith(".w")
 
+def _espn_team_match_names(country_label):
+    key = normalize_name(country_label)
+    names = {key}
+    for alias in ESPN_TEAM_NAME_ALIASES.get(key, ()):
+        names.add(normalize_name(alias))
+    return names
+
 def lookup_espn_team(country_label):
-    target = normalize_name(country_label)
-    queries = [f"{country_label} national team", country_label]
-    best = None
+    country_key = normalize_name(country_label)
+    match_names = _espn_team_match_names(country_label)
+    aliases = ESPN_TEAM_NAME_ALIASES.get(country_key, ())
+    queries = []
+    for alias in aliases:
+        queries.extend([f"{alias} national team", alias])
+    queries.extend([f"{country_label} national team", country_label])
+    seen_queries = set()
+    unique_queries = []
     for query in queries:
-        data = espn_request_json("https://site.api.espn.com/apis/common/v3/search", params={"query": query})
+        query_key = normalize_name(query)
+        if query_key in seen_queries:
+            continue
+        seen_queries.add(query_key)
+        unique_queries.append(query)
+    best = None
+    for query in unique_queries:
+        try:
+            data = espn_request_json("https://site.api.espn.com/apis/common/v3/search", params={"query": query})
+        except requests.RequestException:
+            continue
         for item in data.get("items", []):
             if item.get("type") != "team" or item.get("sport") != "soccer":
                 continue
             name = item.get("displayName", "")
             name_norm = normalize_name(name)
-            if name_norm != target:
+            if name_norm not in match_names:
                 continue
             tid = str(item.get("id") or "")
             league = (item.get("league") or "").lower()
@@ -81,7 +104,7 @@ def lookup_espn_team(country_label):
                 score += 100
             elif league.startswith("fifa."):
                 score += 50
-            if normalize_name(query) == target:
+            if normalize_name(query) in match_names:
                 score += 10
             if best is None or score > best[0]:
                 best = (score, tid)
