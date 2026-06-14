@@ -1,4 +1,5 @@
 Ayoub El Kaabi, CF, 94.26, True, Highlight, [LWF, CF], [SS, AMF, LMF, RMF]
+Ismael Saibari, AMF, 94.00, True, Highlight, [AMF, CF, CMF, SS, RWF], [RMF, DMF, LMF, LWF]
 Abde Ezzalzouli, LMF, 94.26, False, Highlight, [LWF, LMF, RWF], []
 Osame Sahraoui, LMF, 92.95, False, Highlight, [LMF, LWF], [AMF, RWF]
 Brahim Díaz, RMF, 94.97, True, Highlight, [AMF, SS, RWF, RMF, LWF], [CF, LMF, CMF]
