@@ -1,5 +1,6 @@
 Starters:
   [CF] Jonathan David (CF) rating 95.35 #10
+  [LWF] Jacob Shaffelburg (LWF) rating 72.42 #14
   [RWF] Tajon Buchanan (RMF) rating 92.07 #17
   [AMF] Keven Alemán (AMF) rating 65.24 #23
   [CMF] Jonathan Osorio (CMF) rating 73.42 #21
