@@ -1,0 +1,28 @@
+Starters:
+  [CF] Victor Osimhen (CF) rating 97.10 #9
+  [LWF] Moses Simon (LWF) rating 75.14 #15
+  [RWF] Samuel Chukwueze (RWF) rating 76.22 #11
+  [AMF] Ademola Lookman (AMF) rating 95.12 #7
+  [CMF] Alex Iwobi (CMF) rating 93.65 #17
+  [DMF] Raphael Onyedika (DMF) rating 75.45 #20
+  [LB] Bruno Onyemaechi (LB) rating 71.44 #13
+  [CB] Calvin Bassey (CB) rating 94.52 #21
+  [CB] Igoh Ogbu (CB) rating 73.58 #5
+  [RB] Ola Aina (RB) rating 78.03 #2
+  [GK] Maduka Okoye (GK) rating 73.41 #23
+
+Substitutes:
+  [CF] Paul Onuachu (CF) rating 96.37 #19
+  [LWF] Chidera Ejuke (LWF) rating 75.04 #24
+  [RWF] Emmanuel Dennis (CF) rating 73.30 #14
+  [AMF] Frank Onyeka (CMF) rating 73.40 #8
+  [CMF] Alhassan Yusuf (CMF) rating 73.69 #12
+  [DMF] Wilfred Ndidi (DMF) rating 75.19 #4
+  [LB] Zaidu Sanusi (LB) rating 71.34 #3
+  [CB] William Troost-Ekong (CB) rating 73.47 #6
+  [CB] Emmanuel Fernandez (CB) rating 70.84 #18
+  [RB] Ryan Alebiosu (RB) rating 69.35 #27
+  [GK] Francis Uzoho (GK) rating 70.09 #1
+
+Wildcard:
+  [WILD] Tolu Arokodare (CF) rating 73.99 #10
