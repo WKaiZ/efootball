@@ -57,6 +57,15 @@ def _local_tokens_match_espn_ordered_subsequence(local_tokens, espn_tokens):
     return i == len(local_tokens)
 
 
+def _two_part_names_compatible_reversed(local_tokens, espn_tokens):
+    if len(local_tokens) != 2 or len(espn_tokens) != 2:
+        return False
+    return (
+        _espn_token_equiv(local_tokens[0], espn_tokens[1])
+        and _surname_tokens_compatible(local_tokens[1], espn_tokens[0])
+    )
+
+
 def compatible_name_tokens(local_name, espn_alias):
     ln = normalize_name(local_name)
     an = normalize_name(espn_alias)
@@ -76,6 +85,15 @@ def compatible_name_tokens(local_name, espn_alias):
         if not _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1]):
             return False
         return local_tokens[0][0] == espn_tokens[0][0]
+    if len(local_tokens) == 2 and len(espn_tokens) == 2:
+        if (
+            _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1])
+            and _local_tokens_match_espn_ordered_subsequence(local_tokens, espn_tokens)
+        ):
+            return True
+        if _two_part_names_compatible_reversed(local_tokens, espn_tokens):
+            return True
+        return False
     if len(local_tokens) >= 2 and len(espn_tokens) >= 2:
         if not _surname_tokens_compatible(local_tokens[-1], espn_tokens[-1]):
             return False

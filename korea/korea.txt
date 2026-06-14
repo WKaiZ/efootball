@@ -1,0 +1,28 @@
+Starters:
+  [CF] Heung-min Son (CF) rating 96.92 #7
+  [LWF] Min-kyu Song (LWF) rating 70.89 #11
+  [RWF] Kang-in Lee (RWF) rating 97.04 #19
+  [AMF] Dong-gyeong Lee (AMF) rating 73.50 #26
+  [CMF] In-beom Hwang (CMF) rating 73.57 #6
+  [DMF] Yong-woo Park (DMF) rating 71.28 #8
+  [LB] Ki-je Lee (LB) rating 72.16 #2
+  [CB] Min-jae Kim (CB) rating 94.95 #4
+  [CB] Hyun-soo Jang (CB) rating 72.55 #20
+  [RB] Moon-hwan Kim (RB) rating 70.89 #15
+  [GK] Seung-gyu Kim (GK) rating 72.63 #1
+
+Substitutes:
+  [CF] Ui-jo Hwang (CF) rating 74.14 #18
+  [LWF] Jun-ho Bae (LWF) rating 70.80 #17
+  [RWF] Dong-jun Lee (RWF) rating 70.30 #9
+  [AMF] Jae-sung Lee (AMF) rating 73.40 #10
+  [CMF] Jens Castrop (CMF) rating 71.55 #23
+  [DMF] Woo-young Jung (DMF) rating 71.08 #16
+  [LB] Myung-jae Lee (LB) rating 72.02 #3
+  [CB] Tae-hyeon Kim (CB) rating 72.47 #5
+  [CB] Yu-min Cho (CB) rating 72.33 #14
+  [RB] Young-woo Seol (RB) rating 70.27 #22
+  [GK] Hyeon-woo Jo (GK) rating 72.37 #21
+
+Wildcard:
+  [WILD] Hyun-seok Hong (AMF) rating 73.14 #13
