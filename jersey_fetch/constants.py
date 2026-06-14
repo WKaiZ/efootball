@@ -15,6 +15,9 @@ MANUAL_ID_OVERRIDES = {
         "benjamin dominguez": {"player_id": "961022", "preserve_name": True},
         "flaco lopez": {"player_id": "844797", "preserve_name": True},
     },
+    "austria": {
+        "hannes wolf": {"player_id": "321070", "preserve_name": True},
+    },
     "brazil": {
         "gabriel": {"player_id": "435338", "preserve_name": True},
         "ederson": {"player_id": "607854", "preserve_name": True},
@@ -99,6 +102,9 @@ MANUAL_ID_OVERRIDES = {
     },
     "denmark": {
         "filip jørgensen": {"player_id": "585323", "preserve_name": True},
+    },
+    "ecuador": {
+        "joao ortiz": {"player_id": "348630", "preserve_name": True},
     },
     "england": {
         "alex scott": {"player_id": "855256", "preserve_name": True},

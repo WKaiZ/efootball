@@ -1,0 +1,25 @@
+Starters:
+  [CF] Anderson Julio (CF) rating 74.43 #11
+  [LWF] Bryan Ramírez (RMF) rating 72.96 #20
+  [RWF] Gonzalo Plata (RWF) rating 75.15 #19
+  [AMF] Kendry Páez (AMF) rating 73.02 #10
+  [CMF] José Cifuentes (CMF) rating 74.71 #5
+  [DMF] João Ortiz (DMF) rating 70.61 #18
+  [LB] Pervis Estupiñán (LB) rating 94.02 #7
+  [CB] Willian Pacho (CB) rating 95.99 #6
+  [CB] Piero Hincapié (CB) rating 95.55 #3
+  [RB] Moisés Caicedo (RB) rating 95.25 #23
+  [GK] Hernán Galíndez (GK) rating 75.82 #1
+
+Substitutes:
+  [CF] Enner Valencia (CF) rating 74.31 #13
+  [LWF] Jeremy Sarmiento (RWF) rating 71.81 #16
+  [RWF] John Yeboah (RWF) rating 72.46 #9
+  [AMF] Denil Castillo (CMF) rating 70.76 #8
+  [CMF] Alan Franco (CMF) rating 72.44 #21
+  [DMF] Pedro Vite (CMF) rating 72.34 #15
+  [LB] Yaimar Medina (LB) rating 67.40 #26
+  [CB] Robert Arboleda (CB) rating 76.36 #2
+  [CB] Joel Ordóñez (CB) rating 72.39 #4
+  [RB] José Andrés Hurtado (RB) rating 71.68 #24
+  [GK] Javier Burrai (GK) rating 74.56 #12

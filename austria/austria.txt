@@ -1,0 +1,28 @@
+Starters:
+  [CF] Marko Arnautovic (CF) rating 75.09 #7
+  [LWF] Christoph Baumgartner (AMF) rating 94.18 #19
+  [RWF] Valentino Lazaro (RMF) rating 93.19 #22
+  [AMF] Romano Schmid (AMF) rating 94.34 #18
+  [CMF] Marcel Sabitzer (CMF) rating 94.04 #9
+  [DMF] Nicolas Seiwald (DMF) rating 73.41 #6
+  [LB] Phillipp Mwene (LB) rating 74.69 #16
+  [CB] David Alaba (CB) rating 94.09 #8
+  [CB] Kevin Danso (CB) rating 94.04 #3
+  [RB] Stefan Posch (RB) rating 94.23 #5
+  [GK] Alexander Schlager (GK) rating 74.61 #1
+
+Substitutes:
+  [CF] Sasa Kalajdzic (CF) rating 74.01 #14
+  [LWF] Hannes Wolf (LWF) rating 74.33 #17
+  [RWF] Patrick Wimmer (RWF) rating 73.61 #21
+  [AMF] Paul Wanner (AMF) rating 70.16 #24
+  [CMF] Konrad Laimer (CMF) rating 78.12 #20
+  [DMF] Florian Grillitsch (DMF) rating 72.75 #10
+  [LB] David Schnegg (LB) rating 71.26 #23
+  [CB] Philipp Lienhart (CB) rating 93.92 #15
+  [CB] Gernot Trauner (CB) rating 75.50 #4
+  [RB] VACANT
+  [GK] Patrick Pentz (GK) rating 74.40 #13
+
+Wildcard:
+  [WILD] Alessandro Schöpf (CMF) rating 71.99 #26

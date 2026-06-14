@@ -13,6 +13,9 @@ MANUAL_ID_OVERRIDES = {
         "benjamin dominguez": "961022",
         "flaco lopez": "844797",
     },
+    "austria": {
+        "hannes wolf": "321070",
+    },
     "brazil": {
         "gabriel": "435338",
         "ederson": "607854",
@@ -85,6 +88,9 @@ MANUAL_ID_OVERRIDES = {
     },
     "denmark": {
         "filip jørgensen": "585323",
+    },
+    "ecuador": {
+        "joao ortiz": "348630",
     },
     "england": {
         "alex scott": "855256",
