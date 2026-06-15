@@ -10,7 +10,7 @@ Stephan El Shaarawy, CF, 93.79, False, Highlight, [CF, LWF, RWF, SS, LMF, RMF], 
 Pio Esposito, CF, 94.16, True, Highlight, [CF], [LWF, SS]
 Gianfranco Zola, SS, 99.85, False, Epic, [CF, SS, AMF], [LWF, LMF, CMF]
 Giacomo Raspadori, SS, 94.07, False, Highlight, [SS, CF, LWF], [RWF, AMF]
-Roberto Baggio, SS, 100.41, False, Epic, [CF, SS, AMF], []
+Roberto Baggio, SS, 99.61, False, Epic, [CF, SS, AMF], []
 Lorenzo Insigne, LWF, 97.73, False, BigTime, [LWF, LMF, SS], [CF, AMF, RWF]
 Mattia Zaccagni, LWF, 95.99, False, Highlight, [LWF, LMF, AMF], [SS, CMF]
 Federico Chiesa, LWF, 94.39, False, Highlight, [LWF, CF, RWF, SS, LMF, RMF], [AMF]
