@@ -14,9 +14,9 @@ Starters:
 Substitutes:
   [CF] Filippo Inzaghi (CF) rating 98.35 #9
   [LWF] Federico Chiesa (LWF) rating 94.39 #14
-  [RWF] Gianfranco Zola (SS) rating 99.85 #15
-  [AMF] Roberto Baggio (AMF) rating 97.83 #18
-  [CMF] Nicolò Barella (CMF) rating 96.03 #2
+  [RWF] Roberto Baggio (SS) rating 100.41 #15
+  [AMF] Nicolò Zaniolo (AMF) rating 95.92 #16
+  [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Leonardo Spinazzola (LB) rating 94.17 #4
   [CB] Franco Baresi (CB) rating 98.40 #6
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
 
 Wildcard:
-  [WILD] Daniele De Rossi (DMF) rating 98.15 #16
+  [WILD] Alessandro Costacurta (RB) rating 97.15 #2
