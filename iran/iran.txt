@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Sardar Azmoun (CF) rating 74.66 #20
-  [LWF] Allahyar Sayyadmanesh (LWF) rating 71.39 #8
-  [RWF] Mohammadmehdi Mohebi (RWF) rating 68.96 #25
-  [AMF] Mehdi Torabi (LWF) rating 71.26 #16
+  [LWF] Mehdi Torabi (LWF) rating 71.26 #16
+  [RWF] Mohammadmehdi Mohebi (RWF) rating 68.96 #8
+  [AMF] Amirmohammad Razzaghinia (CMF) rating 67.93 #26
   [CMF] Omid Noorafkan (CMF) rating 70.30 #21
   [DMF] Saeed Ezatolahi (DMF) rating 68.84 #6
   [LB] Milad Mohammadi (LB) rating 71.62 #5
