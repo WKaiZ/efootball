@@ -1,4 +1,4 @@
-Romelu Lukaku, CF, 95.99, True, Highlight, [CF], [SS]
+Romelu Lukaku, CF, 94.94, True, Highlight, [CF], [SS]
 Loïs Openda, CF, 95.40, False, Highlight, [CF], [LWF, RWF, SS]
 Leandro Trossard, CF, 94.05, True, Highlight, [LWF, CF, SS, AMF, LMF], [RWF, CMF, RMF]
 Matias Fernandez-Pardo, CF, 92.01, True, Highlight, [CF, LWF, RWF], [SS, LMF, RMF]

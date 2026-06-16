@@ -1,5 +1,5 @@
 Starters:
-  [CF] Romelu Lukaku (CF) rating 95.99 #9
+  [CF] Loïs Openda (CF) rating 95.40 #9
   [LWF] Jérémy Doku (LWF) rating 96.99 #11
   [RWF] Leandro Trossard (RWF) rating 94.36 #10
   [AMF] Eden Hazard (AMF) rating 100.35 #7
@@ -12,9 +12,9 @@ Starters:
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 95.40 #19
-  [LWF] Charles De Ketelaere (SS) rating 95.17 #17
-  [RWF] Adnan Januzaj (RWF) rating 93.39 #20
+  [CF] Romelu Lukaku (CF) rating 94.94 #20
+  [LWF] Malick Fofana (LWF) rating 95.26 #19
+  [RWF] Charles De Ketelaere (SS) rating 95.17 #17
   [AMF] Kevin De Bruyne (AMF) rating 97.00 #14
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
