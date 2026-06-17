@@ -4,7 +4,7 @@ Farès Chaïbi, LMF, 94.37, True, Highlight, [LMF, LWF, RWF, AMF, CMF], [CF, SS,
 Hicham Boudaoui, CMF, 94.17, True, Highlight, [AMF, CMF, DMF, RMF], [SS, RWF, LMF]
 Nabil Bentaleb, CMF, 93.41, True, Highlight, [CMF, DMF], [AMF]
 Rayan Aït-Nouri, LB, 93.99, True, Highlight, [LB, LMF], []
-Ramy Bensebaini, CB, 95.53, False, Highlight, [CB, LB], [LMF]
+Ramy Bensebaini, CB, 95.53, True, Highlight, [CB, LB], [LMF]
 Aïssa Mandi, CB, 93.50, True, Highlight, [CB, LB, RB], [LMF, RMF, DMF]
 Amine Gouiri, CF, 76.29, True, Standard, [CF, SS, LWF], [RWF, LMF, AMF]
 Yacine Brahimi, LWF, 75.55, False, Standard, [LWF, LMF, AMF, RWF, RMF], [CF, SS, CMF, DMF]
