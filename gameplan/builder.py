@@ -314,9 +314,6 @@ def build_gameplan(conn, roles_by_pos):
                     num = choose_jersey_for_player(
                         conn, candidate, used_numbers, assignments, None, fallback_reserved=dyn_reserved
                     )
-                    if num is None:
-                        if old_num is not None:
-                            assignments[p.player_id] = old_num
                     if num is None or num == old_num:
                         continue
                     assignments.pop(p.player_id, None)
