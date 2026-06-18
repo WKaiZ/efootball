@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Facundo Pellistri (RWF) rating 73.89 #11
   [AMF] Fernando Gorriarán (CMF) rating 76.06 #6
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
-  [DMF] Mauro Arambarri (DMF) rating 94.07 #20
+  [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Mathías Olivera (LB) rating 94.22 #16
   [CB] Santiago Bueno (CB) rating 74.38 #24
   [CB] Sebastian Caceres (CB) rating 74.41 #3
-  [RB] Agustín Sant'Anna (RB) rating 73.13 #14
+  [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Wildcard:
-  [WILD] Maximiliano Araujo (LMF) rating 93.96 #15
+  [WILD] Maximiliano Araujo (LMF) rating 93.96 #20
