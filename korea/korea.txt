@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Dong-jun Lee (RWF) rating 70.30 #9
   [AMF] Dong-gyeong Lee (AMF) rating 73.50 #26
   [CMF] Jens Castrop (CMF) rating 71.55 #23
-  [DMF] Woo-young Jung (DMF) rating 71.08 #16
+  [DMF] Jin-seob Park (DMF) rating 69.65 #16
   [LB] Myung-jae Lee (LB) rating 72.02 #3
   [CB] Tae-hyeon Kim (CB) rating 72.47 #5
   [CB] Yu-min Cho (CB) rating 72.33 #14

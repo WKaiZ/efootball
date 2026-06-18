@@ -310,19 +310,19 @@ def build_gameplan(conn, roles_by_pos):
                 ]
                 candidates.sort(key=lambda r: r.rating, reverse=True)
                 for candidate in candidates:
-                    old_num = assignments.pop(p.player_id, None)
-                    if old_num is not None:
-                        used_numbers.discard(old_num)
-                    used_ids.discard(p.player_id)
+                    old_num = assignments.get(p.player_id)
                     num = choose_jersey_for_player(
                         conn, candidate, used_numbers, assignments, None, fallback_reserved=dyn_reserved
                     )
                     if num is None:
                         if old_num is not None:
                             assignments[p.player_id] = old_num
-                            used_numbers.add(old_num)
-                        used_ids.add(p.player_id)
+                    if num is None or num == old_num:
                         continue
+                    assignments.pop(p.player_id, None)
+                    if old_num is not None:
+                        used_numbers.discard(old_num)
+                    used_ids.discard(p.player_id)
                     subs[i] = candidate
                     assignments[candidate.player_id] = num
                     used_numbers.add(num)

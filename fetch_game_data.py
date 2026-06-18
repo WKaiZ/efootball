@@ -109,6 +109,9 @@ MANUAL_ID_OVERRIDES = {
     "usa": {
         "patrick agyemang": "1089574",
     },
+    "norway": {
+        "patrik berg": "308439",
+    },
 }
 
 

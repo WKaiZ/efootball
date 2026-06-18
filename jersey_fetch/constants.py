@@ -123,6 +123,9 @@ MANUAL_ID_OVERRIDES = {
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
     },
+    "norway": {
+        "patrik berg": {"player_id": "308439", "preserve_name": True},
+    },
 }
 
 EXCLUDE_FROM_ESPN_RECENT = frozenset(

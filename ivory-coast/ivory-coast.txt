@@ -1,0 +1,28 @@
+Starters:
+  [CF] Didier Drogba (CF) rating 99.38 #11
+  [LWF] Simon Adingra (LWF) rating 77.13 #10
+  [RWF] Nicolas Pépé (RWF) rating 94.36 #19
+  [AMF] Amad Diallo (RMF) rating 95.12 #15
+  [CMF] Ibrahim Sangaré (DMF) rating 94.00 #18
+  [DMF] Yaya Touré (DMF) rating 97.66 #6
+  [LB] Hassane Kamara (LB) rating 74.14 #3
+  [CB] Evan Ndicka (CB) rating 95.99 #21
+  [CB] Odilon Kossounou (CB) rating 95.33 #7
+  [RB] Guéla Doué (RB) rating 93.23 #17
+  [GK] Alban Lafont (GK) rating 74.49 #23
+
+Substitutes:
+  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
+  [LWF] Wilfried Zaha (LWF) rating 76.12 #12
+  [RWF] Evann Guessand (RWF) rating 75.41 #22
+  [AMF] Hamed Traoré (AMF) rating 74.81 #25
+  [CMF] Franck Kessié (CMF) rating 76.47 #8
+  [DMF] Mory Gbane (DMF) rating 70.41 #24
+  [LB] Christopher Operi (LB) rating 73.50 #13
+  [CB] Emmanuel Agbadou (CB) rating 94.67 #20
+  [CB] Wilfried Singo (CB) rating 77.38 #5
+  [RB] Jean-Daniel Akpa Akpro (CMF) rating 72.40 #14
+  [GK] Yahia Fofana (GK) rating 74.47 #1
+
+Wildcard:
+  [WILD] Ousmane Diomande (CB) rating 76.04 #2
