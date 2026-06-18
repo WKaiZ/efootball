@@ -1,6 +1,7 @@
 Christoph Baumgartner, AMF, 94.18, True, Highlight, [LWF, AMF], [CF, SS, LMF, CMF, RMF]
 Romano Schmid, AMF, 94.34, True, Highlight, [AMF, CMF, LWF, LMF], [SS, DMF, RWF, RMF]
 Valentino Lazaro, RMF, 93.19, False, Highlight, [RMF, LMF, RWF, RB], [LWF, LB, SS, AMF]
+Romano Schmid, RMF, 93.95, True, Highlight, [AMF, CMF, LWF, LMF, RWF, RMF], [SS, DMF]
 Marcel Sabitzer, CMF, 94.04, True, Highlight, [CMF, AMF], [LMF, RMF, RWF, DMF]
 Stefan Posch, RB, 94.23, True, Highlight, [RB, CB], [RMF]
 David Alaba, CB, 94.09, True, Showtime, [CB, LB, CMF, DMF, LMF], [LWF, AMF, RB]

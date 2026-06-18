@@ -23,7 +23,7 @@ Francisco Trincão, AMF, 94.24, True, Highlight, [RWF, LWF, SS, AMF], [CF, LMF, 
 Rodrigo Mora, AMF, 93.25, False, Highlight, [AMF, CMF], [DMF, SS]
 Vitinha, CMF, 98.42, True, Showtime, [CMF, DMF, AMF], [LMF]
 Deco, CMF, 96.53, False, Epic, [CMF, AMF], [DMF, RMF, RWF]
-João Neves, CMF, 95.89, True, Highlight, [CMF, DMF], [AMF]
+João Neves, CMF, 95.72, True, Highlight, [CMF, DMF], [AMF]
 Bruno Fernandes, CMF, 95.01, True, Highlight, [CMF, AMF], [DMF, SS, LWF, RWF, LMF, RMF]
 Matheus Nunes, CMF, 93.18, True, Highlight, [LMF, CMF, RB], [DMF, AMF]
 Vitinha, DMF, 97.75, True, BigTime, [CMF, DMF, AMF], [LMF]
