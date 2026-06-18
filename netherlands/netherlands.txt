@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Donyell Malen (RWF) rating 94.47 #18
   [AMF] Wesley Sneijder (AMF) rating 97.78 #16
   [CMF] Frenkie de Jong (CMF) rating 96.37 #21
-  [DMF] Ryan Gravenberch (DMF) rating 95.68 #26
+  [DMF] Phillip Cocu (DMF) rating 96.93 #6
   [LB] Micky van de Ven (LB) rating 96.06 #15
   [CB] Frank Rijkaard (CB) rating 96.97 #17
-  [CB] Ronald Koeman (CB) rating 96.01 #6
+  [CB] Teun Koopmeiners (CB) rating 93.34 #24
   [RB] Lutsharel Geertruida (RB) rating 95.11 #12
   [GK] Robin Roefs (GK) rating 94.78 #13
 
 Wildcard:
-  [WILD] Justin Kluivert (AMF) rating 94.92 #19
+  [WILD] Ryan Gravenberch (CMF) rating 96.15 #26

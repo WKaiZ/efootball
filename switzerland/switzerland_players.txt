@@ -19,7 +19,7 @@ Xherdan Shaqiri, AMF, 74.45, False, Standard, [AMF, RWF, RMF], [LWF, CF, SS, LMF
 Fabian Rieder, AMF, 72.73, True, Standard, [AMF, CMF], [DMF, LMF, SS]
 Ulisses Garcia, LB, 73.25, False, Standard, [LB, LMF], [CB, DMF, RB]
 Dominik Schmid, LB, 72.81, False, Standard, [LB, LMF, DMF], [AMF, CMF]
-Miro Muheim, LB, 71.89, True, Standard, [LB, LMF], [LWF]
+Miro Muheim, LB, 71.89, False, Standard, [LB, LMF], [LWF]
 Lucas Blondel, RB, 73.95, False, Standard, [RB], [CMF, RMF]
 Jordan Lotomba, RB, 73.30, False, Standard, [RB, LB], [LMF, RMF]
 Silvan Widmer, RB, 73.26, True, Standard, [RB, RMF], [LB, LMF, CB]
