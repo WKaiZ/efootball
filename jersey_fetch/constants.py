@@ -126,6 +126,9 @@ MANUAL_ID_OVERRIDES = {
     "norway": {
         "patrik berg": {"player_id": "308439", "preserve_name": True},
     },
+    "canada": {
+        "cristiam gutierrez": {"player_id": "385104", "preserve_name": True},
+    },
 }
 
 EXCLUDE_FROM_ESPN_RECENT = frozenset(

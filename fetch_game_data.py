@@ -112,6 +112,9 @@ MANUAL_ID_OVERRIDES = {
     "norway": {
         "patrik berg": "308439",
     },
+    "canada": {
+        "cristiam gutierrez": "385104",
+    },
 }
 
 

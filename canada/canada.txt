@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Ali Ahmed (LMF) rating 71.31 #20
   [CMF] Ismaël Koné (CMF) rating 72.33 #8
   [DMF] Victor Loturi (DMF) rating 72.02 #12
-  [LB] Luc De Fougerolles (RB) rating 66.30 #15
+  [LB] Cristiam Gutiérrez (LB) rating 68.61 #15
   [CB] Kyle Hiebert (CB) rating 73.36 #26
   [CB] Joel Waterman (CB) rating 73.34 #5
   [RB] Richie Laryea (RB) rating 73.49 #22
