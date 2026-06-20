@@ -1,13 +1,13 @@
 Starters:
-  [CF] Folarin Balogun (CF) rating 93.99 #20
-  [LWF] Jordan Morris (LWF) rating 73.82 #16
+  [CF] Folarin Balogun (CF) rating 93.92 #20
+  [LWF] Jordan Morris (LWF) rating 73.82 #13
   [RWF] Christian Pulisic (RWF) rating 96.98 #10
   [AMF] Malik Tillman (AMF) rating 94.37 #17
   [CMF] Weston McKennie (CMF) rating 95.00 #8
   [DMF] Johnny Cardoso (DMF) rating 93.98 #15
   [LB] Antonee Robinson (LB) rating 95.01 #5
+  [CB] Alex Freeman (CB) rating 93.99 #16
   [CB] Chris Richards (CB) rating 76.47 #3
-  [CB] Tim Ream (CB) rating 74.59 #13
   [RB] Sergiño Dest (RB) rating 74.33 #2
   [GK] Zack Steffen (GK) rating 74.77 #22
 
