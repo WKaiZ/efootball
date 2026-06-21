@@ -34,6 +34,19 @@ def nation_labels_equivalent(a, b):
     return bool(nation_label_variants(a) & nation_label_variants(b))
 
 
+def player_name_alias_variants(country_label, name):
+    from jersey_fetch.constants import PLAYER_NAME_ALIASES
+
+    key = normalize_name(name)
+    variants = {key} if key else set()
+    groups = PLAYER_NAME_ALIASES.get(normalize_name(country_label or ""), [])
+    for group in groups:
+        group_norm = {normalize_name(g) for g in group}
+        if key in group_norm:
+            variants |= group_norm
+    return variants
+
+
 def nation_country_names_for_filter(country_filter):
     from jersey_fetch.constants import ESPN_TEAM_NAME_ALIASES
 

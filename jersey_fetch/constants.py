@@ -153,6 +153,12 @@ ESPN_LINEUP_MANUAL_ROLES = {
     "johan manzambi": frozenset({"F"}),
 }
 
+PLAYER_NAME_ALIASES = {
+    "japan": [
+        ("Ko Itakura", "Kou Itakura"),
+    ],
+}
+
 POSITION_SEARCH_PHRASES = {
     "GK": "goalkeeper",
     "CB": "center back",

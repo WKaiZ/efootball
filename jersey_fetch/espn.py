@@ -15,7 +15,7 @@ from jersey_fetch.matching import (
     espn_local_name_match_tiebreak,
     roster_role_compatible_for_espn_lineup,
 )
-from jersey_fetch.names import normalize_name
+from jersey_fetch.names import normalize_name, player_name_alias_variants
 
 def espn_request_json(url, params=None, timeout=None):
     if timeout is None:
@@ -343,10 +343,15 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
 def map_recent_players_to_roster(player_profiles, latest_match):
     if not latest_match:
         return ({}, {})
+    country_label = latest_match.get("country", "")
     roster_names = list(player_profiles.items())
     recent_flags = {key: False for key in player_profiles.keys()}
     recent_numbers = {}
     taken = set()
+
+    def local_match_names(key):
+        return player_name_alias_variants(country_label, key) or {key}
+
     for espn_player in latest_match["roster"]:
         matched_key = None
         espn_role = espn_player.get("role")
@@ -357,17 +362,20 @@ def map_recent_players_to_roster(player_profiles, latest_match):
                 continue
             if not roster_role_compatible_for_espn_lineup(profile["roles"], espn_role, key):
                 continue
-            if not any((compatible_name_tokens(key, alias) for alias in aliases)):
+            names = local_match_names(key)
+            if not any(
+                compatible_name_tokens(nm, alias) for nm in names for alias in aliases
+            ):
                 continue
-            if not espn_local_matches_full_aliases(key, aliases):
+            if not any(espn_local_matches_full_aliases(nm, aliases) for nm in names):
                 continue
             candidates.append(key)
         if candidates:
             matched_key = max(
                 candidates,
                 key=lambda k: (
-                    espn_local_name_match_score(k, aliases),
-                    -espn_local_name_match_tiebreak(k, aliases),
+                    max(espn_local_name_match_score(nm, aliases) for nm in local_match_names(k)),
+                    -min(espn_local_name_match_tiebreak(nm, aliases) for nm in local_match_names(k)),
                 ),
             )
         if matched_key is None:

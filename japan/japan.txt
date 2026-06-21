@@ -1,5 +1,5 @@
 Starters:
-  [CF] Keisuke Honda (CF) rating 97.31 #4
+  [CF] Keisuke Honda (CF) rating 97.31 #18
   [LMF] Shinji Kagawa (LMF) rating 98.78 #10
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
   [AMF] Hidetoshi Nakata (AMF) rating 97.21 #7
@@ -7,16 +7,16 @@ Starters:
   [DMF] Makoto Hasebe (DMF) rating 98.30 #17
   [LB] Ryo Hatsuse (LB) rating 72.30 #19
   [CB] Hiroki Ito (CB) rating 95.52 #21
-  [CB] Ko Itakura (CB) rating 95.20 #20
+  [CB] Ko Itakura (CB) rating 95.20 #4
   [RB] Seiya Maikuma (RB) rating 93.04 #16
   [GK] Seigo Narazaki (GK) rating 96.92 #1
 
 Substitutes:
   [CF] Yoichiro Kakitani (CF) rating 93.97 #11
   [LMF] Keito Nakamura (LMF) rating 94.29 #13
-  [RMF] Daiki Hashioka (RB) rating 72.81 #22
+  [RMF] Yuito Suzuki (AMF) rating 94.23 #20
   [AMF] Shunsuke Nakamura (AMF) rating 96.64 #14
-  [CMF] Reo Hatate (CMF) rating 75.03 #18
+  [CMF] Reo Hatate (CMF) rating 75.03 #22
   [DMF] Wataru Endo (DMF) rating 95.06 #6
   [LB] Yuto Nagatomo (LB) rating 70.51 #5
   [CB] Shogo Taniguchi (CB) rating 94.56 #3
