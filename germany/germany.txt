@@ -12,13 +12,13 @@ Starters:
   [GK] Oliver Kahn (GK) rating 97.27 #1
 
 Substitutes:
-  [CF] Gerd Müller (CF) rating 99.05 #13
+  [CF] Gerd Müller (CF) rating 99.05 #9
   [LMF] Marco Reus (LMF) rating 97.37 #21
   [RWF] Karim Adeyemi (RWF) rating 94.47 #14
   [AMF] Florian Wirtz (AMF) rating 96.12 #17
-  [CMF] Nadiem Amiri (CMF) rating 94.33 #20
+  [CMF] Pascal Groß (CMF) rating 94.18 #13
   [DMF] İlkay Gündoğan (CMF) rating 78.86 #7
-  [LB] Robin Gosens (LMF) rating 75.32 #3
+  [LB] Robin Gosens (LMF) rating 75.32 #20
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
   [CB] Jonathan Tah (CB) rating 95.51 #4
   [RB] Joshua Kimmich (RB) rating 95.99 #6

@@ -28,7 +28,7 @@ Jonas Hofmann, AMF, 94.03, False, Highlight, [AMF, RWF, RB, RMF, CMF], [DMF, SS,
 Mario Götze, AMF, 93.42, False, Highlight, [AMF, CMF], [LMF, RMF, LWF, RWF, CF, SS]
 Deniz Undav, AMF, 92.41, True, Highlight, [AMF, CF, SS], [CMF]
 Lothar Matthäus, CMF, 99.60, False, Epic, [DMF, CMF, CB], [AMF]
-Nadiem Amiri, CMF, 94.33, True, Highlight, [CMF, AMF], [LMF, RMF, DMF]
+Nadiem Amiri, CMF, 93.48, True, Highlight, [CMF, AMF], [LMF, RMF, DMF]
 Pascal Groß, CMF, 94.18, True, Highlight, [AMF, CMF, DMF, RMF, RB], []
 Leon Goretzka, CMF, 95.15, True, Highlight, [AMF, CMF, DMF], [LMF, RMF, CB]
 Lothar Matthäus, DMF, 96.95, False, Epic, [DMF, CMF, CB], [AMF]
