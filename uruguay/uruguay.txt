@@ -12,12 +12,12 @@ Starters:
   [GK] Fernando Muslera (GK) rating 77.67 #23
 
 Substitutes:
-  [CF] Michael Santos (CF) rating 73.00 #17
+  [CF] Christhian Stuani (CF) rating 74.54 #11
   [LWF] Brian Rodríguez (LWF) rating 73.61 #18
-  [RWF] Facundo Pellistri (RWF) rating 73.89 #11
-  [AMF] Fernando Gorriarán (CMF) rating 76.06 #6
+  [RWF] Agustín Canobbio (RWF) rating 74.00 #14
+  [AMF] Rodrigo Zalazar (CMF) rating 75.54 #26
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
-  [DMF] Lucas Torreira (DMF) rating 78.11 #14
+  [DMF] Rodrigo Bentancur (DMF) rating 77.53 #6
   [LB] Mathías Olivera (LB) rating 94.22 #16
   [CB] Santiago Bueno (CB) rating 74.38 #24
   [CB] Sebastian Caceres (CB) rating 74.41 #3
