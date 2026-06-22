@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Petar Musa (CF) rating 76.54 #26
   [LWF] Marko Pjaca (LWF) rating 72.06 #20
-  [RWF] Andrej Kramaric (SS) rating 77.27 #9
+  [RWF] Andrej Kramaric (SS) rating 94.09 #9
   [AMF] Mario Pašalić (AMF) rating 94.26 #15
   [CMF] Martin Baturina (CMF) rating 94.17 #16
   [DMF] Nikola Moro (DMF) rating 93.15 #7

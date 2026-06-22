@@ -5,19 +5,26 @@ from gameplan.formation import FORMATION
 def _available_roles_for_sub_slot(slot, roles_by_pos, used_ids):
     direct_roles = roles_by_pos.get(slot, [])
 
-    nonstd = [r for r in direct_roles if r.player_id not in used_ids and not is_standard(r)]
+    nonstd_direct = [r for r in direct_roles if r.player_id not in used_ids and not is_standard(r)]
+    if nonstd_direct:
+        return nonstd_direct
 
-    if slot in SUB_WING_SLOTS and not nonstd:
+    std_direct = [r for r in direct_roles if r.player_id not in used_ids and is_standard(r)]
+    if std_direct:
+        return std_direct
+
+    # SS (second striker) is only considered for a wing slot once neither a
+    # non-Standard nor a Standard direct winger is available for it.
+    if slot in SUB_WING_SLOTS:
         ss_roles = roles_by_pos.get("SS", [])
-        nonstd = [r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)]
+        nonstd_ss = [r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)]
+        if nonstd_ss:
+            return nonstd_ss
+        std_ss = [r for r in ss_roles if r.player_id not in used_ids and is_standard(r)]
+        if std_ss:
+            return std_ss
 
-    if nonstd:
-        return nonstd
-
-    std = [r for r in direct_roles if r.player_id not in used_ids and is_standard(r)]
-    if slot in SUB_WING_SLOTS and not std:
-        return []
-    return std
+    return []
 
 
 def choose_initial_lineup(roles_by_pos):

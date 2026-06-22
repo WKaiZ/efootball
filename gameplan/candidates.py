@@ -45,16 +45,6 @@ def next_candidate_for_sub_wing(
     if nonstd_direct:
         return max(nonstd_direct, key=lambda r: r.rating)
 
-    nonstd_ss = [
-        r
-        for r in roles_by_pos.get("SS", [])
-        if r.player_id not in excluded_ids
-        and _player_usable_for_slot_candidate(r, used_ids, subs)
-        and not is_standard(r)
-    ]
-    if nonstd_ss:
-        return max(nonstd_ss, key=lambda r: r.rating)
-
     std_direct = [
         r
         for r in roles_by_pos.get(slot, [])
@@ -64,6 +54,17 @@ def next_candidate_for_sub_wing(
     ]
     if std_direct:
         return max(std_direct, key=lambda r: r.rating)
+
+    # SS only after both non-Standard and Standard direct wingers are exhausted.
+    nonstd_ss = [
+        r
+        for r in roles_by_pos.get("SS", [])
+        if r.player_id not in excluded_ids
+        and _player_usable_for_slot_candidate(r, used_ids, subs)
+        and not is_standard(r)
+    ]
+    if nonstd_ss:
+        return max(nonstd_ss, key=lambda r: r.rating)
 
     std_ss = [
         r

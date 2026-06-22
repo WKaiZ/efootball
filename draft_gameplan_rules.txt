@@ -17,7 +17,7 @@ Player selection
   - Stage C: if starter slots are still `VACANT`, Standard cards in their `MAIN position`.
   - Stage D: if starter slots are still `VACANT`, Standard cards via `proficient_positions`.
   - `semiproficient_positions` are not used for starters.
-- Initial substitutes: same rating-driven “pick the best eligible player for any open sub slot” pattern as starters, but each slot only considers `MAIN position` matches; for sub `LWF`/`RWF`, candidates are considered in this priority order: non-Standard direct winger → non-Standard `SS` (if no non-Standard direct winger) → Standard direct winger → Standard `SS` (last resort only).
+- Initial substitutes: same rating-driven “pick the best eligible player for any open sub slot” pattern as starters, but each slot only considers `MAIN position` matches; for sub `LWF`/`RWF`, candidates are considered in this priority order: non-Standard direct winger → Standard direct winger → non-Standard `SS` → Standard `SS`. `SS` is only considered once neither a non-Standard nor a Standard direct winger is available for that slot.
 - If substitute slots are still `VACANT` after lineup + jersey processing, fill them in this order:
   - `MAIN` non-Standard
   - `MAIN` Standard
@@ -34,9 +34,10 @@ Player selection
 - Substitute-specific SS fallback:
   - Only for SUBSTITUTE `LWF` or `RWF` vacancies. Candidates are tried in this priority order:
     1. Non-Standard direct winger (`LWF`/`RWF` as MAIN position)
-    2. Non-Standard `SS` — only if no non-Standard direct winger is available
-    3. Standard direct winger
-    4. Standard `SS` — last resort, only if no Standard direct winger is available either
+    2. Standard direct winger (`LWF`/`RWF` as MAIN position)
+    3. Non-Standard `SS` — only if no direct winger (non-Standard or Standard) is available
+    4. Standard `SS` — last resort, only if no direct winger is available either
+  - `SS` is considered for a wing slot only after BOTH non-Standard and Standard direct wingers have been exhausted for that slot.
   - More generally, substitute slots that cannot be satisfied directly by `MAIN position` (for example `SS`) are lower priority than direct `MAIN-position` substitute assignments.
 
 Jersey number assignment (overall)
