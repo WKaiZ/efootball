@@ -9,7 +9,7 @@ Starters:
   [CB] Hossein Kanaani (CB) rating 72.62 #13
   [CB] Majid Hosseini (CB) rating 71.80 #19
   [RB] Sadegh Moharrami (RB) rating 72.06 #2
-  [GK] Alireza Beiranvand (GK) rating 72.45 #1
+  [GK] Alireza Beiranvand (GK) rating 92.40 #1
 
 Substitutes:
   [CF] Sardar Azmoun (CF) rating 74.66 #20

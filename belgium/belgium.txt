@@ -6,7 +6,7 @@ Starters:
   [CMF] Youri Tielemans (CMF) rating 95.21 #8
   [DMF] Amadou Onana (DMF) rating 95.18 #24
   [LB] Arthur Theate (LB) rating 94.07 #3
-  [CB] Vincent Kompany (CB) rating 100.51 #4
+  [CB] Vincent Kompany (CB) rating 99.12 #4
   [CB] Thomas Vermaelen (CB) rating 96.44 #17
   [RB] Timothy Castagne (RB) rating 93.28 #21
   [GK] Thibaut Courtois (GK) rating 98.33 #1
