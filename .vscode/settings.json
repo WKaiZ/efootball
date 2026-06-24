@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "_players\\.txt$",
+        "cmd": "python3 sort_players.py"
+      }
+    ]
+  }
+}

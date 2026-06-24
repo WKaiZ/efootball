@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""Sort every *_players.txt file.
-
-Line format:
-    Name, Position, Rating, RecentFlag, Type, [main positions], [secondary positions]
-
-Players are split into two groups:
-    1. Non-standard players (any Type other than "Standard")
-    2. Standard players (Type == "Standard")
-
-Within each group players are ordered by position (cf, ss, lwf, rwf, amf, lmf,
-rmf, cmf, dmf, cb, lb, rb, gk) and then by rating (highest first).
-
-Type spellings (e.g. "Bigtime"/"BigTime", "ShowTime"/"Showtime", "Standrd") are
-normalized to a single canonical form before sorting.
-"""
-
 import glob
 import os
 
@@ -23,7 +7,6 @@ POSITION_ORDER = [
 ]
 POSITION_RANK = {pos: i for i, pos in enumerate(POSITION_ORDER)}
 
-# Map a lowercase, space-stripped type to its canonical spelling.
 CANONICAL_TYPES = {
     "standard": "Standard",
     "standrd": "Standard",
@@ -40,11 +23,6 @@ def canonical_type(raw_type):
 
 
 def parse_line(line):
-    """Return (position, rating, canonical_type, normalized_line) or None.
-
-    Splits only the first 5 comma fields so commas inside the bracket lists are
-    left untouched.
-    """
     parts = line.split(",", 5)
     if len(parts) < 6:
         return None
@@ -60,7 +38,6 @@ def parse_line(line):
 
 def sort_key(player):
     position, rating, _ctype, _line = player
-    # Unknown positions sort to the end; rating descending via negation.
     return (POSITION_RANK.get(position, len(POSITION_ORDER)), -rating)
 
 
@@ -89,7 +66,7 @@ def sort_file(path):
 
     out_lines = [p[3] for p in non_standard]
     if non_standard and standard:
-        out_lines.append("")  # blank line separates the two groups
+        out_lines.append("")
     out_lines.extend(p[3] for p in standard)
 
     with open(path, "w", encoding="utf-8") as f:
