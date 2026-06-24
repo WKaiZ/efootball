@@ -6,7 +6,7 @@ Starters:
   [CMF] Granit Xhaka (CMF) rating 95.40 #10
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
   [LB] Ulisses Garcia (LB) rating 73.25 #14
-  [CB] Manuel Akanji (CB) rating 95.00 #5
+  [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Ricardo Rodríguez (CB) rating 93.31 #13
   [RB] Lucas Blondel (RB) rating 73.95 #2
   [GK] Gregor Kobel (GK) rating 96.39 #1
