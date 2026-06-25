@@ -23,3 +23,6 @@ Substitutes:
   [CB] Johan Vasquez (CB) rating 73.36 #5
   [RB] Rodrigo Huescas (RB) rating 73.29 #19
   [GK] Raúl Rangel (GK) rating 73.63 #12
+
+Wildcard:
+  [WILD] Héctor Herrera (CMF) rating 73.86 #16

@@ -171,6 +171,7 @@ def build_gameplan(conn, roles_by_pos):
         update_blocked,
         allow_from_subs,
         swap_protected_player_ids=None,
+        allow_swap=True,
     ):
         nonlocal used_ids
         if swap_protected_player_ids is None:
@@ -210,6 +211,11 @@ def build_gameplan(conn, roles_by_pos):
                             continue
                         if "SS" not in r.proficient_positions:
                             continue
+                    elif pos_set_name == "ss_semiproficient":
+                        if slot not in SUB_WING_SLOTS:
+                            continue
+                        if "SS" not in r.semiproficient_positions:
+                            continue
                     else:
                         raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
 
@@ -221,7 +227,7 @@ def build_gameplan(conn, roles_by_pos):
                         blocked_numbers,
                         fallback_reserved=recent_soft_reserved,
                     )
-                    if num is None and r.recent:
+                    if num is None and r.recent and allow_swap:
                         num = try_free_jersey_via_swap(
                             conn,
                             r,
@@ -505,7 +511,12 @@ def build_gameplan(conn, roles_by_pos):
     try_swap_fill_sub_vacancies()
     upgrade_subs()
 
-    for pos_set, want_std in (("ss_proficient", False), ("ss_proficient", True)):
+    for pos_set, want_std in (
+        ("ss_proficient", False),
+        ("ss_proficient", True),
+        ("ss_semiproficient", False),
+        ("ss_semiproficient", True),
+    ):
         main_sub_ids = {
             p.player_id
             for i, p in enumerate(subs)
@@ -521,6 +532,7 @@ def build_gameplan(conn, roles_by_pos):
             update_blocked=False,
             allow_from_subs=False,
             swap_protected_player_ids=protected_swap_ids,
+            allow_swap=False,
         )
         used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
