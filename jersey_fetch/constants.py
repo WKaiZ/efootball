@@ -151,6 +151,7 @@ ESPN_LINEUP_MANUAL_ROLES = {
     "luca lipani": frozenset({"D"}),
     "honest ahanor": frozenset({"M"}),
     "johan manzambi": frozenset({"F"}),
+    "jordy alcivar": frozenset({"D"}),
 }
 
 PLAYER_NAME_ALIASES = {

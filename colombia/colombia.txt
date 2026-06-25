@@ -1,11 +1,11 @@
 Starters:
-  [CF] Duván Zapata (CF) rating 78.09 #18
+  [CF] Duván Zapata (CF) rating 78.09 #19
   [LWF] Luis Díaz (LWF) rating 97.29 #7
   [RWF] Juan Cuadrado (RMF) rating 95.13 #11
   [AMF] James Rodríguez (AMF) rating 91.25 #10
   [CMF] Eduard Atuesta (CMF) rating 73.25 #20
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16
-  [LB] Álvaro Angulo (LB) rating 74.73 #5
+  [LB] Frank Fabra (LB) rating 74.28 #18
   [CB] Jhon Lucumí (CB) rating 94.97 #3
   [CB] Yerry Mina (CB) rating 93.36 #13
   [RB] Daniel Muñoz (RB) rating 92.16 #2
@@ -15,10 +15,10 @@ Substitutes:
   [CF] Jhon Durán (CF) rating 77.35 #9
   [LWF] Jáminton Campaz (LWF) rating 74.84 #21
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
-  [AMF] Juan Fernando Quintero (AMF) rating 76.52 #17
+  [AMF] Edwin Cardona (AMF) rating 74.39 #8
   [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Juan Portilla (DMF) rating 74.30 #15
-  [LB] Frank Fabra (LB) rating 74.28 #28
+  [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Davinson Sánchez (CB) rating 78.43 #23
   [CB] Felipe Aguilar (CB) rating 72.36 #14
   [RB] Santiago Arias (RB) rating 73.93 #4

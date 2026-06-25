@@ -205,6 +205,11 @@ def build_gameplan(conn, roles_by_pos):
                     elif pos_set_name == "main":
                         if slot != r.position:
                             continue
+                    elif pos_set_name == "ss_proficient":
+                        if slot not in SUB_WING_SLOTS:
+                            continue
+                        if "SS" not in r.proficient_positions:
+                            continue
                     else:
                         raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
 
@@ -499,6 +504,25 @@ def build_gameplan(conn, roles_by_pos):
     upgrade_subs()
     try_swap_fill_sub_vacancies()
     upgrade_subs()
+
+    for pos_set, want_std in (("ss_proficient", False), ("ss_proficient", True)):
+        main_sub_ids = {
+            p.player_id
+            for i, p in enumerate(subs)
+            if p is not None and p.position == FORMATION[i]
+        }
+        protected_swap_ids = {p.player_id for p in starters if p is not None} | main_sub_ids
+        fill_vacancies(
+            [i for i, p in enumerate(subs) if p is None],
+            subs,
+            pos_set,
+            want_standard=want_std,
+            blocked_numbers=None,
+            update_blocked=False,
+            allow_from_subs=False,
+            swap_protected_player_ids=protected_swap_ids,
+        )
+        used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
     starter_asg = []
     for slot, p in zip(FORMATION, starters):

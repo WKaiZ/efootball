@@ -3,8 +3,8 @@ Starters:
   [LWF] Bryan Ramírez (RMF) rating 72.96 #20
   [RWF] Gonzalo Plata (RWF) rating 75.15 #19
   [AMF] Kendry Páez (AMF) rating 73.02 #10
-  [CMF] José Cifuentes (CMF) rating 74.71 #5
-  [DMF] João Ortiz (DMF) rating 70.61 #18
+  [CMF] José Cifuentes (CMF) rating 74.71 #18
+  [DMF] Jordy Alcívar (DMF) rating 72.40 #5
   [LB] Pervis Estupiñán (LB) rating 94.02 #7
   [CB] Willian Pacho (CB) rating 95.99 #6
   [CB] Piero Hincapié (CB) rating 95.55 #3
@@ -19,7 +19,10 @@ Substitutes:
   [CMF] Alan Franco (CMF) rating 72.44 #21
   [DMF] Pedro Vite (CMF) rating 72.34 #15
   [LB] Yaimar Medina (LB) rating 67.40 #26
-  [CB] Robert Arboleda (CB) rating 76.36 #2
-  [CB] Joel Ordóñez (CB) rating 72.39 #4
-  [RB] José Andrés Hurtado (RB) rating 71.68 #24
+  [CB] Robert Arboleda (CB) rating 76.36 #4
+  [CB] Jackson Porozo (CB) rating 72.44 #25
+  [RB] Angelo Preciado (RB) rating 71.75 #17
   [GK] Javier Burrai (GK) rating 74.56 #12
+
+Wildcard:
+  [WILD] Gonzalo Valle (GK) rating 73.40 #22
