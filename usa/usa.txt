@@ -12,16 +12,16 @@ Starters:
   [GK] Zack Steffen (GK) rating 74.77 #22
 
 Substitutes:
-  [CF] Brian White (CF) rating 76.25 #23
+  [CF] Josh Sargent (CF) rating 75.03 #9
   [LWF] Cade Cowell (LWF) rating 71.27 #19
   [RWF] Paul Arriola (RWF) rating 73.71 #7
   [AMF] Djordje Mihailovic (AMF) rating 75.91 #14
   [CMF] Yunus Musah (CMF) rating 74.52 #18
   [DMF] Tyler Adams (DMF) rating 76.37 #4
-  [LB] Max Arfsten (LMF) rating 71.11 #27
+  [LB] Sam Vines (LB) rating 70.58 #21
   [CB] Auston Trusty (CB) rating 74.47 #6
   [CB] Miles Robinson (CB) rating 74.51 #12
-  [RB] Reggie Cannon (RB) rating 70.96 #21
+  [RB] Joe Scally (RB) rating 73.75 #23
   [GK] Matt Turner (GK) rating 74.74 #1
 
 Wildcard:
