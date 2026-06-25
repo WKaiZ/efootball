@@ -1,4 +1,4 @@
-Jonathan David, CF, 95.35, True, Highlight, [CF, SS, AMF], [LWF, RWF, CMF, RMF]
+Jonathan David, CF, 97.91, True, Showtime, [CF, SS, AMF], [LWF, RWF, CMF, RMF]
 Tajon Buchanan, RMF, 92.07, True, Highlight, [LMF, RWF, RMF, RB], [LWF, LB]
 
 Cyle Larin, CF, 74.61, True, Standard, [LWF, CF], [SS, LMF, RWF, RMF]

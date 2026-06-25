@@ -1,6 +1,6 @@
 Starters:
   [CF] Ruud Gullit (CF) rating 101.42 #10
-  [LWF] Cody Gakpo (LWF) rating 94.99 #11
+  [LWF] Cody Gakpo (LWF) rating 97.71 #11
   [RWF] Dirk Kuyt (RWF) rating 95.92 #7
   [AMF] Johan Cruyff (AMF) rating 101.22 #14
   [CMF] Clarence Seedorf (CMF) rating 99.00 #20

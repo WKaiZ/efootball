@@ -1,4 +1,4 @@
-Ante Budimir, CF, 94.98, True, Highlight, [CF], [SS]
+Ante Budimir, CF, 93.98, True, Highlight, [CF], [SS]
 Andrej Kramaric, SS, 94.09, True, Highlight, [SS, CF, AMF], [LWF, RWF, CMF, RMF]
 Marco Pašalić, RWF, 94.24, True, Highlight, [RWF], [LWF, LMF, LB, RMF]
 Ivan Perišić, RWF, 93.94, True, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF, CMF]

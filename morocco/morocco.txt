@@ -5,7 +5,7 @@ Starters:
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
   [CMF] Neil El Aynaoui (DMF) rating 94.23 #24
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
-  [LB] Noussair Mazraoui (LB) rating 94.38 #3
+  [LB] Noussair Mazraoui (LB) rating 93.89 #3
   [CB] Nayef Aguerd (CB) rating 95.28 #5
   [CB] Adam Masina (CB) rating 94.55 #6
   [RB] Achraf Hakimi (RB) rating 97.94 #2

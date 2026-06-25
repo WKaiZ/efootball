@@ -3,7 +3,7 @@ Starters:
   [LWF] Breel Embolo (CF) rating 93.99 #7
   [RWF] Dan Ndoye (RWF) rating 94.18 #11
   [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
-  [CMF] Granit Xhaka (CMF) rating 95.40 #10
+  [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
   [LB] Ulisses Garcia (LB) rating 73.25 #14
   [CB] Manuel Akanji (CB) rating 95.17 #5
