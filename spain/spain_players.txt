@@ -96,7 +96,6 @@ David de Gea, GK, 93.04, False, Highlight, [GK], []
 
 Borja Iglesias, CF, 77.47, True, Standard, [CF], [SS, LMF]
 Yéremy Pino, SS, 77.89, True, Standard, [LWF, RWF, SS, AMF], [CF, LMF, RMF]
-Jesús Rodríguez, LWF, 71.63, False, Standard, [LWF, LMF, CMF], [AMF, DMF]
 Víctor Muñoz, LWF, 70.63, True, Standard, [LWF, CF, LMF, RWF, RMF], [SS, AMF]
 Adama Traoré, RWF, 74.91, False, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
 Suso, RWF, 74.25, False, Standard, [RWF, RMF, LWF, AMF, CMF, SS], [CF, LMF]

@@ -51,3 +51,4 @@ Bernardo Silva, AMF, 81.00, True, Standard, [CMF, RWF, AMF, RMF], [LWF, CF, SS, 
 Rúben Neves, DMF, 79.25, True, Standard, [CMF, DMF], [CB]
 Samú Costa, DMF, 76.14, True, Standard, [CMF, DMF], [AMF]
 Nélson Semedo, RB, 76.12, True, Standard, [RB, RMF], [LB, CB]
+José Sá, GK, 76.63, True, Standard, [GK], []

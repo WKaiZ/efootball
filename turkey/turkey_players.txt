@@ -14,7 +14,6 @@ Ferdi Kadıoğlu, LB, 93.90, True, Highlight, [LB, LMF, RB, RMF, LWF, RWF], []
 Zeki Çelik, RB, 94.17, True, Highlight, [RB, RMF], [LB, CB]
 
 Cenk Tosun, CF, 73.21, False, Standard, [CF, LWF], [RWF, SS]
-Kenan Yıldız, SS, 79.18, True, Standard, [SS, CF, AMF, LWF], [LMF, RWF, RMF]
 Kerem Aktürkoğlu, LWF, 77.21, True, Standard, [LWF, CF, SS, LMF], [AMF, RWF, RMF]
 İrfan Can Kahveci, RWF, 75.13, True, Standard, [RWF, RMF, AMF, CMF], [SS, LMF]
 Cengiz Ünder, RWF, 74.86, False, Standard, [RWF, RMF], [LWF, LMF, SS, AMF]
