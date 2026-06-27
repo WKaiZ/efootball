@@ -14,8 +14,8 @@ Starters:
 Substitutes:
   [CF] Paul Onuachu (CF) rating 96.37 #19
   [LWF] Moses Simon (LWF) rating 75.14 #15
-  [RWF] Emmanuel Dennis (CF) rating 73.30 #14
-  [AMF] Frank Onyeka (CMF) rating 73.40 #8
+  [RWF] Salim Fago Lawal (CF) rating 69.86 #25
+  [AMF] Usman Mohammed (AMF) rating 66.78 #14
   [CMF] Alhassan Yusuf (CMF) rating 73.69 #12
   [DMF] Wilfred Ndidi (DMF) rating 75.19 #4
   [LB] Zaidu Sanusi (LB) rating 71.34 #3
