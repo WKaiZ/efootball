@@ -21,7 +21,7 @@ Substitutes:
   [LB] Yuto Nagatomo (LB) rating 70.51 #5
   [CB] Shogo Taniguchi (CB) rating 94.56 #3
   [CB] Tsuyoshi Watanabe (CB) rating 94.56 #24
-  [RB] Hiroki Sekine (RB) rating 92.01 #2
+  [RB] Yukinari Sugawara (RB) rating 74.19 #2
   [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Wildcard:
