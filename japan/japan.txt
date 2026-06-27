@@ -14,9 +14,9 @@ Starters:
 Substitutes:
   [CF] Yoichiro Kakitani (CF) rating 93.97 #11
   [LMF] Keito Nakamura (LMF) rating 94.29 #13
-  [RMF] Yuito Suzuki (AMF) rating 94.23 #20
+  [RMF] Koki Yonekura (RMF) rating 66.16 #2
   [AMF] Shunsuke Nakamura (AMF) rating 96.64 #14
-  [CMF] Yosuke Ideguchi (CMF) rating 70.15 #2
+  [CMF] Gaku Shibasaki (CMF) rating 69.30 #20
   [DMF] Wataru Endo (DMF) rating 95.06 #6
   [LB] Yuto Nagatomo (LB) rating 70.51 #5
   [CB] Shogo Taniguchi (CB) rating 94.56 #3
