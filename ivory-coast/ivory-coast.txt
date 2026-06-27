@@ -1,6 +1,6 @@
 Starters:
-  [CF] Didier Drogba (CF) rating 99.38 #11
-  [LWF] Yan Diomande (LWF) rating 92.94 #26
+  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
+  [LWF] Yan Diomande (LWF) rating 92.94 #11
   [RWF] Nicolas Pépé (RWF) rating 94.36 #19
   [AMF] Amad Diallo (RMF) rating 95.12 #15
   [CMF] Ibrahim Sangaré (DMF) rating 94.00 #18
@@ -12,7 +12,7 @@ Starters:
   [GK] Alban Lafont (GK) rating 74.49 #23
 
 Substitutes:
-  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
+  [CF] Elye Wahi (CF) rating 75.27 #12
   [LWF] Simon Adingra (LWF) rating 77.13 #10
   [RWF] Evann Guessand (RWF) rating 75.41 #22
   [AMF] Hamed Traoré (AMF) rating 74.81 #25
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Yahia Fofana (GK) rating 74.47 #1
 
 Wildcard:
-  [WILD] Wilfried Zaha (LWF) rating 76.12 #12
+  [WILD] Ousmane Diomande (CB) rating 76.04 #2
