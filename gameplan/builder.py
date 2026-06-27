@@ -35,28 +35,37 @@ def build_gameplan(conn, roles_by_pos):
         all_roles.extend(lst)
 
     def best_starter_replacement(slot, used_ids, excluded_ids, subs=None):
-        stage_order = (
+        # Rule: first try promoting the best matching sub (MAIN position == slot,
+        # non-Standard before Standard).
+        if subs:
+            for want_standard in (False, True):
+                sub_candidates = [
+                    sp for sp in subs
+                    if sp is not None
+                    and sp.player_id not in excluded_ids
+                    and sp.position == slot
+                    and is_standard(sp) == want_standard
+                ]
+                if sub_candidates:
+                    return max(sub_candidates, key=lambda r: r.rating)
+        # Fallback: best unused candidate (non-Std main → non-Std proficient →
+        # Std main → Std proficient).
+        for pos_set_name, want_standard in (
             ("main", False),
             ("proficient", False),
             ("main", True),
             ("proficient", True),
-        )
-        for pos_set_name, want_standard in stage_order:
-            candidates = []
-            for r in all_roles:
-                if r.player_id in excluded_ids:
-                    continue
-                if r.player_id in used_ids and not (
-                    subs and any(sp and sp.player_id == r.player_id for sp in subs)
-                ):
-                    continue
-                if want_standard != is_standard(r):
-                    continue
-                if pos_set_name == "main" and slot != r.position:
-                    continue
-                if pos_set_name == "proficient" and slot not in r.proficient_positions:
-                    continue
-                candidates.append(r)
+        ):
+            candidates = [
+                r for r in all_roles
+                if r.player_id not in excluded_ids
+                and r.player_id not in used_ids
+                and is_standard(r) == want_standard
+                and (
+                    pos_set_name == "main" and r.position == slot
+                    or pos_set_name == "proficient" and slot in r.proficient_positions
+                )
+            ]
             if candidates:
                 return max(candidates, key=lambda r: r.rating)
         return None
@@ -301,43 +310,6 @@ def build_gameplan(conn, roles_by_pos):
                 return best_player, best_number
         return None, None
 
-    def upgrade_subs():
-        nonlocal used_ids, used_numbers, assignments
-        changed = True
-        while changed:
-            changed = False
-            dyn_reserved = lineup_soft_reserved()
-            for i, p in enumerate(subs):
-                if p is None:
-                    continue
-                slot = FORMATION[i]
-                candidates = [
-                    c
-                    for c in all_roles
-                    if c.player_id not in used_ids
-                    and c.position == slot
-                    and is_standard(c) == is_standard(p)
-                    and c.rating > p.rating
-                ]
-                candidates.sort(key=lambda r: r.rating, reverse=True)
-                for candidate in candidates:
-                    old_num = assignments.get(p.player_id)
-                    num = choose_jersey_for_player(
-                        conn, candidate, used_numbers, assignments, None, fallback_reserved=dyn_reserved
-                    )
-                    if num is None or num == old_num:
-                        continue
-                    assignments.pop(p.player_id, None)
-                    if old_num is not None:
-                        used_numbers.discard(old_num)
-                    used_ids.discard(p.player_id)
-                    subs[i] = candidate
-                    assignments[candidate.player_id] = num
-                    used_numbers.add(num)
-                    used_ids.add(candidate.player_id)
-                    changed = True
-                    break
-
     def try_swap_fill_sub_vacancies():
         nonlocal used_ids, used_numbers, assignments
         while True:
@@ -509,9 +481,7 @@ def build_gameplan(conn, roles_by_pos):
         )
         used_ids = {p.player_id for p in (starters + subs) if p is not None}
 
-    upgrade_subs()
     try_swap_fill_sub_vacancies()
-    upgrade_subs()
 
     for pos_set, want_std in (
         ("ss_proficient", False),
