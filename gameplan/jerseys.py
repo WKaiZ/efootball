@@ -219,16 +219,29 @@ def assign_group_jerseys(
 
 
 def assign_jerseys(conn, starters, subs):
-    # Rules: two starter groups — all non-Standard starters, then all Standard starters.
-    # (main vs proficient placement does not affect jersey group.)
-    starters_nonstd = [p for p in starters if p is not None and not is_standard(p)]
-    starters_std = [p for p in starters if p is not None and is_standard(p)]
+    # Starter groups: within each tier, main-position starters are assigned before
+    # proficient-position starters so that a proficient-slot player's recent=True
+    # lock cannot block a main-slot player's jersey.
+    starter_main_nonstd = []
+    starter_prof_nonstd = []
+    starter_main_std = []
+    starter_prof_std = []
+    for slot, p in zip(FORMATION, starters):
+        if p is None:
+            continue
+        if p.position == slot:
+            (starter_main_std if is_standard(p) else starter_main_nonstd).append(p)
+        else:
+            (starter_prof_std if is_standard(p) else starter_prof_nonstd).append(p)
 
     # Sub groups (order matches jersey assignment rules):
     #   1. non-Standard subs (normal — not SS-on-wing)
     #   2. non-Standard subs filling LWF/RWF whose MAIN position is SS
     #   3. Standard subs
     #   4. non-Standard subs filling LWF/RWF via SS in proficient positions (last)
+    #      — only players whose main position is NOT a direct winger qualify here;
+    #        a player whose main is LWF/RWF filling that slot is a direct winger,
+    #        not an SS-via-proficient player.
     sub_nonstd_normal = []
     sub_ss_main_nonstd = []
     sub_std = []
@@ -240,7 +253,7 @@ def assign_jerseys(conn, starters, subs):
             sub_std.append(p)
         elif slot in SUB_WING_SLOTS and p.position == "SS":
             sub_ss_main_nonstd.append(p)
-        elif slot in SUB_WING_SLOTS and "SS" in p.proficient_positions:
+        elif slot in SUB_WING_SLOTS and p.position not in SUB_WING_SLOTS and "SS" in p.proficient_positions:
             sub_ss_prof_nonstd.append(p)
         else:
             sub_nonstd_normal.append(p)
@@ -248,9 +261,13 @@ def assign_jerseys(conn, starters, subs):
     used_numbers = set()
     assignments = {}
 
-    assign_group_jerseys(conn, starters_nonstd, used_numbers, assignments,
+    assign_group_jerseys(conn, starter_main_nonstd, used_numbers, assignments,
                          allow_recent_lock=True, recent_lock_global=True)
-    assign_group_jerseys(conn, starters_std, used_numbers, assignments,
+    assign_group_jerseys(conn, starter_prof_nonstd, used_numbers, assignments,
+                         allow_recent_lock=True, recent_lock_global=True)
+    assign_group_jerseys(conn, starter_main_std, used_numbers, assignments,
+                         allow_recent_lock=True, recent_lock_global=True)
+    assign_group_jerseys(conn, starter_prof_std, used_numbers, assignments,
                          allow_recent_lock=True, recent_lock_global=True)
     _assign_substitute_group(conn, sub_nonstd_normal, used_numbers, assignments)
     _assign_substitute_group(conn, sub_ss_main_nonstd, used_numbers, assignments)

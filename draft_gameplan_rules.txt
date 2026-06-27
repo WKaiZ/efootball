@@ -44,8 +44,9 @@ Jersey number assignment (overall)
 - Assign jerseys after players are selected.
 - If a player cannot be assigned ANY available jersey number, that player is eliminated from the gameplan.
 - Jersey assignment order by group (each group runs the same internal recent-lock + card-tier logic):
-  - non-Standard starters, then Standard starters, then non-Standard substitutes (excluding SS-on-wing subs), then non-Standard substitutes slotted as `SS` (main position) on `LWF`/`RWF`, then Standard substitutes, then non-Standard substitutes slotted as `SS` via proficient positions on `LWF`/`RWF`.
+  - non-Standard starters in their MAIN position, then non-Standard starters via proficient positions, then Standard starters in their MAIN position, then Standard starters via proficient positions, then non-Standard substitutes (excluding SS-on-wing subs), then non-Standard substitutes slotted as `SS` (main position) on `LWF`/`RWF`, then Standard substitutes, then non-Standard substitutes slotted as `SS` via proficient positions on `LWF`/`RWF`.
   - All starters (non-Standard and Standard alike) are assigned jerseys before any substitutes.
+  - Within non-Standard starters, a proficient-position player's `recent=True` lock cannot override a main-position player's jersey — main-position starters are processed first as a separate group.
 - A substitute with recent=True cannot take a number already assigned to someone else; it does not override starters.
 
 Jersey number assignment priority & preferences
@@ -56,7 +57,7 @@ Jersey number assignment priority & preferences
    - Epic and BigTime share the highest tier in code (then Showtime, then Highlight, then Standard).
 
 Additional ordering notes
-- Within the non-Standard substitute jersey phase, a sub playing `SS` (main position) on a wing slot is assigned after other non-Standard subs but before Standard subs. A sub playing `SS` via proficient positions on a wing slot is assigned last, after Standard subs.
+- Within the non-Standard substitute jersey phase, a sub playing `SS` (main position) on a wing slot is assigned after other non-Standard subs but before Standard subs. A sub playing `SS` via proficient positions on a wing slot is assigned last, after Standard subs. A sub whose MAIN position is `LWF` or `RWF` filling that wing slot is treated as a direct winger (normal non-Standard sub group), not as an SS-via-proficient player, even if `SS` appears in their proficient positions.
 - Wildcard has the lowest priority overall (after starters + subs are resolved for the main 22).
 - Wildcard may be any remaining player; it is chosen only after starters + substitutes are finalized.
 
