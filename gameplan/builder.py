@@ -369,6 +369,8 @@ def build_gameplan(conn, roles_by_pos):
                                     break
                             if holder is None:
                                 continue
+                            if holder.recent:
+                                continue
                             if holder.rating > candidate.rating:
                                 continue
 

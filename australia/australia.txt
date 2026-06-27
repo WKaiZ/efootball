@@ -15,14 +15,15 @@ Substitutes:
   [CF] Adam Taggart (CF) rating 71.88 #15
   [LWF] Mathew Leckie (LWF) rating 72.19 #7
   [RWF] Nestory Irankunda (RWF) rating 71.06 #17
-  [AMF] Ajdin Hrustic (CMF) rating 70.72 #10
+  [AMF] Cristian Volpato (AMF) rating 70.36 #20
   [CMF] Patrick Yazbek (CMF) rating 73.15 #24
   [DMF] Keanu Baccus (DMF) rating 70.40 #26
   [LB] Aziz Behich (LB) rating 70.46 #16
   [CB] Cameron Burgess (CB) rating 72.83 #21
   [CB] Kye Rowles (CB) rating 72.39 #4
-  [RB] Lewis Miller (RB) rating 70.55 #20
+  [RB] VACANT
   [GK] Joe Gauci (GK) rating 71.98 #12
 
 Wildcard:
   [WILD] Awer Mabil (LWF) rating 71.42 #11
+  [WILD] Jason Cummings (CF) rating 71.34 #25
