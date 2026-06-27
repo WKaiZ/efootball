@@ -1,7 +1,7 @@
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
   [LMF] Jamal Musiala (LMF) rating 97.68 #10
-  [RWF] Leroy Sané (RWF) rating 95.20 #19
+  [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Uli Hoeneß (AMF) rating 98.18 #8
   [CMF] Lothar Matthäus (CMF) rating 99.60 #18
   [DMF] Felix Nmecha (DMF) rating 97.61 #23
