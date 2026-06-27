@@ -12,17 +12,22 @@ Starters:
   [GK] Fernando Muslera (GK) rating 77.67 #23
 
 Substitutes:
-  [CF] Christhian Stuani (CF) rating 74.54 #11
+  [CF] VACANT
   [LWF] Brian Rodríguez (LWF) rating 73.61 #18
   [RWF] Agustín Canobbio (RWF) rating 74.00 #14
-  [AMF] Rodrigo Zalazar (CMF) rating 75.54 #26
+  [AMF] VACANT
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
-  [DMF] Rodrigo Bentancur (DMF) rating 77.53 #6
+  [DMF] VACANT
   [LB] Mathías Olivera (LB) rating 94.22 #16
-  [CB] Santiago Bueno (CB) rating 74.38 #24
+  [CB] VACANT
   [CB] Sebastian Caceres (CB) rating 74.41 #3
-  [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
+  [RB] VACANT
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Wildcard:
   [WILD] Maximiliano Araujo (LMF) rating 93.96 #20
+  [WILD] Rodrigo Bentancur (DMF) rating 77.53 #6
+  [WILD] Rodrigo Zalazar (CMF) rating 75.54 #26
+  [WILD] Santiago Mele (GK) rating 74.55 #12
+  [WILD] Christhian Stuani (CF) rating 74.54 #11
+  [WILD] Santiago Bueno (CB) rating 74.38 #24

@@ -16,7 +16,7 @@ Substitutes:
   [LMF] Diogo Dalot (LMF) rating 94.24 #19
   [RWF] Francisco Trincão (RWF) rating 95.01 #16
   [AMF] Rui Costa (AMF) rating 98.11 #10
-  [CMF] Matheus Nunes (CMF) rating 93.18 #11
+  [CMF] VACANT
   [DMF] Rúben Neves (DMF) rating 79.25 #13
   [LB] Nuno Tavares (LB) rating 94.43 #2
   [CB] Tomás Araújo (CB) rating 95.54 #4
@@ -26,3 +26,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Rafael Leão (CF) rating 95.97 #17
+  [WILD] João Félix (LWF) rating 95.38 #11
