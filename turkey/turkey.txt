@@ -2,7 +2,7 @@ Starters:
   [CF] Enes Ünal (CF) rating 93.37 #9
   [LWF] Kenan Yıldız (LWF) rating 97.02 #11
   [RWF] İrfan Can Kahveci (RWF) rating 75.13 #17
-  [AMF] Arda Güler (AMF) rating 96.41 #8
+  [AMF] Arda Güler (AMF) rating 95.99 #8
   [CMF] Orkun Kökçü (CMF) rating 97.21 #6
   [DMF] Hakan Çalhanoğlu (DMF) rating 95.15 #10
   [LB] Ferdi Kadıoğlu (LB) rating 93.90 #20

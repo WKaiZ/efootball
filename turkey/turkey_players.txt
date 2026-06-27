@@ -1,7 +1,7 @@
 Enes Ünal, CF, 93.37, False, Highlight, [CF], [SS]
 Kenan Yıldız, LWF, 97.02, True, Highlight, [LWF, CF, SS, AMF], [LMF, RWF, RMF]
 Kenan Yıldız, AMF, 96.97, True, Highlight, [LWF, CF, SS, AMF], [LMF, RWF, RMF, CMF]
-Arda Güler, AMF, 96.41, True, Highlight, [AMF, CMF, RWF, RMF], [SS, DMF]
+Arda Güler, AMF, 95.99, True, Highlight, [AMF, CMF, RWF, RMF, SS], [DMF]
 Can Uzun, AMF, 93.39, True, Highlight, [SS, AMF], [CMF, LWF, RWF, CF]
 Arda Güler, LMF, 96.00, True, Highlight, [AMF, CMF, RWF, RMF, LMF], [SS, DMF, LWF]
 Kenan Yıldız, LMF, 94.30, True, Highlight, [LWF, CF, SS, AMF, LMF], [RWF, RMF]

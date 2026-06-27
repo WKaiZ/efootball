@@ -8,6 +8,7 @@ Ismaïla Sarr, AMF, 94.05, True, Highlight, [AMF, RWF, RMF], [CF, SS, LWF, LMF, 
 Ismaïla Sarr, RMF, 93.52, True, Highlight, [AMF, RWF, RMF], [CF, SS, LWF, LMF, CMF]
 Pape Matar Sarr, CMF, 95.30, True, Highlight, [CMF, AMF, DMF], []
 Lamine Camara, CMF, 94.07, True, Highlight, [CMF, AMF], [DMF]
+Pape Gueye, CMF, 93.99, True, Highlight, [DMF, CMF], [AMF]
 Idrissa Gueye, DMF, 94.29, True, Highlight, [DMF, CMF], [AMF]
 Pape Gueye, DMF, 94.22, True, Highlight, [DMF, CMF], []
 Cheikh Niasse, DMF, 93.17, False, Highlight, [DMF], [CMF, AMF, CB]

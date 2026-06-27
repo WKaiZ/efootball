@@ -14,7 +14,7 @@ Florian Thauvin, SS, 93.97, False, Highlight, [RWF, CF, SS, LWF, RMF], [AMF, LMF
 Franck Ribéry, LWF, 98.32, False, Epic, [LWF, SS, RWF, AMF, LMF], [CMF]
 Bradley Barcola, LWF, 95.72, True, Highlight, [LWF, CF, RWF], [SS, LMF, RMF]
 Michael Olise, RWF, 97.38, True, Highlight, [RWF, RMF, AMF], [SS, CMF]
-Ousmane Dembélé, RWF, 97.00, True, Highlight, [LWF, RWF, LMF, RMF, CF, SS, AMF], []
+Ousmane Dembélé, RWF, 96.99, True, Highlight, [LWF, RWF, LMF, RMF, CF], [SS, AMF]
 Désiré Doué, RWF, 95.62, True, Showtime, [RWF, AMF], [LWF, CF, SS, LMF, RMF, CMF]
 Florian Thauvin, RWF, 94.33, False, Highlight, [RWF, CF, SS, LWF, RMF], [AMF, LMF]
 Michel Platini, AMF, 99.09, False, Epic, [AMF, SS], [CMF]
