@@ -16,12 +16,12 @@ Substitutes:
   [LMF] Keito Nakamura (LMF) rating 94.29 #13
   [RMF] Yuito Suzuki (AMF) rating 94.23 #20
   [AMF] Shunsuke Nakamura (AMF) rating 96.64 #14
-  [CMF] Reo Hatate (CMF) rating 75.03 #22
+  [CMF] Yosuke Ideguchi (CMF) rating 70.15 #2
   [DMF] Wataru Endo (DMF) rating 95.06 #6
   [LB] Yuto Nagatomo (LB) rating 70.51 #5
   [CB] Shogo Taniguchi (CB) rating 94.56 #3
   [CB] Tsuyoshi Watanabe (CB) rating 94.56 #24
-  [RB] Yukinari Sugawara (RB) rating 74.19 #2
+  [RB] Takehiro Tomiyasu (RB) rating 75.26 #22
   [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Wildcard:
