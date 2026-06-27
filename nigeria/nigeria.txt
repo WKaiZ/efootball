@@ -26,3 +26,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Chidera Ejuke (LWF) rating 75.04 #24
+  [WILD] Akor Adams (CF) rating 73.45 #22

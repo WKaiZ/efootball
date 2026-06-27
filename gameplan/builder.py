@@ -564,20 +564,27 @@ def build_gameplan(conn, roles_by_pos):
         for r in lst:
             if r.player_id not in used_ids:
                 pool.append(r)
-    wildcard_asg = None
+
+    vacant_count = sum(1 for a in (starter_asg + sub_asg) if a is None)
+    max_wildcards = 1 + vacant_count
+
+    wildcard_asgs = []
+    wildcard_used_numbers = set(used_numbers)
     for candidate in sorted(pool, key=lambda r: r.rating, reverse=True):
+        if len(wildcard_asgs) >= max_wildcards:
+            break
         most_recent_wc, prefs = jersey_prefs_for_player(conn, candidate)
         num = None
 
-        if candidate.recent and most_recent_wc is not None and most_recent_wc not in used_numbers:
+        if candidate.recent and most_recent_wc is not None and most_recent_wc not in wildcard_used_numbers:
             num = most_recent_wc
         if num is None:
             for n in prefs:
-                if n not in used_numbers:
+                if n not in wildcard_used_numbers:
                     num = n
                     break
         if num is not None:
-            wildcard_asg = Assignment(slot="WILD", player=candidate, jersey=num)
-            break
+            wildcard_asgs.append(Assignment(slot="WILD", player=candidate, jersey=num))
+            wildcard_used_numbers.add(num)
 
-    return starter_asg, sub_asg, wildcard_asg
+    return starter_asg, sub_asg, wildcard_asgs

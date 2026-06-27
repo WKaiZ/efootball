@@ -22,7 +22,7 @@ def main():
             raise RuntimeError(
                 f"No game_data rows found for country '{country_name}'. Run fetch_game_data.py {country_name} first."
             )
-        starter_asg, sub_asg, wildcard_asg = build_gameplan(conn, roles_by_pos)
+        starter_asg, sub_asg, wildcard_asgs = build_gameplan(conn, roles_by_pos)
 
         lines = []
         lines.append("Starters:")
@@ -44,13 +44,13 @@ def main():
                     f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
                 )
 
-        if wildcard_asg is not None:
+        if wildcard_asgs:
             lines.append("")
             lines.append("Wildcard:")
-            a = wildcard_asg
-            lines.append(
-                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
-            )
+            for a in wildcard_asgs:
+                lines.append(
+                    f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
+                )
 
         text = "\n".join(lines) + "\n"
         print(text, end="")

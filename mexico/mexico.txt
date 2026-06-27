@@ -26,3 +26,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Héctor Herrera (CMF) rating 73.86 #16
+  [WILD] Julián Araujo (RB) rating 73.19 #23

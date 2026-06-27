@@ -26,3 +26,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Alessandro Schöpf (CMF) rating 71.99 #26
+  [WILD] Maximilian Ullmann (LB) rating 71.19 #2
