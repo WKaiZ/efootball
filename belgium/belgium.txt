@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Romelu Lukaku (CF) rating 94.94 #20
   [LWF] Malick Fofana (LWF) rating 95.26 #19
-  [RWF] Charles De Ketelaere (SS) rating 95.17 #22
+  [RWF] Cyril Ngonge (RWF) rating 74.90 #22
   [AMF] Kevin De Bruyne (AMF) rating 97.00 #14
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
