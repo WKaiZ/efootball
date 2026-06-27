@@ -15,7 +15,7 @@ Kalidou Koulibaly, CB, 95.47, True, Highlight, [CB], [RB]
 Moussa Niakhaté, CB, 93.28, True, Highlight, [CB], [LB]
 El Hadji Malick Diouf, LB, 94.22, True, Highlight, [LB, LMF], []
 Krépin Diatta, RB, 93.19, True, Highlight, [LWF, LMF, CF, RWF, RMF, RB], [SS]
-Edouard Mendy, GK, 95.14, True, Highlight, [GK], []
+Edouard Mendy, GK, 95.14, False, Highlight, [GK], []
 
 Bamba Dieng, CF, 72.53, True, Standard, [CF], [LWF, SS, LMF, RWF]
 Cherif Ndiaye, CF, 72.39, True, Standard, [CF], [LWF, LMF, SS]
