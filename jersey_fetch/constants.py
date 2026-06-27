@@ -158,6 +158,11 @@ PLAYER_NAME_ALIASES = {
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
     ],
+    "iran": [
+        ("Seyed Hossein Hosseini", "Hossein Hosseini"),
+        ("Seyed Mohammad Karimi", "Mohammad Karimi"),
+        ("Dennis Eckert Ayensa", "Dennis Dargahi"),
+    ],
 }
 
 POSITION_SEARCH_PHRASES = {

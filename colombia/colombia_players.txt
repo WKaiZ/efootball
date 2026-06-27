@@ -23,8 +23,6 @@ Jhon Arias, LMF, 77.20, True, Standard, [LMF, LWF, AMF, CMF], [SS, DMF, RWF, RMF
 Eduard Atuesta, CMF, 73.25, False, Standard, [CMF, DMF], [AMF]
 Diego Chará, CMF, 72.82, False, Standard, [CMF, DMF], [AMF, RMF]
 Richard Rios, CMF, 72.80, True, Standard, [CMF, DMF], [AMF]
-Rafael Carrascal, CMF, 71.90, False, Standard, [CMF, DMF, RMF], [AMF]
-Steven Alzate, CMF, 71.61, False, Standard, [CMF, DMF], [AMF]
 Gustavo Puerta, CMF, 69.57, True, Standard, [AMF, CMF], [SS, DMF]
 Jefferson Lerma, DMF, 75.99, True, Standard, [DMF, CMF], [CB]
 Juan Portilla, DMF, 74.30, True, Standard, [DMF, CMF], [AMF, LMF, LWF]
