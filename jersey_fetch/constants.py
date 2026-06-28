@@ -152,9 +152,13 @@ ESPN_LINEUP_MANUAL_ROLES = {
     "honest ahanor": frozenset({"M"}),
     "johan manzambi": frozenset({"F"}),
     "jordy alcivar": frozenset({"D"}),
+    "exequiel palacios": frozenset({"D"}),
 }
 
 PLAYER_NAME_ALIASES = {
+    "argentina": [
+        ("Flaco López", "José Manuel López"),
+    ],
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
     ],
