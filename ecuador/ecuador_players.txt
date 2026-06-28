@@ -1,6 +1,6 @@
 Pervis Estupiñán, LMF, 94.20, True, Highlight, [LMF, LB], [LWF]
 Nilson Angulo, LMF, 92.84, True, Highlight, [LMF, LWF, CF, SS, AMF], [CMF, RWF]
-Moisés Caicedo, DMF, 96.01, True, Highlight, [CMF, DMF], [RB]
+Moisés Caicedo, DMF, 97.32, True, Showtime, [CMF, DMF], [RB]
 Willian Pacho, CB, 95.99, True, Highlight, [CB], []
 Piero Hincapié, CB, 95.55, True, Highlight, [CB, LB], [LMF]
 Pervis Estupiñán, LB, 94.02, True, Highlight, [LB], [LMF]

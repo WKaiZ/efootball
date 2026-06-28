@@ -28,7 +28,7 @@ Pablo Fornals, AMF, 93.22, False, Highlight, [AMF, LWF, LMF], [SS, CMF, RWF, RMF
 Pedro, AMF, 92.95, False, Highlight, [AMF, LWF, RWF, SS, RMF], [CF, CMF]
 Sergio Gómez, AMF, 91.96, False, Highlight, [AMF, LWF, LMF, LB], [SS, CMF, RWF, RMF]
 Nico Williams, LMF, 96.40, True, Highlight, [LWF, RWF, LMF, RMF], []
-Álex Baena, LMF, 95.35, True, Highlight, [AMF, LMF, CMF, LWF], [CF, RWF, SS, DMF]
+Álex Baena, LMF, 95.99, True, Highlight, [AMF, LMF, CMF, LWF], [CF, RWF, SS, DMF, RMF]
 Sergio Gómez, LMF, 94.16, False, Highlight, [LMF, LB, LWF, AMF], [SS, CMF, RWF, RMF]
 Mikel Oyarzabal, LMF, 94.08, True, Highlight, [CF, LMF, SS, LWF, RWF, AMF], [CMF, RMF]
 Ferran Torres, LMF, 94.05, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]

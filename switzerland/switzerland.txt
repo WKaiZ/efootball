@@ -9,7 +9,7 @@ Starters:
   [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Ricardo Rodríguez (CB) rating 93.31 #13
   [RB] Lucas Blondel (RB) rating 73.95 #2
-  [GK] Gregor Kobel (GK) rating 96.39 #1
+  [GK] Yann Sommer (GK) rating 96.23 #1
 
 Substitutes:
   [CF] Zeki Amdouni (CF) rating 73.77 #25
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Becir Omeragic (CB) rating 73.44 #17
   [CB] Nico Elvedi (CB) rating 77.44 #4
   [RB] Jordan Lotomba (RB) rating 73.30 #26
-  [GK] Yann Sommer (GK) rating 96.23 #12
+  [GK] Gregor Kobel (GK) rating 95.39 #21
 
 Wildcard:
-  [WILD] Philipp Köhn (GK) rating 92.97 #21
+  [WILD] Philipp Köhn (GK) rating 92.97 #24

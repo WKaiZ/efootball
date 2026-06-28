@@ -5,6 +5,7 @@ Ivan Perišić, RWF, 93.94, True, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF,
 Nikola Vlašić, AMF, 94.99, True, Highlight, [AMF, SS, CMF, LMF, RMF], [RWF, LWF]
 Mario Pašalić, AMF, 94.26, True, Highlight, [AMF, CMF, DMF], [LWF, RWF, SS, LMF]
 Martin Baturina, AMF, 93.99, True, Highlight, [CMF, AMF, SS], [LMF, DMF, RMF]
+Petar Sučić, AMF, 93.99, True, Highlight, [AMF, CMF, DMF], [SS]
 Ivan Perisic, LMF, 93.42, True, Highlight, [LMF, LWF, SS, RWF, RMF], [CF, AMF, CMF]
 Ivan Perišić, RMF, 93.99, True, Highlight, [LWF, SS, LMF, RWF, RMF], [CF, AMF, CMF]
 Luka Modrić, CMF, 97.90, True, Showtime, [CMF, AMF], [DMF]

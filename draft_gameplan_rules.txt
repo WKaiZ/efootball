@@ -1,7 +1,10 @@
 Draft gameplan rules (reference)
 
 Goal
-- Build a 23-player gameplan: 11 starters + 11 substitutes + 1 wildcard.
+- Build a gameplan of 11 starters + 11 substitutes + wildcard(s).
+- Wildcard count is `1 + vacant_count`, where `vacant_count` is the number of starter/sub
+  slots left `VACANT` after selection/jersey assignment. With no vacancies this is exactly
+  1 wildcard; each unfillable slot allows one additional wildcard to compensate.
 - Output will mark any empty formation slot as `VACANT`.
 
 Formation (default)
@@ -69,11 +72,16 @@ Additional ordering notes
   - Within a jersey group, a lower-priority player will not take a number that is still another (same-group) player’s first choice when that tie-break applies.
 
 Wildcard rule
-- After all starter + substitute jersey numbers are assigned, select the wildcard:
-  - Pick the highest-rated player not already in the gameplan (still respecting unique player_id).
-- Then assign the wildcard a jersey number:
+- After all starter + substitute jersey numbers are assigned, select wildcard(s):
+  - Up to `1 + vacant_count` wildcards are added (see Goal). With no vacant slots this is a
+    single wildcard; each VACANT slot permits one extra wildcard.
+  - Repeatedly pick the highest-rated player not already in the gameplan (still respecting
+    unique player_id), assigning each a jersey number, until the wildcard cap is reached or
+    no further eligible player can be assigned a number.
+- Then assign each wildcard a jersey number:
   - Assign using the same jersey preference rules as their card type (must be a number they actually wore).
-  - If none of their worn numbers are available, try the next-highest-rated remaining player, and so on, until one works.
+  - If none of their worn numbers are available, skip that player and try the next-highest-rated
+    remaining player, and so on.
 
 Starter replacement rule (when jerseys fail)
 - If a selected starter cannot be assigned ANY available jersey number:

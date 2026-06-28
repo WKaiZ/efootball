@@ -4,7 +4,7 @@ Starters:
   [RWF] Gonzalo Plata (RWF) rating 75.15 #19
   [AMF] Kendry Páez (AMF) rating 73.02 #10
   [CMF] José Cifuentes (CMF) rating 74.71 #5
-  [DMF] Moisés Caicedo (DMF) rating 96.01 #23
+  [DMF] Moisés Caicedo (DMF) rating 97.32 #23
   [LB] Pervis Estupiñán (LB) rating 94.02 #7
   [CB] Willian Pacho (CB) rating 95.99 #6
   [CB] Piero Hincapié (CB) rating 95.55 #3

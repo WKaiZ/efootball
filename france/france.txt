@@ -9,7 +9,7 @@ Starters:
   [CB] Lilian Thuram (CB) rating 100.24 #15
   [CB] Marcel Desailly (CB) rating 99.57 #8
   [RB] Jules Koundé (RB) rating 96.79 #5
-  [GK] Mike Maignan (GK) rating 95.31 #16
+  [GK] Mike Maignan (GK) rating 95.44 #16
 
 Substitutes:
   [CF] Kylian Mbappé (CF) rating 99.29 #20
