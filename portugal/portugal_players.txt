@@ -1,5 +1,4 @@
 Cristiano Ronaldo, CF, 99.07, True, BigTime, [CF], [LWF, SS, RWF]
-Gonçalo Ramos, CF, 95.98, True, Highlight, [CF, SS], [AMF]
 Rafael Leão, CF, 95.97, True, Highlight, [LWF, LMF, CF], [SS, AMF, RWF]
 Rafael Leão, SS, 95.20, True, Highlight, [LWF, LMF, CF, SS], [AMF, RWF]
 Rafael Leão, LWF, 95.95, True, Highlight, [LWF, LMF, CF], [SS, AMF, RWF]
@@ -46,6 +45,7 @@ Matheus Nunes, RB, 94.00, True, Highlight, [LMF, CMF, RB], [DMF, AMF, RMF]
 Diogo Costa, GK, 95.05, True, Showtime, [GK], []
 Rui Silva, GK, 94.31, True, Highlight, [GK], []
 
+Gonçalo Ramos, CF, 79.21, True, Standard, [CF, SS], [AMF]
 Goncalo Guedes, LWF, 76.23, True, Standard, [LWF, CF, LMF, RWF, SS], [AMF, RMF]
 Bernardo Silva, AMF, 81.00, True, Standard, [CMF, RWF, AMF, RMF], [LWF, CF, SS, LMF, DMF]
 Rúben Neves, DMF, 79.25, True, Standard, [CMF, DMF], [CB]
