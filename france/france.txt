@@ -9,7 +9,7 @@ Starters:
   [CB] Lilian Thuram (CB) rating 100.24 #15
   [CB] Marcel Desailly (CB) rating 99.57 #8
   [RB] Jules Koundé (RB) rating 96.79 #5
-  [GK] Mike Maignan (GK) rating 95.44 #16
+  [GK] Hugo Lloris (GK) rating 98.08 #1
 
 Substitutes:
   [CF] Kylian Mbappé (CF) rating 99.29 #20
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Maxence Lacroix (CB) rating 95.54 #26
   [CB] William Saliba (CB) rating 96.99 #17
   [RB] Malo Gusto (RB) rating 93.42 #2
-  [GK] Brice Samba (GK) rating 94.95 #1
+  [GK] Mike Maignan (GK) rating 95.44 #16
 
 Wildcard:
   [WILD] Hugo Ekitiké (CF) rating 99.29 #9

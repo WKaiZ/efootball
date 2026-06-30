@@ -8,7 +8,7 @@ Starters:
   [LB] Arthur Theate (LB) rating 94.07 #3
   [CB] Vincent Kompany (CB) rating 99.12 #4
   [CB] Thomas Vermaelen (CB) rating 96.44 #17
-  [RB] Timothy Castagne (RB) rating 93.28 #21
+  [RB] Timothy Castagne (RB) rating 94.09 #21
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:

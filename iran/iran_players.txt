@@ -1,6 +1,6 @@
+Mehdi Taremi, CF, 91.38, True, Highlight, [CF, SS], [LWF, LMF, AMF, RMF]
 Alireza Beiranvand, GK, 92.40, True, Highlight, [GK], []
 
-Mehdi Taremi, CF, 77.41, True, Standard, [CF, SS], [LWF, LMF, AMF, RMF]
 Sardar Azmoun, CF, 74.66, False, Standard, [CF], [LWF, SS, RWF, AMF]
 Dennis Eckert Ayensa, CF, 71.64, True, Standard, [CF], [SS, LWF]
 Shahriar Moghanlou, CF, 69.71, True, Standard, [CF], [SS]

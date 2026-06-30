@@ -1,5 +1,5 @@
 Starters:
-  [CF] Mehdi Taremi (CF) rating 77.41 #9
+  [CF] Mehdi Taremi (CF) rating 91.38 #9
   [LWF] Mehdi Ghayedi (LWF) rating 72.15 #10
   [RWF] Ali Gholizadeh (RWF) rating 71.20 #11
   [AMF] Saman Ghoddos (AMF) rating 72.32 #14
