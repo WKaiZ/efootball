@@ -129,6 +129,9 @@ MANUAL_ID_OVERRIDES = {
     "canada": {
         "cristiam gutierrez": {"player_id": "385104", "preserve_name": True},
     },
+    "panama": {
+        "cristian martinez": {"player_id": "419247", "preserve_name": True},
+    },
 }
 
 EXCLUDE_FROM_ESPN_RECENT = frozenset(

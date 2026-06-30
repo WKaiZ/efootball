@@ -1,0 +1,28 @@
+Starters:
+  [CF] Cecilio Waterman (CF) rating 71.32 #18
+  [LWF] Ismael Díaz (LWF) rating 72.71 #10
+  [RWF] Yoel Bárcenas (RWF) rating 71.27 #11
+  [AMF] César Yanis (RWF) rating 70.56 #21
+  [CMF] Adalberto Carrasquilla (CMF) rating 73.35 #8
+  [DMF] Aníbal Godoy (DMF) rating 72.82 #20
+  [LB] Andrés Andrade (LB) rating 72.48 #16
+  [CB] Jiovany Ramos (CB) rating 70.46 #13
+  [CB] José Córdoba (CB) rating 70.15 #3
+  [RB] Amir Murillo (RB) rating 74.19 #23
+  [GK] Orlando Mosquera (GK) rating 69.85 #22
+
+Substitutes:
+  [CF] Azarías Londoño (CF) rating 70.93 #24
+  [LWF] José Luis Rodríguez (LWF) rating 72.28 #7
+  [RWF] Alberto Quintero (RWF) rating 70.15 #19
+  [AMF] Edward Cedeño (CMF) rating 65.86 #25
+  [CMF] Cristian Martínez (CMF) rating 67.57 #6
+  [DMF] Carlos Harvey (DMF) rating 70.71 #14
+  [LB] Omar Valencia (LB) rating 71.43 #9
+  [CB] Fidel Escobar (CB) rating 69.49 #4
+  [CB] Edgardo Fariña (CB) rating 68.47 #5
+  [RB] César Blackman (RB) rating 68.62 #2
+  [GK] Luis Mejía (GK) rating 69.41 #1
+
+Wildcard:
+  [WILD] Tomás Rodríguez (CF) rating 70.03 #15

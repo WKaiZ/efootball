@@ -115,6 +115,9 @@ MANUAL_ID_OVERRIDES = {
     "canada": {
         "cristiam gutierrez": "385104",
     },
+    "panama": {
+        "cristian martinez": "419247",
+    },
 }
 
 
