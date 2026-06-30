@@ -1,0 +1,25 @@
+Starters:
+  [CF] Fedor Chalov (SS) rating 73.71 #9
+  [LWF] Arsen Zakharyan (AMF) rating 73.09 #10
+  [RWF] Aleksey Miranchuk (AMF) rating 75.20 #59
+  [AMF] Aleksandr Golovin (AMF) rating 76.72 #17
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Georgiy Dzhikiya (CB) rating 74.38 #14
+  [CB] Roman Neustädter (CB) rating 71.63 #3
+  [RB] VACANT
+  [GK] Matvey Safonov (GK) rating 77.92 #39
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Denis Makarov (RMF) rating 72.26 #25
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

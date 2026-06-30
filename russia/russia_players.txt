@@ -1,0 +1,8 @@
+Fedor Chalov, SS, 73.71, False, Standard, [SS, CF], [LWF, RWF, LMF, AMF]
+Aleksandr Golovin, AMF, 76.72, False, Standard, [LWF, LMF, AMF], [CF, SS, DMF, RWF, RMF]
+Aleksey Miranchuk, AMF, 75.20, True, Standard, [AMF, SS, RWF], [LWF, LMF, RMF, CF, CMF]
+Arsen Zakharyan, AMF, 73.09, False, Standard, [AMF, CMF, LWF, RWF, LMF, RMF], [SS, DMF]
+Denis Makarov, RMF, 72.26, False, Standard, [RWF, RMF, AMF], [SS, CMF, LMF]
+Georgiy Dzhikiya, CB, 74.38, False, Standard, [CB], [LB]
+Roman Neustädter, CB, 71.63, False, Standard, [CB, DMF, CMF], [AMF]
+Matvey Safonov, GK, 77.92, False, Standard, [GK], []
