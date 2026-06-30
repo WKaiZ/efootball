@@ -73,13 +73,13 @@ The convenience wrapper:
 ./run_workflow.sh france                    # run for one country
 ./run_workflow.sh belgium france germany    # run for several countries
 ./run_workflow.sh --refetch france          # force-refresh ESPN + Transfermarkt cache for france
-./run_workflow.sh --lineup-only france      # only refresh ESPN "recent" flags; skip Transfermarkt
+./run_workflow.sh --lineup-only france      # refresh ESPN "recent" flags + seed latest squad numbers; skip Transfermarkt
 ```
 
 Flags:
 
 - `--refetch` (aliases: `--refresh`, `--no-cache`) — ignore cached jersey rows for this country and re-scrape Transfermarkt; also re-pulls ESPN.
-- `--lineup-only` (alias: `--espn-lineup`) — only update the `recent` flags in `<country>_players.txt` from the latest ESPN match. Skips all Transfermarkt traffic.
+- `--lineup-only` (alias: `--espn-lineup`) — update the `recent` flags in `<country>_players.txt` from the latest ESPN match, and prepend each matched player's latest squad number at row 0 of the jersey DB (so the builder locks their current number). Skips all Transfermarkt traffic — only players whose Transfermarkt ID is already cached get their numbers seeded (run `--refetch` once first for new players).
 - `--game-index <N>` — use the Nth most recent completed match instead of the latest (1 = latest, 2 = second latest, …). Useful when the most recent match has no public jersey numbers. Cannot be combined with `--gameid`.
 
 `--refetch` and `--lineup-only` are mutually exclusive.

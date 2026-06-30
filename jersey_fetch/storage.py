@@ -154,6 +154,18 @@ def store_jersey_entries(conn, player_id, official_name, entries, cache_country_
     return (nums, by_number)
 
 
+def load_jersey_entries_for_player(conn, player_id):
+    cur = conn.cursor()
+    cur.execute(
+        "SELECT season, country, number FROM jersey WHERE player_id = ? ORDER BY idx ASC",
+        (str(player_id),),
+    )
+    return [
+        {"season": season, "country": country, "number": int(number)}
+        for season, country, number in cur.fetchall()
+    ]
+
+
 def load_cached_numbers_from_db(conn, player_id, country_filter=None, display_name=None):
     cur = conn.cursor()
     cur.execute("SELECT name FROM players WHERE player_id = ?", (str(player_id),))

@@ -24,6 +24,7 @@ from jersey_fetch.storage import (
     get_official_name,
     init_db,
     load_cached_numbers_from_db,
+    load_jersey_entries_for_player,
     load_player_id_map,
     merge_jersey_entries,
     store_jersey_entries,
@@ -111,6 +112,41 @@ async def fetch_numbers_for_player(
         print(f"{name} {player_id} national jersey numbers: NONE FOUND")
     return (nums, False)
 
+def seed_recent_numbers_into_db(conn, country_name, country_label, players, player_positions, recent_numbers):
+    """Prepend each player's latest ESPN squad number at row 0 of the jersey DB.
+
+    Mirrors what --refetch does via merge_jersey_entries, but without any
+    Transfermarkt traffic: only players whose Transfermarkt ID is already cached
+    (or has a manual override) are updated. The seeded entry carries the ESPN
+    season, so re-running --lineup-only is idempotent for the same number/season.
+    """
+    if not recent_numbers:
+        return
+    id_map = load_player_id_map(conn)
+    updated = 0
+    for name in players:
+        key = normalize_name(name)
+        seed_entry = recent_numbers.get(key)
+        if not seed_entry:
+            continue
+        player_position = player_positions.get(key)
+        override = get_manual_override(country_name, name, position=player_position)
+        pid_str = override["player_id"] if override else id_map.get(key)
+        if not pid_str:
+            print(f"  Skipping DB number seed for {name}: no cached Transfermarkt ID (run --refetch first).")
+            continue
+        existing = load_jersey_entries_for_player(conn, pid_str)
+        merged = merge_jersey_entries(seed_entry, existing)
+        if len(merged) == len(existing):
+            continue
+        official = get_official_name(conn, pid_str) or name
+        store_jersey_entries(conn, pid_str, official, merged)
+        print(f"  Seeded latest squad #{seed_entry['number']} at row 0 for {official} ({pid_str}).")
+        updated += 1
+    if updated:
+        print(f"Seeded latest squad numbers into DB for {updated} player(s).")
+
+
 async def main():
     country_folder, force_refetch, game_id, game_index, lineup_only = parse_args(sys.argv)
     players_file = resolve_players_file(country_folder)
@@ -154,6 +190,13 @@ async def main():
                 print(f"Updated recent flags in {players_file} from ESPN latest match.")
     if lineup_only:
         print("Skipping Transfermarkt jersey fetch (--lineup-only).")
+        conn = init_db()
+        try:
+            seed_recent_numbers_into_db(
+                conn, country_name, country_label, players, player_positions, recent_numbers
+            )
+        finally:
+            conn.close()
         return
     conn = init_db()
     async with async_playwright() as p:

@@ -1,0 +1,29 @@
+Starters:
+  [CF] Andriy Shevchenko (CF) rating 95.67 #7
+  [LWF] Mykhaylo Mudryk (LWF) rating 74.89 #20
+  [RWF] Viktor Tsygankov (RWF) rating 75.68 #15
+  [AMF] Yegor Yarmolyuk (AMF) rating 93.26 #18
+  [CMF] Oleksandr Zinchenko (CMF) rating 73.22 #17
+  [DMF] Sergiy Sydorchuk (DMF) rating 75.08 #5
+  [LB] Vitaliy Mykolenko (LB) rating 93.23 #16
+  [CB] Ilya Zabarnyi (CB) rating 94.98 #13
+  [CB] Mykola Matvienko (CB) rating 75.38 #22
+  [RB] Yukhym Konoplya (RB) rating 73.20 #2
+  [GK] Andriy Lunin (GK) rating 91.28 #1
+
+Substitutes:
+  [CF] Artem Dovbyk (CF) rating 95.15 #11
+  [LWF] Danylo Sikan (CF) rating 70.91 #9
+  [RWF] VACANT
+  [AMF] Ruslan Malinovskyi (AMF) rating 77.06 #8
+  [CMF] Georgiy Sudakov (AMF) rating 76.49 #14
+  [DMF] Ivan Kalyuzhnyi (DMF) rating 67.61 #21
+  [LB] Bogdan Mykhaylichenko (LB) rating 73.04 #3
+  [CB] Oleksandr Svatok (CB) rating 73.00 #4
+  [CB] Valeriy Bondar (CB) rating 71.57 #24
+  [RB] Oleksandr Tymchyk (RB) rating 72.05 #19
+  [GK] Anatoliy Trubin (GK) rating 78.66 #12
+
+Wildcard:
+  [WILD] Dmytro Riznyk (GK) rating 73.39 #23
+  [WILD] Yevgen Cheberko (CB) rating 71.11 #6
