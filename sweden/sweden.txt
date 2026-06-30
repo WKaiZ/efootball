@@ -1,0 +1,25 @@
+Starters:
+  [CF] Zlatan Ibrahimović (CF) rating 100.30 #10
+  [LWF] Williot Swedberg (LWF) rating 94.20 #6
+  [RWF] Dejan Kulusevski (RWF) rating 96.43 #21
+  [AMF] Lucas Bergvall (CMF) rating 93.99 #7
+  [CMF] Hugo Larsson (CMF) rating 95.31 #20
+  [DMF] Jesper Karlström (DMF) rating 93.15 #16
+  [LB] Daniel Svensson (LB) rating 94.12 #8
+  [CB] Isak Hien (CB) rating 93.44 #4
+  [CB] Victor Lindelöf (CB) rating 91.56 #3
+  [RB] VACANT
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LWF] Sebastian Nanasi (LMF) rating 93.10 #22
+  [RWF] Anthony Elanga (RWF) rating 93.93 #11
+  [AMF] Roony Bardghji (RMF) rating 92.90 #14
+  [CMF] Yasin Ayari (CMF) rating 93.83 #18
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
