@@ -1,13 +1,13 @@
 Starters:
-  [CF] Robert Lewandowski (CF) rating 95.23 #9
+  [CF] Robert Lewandowski (CF) rating 82.31 #9
   [LWF] Nicola Zalewski (LMF) rating 94.88 #21
   [RWF] Przemyslaw Frankowski (RMF) rating 93.22 #19
   [AMF] Sebastian Szymanski (AMF) rating 93.35 #20
   [CMF] Piotr Zielinski (CMF) rating 94.98 #10
   [DMF] Bartosz Slisz (DMF) rating 73.02 #6
   [LB] VACANT
-  [CB] Jan Bednarek (CB) rating 75.74 #5
   [CB] Jakub Kiwior (CB) rating 78.99 #14
+  [CB] Jan Bednarek (CB) rating 75.74 #5
   [RB] Matty Cash (RB) rating 93.99 #2
   [GK] Wojciech Szczesny (GK) rating 94.45 #1
 

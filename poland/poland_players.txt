@@ -1,4 +1,3 @@
-Robert Lewandowski, CF, 95.23, True, Showtime, [CF], [SS]
 Sebastian Szymanski, AMF, 93.35, True, Highlight, [AMF, CMF], [LWF, RWF, SS, LMF, RMF, DMF]
 Nicola Zalewski, LMF, 94.88, True, Highlight, [LWF, LMF, AMF], [SS, CMF, RMF, LB]
 Przemyslaw Frankowski, RMF, 93.22, False, Highlight, [RMF, RWF, RB, LMF], [LWF, LB, AMF]
@@ -6,6 +5,7 @@ Piotr Zielinski, CMF, 94.98, True, Highlight, [CMF, AMF, LMF, RMF], [LWF, RWF, S
 Matty Cash, RB, 93.99, False, Highlight, [RB, RMF], []
 Wojciech Szczesny, GK, 94.45, False, Highlight, [GK], []
 
+Robert Lewandowski, CF, 82.31, True, Standard, [CF], [SS]
 Arkadiusz Milik, CF, 76.56, False, Standard, [CF, SS], []
 Krzysztof Piatek, CF, 75.31, False, Standard, [CF], [SS]
 Adam Buksa, CF, 74.37, False, Standard, [CF], [LWF, RWF, SS]
