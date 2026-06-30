@@ -1,0 +1,25 @@
+Starters:
+  [CF] Jan Koller (CF) rating 97.42 #9
+  [LMF] Pavel Nedved (LMF) rating 99.94 #4
+  [RWF] VACANT
+  [AMF] Adam Karabec (AMF) rating 93.01 #7
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Vladimír Coufal (RB) rating 92.96 #5
+  [GK] Petr Cech (GK) rating 99.70 #1
+
+Substitutes:
+  [CF] Patrik Schick (CF) rating 94.47 #10
+  [LMF] VACANT
+  [RWF] VACANT
+  [AMF] Adam Hlozek (CF) rating 94.07 #19
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
