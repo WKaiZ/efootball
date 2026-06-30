@@ -1,0 +1,29 @@
+Starters:
+  [CF] Ferenc Puskás (CF) rating 97.11 #14
+  [LWF] Dániel Sallói (LWF) rating 73.83 #7
+  [RWF] Roland Sallai (RMF) rating 74.97 #20
+  [AMF] Dominik Szoboszlai (AMF) rating 96.98 #10
+  [CMF] Alex Tóth (CMF) rating 73.52 #21
+  [DMF] Ádám Nagy (DMF) rating 71.29 #8
+  [LB] Milos Kerkez (LB) rating 95.44 #11
+  [CB] Willi Orbán (CB) rating 95.32 #6
+  [CB] Attila Szalai (CB) rating 71.77 #4
+  [RB] Bendegúz Bolla (RB) rating 72.44 #26
+  [GK] Dénes Dibusz (GK) rating 74.39 #1
+
+Substitutes:
+  [CF] Barnabás Varga (CF) rating 71.70 #19
+  [LWF] Kevin Csoboth (LWF) rating 69.22 #23
+  [RWF] Zsombor Gruber (CF) rating 69.47 #9
+  [AMF] Dániel Gazdag (AMF) rating 76.02 #16
+  [CMF] András Schäfer (CMF) rating 72.34 #13
+  [DMF] VACANT
+  [LB] Callum Styles (LB) rating 71.29 #17
+  [CB] Botond Balogh (CB) rating 70.58 #3
+  [CB] Márton Dárdai (CB) rating 69.45 #15
+  [RB] Attila Osváth (RB) rating 69.72 #2
+  [GK] Balázs Tóth (GK) rating 70.50 #5
+
+Wildcard:
+  [WILD] Bence Dárdai (AMF) rating 71.26 #18
+  [WILD] Áron Yaakobishvili (GK) rating 70.24 #12
