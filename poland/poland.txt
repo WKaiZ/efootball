@@ -1,0 +1,30 @@
+Starters:
+  [CF] Robert Lewandowski (CF) rating 95.23 #9
+  [LWF] Nicola Zalewski (LMF) rating 94.88 #21
+  [RWF] Przemyslaw Frankowski (RMF) rating 93.22 #19
+  [AMF] Sebastian Szymanski (AMF) rating 93.35 #20
+  [CMF] Piotr Zielinski (CMF) rating 94.98 #10
+  [DMF] Bartosz Slisz (DMF) rating 73.02 #6
+  [LB] VACANT
+  [CB] Jan Bednarek (CB) rating 75.74 #5
+  [CB] Jakub Kiwior (CB) rating 78.99 #14
+  [RB] Matty Cash (RB) rating 93.99 #2
+  [GK] Wojciech Szczesny (GK) rating 94.45 #1
+
+Substitutes:
+  [CF] Arkadiusz Milik (CF) rating 76.56 #17
+  [LWF] Jakub Kaminski (LWF) rating 73.68 #7
+  [RWF] Michal Skoras (LWF) rating 73.17 #25
+  [AMF] Mateusz Bogusz (AMF) rating 73.97 #16
+  [CMF] Jakub Moder (CMF) rating 73.38 #8
+  [DMF] Mateusz Legowski (DMF) rating 71.81 #13
+  [LB] VACANT
+  [CB] Tomasz Kedziora (CB) rating 74.33 #4
+  [CB] Michal Helik (CB) rating 73.71 #3
+  [RB] Bartosz Bereszyński (RB) rating 71.72 #18
+  [GK] Kamil Grabara (GK) rating 77.51 #12
+
+Wildcard:
+  [WILD] Bartłomiej Drągowski (GK) rating 75.46 #22
+  [WILD] Krzysztof Piatek (CF) rating 75.31 #23
+  [WILD] Adam Buksa (CF) rating 74.37 #15
