@@ -4,6 +4,8 @@ import sqlite3
 import sys
 import unicodedata
 
+from country_locator import resolve_country_dir
+
 DB_PATH = "pes.db"
 
 MANUAL_ID_OVERRIDES = {
@@ -289,7 +291,7 @@ def parse_line(line, line_no):
 
 
 def resolve_players_file(country_folder):
-    folder = country_folder.strip()
+    folder = resolve_country_dir(country_folder)
     country_name = os.path.basename(os.path.normpath(folder))
     return os.path.join(folder, f"{country_name}_players.txt")
 

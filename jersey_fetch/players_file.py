@@ -1,6 +1,7 @@
 import os
 import re
 
+from country_locator import resolve_country_dir
 from jersey_fetch.constants import POSITION_SEARCH_PHRASES
 from jersey_fetch.names import normalize_name
 
@@ -108,7 +109,7 @@ def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
     return (out, changed)
 
 def resolve_players_file(country_folder):
-    folder = country_folder.strip()
+    folder = resolve_country_dir(country_folder)
     country_name = os.path.basename(os.path.normpath(folder))
     return os.path.join(folder, f"{country_name}_players.txt")
 

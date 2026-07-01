@@ -77,7 +77,7 @@ def sort_file(path):
 
 def main():
     repo_root = os.path.dirname(os.path.abspath(__file__))
-    files = sorted(glob.glob(os.path.join(repo_root, "*", "*_players.txt")))
+    files = sorted(glob.glob(os.path.join(repo_root, "**", "*_players.txt"), recursive=True))
     if not files:
         print("No *_players.txt files found.")
         return

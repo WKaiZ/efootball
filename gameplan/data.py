@@ -1,5 +1,6 @@
 import os
 
+from country_locator import resolve_country_dir
 from gameplan.formation import DEFAULT_FORMATION
 from gameplan.models import PlayerRole
 
@@ -62,7 +63,7 @@ def load_formation(formation_file):
 
 
 def resolve_country_paths(country_folder):
-    folder = country_folder.strip()
+    folder = resolve_country_dir(country_folder)
     country_name = os.path.basename(os.path.normpath(folder))
     formation_file = os.path.join(folder, f"{country_name}_formation.txt")
     output_file = os.path.join(folder, f"{country_name}.txt")

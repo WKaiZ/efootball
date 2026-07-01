@@ -51,7 +51,9 @@ fi
 
 if [ "${#countries[@]}" -eq 0 ]; then
   countries=()
-  for formation_file in "$ROOT_DIR"/*/*_formation.txt; do
+  # Nation folders may sit directly under the repo root or one level down inside
+  # a group folder (e.g. contenders/france, challengers/wales). Match both.
+  for formation_file in "$ROOT_DIR"/*/*_formation.txt "$ROOT_DIR"/*/*/*_formation.txt; do
     if [ ! -f "$formation_file" ]; then
       continue
     fi

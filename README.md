@@ -2,7 +2,7 @@
 
 Tooling for drafting an eFootball "gameplan" (11 starters + 11 substitutes + 1 wildcard) for a national team. The pipeline scrapes shirt-number history from Transfermarkt, pulls the most recent ESPN match lineup to flag who is currently in the squad, then runs a deterministic builder that picks players for each formation slot and assigns each picked player a real jersey number they have actually worn.
 
-All persistent state lives in the SQLite file `pes.db` at the repo root. Each national team lives in its own folder (e.g. `belgium/`, `france/`, `argentina/`).
+All persistent state lives in the SQLite file `pes.db` at the repo root. Each national team lives in its own folder, grouped by FIFA ranking into two directories: `contenders/` (the top 20 nations from the last official FIFA ranking, e.g. `contenders/france/`, `contenders/argentina/`) and `challengers/` (the other 20, e.g. `challengers/wales/`). You still refer to a team by its bare name everywhere — `france`, not `contenders/france` — the scripts locate the folder for you (see `country_locator.py`).
 
 ---
 
@@ -32,7 +32,7 @@ python -m playwright install chromium
 
 ## 2. Per-country inputs
 
-For each national team you want to draft, create a folder named after the country (e.g. `belgium/`) containing:
+For each national team you want to draft, create a folder named after the country inside the appropriate group directory — `contenders/<country>/` for a current FIFA top-20 side, `challengers/<country>/` otherwise (e.g. `contenders/belgium/`) — containing:
 
 ### `<country>_players.txt` (required)
 
@@ -124,7 +124,8 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Cleans `__pycache__`, parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers countries by looking for any `*/_formation.txt` when no country is passed.
+- `run_workflow.sh` — Bash entry point. Cleans `__pycache__`, parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers countries by looking for any `*_formation.txt` one or two levels down (so it finds both `contenders/*/` and `challengers/*/`) when no country is passed.
+- `country_locator.py` — Shared `resolve_country_dir` helper. Maps a bare country name (or group-qualified path) to its folder under `contenders/` or `challengers/`, so every stage keeps accepting bare names after the ranking-based reorg.
 - `fetch_number.py` / `fetch_numbers.py` — Thin wrappers that `asyncio.run(jersey_fetch.run.main())`.
 - `fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
 - `draft_gameplan.py` — Loads the formation, loads `game_data` rows for the country, calls `gameplan.builder.build_gameplan`, and writes the human-readable gameplan to both stdout and `<country>/<country>.txt`.
@@ -132,7 +133,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `requirements.txt` — Python dependencies.
 - `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
 - `.gitignore` — Ignores `__pycache__/`.
-- `<country>/` folders — Per-country inputs and the generated gameplan output.
+- `contenders/<country>/` and `challengers/<country>/` folders — Per-country inputs and the generated gameplan output, grouped by FIFA ranking (top 20 vs. the other 20).
 
 ### `jersey_fetch/` — ESPN + Transfermarkt scraping
 
@@ -164,7 +165,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ## 7. Typical recipes
 
-- **First-time draft for a new country**: create `<country>/<country>_players.txt` (and optionally `<country>_formation.txt`), then `./run_workflow.sh <country>`. The first run is slow because it has to scrape Transfermarkt for every player.
+- **First-time draft for a new country**: create `contenders/<country>/<country>_players.txt` (or `challengers/<country>/…` if outside the FIFA top 20), optionally with `<country>_formation.txt`, then `./run_workflow.sh <country>`. The first run is slow because it has to scrape Transfermarkt for every player.
 - **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
 - **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --refetch <country>`.
 - **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.
