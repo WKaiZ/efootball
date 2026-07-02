@@ -47,7 +47,6 @@ Pablo Fornals, CMF, 94.91, False, Highlight, [AMF, LWF, LMF, CMF], [SS, RWF, RMF
 Pablo Barrios, CMF, 94.89, False, Highlight, [CMF], [RWF, AMF, DMF]
 Fabián Ruiz, CMF, 94.71, True, Highlight, [CMF, AMF, DMF], [LMF, RMF]
 Gavi, CMF, 94.42, True, Highlight, [LWF, AMF, CMF], [SS, RWF, LMF, RMF, DMF]
-Brais Méndez, CMF, 94.20, False, Highlight, [CMF, AMF, RWF, RMF], [LWF, LMF, CF, SS, DMF]
 Dani Ceballos, CMF, 93.21, False, Highlight, [CMF, AMF], [LMF, DMF]
 Fermín López, CMF, 92.03, False, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
 Rodri, DMF, 99.15, True, Showtime, [DMF, CMF], [CB]
