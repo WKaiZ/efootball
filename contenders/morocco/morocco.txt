@@ -3,21 +3,21 @@ Starters:
   [LWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [RWF] Amine Adli (AMF) rating 94.14 #21
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
-  [CMF] Neil El Aynaoui (DMF) rating 94.23 #24
+  [CMF] Ayyoub Bouaddi (CMF) rating 93.33 #6
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
   [CB] Nayef Aguerd (CB) rating 95.28 #5
-  [CB] Adam Masina (CB) rating 94.55 #6
+  [CB] Adam Masina (CB) rating 94.55 #25
   [RB] Achraf Hakimi (RB) rating 97.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
 Substitutes:
-  [CF] Ismael Saibari (CF) rating 94.00 #11
+  [CF] Youssef En-Nesyri (CF) rating 77.34 #19
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
   [RWF] Zakaria Aboukhlal (RWF) rating 74.22 #17
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
-  [DMF] Youssef Aït Bennasser (DMF) rating 70.39 #19
+  [DMF] Neil El Aynaoui (DMF) rating 94.23 #24
   [LB] Souffian El Karouani (LB) rating 73.33 #9
   [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 93.98 #14

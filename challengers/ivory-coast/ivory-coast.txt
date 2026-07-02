@@ -2,7 +2,7 @@ Starters:
   [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
   [LWF] Yan Diomande (LWF) rating 92.94 #11
   [RWF] Nicolas Pépé (RWF) rating 94.36 #19
-  [AMF] Amad Diallo (RMF) rating 95.12 #15
+  [AMF] Amad Diallo (AMF) rating 93.78 #15
   [CMF] Ibrahim Sangaré (DMF) rating 94.00 #18
   [DMF] Yaya Touré (DMF) rating 97.66 #6
   [LB] Hassane Kamara (LB) rating 74.14 #3

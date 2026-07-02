@@ -25,7 +25,6 @@ Lorenzo Pellegrini, AMF, 93.99, False, Highlight, [AMF, CMF], [SS, LWF, LMF, DMF
 Federico Dimarco, LMF, 98.01, False, BigTime, [LB, LMF], [LWF, CB]
 Andrea Cambiaso, LMF, 94.42, False, Highlight, [LB, LMF, RB, RMF], [LWF]
 Riccardo Orsolini, RMF, 95.01, False, Highlight, [RMF, RWF, LWF, SS], [CF, AMF, LMF]
-Marco Palestra, RMF, 94.01, False, Highlight, [RMF, RB], [RWF, LMF, LB]
 Davide Zappacosta, RMF, 93.99, False, Highlight, [RMF, RB, LMF], [RWF, LB]
 Roberto Donadoni, CMF, 97.54, False, Epic, [LMF, LWF, RWF, RMF, CMF, AMF], [SS, DMF]
 Nicolò Barella, CMF, 96.03, False, Highlight, [CMF, AMF, DMF], [LMF, RMF]

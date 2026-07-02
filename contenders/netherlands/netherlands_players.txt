@@ -22,6 +22,7 @@ Justin Kluivert, AMF, 94.92, True, Highlight, [AMF, LWF, LMF, RWF, RMF], [SS, CF
 Memphis Depay, AMF, 94.47, True, Highlight, [AMF, CF, SS, LWF, LMF], [RWF, RMF, CMF]
 Guus Til, AMF, 94.35, True, Highlight, [AMF, CMF], [SS, DMF, RMF]
 Teun Koopmeiners, AMF, 94.35, True, Highlight, [AMF, CMF, DMF], [SS, LWF, RWF, RMF, CB]
+Crysencio Summerville, AMF, 93.74, True, Highlight, [LWF, LMF, RWF, RMF, AMF], [CMF]
 Sem Steijn, AMF, 93.00, False, Highlight, [AMF, CMF], [SS, DMF]
 Denzel Dumfries, RMF, 90.75, True, Showtime, [RMF, RB], [RWF, DMF, CB]
 Clarence Seedorf, CMF, 99.00, False, Epic, [CMF, DMF, AMF, LMF, RMF], [SS]
