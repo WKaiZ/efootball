@@ -1,7 +1,7 @@
+Raúl Jiménez, CF, 93.90, True, Highlight, [CF], [SS]
 Santiago Gimenez, CF, 93.82, True, Highlight, [CF], [SS]
 Rafa Márquez, CB, 96.20, False, Epic, [CB, DMF], [CMF]
 
-Raúl Jiménez, CF, 76.65, True, Standard, [CF], [SS]
 Henry Martin, CF, 75.14, False, Standard, [CF, SS], []
 Ángel Sepúlveda, CF, 73.33, False, Standard, [CF, RWF, RMF], [SS, AMF]
 Alan Pulido, CF, 72.25, False, Standard, [AMF, SS, CF], []

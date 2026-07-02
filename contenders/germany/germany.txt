@@ -8,7 +8,7 @@ Starters:
   [LB] Nathaniel Brown (LB) rating 94.43 #18
   [CB] Franz Beckenbauer (CB) rating 99.41 #5
   [CB] Emre Can (CB) rating 96.47 #25
-  [RB] Philipp Lahm (RB) rating 100.35 #16
+  [RB] Philipp Lahm (RB) rating 100.12 #16
   [GK] Oliver Kahn (GK) rating 97.27 #1
 
 Substitutes:

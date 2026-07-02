@@ -1,6 +1,6 @@
 Starters:
-  [CF] Michael Owen (CF) rating 98.13 #18
-  [LWF] Marcus Rashford (LWF) rating 94.34 #11
+  [CF] Michael Owen (CF) rating 98.13 #20
+  [LWF] Anthony Gordon (LWF) rating 96.00 #18
   [RMF] David Beckham (RMF) rating 99.07 #7
   [SS] Wayne Rooney (SS) rating 99.36 #10
   [CMF] Declan Rice (CMF) rating 98.93 #4
@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
-  [LWF] Anthony Gordon (LWF) rating 79.19 #17
-  [RMF] Cole Palmer (RMF) rating 98.93 #20
-  [SS] Phil Foden (RMF) rating 96.81 #19
+  [LWF] Marcus Rashford (LWF) rating 94.34 #11
+  [RMF] Cole Palmer (RMF) rating 98.93 #19
+  [SS] Phil Foden (RMF) rating 96.81 #17
   [CMF] Steven Gerrard (CMF) rating 98.58 #16
   [DMF] Jordan Henderson (DMF) rating 96.28 #14
   [LB] Luke Shaw (LB) rating 95.99 #23
