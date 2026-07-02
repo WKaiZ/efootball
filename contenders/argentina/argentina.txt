@@ -8,21 +8,21 @@ Starters:
   [LB] Javier Zanetti (LB) rating 99.02 #8
   [CB] Cristian Romero (CB) rating 95.21 #13
   [CB] Lisandro Martínez (CB) rating 95.00 #6
-  [RB] Nahuel Molina (RB) rating 93.98 #26
+  [RB] Juan Foyth (RB) rating 93.31 #2
   [GK] Emiliano Martínez (GK) rating 95.52 #23
 
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
-  [LWF] Paulo Dybala (SS) rating 94.37 #19
+  [LWF] Paulo Dybala (SS) rating 94.37 #22
   [RWF] Giuliano Simeone (RWF) rating 94.21 #16
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Facundo Medina (LB) rating 93.97 #25
-  [CB] Martín Demichelis (CB) rating 94.84 #2
+  [CB] Nicolás Otamendi (CB) rating 78.72 #19
   [CB] Nehuén Pérez (CB) rating 94.16 #3
   [RB] Gonzalo Montiel (RB) rating 93.22 #4
   [GK] Juan Musso (GK) rating 94.35 #1
 
 Wildcard:
-  [WILD] Lautaro Martínez (CF) rating 97.78 #22
+  [WILD] Enzo Fernández (CMF) rating 95.15 #24
