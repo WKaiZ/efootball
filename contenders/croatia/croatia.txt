@@ -1,6 +1,6 @@
 Starters:
   [CF] Ante Budimir (CF) rating 93.98 #11
-  [LWF] Ivan Perišić (RMF) rating 93.99 #14
+  [LWF] Ivan Perišić (LB) rating 93.99 #14
   [RWF] Marco Pašalić (RWF) rating 94.24 #24
   [AMF] Nikola Vlašić (AMF) rating 94.99 #13
   [CMF] Luka Modrić (CMF) rating 97.90 #10

@@ -12,7 +12,7 @@ Starters:
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
-  [CF] Rafael Leão (CF) rating 95.97 #17
+  [CF] Gonçalo Ramos (CF) rating 96.00 #9
   [LMF] Diogo Dalot (LMF) rating 94.24 #19
   [RWF] Francisco Trincão (RWF) rating 95.01 #16
   [AMF] Rui Costa (AMF) rating 98.11 #10
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Rui Silva (GK) rating 94.31 #22
 
 Wildcard:
-  [WILD] Francisco Conceição (RMF) rating 94.37 #26
+  [WILD] Rafael Leão (LWF) rating 95.98 #17

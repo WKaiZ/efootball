@@ -17,6 +17,7 @@ Nikola Moro, DMF, 93.15, True, Highlight, [DMF, CMF], [AMF]
 Josko Gvardiol, CB, 95.36, True, Highlight, [LB, CB], []
 Martin Erlić, CB, 93.06, True, Highlight, [CB], []
 Josko Gvardiol, LB, 95.77, True, Highlight, [LB, CB], [LMF]
+Ivan Perišić, LB, 93.99, True, Highlight, [LWF, SS, LMF, RWF, RMF, LB], [CF, AMF, CMF]
 Josip Stanisic, RB, 94.10, True, Highlight, [RB, CB, LB], [RMF]
 
 Petar Musa, CF, 76.54, True, Standard, [CF], [SS]
