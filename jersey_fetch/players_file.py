@@ -2,10 +2,13 @@ import os
 import re
 
 from country_locator import resolve_country_dir
-from jersey_fetch.constants import POSITION_SEARCH_PHRASES
+from jersey_fetch.constants import COUNTRY_DISPLAY_NAMES, POSITION_SEARCH_PHRASES
 from jersey_fetch.names import normalize_name
 
 def country_display_name(country_name):
+    key = normalize_name(country_name)
+    if key in COUNTRY_DISPLAY_NAMES:
+        return COUNTRY_DISPLAY_NAMES[key]
     return country_name.replace("_", " ").replace("-", " ").strip().title()
 
 def parse_args(argv):

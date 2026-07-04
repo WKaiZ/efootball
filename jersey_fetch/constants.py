@@ -152,12 +152,18 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 )
 
 ESPN_TEAM_NAME_ALIASES = {
-    "congo": ("Democratic Republic of the Congo", "DR Congo"),
+    "congo": ("Democratic Republic of the Congo", "DR Congo", "Congo DR"),
     "czechia": ("Czech Republic",),
     "korea": ("South Korea",),
     "serbia": ("Yugoslavia", "Serbia and Montenegro"),
     "turkey": ("Türkiye", "Turkiye"),
     "usa": ("United States",),
+}
+
+# Folder basename -> workflow/ESPN label when the folder name is ambiguous or
+# does not match ESPN/Transfermarkt (e.g. congo/ means DR Congo, not Congo).
+COUNTRY_DISPLAY_NAMES = {
+    "congo": "DR Congo",
 }
 
 ESPN_LINEUP_MANUAL_ROLES = {

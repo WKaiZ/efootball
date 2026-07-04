@@ -15,7 +15,7 @@ from jersey_fetch.matching import (
     espn_local_name_match_tiebreak,
     roster_role_compatible_for_espn_lineup,
 )
-from jersey_fetch.names import normalize_name, player_name_alias_variants
+from jersey_fetch.names import normalize_name, nation_label_variants, player_name_alias_variants
 
 def espn_request_json(url, params=None, timeout=None):
     if timeout is None:
@@ -58,19 +58,18 @@ def is_espn_womens_national_team_id(team_id):
     return bool(slug) and slug.endswith(".w")
 
 def _espn_team_match_names(country_label):
-    key = normalize_name(country_label)
-    names = {key}
-    for alias in ESPN_TEAM_NAME_ALIASES.get(key, ()):
-        names.add(normalize_name(alias))
-    return names
+    return nation_label_variants(country_label)
 
-def lookup_espn_team(country_label):
+def _espn_team_search_queries(country_label):
     country_key = normalize_name(country_label)
-    match_names = _espn_team_match_names(country_label)
-    aliases = ESPN_TEAM_NAME_ALIASES.get(country_key, ())
     queries = []
-    for alias in aliases:
-        queries.extend([f"{alias} national team", alias])
+    for _canonical, aliases in ESPN_TEAM_NAME_ALIASES.items():
+        group_norm = {normalize_name(_canonical), *[normalize_name(alias) for alias in aliases]}
+        if country_key not in group_norm:
+            continue
+        for name in (country_label, *aliases):
+            queries.extend([f"{name} national team", name])
+        break
     queries.extend([f"{country_label} national team", country_label])
     seen_queries = set()
     unique_queries = []
@@ -80,6 +79,12 @@ def lookup_espn_team(country_label):
             continue
         seen_queries.add(query_key)
         unique_queries.append(query)
+    return unique_queries
+
+def lookup_espn_team(country_label):
+    country_key = normalize_name(country_label)
+    match_names = _espn_team_match_names(country_label)
+    unique_queries = _espn_team_search_queries(country_label)
     best = None
     for query in unique_queries:
         try:
