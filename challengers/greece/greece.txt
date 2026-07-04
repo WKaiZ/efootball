@@ -1,0 +1,28 @@
+Starters:
+  [CF] Charalampos Kostoulas (CF) rating 94.07 #11
+  [LWF] Christos Tzolis (LWF) rating 74.72 #10
+  [RWF] Marios Vrousai (RWF) rating 73.53 #7
+  [AMF] Anastasios Bakasetas (AMF) rating 74.16 #14
+  [CMF] Christos Zafeiris (CMF) rating 71.73 #20
+  [DMF] Dimitrios Kourbelis (DMF) rating 72.51 #6
+  [LB] Konstantinos Tsimikas (LB) rating 74.95 #21
+  [CB] Konstantinos Mavropanos (CB) rating 76.64 #4
+  [CB] Panagiotis Retsos (CB) rating 73.62 #5
+  [RB] Georgios Vagiannidis (RB) rating 70.49 #2
+  [GK] Odysseas Vlachodimos (GK) rating 75.59 #1
+
+Substitutes:
+  [CF] Anastasios Douvikas (CF) rating 94.00 #9
+  [LWF] Georgios Masouras (LWF) rating 74.03 #16
+  [RWF] Dimitrios Limnios (RWF) rating 72.73 #18
+  [AMF] Konstantinos Karetsas (AMF) rating 71.42 #19
+  [CMF] Christos Mouzakitis (CMF) rating 70.57 #8
+  [DMF] Manolis Siopis (DMF) rating 71.41 #23
+  [LB] Charalampos Lykogiannis (LB) rating 74.15 #22
+  [CB] Pantelis Hatzidiakos (CB) rating 73.42 #17
+  [CB] Konstantinos Koulierakis (CB) rating 72.08 #3
+  [RB] Lazaros Rota (RB) rating 70.00 #15
+  [GK] Vasilios Barkas (GK) rating 74.57 #13
+
+Wildcard:
+  [WILD] Christos Mandas (GK) rating 73.54 #24
