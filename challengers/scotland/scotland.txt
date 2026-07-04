@@ -12,10 +12,10 @@ Starters:
   [GK] Liam Kelly (GK) rating 71.59 #12
 
 Substitutes:
-  [CF] Lawrence Shankland (CF) rating 74.37 #9
+  [CF] Lawrence Shankland (CF) rating 74.37 #20
   [LWF] Findlay Curtis (LWF) rating 66.85 #25
   [RWF] Johnny Russell (RWF) rating 72.03 #16
-  [AMF] Ryan Gauld (AMF) rating 74.85 #20
+  [AMF] Stuart Armstrong (CMF) rating 72.02 #17
   [CMF] Tom Cairney (CMF) rating 74.43 #22
   [DMF] Scott McTominay (DMF) rating 94.99 #4
   [LB] Kieran Tierney (LB) rating 75.76 #6
