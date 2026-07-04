@@ -3,8 +3,8 @@ Starters:
   [LWF] Craig Goodwin (LWF) rating 72.38 #23
   [RWF] Martin Boyle (RWF) rating 73.49 #6
   [AMF] Connor Metcalfe (AMF) rating 73.02 #8
-  [CMF] Jackson Irvine (CMF) rating 73.90 #22
-  [DMF] Cammy Devlin (DMF) rating 71.60 #14
+  [CMF] Patrick Yazbek (CMF) rating 73.15 #17
+  [DMF] Jackson Irvine (DMF) rating 92.98 #22
   [LB] Jordan Bos (LB) rating 71.51 #5
   [CB] Harry Souttar (CB) rating 74.30 #19
   [CB] Alessandro Circati (CB) rating 73.30 #3
@@ -14,10 +14,10 @@ Starters:
 Substitutes:
   [CF] Adam Taggart (CF) rating 71.88 #15
   [LWF] Mathew Leckie (LWF) rating 72.19 #7
-  [RWF] Nestory Irankunda (RWF) rating 71.06 #17
+  [RWF] Nestory Irankunda (RWF) rating 71.06 #11
   [AMF] Cristian Volpato (AMF) rating 70.36 #20
-  [CMF] Patrick Yazbek (CMF) rating 73.15 #24
-  [DMF] Keanu Baccus (DMF) rating 70.40 #26
+  [CMF] Ajdin Hrustic (CMF) rating 70.72 #10
+  [DMF] Cammy Devlin (DMF) rating 71.60 #14
   [LB] Aziz Behich (LB) rating 70.46 #16
   [CB] Cameron Burgess (CB) rating 72.83 #21
   [CB] Kye Rowles (CB) rating 72.39 #4
@@ -25,5 +25,5 @@ Substitutes:
   [GK] Joe Gauci (GK) rating 71.98 #12
 
 Wildcard:
-  [WILD] Awer Mabil (LWF) rating 71.42 #11
   [WILD] Jason Cummings (CF) rating 71.34 #25
+  [WILD] Keanu Baccus (DMF) rating 70.40 #26

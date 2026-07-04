@@ -1,5 +1,5 @@
 Cristiano Ronaldo, CF, 99.07, True, BigTime, [CF], [LWF, SS, RWF]
-Gonçalo Ramos, CF, 96.00, True, Highlight, [CF, SS], [AMF]
+Gonçalo Ramos, CF, 96.12, True, Showtime, [CF, SS], [AMF]
 Rafael Leão, CF, 95.97, True, Highlight, [LWF, LMF, CF], [SS, AMF, RWF]
 Rafael Leão, SS, 95.20, True, Highlight, [LWF, LMF, CF, SS], [AMF, RWF]
 Rafael Leão, LWF, 95.98, True, Highlight, [LWF, LMF], [SS, CF]
