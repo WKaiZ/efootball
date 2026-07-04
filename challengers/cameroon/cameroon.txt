@@ -1,0 +1,28 @@
+Starters:
+  [CF] Samuel Eto'o (CF) rating 99.80 #9
+  [LWF] Nicolas Moumi Ngamaleu (LWF) rating 73.85 #13
+  [RWF] Bryan Mbeumo (RWF) rating 98.62 #10
+  [AMF] Olivier Ntcham (CMF) rating 73.47 #21
+  [CMF] Frank Anguissa (CMF) rating 93.93 #8
+  [DMF] Carlos Baleba (DMF) rating 94.46 #17
+  [LB] Nouhou (LB) rating 74.68 #5
+  [CB] Enzo Boyomo (CB) rating 94.56 #22
+  [CB] Enzo Ebosse (CB) rating 74.47 #2
+  [RB] Olivier Mbaizo (RB) rating 70.68 #15
+  [GK] André Onana (GK) rating 77.27 #23
+
+Substitutes:
+  [CF] Danny Namaso (CF) rating 73.24 #14
+  [LWF] Georges-Kevin N'Koudou (LWF) rating 73.43 #7
+  [RWF] Christian Bassogog (RWF) rating 73.25 #11
+  [AMF] Junior Dina Ebimbe (RMF) rating 72.98 #25
+  [CMF] Olivier Kemen (CMF) rating 72.14 #20
+  [DMF] Martin Hongla (DMF) rating 70.98 #18
+  [LB] Mahamadou Nagida (LB) rating 66.96 #3
+  [CB] Christopher Wooh (CB) rating 74.38 #4
+  [CB] Gerzino Nyamsi (CB) rating 73.75 #6
+  [RB] Enzo Tchato (RB) rating 69.97 #26
+  [GK] Devis Epassy (GK) rating 71.55 #1
+
+Wildcard:
+  [WILD] Jean-Charles Castelletto (CB) rating 72.85 #12
