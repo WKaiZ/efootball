@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Christian Bassogog (RWF) rating 73.25 #11
   [AMF] Junior Dina Ebimbe (RMF) rating 72.98 #25
   [CMF] Olivier Kemen (CMF) rating 72.14 #20
-  [DMF] Martin Hongla (DMF) rating 70.98 #18
-  [LB] Mahamadou Nagida (LB) rating 66.96 #3
+  [DMF] Martin Hongla (DMF) rating 70.98 #19
+  [LB] Mahamadou Nagida (LB) rating 66.96 #18
   [CB] Christopher Wooh (CB) rating 74.38 #4
   [CB] Gerzino Nyamsi (CB) rating 73.75 #6
   [RB] Enzo Tchato (RB) rating 69.97 #26
-  [GK] Devis Epassy (GK) rating 71.55 #1
+  [GK] Devis Epassy (GK) rating 71.55 #16
 
 Wildcard:
   [WILD] Jean-Charles Castelletto (CB) rating 72.85 #12
