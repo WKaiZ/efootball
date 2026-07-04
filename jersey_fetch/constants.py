@@ -152,6 +152,7 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 )
 
 ESPN_TEAM_NAME_ALIASES = {
+    "congo": ("Democratic Republic of the Congo", "DR Congo"),
     "czechia": ("Czech Republic",),
     "korea": ("South Korea",),
     "serbia": ("Yugoslavia", "Serbia and Montenegro"),

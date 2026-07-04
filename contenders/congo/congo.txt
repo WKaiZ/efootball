@@ -1,0 +1,28 @@
+Starters:
+  [CF] Yoane Wissa (CF) rating 94.87 #20
+  [LWF] Michel-Ange Balikwisha (LWF) rating 72.17 #27
+  [RWF] Théo Bongonda (RWF) rating 75.15 #10
+  [AMF] William Balikwisha (AMF) rating 72.49 #28
+  [CMF] Noah Sadiki (CMF) rating 94.31 #14
+  [DMF] Charles Pickel (DMF) rating 73.21 #18
+  [LB] Arthur Masuaku (LB) rating 74.29 #26
+  [CB] Chancel Mbemba (CB) rating 74.54 #22
+  [CB] Steve Kapuadi (CB) rating 74.49 #3
+  [RB] Aaron Wan-Bissaka (RB) rating 75.43 #2
+  [GK] Matthieu Epolo (GK) rating 72.70 #21
+
+Substitutes:
+  [CF] Simon Banza (CF) rating 77.19 #23
+  [LWF] Brian Cipenga (LWF) rating 71.12 #9
+  [RWF] Jackson Muleka (RWF) rating 72.53 #17
+  [AMF] Gaël Kakuta (AMF) rating 72.46 #11
+  [CMF] Edo Kayembe (CMF) rating 72.68 #25
+  [DMF] Ngal'ayel Mukau (DMF) rating 71.72 #6
+  [LB] Joris Kayembe (LB) rating 73.23 #12
+  [CB] Axel Tuanzebe (CB) rating 73.99 #4
+  [CB] Rocky Bushiri (CB) rating 71.74 #15
+  [RB] Gédéon Kalulu (RB) rating 71.41 #24
+  [GK] Timothy Fayulu (GK) rating 71.35 #16
+
+Wildcard:
+  [WILD] Meschack Elia (SS) rating 72.70 #13
