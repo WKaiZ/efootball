@@ -132,6 +132,11 @@ MANUAL_ID_OVERRIDES = {
     "panama": {
         "cristian martinez": {"player_id": "419247", "preserve_name": True},
     },
+    "paraguay": {
+        "diego gomez": {"player_id": "996897", "preserve_name": True},
+        "lucas romero": {"player_id": "1127335", "preserve_name": True},
+        "juan caceres": {"player_id": "756494", "preserve_name": True},
+    },
 }
 
 EXCLUDE_FROM_ESPN_RECENT = frozenset(

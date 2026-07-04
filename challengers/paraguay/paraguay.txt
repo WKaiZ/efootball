@@ -1,0 +1,29 @@
+Starters:
+  [CF] Julio Enciso (CF) rating 93.99 #19
+  [LWF] Ángel Romero (RWF) rating 72.90 #7
+  [RWF] Miguel Almirón (RWF) rating 78.11 #10
+  [AMF] Mauricio (AMF) rating 74.48 #11
+  [CMF] Diego Gómez (CMF) rating 93.21 #8
+  [DMF] Andrés Cubas (DMF) rating 74.47 #14
+  [LB] Santiago Arzamendia (LB) rating 75.23 #23
+  [CB] Gustavo Gómez (CB) rating 77.51 #15
+  [CB] Omar Alderete (CB) rating 76.01 #3
+  [RB] Juan Cáceres (RB) rating 73.31 #4
+  [GK] Orlando Gill (GK) rating 74.54 #12
+
+Substitutes:
+  [CF] Gabriel Ávalos (CF) rating 74.53 #21
+  [LWF] Antonio Sanabria (CF) rating 73.40 #9
+  [RWF] Gustavo Caballero (RWF) rating 64.71 #24
+  [AMF] Kaku (AMF) rating 72.70 #17
+  [CMF] José Florentín (CMF) rating 75.17 #16
+  [DMF] Braian Ojeda (CMF) rating 73.39 #20
+  [LB] Agustín Sández (LB) rating 73.40 #6
+  [CB] Gustavo Velázquez (CB) rating 75.40 #2
+  [CB] José Canale (CB) rating 74.40 #13
+  [RB] VACANT
+  [GK] Gastón Olveira (GK) rating 74.07 #22
+
+Wildcard:
+  [WILD] Álex Arce (CF) rating 74.30 #18
+  [WILD] Juan Espínola (GK) rating 73.56 #1
