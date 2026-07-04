@@ -125,6 +125,9 @@ MANUAL_ID_OVERRIDES = {
         "lucas romero": "1127335",
         "juan caceres": "756494",
     },
+    "scotland": {
+        "liam kelly": "208772",
+    },
 }
 
 

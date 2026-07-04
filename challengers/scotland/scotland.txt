@@ -1,0 +1,28 @@
+Starters:
+  [CF] Ché Adams (CF) rating 93.32 #10
+  [LWF] Ryan Christie (CMF) rating 94.08 #11
+  [RWF] Jacob Brown (RWF) rating 73.13 #18
+  [AMF] John McGinn (LMF) rating 94.02 #8
+  [CMF] Lewis Ferguson (CMF) rating 94.37 #19
+  [DMF] Darren Fletcher (DMF) rating 96.61 #7
+  [LB] Andrew Robertson (LB) rating 77.60 #3
+  [CB] Jack Hendry (CB) rating 74.71 #13
+  [CB] Scott McKenna (CB) rating 74.36 #26
+  [RB] Aaron Hickey (RB) rating 73.65 #2
+  [GK] Liam Kelly (GK) rating 71.59 #12
+
+Substitutes:
+  [CF] Lawrence Shankland (CF) rating 74.37 #9
+  [LWF] Findlay Curtis (LWF) rating 66.85 #25
+  [RWF] Johnny Russell (RWF) rating 72.03 #16
+  [AMF] Ryan Gauld (AMF) rating 74.85 #20
+  [CMF] Tom Cairney (CMF) rating 74.43 #22
+  [DMF] Scott McTominay (DMF) rating 94.99 #4
+  [LB] Kieran Tierney (LB) rating 75.76 #6
+  [CB] John Souttar (CB) rating 74.23 #15
+  [CB] Ryan Porteous (CB) rating 73.70 #14
+  [RB] Anthony Ralston (RB) rating 72.15 #24
+  [GK] Angus Gunn (GK) rating 71.25 #1
+
+Wildcard:
+  [WILD] Callum McGregor (DMF) rating 75.74 #23

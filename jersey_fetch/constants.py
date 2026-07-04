@@ -137,6 +137,9 @@ MANUAL_ID_OVERRIDES = {
         "lucas romero": {"player_id": "1127335", "preserve_name": True},
         "juan caceres": {"player_id": "756494", "preserve_name": True},
     },
+    "scotland": {
+        "liam kelly": {"player_id": "208772", "preserve_name": True},
+    },
 }
 
 EXCLUDE_FROM_ESPN_RECENT = frozenset(
