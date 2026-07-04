@@ -154,6 +154,7 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 ESPN_TEAM_NAME_ALIASES = {
     "czechia": ("Czech Republic",),
     "korea": ("South Korea",),
+    "serbia": ("Yugoslavia", "Serbia and Montenegro"),
     "turkey": ("Türkiye", "Turkiye"),
     "usa": ("United States",),
 }
