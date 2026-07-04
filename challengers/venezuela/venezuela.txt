@@ -1,0 +1,29 @@
+Starters:
+  [CF] Josef Martínez (CF) rating 76.09 #17
+  [LWF] Yeferson Soteldo (LWF) rating 73.87 #10
+  [RWF] David Martínez (RWF) rating 71.89 #19
+  [AMF] Jefferson Savarino (AMF) rating 75.55 #7
+  [CMF] Yangel Herrera (CMF) rating 76.08 #6
+  [DMF] Tomás Rincón (DMF) rating 73.25 #8
+  [LB] Miguel Navarro (LB) rating 73.95 #15
+  [CB] Nahuel Ferraresi (CB) rating 74.81 #2
+  [CB] Yordan Osorio (CB) rating 72.17 #3
+  [RB] Jon Aramburu (RB) rating 93.32 #4
+  [GK] Wuilker Fariñez (GK) rating 72.64 #1
+
+Substitutes:
+  [CF] Salomón Rondón (CF) rating 74.52 #23
+  [LWF] Jhon Murillo (LWF) rating 73.41 #16
+  [RWF] Darwin Machís (LWF) rating 73.32 #11
+  [AMF] Kervin Andrade (AMF) rating 69.25 #24
+  [CMF] Daniel Pereira (CMF) rating 74.18 #5
+  [DMF] José Martínez (DMF) rating 72.40 #13
+  [LB] VACANT
+  [CB] Wilker Ángel (CB) rating 71.71 #20
+  [CB] Christian Makoun (CB) rating 69.59 #14
+  [RB] Alexander González (RB) rating 70.24 #21
+  [GK] Rafael Romo (GK) rating 72.43 #22
+
+Wildcard:
+  [WILD] Jhonder Cádiz (CF) rating 74.48 #9
+  [WILD] Eduard Bello (RMF) rating 73.08 #18

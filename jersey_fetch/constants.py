@@ -123,6 +123,11 @@ MANUAL_ID_OVERRIDES = {
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
     },
+    "venezuela": {
+        "david martinez": {"player_id": "988222", "preserve_name": True},
+        "daniel pereira": {"player_id": "856498", "preserve_name": True},
+        "alexander gonzalez": {"player_id": "147562", "preserve_name": True},
+    },
     "norway": {
         "patrik berg": {"player_id": "308439", "preserve_name": True},
     },
