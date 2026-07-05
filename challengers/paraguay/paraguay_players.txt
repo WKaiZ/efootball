@@ -1,6 +1,6 @@
 Julio Enciso, CF, 93.99, True, Highlight, [CF, SS, AMF, LWF, LMF, RWF, RMF], []
 Julio Enciso, SS, 94.37, True, Highlight, [CF, SS, AMF, LWF, LMF, RWF, RMF], []
-Diego Gómez, CMF, 93.21, False, Highlight, [LWF, LMF, CMF], [AMF, DMF]
+Diego Gómez, CMF, 93.21, True, Highlight, [LWF, LMF, CMF], [AMF, DMF]
 
 Gabriel Ávalos, CF, 74.53, True, Standard, [CF, SS, RWF], [LWF, LMF, RMF]
 Álex Arce, CF, 74.30, True, Standard, [CF], [SS]
