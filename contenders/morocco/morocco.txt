@@ -12,13 +12,13 @@ Starters:
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
 Substitutes:
-  [CF] Youssef En-Nesyri (CF) rating 77.34 #19
+  [CF] Soufiane Rahimi (CF) rating 93.00 #9
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
   [RWF] Zakaria Aboukhlal (RWF) rating 74.22 #17
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Neil El Aynaoui (DMF) rating 94.23 #24
-  [LB] Souffian El Karouani (LB) rating 73.33 #9
+  [LB] Youssef Belammari (LB) rating 69.55 #19
   [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 93.98 #14
   [RB] Omar El Hilali (RB) rating 94.08 #15

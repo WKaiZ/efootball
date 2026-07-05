@@ -12,8 +12,8 @@ Starters:
   [GK] Hugo Lloris (GK) rating 98.08 #1
 
 Substitutes:
-  [CF] Kylian Mbappé (CF) rating 99.29 #20
-  [LWF] Bradley Barcola (LWF) rating 95.72 #12
+  [CF] Ousmane Dembélé (CF) rating 99.48 #12
+  [LWF] Désiré Doué (LWF) rating 95.99 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #13
   [AMF] Rayan Cherki (AMF) rating 95.47 #24
   [CMF] Eduardo Camavinga (CMF) rating 95.07 #21
