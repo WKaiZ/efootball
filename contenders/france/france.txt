@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Désiré Doué (LWF) rating 95.99 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #13
   [AMF] Rayan Cherki (AMF) rating 95.47 #24
-  [CMF] Eduardo Camavinga (CMF) rating 95.07 #21
+  [CMF] Emmanuel Petit (CMF) rating 96.13 #3
   [DMF] Claude Makélélé (DMF) rating 99.11 #6
   [LB] Adrien Truffert (LB) rating 94.36 #22
   [CB] Maxence Lacroix (CB) rating 95.54 #26
