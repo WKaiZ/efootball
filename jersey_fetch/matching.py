@@ -1,4 +1,3 @@
-from jersey_fetch.constants import ESPN_LINEUP_MANUAL_ROLES
 from jersey_fetch.names import normalize_name
 from jersey_fetch.text_utils import levenshtein
 
@@ -115,21 +114,6 @@ def espn_lineup_role(position_abbreviation):
     return None
 
 
-def roster_role_compatible(profile_roles, espn_role):
-    if not espn_role or not profile_roles:
-        return True
-    return espn_role in profile_roles
-
-
-def roster_role_compatible_for_espn_lineup(profile_roles, espn_role, player_key):
-    if roster_role_compatible(profile_roles, espn_role):
-        return True
-    manual = ESPN_LINEUP_MANUAL_ROLES.get(player_key)
-    if manual is not None and espn_role in manual:
-        return True
-    return False
-
-
 def espn_full_given_family_aliases(aliases):
     out = []
     for a in aliases:
@@ -152,16 +136,22 @@ def espn_local_matches_full_aliases(key, aliases):
 def espn_local_name_match_score(key, aliases):
     if key in aliases:
         return 100000
+    fulls = set(espn_full_given_family_aliases(aliases))
     best = 0
     for a in aliases:
-        if compatible_name_tokens(key, a):
-            best = max(best, 1000 + len(a))
+        if not compatible_name_tokens(key, a):
+            continue
+        score = 1000 + len(a)
+        if a in fulls:
+            score += 10000
+        best = max(best, score)
     return best
 
 
 def espn_local_name_match_tiebreak(key, aliases):
+    fulls = set(espn_full_given_family_aliases(aliases))
     dists = []
     for a in aliases:
         if compatible_name_tokens(key, a):
-            dists.append(levenshtein(key, a))
-    return min(dists) if dists else 9999
+            dists.append((0 if a in fulls else 1, levenshtein(key, a)))
+    return min(dists) if dists else (2, 9999)

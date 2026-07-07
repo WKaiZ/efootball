@@ -171,15 +171,6 @@ COUNTRY_DISPLAY_NAMES = {
     "congo": "DR Congo",
 }
 
-ESPN_LINEUP_MANUAL_ROLES = {
-    "ivan perisic": frozenset({"D"}),
-    "luca lipani": frozenset({"D"}),
-    "honest ahanor": frozenset({"M"}),
-    "johan manzambi": frozenset({"F"}),
-    "jordy alcivar": frozenset({"D"}),
-    "exequiel palacios": frozenset({"D"}),
-}
-
 PLAYER_NAME_ALIASES = {
     "argentina": [
         ("Flaco López", "José Manuel López"),

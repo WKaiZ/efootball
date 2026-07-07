@@ -13,7 +13,6 @@ from jersey_fetch.matching import (
     espn_local_matches_full_aliases,
     espn_local_name_match_score,
     espn_local_name_match_tiebreak,
-    roster_role_compatible_for_espn_lineup,
 )
 from jersey_fetch.names import normalize_name, nation_label_variants, player_name_alias_variants
 
@@ -359,13 +358,10 @@ def map_recent_players_to_roster(player_profiles, latest_match):
 
     for espn_player in latest_match["roster"]:
         matched_key = None
-        espn_role = espn_player.get("role")
         aliases = espn_player["aliases"]
         candidates = []
         for key, profile in roster_names:
             if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
-                continue
-            if not roster_role_compatible_for_espn_lineup(profile["roles"], espn_role, key):
                 continue
             names = local_match_names(key)
             if not any(
@@ -380,14 +376,12 @@ def map_recent_players_to_roster(player_profiles, latest_match):
                 candidates,
                 key=lambda k: (
                     max(espn_local_name_match_score(nm, aliases) for nm in local_match_names(k)),
-                    -min(espn_local_name_match_tiebreak(nm, aliases) for nm in local_match_names(k)),
+                    espn_local_name_match_tiebreak(k, aliases),
                 ),
             )
         if matched_key is None:
             for key, profile in roster_names:
                 if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
-                    continue
-                if not roster_role_compatible_for_espn_lineup(profile["roles"], espn_role, key):
                     continue
                 roster_tokens = [tok for tok in key.split() if tok]
                 if len(roster_tokens) == 1:
