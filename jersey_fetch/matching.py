@@ -114,6 +114,28 @@ def espn_lineup_role(position_abbreviation):
     return None
 
 
+def espn_roster_role_compatible(profile_roles, espn_role):
+    if not espn_role or not profile_roles:
+        return True
+    return espn_role in profile_roles
+
+
+def local_name_is_mononym(key):
+    return len([tok for tok in key.split() if tok]) == 1
+
+
+def espn_skip_mononym_role_mismatch(key, profile_roles, espn_role):
+    """Reject mononym matches when ESPN role conflicts with the local profile.
+
+  Full names (e.g. Leandro Paredes) still match regardless of ESPN lineup role,
+  because ESPN often lists midfielders as defenders. Mononyms (e.g. Ederson)
+  need role agreement to avoid GK/CMF cross-talk when both appear in a squad.
+    """
+    if not local_name_is_mononym(key):
+        return False
+    return not espn_roster_role_compatible(profile_roles, espn_role)
+
+
 def espn_full_given_family_aliases(aliases):
     out = []
     for a in aliases:

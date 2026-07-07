@@ -13,6 +13,8 @@ from jersey_fetch.matching import (
     espn_local_matches_full_aliases,
     espn_local_name_match_score,
     espn_local_name_match_tiebreak,
+    espn_roster_role_compatible,
+    espn_skip_mononym_role_mismatch,
 )
 from jersey_fetch.names import normalize_name, nation_label_variants, player_name_alias_variants
 
@@ -349,6 +351,7 @@ def map_recent_players_to_roster(player_profiles, latest_match):
         return ({}, {})
     country_label = latest_match.get("country", "")
     roster_names = list(player_profiles.items())
+    roster_by_key = dict(roster_names)
     recent_flags = {key: False for key in player_profiles.keys()}
     recent_numbers = {}
     taken = set()
@@ -359,9 +362,12 @@ def map_recent_players_to_roster(player_profiles, latest_match):
     for espn_player in latest_match["roster"]:
         matched_key = None
         aliases = espn_player["aliases"]
+        espn_role = espn_player.get("role")
         candidates = []
         for key, profile in roster_names:
             if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
+                continue
+            if espn_skip_mononym_role_mismatch(key, profile["roles"], espn_role):
                 continue
             names = local_match_names(key)
             if not any(
@@ -377,11 +383,14 @@ def map_recent_players_to_roster(player_profiles, latest_match):
                 key=lambda k: (
                     max(espn_local_name_match_score(nm, aliases) for nm in local_match_names(k)),
                     espn_local_name_match_tiebreak(k, aliases),
+                    1 if espn_roster_role_compatible(roster_by_key[k]["roles"], espn_role) else 0,
                 ),
             )
         if matched_key is None:
             for key, profile in roster_names:
                 if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
+                    continue
+                if espn_skip_mononym_role_mismatch(key, profile["roles"], espn_role):
                     continue
                 roster_tokens = [tok for tok in key.split() if tok]
                 if len(roster_tokens) == 1:
