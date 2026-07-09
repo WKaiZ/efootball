@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #9
-  [LWF] Ferran Torres (LWF) rating 95.00 #21
+  [LWF] Ferran Torres (LWF) rating 94.91 #21
   [RWF] Adama Traoré (RWF) rating 74.91 #20
   [AMF] Marco Asensio (AMF) rating 95.97 #11
   [CMF] Andrés Iniesta (CMF) rating 97.70 #6

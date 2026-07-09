@@ -1,5 +1,5 @@
 Starters:
-  [CF] Loïs Openda (CF) rating 95.40 #9
+  [CF] Charles De Ketelaere (CF) rating 97.93 #17
   [LMF] Leandro Trossard (LMF) rating 97.34 #10
   [RWF] Adnan Januzaj (RWF) rating 93.39 #18
   [AMF] Eden Hazard (AMF) rating 100.35 #7
@@ -7,22 +7,22 @@ Starters:
   [DMF] Amadou Onana (DMF) rating 95.18 #24
   [LB] Arthur Theate (LB) rating 94.07 #3
   [CB] Vincent Kompany (CB) rating 99.12 #4
-  [CB] Thomas Vermaelen (CB) rating 96.44 #17
+  [CB] Thomas Vermaelen (CB) rating 96.44 #5
   [RB] Timothy Castagne (RB) rating 94.09 #21
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:
-  [CF] Romelu Lukaku (CF) rating 94.94 #11
+  [CF] Loïs Openda (CF) rating 95.40 #9
   [LMF] Malick Fofana (LMF) rating 94.21 #19
-  [RWF] Cyril Ngonge (RWF) rating 74.90 #22
+  [RWF] Dodi Lukébakio (RWF) rating 76.32 #11
   [AMF] Kevin De Bruyne (AMF) rating 95.99 #14
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Axel Witsel (DMF) rating 75.86 #6
-  [LB] Maxim De Cuyper (LB) rating 74.31 #5
+  [LB] Maxim De Cuyper (LB) rating 74.31 #25
   [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.95 #2
   [RB] Thomas Meunier (RB) rating 93.22 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Jérémy Doku (LWF) rating 96.99 #25
+  [WILD] Jérémy Doku (LWF) rating 96.99 #22
