@@ -85,7 +85,6 @@ Alex Meret, GK, 95.11, False, Highlight, [GK], []
 Michele Di Gregorio, GK, 94.99, False, Highlight, [GK], []
 Guglielmo Vicario, GK, 94.93, False, Highlight, [GK], []
 Wladimiro Falcone, GK, 93.97, False, Highlight, [GK], []
-Ivan Provedel, GK, 93.94, False, Highlight, [GK], []
 
 Jeff Ekhator, CF, 65.47, True, Standard, [CF], [SS]
 Francesco Camarda, CF, 65.36, True, Standard, [CF], [SS]
