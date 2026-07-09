@@ -1,6 +1,6 @@
 Starters:
   [CF] Kieffer Moore (CF) rating 72.92 #13
-  [LWF] Harry Wilson (RMF) rating 95.00 #8
+  [LWF] Nathan Broadhead (LWF) rating 71.83 #23
   [RWF] Gareth Bale (RWF) rating 100.80 #11
   [AMF] Oliver Cooper (AMF) rating 69.19 #10
   [CMF] Jordan James (CMF) rating 71.56 #17
@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Mark Harris (CF) rating 71.26 #18
-  [LWF] Nathan Broadhead (LWF) rating 71.83 #23
+  [LWF] Lewis Koumas (LWF) rating 69.32 #9
   [RWF] David Brooks (RWF) rating 75.39 #7
-  [AMF] Brennan Johnson (SS) rating 75.22 #9
+  [AMF] Harry Wilson (RMF) rating 78.17 #8
   [CMF] Ollie Bostock (LMF) rating 61.15 #25
   [DMF] Will Vaulks (DMF) rating 70.64 #19
   [LB] Ben Davies (LB) rating 75.18 #4
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Danny Ward (GK) rating 72.22 #12
 
 Wildcard:
-  [WILD] Sorba Thomas (RMF) rating 72.52 #22
+  [WILD] Brennan Johnson (SS) rating 75.22 #22
