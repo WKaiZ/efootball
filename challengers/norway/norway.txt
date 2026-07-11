@@ -17,11 +17,11 @@ Substitutes:
   [RWF] Ola Solbakken (RWF) rating 72.38 #17
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
   [CMF] Fredrik Aursnes (CMF) rating 78.12 #14
-  [DMF] Patrik Berg (DMF) rating 74.74 #16
+  [DMF] Sondre Tronstad (DMF) rating 71.93 #7
   [LB] Birger Meling (LB) rating 72.28 #5
   [CB] Leo Østigård (CB) rating 74.14 #4
   [CB] Stian Gregersen (CB) rating 73.53 #2
-  [RB] Marcus Pedersen (RB) rating 73.94 #7
+  [RB] Marcus Pedersen (RB) rating 73.94 #16
   [GK] Egil Selvik (GK) rating 72.64 #13
 
 Wildcard:
