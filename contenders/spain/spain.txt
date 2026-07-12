@@ -6,8 +6,8 @@ Starters:
   [CMF] Xavi (CMF) rating 98.16 #8
   [DMF] Rodri (DMF) rating 99.15 #16
   [LB] Sergi Barjuan (LB) rating 98.36 #12
-  [CB] Pau Cubarsí (CB) rating 99.36 #22
   [CB] Gerard Piqué (CB) rating 98.44 #3
+  [CB] Pau Cubarsí (CB) rating 97.54 #22
   [RB] Albert Ferrer (RB) rating 96.99 #2
   [GK] Joan García (GK) rating 99.09 #13
 
