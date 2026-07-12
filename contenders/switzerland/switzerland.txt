@@ -5,7 +5,7 @@ Starters:
   [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
-  [LB] Ricardo Rodríguez (CB) rating 93.31 #13
+  [LB] Ricardo Rodríguez (LB) rating 92.98 #13
   [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Nico Elvedi (CB) rating 93.77 #4
   [RB] Denis Zakaria (RB) rating 93.96 #6
