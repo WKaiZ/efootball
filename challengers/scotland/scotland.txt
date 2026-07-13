@@ -1,7 +1,7 @@
 Starters:
   [CF] Ché Adams (CF) rating 93.32 #10
   [LWF] Ryan Christie (CMF) rating 94.08 #11
-  [RWF] Jacob Brown (RWF) rating 73.13 #18
+  [RWF] Ben Gannon-Doak (RWF) rating 91.39 #17
   [AMF] John McGinn (LMF) rating 94.02 #8
   [CMF] Lewis Ferguson (CMF) rating 94.37 #19
   [DMF] Darren Fletcher (DMF) rating 96.61 #7
@@ -14,8 +14,8 @@ Starters:
 Substitutes:
   [CF] Lawrence Shankland (CF) rating 74.37 #20
   [LWF] Findlay Curtis (LWF) rating 66.85 #25
-  [RWF] Johnny Russell (RWF) rating 72.03 #16
-  [AMF] Stuart Armstrong (CMF) rating 72.02 #17
+  [RWF] Jacob Brown (RWF) rating 73.13 #18
+  [AMF] Stuart Armstrong (CMF) rating 72.02 #16
   [CMF] Tom Cairney (CMF) rating 74.43 #22
   [DMF] Scott McTominay (DMF) rating 94.99 #4
   [LB] Kieran Tierney (LB) rating 75.76 #6
