@@ -25,7 +25,6 @@ Xherdan Shaqiri, AMF, 74.45, False, Standard, [AMF, RWF, RMF], [LWF, CF, SS, LMF
 Fabian Rieder, AMF, 72.73, True, Standard, [AMF, CMF], [DMF, LMF, SS]
 Remo Freuler, CMF, 75.47, True, Standard, [CMF, AMF, DMF], [LMF]
 Djibril Sow, CMF, 75.00, True, Standard, [CMF, DMF], [AMF]
-Johan Manzambi, CMF, 62.83, False, Standard, [CMF], [AMF, DMF]
 Edimilson Fernandes, DMF, 72.21, False, Standard, [CMF, DMF, CB], [LMF, RMF, RB]
 Fabian Schär, CB, 78.06, False, Standard, [CB], []
 Becir Omeragic, CB, 73.44, False, Standard, [CB, DMF, RB], [CMF]

@@ -9,7 +9,7 @@ Starters:
   [CB] Ronald Araujo (CB) rating 96.61 #4
   [CB] José María Giménez (CB) rating 94.51 #2
   [RB] Guillermo Varela (RB) rating 73.35 #13
-  [GK] Fernando Muslera (GK) rating 77.67 #23
+  [GK] Fernando Muslera (GK) rating 94.30 #23
 
 Substitutes:
   [CF] Christhian Stuani (CF) rating 74.54 #11

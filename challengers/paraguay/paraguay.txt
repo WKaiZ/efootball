@@ -6,8 +6,8 @@ Starters:
   [CMF] Diego Gómez (CMF) rating 93.21 #8
   [DMF] Andrés Cubas (DMF) rating 74.47 #14
   [LB] Santiago Arzamendia (LB) rating 75.23 #23
+  [CB] Omar Alderete (CB) rating 94.43 #3
   [CB] Gustavo Gómez (CB) rating 77.51 #15
-  [CB] Omar Alderete (CB) rating 76.01 #3
   [RB] Juan Cáceres (RB) rating 73.31 #4
   [GK] Orlando Gill (GK) rating 74.54 #12
 
