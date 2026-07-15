@@ -5,7 +5,7 @@ Starters:
   [AMF] Johan Cruyff (AMF) rating 101.22 #14
   [CMF] Clarence Seedorf (CMF) rating 99.00 #20
   [DMF] Edgar Davids (DMF) rating 98.02 #8
-  [LB] Giovanni van Bronckhorst (LB) rating 99.01 #5
+  [LB] Giovanni van Bronckhorst (LB) rating 97.69 #5
   [CB] Jaap Stam (CB) rating 99.09 #3
   [CB] Virgil van Dijk (CB) rating 97.05 #4
   [RB] Jurriën Timber (RB) rating 95.99 #2
