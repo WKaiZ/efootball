@@ -9,7 +9,7 @@ Starters:
   [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Nico Elvedi (CB) rating 93.77 #4
   [RB] Denis Zakaria (RB) rating 93.96 #6
-  [GK] Yann Sommer (GK) rating 96.23 #1
+  [GK] Gregor Kobel (GK) rating 95.39 #1
 
 Substitutes:
   [CF] Zeki Amdouni (CF) rating 73.77 #25
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Aurèle Amenda (CB) rating 72.60 #24
   [CB] Loris Benito (CB) rating 72.40 #3
   [RB] Lucas Blondel (RB) rating 73.95 #2
-  [GK] Gregor Kobel (GK) rating 95.39 #21
+  [GK] Philipp Köhn (GK) rating 92.97 #21
 
 Wildcard:
   [WILD] Johan Manzambi (RMF) rating 93.02 #9

@@ -3,7 +3,7 @@ Starters:
   [LMF] Leandro Trossard (LMF) rating 97.34 #10
   [RWF] Adnan Januzaj (RWF) rating 93.39 #18
   [AMF] Eden Hazard (AMF) rating 100.35 #7
-  [CMF] Youri Tielemans (CMF) rating 95.21 #8
+  [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Amadou Onana (DMF) rating 95.18 #24
   [LB] Arthur Theate (LB) rating 94.07 #3
   [CB] Vincent Kompany (CB) rating 99.12 #4
@@ -16,7 +16,7 @@ Substitutes:
   [LMF] Malick Fofana (LMF) rating 94.21 #19
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #11
   [AMF] Kevin De Bruyne (AMF) rating 95.99 #14
-  [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
+  [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Maxim De Cuyper (LB) rating 74.31 #25
   [CB] Koni De Winter (CB) rating 94.33 #16
