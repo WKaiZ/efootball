@@ -5,7 +5,7 @@ Starters:
   [AMF] Keven Alemán (AMF) rating 65.24 #23
   [CMF] Jonathan Osorio (CMF) rating 73.42 #21
   [DMF] Samuel Piette (DMF) rating 72.87 #6
-  [LB] Alphonso Davies (LB) rating 79.81 #19
+  [LB] Alphonso Davies (LB) rating 95.43 #19
   [CB] Derek Cornelius (CB) rating 74.54 #13
   [CB] Kamal Miller (CB) rating 73.72 #4
   [RB] Alistair Johnston (RB) rating 74.77 #2

@@ -21,7 +21,7 @@ Substitutes:
   [LB] Maxim De Cuyper (LB) rating 74.31 #25
   [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.95 #2
-  [RB] Thomas Meunier (RB) rating 93.22 #15
+  [RB] Thomas Meunier (RB) rating 74.65 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
