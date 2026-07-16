@@ -7,7 +7,7 @@ Starters:
   [DMF] Nabil Bentaleb (CMF) rating 93.41 #19
   [LB] Rayan Aït-Nouri (LB) rating 93.99 #15
   [CB] Ramy Bensebaini (CB) rating 95.53 #21
-  [CB] Aïssa Mandi (CB) rating 93.50 #2
+  [CB] Aïssa Mandi (CB) rating 75.07 #2
   [RB] Youcef Atal (RB) rating 72.66 #20
   [GK] Luca Zidane (GK) rating 72.40 #23
 
