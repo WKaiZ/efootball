@@ -14,9 +14,9 @@ Starters:
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
   [LWF] Paulo Dybala (SS) rating 94.37 #22
-  [RWF] Giuliano Simeone (RWF) rating 94.21 #16
+  [RWF] Ángel Di María (RWF) rating 94.53 #7
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
-  [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
+  [CMF] Enzo Fernández (CMF) rating 95.99 #24
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Facundo Medina (LB) rating 93.97 #25
   [CB] Nicolás Otamendi (CB) rating 78.72 #19
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Juan Musso (GK) rating 94.35 #1
 
 Wildcard:
-  [WILD] Enzo Fernández (CMF) rating 95.15 #24
+  [WILD] Giuliano Simeone (RMF) rating 95.63 #16
