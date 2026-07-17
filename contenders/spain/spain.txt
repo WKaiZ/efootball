@@ -1,6 +1,6 @@
 Starters:
   [CF] David Villa (CF) rating 99.41 #7
-  [LMF] Andrés Iniesta (LMF) rating 101.44 #6
+  [LMF] Andrés Iniesta (LMF) rating 100.29 #6
   [RWF] Lamine Yamal (RWF) rating 99.72 #19
   [AMF] Raúl (AMF) rating 96.98 #10
   [CMF] Xavi (CMF) rating 98.16 #8
