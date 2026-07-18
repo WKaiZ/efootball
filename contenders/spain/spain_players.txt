@@ -1,5 +1,5 @@
-David Villa, CF, 99.41, False, Epic, [CF, LWF, SS], [RWF, AMF, LMF]
 Raúl, CF, 98.86, False, Epic, [CF, SS, AMF], [LWF, RWF]
+David Villa, CF, 98.57, False, Epic, [CF, LWF, SS], [RWF, AMF, LMF]
 Fernando Morientes, CF, 97.96, False, Epic, [CF], [SS]
 Fernando Torres, CF, 96.02, False, Epic, [CF, SS], [LWF]
 Ferran Torres, CF, 95.83, True, Highlight, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
