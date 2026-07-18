@@ -25,4 +25,4 @@ Substitutes:
   [GK] Philipp Köhn (GK) rating 92.97 #21
 
 Wildcard:
-  [WILD] Johan Manzambi (RMF) rating 93.02 #9
+  [WILD] Yann Sommer (GK) rating 80.51 #12
