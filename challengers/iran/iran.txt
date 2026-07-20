@@ -1,5 +1,5 @@
 Starters:
-  [CF] Mehdi Taremi (CF) rating 91.38 #9
+  [CF] Mehdi Taremi (CF) rating 77.41 #9
   [LWF] Mehdi Ghayedi (LWF) rating 72.15 #10
   [RWF] Ali Gholizadeh (RWF) rating 71.20 #11
   [AMF] Saman Ghoddos (AMF) rating 72.32 #14
@@ -9,7 +9,7 @@ Starters:
   [CB] Hossein Kanaani (CB) rating 72.62 #13
   [CB] Majid Hosseini (CB) rating 71.80 #19
   [RB] Sadegh Moharrami (RB) rating 72.06 #2
-  [GK] Alireza Beiranvand (GK) rating 92.40 #1
+  [GK] Alireza Beiranvand (GK) rating 72.45 #1
 
 Substitutes:
   [CF] Sardar Azmoun (CF) rating 74.66 #20
