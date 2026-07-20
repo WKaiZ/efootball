@@ -1,0 +1,28 @@
+Starters:
+  [CF] Alexis Sánchez (CF) rating 93.44 #10
+  [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
+  [RWF] Darío Osorio (RWF) rating 73.26 #11
+  [AMF] Carlos Palacios (AMF) rating 75.06 #9
+  [CMF] Felipe Loyola (CMF) rating 75.39 #8
+  [DMF] Erick Pulgar (DMF) rating 75.99 #13
+  [LB] Gabriel Suazo (LB) rating 93.22 #17
+  [CB] Guillermo Maripán (CB) rating 75.81 #3
+  [CB] Paulo Díaz (CB) rating 74.42 #5
+  [RB] Fabián Hormazábal (RB) rating 71.85 #2
+  [GK] Gabriel Arias (GK) rating 73.57 #12
+
+Substitutes:
+  [CF] Fernando Zampedri (CF) rating 73.39 #22
+  [LWF] Jean Meneses (LWF) rating 72.13 #16
+  [RWF] Alexander Aravena (RWF) rating 72.94 #26
+  [AMF] Diego Valdés (AMF) rating 74.49 #15
+  [CMF] Charles Aránguiz (CMF) rating 74.14 #20
+  [DMF] Rodrigo Echeverría (DMF) rating 74.28 #18
+  [LB] Diego Ulloa (LB) rating 69.05 #24
+  [CB] Benjamín Kuscevic (CB) rating 73.92 #19
+  [CB] Igor Lichnovsky (CB) rating 73.43 #4
+  [RB] Óscar Opazo (RB) rating 70.78 #21
+  [GK] Brayan Cortés (GK) rating 73.46 #23
+
+Wildcard:
+  [WILD] Marcelino Núñez (CMF) rating 73.79 #7

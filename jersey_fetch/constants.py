@@ -63,6 +63,12 @@ MANUAL_ID_OVERRIDES = {
     "italy": {
         "luca pellegrini": {"player_id": "346567", "preserve_name": True},
     },
+    "chile": {
+        "carlos palacios": {"player_id": "571219", "preserve_name": True},
+        "marcelo morales": {"player_id": "841340", "preserve_name": True},
+        "nicolas fernandez": {"player_id": "549597", "preserve_name": True},
+        "matias fernandez": {"player_id": "402519", "preserve_name": True},
+    },
     "colombia": {
         "david silva": {"player_id": "74071", "preserve_name": True},
         "richard rios": {"player_id": "735573", "preserve_name": True},
