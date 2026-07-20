@@ -1,0 +1,30 @@
+Starters:
+  [CF] Gianluca Lapadula (CF) rating 72.25 #9
+  [LWF] Bryan Reyna (LWF) rating 71.35 #11
+  [RWF] Kevin Quevedo (RWF) rating 71.01 #22
+  [AMF] Edison Flores (AMF) rating 71.49 #20
+  [CMF] André Carrillo (CMF) rating 74.27 #18
+  [DMF] Renato Tapia (DMF) rating 74.29 #13
+  [LB] Marcos López (LB) rating 72.12 #4
+  [CB] Luis Abram (CB) rating 73.12 #2
+  [CB] Carlos Zambrano (CB) rating 72.69 #5
+  [RB] Luis Advíncula (RB) rating 74.38 #17
+  [GK] Pedro Gallese (GK) rating 74.44 #1
+
+Substitutes:
+  [CF] Álex Valera (CF) rating 71.89 #23
+  [LWF] Joao Grimaldo (LWF) rating 70.28 #7
+  [RWF] Andy Polo (RMF) rating 73.18 #8
+  [AMF] Sergio Peña (CMF) rating 71.65 #10
+  [CMF] Yoshimar Yotún (CMF) rating 72.30 #19
+  [DMF] Wilder Cartagena (DMF) rating 71.75 #14
+  [LB] VACANT
+  [CB] Miguel Araujo (CB) rating 71.56 #15
+  [CB] Erick Noriega (CB) rating 70.35 #3
+  [RB] VACANT
+  [GK] Diego Enríquez (GK) rating 71.10 #21
+
+Wildcard:
+  [WILD] Carlos Cáceda (GK) rating 71.08 #12
+  [WILD] Renzo Garcés (CB) rating 70.32 #25
+  [WILD] Luis Ramos (CF) rating 70.30 #16
