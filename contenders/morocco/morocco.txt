@@ -20,7 +20,7 @@ Substitutes:
   [DMF] Neil El Aynaoui (DMF) rating 94.23 #24
   [LB] Youssef Belammari (LB) rating 69.55 #19
   [CB] Jawad El Yamiq (CB) rating 74.27 #18
-  [CB] Issa Diop (CB) rating 93.98 #14
+  [CB] Issa Diop (CB) rating 75.97 #14
   [RB] Omar El Hilali (RB) rating 94.08 #15
   [GK] Munir El Kajoui (GK) rating 73.42 #12
 

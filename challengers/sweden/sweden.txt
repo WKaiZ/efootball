@@ -12,7 +12,7 @@ Starters:
   [GK] Viktor Johansson (GK) rating 74.42 #12
 
 Substitutes:
-  [CF] Alexander Isak (CF) rating 82.29 #9
+  [CF] Alexander Isak (CF) rating 96.84 #9
   [LWF] Jesper Karlsson (LWF) rating 73.30 #14
   [RWF] Anthony Elanga (RWF) rating 93.93 #11
   [AMF] Kerim Mrabti (AMF) rating 74.16 #13

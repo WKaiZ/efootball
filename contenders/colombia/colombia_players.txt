@@ -1,4 +1,5 @@
 Luis Díaz, LWF, 97.29, True, Showtime, [LWF, CF, LMF], [RWF, RMF]
+Jhon Arias, RWF, 94.34, True, Highlight, [LMF, LWF, AMF, CMF, RWF, RMF], [SS, DMF]
 James Rodríguez, AMF, 91.25, True, Highlight, [AMF, CMF, RWF], [LWF, CF, SS, LMF, RMF]
 Luis Díaz, LMF, 95.17, True, Highlight, [LWF, CF, LMF], [RWF, RMF]
 Juan Cuadrado, RMF, 95.13, False, Highlight, [RMF, RWF, RB], [CMF]

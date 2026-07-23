@@ -7,7 +7,7 @@ Starters:
   [DMF] Nemanja Gudelj (DMF) rating 93.13 #6
   [LB] Filip Mladenovic (LB) rating 71.79 #25
   [CB] Nikola Milenković (CB) rating 95.00 #4
-  [CB] Strahinja Pavlović (CB) rating 92.90 #3
+  [CB] Strahinja Pavlović (CB) rating 93.98 #3
   [RB] VACANT
   [GK] Predrag Rajković (GK) rating 78.56 #1
 

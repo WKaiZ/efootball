@@ -1,7 +1,7 @@
 Starters:
   [CF] Duván Zapata (CF) rating 78.09 #19
   [LWF] Luis Díaz (LWF) rating 97.29 #7
-  [RWF] Juan Cuadrado (RMF) rating 95.13 #11
+  [RWF] Jhon Arias (RWF) rating 94.34 #11
   [AMF] James Rodríguez (AMF) rating 91.25 #10
   [CMF] Eduard Atuesta (CMF) rating 73.25 #20
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16

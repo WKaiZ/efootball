@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Ederson (CMF) rating 94.97 #24
   [DMF] Edmílson (DMF) rating 96.70 #14
   [LB] Marcelo (LB) rating 97.92 #12
-  [CB] Murillo (CB) rating 95.27 #17
   [CB] Léo Pereira (CB) rating 94.91 #15
+  [CB] Murillo (CB) rating 94.98 #17
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 

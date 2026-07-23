@@ -4,7 +4,7 @@ Filip Kostić, LMF, 94.29, False, Highlight, [LMF, LWF, LB], [AMF, RWF]
 Ivan Ilić, CMF, 93.15, False, Highlight, [CMF, DMF], [AMF]
 Nemanja Gudelj, DMF, 93.13, False, Highlight, [CMF, DMF, CB], []
 Nikola Milenković, CB, 95.00, False, Highlight, [CB], []
-Strahinja Pavlović, CB, 92.90, False, Highlight, [CB], []
+Strahinja Pavlović, CB, 93.98, False, Highlight, [CB], []
 Mile Svilar, GK, 95.04, False, Highlight, [GK], []
 
 Dejan Joveljić, CF, 75.81, False, Standard, [CF], [SS]

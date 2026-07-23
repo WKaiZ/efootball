@@ -1,4 +1,5 @@
 Zlatan Ibrahimović, CF, 100.30, False, Epic, [CF], [SS]
+Alexander Isak, CF, 96.84, True, Highlight, [CF], [LWF, SS]
 Williot Swedberg, LWF, 94.20, False, Highlight, [LWF, LMF, AMF, CMF], [DMF]
 Dejan Kulusevski, RWF, 96.43, False, Highlight, [RWF, RMF, SS, AMF], [LWF, LMF, CF, CMF]
 Anthony Elanga, RWF, 93.93, True, Highlight, [LWF, LMF, CF, RWF, RMF], []
@@ -16,7 +17,6 @@ Isak Hien, CB, 93.44, False, Highlight, [CB], []
 Victor Lindelöf, CB, 91.56, True, Highlight, [CB], [LB, RB]
 Daniel Svensson, LB, 94.12, True, Highlight, [LB, LMF, CMF], [DMF, RB]
 
-Alexander Isak, CF, 82.29, True, Standard, [CF], [LWF, SS]
 Viktor Gyökeres, CF, 80.43, True, Standard, [CF], [SS]
 Gustaf Nilsson, CF, 73.26, True, Standard, [CF], [SS]
 Viktor Claesson, CF, 73.22, False, Standard, [LWF, LMF, CF, SS, AMF], [CMF, RWF, RMF]

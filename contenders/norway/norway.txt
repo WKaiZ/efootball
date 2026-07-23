@@ -1,11 +1,11 @@
 Starters:
-  [CF] Erling Haaland (CF) rating 100.14 #9
+  [CF] Erling Haaland (CF) rating 100.47 #9
   [LWF] Antonio Nusa (LWF) rating 94.97 #20
   [RWF] Oscar Bobb (RWF) rating 75.12 #22
   [AMF] Kristian Thorstvedt (AMF) rating 93.18 #18
   [CMF] Martin Ødegaard (CMF) rating 97.57 #10
   [DMF] Sander Berge (DMF) rating 94.44 #8
-  [LB] Fredrik Bjørkan (LB) rating 73.17 #15
+  [LB] David Møller Wolfe (LB) rating 93.08 #5
   [CB] Jakob Glesnes (CB) rating 74.37 #6
   [CB] Kristoffer Ajer (CB) rating 75.82 #3
   [RB] Julian Ryerson (RB) rating 94.41 #26
@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
   [CMF] Fredrik Aursnes (CMF) rating 78.12 #14
   [DMF] Lasse Berg Johnsen (DMF) rating 69.05 #23
-  [LB] Birger Meling (LB) rating 72.28 #5
+  [LB] Fredrik Bjørkan (LB) rating 73.17 #15
   [CB] Leo Østigård (CB) rating 74.14 #4
   [CB] Stian Gregersen (CB) rating 73.53 #2
   [RB] Marcus Pedersen (RB) rating 73.94 #16
