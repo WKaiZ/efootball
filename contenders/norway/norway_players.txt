@@ -1,4 +1,4 @@
-Erling Haaland, CF, 100.47, True, BigTime, [CF], [SS]
+Erling Haaland, CF, 99.85, True, BigTime, [CF], [SS]
 Alexander Sørloth, CF, 96.18, True, Showtime, [CF], [LWF, RWF, SS]
 Jørgen Strand Larsen, CF, 94.28, True, Highlight, [CF], [LWF, RWF, SS]
 Antonio Nusa, LWF, 94.97, True, Highlight, [LWF, RWF, LMF, RMF], [CF, LB]

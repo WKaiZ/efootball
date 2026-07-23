@@ -1,5 +1,5 @@
 Starters:
-  [CF] Erling Haaland (CF) rating 100.47 #9
+  [CF] Erling Haaland (CF) rating 99.85 #9
   [LWF] Antonio Nusa (LWF) rating 94.97 #20
   [RWF] Oscar Bobb (RWF) rating 75.12 #22
   [AMF] Kristian Thorstvedt (AMF) rating 93.18 #18
