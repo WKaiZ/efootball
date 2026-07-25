@@ -1,7 +1,7 @@
 Starters:
   [CF] Heung-min Son (CF) rating 96.92 #7
   [LWF] Min-kyu Song (LWF) rating 70.89 #11
-  [RWF] Kang-in Lee (RWF) rating 97.04 #19
+  [RWF] Kang-in Lee (RWF) rating 77.50 #19
   [AMF] Jae-sung Lee (AMF) rating 93.23 #10
   [CMF] In-beom Hwang (CMF) rating 73.57 #6
   [DMF] Yong-woo Park (DMF) rating 71.28 #8
