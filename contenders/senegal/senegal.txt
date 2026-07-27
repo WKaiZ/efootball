@@ -6,7 +6,7 @@ Starters:
   [CMF] Pape Matar Sarr (CMF) rating 95.30 #17
   [DMF] Idrissa Gueye (DMF) rating 94.29 #5
   [LB] El Hadji Malick Diouf (LB) rating 94.22 #25
-  [CB] Kalidou Koulibaly (CB) rating 95.47 #3
+  [CB] Kalidou Koulibaly (CB) rating 94.48 #3
   [CB] Moussa Niakhaté (CB) rating 93.28 #19
   [RB] Krépin Diatta (RB) rating 93.19 #15
   [GK] Edouard Mendy (GK) rating 95.14 #16

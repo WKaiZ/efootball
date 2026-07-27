@@ -19,7 +19,7 @@ Substitutes:
   [CMF] Enzo Fernández (CMF) rating 95.99 #24
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Facundo Medina (LB) rating 93.97 #25
-  [CB] Nicolás Otamendi (CB) rating 78.72 #19
+  [CB] Nicolás Otamendi (CB) rating 95.26 #19
   [CB] Nehuén Pérez (CB) rating 94.16 #3
   [RB] Gonzalo Montiel (RB) rating 93.22 #4
   [GK] Juan Musso (GK) rating 94.35 #1
