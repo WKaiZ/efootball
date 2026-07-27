@@ -9,7 +9,7 @@ Starters:
   [CB] Franz Beckenbauer (CB) rating 99.41 #5
   [CB] Emre Can (CB) rating 96.47 #23
   [RB] Philipp Lahm (RB) rating 100.12 #16
-  [GK] Manuel Neuer (GK) rating 100.97 #1
+  [GK] Manuel Neuer (GK) rating 100.29 #1
 
 Substitutes:
   [CF] Gerd Müller (CF) rating 99.05 #13

@@ -4,7 +4,7 @@ Starters:
   [RWF] Iliman Ndiaye (RWF) rating 95.45 #13
   [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Matar Sarr (CMF) rating 95.30 #17
-  [DMF] Idrissa Gueye (DMF) rating 94.29 #5
+  [DMF] Pape Gueye (DMF) rating 95.17 #26
   [LB] El Hadji Malick Diouf (LB) rating 94.22 #25
   [CB] Kalidou Koulibaly (CB) rating 94.48 #3
   [CB] Moussa Niakhaté (CB) rating 93.28 #19
@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Ibrahim Mbaye (RWF) rating 91.31 #20
   [AMF] Habib Diarra (CMF) rating 74.24 #6
   [CMF] Lamine Camara (CMF) rating 94.07 #8
-  [DMF] Pape Gueye (DMF) rating 94.22 #26
+  [DMF] Idrissa Gueye (DMF) rating 94.29 #5
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Mamadou Sarr (CB) rating 74.61 #2
   [CB] Abdoulaye Seck (CB) rating 73.52 #4

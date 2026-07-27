@@ -15,7 +15,7 @@ Substitutes:
   [CF] Loïs Openda (CF) rating 95.40 #9
   [LMF] Malick Fofana (LMF) rating 94.21 #19
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #11
-  [AMF] Kevin De Bruyne (AMF) rating 99.23 #14
+  [AMF] Kevin De Bruyne (AMF) rating 97.41 #14
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Maxim De Cuyper (LB) rating 74.31 #25

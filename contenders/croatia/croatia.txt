@@ -3,7 +3,7 @@ Starters:
   [LWF] Ivan Perišić (LMF) rating 94.38 #14
   [RWF] Marco Pašalić (RWF) rating 94.24 #24
   [AMF] Nikola Vlašić (AMF) rating 94.99 #13
-  [CMF] Luka Modrić (CMF) rating 99.42 #10
+  [CMF] Luka Modrić (CMF) rating 98.25 #10
   [DMF] Petar Sučić (DMF) rating 93.75 #17
   [LB] Josko Gvardiol (LB) rating 95.77 #4
   [CB] Martin Erlić (CB) rating 93.06 #25
