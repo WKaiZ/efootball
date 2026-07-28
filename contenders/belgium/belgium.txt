@@ -12,7 +12,7 @@ Starters:
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 95.40 #9
+  [CF] Romelu Lukaku (CF) rating 94.94 #9
   [LMF] Malick Fofana (LMF) rating 94.21 #19
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #11
   [AMF] Kevin De Bruyne (AMF) rating 97.41 #14

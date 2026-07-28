@@ -1,5 +1,4 @@
 Charles De Ketelaere, CF, 97.93, True, Showtime, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]
-Loïs Openda, CF, 95.40, False, Highlight, [CF], [LWF, RWF, SS]
 Romelu Lukaku, CF, 94.94, True, Highlight, [CF], [SS]
 Matias Fernandez-Pardo, CF, 92.01, True, Highlight, [CF, LWF, RWF], [SS, LMF, RMF]
 Charles De Ketelaere, SS, 95.17, True, Highlight, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]
