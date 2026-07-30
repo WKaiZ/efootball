@@ -2,7 +2,7 @@ Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
   [LWF] Breel Embolo (CF) rating 93.99 #7
   [RWF] Dan Ndoye (RWF) rating 94.18 #11
-  [AMF] Johan Manzambi (AMF) rating 98.14 #9
+  [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
   [LB] Ricardo Rodríguez (LB) rating 92.98 #13

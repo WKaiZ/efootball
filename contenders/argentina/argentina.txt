@@ -3,7 +3,7 @@ Starters:
   [LWF] Giuliano Simeone (RMF) rating 95.63 #17
   [RWF] Lionel Messi (RWF) rating 101.48 #10
   [AMF] Nico Paz (AMF) rating 98.59 #18
-  [CMF] Enzo Fernández (CMF) rating 99.45 #24
+  [CMF] Enzo Fernández (CMF) rating 98.78 #24
   [DMF] Alan Varela (DMF) rating 94.32 #21
   [LB] Javier Zanetti (LB) rating 99.02 #8
   [CB] Cristian Romero (CB) rating 97.80 #13

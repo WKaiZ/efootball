@@ -12,7 +12,7 @@ Starters:
   [GK] Andriy Lunin (GK) rating 91.28 #1
 
 Substitutes:
-  [CF] Artem Dovbyk (CF) rating 95.15 #11
+  [CF] Artem Dovbyk (CF) rating 78.98 #11
   [LWF] Danylo Sikan (CF) rating 70.91 #9
   [RWF] Oleksandr Zubkov (RWF) rating 75.15 #19
   [AMF] Ruslan Malinovskyi (AMF) rating 77.06 #8

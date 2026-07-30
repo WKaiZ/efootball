@@ -1,10 +1,10 @@
 Andriy Shevchenko, CF, 95.67, False, Epic, [CF, SS], [LWF, LMF, RWF, RMF, AMF]
-Artem Dovbyk, CF, 95.15, True, Highlight, [CF], [SS, RWF]
 Yegor Yarmolyuk, AMF, 93.26, False, Highlight, [AMF, CMF], [SS]
 Ilya Zabarnyi, CB, 94.98, True, Highlight, [CB], []
 Vitaliy Mykolenko, LB, 93.23, True, Highlight, [LB], [LMF, CB, RB]
 Andriy Lunin, GK, 91.28, False, Highlight, [GK], []
 
+Artem Dovbyk, CF, 78.98, True, Standard, [CF], [SS, RWF]
 Roman Yaremchuk, CF, 74.43, True, Standard, [CF], [LWF, RWF, LMF, RMF, SS, AMF]
 Danylo Sikan, CF, 70.91, False, Standard, [LWF, CF, SS], [LMF, RWF, RMF, AMF]
 Mykhaylo Mudryk, LWF, 74.89, False, Standard, [LWF, LMF], [CF, SS, AMF, RWF, RMF]

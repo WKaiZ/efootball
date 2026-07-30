@@ -1,7 +1,7 @@
 Noah Okafor, CF, 95.18, True, Highlight, [CF, LMF, LWF, RWF, RMF], [SS]
 Breel Embolo, CF, 93.99, True, Highlight, [CF, LWF, RWF, SS], [LMF, AMF, RMF]
 Dan Ndoye, RWF, 94.18, True, Highlight, [CF, RWF, RMF], [LWF, SS, AMF, LMF]
-Johan Manzambi, AMF, 98.14, False, Showtime, [AMF, CMF, RMF, RWF], [SS, DMF]
+Johan Manzambi, AMF, 97.37, False, Showtime, [AMF, CMF, RMF, RWF], [SS, DMF]
 Dan Ndoye, LMF, 93.45, True, Highlight, [CF, RWF, RMF, LMF], [LWF, SS, AMF]
 Rubén Vargas, LMF, 93.13, True, Highlight, [LMF, LWF, RMF], [CF, RWF]
 Dan Ndoye, RMF, 93.40, True, Highlight, [CF, RWF, RMF], [LWF, SS, AMF, LMF]
