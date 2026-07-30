@@ -18,11 +18,11 @@ Substitutes:
   [AMF] Kevin De Bruyne (AMF) rating 97.41 #14
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Axel Witsel (DMF) rating 75.86 #6
-  [LB] Maxim De Cuyper (LB) rating 74.31 #25
+  [LB] Joaquin Seys (LB) rating 93.38 #22
   [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.95 #2
   [RB] Thomas Meunier (RB) rating 74.65 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Jérémy Doku (LWF) rating 96.99 #22
+  [WILD] Jérémy Doku (LWF) rating 96.99 #25

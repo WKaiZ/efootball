@@ -2,7 +2,7 @@ Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
   [LWF] Breel Embolo (CF) rating 93.99 #7
   [RWF] Dan Ndoye (RWF) rating 94.18 #11
-  [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
+  [AMF] Johan Manzambi (AMF) rating 98.14 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
   [LB] Ricardo Rodríguez (LB) rating 92.98 #13
@@ -12,7 +12,7 @@ Starters:
   [GK] Gregor Kobel (GK) rating 95.39 #1
 
 Substitutes:
-  [CF] Zeki Amdouni (CF) rating 73.77 #25
+  [CF] Zeki Amdouni (CF) rating 73.77 #23
   [LWF] Rubén Vargas (LMF) rating 93.13 #18
   [RWF] Christian Fassnacht (RWF) rating 73.55 #16
   [AMF] Fabian Rieder (AMF) rating 72.73 #22

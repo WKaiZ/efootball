@@ -3,6 +3,7 @@ Paul Onuachu, CF, 96.37, True, Showtime, [CF], [SS]
 Ademola Lookman, CF, 95.37, False, Highlight, [CF, LWF, RWF, SS, LMF, RMF], [AMF]
 Alex Iwobi, AMF, 93.21, True, Highlight, [AMF, CMF, LWF, RWF, LMF, RMF], [SS]
 Alex Iwobi, LMF, 94.93, True, Highlight, [AMF, CMF, LWF, RWF, LMF, RMF], [SS]
+Ademola Lookman, LMF, 94.21, False, Highlight, [CF, LWF, RWF, SS, LMF, RMF], [AMF]
 Alex Iwobi, CMF, 93.65, True, Highlight, [AMF, CMF, LWF, RWF, LMF, RMF], [SS, DMF]
 Calvin Bassey, CB, 94.52, True, Highlight, [CB, LB], [LMF]
 

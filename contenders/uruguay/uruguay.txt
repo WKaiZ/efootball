@@ -25,4 +25,4 @@ Substitutes:
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Wildcard:
-  [WILD] Maximiliano Araujo (LMF) rating 93.96 #20
+  [WILD] Maximiliano Araujo (LB) rating 93.98 #20

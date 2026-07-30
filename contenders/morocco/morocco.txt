@@ -1,7 +1,7 @@
 Starters:
   [CF] Ayoub El Kaabi (CF) rating 94.26 #20
-  [LWF] Abde Ezzalzouli (LMF) rating 94.26 #16
-  [RWF] Amine Adli (AMF) rating 94.14 #21
+  [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
+  [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
   [CMF] Ayyoub Bouaddi (CMF) rating 93.33 #6
   [DMF] Sofyan Amrabat (DMF) rating 94.41 #4
@@ -15,7 +15,7 @@ Substitutes:
   [CF] Soufiane Rahimi (CF) rating 93.00 #9
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
   [RWF] Zakaria Aboukhlal (RWF) rating 74.22 #17
-  [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
+  [AMF] Amine Adli (AMF) rating 94.14 #21
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Neil El Aynaoui (DMF) rating 94.23 #24
   [LB] Youssef Belammari (LB) rating 69.55 #19

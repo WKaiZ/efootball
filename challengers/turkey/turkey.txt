@@ -15,7 +15,7 @@ Substitutes:
   [CF] Cenk Tosun (CF) rating 73.21 #21
   [LWF] Kerem Aktürkoğlu (LWF) rating 77.21 #7
   [RWF] Cengiz Ünder (RWF) rating 74.86 #16
-  [AMF] Can Uzun (AMF) rating 93.39 #26
+  [AMF] Can Uzun (AMF) rating 94.16 #26
   [CMF] Berkay Özcan (CMF) rating 72.77 #27
   [DMF] Salih Özcan (DMF) rating 75.26 #5
   [LB] Eren Elmalı (LB) rating 73.27 #13
