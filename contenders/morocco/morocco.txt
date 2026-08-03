@@ -4,7 +4,7 @@ Starters:
   [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
   [CMF] Sofyan Amrabat (DMF) rating 94.41 #4
-  [DMF] Ayyoub Bouaddi (DMF) rating 98.22 #6
+  [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
   [CB] Nayef Aguerd (CB) rating 95.28 #5
   [CB] Adam Masina (CB) rating 94.55 #25

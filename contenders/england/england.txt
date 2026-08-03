@@ -2,7 +2,7 @@ Starters:
   [CF] Michael Owen (CF) rating 98.13 #20
   [LWF] Anthony Gordon (LWF) rating 96.00 #18
   [RMF] David Beckham (RMF) rating 99.07 #7
-  [AMF] Jude Bellingham (AMF) rating 100.24 #10
+  [AMF] Jude Bellingham (AMF) rating 99.15 #10
   [CMF] Declan Rice (CMF) rating 98.93 #4
   [DMF] Elliot Anderson (DMF) rating 97.99 #8
   [LB] Nico O'Reilly (LB) rating 96.40 #3
