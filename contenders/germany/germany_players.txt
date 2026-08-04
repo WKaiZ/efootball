@@ -58,7 +58,6 @@ Philipp Lahm, RB, 100.12, False, Epic, [RB, LB, DMF], [CMF, LMF, RMF]
 Joshua Kimmich, RB, 95.99, True, Highlight, [RB, DMF, CMF], [RMF, CB]
 Manuel Neuer, GK, 100.29, True, Showtime, [GK], []
 Oliver Kahn, GK, 97.27, False, Epic, [GK], []
-Marc-André ter Stegen, GK, 95.38, False, Highlight, [GK], []
 Kevin Trapp, GK, 94.34, False, Highlight, [GK], []
 Oliver Baumann, GK, 94.22, True, Highlight, [GK], []
 

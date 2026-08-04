@@ -9,7 +9,7 @@ Starters:
   [CB] Jakob Glesnes (CB) rating 74.37 #6
   [CB] Kristoffer Ajer (CB) rating 75.82 #3
   [RB] Julian Ryerson (RB) rating 94.41 #26
-  [GK] Ørjan Nyland (GK) rating 92.88 #1
+  [GK] Egil Selvik (GK) rating 72.64 #13
 
 Substitutes:
   [CF] Alexander Sørloth (CF) rating 96.18 #7
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Leo Østigård (CB) rating 74.14 #4
   [CB] Stian Gregersen (CB) rating 73.53 #2
   [RB] Marcus Pedersen (RB) rating 73.94 #16
-  [GK] Egil Selvik (GK) rating 72.64 #13
+  [GK] Ørjan Nyland (GK) rating 72.52 #1
 
 Wildcard:
   [WILD] Torbjørn Heggem (CB) rating 72.52 #17
