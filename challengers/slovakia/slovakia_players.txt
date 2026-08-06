@@ -1,4 +1,4 @@
-Stanislav Lobotka, DMF, 94.03, False, Highlight, [CMF, DMF], [AMF]
+Stanislav Lobotka, DMF, 93.21, False, Highlight, [CMF, DMF], [AMF]
 Dávid Hancko, CB, 94.55, False, Highlight, [LB, CB], [LMF]
 Dominik Greif, GK, 92.99, False, Highlight, [GK], []
 

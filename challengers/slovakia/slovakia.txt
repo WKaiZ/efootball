@@ -4,7 +4,7 @@ Starters:
   [RWF] Tomas Suslov (AMF) rating 72.39 #7
   [AMF] David Strelec (CF) rating 70.37 #15
   [CMF] László Bénes (CMF) rating 72.83 #10
-  [DMF] Stanislav Lobotka (DMF) rating 94.03 #22
+  [DMF] Stanislav Lobotka (DMF) rating 93.21 #22
   [LB] Adam Obert (CB) rating 70.73 #4
   [CB] Dávid Hancko (CB) rating 94.55 #16
   [CB] Milan Škriniar (CB) rating 78.58 #14
