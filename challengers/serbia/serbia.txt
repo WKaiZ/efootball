@@ -1,6 +1,6 @@
 Starters:
   [CF] Dušan Vlahović (CF) rating 95.81 #23
-  [LWF] Filip Kostić (LMF) rating 94.29 #11
+  [LWF] Veljko Birmancevic (LWF) rating 74.31 #7
   [RWF] Nikola Cumic (RWF) rating 70.00 #21
   [AMF] Dragan Stojkovic (AMF) rating 98.47 #10
   [CMF] Ivan Ilić (CMF) rating 93.15 #17
@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Dejan Joveljić (CF) rating 75.81 #19
-  [LWF] Veljko Birmancevic (LWF) rating 74.31 #7
-  [RWF] Darko Lazović (LMF) rating 73.75 #22
-  [AMF] Lazar Samardžić (AMF) rating 76.99 #8
+  [LWF] Darko Lazović (LMF) rating 73.75 #22
+  [RWF] Mihailo Ivanović (CF) rating 71.72 #18
+  [AMF] Lazar Samardžić (AMF) rating 76.99 #11
   [CMF] Sergej Milinković-Savić (CMF) rating 78.80 #20
   [DMF] Nemanja Matić (DMF) rating 76.28 #14
   [LB] VACANT
@@ -26,5 +26,5 @@ Substitutes:
 
 Wildcard:
   [WILD] Nemanja Maksimovic (CMF) rating 76.06 #16
-  [WILD] Mihailo Ivanović (CF) rating 71.72 #18
   [WILD] Veljko Milosavljevic (CB) rating 70.76 #15
+  [WILD] Petar Ratkov (CF) rating 70.63 #9

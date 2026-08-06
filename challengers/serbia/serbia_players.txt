@@ -1,6 +1,5 @@
 Dušan Vlahović, CF, 95.81, False, Highlight, [CF], [SS]
 Dragan Stojkovic, AMF, 98.47, False, Epic, [SS, AMF], [CMF]
-Filip Kostić, LMF, 94.29, False, Highlight, [LMF, LWF, LB], [AMF, RWF]
 Ivan Ilić, CMF, 93.15, False, Highlight, [CMF, DMF], [AMF]
 Nemanja Gudelj, DMF, 93.13, False, Highlight, [CMF, DMF, CB], []
 Nikola Milenković, CB, 95.00, False, Highlight, [CB], []
