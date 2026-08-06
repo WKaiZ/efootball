@@ -4,7 +4,7 @@ Starters:
   [RWF] Gustav Isaksen (RWF) rating 93.22 #8
   [AMF] Mikkel Damsgaard (AMF) rating 95.43 #14
   [CMF] Pierre-Emile Højbjerg (CMF) rating 95.28 #23
-  [DMF] Christian Nørgaard (DMF) rating 94.45 #15
+  [DMF] Morten Hjulmand (DMF) rating 78.19 #21
   [LB] Patrick Dorgu (LB) rating 94.06 #17
   [CB] Andreas Christensen (CB) rating 93.40 #6
   [CB] Joachim Andersen (CB) rating 78.21 #2
@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Anders Dreyer (RWF) rating 76.98 #20
   [AMF] Noah Nartey (AMF) rating 72.18 #19
   [CMF] Mathias Jensen (CMF) rating 94.00 #7
-  [DMF] Morten Hjulmand (DMF) rating 78.19 #21
+  [DMF] Christian Nørgaard (DMF) rating 76.32 #15
   [LB] Joakim Maehle (LB) rating 75.98 #5
   [CB] Victor Nelsson (CB) rating 76.30 #3
   [CB] Jannik Vestergaard (CB) rating 74.72 #4
