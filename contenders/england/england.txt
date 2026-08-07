@@ -1,6 +1,6 @@
 Starters:
-  [CF] Michael Owen (CF) rating 98.13 #20
-  [LWF] Anthony Gordon (LWF) rating 96.00 #18
+  [CF] Michael Owen (CF) rating 98.13 #18
+  [LMF] Paul Scholes (LMF) rating 97.16 #11
   [RMF] David Beckham (RMF) rating 99.07 #7
   [AMF] Jude Bellingham (AMF) rating 99.15 #10
   [CMF] Declan Rice (CMF) rating 98.93 #4
@@ -13,8 +13,8 @@ Starters:
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
-  [LWF] Marcus Rashford (LWF) rating 94.34 #11
-  [RMF] Cole Palmer (RMF) rating 98.93 #19
+  [LMF] Jack Grealish (LMF) rating 93.95 #17
+  [RMF] Cole Palmer (RMF) rating 98.93 #20
   [AMF] Eberechi Eze (AMF) rating 96.12 #21
   [CMF] Steven Gerrard (CMF) rating 98.58 #16
   [DMF] Jordan Henderson (DMF) rating 96.28 #14
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Jordan Pickford (GK) rating 94.98 #13
 
 Wildcard:
-  [WILD] Frank Lampard (CMF) rating 98.11 #17
+  [WILD] Kobbie Mainoo (CMF) rating 97.97 #26
