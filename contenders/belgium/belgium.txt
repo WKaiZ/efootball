@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Charles De Ketelaere (CF) rating 97.93 #17
   [LMF] Leandro Trossard (LMF) rating 97.34 #10
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Jérémy Doku (LWF) rating 96.99 #25
+
+Second Squad
+
+Starters:
+  [CF] Matias Fernandez-Pardo (CF) rating 92.01 #26
+  [LWF] Eden Hazard (LWF) rating 95.99 #10
+  [RWF] Malick Fofana (LWF) rating 95.26 #9
+  [AMF] Charles De Ketelaere (AMF) rating 94.99 #17
+  [CMF] Hans Vanaken (AMF) rating 93.99 #20
+  [DMF] Roméo Lavia (DMF) rating 94.46 #18
+  [LB] Maxim De Cuyper (LB) rating 74.31 #5
+  [CB] Arthur Theate (CB) rating 94.49 #3
+  [CB] Brandon Mechele (CB) rating 76.48 #4
+  [RB] Alexis Saelemaekers (RMF) rating 94.99 #22
+  [GK] Senne Lammens (GK) rating 93.00 #12
+
+Substitutes:
+  [CF] Loïs Openda (CF) rating 80.17 #19
+  [LWF] Leandro Trossard (LWF) rating 79.24 #11
+  [RWF] Thorgan Hazard (LWF) rating 75.25 #16
+  [AMF] Dennis Praet (AMF) rating 72.84 #7
+  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
+  [DMF] Leander Dendoncker (DMF) rating 74.97 #6
+  [LB] Jorthy Mokio (DMF) rating 70.23 #21
+  [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
+  [CB] Nathan Ngoy (CB) rating 71.86 #25
+  [RB] VACANT
+  [GK] Davy Roef (GK) rating 74.61 #1
+
+Wildcard:
+  [WILD] Mike Penders (GK) rating 74.58 #13
+  [WILD] Orel Mangala (CMF) rating 74.33 #8
