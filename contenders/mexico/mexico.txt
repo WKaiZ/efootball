@@ -16,23 +16,23 @@ Starters:
 Substitutes:
   [CF] Santiago Gimenez (CF) rating 93.82 #17
   [LWF] Efraín Álvarez (RMF) rating 73.40 #18
-  [RWF] Henry Martin (CF) rating 75.14 #6
+  [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
   [AMF] Brian Gutiérrez (LMF) rating 74.15 #26
   [CMF] Héctor Herrera (CMF) rating 73.86 #16
   [DMF] Luis Romo (DMF) rating 75.48 #7
   [LB] Mateo Chávez (LB) rating 70.63 #20
-  [CB] Gilberto Sepúlveda (CB) rating 73.37 #22
   [CB] Johan Vasquez (CB) rating 73.36 #5
+  [CB] VACANT
   [RB] Rodrigo Huescas (RB) rating 73.29 #19
   [GK] Raúl Rangel (GK) rating 73.63 #12
 
 Wildcard:
-  [WILD] Néstor Araújo (CB) rating 72.23 #3
+  [WILD] Henry Martin (CF) rating 75.14 #6
 
 Second Squad
 
 Starters:
-  [CF] Ángel Sepúlveda (CF) rating 73.33 #20
+  [CF] Armando González (CF) rating 70.49 #14
   [LWF] César Huerta (LWF) rating 73.90 #21
   [RWF] VACANT
   [AMF] Omar Govea (CMF) rating 72.37 #8
@@ -45,7 +45,7 @@ Starters:
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] Armando González (CF) rating 70.49 #14
+  [CF] VACANT
   [LWF] VACANT
   [RWF] VACANT
   [AMF] VACANT
