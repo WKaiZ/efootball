@@ -100,3 +100,4 @@ Robert Sánchez, GK, 93.99, False, Highlight, [GK], []
 David de Gea, GK, 93.04, False, Highlight, [GK], []
 
 Víctor Muñoz, LWF, 70.63, True, Standard, [LWF, CF, LMF, RWF, RMF], [SS, AMF]
+Iñigo Martínez, CB, 78.41, False, Standard, [CB], [LB]

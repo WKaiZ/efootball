@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Raúl (CF) rating 98.86 #7
   [LMF] Andrés Iniesta (LMF) rating 100.29 #6
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] David Raya (GK) rating 98.82 #1
+
+Second Squad
+
+Starters:
+  [CF] Fernando Morientes (CF) rating 97.96 #10
+  [LWF] Álex Baena (LWF) rating 96.32 #15
+  [RMF] Lamine Yamal (RMF) rating 98.94 #19
+  [SS] Raúl (SS) rating 95.50 #7
+  [CMF] Andrés Iniesta (CMF) rating 97.70 #6
+  [DMF] Sergio Busquets (DMF) rating 98.11 #5
+  [LB] Jordi Alba (LB) rating 97.74 #18
+  [CB] Dean Huijsen (CB) rating 96.56 #12
+  [CB] Dani Vivian (CB) rating 95.07 #4
+  [RB] Marc Pubill (RB) rating 95.06 #2
+  [GK] Iker Casillas (GK) rating 98.59 #1
+
+Substitutes:
+  [CF] Ferran Torres (CF) rating 96.88 #21
+  [LWF] Nico Williams (LWF) rating 95.76 #17
+  [RMF] Sergi Roberto (RB) rating 93.44 #20
+  [SS] Yéremy Pino (SS) rating 95.33 #11
+  [CMF] Thiago Alcántara (CMF) rating 95.98 #22
+  [DMF] Xavi (DMF) rating 97.06 #8
+  [LB] Alejandro Balde (LB) rating 95.80 #3
+  [CB] Iñigo Martínez (CB) rating 78.41 #16
+  [CB] Aymeric Laporte (CB) rating 94.54 #14
+  [RB] Lucas Vázquez (RB) rating 93.81 #9
+  [GK] Álex Remiro (GK) rating 95.02 #13
+
+Wildcard:
+  [WILD] Fermín López (AMF) rating 95.65 #25
