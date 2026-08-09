@@ -48,18 +48,59 @@ def load_roles(conn, country_name):
     return roles_by_pos
 
 
-def load_formation(formation_file):
-    if not os.path.exists(formation_file):
-        return DEFAULT_FORMATION[:]
-    with open(formation_file, "r", encoding="utf-8") as f:
-        raw_lines = [line.strip() for line in f if line.strip() and not line.strip().startswith("#")]
+def _parse_formation_block(lines):
     slots = []
-    for line in raw_lines:
-        parts = [p.strip().upper() for p in line.split(",") if p.strip()]
+    for line in lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        parts = [p.strip().upper() for p in stripped.split(",") if p.strip()]
         slots.extend(parts)
-    if not slots:
-        return DEFAULT_FORMATION[:]
     return slots
+
+
+def load_formations(formation_file):
+    """Return (primary_formation, secondary_formation_or_None).
+
+    Blocks in ``*_formation.txt`` are separated by a blank line. The first
+    non-empty block is the primary (first-squad) formation. If a second block
+    is present it is used for the contender second squad; otherwise the second
+    squad reuses the primary formation.
+    """
+    if not os.path.exists(formation_file):
+        return DEFAULT_FORMATION[:], None
+
+    with open(formation_file, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    blocks = []
+    current = []
+    for line in lines:
+        if not line.strip():
+            if current:
+                blocks.append(current)
+                current = []
+            continue
+        current.append(line)
+    if current:
+        blocks.append(current)
+
+    formations = []
+    for block in blocks:
+        slots = _parse_formation_block(block)
+        if slots:
+            formations.append(slots)
+
+    if not formations:
+        return DEFAULT_FORMATION[:], None
+    if len(formations) == 1:
+        return formations[0], None
+    return formations[0], formations[1]
+
+
+def load_formation(formation_file):
+    primary, _secondary = load_formations(formation_file)
+    return primary
 
 
 def resolve_country_paths(country_folder):

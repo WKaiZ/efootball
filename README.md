@@ -58,9 +58,11 @@ Either one position per line or a single comma-separated line of 11 positions. I
 CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
 ```
 
+For **contenders**, a second formation may be listed after a blank line. The first block is used for the First Squad; the second block (when present) is used for the Second Squad. If no second block is given, the Second Squad reuses the first formation.
+
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `draft_gameplan.py`. Lists Starters, Substitutes, and the Wildcard with each player's slot, main position, rating, and assigned jersey number.
+The drafted gameplan written by `draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass).
 
 ---
 
@@ -128,7 +130,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `country_locator.py` — Shared `resolve_country_dir` helper. Maps a bare country name (or group-qualified path) to its folder under `contenders/` or `challengers/`, so every stage keeps accepting bare names after the ranking-based reorg.
 - `fetch_number.py` / `fetch_numbers.py` — Thin wrappers that `asyncio.run(jersey_fetch.run.main())`.
 - `fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `draft_gameplan.py` — Loads the formation, loads `game_data` rows for the country, calls `gameplan.builder.build_gameplan`, and writes the human-readable gameplan to both stdout and `<country>/<country>.txt`.
+- `draft_gameplan.py` — Loads the formation(s), loads `game_data` rows for the country, calls `gameplan.builder.build_gameplan`, and writes the human-readable gameplan to both stdout and `<country>/<country>.txt`. For contenders only, runs a second pass excluding first-squad cards (`player_id` + main position), optionally on a second formation block, and writes First Squad / Second Squad.
 - `draft_gameplan_rules.txt` — Reference document describing the draft rules implemented in `gameplan/`.
 - `requirements.txt` — Python dependencies.
 - `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
@@ -155,7 +157,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `lineup.py` — `choose_initial_lineup` performs Stages A–D from `draft_gameplan_rules.txt` for starters and the rating-driven first pass for substitutes (with a 4-tier `LWF`/`RWF` fallback for sub wings: non-Standard direct winger → non-Standard `SS` → Standard direct winger → Standard `SS` as last resort).
 - `jerseys.py` — Jersey number assignment. `load_jersey_stats` and `jersey_prefs_for_player` derive each player's preference list from `jersey` rows (Epic uses most-worn; everyone else uses newest-unique-first). `assign_jerseys` assigns numbers in the documented group order: starter non-Std main → starter non-Std proficient → starter Std main → starter Std proficient → sub non-Std normal → sub non-Std `SS`-on-wing → sub Std → sub non-Std `SS`-on-wing via proficient. Within each group, recent-flag locks run first, then card-tier buckets (Epic/BigTime > Showtime > Highlight > Standard), then a tie-break that won't steal another player's first-choice number.
 - `candidates.py` — Helpers for the builder's replacement loop: pick the next-best player for a slot (`next_candidate_for_slot`, `next_candidate_for_sub_wing`), refill empty subs (`refill_empty_subs`), and `try_free_jersey_via_swap` to free a recent player's preferred number by re-numbering a non-recent holder. `next_candidate_for_sub_wing` applies the 4-tier wing priority (non-Standard direct → non-Standard `SS` → Standard direct → Standard `SS`).
-- `data.py` — Loads `game_data` rows for a country into `PlayerRole` objects, loads the formation file, and resolves the per-country file paths.
+- `data.py` — Loads `game_data` rows for a country into `PlayerRole` objects, loads formation file block(s) (`load_formations` / `load_formation`), and resolves the per-country file paths.
 - `formation.py` — `DEFAULT_FORMATION` and the mutable `FORMATION` list that the builder reads. `draft_gameplan.py` overwrites `FORMATION[:]` from the country's formation file before building.
 - `models.py` — Plain-data classes: `PlayerRole` (one row of `game_data`) and `Assignment` (slot + player + jersey).
 - `constants.py` — `DB_PATH`, the set of non-Standard card types, the wing slot set used for the `SS` fallback, the `MATCH_STAGES` ordering used during sub vacancy fill, and `is_standard()`.
