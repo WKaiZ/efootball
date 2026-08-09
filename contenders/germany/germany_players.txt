@@ -62,7 +62,6 @@ Kevin Trapp, GK, 94.34, False, Highlight, [GK], []
 Oliver Baumann, GK, 94.22, True, Highlight, [GK], []
 
 Julian Brandt, AMF, 78.15, False, Standard, [AMF, CMF, RWF, RMF], [SS, LWF, LMF]
-Robin Gosens, LMF, 75.32, False, Standard, [LMF, LB], [LWF, CMF, DMF, RB]
 Assan Ouédraogo, CMF, 73.57, True, Standard, [AMF, CMF], [LMF, SS, DMF]
 Thilo Kehrer, CB, 76.98, False, Standard, [CB, RB], [LB]
 Nnamdi Collins, CB, 74.24, False, Standard, [CB, RB], [RMF, LB]
