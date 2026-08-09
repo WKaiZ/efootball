@@ -88,6 +88,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "switzerland": {
         "dominik schmid": "359409",
+        "joel monteiro": "410787",
     },
     "denmark": {
         "filip jørgensen": "585323",

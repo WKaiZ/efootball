@@ -106,6 +106,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "switzerland": {
         "dominik schmid": {"player_id": "359409", "preserve_name": True},
+        "joel monteiro": {"player_id": "410787", "preserve_name": True},
     },
     "denmark": {
         "filip jørgensen": {"player_id": "585323", "preserve_name": True},

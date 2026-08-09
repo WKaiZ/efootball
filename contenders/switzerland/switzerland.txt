@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
   [LWF] Breel Embolo (CF) rating 93.99 #7
@@ -13,16 +15,48 @@ Starters:
 
 Substitutes:
   [CF] Zeki Amdouni (CF) rating 73.77 #23
-  [LWF] Rubén Vargas (LMF) rating 93.13 #18
+  [LWF] Cedric Itten (CF) rating 73.61 #26
   [RWF] Christian Fassnacht (RWF) rating 73.55 #16
   [AMF] Fabian Rieder (AMF) rating 72.73 #22
   [CMF] Michel Aebischer (CMF) rating 94.98 #20
   [DMF] Edimilson Fernandes (DMF) rating 72.21 #17
   [LB] Ulisses Garcia (LB) rating 73.25 #15
-  [CB] Aurèle Amenda (CB) rating 72.60 #24
-  [CB] Loris Benito (CB) rating 72.40 #3
+  [CB] Cédric Zesiger (CB) rating 72.82 #18
+  [CB] Becir Omeragic (CB) rating 73.44 #24
   [RB] Lucas Blondel (RB) rating 73.95 #2
   [GK] Philipp Köhn (GK) rating 92.97 #21
 
 Wildcard:
   [WILD] Yann Sommer (GK) rating 80.51 #12
+
+Second Squad
+
+Starters:
+  [CF] Dan Ndoye (LMF) rating 93.45 #11
+  [LWF] Rubén Vargas (LMF) rating 93.13 #17
+  [RWF] Renato Steffen (RWF) rating 71.81 #7
+  [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
+  [CMF] Remo Freuler (CMF) rating 75.47 #8
+  [DMF] Denis Zakaria (DMF) rating 93.53 #6
+  [LB] Miro Muheim (LB) rating 71.89 #2
+  [CB] Ricardo Rodríguez (CB) rating 93.31 #13
+  [CB] Fabian Schär (CB) rating 78.06 #22
+  [RB] Jordan Lotomba (RB) rating 73.30 #14
+  [GK] Roman Bürki (GK) rating 75.35 #21
+
+Substitutes:
+  [CF] Albian Ajeti (CF) rating 68.84 #9
+  [LWF] Joel Monteiro (RMF) rating 71.06 #19
+  [RWF] VACANT
+  [AMF] Simon Sohm (CMF) rating 71.72 #20
+  [CMF] Djibril Sow (CMF) rating 75.00 #15
+  [DMF] Luca Zuffi (DMF) rating 69.48 #16
+  [LB] VACANT
+  [CB] Aurèle Amenda (CB) rating 72.60 #24
+  [CB] Eray Cömert (CB) rating 71.42 #18
+  [RB] Silvan Widmer (RB) rating 73.26 #3
+  [GK] Jonas Omlin (GK) rating 74.12 #1
+
+Wildcard:
+  [WILD] Yvon Mvogo (GK) rating 73.80 #12
+  [WILD] Luca Jaquez (CB) rating 68.94 #25
