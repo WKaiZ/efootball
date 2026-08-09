@@ -2,6 +2,8 @@ from gameplan.candidates import (
     find_player_index,
     next_candidate_for_slot,
     next_candidate_for_sub_wing,
+    player_max_rating,
+    preferred_card_for_slot,
     refill_empty_subs,
     try_free_jersey_via_swap,
 )
@@ -219,6 +221,13 @@ def build_gameplan(conn, roles_by_pos):
                     else:
                         raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
 
+                    # Never fill via proficient/semiproficient when the same player
+                    # still has a direct MAIN-position card for this slot.
+                    if pos_set_name != "main":
+                        main_card = preferred_card_for_slot(all_roles, r.player_id, slot, None)
+                        if main_card is not None:
+                            continue
+
                     num = choose_jersey_for_player(
                         conn,
                         r,
@@ -357,7 +366,18 @@ def build_gameplan(conn, roles_by_pos):
                         if not role_matches_stage(vacant_slot, candidate, pos_set_name, want_standard):
                             continue
 
-                        for num in player_number_preference_order(candidate):
+                        # Prefer the player's MAIN card for this slot when inserting.
+                        # Displacement strength uses their best card rating so a strong
+                        # side-card can free a number for their direct card.
+                        insert_card = preferred_card_for_slot(
+                            all_roles, candidate.player_id, vacant_slot, candidate
+                        )
+                        if pos_set_name != "main" and insert_card.position == vacant_slot:
+                            # Direct card is handled in main stages only.
+                            continue
+                        displace_rating = player_max_rating(all_roles, candidate.player_id)
+
+                        for num in player_number_preference_order(insert_card):
                             holder_idx = None
                             holder = None
                             for j, sp in enumerate(subs):
@@ -371,13 +391,13 @@ def build_gameplan(conn, roles_by_pos):
                                 continue
                             if holder.recent:
                                 continue
-                            if holder.rating > candidate.rating:
+                            if holder.rating > displace_rating:
                                 continue
 
-                            temp_used_ids = (used_ids - {holder.player_id}) | {candidate.player_id}
+                            temp_used_ids = (used_ids - {holder.player_id}) | {insert_card.player_id}
                             temp_assignments = dict(assignments)
                             temp_assignments.pop(holder.player_id, None)
-                            temp_assignments[candidate.player_id] = num
+                            temp_assignments[insert_card.player_id] = num
                             temp_used_numbers = set(used_numbers)
 
                             replacement, replacement_num = best_sub_replacement(
@@ -385,18 +405,18 @@ def build_gameplan(conn, roles_by_pos):
                                 temp_used_ids,
                                 temp_used_numbers,
                                 temp_assignments,
-                                exclude_ids={candidate.player_id, holder.player_id},
+                                exclude_ids={insert_card.player_id, holder.player_id},
                             )
                             if replacement is None:
                                 continue
                             if replacement.rating < holder.rating:
                                 continue
 
-                            if candidate.rating > best_rating:
-                                best_rating = candidate.rating
+                            if displace_rating > best_rating:
+                                best_rating = displace_rating
                                 best_swap = (
                                     vacant_idx,
-                                    candidate,
+                                    insert_card,
                                     num,
                                     holder_idx,
                                     holder,

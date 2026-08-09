@@ -30,6 +30,7 @@ Player selection
   - `semiproficient_positions` non-Standard
   - `semiproficient_positions` Standard
 - The same player_id may not appear more than once anywhere in the gameplan (no duplicates across starters, subs, wildcard).
+- When a player has multiple cards and a vacancy/swap fill is considering them for a slot, prefer their MAIN-position card for that slot over a different-position card that only lists the slot as proficient/semiproficient. A higher-rated side card may still help win jersey contention, but the card inserted into the slot should be the direct one when it exists.
 - Initial starters are chosen before the first substitute pass; after that, starters may still change (jersey failures, promotions, vacancy fill) while honoring uniqueness.
 - Selection is rating-driven and does not depend on formation order:
   - Within each starter stage (A/B/C/D), repeatedly assign the single highest-rated eligible role across all currently VACANT starter slots.

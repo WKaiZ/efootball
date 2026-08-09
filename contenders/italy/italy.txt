@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Alessandro Del Piero (CF) rating 98.58 #11
   [LWF] Lorenzo Insigne (LWF) rating 97.73 #20
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Daniele De Rossi (DMF) rating 98.15 #16
+
+Second Squad
+
+Starters:
+  [CF] Christian Vieri (CF) rating 98.01 #9
+  [LMF] Federico Dimarco (LMF) rating 98.01 #3
+  [RWF] Domenico Berardi (RWF) rating 93.34 #11
+  [SS] Roberto Baggio (SS) rating 99.61 #10
+  [CMF] Davide Frattesi (CMF) rating 94.04 #17
+  [DMF] Massimo Ambrosini (DMF) rating 97.01 #16
+  [LB] Riccardo Calafiori (LB) rating 95.82 #13
+  [CB] Riccardo Ferri (CB) rating 97.48 #6
+  [CB] Giorgio Chiellini (CB) rating 96.79 #4
+  [RB] Alessandro Costacurta (RB) rating 97.15 #5
+  [GK] Christian Abbiati (GK) rating 97.74 #12
+
+Substitutes:
+  [CF] Gianluca Scamacca (CF) rating 95.43 #7
+  [LMF] Andrea Cambiaso (LMF) rating 94.42 #24
+  [RWF] Riccardo Orsolini (RWF) rating 78.21 #22
+  [SS] Giacomo Raspadori (SS) rating 94.07 #18
+  [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
+  [DMF] Demetrio Albertini (DMF) rating 96.16 #8
+  [LB] Matteo Ruggeri (LB) rating 94.00 #15
+  [CB] Giorgio Scalvini (CB) rating 94.78 #20
+  [CB] Alessandro Bastoni (CB) rating 95.00 #19
+  [RB] Christian Panucci (RB) rating 96.96 #2
+  [GK] Marco Carnesecchi (GK) rating 96.73 #23
+
+Wildcard:
+  [WILD] Nicolò Barella (AMF) rating 95.26 #14

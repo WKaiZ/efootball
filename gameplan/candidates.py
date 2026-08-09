@@ -9,6 +9,23 @@ def _player_usable_for_slot_candidate(r, used_ids, subs):
         return True
     return False
 
+
+def player_max_rating(all_roles, player_id):
+    ratings = [r.rating for r in all_roles if r.player_id == player_id]
+    return max(ratings) if ratings else 0.0
+
+
+def preferred_card_for_slot(all_roles, player_id, slot, fallback=None):
+    """Prefer a MAIN-position card for ``slot`` when the player has one.
+
+    Same player may have a higher-rated card at another main position that is
+    only proficient for ``slot``; for that slot we still want the direct card.
+    """
+    main_cards = [r for r in all_roles if r.player_id == player_id and r.position == slot]
+    if main_cards:
+        return max(main_cards, key=lambda r: r.rating)
+    return fallback
+
 def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs=None):
     candidates = [
         r
