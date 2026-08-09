@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Luis Suárez (CF) rating 98.73 #9
   [LWF] Darwin Núñez (CF) rating 97.19 #19
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Maximiliano Araujo (LB) rating 93.98 #20
+
+Second Squad
+
+Starters:
+  [CF] Diego Forlán (CF) rating 98.33 #10
+  [LWF] Maximiliano Araujo (LMF) rating 93.96 #20
+  [RWF] Facundo Pellistri (RWF) rating 73.89 #11
+  [AMF] VACANT
+  [CMF] Matías Vecino (CMF) rating 76.19 #5
+  [DMF] Lucas Torreira (DMF) rating 78.11 #14
+  [LB] Matías Viña (LB) rating 73.88 #17
+  [CB] Leandro Cabrera (CB) rating 92.93 #16
+  [CB] Ronald Araujo (CF) rating 95.03 #4
+  [RB] Federico Valverde (RB) rating 95.52 #8
+  [GK] Santiago Mele (GK) rating 74.55 #12
+
+Substitutes:
+  [CF] Miguel Merentiel (CF) rating 77.28 #19
+  [LWF] Brian Ocampo (LWF) rating 70.47 #26
+  [RWF] Cristian Olivera (RWF) rating 73.66 #6
+  [AMF] Diego Rossi (SS) rating 74.68 #9
+  [CMF] Gabriel Neves (CMF) rating 75.10 #18
+  [DMF] Emiliano Martinez (DMF) rating 73.96 #15
+  [LB] Juan Manuel Sanabria (LB) rating 72.33 #25
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
+  [CB] Sebastián Boselli (CB) rating 73.41 #29
+  [RB] Mateo Ponte (RB) rating 71.83 #28
+  [GK] Cristopher Fiermarín (GK) rating 74.03 #1
+
+Wildcard:
+  [WILD] Federico Viñas (CF) rating 74.11 #21
+  [WILD] Matías Abaldo (RWF) rating 73.49 #22
