@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ante Budimir (CF) rating 93.98 #11
   [LWF] Ivan Perišić (LMF) rating 94.38 #14
@@ -21,8 +23,36 @@ Substitutes:
   [LB] Borna Sosa (LB) rating 75.43 #19
   [CB] Marin Pongracic (CB) rating 75.54 #3
   [CB] Matej Mitrovic (CB) rating 72.88 #5
-  [RB] Josip Juranovic (RB) rating 76.18 #22
+  [RB] Ivan Smolcic (RB) rating 68.52 #22
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
   [WILD] Luka Sucic (CMF) rating 94.16 #21
+
+Second Squad
+
+Starters:
+  [CF] Bruno Petkovic (CF) rating 74.39 #7
+  [LWF] Luka Ivanušec (LWF) rating 72.06 #18
+  [RWF] Alen Halilovic (AMF) rating 70.60 #8
+  [AMF] Martin Baturina (AMF) rating 93.99 #16
+  [CMF] Petar Sučić (AMF) rating 93.99 #17
+  [DMF] Luka Modrić (DMF) rating 94.05 #10
+  [LB] Ivan Perišić (LB) rating 93.99 #14
+  [CB] Josko Gvardiol (CB) rating 95.36 #4
+  [CB] Duje Caleta-Car (CB) rating 72.45 #5
+  [RB] VACANT
+  [GK] Dominik Kotarski (GK) rating 74.46 #23
+
+Substitutes:
+  [CF] Franjo Ivanović (CF) rating 72.59 #20
+  [LWF] Igor Matanovic (CF) rating 70.95 #21
+  [RWF] VACANT
+  [AMF] Toni Fruk (AMF) rating 70.41 #19
+  [CMF] Kristijan Jakic (DMF) rating 73.37 #26
+  [DMF] Marcelo Brozović (DMF) rating 77.30 #11
+  [LB] Domagoj Bradarić (LB) rating 72.50 #6
+  [CB] Luka Vuskovic (CB) rating 72.20 #22
+  [CB] Filip Uremovic (CB) rating 71.97 #2
+  [RB] VACANT
+  [GK] Ivor Pandur (GK) rating 70.95 #12
