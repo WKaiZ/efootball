@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Erling Haaland (CF) rating 99.85 #9
   [LWF] Antonio Nusa (LWF) rating 94.97 #20
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Torbjørn Heggem (CB) rating 72.52 #17
+
+Second Squad
+
+Starters:
+  [CF] Jørgen Strand Larsen (CF) rating 94.28 #11
+  [LWF] Dennis Johnsen (LWF) rating 72.20 #18
+  [RWF] Sindre Walle Egeli (RWF) rating 69.42 #23
+  [AMF] Martin Ødegaard (AMF) rating 95.99 #10
+  [CMF] Hugo Vetlesen (CMF) rating 73.46 #16
+  [DMF] Patrik Berg (DMF) rating 74.74 #6
+  [LB] Julian Ryerson (RMF) rating 93.98 #26
+  [CB] Sondre Langås (CB) rating 71.50 #24
+  [CB] Henrik Falchener (CB) rating 71.06 #25
+  [RB] Warren Kamanzi (RB) rating 69.73 #5
+  [GK] Sander Tangvik (GK) rating 71.31 #12
+
+Substitutes:
+  [CF] Aune Heggebø (CF) rating 71.23 #15
+  [LWF] Tokmac Chol Nguen (LWF) rating 69.52 #14
+  [RWF] Mohamed Elyounoussi (SS) rating 74.75 #13
+  [AMF] Aron Dønnum (RMF) rating 73.25 #19
+  [CMF] Morten Thorsby (CMF) rating 72.13 #2
+  [DMF] Sondre Tronstad (DMF) rating 71.93 #7
+  [LB] Birger Meling (LB) rating 72.28 #22
+  [CB] Eivind Helland (CB) rating 67.52 #4
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Viljar Myhra (GK) rating 70.76 #1
+
+Wildcard:
+  [WILD] Jens Petter Hauge (LMF) rating 71.18 #20
