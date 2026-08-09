@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ruud Gullit (CF) rating 101.42 #10
   [LWF] Cody Gakpo (LWF) rating 97.71 #11
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Ryan Gravenberch (CMF) rating 96.15 #26
+
+Second Squad
+
+Starters:
+  [CF] Johan Cruyff (CF) rating 99.49 #14
+  [LWF] Justin Kluivert (AMF) rating 94.92 #17
+  [RWF] Steven Berghuis (RWF) rating 93.93 #11
+  [AMF] Ruud Gullit (AMF) rating 97.26 #7
+  [CMF] Mark van Bommel (CMF) rating 96.65 #6
+  [DMF] Clarence Seedorf (DMF) rating 98.15 #10
+  [LB] Jorrel Hato (LB) rating 94.31 #25
+  [CB] Ronald Koeman (CB) rating 96.01 #4
+  [CB] Micky van de Ven (CB) rating 96.00 #15
+  [RB] Jeremie Frimpong (RB) rating 95.11 #12
+  [GK] Bart Verbruggen (GK) rating 93.92 #1
+
+Substitutes:
+  [CF] Roy Makaay (CF) rating 98.62 #18
+  [LWF] Noa Lang (LWF) rating 76.26 #8
+  [RWF] Javairô Dilrosun (RWF) rating 73.05 #22
+  [AMF] Teun Koopmeiners (AMF) rating 94.35 #20
+  [CMF] Quinten Timber (CMF) rating 94.32 #26
+  [DMF] Frenkie de Jong (DMF) rating 95.88 #21
+  [LB] Ian Maatsen (LB) rating 94.07 #5
+  [CB] Matthijs de Ligt (CB) rating 95.98 #3
+  [CB] Nathan Aké (CB) rating 79.42 #16
+  [RB] Kenny Tete (RB) rating 94.22 #2
+  [GK] Jasper Cillessen (GK) rating 93.87 #13
+
+Wildcard:
+  [WILD] Dennis Bergkamp (CF) rating 97.55 #9
