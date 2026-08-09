@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Michael Owen (CF) rating 98.13 #18
   [LMF] Paul Scholes (LMF) rating 97.16 #11
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Kobbie Mainoo (CMF) rating 97.97 #26
+
+Second Squad
+
+Starters:
+  [CF] Harry Kane (CF) rating 97.43 #9
+  [LWF] Anthony Gordon (LWF) rating 96.00 #18
+  [RMF] Steve McManaman (RMF) rating 97.78 #11
+  [AMF] Cole Palmer (AMF) rating 96.78 #20
+  [CMF] Jude Bellingham (CMF) rating 98.27 #10
+  [DMF] Declan Rice (DMF) rating 96.87 #4
+  [LB] Djed Spence (LB) rating 94.97 #25
+  [CB] Fikayo Tomori (CB) rating 94.99 #3
+  [CB] Trevoh Chalobah (CB) rating 94.38 #12
+  [RB] Trent Alexander-Arnold (RB) rating 95.94 #2
+  [GK] Nick Pope (GK) rating 94.44 #22
+
+Substitutes:
+  [CF] Jamie Vardy (CF) rating 94.99 #19
+  [LWF] Marcus Rashford (LWF) rating 94.34 #21
+  [RMF] Ray Parlour (RMF) rating 96.89 #14
+  [AMF] Phil Foden (AMF) rating 95.88 #7
+  [CMF] Frank Lampard (CMF) rating 98.11 #8
+  [DMF] Adam Wharton (DMF) rating 94.24 #16
+  [LB] Myles Lewis-Skelly (LB) rating 92.94 #23
+  [CB] Jarell Quansah (CB) rating 94.03 #26
+  [CB] Dan Burn (CB) rating 94.00 #15
+  [RB] Kieran Trippier (RB) rating 76.37 #17
+  [GK] Sam Johnstone (GK) rating 94.17 #13
+
+Wildcard:
+  [WILD] Bryan Robson (CMF) rating 97.84 #6
