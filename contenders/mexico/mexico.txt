@@ -1,8 +1,10 @@
+First Squad
+
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
   [LWF] Hirving Lozano (LWF) rating 74.19 #13
   [RWF] Roberto Alvarado (RWF) rating 75.13 #25
-  [AMF] Diéter Villalpando (AMF) rating 73.19 #22
+  [AMF] Erick Sanchez (CMF) rating 75.05 #14
   [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
   [DMF] Edson Álvarez (DMF) rating 77.46 #21
   [LB] Bryan González (LB) rating 71.51 #11
@@ -14,15 +16,43 @@ Starters:
 Substitutes:
   [CF] Santiago Gimenez (CF) rating 93.82 #17
   [LWF] Efraín Álvarez (RMF) rating 73.40 #18
-  [RWF] Jonathan dos Santos (DMF) rating 72.89 #6
+  [RWF] Henry Martin (CF) rating 75.14 #6
   [AMF] Brian Gutiérrez (LMF) rating 74.15 #26
-  [CMF] Erick Sanchez (CMF) rating 75.05 #14
+  [CMF] Héctor Herrera (CMF) rating 73.86 #16
   [DMF] Luis Romo (DMF) rating 75.48 #7
   [LB] Mateo Chávez (LB) rating 70.63 #20
-  [CB] Néstor Araújo (CB) rating 72.23 #3
+  [CB] Gilberto Sepúlveda (CB) rating 73.37 #22
   [CB] Johan Vasquez (CB) rating 73.36 #5
   [RB] Rodrigo Huescas (RB) rating 73.29 #19
   [GK] Raúl Rangel (GK) rating 73.63 #12
 
 Wildcard:
-  [WILD] Héctor Herrera (CMF) rating 73.86 #16
+  [WILD] Néstor Araújo (CB) rating 72.23 #3
+
+Second Squad
+
+Starters:
+  [CF] Ángel Sepúlveda (CF) rating 73.33 #20
+  [LWF] César Huerta (LWF) rating 73.90 #21
+  [RWF] VACANT
+  [AMF] Omar Govea (CMF) rating 72.37 #8
+  [CMF] Obed Vargas (CMF) rating 73.38 #18
+  [DMF] Alan Cervantes (DMF) rating 72.29 #13
+  [LB] VACANT
+  [CB] Ramón Juárez (CB) rating 72.52 #15
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Rodolfo Cota (GK) rating 72.54 #12
+
+Substitutes:
+  [CF] Armando González (CF) rating 70.49 #14
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Jonathan González (DMF) rating 69.98 #6
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
