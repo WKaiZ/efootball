@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Pelé (CF) rating 99.81 #10
   [LWF] Ronaldinho (LWF) rating 99.95 #7
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Romário (CF) rating 98.28 #19
+
+Second Squad
+
+Starters:
+  [CF] João Pedro (CF) rating 98.24 #7
+  [LWF] Neymar (LWF) rating 99.19 #10
+  [RMF] Cafu (RMF) rating 97.18 #2
+  [AMF] Zico (AMF) rating 98.94 #8
+  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [DMF] Edmílson (DMF) rating 96.70 #5
+  [LB] Alex Sandro (LB) rating 94.21 #6
+  [CB] Éder Militão (CB) rating 95.22 #3
+  [CB] Murillo (CB) rating 94.98 #14
+  [RB] Juliano Belletti (RB) rating 97.04 #13
+  [GK] Cássio (GK) rating 95.25 #16
+
+Substitutes:
+  [CF] Alexandre Pato (CF) rating 97.70 #21
+  [LWF] Raphinha (LWF) rating 96.69 #11
+  [RMF] Lucas Moura (RMF) rating 95.07 #20
+  [AMF] Ronaldinho (AMF) rating 98.60 #17
+  [CMF] Gerson (CMF) rating 77.28 #19
+  [DMF] Danilo Santos (DMF) rating 75.30 #18
+  [LB] Carlos Augusto (LB) rating 93.88 #25
+  [CB] Thiago Silva (CB) rating 94.09 #4
+  [CB] Alexsandro (CB) rating 94.26 #15
+  [RB] Danilo (RB) rating 94.04 #22
+  [GK] Bento (GK) rating 94.38 #12
+
+Wildcard:
+  [WILD] Zé Roberto (LMF) rating 97.10 #9
