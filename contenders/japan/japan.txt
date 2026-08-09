@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ayase Ueda (CF) rating 97.66 #18
   [LMF] Shinji Kagawa (LMF) rating 98.78 #10
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Tomoki Hayakawa (GK) rating 96.23 #23
+
+Second Squad
+
+Starters:
+  [CF] Koki Ogawa (CF) rating 95.34 #19
+  [LWF] Keito Nakamura (LWF) rating 91.99 #13
+  [RWF] Junya Ito (RWF) rating 94.46 #14
+  [SS] Shinji Okazaki (SS) rating 94.21 #9
+  [CMF] Daichi Kamada (CMF) rating 95.00 #15
+  [DMF] Shunta Tanaka (DMF) rating 94.36 #3
+  [LB] Yuto Nagatomo (LMF) rating 92.33 #5
+  [CB] Makoto Hasebe (CB) rating 97.10 #17
+  [CB] Ko Itakura (CB) rating 94.53 #4
+  [RB] Yukinari Sugawara (RMF) rating 94.39 #2
+  [GK] Keisuke Osako (GK) rating 94.37 #12
+
+Substitutes:
+  [CF] Kento Shiogai (CF) rating 94.40 #26
+  [LWF] Kaoru Mitoma (LWF) rating 79.16 #21
+  [RWF] Takefusa Kubo (RWF) rating 77.94 #10
+  [SS] Yuito Suzuki (SS) rating 94.12 #8
+  [CMF] Reo Hatate (CMF) rating 75.03 #18
+  [DMF] Ao Tanaka (DMF) rating 92.85 #7
+  [LB] Sota Miura (LB) rating 71.67 #24
+  [CB] Wataru Endo (CB) rating 93.56 #6
+  [CB] Maya Yoshida (CB) rating 93.28 #22
+  [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
+  [GK] Daiya Maekawa (GK) rating 73.56 #1
+
+Wildcard:
+  [WILD] Yuki Soma (AMF) rating 94.42 #11
