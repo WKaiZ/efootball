@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Folarin Balogun (CF) rating 93.92 #20
   [LWF] Jordan Morris (LWF) rating 73.82 #13
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Álex Zendejas (RMF) rating 75.10 #26
+
+Second Squad
+
+Starters:
+  [CF] Brian White (CF) rating 76.25 #23
+  [LWF] Konrad de la Fuente (LWF) rating 68.53 #20
+  [RWF] Tyler Boyd (RWF) rating 70.92 #21
+  [AMF] Christian Pulisic (AMF) rating 96.31 #10
+  [CMF] Weston McKennie (RMF) rating 93.98 #8
+  [DMF] Tanner Tessmann (DMF) rating 73.74 #11
+  [LB] DeJuan Jones (LB) rating 73.86 #15
+  [CB] Cameron Carter-Vickers (CB) rating 76.43 #2
+  [CB] Tim Ream (CB) rating 74.59 #13
+  [RB] DeAndre Yedlin (RB) rating 74.31 #22
+  [GK] Matt Freese (GK) rating 74.01 #24
+
+Substitutes:
+  [CF] Brandon Vazquez (CF) rating 74.84 #19
+  [LWF] Diego Luna (LMF) rating 76.32 #14
+  [RWF] Cristian Roldán (RMF) rating 74.94 #17
+  [AMF] Giovanni Reyna (AMF) rating 74.22 #7
+  [CMF] Jack McGlynn (CMF) rating 74.18 #6
+  [DMF] Taylor Booth (CMF) rating 70.74 #4
+  [LB] Max Arfsten (LMF) rating 71.11 #18
+  [CB] Aaron Long (CB) rating 73.91 #3
+  [CB] Walker Zimmerman (CB) rating 73.78 #5
+  [RB] Alex Freeman (RB) rating 73.02 #16
+  [GK] Chris Brady (GK) rating 73.72 #25
+
+Wildcard:
+  [WILD] Ricardo Pepi (CF) rating 74.52 #9
