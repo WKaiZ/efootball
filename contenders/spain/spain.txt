@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] Ferran Torres (CF) rating 96.88 #21
   [LWF] Nico Williams (LWF) rating 95.76 #17
-  [RMF] Sergi Roberto (RB) rating 93.44 #20
+  [RMF] Ayoze Pérez (CF) rating 92.99 #26
   [SS] Yéremy Pino (SS) rating 95.33 #11
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xavi (DMF) rating 97.06 #8
