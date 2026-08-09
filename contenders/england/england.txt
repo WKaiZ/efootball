@@ -40,7 +40,7 @@ Starters:
   [DMF] Declan Rice (DMF) rating 96.87 #4
   [LB] Djed Spence (LB) rating 94.97 #25
   [CB] Fikayo Tomori (CB) rating 94.99 #3
-  [CB] Trevoh Chalobah (CB) rating 94.38 #12
+  [CB] Jarell Quansah (CB) rating 94.03 #26
   [RB] Trent Alexander-Arnold (RB) rating 95.94 #2
   [GK] Nick Pope (GK) rating 94.44 #22
 
@@ -51,11 +51,11 @@ Substitutes:
   [AMF] Phil Foden (AMF) rating 95.88 #7
   [CMF] Frank Lampard (CMF) rating 98.11 #8
   [DMF] Adam Wharton (DMF) rating 94.24 #16
-  [LB] Myles Lewis-Skelly (LB) rating 92.94 #23
-  [CB] Jarell Quansah (CB) rating 94.03 #26
+  [LB] Lewis Hall (LB) rating 94.08 #12
   [CB] Dan Burn (CB) rating 94.00 #15
+  [CB] Harry Maguire (CB) rating 94.00 #6
   [RB] Kieran Trippier (RB) rating 76.37 #17
   [GK] Sam Johnstone (GK) rating 94.17 #13
 
 Wildcard:
-  [WILD] Bryan Robson (CMF) rating 97.84 #6
+  [WILD] Bukayo Saka (RWF) rating 97.41 #23
