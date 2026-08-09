@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
   [LMF] Jamal Musiala (LMF) rating 97.68 #10
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Nico Schlotterbeck (CB) rating 95.32 #15
+
+Second Squad
+
+Starters:
+  [CF] Miroslav Klose (CF) rating 97.85 #11
+  [LWF] Serge Gnabry (LWF) rating 95.13 #20
+  [RWF] Florian Wirtz (LMF) rating 96.96 #17
+  [AMF] Jamal Musiala (AMF) rating 97.02 #10
+  [CMF] Pascal Groß (CMF) rating 94.23 #13
+  [DMF] Felix Nmecha (DMF) rating 97.61 #23
+  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
+  [CB] Joshua Kimmich (CB) rating 95.94 #6
+  [CB] Robert Andrich (CB) rating 94.99 #8
+  [RB] Thilo Kehrer (CB) rating 76.98 #15
+  [GK] Kevin Trapp (GK) rating 94.34 #12
+
+Substitutes:
+  [CF] Mario Götze (CF) rating 97.60 #19
+  [LWF] Kevin Schade (LWF) rating 94.09 #16
+  [RWF] Kai Havertz (CF) rating 95.97 #21
+  [AMF] Thomas Müller (AMF) rating 95.36 #25
+  [CMF] Nadiem Amiri (CMF) rating 93.48 #7
+  [DMF] Lothar Matthäus (DMF) rating 96.95 #14
+  [LB] David Raum (LMF) rating 93.96 #22
+  [CB] Malick Thiaw (CB) rating 94.99 #24
+  [CB] Waldemar Anton (CB) rating 94.38 #3
+  [RB] Robin Koch (CB) rating 93.57 #2
+  [GK] Oliver Baumann (GK) rating 94.22 #1
+
+Wildcard:
+  [WILD] Franz Beckenbauer (DMF) rating 96.90 #5
