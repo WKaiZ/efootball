@@ -37,7 +37,7 @@ Starters:
   [RWF] Junya Ito (RWF) rating 94.46 #14
   [SS] Shinji Okazaki (SS) rating 94.21 #9
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
-  [DMF] Shunta Tanaka (DMF) rating 94.36 #3
+  [DMF] Shunta Tanaka (DMF) rating 93.85 #3
   [LB] Yuto Nagatomo (LMF) rating 92.33 #5
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Ko Itakura (CB) rating 94.53 #4
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Daiya Maekawa (GK) rating 73.56 #1
 
 Wildcard:
-  [WILD] Yuki Soma (AMF) rating 94.42 #11
+  [WILD] Shuto Machino (SS) rating 94.03 #11

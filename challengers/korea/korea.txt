@@ -12,7 +12,7 @@ Starters:
   [GK] Seung-gyu Kim (GK) rating 72.63 #1
 
 Substitutes:
-  [CF] Se-hun Oh (CF) rating 94.35 #9
+  [CF] Se-hun Oh (CF) rating 94.20 #9
   [LWF] Jun-ho Bae (LWF) rating 70.80 #17
   [RWF] Dong-jun Lee (RWF) rating 70.30 #13
   [AMF] Dong-gyeong Lee (AMF) rating 73.50 #26

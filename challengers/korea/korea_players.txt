@@ -1,5 +1,5 @@
 Heung-min Son, CF, 96.92, True, Showtime, [CF, LWF, LMF], [SS, AMF, RWF, RMF]
-Se-hun Oh, CF, 94.35, False, Showtime, [CF], [SS]
+Se-hun Oh, CF, 94.20, False, Showtime, [CF], [SS]
 Jae-sung Lee, AMF, 93.23, True, Highlight, [CF, SS, AMF, CMF], [LMF, RMF, LWF]
 Min-jae Kim, CB, 94.95, True, Highlight, [CB], []
 
