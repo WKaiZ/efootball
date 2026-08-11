@@ -40,7 +40,7 @@ Starters:
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Matías Viña (LB) rating 73.88 #17
   [CB] Leandro Cabrera (CB) rating 92.93 #16
-  [CB] Ronald Araujo (CF) rating 95.03 #4
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [RB] Federico Valverde (RB) rating 95.52 #8
   [GK] Santiago Mele (GK) rating 74.55 #12
 
@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Gabriel Neves (CMF) rating 75.10 #18
   [DMF] Emiliano Martinez (DMF) rating 73.96 #15
   [LB] Juan Manuel Sanabria (LB) rating 72.33 #25
-  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [CB] Sebastián Boselli (CB) rating 73.41 #29
+  [CB] Federico Ricca (CB) rating 73.07 #3
   [RB] Mateo Ponte (RB) rating 71.83 #28
   [GK] Cristopher Fiermarín (GK) rating 74.03 #1
 

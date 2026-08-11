@@ -1,7 +1,6 @@
 Luis Suárez, CF, 98.73, False, Highlight, [CF, SS], [RWF]
 Diego Forlán, CF, 98.33, False, Epic, [CF, SS, AMF], []
 Darwin Núñez, CF, 97.19, True, Showtime, [CF, LWF], [SS]
-Ronald Araujo, CF, 95.03, True, Highlight, [CF, CB, RB], [SS, DMF, LB]
 Facundo Torres, RWF, 94.23, False, Highlight, [RWF, LWF, LMF, RMF], [SS, AMF]
 Agustín Canobbio, RWF, 93.00, True, Highlight, [LWF, LMF, RWF, RMF], [CF, SS, LB, RB]
 Giorgian de Arrascaeta, AMF, 93.85, True, BigTime, [SS, AMF, LMF], [LWF, CF, RWF, RMF, CMF]
