@@ -76,6 +76,7 @@ MANUAL_ID_OVERRIDES = {
         "luis suarez": {"player_id": "424784", "preserve_name": True},
         "dani torres": {"player_id": "93142", "preserve_name": True},
         "yeimar gomez andrade": {"player_id": "343359", "preserve_name": True},
+        "juan mosquera": {"player_id": "659826", "preserve_name": True},
     },
     "senegal": {
         "idrissa gueye": {"CF": {"player_id": "1178488", "preserve_name": True}},

@@ -14,8 +14,8 @@ Starters:
 Substitutes:
   [CF] Álex Valera (CF) rating 71.89 #23
   [LWF] Joao Grimaldo (LWF) rating 70.28 #7
-  [RWF] Andy Polo (RMF) rating 73.18 #8
-  [AMF] Sergio Peña (CMF) rating 71.65 #10
+  [RWF] Sergio Peña (CMF) rating 71.65 #10
+  [AMF] Piero Quispe (AMF) rating 71.49 #8
   [CMF] Yoshimar Yotún (CMF) rating 72.30 #19
   [DMF] Wilder Cartagena (DMF) rating 71.75 #14
   [LB] VACANT

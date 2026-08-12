@@ -20,7 +20,7 @@ Substitutes:
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
   [CMF] Alexis Mac Allister (CMF) rating 96.80 #20
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
-  [LB] Facundo Medina (LB) rating 93.97 #25
+  [LB] Marcos Acuña (LB) rating 92.25 #14
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
   [CB] Nehuén Pérez (CB) rating 94.16 #3
   [RB] Gonzalo Montiel (RB) rating 93.22 #4
@@ -38,7 +38,7 @@ Starters:
   [SS] Lionel Messi (SS) rating 101.33 #10
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Máximo Perrone (DMF) rating 93.18 #22
-  [LB] Marcos Acuña (LB) rating 92.25 #8
+  [LB] Nicolás Tagliafico (LB) rating 76.14 #3
   [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Leonardo Balerdi (CB) rating 94.14 #6
   [RB] Nahuel Molina (RB) rating 93.17 #26
@@ -46,15 +46,15 @@ Starters:
 
 Substitutes:
   [CF] Mauro Icardi (CF) rating 94.00 #18
-  [LWF] Papu Gómez (AMF) rating 77.26 #24
+  [LWF] Emiliano Buendía (LWF) rating 76.13 #8
   [RWF] Nico González (RWF) rating 93.15 #15
   [SS] Paulo Dybala (SS) rating 94.37 #19
   [CMF] Exequiel Palacios (CMF) rating 94.29 #14
   [DMF] Guido Rodríguez (DMF) rating 75.60 #16
-  [LB] Nicolás Tagliafico (LB) rating 76.14 #3
+  [LB] Milton Casco (LB) rating 74.03 #13
   [CB] Kevin Lomónaco (CB) rating 75.53 #4
   [CB] Facundo Medina (CB) rating 77.05 #25
-  [RB] Emanuel Mammana (CB) rating 75.33 #13
+  [RB] Gabriel Mercado (CB) rating 74.56 #20
   [GK] Juan Musso (GK) rating 93.93 #1
 
 Wildcard:

@@ -14,15 +14,16 @@ Starters:
 Substitutes:
   [CF] Sasa Kalajdzic (CF) rating 74.01 #14
   [LWF] Hannes Wolf (LWF) rating 74.33 #17
-  [RWF] Alessandro Schöpf (CMF) rating 71.99 #26
+  [RWF] Raul Florucz (RWF) rating 68.83 #22
   [AMF] Paul Wanner (AMF) rating 70.16 #24
   [CMF] Konrad Laimer (CMF) rating 78.12 #20
   [DMF] Florian Grillitsch (DMF) rating 72.75 #10
   [LB] David Schnegg (LB) rating 71.26 #23
   [CB] Philipp Lienhart (CB) rating 93.92 #15
   [CB] Gernot Trauner (CB) rating 75.50 #4
-  [RB] Valentino Lazaro (RMF) rating 73.98 #22
+  [RB] VACANT
   [GK] Patrick Pentz (GK) rating 74.40 #13
 
 Wildcard:
-  [WILD] Maximilian Ullmann (LB) rating 71.19 #2
+  [WILD] Michael Gregoritsch (CF) rating 73.60 #11
+  [WILD] Marco Friedl (CB) rating 73.32 #2

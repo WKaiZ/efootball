@@ -391,6 +391,13 @@ def build_gameplan(conn, roles_by_pos):
                                 continue
                             if holder.recent:
                                 continue
+                            # Do not displace a sub who is already correctly filling
+                            # their slot at MAIN position (same protection as
+                            # fill_vacancies' swap_protected_player_ids). Otherwise a
+                            # proficient fill for a vacant slot can steal their number
+                            # and replace a direct MAIN holder with a worse fit.
+                            if holder.position == FORMATION[holder_idx]:
+                                continue
                             if holder.rating > displace_rating:
                                 continue
 

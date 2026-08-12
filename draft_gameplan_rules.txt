@@ -94,6 +94,7 @@ Starter replacement rule (when jerseys fail)
   - After starter + substitute selection/jersey assignment, empty starter slots are filled in this order: non-Standard via `proficient_positions`, then Standard in `MAIN position`, then Standard via `proficient_positions` (can pull from bench roles where allowed by code). Numbers already on starters block picking duplicates for those fills.
   - If still no candidate works, the slot stays empty (`VACANT` in the output).
 - Vacant sub slots may also use an extra swap routine in code (reassign another sub to free a number) before remaining `VACANT`.
+  - That swap must not displace a substitute who is already on their MAIN position for their slot (e.g. a proficient RB fill cannot steal a MAIN LB's jersey and kick them off the bench).
 
 Contender Second Squad
 - Contender nations only: after the First Squad is finalized, draft a Second Squad with the same selection and jersey rules.

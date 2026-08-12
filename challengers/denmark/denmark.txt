@@ -22,7 +22,7 @@ Substitutes:
   [CB] Victor Nelsson (CB) rating 76.30 #3
   [CB] Jannik Vestergaard (CB) rating 74.72 #4
   [RB] Alexander Bah (RB) rating 73.78 #18
-  [GK] Filip Jørgensen (GK) rating 94.29 #22
+  [GK] Filip Jørgensen (GK) rating 75.48 #22
 
 Wildcard:
   [WILD] Mads Hermansen (GK) rating 74.38 #16

@@ -49,7 +49,7 @@ def is_womens_espn_competition(text):
 @functools.lru_cache(maxsize=128)
 def espn_team_slug(team_id):
     try:
-        data = espn_request_json(f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}")
+        data = espn_request_json(f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}")
         return (data.get("team") or {}).get("slug") or ""
     except requests.RequestException:
         return ""
@@ -89,7 +89,7 @@ def lookup_espn_team(country_label):
     best = None
     for query in unique_queries:
         try:
-            data = espn_request_json("https://site.api.espn.com/apis/common/v3/search", params={"query": query})
+            data = espn_request_json("https://site.web.api.espn.com/apis/common/v3/search", params={"query": query})
         except requests.RequestException:
             continue
         for item in data.get("items", []):
@@ -186,7 +186,7 @@ def _espn_event_team_lineup_datetime(team_id, event, now_utc):
 
 def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout):
     board = espn_request_json(
-        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard",
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard",
         params={"dates": dates_param, "limit": 500},
         timeout=timeout,
     )
@@ -210,7 +210,7 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
     scoreboard_timeout = float(os.environ.get("ESPN_SCOREBOARD_TIMEOUT", "60"))
     try:
         schedule = espn_request_json(
-            f"https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}/schedule",
+            f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}/schedule",
             params={"limit": 100},
             timeout=schedule_timeout,
         )
@@ -299,7 +299,7 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
             print(f"No completed ESPN matches found for {country_label}.")
             return None
     summary = espn_request_json(
-        "https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary", params={"event": event_id}
+        "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/summary", params={"event": event_id}
     )
     roster_payload = None
     for roster in summary.get("rosters", []):

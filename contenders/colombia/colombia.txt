@@ -46,16 +46,16 @@ Starters:
 
 Substitutes:
   [CF] Cucho Hernández (CF) rating 76.34 #19
-  [LWF] Darwin Quintero (SS) rating 73.98 #9
+  [LWF] Marlos Moreno (LWF) rating 70.89 #21
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
   [AMF] Yimmi Chará (RMF) rating 74.30 #28
-  [CMF] Baldomero Perlaza (CMF) rating 70.66 #16
+  [CMF] Baldomero Perlaza (CMF) rating 70.66 #25
   [DMF] Matheus Uribe (DMF) rating 73.99 #15
   [LB] Deiver Machado (LB) rating 72.88 #22
   [CB] Carlos Cuesta (CB) rating 74.04 #4
   [CB] Willer Ditta (CB) rating 73.30 #13
-  [RB] Andrés Felipe Román (RB) rating 73.08 #21
+  [RB] Helibelton Palacios (RB) rating 71.80 #16
   [GK] Iván Arboleda (GK) rating 73.17 #1
 
 Wildcard:
-  [WILD] Luis Suarez (CF) rating 75.09 #25
+  [WILD] Luis Suarez (CF) rating 75.09 #9
