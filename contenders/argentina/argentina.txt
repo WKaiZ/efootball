@@ -24,7 +24,7 @@ Substitutes:
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
   [CB] Nehuén Pérez (CB) rating 94.16 #3
   [RB] Gonzalo Montiel (RB) rating 93.22 #4
-  [GK] Gerónimo Rulli (GK) rating 93.94 #12
+  [GK] Juan Musso (GK) rating 93.93 #1
 
 Wildcard:
   [WILD] Lautaro Martínez (CF) rating 97.78 #22
@@ -41,7 +41,7 @@ Starters:
   [LB] Nicolás Tagliafico (LB) rating 76.14 #3
   [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Leonardo Balerdi (CB) rating 94.14 #6
-  [RB] Nahuel Molina (RB) rating 93.17 #26
+  [RB] Nahuel Molina (RB) rating 76.96 #26
   [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:
@@ -55,7 +55,7 @@ Substitutes:
   [CB] Kevin Lomónaco (CB) rating 75.53 #4
   [CB] Facundo Medina (CB) rating 77.05 #25
   [RB] Gabriel Mercado (CB) rating 74.56 #20
-  [GK] Juan Musso (GK) rating 93.93 #1
+  [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
 Wildcard:
   [WILD] Giovani Lo Celso (AMF) rating 92.93 #11

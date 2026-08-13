@@ -1,7 +1,6 @@
-Alexis Sánchez, CF, 93.44, False, Highlight, [LWF, CF, RWF, SS], [LMF, AMF]
-Alexis Sánchez, RMF, 93.97, False, Highlight, [LWF, CF, SS, RWF, RMF], [LMF, AMF]
 Gabriel Suazo, LB, 93.22, True, Highlight, [LMF, LB, CMF, DMF], [LWF, AMF, CB]
 
+Alexis Sánchez, CF, 73.76, False, Standard, [LWF, CF, RWF, SS], [LMF, AMF]
 Fernando Zampedri, CF, 73.39, False, Standard, [CF], [SS]
 Víctor Dávila, SS, 73.17, False, Standard, [CF, SS, AMF], [RWF, RMF, CMF, LMF]
 Bruno Barticciotto, LWF, 74.28, False, Standard, [LWF, CF], [SS, RWF, LMF]

@@ -1,4 +1,3 @@
-Dušan Vlahović, CF, 95.81, False, Highlight, [CF], [SS]
 Dragan Stojkovic, AMF, 98.47, False, Epic, [SS, AMF], [CMF]
 Ivan Ilić, CMF, 93.15, False, Highlight, [CMF, DMF], [AMF]
 Nemanja Gudelj, DMF, 93.13, False, Highlight, [CMF, DMF, CB], []
@@ -6,6 +5,7 @@ Nikola Milenković, CB, 95.00, False, Highlight, [CB], []
 Strahinja Pavlović, CB, 93.97, False, Highlight, [CB], []
 Mile Svilar, GK, 95.04, False, Highlight, [GK], []
 
+Dušan Vlahović, CF, 78.43, False, Standard, [CF], [SS]
 Dejan Joveljić, CF, 75.81, False, Standard, [CF], [SS]
 Mihailo Ivanović, CF, 71.72, True, Standard, [CF, SS], [AMF]
 Djordje Despotovic, CF, 71.52, False, Standard, [CF], [LWF, SS]

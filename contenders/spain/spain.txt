@@ -21,7 +21,7 @@ Substitutes:
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Xabi Alonso (DMF) rating 96.19 #14
   [LB] Sergi Barjuan (LB) rating 98.36 #12
-  [CB] Pau Torres (CB) rating 94.84 #15
+  [CB] Yeray Álvarez (CB) rating 95.10 #26
   [CB] Eric García (CB) rating 95.96 #4
   [RB] Marcos Llorente (RB) rating 96.97 #5
   [GK] Joan García (GK) rating 99.09 #13
@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xavi (DMF) rating 97.06 #8
   [LB] Alejandro Balde (LB) rating 95.80 #3
-  [CB] Iñigo Martínez (CB) rating 78.41 #16
   [CB] Aymeric Laporte (CB) rating 94.54 #14
+  [CB] Iñigo Martínez (CB) rating 78.41 #16
   [RB] Lucas Vázquez (RB) rating 93.81 #9
   [GK] Álex Remiro (GK) rating 95.02 #13
 

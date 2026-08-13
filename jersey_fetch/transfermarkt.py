@@ -7,6 +7,7 @@ from jersey_fetch.constants import (
     TRANSFERMARKT_PLAYWRIGHT_UA,
     _TRANSFERMARKT_STEALTH_JS,
 )
+from jersey_fetch.names import nation_labels_equivalent
 
 _transfermarkt_waf_hint_printed = False
 
@@ -60,6 +61,13 @@ async def launch_chromium(playwright, *, headless=True, hardened=False):
 
 
 PROFILE_FALLBACK_SEASON = "26/27"
+TMAPI_BASE = "https://tmapi.transfermarkt.technology"
+SENIOR_CLUB_TYPE_ID = 1
+NATIONAL_CAREER_STATE_RANK = {
+    "CURRENT_NATIONAL_PLAYER": 0,
+    "RECENT_NATIONAL_PLAYER": 1,
+    "FORMER_NATIONAL_PLAYER": 2,
+}
 
 
 def try_transfermarkt_html_curl(url: str, *, require_grid=False):
@@ -165,17 +173,86 @@ YOUTH_OR_OLYMPIC_MARKERS = (
 )
 
 
-def extract_profile_shirt_number(html):
-    if not html:
+def try_tmapi_json(url, params=None):
+    try:
+        from curl_cffi import requests as curl_requests
+    except ImportError:
         return None
-    m = re.search(
-        r'class="data-header__shirt-number"[^>]*>\s*#?\s*(\d{1,2})\s*<',
-        html,
-        flags=re.IGNORECASE,
-    )
-    if not m:
+    try:
+        resp = curl_requests.get(
+            url,
+            impersonate="chrome",
+            timeout=60,
+            headers={
+                "Accept": "application/json",
+                "Origin": "https://www.transfermarkt.com",
+                "Referer": "https://www.transfermarkt.com/",
+            },
+            params=params,
+        )
+        if resp.status_code != 200 or not resp.text:
+            return None
+        payload = resp.json()
+        if not payload.get("success"):
+            return None
+        return payload.get("data")
+    except Exception:
         return None
-    return int(m.group(1))
+
+
+def fetch_national_career_history(player_id):
+    return try_tmapi_json(f"{TMAPI_BASE}/player/{player_id}/national-career-history")
+
+
+def fetch_clubs_by_ids(club_ids):
+    ids = [str(cid) for cid in club_ids if cid]
+    if not ids:
+        return {}
+    data = try_tmapi_json(f"{TMAPI_BASE}/clubs", params=[("ids[]", cid) for cid in ids])
+    if not data:
+        return {}
+    return {str(club.get("id")): club for club in data if club and club.get("id")}
+
+
+def is_senior_national_club(club):
+    if not club:
+        return False
+    name = club.get("name") or ""
+    if is_youth_or_olympic_team(name):
+        return False
+    club_type = (club.get("baseDetails") or {}).get("clubTypeId")
+    if club_type is not None and club_type != SENIOR_CLUB_TYPE_ID:
+        return False
+    return True
+
+
+def extract_senior_profile_shirt_number(player_id, expected_nation_label=None):
+    history_data = fetch_national_career_history(player_id)
+    if not history_data:
+        return None
+    history = history_data.get("history") or []
+    club_ids = history_data.get("clubIds") or [row.get("clubId") for row in history]
+    clubs = fetch_clubs_by_ids(club_ids)
+    candidates = []
+    for row in history:
+        try:
+            number = int(row.get("shirtNumber") or 0)
+        except (TypeError, ValueError):
+            continue
+        if number <= 0:
+            continue
+        club = clubs.get(str(row.get("clubId") or ""))
+        if not is_senior_national_club(club):
+            continue
+        club_name = (club or {}).get("name") or ""
+        if expected_nation_label and not nation_labels_equivalent(club_name, expected_nation_label):
+            continue
+        rank = NATIONAL_CAREER_STATE_RANK.get(row.get("careerState"), 99)
+        candidates.append((rank, number))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: item[0])
+    return candidates[0][1]
 
 
 def shirt_history_grid_present(html):

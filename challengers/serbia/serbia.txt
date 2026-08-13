@@ -1,5 +1,5 @@
 Starters:
-  [CF] Dušan Vlahović (CF) rating 95.81 #23
+  [CF] Dušan Vlahović (CF) rating 78.43 #18
   [LWF] Veljko Birmancevic (LWF) rating 74.31 #7
   [RWF] Nikola Cumic (RWF) rating 70.00 #21
   [AMF] Dragan Stojkovic (AMF) rating 98.47 #10
@@ -9,12 +9,12 @@ Starters:
   [CB] Nikola Milenković (CB) rating 95.00 #4
   [CB] Strahinja Pavlović (CB) rating 93.97 #3
   [RB] VACANT
-  [GK] Predrag Rajković (GK) rating 78.56 #1
+  [GK] Mile Svilar (GK) rating 95.04 #23
 
 Substitutes:
   [CF] Dejan Joveljić (CF) rating 75.81 #19
   [LWF] Darko Lazović (LMF) rating 73.75 #22
-  [RWF] Mihailo Ivanović (CF) rating 71.72 #18
+  [RWF] Petar Ratkov (CF) rating 70.63 #9
   [AMF] Lazar Samardžić (AMF) rating 76.99 #11
   [CMF] Sergej Milinković-Savić (CMF) rating 78.80 #20
   [DMF] Nemanja Matić (DMF) rating 76.28 #14
@@ -22,9 +22,9 @@ Substitutes:
   [CB] Uros Spajic (CB) rating 72.49 #24
   [CB] Nikola Maras (CB) rating 71.60 #2
   [RB] Jan-Carlo Simić (CB) rating 67.70 #5
-  [GK] Djordje Petrovic (GK) rating 77.02 #12
+  [GK] Predrag Rajković (GK) rating 78.56 #1
 
 Wildcard:
+  [WILD] Djordje Petrovic (GK) rating 77.02 #12
   [WILD] Nemanja Maksimovic (CMF) rating 76.06 #16
   [WILD] Veljko Milosavljevic (CB) rating 70.76 #15
-  [WILD] Petar Ratkov (CF) rating 70.63 #9

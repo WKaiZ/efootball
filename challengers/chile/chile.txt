@@ -1,5 +1,5 @@
 Starters:
-  [CF] Alexis Sánchez (CF) rating 93.44 #10
+  [CF] Alexis Sánchez (CF) rating 73.76 #10
   [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
   [RWF] Darío Osorio (RWF) rating 73.26 #11
   [AMF] Carlos Palacios (AMF) rating 75.06 #9
