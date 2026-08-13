@@ -18,16 +18,16 @@ Substitutes:
   [LMF] Keito Nakamura (LMF) rating 97.08 #13
   [RMF] Ritsu Doan (RMF) rating 97.70 #11
   [AMF] Hidetoshi Nakata (AMF) rating 97.21 #7
-  [CMF] Yasuto Wakizaka (CMF) rating 73.23 #14
+  [CMF] Kodai Sano (CMF) rating 73.25 #19
   [DMF] Wataru Endo (DMF) rating 95.06 #6
-  [LB] Ryo Hatsuse (LB) rating 72.30 #19
+  [LB] Kashif Bangnagande (LB) rating 70.25 #5
   [CB] Shogo Taniguchi (CB) rating 96.07 #3
   [CB] Ayumu Seko (CB) rating 94.54 #20
   [RB] Yukinari Sugawara (RB) rating 74.19 #2
   [GK] Seigo Narazaki (GK) rating 96.92 #12
 
 Wildcard:
-  [WILD] Tomoki Hayakawa (GK) rating 96.23 #23
+  [WILD] Shunsuke Nakamura (AMF) rating 96.64 #14
 
 Second Squad
 
@@ -42,12 +42,12 @@ Starters:
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Ko Itakura (CB) rating 94.53 #4
   [RB] Yukinari Sugawara (RMF) rating 94.39 #2
-  [GK] Keisuke Osako (GK) rating 94.37 #12
+  [GK] Tomoki Hayakawa (GK) rating 96.23 #23
 
 Substitutes:
   [CF] Kento Shiogai (CF) rating 94.40 #26
   [LWF] Kaoru Mitoma (LWF) rating 79.16 #21
-  [RWF] Takefusa Kubo (RWF) rating 77.94 #10
+  [RWF] Takefusa Kubo (RWF) rating 77.06 #10
   [SS] Yuito Suzuki (SS) rating 94.12 #8
   [CMF] Reo Hatate (CMF) rating 75.03 #18
   [DMF] Ao Tanaka (DMF) rating 92.85 #7
@@ -55,7 +55,7 @@ Substitutes:
   [CB] Wataru Endo (CB) rating 93.56 #6
   [CB] Maya Yoshida (CB) rating 93.28 #22
   [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
-  [GK] Daiya Maekawa (GK) rating 73.56 #1
+  [GK] Keisuke Osako (GK) rating 94.37 #12
 
 Wildcard:
   [WILD] Shuto Machino (SS) rating 94.03 #11
