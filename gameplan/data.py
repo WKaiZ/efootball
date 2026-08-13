@@ -60,13 +60,6 @@ def _parse_formation_block(lines):
 
 
 def load_formations(formation_file):
-    """Return (primary_formation, secondary_formation_or_None).
-
-    Blocks in ``*_formation.txt`` are separated by a blank line. The first
-    non-empty block is the primary (first-squad) formation. If a second block
-    is present it is used for the contender second squad; otherwise the second
-    squad reuses the primary formation.
-    """
     if not os.path.exists(formation_file):
         return DEFAULT_FORMATION[:], None
 

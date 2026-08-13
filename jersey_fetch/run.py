@@ -32,12 +32,42 @@ from jersey_fetch.storage import (
     warn_jersey_entries_nation_mismatch,
 )
 from jersey_fetch.transfermarkt import (
+    PROFILE_FALLBACK_SEASON,
     extract_national_numbers_from_html,
+    extract_profile_shirt_number,
+    fetch_transfermarkt_html,
     fetch_transfermarkt_rueckennummern_html,
     html_looks_like_waf_challenge,
     launch_chromium,
     maybe_note_transfermarkt_waf_once,
+    shirt_history_grid_present,
 )
+
+async def _profile_shirt_fallback(playwright, player_id, expected_nation_label):
+    if not expected_nation_label:
+        return None
+    url = f"https://www.transfermarkt.com/-/profil/spieler/{player_id}"
+    print(f"  No senior shirt history; checking profile {url}")
+    await asyncio.sleep(5)
+    try:
+        html = await fetch_transfermarkt_html(playwright, url)
+    except PlaywrightTimeoutError:
+        print(f"  Timeout loading profile {url}.")
+        return None
+    maybe_note_transfermarkt_waf_once(html)
+    number = extract_profile_shirt_number(html)
+    if number is None:
+        print("  Profile page has no shirt number.")
+        return None
+    print(
+        f"  Using profile #{number} as {PROFILE_FALLBACK_SEASON} {expected_nation_label}."
+    )
+    return {
+        "season": PROFILE_FALLBACK_SEASON,
+        "country": expected_nation_label,
+        "number": str(number),
+    }
+
 
 async def fetch_numbers_for_player(
     playwright,
@@ -87,8 +117,8 @@ async def fetch_numbers_for_player(
                 official_name = candidate_name
     if db_name_override:
         official_name = db_name_override
-    _, tm_only_entries = extract_national_numbers_from_html(html)
-    if html_looks_like_waf_challenge(html) or not tm_only_entries:
+    _, senior_entries = extract_national_numbers_from_html(html)
+    if html_looks_like_waf_challenge(html) or not senior_entries:
         os.makedirs(DEBUG_HTML_DIR, exist_ok=True)
         debug_path = os.path.join(DEBUG_HTML_DIR, f"debug_playwright_{player_id}.html")
         try:
@@ -97,7 +127,13 @@ async def fetch_numbers_for_player(
             print(f"  Wrote debug HTML to {debug_path}")
         except Exception as e:
             print(f"  Failed to write debug HTML for {player_id}: {e}")
-    entries = tm_only_entries
+    if shirt_history_grid_present(html) and not senior_entries:
+        profile_entry = await _profile_shirt_fallback(
+            playwright, player_id, expected_nation_label
+        )
+        if profile_entry:
+            senior_entries = [profile_entry]
+    entries = senior_entries
     entries = merge_jersey_entries(espn_seed_entry, entries)
     warn_jersey_entries_nation_mismatch(entries, expected_nation_label, official_name, player_id)
     nums, by_number = store_jersey_entries(
@@ -113,13 +149,6 @@ async def fetch_numbers_for_player(
     return (nums, False)
 
 def seed_recent_numbers_into_db(conn, country_name, country_label, players, player_positions, recent_numbers):
-    """Prepend each player's latest ESPN squad number at row 0 of the jersey DB.
-
-    Mirrors what --refetch does via merge_jersey_entries, but without any
-    Transfermarkt traffic: only players whose Transfermarkt ID is already cached
-    (or has a manual override) are updated. The seeded entry carries the ESPN
-    season, so re-running --lineup-only is idempotent for the same number/season.
-    """
     if not recent_numbers:
         return
     id_map = load_player_id_map(conn)

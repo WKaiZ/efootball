@@ -13,8 +13,6 @@ def _available_roles_for_sub_slot(slot, roles_by_pos, used_ids):
     if std_direct:
         return std_direct
 
-    # SS (second striker) is only considered for a wing slot once neither a
-    # non-Standard nor a Standard direct winger is available for it.
     if slot in SUB_WING_SLOTS:
         ss_roles = roles_by_pos.get("SS", [])
         nonstd_ss = [r for r in ss_roles if r.player_id not in used_ids and not is_standard(r)]

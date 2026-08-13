@@ -41,10 +41,6 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
 
 
 def _squad_card_keys(starter_asg, sub_asg, wildcard_asgs):
-    """Identify picked cards as (player_id, main_position).
-
-    Same player may still appear in the other squad on a different-position card.
-    """
     return {
         (a.player.player_id, a.player.position)
         for a in (starter_asg + sub_asg + wildcard_asgs)
@@ -62,7 +58,6 @@ def _exclude_cards(roles_by_pos, used_cards):
 
 
 def _is_contender(out_path):
-    """True when the country folder lives under contenders/."""
     country_dir = os.path.dirname(os.path.abspath(out_path))
     return os.path.basename(os.path.dirname(country_dir)) == "contenders"
 

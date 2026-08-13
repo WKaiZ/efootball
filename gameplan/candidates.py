@@ -16,11 +16,6 @@ def player_max_rating(all_roles, player_id):
 
 
 def preferred_card_for_slot(all_roles, player_id, slot, fallback=None):
-    """Prefer a MAIN-position card for ``slot`` when the player has one.
-
-    Same player may have a higher-rated card at another main position that is
-    only proficient for ``slot``; for that slot we still want the direct card.
-    """
     main_cards = [r for r in all_roles if r.player_id == player_id and r.position == slot]
     if main_cards:
         return max(main_cards, key=lambda r: r.rating)
@@ -72,7 +67,6 @@ def next_candidate_for_sub_wing(
     if std_direct:
         return max(std_direct, key=lambda r: r.rating)
 
-    # SS only after both non-Standard and Standard direct wingers are exhausted.
     nonstd_ss = [
         r
         for r in roles_by_pos.get("SS", [])

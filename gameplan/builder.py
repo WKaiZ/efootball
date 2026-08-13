@@ -221,8 +221,6 @@ def build_gameplan(conn, roles_by_pos):
                     else:
                         raise ValueError(f"Unknown pos_set_name: {pos_set_name}")
 
-                    # Never fill via proficient/semiproficient when the same player
-                    # still has a direct MAIN-position card for this slot.
                     if pos_set_name != "main":
                         main_card = preferred_card_for_slot(all_roles, r.player_id, slot, None)
                         if main_card is not None:
@@ -366,14 +364,10 @@ def build_gameplan(conn, roles_by_pos):
                         if not role_matches_stage(vacant_slot, candidate, pos_set_name, want_standard):
                             continue
 
-                        # Prefer the player's MAIN card for this slot when inserting.
-                        # Displacement strength uses their best card rating so a strong
-                        # side-card can free a number for their direct card.
                         insert_card = preferred_card_for_slot(
                             all_roles, candidate.player_id, vacant_slot, candidate
                         )
                         if pos_set_name != "main" and insert_card.position == vacant_slot:
-                            # Direct card is handled in main stages only.
                             continue
                         displace_rating = player_max_rating(all_roles, candidate.player_id)
 
@@ -391,11 +385,6 @@ def build_gameplan(conn, roles_by_pos):
                                 continue
                             if holder.recent:
                                 continue
-                            # Do not displace a sub who is already correctly filling
-                            # their slot at MAIN position (same protection as
-                            # fill_vacancies' swap_protected_player_ids). Otherwise a
-                            # proficient fill for a vacant slot can steal their number
-                            # and replace a direct MAIN holder with a worse fit.
                             if holder.position == FORMATION[holder_idx]:
                                 continue
                             if holder.rating > displace_rating:

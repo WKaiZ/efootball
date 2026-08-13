@@ -59,7 +59,10 @@ async def launch_chromium(playwright, *, headless=True, hardened=False):
     return await playwright.chromium.launch(**opts)
 
 
-def try_transfermarkt_rueckennummern_curl(url: str):
+PROFILE_FALLBACK_SEASON = "26/27"
+
+
+def try_transfermarkt_html_curl(url: str, *, require_grid=False):
     try:
         from curl_cffi import requests as curl_requests
     except ImportError:
@@ -79,14 +82,18 @@ def try_transfermarkt_rueckennummern_curl(url: str):
             return None
         if html_looks_like_waf_challenge(resp.text):
             return None
-        if "grid-view" not in resp.text and "yw2" not in resp.text:
+        if require_grid and "grid-view" not in resp.text and "yw2" not in resp.text:
             return None
         return resp.text
     except Exception:
         return None
 
 
-async def _transfermarkt_rueckennummern_playwright(playwright, url: str):
+def try_transfermarkt_rueckennummern_curl(url: str):
+    return try_transfermarkt_html_curl(url, require_grid=True)
+
+
+async def _transfermarkt_html_playwright(playwright, url: str):
     browser = await launch_chromium(playwright, hardened=True)
     context = await browser.new_context(
         user_agent=TRANSFERMARKT_PLAYWRIGHT_UA,
@@ -130,11 +137,64 @@ async def _transfermarkt_rueckennummern_playwright(playwright, url: str):
         await browser.close()
 
 
-async def fetch_transfermarkt_rueckennummern_html(playwright, url: str):
-    curl_html = await asyncio.to_thread(try_transfermarkt_rueckennummern_curl, url)
+async def fetch_transfermarkt_html(playwright, url: str, *, require_grid=False):
+    curl_html = await asyncio.to_thread(try_transfermarkt_html_curl, url, require_grid=require_grid)
     if curl_html:
         return curl_html
-    return await _transfermarkt_rueckennummern_playwright(playwright, url)
+    return await _transfermarkt_html_playwright(playwright, url)
+
+
+async def fetch_transfermarkt_rueckennummern_html(playwright, url: str):
+    return await fetch_transfermarkt_html(playwright, url, require_grid=True)
+
+
+YOUTH_OR_OLYMPIC_MARKERS = (
+    "u15",
+    "u16",
+    "u17",
+    "u18",
+    "u19",
+    "u20",
+    "u21",
+    "u22",
+    "u23",
+    "olympic",
+    "olympics",
+    "olympia",
+    "olympiad",
+)
+
+
+def extract_profile_shirt_number(html):
+    if not html:
+        return None
+    m = re.search(
+        r'class="data-header__shirt-number"[^>]*>\s*#?\s*(\d{1,2})\s*<',
+        html,
+        flags=re.IGNORECASE,
+    )
+    if not m:
+        return None
+    return int(m.group(1))
+
+
+def shirt_history_grid_present(html):
+    if not html:
+        return False
+    return bool(
+        re.search(
+            r'<div id="yw2" class="grid-view">',
+            html,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def is_youth_or_olympic_team(club_cell):
+    club_low = (club_cell or "").strip().lower()
+    if re.search(r"\s+b$", club_low):
+        return True
+    return any(marker in club_low for marker in YOUTH_OR_OLYMPIC_MARKERS)
 
 
 def extract_national_numbers_from_html(html):
@@ -166,25 +226,7 @@ def extract_national_numbers_from_html(html):
         if not m:
             continue
         num = m.group(1)
-        club_low = club_cell.strip().lower()
-        if re.search(r"\s+b$", club_low):
-            continue
-        skip_team_markers = (
-            "u15",
-            "u16",
-            "u17",
-            "u18",
-            "u19",
-            "u20",
-            "u21",
-            "u22",
-            "u23",
-            "olympic",
-            "olympics",
-            "olympia",
-            "olympiad",
-        )
-        if any((marker in club_low for marker in skip_team_markers)):
+        if is_youth_or_olympic_team(club_cell):
             continue
         by_number.setdefault(num, set()).add(club_cell)
         entries.append({"season": season, "country": club_cell, "number": num})

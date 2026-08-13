@@ -174,8 +174,6 @@ ESPN_TEAM_NAME_ALIASES = {
     "usa": ("United States",),
 }
 
-# Folder basename -> workflow/ESPN label when the folder name is ambiguous or
-# does not match ESPN/Transfermarkt (e.g. congo/ means DR Congo, not Congo).
 COUNTRY_DISPLAY_NAMES = {
     "congo": "DR Congo",
 }
