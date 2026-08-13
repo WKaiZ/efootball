@@ -2,11 +2,11 @@ First Squad
 
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
-  [LWF] Hirving Lozano (LWF) rating 74.19 #13
-  [RWF] Roberto Alvarado (RWF) rating 75.13 #25
-  [AMF] Erick Sanchez (CMF) rating 75.05 #14
+  [LWF] Hirving Lozano (LWF) rating 73.22 #13
+  [RWF] Roberto Alvarado (RWF) rating 75.06 #25
+  [AMF] Jordán Carrillo (AMF) rating 72.26 #27
   [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
-  [DMF] Edson Álvarez (DMF) rating 77.46 #21
+  [DMF] Edson Álvarez (DMF) rating 76.14 #21
   [LB] Bryan González (LB) rating 71.51 #11
   [CB] Rafa Márquez (CB) rating 96.20 #4
   [CB] Israel Reyes (CB) rating 74.18 #15
@@ -15,26 +15,26 @@ Starters:
 
 Substitutes:
   [CF] Santiago Gimenez (CF) rating 93.82 #17
-  [LWF] Efraín Álvarez (RMF) rating 73.40 #18
+  [LWF] Henry Martin (CF) rating 75.14 #6
   [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
-  [AMF] Brian Gutiérrez (LMF) rating 74.15 #26
-  [CMF] Héctor Herrera (CMF) rating 73.86 #16
+  [AMF] Brian Gutiérrez (CMF) rating 74.43 #26
+  [CMF] Erick Sanchez (CMF) rating 75.04 #14
   [DMF] Luis Romo (DMF) rating 75.48 #7
-  [LB] Mateo Chávez (LB) rating 70.63 #20
+  [LB] Mateo Chávez (LB) rating 70.94 #20
   [CB] Johan Vasquez (CB) rating 73.36 #5
-  [CB] VACANT
+  [CB] Luis Gabriel Rey (CB) rating 66.58 #18
   [RB] Rodrigo Huescas (RB) rating 73.29 #19
-  [GK] Raúl Rangel (GK) rating 73.63 #12
+  [GK] Raúl Rangel (GK) rating 73.85 #12
 
 Wildcard:
-  [WILD] Henry Martin (CF) rating 75.14 #6
+  [WILD] Héctor Herrera (CMF) rating 72.63 #16
 
 Second Squad
 
 Starters:
-  [CF] Armando González (CF) rating 70.49 #14
-  [LWF] César Huerta (LWF) rating 73.90 #21
-  [RWF] VACANT
+  [CF] German Berterame (CF) rating 76.29 #19
+  [LWF] César Huerta (LWF) rating 72.98 #21
+  [RWF] Efraín Álvarez (RMF) rating 73.40 #20
   [AMF] Omar Govea (CMF) rating 72.37 #8
   [CMF] Obed Vargas (CMF) rating 73.38 #18
   [DMF] Alan Cervantes (DMF) rating 72.29 #13
@@ -45,7 +45,7 @@ Starters:
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] VACANT
+  [CF] Armando González (CF) rating 70.49 #14
   [LWF] VACANT
   [RWF] VACANT
   [AMF] VACANT
@@ -55,4 +55,4 @@ Substitutes:
   [CB] VACANT
   [CB] VACANT
   [RB] VACANT
-  [GK] VACANT
+  [GK] Álex Padilla (GK) rating 71.10 #26
