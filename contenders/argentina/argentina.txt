@@ -46,15 +46,15 @@ Starters:
 
 Substitutes:
   [CF] Mauro Icardi (CF) rating 94.00 #18
-  [LWF] Valentín Barco (CMF) rating 74.24 #3
+  [LWF] Valentín Barco (CMF) rating 75.36 #3
   [RWF] Nico González (RWF) rating 93.15 #15
   [SS] Paulo Dybala (SS) rating 94.37 #19
   [CMF] Exequiel Palacios (CMF) rating 94.29 #14
-  [DMF] Guido Rodríguez (DMF) rating 75.60 #16
+  [DMF] Guido Rodríguez (DMF) rating 75.60 #27
   [LB] Milton Casco (LB) rating 74.03 #13
-  [CB] Kevin Lomónaco (CB) rating 75.53 #4
-  [CB] Facundo Medina (CB) rating 77.05 #25
-  [RB] Gabriel Mercado (CB) rating 74.56 #20
+  [CB] Rodrigo Battaglia (CB) rating 76.31 #16
+  [CB] Facundo Medina (CB) rating 76.78 #25
+  [RB] Agustín Giay (RB) rating 73.67 #4
   [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
 Wildcard:
