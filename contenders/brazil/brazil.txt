@@ -36,7 +36,7 @@ Starters:
   [LWF] Neymar (LWF) rating 99.19 #10
   [RMF] Cafu (RMF) rating 97.18 #2
   [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [CMF] Andrey Santos (CMF) rating 94.21 #18
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Éder Militão (CB) rating 95.22 #3
@@ -49,8 +49,8 @@ Substitutes:
   [LWF] Raphinha (LWF) rating 96.69 #11
   [RMF] Lucas Moura (RMF) rating 95.07 #20
   [AMF] Ronaldinho (AMF) rating 98.60 #17
-  [CMF] Gerson (CMF) rating 77.28 #19
-  [DMF] Danilo Santos (DMF) rating 75.30 #18
+  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [DMF] Zé Roberto (LMF) rating 97.10 #9
   [LB] Carlos Augusto (LB) rating 93.88 #25
   [CB] Thiago Silva (CB) rating 94.09 #4
   [CB] Alexsandro (CB) rating 94.26 #15
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Zé Roberto (LMF) rating 97.10 #9
+  [WILD] Matheus Cunha (AMF) rating 96.23 #19

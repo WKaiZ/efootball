@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Alexander Sørloth (CF) rating 96.18 #7
-  [LWF] Andreas Schjelderup (LWF) rating 75.79 #21
+  [LWF] Andreas Schjelderup (LWF) rating 94.39 #21
   [RWF] Ola Solbakken (RWF) rating 72.38 #11
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
   [CMF] Fredrik Aursnes (CMF) rating 78.12 #14

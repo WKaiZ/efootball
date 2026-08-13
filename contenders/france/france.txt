@@ -39,9 +39,9 @@ Starters:
   [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Lucas Hernández (LB) rating 94.06 #21
-  [CB] Jules Koundé (CB) rating 95.26 #5
+  [CB] Ibrahima Konaté (CB) rating 95.55 #15
   [CB] Dayot Upamecano (CB) rating 95.62 #4
-  [RB] Lilian Thuram (RB) rating 100.09 #15
+  [RB] Lilian Thuram (RB) rating 100.09 #2
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Substitutes:
@@ -53,7 +53,7 @@ Substitutes:
   [DMF] Boubacar Kamara (DMF) rating 95.46 #19
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
   [CB] Jean-Clair Todibo (CB) rating 94.32 #17
-  [CB] Benjamin Pavard (CB) rating 94.98 #2
+  [CB] Jules Koundé (CB) rating 95.26 #5
   [RB] Jonathan Clauss (RB) rating 93.04 #3
   [GK] Robin Risser (GK) rating 94.39 #23
 

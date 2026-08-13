@@ -50,7 +50,7 @@ Substitutes:
   [RWF] Riccardo Orsolini (RWF) rating 78.21 #22
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
   [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
-  [DMF] Demetrio Albertini (DMF) rating 96.16 #8
+  [DMF] Sandro Tonali (DMF) rating 96.44 #8
   [LB] Matteo Ruggeri (LB) rating 94.00 #15
   [CB] Giorgio Scalvini (CB) rating 94.78 #20
   [CB] Alessandro Bastoni (CB) rating 95.00 #19
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Marco Carnesecchi (GK) rating 96.73 #23
 
 Wildcard:
-  [WILD] Nicolò Barella (AMF) rating 95.26 #14
+  [WILD] Demetrio Albertini (DMF) rating 96.16 #14

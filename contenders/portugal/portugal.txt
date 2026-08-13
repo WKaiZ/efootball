@@ -22,7 +22,7 @@ Substitutes:
   [DMF] Samú Costa (DMF) rating 76.14 #24
   [LB] Nuno Tavares (LB) rating 94.43 #2
   [CB] Tomás Araújo (CB) rating 95.54 #4
-  [CB] Renato Veiga (CB) rating 95.40 #13
+  [CB] Renato Veiga (CB) rating 94.29 #13
   [RB] João Cancelo (RB) rating 95.29 #21
   [GK] Rui Silva (GK) rating 94.31 #22
 

@@ -10,21 +10,21 @@ Starters:
   [LB] Nico O'Reilly (LB) rating 96.40 #3
   [CB] Rio Ferdinand (CB) rating 97.73 #5
   [CB] Jarrad Branthwaite (CB) rating 95.98 #14
-  [RB] Reece James (RB) rating 96.38 #24
+  [RB] Ben White (RB) rating 96.22 #21
   [GK] David Seaman (GK) rating 95.65 #1
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
   [LMF] Jack Grealish (LMF) rating 93.95 #17
   [RMF] Cole Palmer (RMF) rating 98.93 #20
-  [AMF] Eberechi Eze (AMF) rating 96.12 #21
+  [AMF] Eberechi Eze (AMF) rating 96.12 #15
   [CMF] Steven Gerrard (CMF) rating 98.58 #16
   [DMF] Adam Wharton (DMF) rating 94.24 #25
   [LB] Luke Shaw (LB) rating 95.99 #23
-  [CB] Tony Adams (CB) rating 95.62 #6
-  [CB] Levi Colwill (CB) rating 95.57 #15
-  [RB] Ben White (RB) rating 96.22 #22
-  [GK] Jordan Pickford (GK) rating 94.98 #13
+  [CB] Fikayo Tomori (CB) rating 94.99 #12
+  [CB] Marc Guéhi (CB) rating 95.45 #6
+  [RB] Trent Alexander-Arnold (RB) rating 95.94 #2
+  [GK] Jordan Pickford (GK) rating 94.98 #22
 
 Wildcard:
   [WILD] Kobbie Mainoo (CMF) rating 97.97 #26
@@ -39,9 +39,9 @@ Starters:
   [CMF] Jude Bellingham (CMF) rating 98.27 #10
   [DMF] Declan Rice (DMF) rating 96.87 #4
   [LB] Djed Spence (LB) rating 94.97 #25
-  [CB] Marc Guéhi (CB) rating 95.45 #6
-  [CB] Fikayo Tomori (CB) rating 94.99 #3
-  [RB] Trent Alexander-Arnold (RB) rating 95.94 #2
+  [CB] Tony Adams (CB) rating 95.62 #5
+  [CB] Levi Colwill (CB) rating 95.57 #6
+  [RB] Kyle Walker (RB) rating 94.92 #2
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Substitutes:
@@ -51,11 +51,11 @@ Substitutes:
   [AMF] Phil Foden (AMF) rating 95.88 #7
   [CMF] Frank Lampard (CMF) rating 98.11 #8
   [DMF] Jordan Henderson (DMF) rating 96.28 #14
-  [LB] Lewis Hall (LB) rating 94.08 #12
+  [LB] Tyrick Mitchell (LB) rating 94.43 #23
   [CB] Jarell Quansah (CB) rating 94.03 #26
   [CB] Dan Burn (CB) rating 94.00 #15
-  [RB] Kieran Trippier (RB) rating 76.37 #17
+  [RB] Reece James (RB) rating 94.01 #24
   [GK] Sam Johnstone (GK) rating 94.17 #13
 
 Wildcard:
-  [WILD] Bukayo Saka (RWF) rating 97.41 #23
+  [WILD] Bukayo Saka (RWF) rating 97.41 #17

@@ -42,7 +42,7 @@ Starters:
   [CB] Arthur Theate (CB) rating 94.49 #3
   [CB] Brandon Mechele (CB) rating 76.48 #4
   [RB] Nathan Ngoy (CB) rating 71.86 #25
-  [GK] Senne Lammens (GK) rating 93.00 #12
+  [GK] Senne Lammens (GK) rating 93.92 #12
 
 Substitutes:
   [CF] Loïs Openda (CF) rating 80.17 #19

@@ -8,8 +8,8 @@ Starters:
   [CMF] Luka Modrić (CMF) rating 98.25 #10
   [DMF] Petar Sučić (DMF) rating 93.75 #17
   [LB] Josko Gvardiol (LB) rating 95.77 #4
+  [CB] Luka Vuskovic (CB) rating 94.56 #22
   [CB] Martin Erlić (CB) rating 93.06 #25
-  [CB] Josip Sutalo (CB) rating 76.06 #6
   [RB] Josip Stanisic (RB) rating 94.10 #2
   [GK] Dominik Livakovic (GK) rating 76.49 #1
 
@@ -21,9 +21,9 @@ Substitutes:
   [CMF] Martin Baturina (CMF) rating 94.17 #16
   [DMF] Nikola Moro (DMF) rating 93.15 #7
   [LB] Borna Sosa (LB) rating 75.43 #19
+  [CB] Josip Sutalo (CB) rating 76.06 #6
   [CB] Marin Pongracic (CB) rating 75.54 #3
-  [CB] Matej Mitrovic (CB) rating 72.88 #5
-  [RB] Ivan Smolcic (RB) rating 68.52 #22
+  [RB] Kristijan Jakic (DMF) rating 73.37 #18
   [GK] Ivo Grbic (GK) rating 74.67 #12
 
 Wildcard:
@@ -40,8 +40,8 @@ Starters:
   [DMF] Luka Modrić (DMF) rating 94.05 #10
   [LB] Ivan Perišić (LB) rating 93.99 #14
   [CB] Josko Gvardiol (CB) rating 95.36 #4
-  [CB] Duje Caleta-Car (CB) rating 72.45 #5
-  [RB] VACANT
+  [CB] Matej Mitrovic (CB) rating 72.88 #5
+  [RB] Ivan Smolcic (RB) rating 68.52 #2
   [GK] Dominik Kotarski (GK) rating 74.46 #23
 
 Substitutes:
@@ -49,10 +49,10 @@ Substitutes:
   [LWF] Igor Matanovic (CF) rating 70.95 #21
   [RWF] VACANT
   [AMF] Toni Fruk (AMF) rating 70.41 #19
-  [CMF] Kristijan Jakic (DMF) rating 73.37 #26
+  [CMF] VACANT
   [DMF] Marcelo Brozović (DMF) rating 77.30 #11
   [LB] Domagoj Bradarić (LB) rating 72.50 #6
-  [CB] Luka Vuskovic (CB) rating 72.20 #22
-  [CB] Filip Uremovic (CB) rating 71.97 #2
+  [CB] Duje Caleta-Car (CB) rating 72.45 #3
+  [CB] VACANT
   [RB] VACANT
   [GK] Ivor Pandur (GK) rating 70.95 #12

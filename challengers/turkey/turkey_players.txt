@@ -1,4 +1,3 @@
-Enes Ünal, CF, 93.37, False, Highlight, [CF], [SS]
 Kenan Yıldız, LWF, 97.02, True, Highlight, [LWF, CF, SS, AMF], [LMF, RWF, RMF]
 Kenan Yıldız, AMF, 96.97, True, Highlight, [LWF, CF, SS, AMF], [LMF, RWF, RMF, CMF]
 Arda Güler, AMF, 95.99, True, Highlight, [AMF, CMF, RWF, RMF, SS], [DMF]
@@ -12,6 +11,7 @@ Hakan Çalhanoğlu, DMF, 95.15, True, Highlight, [CMF, AMF, DMF, LMF, LWF, RWF, 
 Ferdi Kadıoğlu, LB, 93.90, True, Highlight, [LB, LMF, RB, RMF, LWF, RWF], []
 Berke Özer, GK, 91.99, False, Highlight, [GK], []
 
+Enes Ünal, CF, 73.49, False, Standard, [CF, SS], [LWF, AMF]
 Cenk Tosun, CF, 73.21, False, Standard, [CF, LWF], [RWF, SS]
 Kerem Aktürkoğlu, LWF, 77.21, True, Standard, [LWF, CF, SS, LMF], [AMF, RWF, RMF]
 İrfan Can Kahveci, RWF, 75.13, True, Standard, [RWF, RMF, AMF, CMF], [SS, LMF]

@@ -21,41 +21,41 @@ Substitutes:
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Neil El Aynaoui (DMF) rating 94.23 #24
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
-  [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 75.97 #14
+  [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [RB] Omar El Hilali (RB) rating 94.08 #15
-  [GK] Munir El Kajoui (GK) rating 73.42 #12
+  [GK] El Mehdi Benabid (GK) rating 92.34 #12
 
 Wildcard:
-  [WILD] Youssef En-Nesyri (CF) rating 77.34 #19
+  [WILD] Mohamed Boulacsout (RB) rating 93.43 #7
 
 Second Squad
 
 Starters:
-  [CF] Hamza Igamane (CF) rating 74.23 #7
+  [CF] Oussama Lamlioui (CF) rating 92.43 #9
   [LWF] Brahim Díaz (RMF) rating 94.98 #10
-  [RWF] Ilias Akhomach (RWF) rating 73.46 #11
+  [RWF] Mounir Chouiar (AMF) rating 93.25 #17
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
   [CMF] Ayyoub Bouaddi (CMF) rating 93.33 #6
   [DMF] Azzedine Ounahi (AMF) rating 94.00 #8
   [LB] Youssef Belammari (LB) rating 69.55 #19
   [CB] Medhi Benatia (CB) rating 94.38 #5
-  [CB] Chadi Riad (CB) rating 74.06 #18
-  [RB] Noussair Mazraoui (RB) rating 75.30 #3
-  [GK] El Mehdi Al Harrar (GK) rating 70.49 #1
+  [CB] Marouane Louadni (CB) rating 92.57 #4
+  [RB] Anas Bach (RB) rating 92.44 #3
+  [GK] Munir El Kajoui (GK) rating 73.42 #12
 
 Substitutes:
-  [CF] Walid Cheddira (CF) rating 72.30 #21
+  [CF] Youssef En-Nesyri (CF) rating 77.34 #7
   [LWF] Abde Ezzalzouli (LWF) rating 76.50 #16
-  [RWF] Munir El Haddadi (RWF) rating 73.19 #9
-  [AMF] Ismael Saibari (AMF) rating 74.69 #15
+  [RWF] Ayoube Amaimouni-Echghouyab (RWF) rating 68.40 #21
+  [AMF] Ismael Saibari (AMF) rating 93.24 #11
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
-  [DMF] Oussama El Azzouzi (DMF) rating 70.83 #14
+  [DMF] Youssef Aït Bennasser (DMF) rating 70.39 #15
   [LB] Ayoub Amraoui (LB) rating 69.54 #26
-  [CB] Soufiane Bouftini (CB) rating 71.07 #4
-  [CB] Marwane Saadane (CB) rating 72.27 #17
-  [RB] Zakaria El Ouahdi (RB) rating 70.10 #13
-  [GK] Ahmed Reda Tagnaouti (GK) rating 69.68 #22
+  [CB] Redouane Halhal (CB) rating 66.16 #25
+  [CB] Chadi Riad (CB) rating 74.06 #18
+  [RB] Noussair Mazraoui (RB) rating 75.30 #14
+  [GK] El Mehdi Al Harrar (GK) rating 70.49 #1
 
 Wildcard:
-  [WILD] Ilias Chair (LWF) rating 74.23 #25
+  [WILD] Ilias Chair (LWF) rating 74.23 #13

@@ -35,7 +35,7 @@ Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
   [LWF] Henry Mosquera (LWF) rating 71.60 #17
   [RWF] Juan Cuadrado (RMF) rating 95.13 #11
-  [AMF] James Rodríguez (AMF) rating 91.25 #10
+  [AMF] James Rodríguez (AMF) rating 93.22 #10
   [CMF] Diego Chará (CMF) rating 72.82 #20
   [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Cristián Borja (LB) rating 73.27 #18

@@ -1,8 +1,8 @@
 Charalampos Kostoulas, CF, 94.07, True, Highlight, [CF, SS, AMF], []
 Anastasios Douvikas, CF, 94.00, True, Highlight, [CF], [SS, RWF]
+Christos Tzolis, LWF, 94.42, True, Highlight, [LWF, CF, RWF], [SS, AMF, RMF, LMF]
 
 Vangelis Pavlidis, CF, 78.46, True, Standard, [LWF, CF], [SS, AMF, LMF]
-Christos Tzolis, LWF, 74.72, True, Standard, [LWF, CF], [SS, AMF, RWF, RMF, LMF]
 Georgios Masouras, LWF, 74.03, True, Standard, [LWF, RWF], [CF, SS, AMF, LMF, RMF]
 Marios Vrousai, RWF, 73.53, False, Standard, [LWF, AMF, RWF], [SS, CMF, LMF, RMF]
 Dimitrios Limnios, RWF, 72.73, False, Standard, [LWF, RWF], [CF, LMF, RMF]

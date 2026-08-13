@@ -1,6 +1,6 @@
 Starters:
   [CF] Charalampos Kostoulas (CF) rating 94.07 #11
-  [LWF] Christos Tzolis (LWF) rating 74.72 #10
+  [LWF] Christos Tzolis (LWF) rating 94.42 #10
   [RWF] Marios Vrousai (RWF) rating 73.53 #7
   [AMF] Anastasios Bakasetas (AMF) rating 74.16 #14
   [CMF] Christos Zafeiris (CMF) rating 71.73 #20
