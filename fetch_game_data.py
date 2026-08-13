@@ -61,6 +61,8 @@ MANUAL_ID_OVERRIDES = {
         "dani torres": "93142",
         "yeimar gomez andrade": "343359",
         "juan mosquera": "659826",
+        "carlos cuesta": "474589",
+        "andres mosquera": "100379",
     },
     "senegal" : {
         'souleymane basse': '1111045',

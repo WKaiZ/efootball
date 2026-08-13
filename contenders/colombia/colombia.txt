@@ -1,7 +1,7 @@
 First Squad
 
 Starters:
-  [CF] Duván Zapata (CF) rating 78.09 #19
+  [CF] Jhon Durán (CF) rating 77.35 #9
   [LWF] Luis Díaz (LWF) rating 97.29 #7
   [RWF] James Rodríguez (RWF) rating 98.81 #10
   [AMF] Jhon Arias (RWF) rating 94.34 #11
@@ -11,51 +11,52 @@ Starters:
   [CB] Jhon Lucumí (CB) rating 94.97 #3
   [CB] Yerry Mina (CB) rating 93.36 #13
   [RB] Daniel Muñoz (RB) rating 92.16 #2
-  [GK] David Ospina (GK) rating 75.90 #1
+  [GK] Camilo Vargas (GK) rating 74.52 #12
 
 Substitutes:
-  [CF] Jhon Durán (CF) rating 77.35 #9
-  [LWF] Jáminton Campaz (LWF) rating 74.84 #21
-  [RWF] Diego Valoyes (RWF) rating 73.10 #22
-  [AMF] Edwin Cardona (AMF) rating 74.39 #8
+  [CF] Cucho Hernández (CF) rating 76.34 #19
+  [LWF] Sebastián Villa (LWF) rating 77.18 #21
+  [RWF] Luis Quiñónes (RWF) rating 74.15 #22
+  [AMF] Jorge Carrascal (AMF) rating 73.89 #8
   [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Juan Portilla (DMF) rating 74.30 #15
   [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [CB] Felipe Aguilar (CB) rating 72.36 #14
+  [CB] Felipe Aguilar (CB) rating 72.23 #14
   [RB] Santiago Arias (RB) rating 73.93 #4
-  [GK] Camilo Vargas (GK) rating 74.52 #12
+  [GK] Álvaro Montero (GK) rating 74.51 #24
 
 Wildcard:
-  [WILD] Jhon Córdoba (CF) rating 77.21 #24
+  [WILD] Luis Suarez (CF) rating 75.09 #25
 
 Second Squad
 
 Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
-  [LWF] Henry Mosquera (LWF) rating 71.60 #17
+  [LWF] Jáminton Campaz (LWF) rating 74.84 #21
   [RWF] Juan Cuadrado (RMF) rating 95.13 #11
   [AMF] James Rodríguez (AMF) rating 93.22 #10
   [CMF] Diego Chará (CMF) rating 72.82 #20
   [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Cristián Borja (LB) rating 73.27 #18
-  [CB] Yeimar Gomez Andrade (CB) rating 74.13 #3
   [CB] William Tesillo (CB) rating 74.06 #6
+  [CB] Carlos Cuesta (CB) rating 74.04 #4
   [RB] Daniel Muñoz (RMF) rating 94.96 #2
-  [GK] Álvaro Montero (GK) rating 74.51 #24
+  [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
-  [CF] Cucho Hernández (CF) rating 76.34 #19
-  [LWF] Marlos Moreno (LWF) rating 70.89 #21
+  [CF] Jhon Córdoba (CF) rating 77.21 #9
+  [LWF] Dylan Borrero (LWF) rating 71.32 #24
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
-  [AMF] Yimmi Chará (RMF) rating 74.30 #28
-  [CMF] Baldomero Perlaza (CMF) rating 70.66 #25
+  [AMF] David Silva (AMF) rating 72.80 #14
+  [CMF] Steven Alzate (CMF) rating 71.61 #17
   [DMF] Matheus Uribe (DMF) rating 73.99 #15
-  [LB] Deiver Machado (LB) rating 72.88 #22
-  [CB] Carlos Cuesta (CB) rating 74.04 #4
-  [CB] Willer Ditta (CB) rating 73.30 #13
-  [RB] Helibelton Palacios (RB) rating 71.80 #16
-  [GK] Iván Arboleda (GK) rating 73.17 #1
+  [LB] Junior Hernández (LB) rating 73.22 #13
+  [CB] Brayan Vera (CB) rating 72.18 #16
+  [CB] Yeimar Gomez Andrade (CB) rating 73.45 #3
+  [RB] VACANT
+  [GK] Devis Vásquez (GK) rating 73.65 #22
 
 Wildcard:
-  [WILD] Luis Suarez (CF) rating 75.09 #9
+  [WILD] Duván Zapata (CF) rating 76.29 #19
+  [WILD] Alfredo Morelos (CF) rating 74.60 #27
