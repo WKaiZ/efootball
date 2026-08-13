@@ -23,7 +23,7 @@ Substitutes:
   [LB] Joaquin Seys (LB) rating 93.38 #22
   [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.95 #2
-  [RB] Thomas Meunier (RB) rating 74.65 #15
+  [RB] Thomas Meunier (RB) rating 74.37 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
@@ -40,24 +40,24 @@ Starters:
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Arthur Theate (CB) rating 94.49 #3
-  [CB] Brandon Mechele (CB) rating 76.48 #4
-  [RB] Nathan Ngoy (CB) rating 71.86 #25
+  [CB] Brandon Mechele (CB) rating 76.59 #4
+  [RB] Nathan Ngoy (CB) rating 73.18 #25
   [GK] Senne Lammens (GK) rating 93.92 #12
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 80.17 #19
+  [CF] Romelu Lukaku (CF) rating 77.41 #11
   [LWF] Mika Godts (LWF) rating 93.96 #26
-  [RWF] Thorgan Hazard (LWF) rating 75.25 #16
-  [AMF] Dennis Praet (AMF) rating 72.84 #7
+  [RWF] Benito Raman (CF) rating 72.22 #21
+  [AMF] Dennis Praet (AMF) rating 72.26 #7
   [CMF] Nicolas Raskin (CMF) rating 75.30 #23
   [DMF] Leander Dendoncker (DMF) rating 74.97 #6
   [LB] VACANT
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
-  [CB] Jorthy Mokio (DMF) rating 70.23 #21
+  [CB] Christian Kabasele (CB) rating 74.10 #19
   [RB] VACANT
-  [GK] Davy Roef (GK) rating 74.61 #1
+  [GK] Mike Penders (GK) rating 75.63 #13
 
 Wildcard:
-  [WILD] Leandro Trossard (LWF) rating 79.24 #11
-  [WILD] Mike Penders (GK) rating 74.58 #13
+  [WILD] Leandro Trossard (LWF) rating 77.85 #24
   [WILD] Orel Mangala (CMF) rating 74.33 #8
+  [WILD] Davy Roef (GK) rating 73.89 #1
