@@ -77,5 +77,5 @@ Brice Samba, GK, 94.95, True, Highlight, [GK], []
 Robin Risser, GK, 94.39, True, Highlight, [GK], []
 Lucas Chevalier, GK, 94.29, False, Highlight, [GK], []
 
-Maghnes Akliouche, RMF, 76.44, True, Standard, [RMF, RWF, AMF], [SS, CMF]
-Lucas Digne, LB, 76.47, True, Standard, [LB], [LMF, CB]
+Maghnes Akliouche, RMF, 77.45, True, Standard, [RMF, RWF, AMF], [SS, CMF]
+Lucas Digne, LB, 76.51, True, Standard, [LB], [LMF, CB]
