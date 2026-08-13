@@ -50,7 +50,7 @@ Substitutes:
   [RMF] Lucas Moura (RMF) rating 95.07 #20
   [AMF] Ronaldinho (AMF) rating 98.60 #17
   [CMF] Andreas Pereira (CMF) rating 93.34 #24
-  [DMF] Zé Roberto (LMF) rating 97.10 #9
+  [DMF] Gerson (CMF) rating 76.67 #19
   [LB] Carlos Augusto (LB) rating 93.88 #25
   [CB] Thiago Silva (CB) rating 94.09 #4
   [CB] Alexsandro (CB) rating 94.26 #15
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Matheus Cunha (AMF) rating 96.23 #19
+  [WILD] Zé Roberto (LMF) rating 97.10 #9
