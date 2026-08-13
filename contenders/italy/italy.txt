@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] Gianluca Scamacca (CF) rating 95.43 #7
   [LMF] Andrea Cambiaso (LMF) rating 94.42 #24
-  [RWF] Riccardo Orsolini (RWF) rating 78.21 #22
+  [RWF] Riccardo Orsolini (RWF) rating 77.83 #22
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
   [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
   [DMF] Sandro Tonali (DMF) rating 96.44 #8
