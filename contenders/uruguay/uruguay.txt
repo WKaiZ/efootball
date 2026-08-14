@@ -10,19 +10,19 @@ Starters:
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
   [CB] Ronald Araujo (CB) rating 96.61 #4
   [CB] José María Giménez (CB) rating 94.51 #2
-  [RB] Guillermo Varela (RB) rating 73.35 #13
+  [RB] Guillermo Varela (RB) rating 73.24 #13
   [GK] Fernando Muslera (GK) rating 94.30 #23
 
 Substitutes:
   [CF] Christhian Stuani (CF) rating 74.54 #11
   [LWF] Brian Rodríguez (LWF) rating 73.61 #18
   [RWF] Agustín Canobbio (RWF) rating 74.00 #14
-  [AMF] Rodrigo Zalazar (CMF) rating 75.54 #26
+  [AMF] Rodrigo Zalazar (AMF) rating 76.87 #26
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
-  [DMF] Rodrigo Bentancur (DMF) rating 77.53 #6
+  [DMF] Rodrigo Bentancur (DMF) rating 77.50 #6
   [LB] Mathías Olivera (LB) rating 94.22 #16
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [CB] Santiago Bueno (CB) rating 74.38 #24
-  [CB] Sebastian Caceres (CB) rating 74.41 #3
   [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
@@ -34,29 +34,29 @@ Second Squad
 Starters:
   [CF] Diego Forlán (CF) rating 98.33 #10
   [LWF] Maximiliano Araujo (LMF) rating 93.96 #20
-  [RWF] Facundo Pellistri (RWF) rating 73.89 #11
-  [AMF] VACANT
+  [RWF] Cristian Olivera (RWF) rating 73.66 #6
+  [AMF] Wiston Fernández (AMF) rating 69.19 #7
   [CMF] Matías Vecino (CMF) rating 76.19 #5
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Matías Viña (LB) rating 73.88 #17
   [CB] Leandro Cabrera (CB) rating 92.93 #16
-  [CB] Santiago Mouriño (CB) rating 74.30 #30
+  [CB] Sebastian Caceres (CB) rating 74.23 #3
   [RB] Federico Valverde (RB) rating 95.52 #8
   [GK] Santiago Mele (GK) rating 74.55 #12
 
 Substitutes:
-  [CF] Miguel Merentiel (CF) rating 77.28 #19
-  [LWF] Brian Ocampo (LWF) rating 70.47 #26
-  [RWF] Cristian Olivera (RWF) rating 73.66 #6
-  [AMF] Diego Rossi (SS) rating 74.68 #9
-  [CMF] Gabriel Neves (CMF) rating 75.10 #18
-  [DMF] Emiliano Martinez (DMF) rating 73.96 #15
-  [LB] Juan Manuel Sanabria (LB) rating 72.33 #25
+  [CF] Miguel Merentiel (CF) rating 76.23 #19
+  [LWF] Diego Rossi (SS) rating 74.68 #9
+  [RWF] Matías Abaldo (RWF) rating 73.49 #22
+  [AMF] VACANT
+  [CMF] Gabriel Neves (CMF) rating 74.04 #18
+  [DMF] Emiliano Martinez (DMF) rating 73.32 #15
+  [LB] Juan Manuel Sanabria (LB) rating 73.70 #25
   [CB] Sebastián Boselli (CB) rating 73.41 #29
-  [CB] Federico Ricca (CB) rating 73.07 #3
-  [RB] Mateo Ponte (RB) rating 71.83 #28
+  [CB] Federico Ricca (CB) rating 73.07 #2
+  [RB] Giovanni González (RB) rating 73.17 #13
   [GK] Cristopher Fiermarín (GK) rating 74.03 #1
 
 Wildcard:
   [WILD] Federico Viñas (CF) rating 74.11 #21
-  [WILD] Matías Abaldo (RWF) rating 73.49 #22
+  [WILD] Facundo Pellistri (RWF) rating 71.48 #11
