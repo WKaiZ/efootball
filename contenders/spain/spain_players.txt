@@ -54,7 +54,7 @@ Carlos Soler, CMF, 95.10, False, Highlight, [AMF, CMF], [LWF, RWF, LB, RB, LMF, 
 Mikel Merino, CMF, 95.10, True, Highlight, [CMF, CF], [SS, AMF, DMF]
 Pablo Fornals, CMF, 94.91, False, Highlight, [AMF, LWF, LMF, CMF], [SS, RWF, RMF, DMF]
 Pablo Barrios, CMF, 94.89, False, Highlight, [CMF], [RWF, AMF, DMF]
-Gavi, CMF, 94.42, True, Highlight, [LWF, AMF, CMF], [SS, RWF, LMF, RMF, DMF]
+Gavi, CMF, 94.03, True, Highlight, [LWF, AMF, CMF], [SS, RWF, LMF, RMF, DMF]
 Dani Ceballos, CMF, 93.21, False, Highlight, [CMF, AMF], [LMF, DMF]
 Fermín López, CMF, 92.03, False, Highlight, [CMF, AMF, LMF, LWF], [SS, DMF]
 Rodri, DMF, 99.11, True, BigTime, [DMF, CMF], [CB]
