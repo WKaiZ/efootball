@@ -42,7 +42,7 @@ Starters:
   [CB] Gonçalo Inácio (CB) rating 93.99 #14
   [CB] Danilo Pereira (CB) rating 93.22 #13
   [RB] Diogo Dalot (RB) rating 94.01 #5
-  [GK] José Sá (GK) rating 76.63 #12
+  [GK] José Sá (GK) rating 75.58 #12
 
 Substitutes:
   [CF] Gonçalo Guedes (LMF) rating 93.76 #16
@@ -51,11 +51,11 @@ Substitutes:
   [AMF] Bernardo Silva (AMF) rating 81.00 #10
   [CMF] Bruno Fernandes (CMF) rating 95.01 #8
   [DMF] Rúben Neves (DMF) rating 79.25 #21
-  [LB] Kévin Rodrigues (LB) rating 72.28 #19
-  [CB] Toti (CB) rating 76.91 #2
-  [CB] António Silva (CB) rating 76.71 #4
+  [LB] Kévin Rodrigues (LB) rating 72.29 #19
+  [CB] Toti (CB) rating 75.44 #2
+  [CB] Tiago Djaló (CB) rating 73.13 #3
   [RB] Matheus Nunes (RB) rating 94.00 #6
-  [GK] Celton Biai (GK) rating 70.01 #22
+  [GK] Samuel Soares (GK) rating 72.56 #22
 
 Wildcard:
   [WILD] Francisco Conceição (RMF) rating 94.37 #26
