@@ -2,9 +2,9 @@ First Squad
 
 Starters:
   [CF] Charles De Ketelaere (CF) rating 97.93 #17
-  [LMF] Leandro Trossard (LMF) rating 97.34 #10
+  [LWF] Eden Hazard (LWF) rating 101.98 #10
   [RWF] Adnan Januzaj (RWF) rating 93.39 #18
-  [AMF] Eden Hazard (AMF) rating 100.35 #7
+  [AMF] Kevin De Bruyne (AMF) rating 97.41 #7
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Amadou Onana (DMF) rating 95.18 #24
   [LB] Arthur Theate (LB) rating 94.07 #3
@@ -15,9 +15,9 @@ Starters:
 
 Substitutes:
   [CF] Matias Fernandez-Pardo (CF) rating 92.01 #26
-  [LMF] Malick Fofana (LMF) rating 94.21 #9
-  [RWF] Dodi Lukébakio (RWF) rating 76.32 #11
-  [AMF] Kevin De Bruyne (AMF) rating 97.41 #14
+  [LWF] Jérémy Doku (LWF) rating 96.99 #11
+  [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
+  [AMF] Hans Vanaken (AMF) rating 93.99 #20
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Joaquin Seys (LB) rating 93.38 #22
@@ -27,16 +27,16 @@ Substitutes:
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Jérémy Doku (LWF) rating 96.99 #25
+  [WILD] Leandro Trossard (LMF) rating 97.34 #9
 
 Second Squad
 
 Starters:
-  [CF] Malick Fofana (LWF) rating 95.26 #9
-  [LWF] Eden Hazard (LWF) rating 95.99 #10
+  [CF] Charles De Ketelaere (SS) rating 95.17 #17
+  [LWF] Malick Fofana (LWF) rating 95.26 #9
   [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
-  [AMF] Charles De Ketelaere (AMF) rating 94.99 #17
-  [CMF] Hans Vanaken (AMF) rating 93.99 #20
+  [AMF] Eden Hazard (AMF) rating 100.35 #10
+  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Arthur Theate (CB) rating 94.49 #3
@@ -49,15 +49,15 @@ Substitutes:
   [LWF] Mika Godts (LWF) rating 93.96 #26
   [RWF] Benito Raman (CF) rating 72.22 #21
   [AMF] Dennis Praet (AMF) rating 72.26 #7
-  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
+  [CMF] Bryan Heynen (CMF) rating 74.59 #19
   [DMF] Leander Dendoncker (DMF) rating 74.97 #6
   [LB] VACANT
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
-  [CB] Christian Kabasele (CB) rating 74.10 #19
+  [CB] Björn Engels (CB) rating 66.80 #16
   [RB] VACANT
   [GK] Mike Penders (GK) rating 75.63 #13
 
 Wildcard:
-  [WILD] Leandro Trossard (LWF) rating 77.85 #24
+  [WILD] Leandro Trossard (LWF) rating 77.85 #20
   [WILD] Orel Mangala (CMF) rating 74.33 #8
   [WILD] Davy Roef (GK) rating 73.89 #1

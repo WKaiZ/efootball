@@ -1,4 +1,5 @@
 Raúl, CF, 98.86, False, Epic, [CF, SS, AMF], [LWF, RWF]
+Diego Costa, CF, 98.81, False, Epic, [CF], [SS]
 David Villa, CF, 98.57, False, Epic, [CF, LWF, SS], [RWF, AMF, LMF]
 Fernando Morientes, CF, 97.96, False, Epic, [CF], [SS]
 Ferran Torres, CF, 96.88, True, Showtime, [CF, LWF, RWF, LMF, RMF], [SS, AMF]

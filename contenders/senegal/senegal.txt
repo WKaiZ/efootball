@@ -9,7 +9,7 @@ Starters:
   [DMF] Pape Gueye (DMF) rating 95.17 #26
   [LB] El Hadji Malick Diouf (LB) rating 94.22 #25
   [CB] Kalidou Koulibaly (CB) rating 94.48 #3
-  [CB] Moussa Niakhaté (CB) rating 93.28 #19
+  [CB] Mamadou Sarr (CB) rating 94.44 #2
   [RB] Krépin Diatta (RB) rating 93.19 #15
   [GK] Edouard Mendy (GK) rating 95.14 #16
 
@@ -21,7 +21,7 @@ Substitutes:
   [CMF] Lamine Camara (CMF) rating 94.07 #8
   [DMF] Cheikh Niasse (DMF) rating 93.17 #22
   [LB] Ismail Jakobs (LB) rating 73.54 #14
-  [CB] Mamadou Sarr (CB) rating 74.60 #2
+  [CB] Moussa Niakhaté (CB) rating 93.28 #19
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
   [RB] Youssouf Sabaly (RB) rating 73.45 #21
   [GK] Yehvann Diouf (GK) rating 75.21 #1
