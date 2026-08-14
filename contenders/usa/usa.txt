@@ -2,60 +2,60 @@ First Squad
 
 Starters:
   [CF] Folarin Balogun (CF) rating 93.92 #20
-  [LWF] Jordan Morris (LWF) rating 73.82 #13
+  [LWF] Cade Cowell (LWF) rating 71.27 #19
   [RWF] Christian Pulisic (RWF) rating 96.98 #10
   [AMF] Malik Tillman (AMF) rating 93.99 #17
   [CMF] Weston McKennie (CMF) rating 95.00 #8
   [DMF] Johnny Cardoso (DMF) rating 93.98 #15
   [LB] Antonee Robinson (LB) rating 95.01 #5
   [CB] Alex Freeman (CB) rating 93.99 #16
-  [CB] Chris Richards (CB) rating 76.47 #3
-  [RB] Sergiño Dest (RB) rating 74.33 #2
+  [CB] Chris Richards (CB) rating 77.02 #3
+  [RB] Sergiño Dest (RB) rating 75.31 #2
   [GK] Zack Steffen (GK) rating 74.77 #22
 
 Substitutes:
   [CF] Josh Sargent (CF) rating 75.03 #9
-  [LWF] Cade Cowell (LWF) rating 71.27 #19
-  [RWF] Paul Arriola (RWF) rating 73.71 #7
+  [LWF] Álex Zendejas (RMF) rating 75.10 #26
+  [RWF] Emmanuel Sabbi (RWF) rating 72.28 #11
   [AMF] Djordje Mihailovic (AMF) rating 75.91 #14
-  [CMF] Yunus Musah (CMF) rating 74.52 #18
+  [CMF] Cristian Roldán (CMF) rating 74.62 #7
   [DMF] Tyler Adams (DMF) rating 76.37 #4
-  [LB] Sam Vines (LB) rating 70.58 #21
-  [CB] Auston Trusty (CB) rating 74.47 #6
-  [CB] Miles Robinson (CB) rating 74.51 #12
-  [RB] Joe Scally (RB) rating 73.75 #23
+  [LB] Sam Vines (LB) rating 70.70 #21
+  [CB] Miles Robinson (CB) rating 74.55 #12
+  [CB] Tim Ream (CB) rating 74.59 #13
+  [RB] Joe Scally (RB) rating 73.74 #23
   [GK] Matt Turner (GK) rating 74.74 #1
 
 Wildcard:
-  [WILD] Álex Zendejas (RMF) rating 75.10 #26
+  [WILD] Ricardo Pepi (CF) rating 74.99 #18
 
 Second Squad
 
 Starters:
-  [CF] Brian White (CF) rating 76.25 #23
+  [CF] Brian White (CF) rating 76.59 #23
   [LWF] Konrad de la Fuente (LWF) rating 68.53 #20
-  [RWF] Tyler Boyd (RWF) rating 70.92 #21
+  [RWF] Paul Arriola (RWF) rating 72.16 #7
   [AMF] Christian Pulisic (AMF) rating 96.31 #10
   [CMF] Weston McKennie (RMF) rating 93.98 #8
-  [DMF] Tanner Tessmann (DMF) rating 73.74 #11
+  [DMF] Tanner Tessmann (DMF) rating 74.46 #11
   [LB] DeJuan Jones (LB) rating 73.86 #15
-  [CB] Cameron Carter-Vickers (CB) rating 76.43 #2
-  [CB] Tim Ream (CB) rating 74.59 #13
+  [CB] Cameron Carter-Vickers (CB) rating 75.44 #2
+  [CB] Auston Trusty (CB) rating 74.47 #6
   [RB] DeAndre Yedlin (RB) rating 74.31 #22
-  [GK] Matt Freese (GK) rating 74.01 #24
+  [GK] Matt Freese (GK) rating 74.12 #24
 
 Substitutes:
-  [CF] Brandon Vazquez (CF) rating 74.84 #19
-  [LWF] Diego Luna (LMF) rating 76.32 #14
-  [RWF] Cristian Roldán (RMF) rating 74.94 #17
-  [AMF] Giovanni Reyna (AMF) rating 74.22 #7
-  [CMF] Jack McGlynn (CMF) rating 74.18 #6
-  [DMF] Taylor Booth (CMF) rating 70.74 #4
-  [LB] Max Arfsten (LMF) rating 71.11 #18
-  [CB] Aaron Long (CB) rating 73.91 #3
-  [CB] Walker Zimmerman (CB) rating 73.78 #5
+  [CF] Haji Wright (CF) rating 74.61 #19
+  [LWF] Jesús Ferreira (SS) rating 73.71 #9
+  [RWF] Bernard Kamungo (RWF) rating 71.22 #17
+  [AMF] Jack McGlynn (CMF) rating 74.18 #12
+  [CMF] Yunus Musah (CMF) rating 74.52 #18
+  [DMF] Emeka Eneli (DMF) rating 72.53 #14
+  [LB] Max Arfsten (LMF) rating 71.11 #27
+  [CB] Walker Zimmerman (CB) rating 73.93 #5
+  [CB] Mark McKenzie (CB) rating 73.73 #4
   [RB] Alex Freeman (RB) rating 73.02 #16
-  [GK] Chris Brady (GK) rating 73.72 #25
+  [GK] Gabriel Slonina (GK) rating 73.63 #21
 
 Wildcard:
-  [WILD] Ricardo Pepi (CF) rating 74.52 #9
+  [WILD] Matt Miazga (CB) rating 73.69 #3
