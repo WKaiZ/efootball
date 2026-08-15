@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Simon Banza (CF) rating 77.27 #23
   [LWF] Brian Cipenga (LWF) rating 71.44 #9
-  [RWF] Cédric Bakambu (CF) rating 74.12 #17
+  [RWF] Meschack Elia (SS) rating 71.08 #13
   [AMF] William Balikwisha (AMF) rating 69.25 #28
   [CMF] Edo Kayembe (CMF) rating 72.68 #25
   [DMF] Charles Pickel (DMF) rating 70.99 #18
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Lionel Mpasi-Nzau (GK) rating 72.81 #1
 
 Wildcard:
-  [WILD] Chadrac Akolo (CF) rating 72.42 #7
+  [WILD] Cédric Bakambu (CF) rating 74.12 #17

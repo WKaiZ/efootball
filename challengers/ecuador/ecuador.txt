@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Anderson Julio (CF) rating 74.43 #11
-  [LWF] Jeremy Sarmiento (RWF) rating 71.80 #16
+  [LWF] John Yeboah (SS) rating 72.92 #9
   [RWF] Keny Arroyo (RWF) rating 71.82 #18
   [AMF] Denil Castillo (CMF) rating 71.88 #8
   [CMF] Pedro Vite (CMF) rating 72.49 #15
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Javier Burrai (GK) rating 74.55 #12
 
 Wildcard:
-  [WILD] Jordy Caicedo (CF) rating 74.19 #9
+  [WILD] Jordy Caicedo (CF) rating 74.19 #16
