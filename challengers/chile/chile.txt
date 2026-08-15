@@ -3,12 +3,12 @@ Starters:
   [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
   [RWF] Darío Osorio (RWF) rating 73.26 #11
   [AMF] Carlos Palacios (AMF) rating 75.05 #9
-  [CMF] Williams Alarcón (CMF) rating 74.15 #2
+  [CMF] Williams Alarcón (CMF) rating 74.15 #8
   [DMF] Erick Pulgar (DMF) rating 75.98 #13
   [LB] Gabriel Suazo (LB) rating 93.22 #17
   [CB] Guillermo Maripán (CB) rating 75.81 #3
   [CB] Benjamín Kuscevic (CB) rating 73.91 #4
-  [RB] Fabián Hormazábal (RB) rating 71.84 #14
+  [RB] Fabián Hormazábal (RB) rating 71.84 #2
   [GK] Gabriel Castellón (GK) rating 74.07 #1
 
 Substitutes:
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Lawrence Vigouroux (GK) rating 73.57 #12
 
 Wildcard:
-  [WILD] Felipe Loyola (CMF) rating 73.83 #8
+  [WILD] Felipe Loyola (CMF) rating 73.83 #14
