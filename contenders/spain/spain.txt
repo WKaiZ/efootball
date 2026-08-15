@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] David Villa (CF) rating 98.57 #21
   [LMF] Nico Williams (LMF) rating 96.40 #17
-  [RWF] Ferran Torres (RWF) rating 94.91 #18
+  [RWF] Pedro (RWF) rating 93.18 #9
   [AMF] Marco Asensio (AMF) rating 95.97 #11
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Xabi Alonso (DMF) rating 96.19 #14

@@ -38,7 +38,7 @@ Starters:
   [AMF] Cole Palmer (AMF) rating 96.78 #20
   [CMF] Jude Bellingham (CMF) rating 98.27 #10
   [DMF] Declan Rice (DMF) rating 96.87 #4
-  [LB] Djed Spence (LB) rating 94.97 #25
+  [LB] Tyrick Mitchell (LB) rating 94.43 #23
   [CB] Jarrad Branthwaite (CB) rating 95.98 #14
   [CB] Tony Adams (CB) rating 95.62 #5
   [RB] Kyle Walker (RB) rating 94.92 #2
@@ -51,11 +51,11 @@ Substitutes:
   [AMF] Phil Foden (AMF) rating 95.88 #7
   [CMF] Frank Lampard (CMF) rating 98.11 #8
   [DMF] Bryan Robson (CMF) rating 97.84 #16
-  [LB] Tyrick Mitchell (LB) rating 94.43 #23
+  [LB] Lewis Hall (LB) rating 94.08 #12
   [CB] Levi Colwill (CB) rating 95.45 #6
   [CB] Jarell Quansah (CB) rating 94.03 #26
   [RB] Reece James (RB) rating 94.01 #24
   [GK] Sam Johnstone (GK) rating 94.17 #13
 
 Wildcard:
-  [WILD] Bukayo Saka (RWF) rating 97.41 #17
+  [WILD] Bukayo Saka (RWF) rating 97.41 #25
