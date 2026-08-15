@@ -57,6 +57,10 @@ MANUAL_ID_OVERRIDES = {
     "france": {
         "lucas hernandez": "281963",
     },
+    "chile": {
+        "diego sanchez": "179532",
+        "matias fernandez": "402519",
+    },
     "colombia": {
         "luis suarez": "424784",
         "david silva": "74071",

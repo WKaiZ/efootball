@@ -73,6 +73,7 @@ MANUAL_ID_OVERRIDES = {
         "marcelo morales": {"player_id": "841340", "preserve_name": True},
         "nicolas fernandez": {"player_id": "549597", "preserve_name": True},
         "matias fernandez": {"player_id": "402519", "preserve_name": True},
+        "diego sanchez": {"player_id": "179532", "preserve_name": True},
     },
     "colombia": {
         "david silva": {"player_id": "74071", "preserve_name": True},
