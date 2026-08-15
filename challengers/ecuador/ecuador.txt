@@ -1,28 +1,28 @@
 Starters:
   [CF] Nilson Angulo (LMF) rating 92.84 #20
-  [LWF] Bryan Ramírez (RMF) rating 72.96 #13
-  [RWF] Gonzalo Plata (RWF) rating 75.15 #19
-  [AMF] Kendry Páez (AMF) rating 73.02 #10
-  [CMF] José Cifuentes (CMF) rating 74.71 #5
+  [LWF] Bryan Ramírez (RMF) rating 72.95 #13
+  [RWF] Gonzalo Plata (RWF) rating 74.51 #19
+  [AMF] Kendry Páez (AMF) rating 71.64 #10
+  [CMF] Alan Franco (CMF) rating 73.42 #21
   [DMF] Moisés Caicedo (DMF) rating 97.32 #23
   [LB] Pervis Estupiñán (LB) rating 94.02 #7
   [CB] Willian Pacho (CB) rating 95.99 #6
   [CB] Piero Hincapié (CB) rating 95.55 #3
-  [RB] Angelo Preciado (RB) rating 71.75 #17
-  [GK] Hernán Galíndez (GK) rating 75.82 #1
+  [RB] Angelo Preciado (RB) rating 72.77 #17
+  [GK] Hernán Galíndez (GK) rating 74.72 #1
 
 Substitutes:
   [CF] Anderson Julio (CF) rating 74.43 #11
-  [LWF] Jeremy Sarmiento (RWF) rating 71.81 #16
-  [RWF] John Yeboah (RWF) rating 72.46 #9
-  [AMF] Denil Castillo (CMF) rating 70.76 #8
-  [CMF] Alan Franco (CMF) rating 72.44 #21
-  [DMF] Jordy Alcívar (DMF) rating 72.40 #18
-  [LB] Yaimar Medina (LB) rating 67.40 #26
-  [CB] Robert Arboleda (CB) rating 76.36 #4
-  [CB] Jackson Porozo (CB) rating 72.44 #25
+  [LWF] Jeremy Sarmiento (RWF) rating 71.80 #16
+  [RWF] Keny Arroyo (RWF) rating 71.82 #18
+  [AMF] Denil Castillo (CMF) rating 71.88 #8
+  [CMF] Pedro Vite (CMF) rating 72.49 #15
+  [DMF] Jordy Alcívar (DMF) rating 72.40 #5
+  [LB] Yaimar Medina (LB) rating 71.03 #26
+  [CB] Robert Arboleda (CB) rating 76.35 #2
+  [CB] Joel Ordóñez (CB) rating 74.81 #4
   [RB] José Andrés Hurtado (RB) rating 71.68 #24
-  [GK] Javier Burrai (GK) rating 74.56 #12
+  [GK] Javier Burrai (GK) rating 74.55 #12
 
 Wildcard:
-  [WILD] Enner Valencia (CF) rating 74.31 #22
+  [WILD] Jordy Caicedo (CF) rating 74.19 #9
