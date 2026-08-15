@@ -103,6 +103,7 @@ Bento, GK, 94.38, False, Highlight, [GK], []
 Gabriel Brazão, GK, 94.33, False, Showtime, [GK], []
 
 Endrick, CF, 75.75, True, Standard, [CF], [LWF, RWF, SS]
+Matheus Cunha, SS, 95.14, True, Standard, [AMF, SS, CF, LWF, LMF], [RWF, RMF, CMF]
 Bruno Guimarães, CMF, 81.19, True, Standard, [CMF, DMF], [AMF]
 Gerson, CMF, 76.67, False, Standard, [AMF, CMF, DMF], [LMF, RMF, SS]
 Arthur Melo, CMF, 76.12, False, Standard, [CMF, DMF], [AMF]
