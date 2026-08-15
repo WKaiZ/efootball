@@ -19,10 +19,10 @@ Substitutes:
   [CMF] András Schäfer (CMF) rating 72.35 #13
   [DMF] Milán Vitális (CMF) rating 69.02 #8
   [LB] Callum Styles (LB) rating 71.28 #17
-  [CB] Botond Balogh (CB) rating 70.73 #24
+  [CB] Botond Balogh (CB) rating 70.73 #5
   [CB] Márton Dárdai (CB) rating 69.44 #15
   [RB] Attila Osváth (RB) rating 69.72 #2
-  [GK] Balázs Tóth (GK) rating 70.49 #5
+  [GK] Balázs Tóth (GK) rating 70.49 #22
 
 Wildcard:
   [WILD] Áron Yaakobishvili (GK) rating 70.23 #12
