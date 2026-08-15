@@ -49,7 +49,7 @@ Substitutes:
   [LWF] Crysencio Summerville (LWF) rating 75.86 #24
   [RWF] Javairô Dilrosun (RWF) rating 73.05 #22
   [AMF] Teun Koopmeiners (AMF) rating 94.35 #20
-  [CMF] Quinten Timber (CMF) rating 94.32 #26
+  [CMF] Frenkie de Jong (CMF) rating 95.01 #21
   [DMF] Phillip Cocu (DMF) rating 96.93 #8
   [LB] Ian Maatsen (LB) rating 94.07 #5
   [CB] Matthijs de Ligt (CB) rating 95.98 #3
