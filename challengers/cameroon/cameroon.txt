@@ -22,7 +22,7 @@ Substitutes:
   [CB] Christopher Wooh (CB) rating 74.37 #4
   [CB] Gerzino Nyamsi (CB) rating 73.75 #6
   [RB] Enzo Tchato (RB) rating 69.96 #26
-  [GK] Devis Epassy (GK) rating 71.54 #1
+  [GK] Devis Epassy (GK) rating 71.54 #16
 
 Wildcard:
   [WILD] Malcom Bokele (CB) rating 72.44 #19
