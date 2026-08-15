@@ -1,28 +1,28 @@
 Starters:
   [CF] Omar Marmoush (CF) rating 96.00 #22
-  [LWF] Trezeguet (LWF) rating 75.12 #7
+  [LWF] Trezeguet (LWF) rating 74.42 #7
   [RMF] Mohamed Salah (RMF) rating 97.93 #10
   [AMF] Zizo (RWF) rating 73.11 #25
-  [CMF] Emam Ashour (CMF) rating 72.89 #8
+  [CMF] Emam Ashour (CMF) rating 73.22 #8
   [DMF] Hamdy Fathy (DMF) rating 94.20 #14
-  [LB] Mohamed Hamdi (LB) rating 72.27 #12
+  [LB] Mohamed Hamdi (LB) rating 72.26 #12
   [CB] Mohamed Abdelmonem (CB) rating 72.62 #6
   [CB] Ramy Rabia (CB) rating 72.48 #5
-  [RB] Mohamed Hany (RB) rating 71.30 #3
-  [GK] Mohamed El Shenawy (GK) rating 73.36 #1
+  [RB] Mohamed Hany (RB) rating 71.29 #3
+  [GK] Oufa Shobeir (GK) rating 72.78 #23
 
 Substitutes:
   [CF] Mostafa Mohamed (CF) rating 73.34 #11
-  [LWF] Ibrahim Adel (LWF) rating 72.29 #20
+  [LWF] Ibrahim Adel (LWF) rating 72.28 #20
   [RMF] Mostafa Fathi (RWF) rating 72.58 #18
-  [AMF] Mahmoud Saber (CMF) rating 69.24 #21
+  [AMF] Mahmoud Saber (CMF) rating 70.34 #21
   [CMF] Mohamed Shehata (CMF) rating 70.45 #15
   [DMF] Marwan Ateya (DMF) rating 73.41 #19
-  [LB] Ahmed Fatouh (LB) rating 71.57 #13
-  [CB] Yasser Ibrahim (CB) rating 71.60 #2
-  [CB] Hossam Abdelmaguid (CB) rating 71.10 #4
+  [LB] Ahmed Fatouh (LB) rating 71.56 #13
+  [CB] Yasser Ibrahim (CB) rating 71.59 #2
+  [CB] Hossam Abdelmaguid (CB) rating 71.09 #4
   [RB] Tarek Alaa (RB) rating 69.96 #24
-  [GK] Oufa Shobeir (GK) rating 72.79 #23
+  [GK] Mohamed El Shenawy (GK) rating 72.66 #1
 
 Wildcard:
-  [WILD] Nabil Dunga (DMF) rating 71.53 #17
+  [WILD] Mohanad Lasheen (DMF) rating 73.21 #17
