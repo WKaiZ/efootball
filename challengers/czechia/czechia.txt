@@ -1,12 +1,12 @@
 Starters:
   [CF] Jan Koller (CF) rating 97.42 #9
   [LMF] Pavel Nedved (LMF) rating 99.94 #4
-  [RWF] Vaclav Cerny (RWF) rating 75.17 #17
+  [RWF] Vaclav Cerny (RWF) rating 75.16 #17
   [AMF] Adam Karabec (AMF) rating 93.01 #7
-  [CMF] Vladimír Darida (CMF) rating 73.05 #8
+  [CMF] Alex Král (CMF) rating 74.09 #21
   [DMF] Tomáš Souček (DMF) rating 76.28 #22
-  [LB] David Jurásek (LB) rating 72.38 #14
-  [CB] Ladislav Krejčí (CB) rating 77.35 #18
+  [LB] David Jurásek (LB) rating 72.37 #14
+  [CB] Ladislav Krejci (CB) rating 76.24 #18
   [CB] Tomas Holes (CB) rating 75.36 #3
   [RB] Vladimír Coufal (RB) rating 92.96 #5
   [GK] Petr Cech (GK) rating 99.70 #1
@@ -14,15 +14,15 @@ Starters:
 Substitutes:
   [CF] Patrik Schick (CF) rating 94.47 #10
   [LMF] Adam Hlozek (CF) rating 94.07 #19
-  [RWF] Matěj Jurásek (RWF) rating 72.16 #26
-  [AMF] Lukas Provod (AMF) rating 75.92 #13
-  [CMF] Lukas Cerv (CMF) rating 70.82 #12
+  [RWF] Matej Jurasek (RWF) rating 72.16 #26
+  [AMF] Lukas Provod (AMF) rating 75.91 #12
+  [CMF] Vladimír Darida (CMF) rating 73.05 #8
   [DMF] Hugo Sochurek (CMF) rating 68.51 #25
-  [LB] Jaroslav Zelený (LB) rating 72.16 #20
-  [CB] Jakub Brabec (CB) rating 72.85 #15
+  [LB] Jaroslav Zeleny (LB) rating 72.31 #20
   [CB] David Zima (CB) rating 72.52 #2
-  [RB] Ales Mateju (CB) rating 72.44 #6
-  [GK] Jindrich Stanek (GK) rating 75.68 #16
+  [CB] Jakub Brabec (CB) rating 72.85 #15
+  [RB] David Doudera (RMF) rating 72.40 #13
+  [GK] Matej Kovar (GK) rating 75.29 #16
 
 Wildcard:
-  [WILD] Lukas Hornicek (GK) rating 74.81 #23
+  [WILD] Lukas Hornicek (GK) rating 74.80 #23
