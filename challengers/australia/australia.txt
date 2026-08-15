@@ -2,10 +2,10 @@ Starters:
   [CF] Jamie Maclaren (CF) rating 72.08 #9
   [LWF] Craig Goodwin (LWF) rating 72.38 #23
   [RWF] Martin Boyle (RWF) rating 73.49 #6
-  [AMF] Connor Metcalfe (AMF) rating 73.02 #8
-  [CMF] Jackson Irvine (CMF) rating 73.90 #22
+  [AMF] Connor Metcalfe (AMF) rating 72.17 #8
+  [CMF] Jackson Irvine (CMF) rating 73.26 #22
   [DMF] Cammy Devlin (DMF) rating 71.60 #14
-  [LB] Jordan Bos (LB) rating 71.51 #5
+  [LB] Jordan Bos (LB) rating 72.98 #5
   [CB] Harry Souttar (CB) rating 74.30 #19
   [CB] Alessandro Circati (CB) rating 73.30 #3
   [RB] Nathaniel Atkinson (RB) rating 70.99 #2
@@ -13,17 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Adam Taggart (CF) rating 71.88 #15
-  [LWF] Mathew Leckie (LWF) rating 72.19 #7
-  [RWF] Nestory Irankunda (RWF) rating 71.06 #17
-  [AMF] Cristian Volpato (AMF) rating 70.36 #20
+  [LWF] Mathew Leckie (LWF) rating 72.18 #7
+  [RWF] Nestory Irankunda (RWF) rating 71.51 #17
+  [AMF] Dimitri Petratos (AMF) rating 70.47 #21
   [CMF] Patrick Yazbek (CMF) rating 73.15 #24
-  [DMF] Keanu Baccus (DMF) rating 70.40 #26
-  [LB] Aziz Behich (LB) rating 70.46 #16
-  [CB] Cameron Burgess (CB) rating 72.83 #21
-  [CB] Kye Rowles (CB) rating 72.39 #4
-  [RB] VACANT
-  [GK] Joe Gauci (GK) rating 71.98 #12
+  [DMF] Aiden O'Neill (DMF) rating 71.59 #13
+  [LB] Aziz Behich (LB) rating 70.55 #16
+  [CB] Lucas Herrington (CB) rating 73.20 #25
+  [CB] Kye Rowles (CB) rating 72.38 #4
+  [RB] Lewis Miller (RB) rating 70.54 #20
+  [GK] Patrick Beach (GK) rating 72.02 #18
 
 Wildcard:
-  [WILD] Awer Mabil (LWF) rating 71.42 #11
-  [WILD] Jason Cummings (CF) rating 71.34 #25
+  [WILD] Joe Gauci (GK) rating 71.97 #12

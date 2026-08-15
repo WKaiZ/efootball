@@ -15,6 +15,9 @@ MANUAL_ID_OVERRIDES = {
         "benjamin dominguez": {"player_id": "961022", "preserve_name": True},
         "flaco lopez": {"player_id": "844797", "preserve_name": True},
     },
+    "australia": {
+        "mohamed toure": {"player_id": "742770", "preserve_name": True},
+    },
     "austria": {
         "hannes wolf": {"player_id": "321070", "preserve_name": True},
     },
