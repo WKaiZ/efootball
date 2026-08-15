@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Jun-ho Bae (LWF) rating 70.80 #17
   [RWF] Hyun-jun Yang (RWF) rating 72.17 #15
   [AMF] Dong-gyeong Lee (AMF) rating 73.50 #26
-  [CMF] Jin-kyu Kim (CMF) rating 72.35 #23
+  [CMF] Jin-kyu Kim (CMF) rating 72.35 #24
   [DMF] Sung-yueng Ki (DMF) rating 70.68 #16
   [LB] Tae-seok Lee (LB) rating 71.13 #13
   [CB] Tae-hyeon Kim (CB) rating 72.46 #5
