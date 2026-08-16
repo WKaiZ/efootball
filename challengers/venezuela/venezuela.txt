@@ -1,7 +1,7 @@
 Starters:
   [CF] Salomón Rondón (CF) rating 74.52 #23
   [LWF] Yeferson Soteldo (LWF) rating 73.87 #10
-  [RWF] David Martínez (RWF) rating 74.14 #19
+  [RWF] David Martínez (RWF) rating 74.14 #11
   [AMF] Jefferson Savarino (AMF) rating 75.55 #7
   [CMF] Yangel Herrera (CMF) rating 76.07 #6
   [DMF] Tomás Rincón (DMF) rating 73.24 #8
@@ -14,16 +14,15 @@ Starters:
 Substitutes:
   [CF] Jhonder Cádiz (CF) rating 74.48 #9
   [LWF] Jhon Murillo (LWF) rating 73.41 #16
-  [RWF] Eduard Bello (RMF) rating 73.07 #25
+  [RWF] Eduard Bello (RMF) rating 73.07 #19
   [AMF] Wikelman Carmona (AMF) rating 69.87 #18
-  [CMF] Cristian Cásseres (CMF) rating 74.17 #11
+  [CMF] Daniel Pereira (CMF) rating 74.17 #17
   [DMF] José Martínez (DMF) rating 72.40 #13
-  [LB] VACANT
+  [LB] Teo Quintero (CB) rating 69.39 #25
   [CB] Wilker Ángel (CB) rating 71.70 #20
   [CB] Christian Makoun (CB) rating 69.58 #5
   [RB] Alexander González (RB) rating 70.24 #21
   [GK] Rafael Romo (GK) rating 72.42 #22
 
 Wildcard:
-  [WILD] Josef Martínez (CF) rating 74.22 #17
-  [WILD] Daniel Pereira (CMF) rating 74.17 #26
+  [WILD] Alain Baroja (GK) rating 70.83 #12
