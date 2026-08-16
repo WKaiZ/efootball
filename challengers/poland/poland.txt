@@ -12,15 +12,15 @@ Starters:
   [GK] Wojciech Szczesny (GK) rating 94.45 #1
 
 Substitutes:
-  [CF] Krzysztof Piatek (CF) rating 75.30 #23
-  [LWF] Jakub Kamiński (LWF) rating 73.67 #13
-  [RWF] Michal Skoras (LWF) rating 72.44 #25
-  [AMF] Mateusz Bogusz (AMF) rating 73.96 #7
+  [CF] Arkadiusz Milik (CF) rating 74.37 #17
+  [LWF] Jakub Kamiński (LWF) rating 73.67 #7
+  [RWF] Konrad Michalak (RWF) rating 70.42 #13
+  [AMF] Kacper Kozłowski (AMF) rating 72.23 #23
   [CMF] Jakub Piotrowski (CMF) rating 72.71 #8
-  [DMF] Krystian Bielik (DMF) rating 71.73 #15
+  [DMF] Sebastian Walukiewicz (CB) rating 72.73 #3
   [LB] VACANT
   [CB] Tomasz Kędziora (CB) rating 74.32 #4
-  [CB] Bartosz Salamon (CB) rating 72.94 #17
+  [CB] Bartosz Salamon (CB) rating 72.94 #15
   [RB] Bartosz Bereszyński (RB) rating 71.72 #18
   [GK] Kamil Grabara (GK) rating 77.53 #12
 
