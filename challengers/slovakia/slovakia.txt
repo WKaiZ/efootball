@@ -1,25 +1,25 @@
 Starters:
   [CF] Róbert Boženík (CF) rating 73.06 #9
-  [LWF] Leo Sauer (LWF) rating 71.17 #18
-  [RWF] Tomas Suslov (AMF) rating 72.39 #7
-  [AMF] David Strelec (CF) rating 70.37 #15
-  [CMF] László Bénes (CMF) rating 72.83 #10
+  [LWF] VACANT
+  [RWF] Roland Galcik (RWF) rating 68.87 #11
+  [AMF] Tomas Suslov (AMF) rating 72.54 #7
+  [CMF] László Bénes (CMF) rating 72.98 #10
   [DMF] Stanislav Lobotka (DMF) rating 93.21 #22
-  [LB] Adam Obert (CB) rating 70.73 #4
+  [LB] Adam Obert (LB) rating 71.50 #5
   [CB] Dávid Hancko (CB) rating 94.55 #16
   [CB] Milan Škriniar (CB) rating 78.58 #14
-  [RB] Lubomir Satka (CB) rating 73.14 #5
+  [RB] VACANT
   [GK] Dominik Greif (GK) rating 92.99 #23
 
 Substitutes:
-  [CF] Samuel Mráz (CF) rating 70.64 #17
+  [CF] Samuel Mráz (CF) rating 70.64 #15
   [LWF] VACANT
-  [RWF] VACANT
+  [RWF] David Strelec (CF) rating 70.52 #18
   [AMF] VACANT
   [CMF] Tomas Rigo (CMF) rating 69.97 #19
   [DMF] VACANT
   [LB] VACANT
-  [CB] Martin Valjent (CB) rating 74.49 #2
-  [CB] Ivan Mesik (CB) rating 69.64 #3
+  [CB] Martin Valjent (CB) rating 74.48 #4
+  [CB] Ivan Mesik (CB) rating 69.63 #3
   [RB] VACANT
-  [GK] Martin Dúbravka (GK) rating 76.67 #1
+  [GK] VACANT
