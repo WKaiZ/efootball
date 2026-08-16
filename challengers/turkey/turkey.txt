@@ -1,28 +1,28 @@
 Starters:
-  [CF] Enes Ünal (CF) rating 73.49 #9
+  [CF] Enes Ünal (CF) rating 73.48 #9
   [LWF] Kenan Yıldız (LWF) rating 97.02 #11
-  [RWF] İrfan Can Kahveci (RWF) rating 75.13 #17
+  [RWF] İrfan Can Kahveci (RWF) rating 74.25 #17
   [AMF] Arda Güler (AMF) rating 95.99 #8
   [CMF] Orkun Kökçü (CMF) rating 97.21 #6
   [DMF] Hakan Çalhanoğlu (DMF) rating 95.15 #10
   [LB] Ferdi Kadıoğlu (LB) rating 93.90 #20
-  [CB] Merih Demiral (CB) rating 77.52 #3
-  [CB] Çağlar Söyüncü (CB) rating 75.47 #4
-  [RB] Zeki Çelik (RB) rating 75.07 #2
+  [CB] Merih Demiral (CB) rating 76.48 #3
+  [CB] Abdülkerim Bardakcı (CB) rating 75.11 #14
+  [RB] Zeki Çelik (RB) rating 75.94 #2
   [GK] Berke Özer (GK) rating 91.99 #12
 
 Substitutes:
-  [CF] Cenk Tosun (CF) rating 73.21 #21
-  [LWF] Kerem Aktürkoğlu (LWF) rating 77.21 #7
-  [RWF] Cengiz Ünder (RWF) rating 74.86 #16
+  [CF] Semih Kılıçsoy (CF) rating 72.51 #24
+  [LWF] Kerem Aktürkoğlu (LWF) rating 77.20 #7
+  [RWF] Cengiz Ünder (RWF) rating 74.23 #16
   [AMF] Can Uzun (AMF) rating 94.16 #26
-  [CMF] Berkay Özcan (CMF) rating 72.77 #27
-  [DMF] Salih Özcan (DMF) rating 75.26 #5
-  [LB] Eren Elmalı (LB) rating 73.27 #13
-  [CB] Abdülkerim Bardakcı (CB) rating 75.11 #14
+  [CMF] Berkay Özcan (CMF) rating 72.06 #21
+  [DMF] Salih Özcan (DMF) rating 75.25 #5
+  [LB] Eren Elmalı (LB) rating 73.26 #13
   [CB] Ozan Kabak (CB) rating 74.34 #15
-  [RB] Mert Müldür (RB) rating 73.21 #18
-  [GK] Uğurcan Çakır (GK) rating 76.67 #23
+  [CB] Çağlar Söyüncü (CB) rating 73.41 #4
+  [RB] Mert Müldür (RB) rating 73.20 #18
+  [GK] Uğurcan Çakır (GK) rating 77.62 #23
 
 Wildcard:
-  [WILD] Mert Günok (GK) rating 75.66 #1
+  [WILD] Altay Bayındır (GK) rating 74.21 #1
