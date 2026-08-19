@@ -50,7 +50,7 @@ Substitutes:
   [RMF] Ray Parlour (RMF) rating 96.89 #15
   [AMF] Phil Foden (AMF) rating 95.88 #7
   [CMF] Frank Lampard (CMF) rating 98.11 #8
-  [DMF] Bryan Robson (CMF) rating 97.84 #16
+  [DMF] Harry Winks (DMF) rating 73.45 #17
   [LB] Lewis Hall (LB) rating 94.08 #12
   [CB] Levi Colwill (CB) rating 95.45 #6
   [CB] Jarell Quansah (CB) rating 94.03 #26
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Sam Johnstone (GK) rating 94.17 #13
 
 Wildcard:
-  [WILD] Bukayo Saka (RWF) rating 97.41 #25
+  [WILD] Bryan Robson (CMF) rating 97.84 #16
