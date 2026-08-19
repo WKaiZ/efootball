@@ -46,7 +46,7 @@ Starters:
 
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LMF] Bradley Barcola (LWF) rating 95.72 #25
+  [LMF] Dimitri Payet (AMF) rating 73.74 #24
   [RWF] Florian Thauvin (RWF) rating 94.33 #12
   [SS] Désiré Doué (SS) rating 97.33 #20
   [CMF] Adrien Rabiot (CMF) rating 95.00 #14
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Eduardo Camavinga (AMF) rating 95.33 #6
+  [WILD] Bradley Barcola (LWF) rating 95.72 #25
