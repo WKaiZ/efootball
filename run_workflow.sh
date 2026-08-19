@@ -53,14 +53,28 @@ if [ "${#countries[@]}" -eq 0 ]; then
   countries=()
   # Nation folders may sit directly under the repo root or one level down inside
   # a group folder (e.g. contenders/france, challengers/wales). Match both.
-  for formation_file in "$ROOT_DIR"/*/*_formation.txt "$ROOT_DIR"/*/*/*_formation.txt; do
-    if [ ! -f "$formation_file" ]; then
+  # Discover by *_players.txt; formation is optional (draft_gameplan uses the
+  # default formation when *_formation.txt is missing).
+  seen=()
+  for players_file in "$ROOT_DIR"/*/*_players.txt "$ROOT_DIR"/*/*/*_players.txt; do
+    if [ ! -f "$players_file" ]; then
       continue
     fi
-    countries+=("$(basename "$(dirname "$formation_file")")")
+    country="$(basename "$(dirname "$players_file")")"
+    duplicate=0
+    for existing in "${seen[@]:-}"; do
+      if [ "$existing" = "$country" ]; then
+        duplicate=1
+        break
+      fi
+    done
+    if [ "$duplicate" -eq 0 ]; then
+      seen+=("$country")
+      countries+=("$country")
+    fi
   done
   if [ "${#countries[@]}" -eq 0 ]; then
-    echo "Error: no country folders with *_formation.txt were found." >&2
+    echo "Error: no country folders with *_players.txt were found." >&2
     exit 1
   fi
 fi

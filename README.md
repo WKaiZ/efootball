@@ -71,7 +71,7 @@ The drafted gameplan written by `draft_gameplan.py`. For **contenders**, it cont
 The convenience wrapper:
 
 ```bash
-./run_workflow.sh                           # run for every country folder that has *_formation.txt
+./run_workflow.sh                           # run for every country folder that has *_players.txt
 ./run_workflow.sh france                    # run for one country
 ./run_workflow.sh belgium france germany    # run for several countries
 ./run_workflow.sh --refetch france          # force-refresh ESPN + Transfermarkt cache for france
@@ -126,7 +126,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Cleans `__pycache__`, parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers countries by looking for any `*_formation.txt` one or two levels down (so it finds both `contenders/*/` and `challengers/*/`) when no country is passed.
+- `run_workflow.sh` — Bash entry point. Cleans `__pycache__`, parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers countries by looking for any `*_players.txt` one or two levels down (so it finds both `contenders/*/` and `challengers/*/`) when no country is passed. Formation files are optional; missing ones fall back to the default in `gameplan/formation.py`.
 - `country_locator.py` — Shared `resolve_country_dir` helper. Maps a bare country name (or group-qualified path) to its folder under `contenders/` or `challengers/`, so every stage keeps accepting bare names after the ranking-based reorg.
 - `fetch_number.py` / `fetch_numbers.py` — Thin wrappers that `asyncio.run(jersey_fetch.run.main())`.
 - `fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.

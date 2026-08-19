@@ -70,6 +70,12 @@ def main():
         formation_file, out_path = resolve_country_paths(country_folder)
 
         primary_formation, secondary_formation = load_formations(formation_file)
+        if not os.path.exists(formation_file):
+            default = ", ".join(primary_formation)
+            print(
+                f"No {country_name}_formation.txt found; using default formation: {default}",
+                file=sys.stderr,
+            )
         formation.FORMATION[:] = primary_formation
 
         roles_by_pos = load_roles(conn, country_name)
