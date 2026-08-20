@@ -5,7 +5,7 @@ Starters:
   [LMF] Shinji Kagawa (LMF) rating 98.78 #10
   [RMF] Takefusa Kubo (RMF) rating 98.14 #8
   [AMF] Daichi Kamada (AMF) rating 97.41 #15
-  [CMF] Gaku Shibasaki (CMF) rating 97.36 #7
+  [CMF] Gaku Shibasaki (CMF) rating 96.51 #7
   [DMF] Makoto Hasebe (DMF) rating 98.30 #17
   [LB] Junnosuke Suzuki (LB) rating 94.13 #25
   [CB] Hiroki Ito (CB) rating 97.10 #21
@@ -24,7 +24,7 @@ Substitutes:
   [CB] Shogo Taniguchi (CB) rating 96.07 #3
   [CB] Ayumu Seko (CB) rating 94.54 #20
   [RB] Yukinari Sugawara (RB) rating 74.19 #2
-  [GK] Shusaku Nishikawa (GK) rating 97.31 #12
+  [GK] Shusaku Nishikawa (GK) rating 97.34 #12
 
 Wildcard:
   [WILD] Tomoki Hayakawa (GK) rating 96.23 #23
@@ -35,7 +35,7 @@ Starters:
   [CF] Koki Ogawa (CF) rating 95.34 #19
   [LWF] Keito Nakamura (LWF) rating 91.99 #13
   [RWF] Junya Ito (RWF) rating 94.46 #14
-  [SS] Takashi Usami (SS) rating 98.14 #11
+  [SS] Takashi Usami (SS) rating 97.40 #11
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
   [DMF] Wataru Endo (DMF) rating 95.06 #6
   [LB] Yuto Nagatomo (LMF) rating 92.33 #5
