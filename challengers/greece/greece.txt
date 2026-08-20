@@ -1,8 +1,8 @@
 Starters:
-  [CF] Charalampos Kostoulas (CF) rating 94.07 #11
+  [CF] Vangelis Pavlidis (CF) rating 94.81 #14
   [LWF] Christos Tzolis (LWF) rating 94.42 #10
   [RWF] Marios Vrousai (RWF) rating 73.52 #7
-  [AMF] Anastasios Bakasetas (AMF) rating 74.16 #14
+  [AMF] Charalampos Kostoulas (CF) rating 94.07 #11
   [CMF] Christos Zafeiris (CMF) rating 71.73 #20
   [DMF] Nectarios Triantis (DMF) rating 73.31 #23
   [LB] Konstantinos Tsimikas (LB) rating 75.10 #21
