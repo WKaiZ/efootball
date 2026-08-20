@@ -7,9 +7,9 @@ Starters:
   [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
-  [LB] Ricardo Rodríguez (LB) rating 92.98 #13
+  [LB] Ulisses Garcia (LB) rating 73.24 #15
   [CB] Manuel Akanji (CB) rating 95.17 #5
-  [CB] Nico Elvedi (CB) rating 93.77 #4
+  [CB] Ricardo Rodríguez (CB) rating 93.31 #13
   [RB] Denis Zakaria (RB) rating 93.96 #6
   [GK] Gregor Kobel (GK) rating 95.39 #1
 
@@ -18,11 +18,11 @@ Substitutes:
   [LWF] Rubén Vargas (LMF) rating 93.13 #18
   [RWF] Christian Fassnacht (RWF) rating 73.55 #16
   [AMF] Fabian Rieder (AMF) rating 73.21 #22
-  [CMF] Michel Aebischer (CMF) rating 94.98 #20
+  [CMF] Remo Freuler (CMF) rating 76.26 #8
   [DMF] Edimilson Fernandes (DMF) rating 72.21 #17
   [LB] Miro Muheim (LB) rating 71.89 #2
-  [CB] Loris Benito (CB) rating 73.29 #15
   [CB] Becir Omeragic (CB) rating 73.44 #24
+  [CB] Nico Elvedi (CB) rating 77.44 #4
   [RB] Silvan Widmer (RB) rating 72.99 #3
   [GK] Philipp Köhn (GK) rating 92.97 #21
 
@@ -36,27 +36,28 @@ Starters:
   [LWF] Noah Okafor (LWF) rating 75.96 #19
   [RWF] Renato Steffen (RWF) rating 71.81 #7
   [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
-  [CMF] Remo Freuler (CMF) rating 76.26 #8
+  [CMF] Johan Manzambi (CMF) rating 76.07 #9
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
-  [LB] Jordan Lotomba (RB) rating 72.30 #14
-  [CB] Ricardo Rodríguez (CB) rating 93.31 #13
+  [LB] Ricardo Rodríguez (LB) rating 92.98 #13
   [CB] Fabian Schär (CB) rating 78.06 #22
+  [CB] Loris Benito (CB) rating 73.29 #3
   [RB] Lucas Blondel (RB) rating 73.95 #2
   [GK] Roman Bürki (GK) rating 75.35 #21
 
 Substitutes:
   [CF] Cedric Itten (CF) rating 72.42 #26
-  [LWF] Filip Ugrinic (CMF) rating 74.25 #15
-  [RWF] Kastriot Imeri (LMF) rating 70.10 #16
-  [AMF] Uran Bislimi (CMF) rating 72.30 #3
-  [CMF] Johan Manzambi (CMF) rating 76.07 #9
-  [DMF] Sandro Lauper (DMF) rating 72.07 #17
+  [LWF] VACANT
+  [RWF] Michel Aebischer (CMF) rating 73.37 #20
+  [AMF] Uran Bislimi (CMF) rating 72.30 #17
+  [CMF] Djibril Sow (CMF) rating 75.00 #15
+  [DMF] Sandro Lauper (DMF) rating 72.07 #8
   [LB] VACANT
-  [CB] Cédric Zesiger (CB) rating 72.82 #18
+  [CB] Cédric Zesiger (CB) rating 72.82 #14
   [CB] Aurèle Amenda (CB) rating 72.60 #24
-  [RB] Simon Sohm (CMF) rating 71.72 #20
+  [RB] Jordan Lotomba (RB) rating 72.30 #16
   [GK] Jonas Omlin (GK) rating 74.12 #1
 
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
-  [WILD] Eray Cömert (CB) rating 71.42 #4
+  [WILD] Eray Cömert (CB) rating 71.42 #18
+  [WILD] Luca Jaquez (CB) rating 68.94 #25
