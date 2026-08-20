@@ -46,16 +46,16 @@ Starters:
 
 Substitutes:
   [CF] Gianluca Scamacca (CF) rating 95.43 #17
-  [LMF] Andrea Cambiaso (LMF) rating 94.42 #24
+  [LMF] Andrea Cambiaso (LMF) rating 94.42 #15
   [RWF] Riccardo Orsolini (RWF) rating 77.83 #7
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
-  [CMF] Jorginho (CMF) rating 76.34 #14
+  [CMF] Marco Verratti (CMF) rating 79.14 #24
   [DMF] Sandro Tonali (DMF) rating 96.44 #8
-  [LB] Matteo Ruggeri (LB) rating 94.00 #15
+  [LB] Costantino Favasuli (LMF) rating 68.22 #22
   [CB] Giorgio Scalvini (CB) rating 94.78 #20
   [CB] Alessandro Bastoni (CB) rating 95.00 #19
   [RB] Christian Panucci (RB) rating 96.96 #2
   [GK] Marco Carnesecchi (GK) rating 96.73 #23
 
 Wildcard:
-  [WILD] Nicolò Zaniolo (AMF) rating 95.92 #22
+  [WILD] Demetrio Albertini (DMF) rating 96.16 #14
