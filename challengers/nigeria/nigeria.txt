@@ -1,8 +1,8 @@
 Starters:
-  [CF] Nwankwo Kanu (CF) rating 98.30 #4
+  [CF] Nwankwo Kanu (CF) rating 97.42 #4
   [LWF] Alex Iwobi (LWF) rating 94.03 #17
-  [RWF] Tijani Babangida (RWF) rating 97.07 #13
-  [AMF] Jay-Jay Okocha (AMF) rating 98.15 #10
+  [RWF] Tijani Babangida (RWF) rating 96.81 #13
+  [AMF] Jay-Jay Okocha (AMF) rating 97.04 #10
   [CMF] Frank Onyeka (CMF) rating 93.22 #8
   [DMF] Raphael Onyedika (DMF) rating 94.24 #20
   [LB] Bruno Onyemaechi (LB) rating 71.59 #3
