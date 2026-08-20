@@ -19,7 +19,7 @@ Substitutes:
   [RWF] Ibrahim Mbaye (RWF) rating 91.31 #20
   [AMF] Habib Diarra (CMF) rating 74.24 #6
   [CMF] Lamine Camara (CMF) rating 94.07 #8
-  [DMF] Cheikh Niasse (DMF) rating 93.17 #22
+  [DMF] Idrissa Gueye (DMF) rating 75.44 #5
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Moussa Niakhaté (CB) rating 93.28 #19
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
@@ -27,7 +27,7 @@ Substitutes:
   [GK] Yehvann Diouf (GK) rating 75.21 #1
 
 Wildcard:
-  [WILD] Idrissa Gueye (DMF) rating 75.44 #5
+  [WILD] Boulaye Dia (CF) rating 74.99 #9
 
 Second Squad
 
@@ -45,17 +45,18 @@ Starters:
   [GK] Mory Diaw (GK) rating 73.17 #23
 
 Substitutes:
-  [CF] Boulaye Dia (CF) rating 74.99 #9
+  [CF] Habib Diallo (CF) rating 74.11 #20
   [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
   [RWF] Malick Mbaye (RWF) rating 68.02 #11
-  [AMF] Keita Baldé (CF) rating 72.03 #19
+  [AMF] Keita Baldé (CF) rating 72.03 #15
   [CMF] Samba Diba (CMF) rating 66.50 #8
-  [DMF] Dion Lopy (DMF) rating 72.25 #15
-  [LB] Seydou Sano (CB) rating 64.88 #4
-  [CB] Seyni Mbaye Ndiaye (CB) rating 65.99 #2
+  [DMF] Cheikh Niasse (DMF) rating 72.94 #19
+  [LB] VACANT
+  [CB] Seydou Sano (CB) rating 64.88 #4
   [CB] Abdoulaye Ndiaye (CB) rating 70.83 #10
-  [RB] Bouna Sarr (RB) rating 70.37 #20
+  [RB] Ilay Camara (RB) rating 69.71 #2
   [GK] Seny Dieng (GK) rating 72.64 #1
 
 Wildcard:
-  [WILD] Bamba Dieng (CF) rating 72.53 #12
+  [WILD] Bamba Dieng (CF) rating 72.53 #9
+  [WILD] Cherif Ndiaye (CF) rating 72.39 #12
