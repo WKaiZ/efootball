@@ -35,7 +35,7 @@ Starters:
   [CF] Rafael Leão (CF) rating 95.97 #17
   [LWF] João Félix (LWF) rating 95.38 #11
   [RMF] Luís Figo (RMF) rating 100.33 #7
-  [AMF] Rodrigo Mora (AMF) rating 93.25 #24
+  [AMF] Bruno Fernandes (CMF) rating 95.01 #8
   [CMF] João Neves (CMF) rating 95.72 #15
   [DMF] Vitinha (DMF) rating 97.75 #23
   [LB] João Cancelo (LB) rating 94.50 #20
@@ -45,17 +45,18 @@ Starters:
   [GK] José Sá (GK) rating 75.58 #12
 
 Substitutes:
-  [CF] Gonçalo Guedes (LMF) rating 93.76 #16
+  [CF] VACANT
   [LWF] Pedro Gonçalves (LWF) rating 77.86 #9
   [RMF] Pedro Neto (RMF) rating 95.47 #18
   [AMF] Bernardo Silva (AMF) rating 81.00 #10
-  [CMF] Bruno Fernandes (CMF) rating 95.01 #8
+  [CMF] Renato Sanches (CMF) rating 76.01 #16
   [DMF] Rúben Neves (DMF) rating 79.25 #21
   [LB] Kévin Rodrigues (LB) rating 72.29 #19
+  [CB] António Silva (CB) rating 76.70 #4
   [CB] Toti (CB) rating 75.44 #2
-  [CB] Tiago Djaló (CB) rating 73.13 #3
   [RB] Matheus Nunes (RB) rating 94.00 #6
   [GK] Samuel Soares (GK) rating 72.56 #22
 
 Wildcard:
   [WILD] Francisco Conceição (RMF) rating 94.37 #26
+  [WILD] João Moutinho (CMF) rating 75.04 #28
