@@ -1,29 +1,28 @@
 Starters:
-  [CF] Victor Osimhen (CF) rating 97.10 #9
-  [LWF] Ademola Lookman (CF) rating 95.37 #7
-  [RWF] Samuel Chukwueze (RWF) rating 76.37 #11
-  [AMF] Christantus Uche (AMF) rating 71.27 #18
-  [CMF] Alex Iwobi (CMF) rating 93.65 #17
-  [DMF] Raphael Onyedika (DMF) rating 75.45 #20
-  [LB] Bruno Onyemaechi (LB) rating 71.59 #13
-  [CB] Calvin Bassey (CB) rating 94.52 #21
+  [CF] Nwankwo Kanu (CF) rating 98.30 #4
+  [LWF] Alex Iwobi (LWF) rating 94.03 #17
+  [RWF] Tijani Babangida (RWF) rating 97.07 #13
+  [AMF] Jay-Jay Okocha (AMF) rating 98.15 #10
+  [CMF] Frank Onyeka (CMF) rating 93.22 #8
+  [DMF] Raphael Onyedika (DMF) rating 94.24 #20
+  [LB] Bruno Onyemaechi (LB) rating 71.59 #3
+  [CB] Calvin Bassey (CB) rating 95.16 #21
   [CB] Kevin Akpoguma (CB) rating 73.80 #5
-  [RB] Ola Aina (RB) rating 78.03 #2
+  [RB] Bright Osayi-Samuel (RB) rating 93.16 #2
   [GK] Maduka Okoye (GK) rating 73.41 #23
 
 Substitutes:
-  [CF] Paul Onuachu (CF) rating 96.37 #19
+  [CF] Victor Osimhen (CF) rating 97.10 #9
   [LWF] Chidera Ejuke (LWF) rating 75.04 #24
-  [RWF] Emmanuel Dennis (CF) rating 73.30 #15
-  [AMF] Usman Mohammed (AMF) rating 66.78 #14
-  [CMF] Alhassan Yusuf (CMF) rating 73.68 #12
-  [DMF] Wilfred Ndidi (DMF) rating 75.18 #4
-  [LB] Zaidu Sanusi (LB) rating 71.34 #3
-  [CB] Semi Ajayi (CB) rating 70.73 #6
-  [CB] VACANT
+  [RWF] Samuel Chukwueze (RWF) rating 94.32 #11
+  [AMF] Christantus Uche (AMF) rating 71.27 #7
+  [CMF] Fisayo Dele-Bashiru (CMF) rating 93.09 #14
+  [DMF] Tochukwu Nnadi (CMF) rating 67.16 #28
+  [LB] Zaidu Sanusi (LB) rating 71.34 #12
+  [CB] Chibuike Nwaiwu (CB) rating 72.41 #6
+  [CB] Emmanuel Fernandez (CB) rating 72.73 #18
   [RB] Ryan Alebiosu (RB) rating 70.48 #27
   [GK] Arthur Okonkwo (GK) rating 70.51 #16
 
 Wildcard:
-  [WILD] Tolu Arokodare (CF) rating 73.99 #10
-  [WILD] Akor Adams (CF) rating 73.44 #22
+  [WILD] Paul Onuachu (CF) rating 96.37 #19
