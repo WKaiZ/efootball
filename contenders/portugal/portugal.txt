@@ -55,7 +55,7 @@ Substitutes:
   [CB] António Silva (CB) rating 76.70 #4
   [CB] Toti (CB) rating 75.44 #2
   [RB] Matheus Nunes (RB) rating 94.00 #6
-  [GK] Samuel Soares (GK) rating 72.56 #22
+  [GK] Anthony Lopes (GK) rating 74.63 #22
 
 Wildcard:
   [WILD] Francisco Conceição (RMF) rating 94.37 #26

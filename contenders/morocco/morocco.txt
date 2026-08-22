@@ -58,4 +58,4 @@ Substitutes:
   [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Wildcard:
-  [WILD] Redouane Halhal (CB) rating 71.72 #25
+  [WILD] Ilias Chair (LWF) rating 74.23 #25

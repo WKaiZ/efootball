@@ -27,7 +27,7 @@ Substitutes:
   [GK] Raúl Rangel (GK) rating 73.85 #12
 
 Wildcard:
-  [WILD] Héctor Herrera (CMF) rating 72.63 #16
+  [WILD] Julián Araujo (RB) rating 73.19 #16
 
 Second Squad
 
@@ -49,7 +49,7 @@ Substitutes:
   [LWF] VACANT
   [RWF] VACANT
   [AMF] VACANT
-  [CMF] VACANT
+  [CMF] Héctor Herrera (CMF) rating 72.63 #16
   [DMF] Jonathan González (DMF) rating 69.98 #6
   [LB] VACANT
   [CB] VACANT

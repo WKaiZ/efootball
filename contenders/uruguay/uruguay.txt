@@ -59,4 +59,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Federico Viñas (CF) rating 74.11 #21
-  [WILD] Facundo Pellistri (RWF) rating 71.48 #11
+  [WILD] Mauricio Lemos (CB) rating 72.39 #4
