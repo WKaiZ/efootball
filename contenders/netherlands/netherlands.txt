@@ -23,7 +23,7 @@ Substitutes:
   [LB] Micky van de Ven (LB) rating 96.06 #15
   [CB] Frank Rijkaard (CB) rating 96.97 #17
   [CB] Jan Paul van Hecke (CB) rating 95.56 #6
-  [RB] Lutsharel Geertruida (RB) rating 95.11 #12
+  [RB] Jeremie Frimpong (RB) rating 95.11 #12
   [GK] Robin Roefs (GK) rating 94.78 #13
 
 Wildcard:
@@ -41,11 +41,11 @@ Starters:
   [LB] Jorrel Hato (LB) rating 94.31 #25
   [CB] Ronald Koeman (CB) rating 96.01 #4
   [CB] Micky van de Ven (CB) rating 96.00 #15
-  [RB] Jeremie Frimpong (RB) rating 95.11 #12
+  [RB] Kenny Tete (RB) rating 94.22 #2
   [GK] Bart Verbruggen (GK) rating 93.92 #1
 
 Substitutes:
-  [CF] Roy Makaay (CF) rating 98.62 #18
+  [CF] Roy Makaay (CF) rating 98.62 #12
   [LWF] Crysencio Summerville (LWF) rating 75.86 #24
   [RMF] Donyell Malen (CF) rating 93.55 #9
   [AMF] Memphis Depay (AMF) rating 94.47 #17
@@ -54,7 +54,7 @@ Substitutes:
   [LB] Ian Maatsen (LB) rating 94.07 #5
   [CB] Matthijs de Ligt (CB) rating 95.98 #3
   [CB] Teun Koopmeiners (CB) rating 93.34 #20
-  [RB] Kenny Tete (RB) rating 94.22 #2
+  [RB] Devyne Rensch (RB) rating 93.01 #18
   [GK] Jasper Cillessen (GK) rating 93.87 #13
 
 Wildcard:
