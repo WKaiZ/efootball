@@ -45,15 +45,15 @@ Starters:
   [GK] Senne Lammens (GK) rating 93.92 #12
 
 Substitutes:
-  [CF] Romelu Lukaku (CF) rating 77.41 #20
+  [CF] Loïs Openda (CF) rating 78.28 #20
   [LWF] Leandro Trossard (LWF) rating 77.85 #11
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
   [AMF] Dennis Praet (AMF) rating 72.26 #7
   [CMF] Bryan Heynen (CMF) rating 74.59 #19
   [DMF] Leander Dendoncker (DMF) rating 74.97 #6
-  [LB] VACANT
+  [LB] Thorgan Hazard (LWF) rating 74.26 #16
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
-  [CB] Björn Engels (CB) rating 66.80 #16
+  [CB] VACANT
   [RB] VACANT
   [GK] Mike Penders (GK) rating 75.63 #13
 
