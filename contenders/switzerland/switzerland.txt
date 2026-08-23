@@ -2,7 +2,7 @@ First Squad
 
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
-  [LWF] Breel Embolo (CF) rating 93.99 #7
+  [LWF] Rubén Vargas (LMF) rating 93.13 #17
   [RWF] Dan Ndoye (RWF) rating 94.18 #11
   [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
@@ -14,14 +14,14 @@ Starters:
   [GK] Gregor Kobel (GK) rating 95.39 #1
 
 Substitutes:
-  [CF] Zeki Amdouni (CF) rating 73.77 #23
-  [LWF] Rubén Vargas (LMF) rating 93.13 #18
+  [CF] Breel Embolo (CF) rating 75.96 #7
+  [LWF] Zeki Amdouni (CF) rating 73.77 #25
   [RWF] Christian Fassnacht (RWF) rating 73.55 #16
-  [AMF] Fabian Rieder (AMF) rating 73.21 #22
+  [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
   [CMF] Remo Freuler (CMF) rating 76.26 #8
-  [DMF] Edimilson Fernandes (DMF) rating 72.21 #17
+  [DMF] Edimilson Fernandes (DMF) rating 72.21 #20
   [LB] Miro Muheim (LB) rating 71.89 #2
-  [CB] Becir Omeragic (CB) rating 73.44 #24
+  [CB] Fabian Schär (CB) rating 78.06 #22
   [CB] Nico Elvedi (CB) rating 77.44 #4
   [RB] Silvan Widmer (RB) rating 72.99 #3
   [GK] Philipp Köhn (GK) rating 92.97 #21
@@ -35,11 +35,11 @@ Starters:
   [CF] Dan Ndoye (LMF) rating 93.45 #11
   [LWF] Noah Okafor (LWF) rating 75.96 #19
   [RWF] Renato Steffen (RWF) rating 71.81 #7
-  [AMF] Xherdan Shaqiri (AMF) rating 74.45 #23
+  [AMF] Fabian Rieder (AMF) rating 73.21 #22
   [CMF] Johan Manzambi (CMF) rating 76.07 #9
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
   [LB] Ricardo Rodríguez (LB) rating 92.98 #13
-  [CB] Fabian Schär (CB) rating 78.06 #22
+  [CB] Becir Omeragic (CB) rating 73.44 #5
   [CB] Loris Benito (CB) rating 73.29 #3
   [RB] Lucas Blondel (RB) rating 73.95 #2
   [GK] Roman Bürki (GK) rating 75.35 #21
@@ -51,7 +51,7 @@ Substitutes:
   [AMF] Uran Bislimi (CMF) rating 72.30 #17
   [CMF] Djibril Sow (CMF) rating 75.00 #15
   [DMF] Sandro Lauper (DMF) rating 72.07 #8
-  [LB] VACANT
+  [LB] Isaac Schmidt (RB) rating 68.68 #23
   [CB] Cédric Zesiger (CB) rating 72.82 #14
   [CB] Aurèle Amenda (CB) rating 72.60 #24
   [RB] Jordan Lotomba (RB) rating 72.30 #16
@@ -60,4 +60,3 @@ Substitutes:
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
   [WILD] Eray Cömert (CB) rating 71.42 #18
-  [WILD] Luca Jaquez (CB) rating 68.94 #25

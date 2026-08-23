@@ -1,5 +1,4 @@
 Noah Okafor, CF, 95.18, True, Highlight, [CF, LMF, LWF, RWF, RMF], [SS]
-Breel Embolo, CF, 93.99, True, Highlight, [CF, LWF, RWF, SS], [LMF, AMF, RMF]
 Dan Ndoye, RWF, 94.18, True, Highlight, [CF, RWF, RMF], [LWF, SS, AMF, LMF]
 Johan Manzambi, AMF, 97.37, False, Showtime, [AMF, CMF, RMF, RWF], [SS, DMF]
 Dan Ndoye, LMF, 93.45, True, Highlight, [CF, RWF, RMF, LMF], [LWF, SS, AMF]
@@ -15,6 +14,7 @@ Denis Zakaria, RB, 93.96, True, Highlight, [CMF, DMF, RB], [CB, AMF, RMF]
 Gregor Kobel, GK, 95.39, True, Highlight, [GK], []
 Philipp Köhn, GK, 92.97, False, Highlight, [GK], []
 
+Breel Embolo, CF, 75.96, True, Standard, [CF, RWF], [LWF, SS, LMF, AMF, RMF]
 Zeki Amdouni, CF, 73.77, True, Standard, [CF, SS, AMF], [LWF, LMF, RWF, RMF]
 Cedric Itten, CF, 72.42, True, Standard, [CF], [LWF, RWF, SS, AMF]
 Noah Okafor, LWF, 75.96, True, Standard, [CF, LMF, LWF, RWF, RMF, SS, AMF], [CMF, RWF, RMF]
