@@ -3,7 +3,7 @@ First Squad
 Starters:
   [CF] Pelé (CF) rating 99.81 #10
   [LWF] Ronaldinho (LWF) rating 99.95 #7
-  [RWF] Raphinha (RWF) rating 96.99 #11
+  [RMF] Lucas Moura (RMF) rating 95.07 #11
   [AMF] Kaká (AMF) rating 99.35 #8
   [CMF] Ederson (CMF) rating 94.97 #2
   [DMF] Casemiro (DMF) rating 97.38 #5
@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Adriano (CF) rating 98.39 #9
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
-  [RWF] Luiz Henrique (RWF) rating 95.39 #21
+  [RMF] Estêvão (RMF) rating 95.01 #22
   [AMF] Rivaldo (AMF) rating 97.67 #20
   [CMF] Joelinton (CMF) rating 94.78 #17
   [DMF] Fabinho (DMF) rating 78.56 #16
@@ -34,28 +34,28 @@ Second Squad
 Starters:
   [CF] João Pedro (CF) rating 98.24 #7
   [LWF] Neymar (LWF) rating 99.19 #10
-  [RMF] Cafu (RMF) rating 97.18 #2
+  [RWF] Raphinha (RWF) rating 96.99 #11
   [AMF] Zico (AMF) rating 98.94 #8
   [CMF] Andrey Santos (CMF) rating 94.21 #18
   [DMF] Edmílson (DMF) rating 96.70 #5
-  [LB] Alex Sandro (LB) rating 94.21 #6
+  [LB] Wesley (LB) rating 95.00 #13
   [CB] Éder Militão (CB) rating 95.22 #3
   [CB] Murillo (CB) rating 94.98 #14
-  [RB] Juliano Belletti (RB) rating 97.04 #13
+  [RB] Juliano Belletti (RB) rating 97.04 #2
   [GK] Cássio (GK) rating 95.25 #16
 
 Substitutes:
-  [CF] Alexandre Pato (CF) rating 97.70 #21
-  [LWF] Raphinha (LWF) rating 96.69 #11
-  [RMF] Lucas Moura (RMF) rating 95.07 #20
+  [CF] Alexandre Pato (CF) rating 97.70 #9
+  [LWF] Savinho (LWF) rating 96.38 #20
+  [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #17
   [CMF] Andreas Pereira (CMF) rating 93.34 #24
-  [DMF] Gerson (CMF) rating 76.67 #19
-  [LB] Carlos Augusto (LB) rating 93.88 #25
+  [DMF] Léo Ortiz (CB) rating 93.14 #4
+  [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Lucas Beraldo (CB) rating 93.98 #15
-  [CB] Léo Ortiz (CB) rating 93.14 #4
+  [CB] Bremer (CB) rating 93.78 #25
   [RB] Danilo (RB) rating 94.04 #22
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Zé Roberto (LMF) rating 97.10 #9
+  [WILD] Matheus Cunha (AMF) rating 96.23 #19

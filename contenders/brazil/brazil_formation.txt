@@ -1,6 +1,6 @@
 CF
 LWF
-RWF
+RMF
 AMF
 CMF
 DMF
@@ -12,7 +12,7 @@ GK
 
 CF
 LWF
-RMF
+RWF
 AMF
 CMF
 DMF
