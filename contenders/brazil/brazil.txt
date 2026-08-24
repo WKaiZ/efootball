@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Andreas Pereira (CMF) rating 93.34 #24
   [DMF] Gerson (CMF) rating 76.67 #19
   [LB] Carlos Augusto (LB) rating 93.88 #25
-  [CB] Thiago Silva (CB) rating 94.09 #4
-  [CB] Alexsandro (CB) rating 94.26 #15
+  [CB] Lucas Beraldo (CB) rating 93.98 #15
+  [CB] Léo Ortiz (CB) rating 93.14 #4
   [RB] Danilo (RB) rating 94.04 #22
   [GK] Bento (GK) rating 94.38 #12
 
