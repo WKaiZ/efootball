@@ -7,9 +7,9 @@ Starters:
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #7
   [DMF] Andrea Pirlo (DMF) rating 99.04 #21
-  [LB] Paolo Maldini (LB) rating 99.05 #3
+  [LB] Riccardo Calafiori (LB) rating 95.82 #13
+  [CB] Paolo Maldini (CB) rating 100.18 #3
   [CB] Fabio Cannavaro (CB) rating 99.64 #5
-  [CB] Alessandro Nesta (CB) rating 98.91 #13
   [RB] Gianluca Zambrotta (RB) rating 98.41 #19
   [GK] Gianluigi Buffon (GK) rating 100.22 #1
 
@@ -18,11 +18,11 @@ Substitutes:
   [LWF] Federico Chiesa (LWF) rating 94.39 #14
   [RWF] Gianfranco Zola (SS) rating 99.85 #15
   [AMF] Roberto Baggio (AMF) rating 97.83 #18
-  [CMF] Nicolò Barella (CMF) rating 96.03 #2
+  [CMF] Nicolò Barella (CMF) rating 96.03 #23
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Leonardo Spinazzola (LB) rating 94.17 #4
+  [CB] Alessandro Nesta (CB) rating 98.91 #2
   [CB] Franco Baresi (CB) rating 98.40 #6
-  [CB] Leonardo Bonucci (CB) rating 97.17 #23
   [RB] Massimo Oddo (RB) rating 98.21 #22
   [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
 
@@ -33,14 +33,14 @@ Second Squad
 
 Starters:
   [CF] Christian Vieri (CF) rating 98.01 #9
-  [LMF] Federico Dimarco (LMF) rating 98.01 #3
+  [LMF] Federico Dimarco (LMF) rating 98.01 #13
   [RWF] Domenico Berardi (RWF) rating 93.34 #11
   [SS] Roberto Baggio (SS) rating 99.61 #10
-  [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
+  [CMF] Tommaso Pobega (CMF) rating 93.26 #4
   [DMF] Massimo Ambrosini (DMF) rating 97.01 #16
-  [LB] Riccardo Calafiori (LB) rating 95.82 #13
+  [LB] Paolo Maldini (LB) rating 99.05 #3
   [CB] Riccardo Ferri (CB) rating 97.48 #6
-  [CB] Giorgio Chiellini (CB) rating 96.79 #4
+  [CB] Leonardo Bonucci (CB) rating 97.17 #19
   [RB] Alessandro Costacurta (RB) rating 97.15 #5
   [GK] Christian Abbiati (GK) rating 97.74 #12
 
@@ -49,13 +49,13 @@ Substitutes:
   [LMF] Andrea Cambiaso (LMF) rating 94.42 #15
   [RWF] Riccardo Orsolini (RWF) rating 77.83 #7
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
-  [CMF] Marco Verratti (CMF) rating 79.14 #24
+  [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
   [DMF] Sandro Tonali (DMF) rating 96.44 #8
-  [LB] Costantino Favasuli (LMF) rating 68.22 #22
+  [LB] Honest Ahanor (CB) rating 70.65 #24
+  [CB] Gianluca Mancini (CB) rating 94.01 #23
   [CB] Giorgio Scalvini (CB) rating 94.78 #20
-  [CB] Alessandro Bastoni (CB) rating 95.00 #19
   [RB] Christian Panucci (RB) rating 96.96 #2
-  [GK] Marco Carnesecchi (GK) rating 96.73 #23
+  [GK] Alex Meret (GK) rating 95.11 #22
 
 Wildcard:
   [WILD] Demetrio Albertini (DMF) rating 96.16 #14
