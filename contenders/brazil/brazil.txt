@@ -46,7 +46,7 @@ Starters:
 
 Substitutes:
   [CF] Alexandre Pato (CF) rating 97.70 #9
-  [LWF] Savinho (LWF) rating 96.38 #20
+  [LWF] Gabriel Martinelli (LWF) rating 95.98 #22
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #17
   [CMF] Andreas Pereira (CMF) rating 93.34 #24
@@ -54,8 +54,8 @@ Substitutes:
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Lucas Beraldo (CB) rating 93.98 #15
   [CB] Bremer (CB) rating 93.78 #25
-  [RB] Danilo (RB) rating 94.04 #22
+  [RB] Pepe (AMF) rating 94.19 #26
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Matheus Cunha (AMF) rating 96.23 #19
+  [WILD] Bebeto (CF) rating 97.56 #20

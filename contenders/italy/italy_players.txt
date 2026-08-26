@@ -85,7 +85,6 @@ Gianluigi Donnarumma, GK, 99.04, True, Highlight, [GK], []
 Christian Abbiati, GK, 97.74, False, Epic, [GK], []
 Marco Carnesecchi, GK, 96.73, False, Highlight, [GK], []
 Alex Meret, GK, 95.11, False, Highlight, [GK], []
-Michele Di Gregorio, GK, 94.99, False, Highlight, [GK], []
 Wladimiro Falcone, GK, 93.97, False, Highlight, [GK], []
 
 Jeff Ekhator, CF, 68.94, True, Standard, [CF], [SS]

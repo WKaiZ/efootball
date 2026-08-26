@@ -4,7 +4,7 @@ Starters:
   [RWF] Bryan Mbeumo (RWF) rating 98.62 #10
   [AMF] Olivier Ntcham (CMF) rating 73.00 #21
   [CMF] Frank Anguissa (CMF) rating 93.93 #8
-  [DMF] Carlos Baleba (DMF) rating 94.46 #17
+  [DMF] Carlos Baleba (DMF) rating 77.07 #17
   [LB] Nouhou (LB) rating 74.67 #5
   [CB] Enzo Boyomo (CB) rating 94.56 #22
   [CB] Enzo Ebosse (CB) rating 74.47 #2
