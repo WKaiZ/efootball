@@ -36,8 +36,8 @@ Starters:
   [LWF] Osame Sahraoui (LMF) rating 92.95 #24
   [RWF] Brahim Díaz (RWF) rating 93.36 #10
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
-  [CMF] Ayyoub Bouaddi (CMF) rating 93.33 #6
-  [DMF] Azzedine Ounahi (AMF) rating 94.00 #8
+  [CMF] Azzedine Ounahi (AMF) rating 94.00 #8
+  [DMF] Anas Bach (RB) rating 92.44 #3
   [LB] Youssef Belammari (LB) rating 71.11 #19
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Marouane Louadni (CB) rating 92.57 #4
@@ -49,12 +49,12 @@ Substitutes:
   [LWF] Abde Ezzalzouli (LWF) rating 76.50 #16
   [RWF] Ilias Akhomach (RWF) rating 73.46 #17
   [AMF] Ismael Saibari (AMF) rating 93.24 #11
-  [CMF] Neil El Aynaoui (CMF) rating 73.76 #14
+  [CMF] Ayyoub Bouaddi (CMF) rating 75.26 #6
   [DMF] Yassine Kechta (CMF) rating 72.03 #27
   [LB] Hamza El Moussaoui (LB) rating 70.57 #13
   [CB] Abdel Abqar (CB) rating 72.06 #15
   [CB] Chadi Riad (CB) rating 74.06 #18
-  [RB] Anas Bach (RB) rating 92.44 #3
+  [RB] Noussair Mazraoui (RB) rating 75.30 #14
   [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Wildcard:

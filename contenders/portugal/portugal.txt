@@ -6,7 +6,7 @@ Starters:
   [RWF] Luís Figo (RWF) rating 100.74 #20
   [AMF] Bruno Fernandes (AMF) rating 98.59 #8
   [CMF] Vitinha (CMF) rating 98.42 #23
-  [DMF] João Palhinha (DMF) rating 94.99 #6
+  [DMF] Renato Veiga (CB) rating 94.29 #13
   [LB] Nuno Mendes (LB) rating 97.40 #25
   [CB] Pepe (CB) rating 98.20 #5
   [CB] Rúben Dias (CB) rating 96.96 #3
@@ -22,7 +22,7 @@ Substitutes:
   [DMF] Samú Costa (DMF) rating 76.14 #24
   [LB] Nuno Tavares (LB) rating 94.43 #2
   [CB] Tomás Araújo (CB) rating 95.54 #4
-  [CB] Renato Veiga (CB) rating 94.29 #13
+  [CB] Gonçalo Inácio (CB) rating 93.99 #14
   [RB] João Cancelo (RB) rating 95.29 #21
   [GK] Rui Silva (GK) rating 94.31 #22
 
@@ -39,8 +39,8 @@ Starters:
   [CMF] João Neves (CMF) rating 95.72 #15
   [DMF] Vitinha (DMF) rating 97.75 #23
   [LB] João Cancelo (LB) rating 94.50 #20
-  [CB] Gonçalo Inácio (CB) rating 93.99 #14
   [CB] Danilo Pereira (CB) rating 93.22 #13
+  [CB] António Silva (CB) rating 76.70 #4
   [RB] Diogo Dalot (RB) rating 94.01 #5
   [GK] José Sá (GK) rating 75.58 #12
 
@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Renato Sanches (CMF) rating 76.01 #16
   [DMF] Rúben Neves (DMF) rating 79.25 #21
   [LB] Kévin Rodrigues (LB) rating 72.29 #19
-  [CB] António Silva (CB) rating 76.70 #4
   [CB] Toti (CB) rating 75.44 #2
+  [CB] Tiago Djaló (CB) rating 73.13 #14
   [RB] Matheus Nunes (RB) rating 94.00 #6
   [GK] Anthony Lopes (GK) rating 74.63 #22
 
