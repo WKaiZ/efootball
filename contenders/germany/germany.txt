@@ -14,11 +14,11 @@ Starters:
   [GK] Manuel Neuer (GK) rating 100.29 #1
 
 Substitutes:
-  [CF] Gerd Müller (CF) rating 99.05 #13
+  [CF] Kai Havertz (CF) rating 95.97 #20
   [LMF] Marco Reus (LMF) rating 97.37 #21
   [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Florian Wirtz (AMF) rating 96.12 #17
-  [CMF] Leon Goretzka (CMF) rating 95.15 #14
+  [CMF] Pascal Groß (CMF) rating 94.23 #13
   [DMF] Aleksandar Pavlovic (DMF) rating 94.00 #25
   [LB] Nico Schlotterbeck (CB) rating 95.32 #15
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
@@ -27,16 +27,16 @@ Substitutes:
   [GK] Oliver Kahn (GK) rating 97.27 #12
 
 Wildcard:
-  [WILD] Kai Havertz (CF) rating 95.97 #20
+  [WILD] Malick Thiaw (CB) rating 94.99 #24
 
 Second Squad
 
 Starters:
-  [CF] Miroslav Klose (CF) rating 97.85 #11
-  [LWF] Serge Gnabry (LWF) rating 95.13 #20
+  [CF] Gerd Müller (CF) rating 99.05 #13
+  [LWF] Kevin Schade (LWF) rating 94.09 #14
   [RWF] Florian Wirtz (LMF) rating 96.96 #17
   [AMF] Jamal Musiala (AMF) rating 97.02 #10
-  [CMF] Pascal Groß (CMF) rating 94.23 #13
+  [CMF] Nadiem Amiri (CMF) rating 93.48 #20
   [DMF] Felix Nmecha (DMF) rating 97.61 #23
   [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
   [CB] Joshua Kimmich (CB) rating 95.94 #6
@@ -45,17 +45,18 @@ Starters:
   [GK] Kevin Trapp (GK) rating 94.34 #12
 
 Substitutes:
-  [CF] Mario Götze (CF) rating 97.60 #19
-  [LWF] Kevin Schade (LWF) rating 94.09 #16
-  [RWF] Kai Havertz (AMF) rating 95.17 #21
+  [CF] Miroslav Klose (CF) rating 97.85 #11
+  [LWF] Timo Werner (LWF) rating 75.06 #9
+  [RWF] Karim Adeyemi (RWF) rating 78.54 #16
   [AMF] Thomas Müller (AMF) rating 95.36 #25
-  [CMF] Nadiem Amiri (CMF) rating 93.48 #7
-  [DMF] Lothar Matthäus (DMF) rating 96.95 #14
+  [CMF] Leon Goretzka (CMF) rating 78.14 #19
+  [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
   [LB] David Raum (LMF) rating 93.96 #22
-  [CB] Malick Thiaw (CB) rating 94.99 #24
   [CB] Waldemar Anton (CB) rating 94.38 #3
-  [RB] Robin Koch (CB) rating 93.57 #2
+  [CB] Robin Koch (CB) rating 93.57 #2
+  [RB] VACANT
   [GK] Oliver Baumann (GK) rating 94.22 #1
 
 Wildcard:
-  [WILD] Franz Beckenbauer (DMF) rating 96.90 #5
+  [WILD] Kai Havertz (AMF) rating 95.17 #7
+  [WILD] Deniz Undav (CF) rating 94.96 #26
