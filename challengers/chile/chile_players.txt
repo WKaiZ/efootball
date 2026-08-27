@@ -1,3 +1,4 @@
+Erick Pulgar, DMF, 93.93, False, Highlight, [CMF, DMF], [AMF, CB]
 Gabriel Suazo, LB, 93.22, True, Highlight, [LMF, LB, CMF, DMF], [LWF, AMF, CB]
 
 Alexis Sánchez, CF, 73.76, False, Standard, [LWF, CF, RWF, SS], [LMF, AMF]
@@ -18,7 +19,6 @@ Felipe Loyola, CMF, 73.83, True, Standard, [CMF, RB], [AMF, DMF, CB, LB, RMF]
 Marcelino Núñez, CMF, 73.79, False, Standard, [CMF], [AMF, DMF, RMF]
 César Pérez, CMF, 73.39, False, Standard, [AMF, CMF, DMF], [SS, LMF, RMF]
 Álvaro Madrid, CMF, 73.01, False, Standard, [CMF], [LMF, AMF, DMF, RMF]
-Erick Pulgar, DMF, 75.98, False, Standard, [CMF, DMF], [AMF, CB]
 Vicente Pizarro, DMF, 73.63, True, Standard, [CMF, DMF], [AMF]
 Claudio Baeza, DMF, 73.53, False, Standard, [CMF, DMF, CB], [AMF, RMF]
 Ulises Ortegoza, DMF, 73.25, False, Standard, [AMF, CMF, DMF], [SS]

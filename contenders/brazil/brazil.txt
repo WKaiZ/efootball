@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Joelinton (CMF) rating 94.78 #17
   [DMF] Fabinho (DMF) rating 78.56 #16
   [LB] Marcelo (LB) rating 97.92 #12
-  [CB] Roger Ibañez (CB) rating 94.31 #24
   [CB] Léo Pereira (CB) rating 94.91 #15
+  [CB] Bremer (CB) rating 94.92 #25
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 
@@ -49,12 +49,12 @@ Substitutes:
   [LWF] Gabriel Martinelli (LWF) rating 95.98 #22
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #17
-  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [CMF] Andreas Pereira (CMF) rating 93.34 #19
   [DMF] Léo Ortiz (CB) rating 93.14 #4
   [LB] Alex Sandro (LB) rating 94.21 #6
-  [CB] Lucas Beraldo (CB) rating 93.98 #15
-  [CB] Bremer (CB) rating 93.78 #25
-  [RB] Pepe (AMF) rating 94.19 #26
+  [CB] Alexsandro (CB) rating 94.26 #15
+  [CB] Roger Ibañez (CB) rating 94.31 #24
+  [RB] Paulo Henrique (RB) rating 75.41 #25
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:

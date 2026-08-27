@@ -1,5 +1,5 @@
 Starters:
-  [CF] Gabriel Ávalos (CF) rating 74.53 #21
+  [CF] Ramón Sosa (CF) rating 92.99 #7
   [LWF] Mauricio (AMF) rating 74.48 #11
   [RWF] Miguel Almirón (RWF) rating 76.20 #10
   [AMF] Kaku (AMF) rating 74.76 #17
@@ -12,9 +12,9 @@ Starters:
   [GK] Orlando Gill (GK) rating 74.47 #12
 
 Substitutes:
-  [CF] Álex Arce (CF) rating 74.29 #18
+  [CF] Gabriel Ávalos (CF) rating 74.53 #21
   [LWF] Julio Enciso (SS) rating 74.28 #19
-  [RWF] Ángel Romero (RWF) rating 72.90 #7
+  [RWF] Álex Arce (CF) rating 74.29 #18
   [AMF] Óscar Romero (AMF) rating 72.29 #20
   [CMF] José Florentín (CMF) rating 75.17 #16
   [DMF] Hugo Martínez (CMF) rating 68.73 #5
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Gastón Olveira (GK) rating 74.22 #22
 
 Wildcard:
-  [WILD] Ramón Sosa (LMF) rating 74.44 #24
+  [WILD] Juan Espínola (GK) rating 73.55 #1
