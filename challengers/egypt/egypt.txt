@@ -1,6 +1,6 @@
 Starters:
-  [CF] Omar Marmoush (CF) rating 96.00 #22
-  [LWF] Trezeguet (LWF) rating 74.42 #7
+  [CF] Mostafa Mohamed (CF) rating 73.34 #11
+  [LMF] Omar Marmoush (LMF) rating 95.74 #22
   [RMF] Mohamed Salah (RMF) rating 97.93 #10
   [AMF] Zizo (RWF) rating 73.11 #25
   [CMF] Emam Ashour (CMF) rating 73.22 #8
@@ -12,8 +12,8 @@ Starters:
   [GK] Oufa Shobeir (GK) rating 72.78 #23
 
 Substitutes:
-  [CF] Mostafa Mohamed (CF) rating 73.34 #11
-  [LWF] Ibrahim Adel (LWF) rating 72.28 #20
+  [CF] Osama Faisal (CF) rating 70.73 #9
+  [LMF] Ibrahim Adel (LWF) rating 72.28 #20
   [RMF] Mostafa Fathi (RWF) rating 72.58 #18
   [AMF] Mahmoud Saber (CMF) rating 70.34 #21
   [CMF] Mohamed Shehata (CMF) rating 70.45 #15
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Mohamed El Shenawy (GK) rating 72.66 #1
 
 Wildcard:
-  [WILD] Mohanad Lasheen (DMF) rating 73.21 #17
+  [WILD] Trezeguet (LWF) rating 74.42 #7

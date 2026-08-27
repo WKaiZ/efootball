@@ -1,9 +1,9 @@
-Omar Marmoush, CF, 96.00, True, Highlight, [LWF, CF, SS, LMF], [RMF, RWF]
 Omar Marmoush, LMF, 95.74, True, Showtime, [LMF, LWF, RWF, RMF, CF, SS, AMF], []
 Mohamed Salah, RMF, 97.93, True, BigTime, [RWF, RMF], [CF, SS, AMF]
 Hamdy Fathy, DMF, 94.20, True, Showtime, [CMF, DMF, CB], [AMF]
 
 Mostafa Mohamed, CF, 73.34, False, Standard, [CF], [SS]
+Osama Faisal, CF, 70.73, False, Standard, [CF], [LWF, RWF, SS]
 Trezeguet, LWF, 74.42, True, Standard, [LWF, RWF], [LMF, RMF, SS, AMF]
 Ibrahim Adel, LWF, 72.28, True, Standard, [LWF, LMF, CF, RWF, RMF], []
 Mostafa Ziko, LWF, 72.11, True, Standard, [LWF, LMF, RMF], [CF, SS, AMF, RMF]
