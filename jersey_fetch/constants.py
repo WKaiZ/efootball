@@ -88,6 +88,7 @@ MANUAL_ID_OVERRIDES = {
         "juan mosquera": {"player_id": "659826", "preserve_name": True},
         "carlos cuesta": {"player_id": "474589", "preserve_name": True},
         "andres mosquera": {"player_id": "100379", "preserve_name": True},
+        "sebastian gomez": {"player_id": "570522", "preserve_name": True},
     },
     "senegal": {
         "idrissa gueye": {"CF": {"player_id": "1178488", "preserve_name": True}},

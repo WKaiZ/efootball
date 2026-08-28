@@ -18,11 +18,11 @@ Substitutes:
   [LWF] Sebastián Villa (LWF) rating 77.18 #21
   [RWF] Luis Quiñónes (RWF) rating 74.15 #22
   [AMF] Jorge Carrascal (AMF) rating 73.89 #8
-  [CMF] Richard Rios (CMF) rating 72.80 #6
+  [CMF] Sebastián Gómez (CMF) rating 72.97 #5
   [DMF] Juan Portilla (DMF) rating 74.30 #15
   [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Jhon Lucumí (CB) rating 77.31 #3
-  [CB] Felipe Aguilar (CB) rating 72.23 #14
+  [CB] William Tesillo (CB) rating 74.06 #6
   [RB] Santiago Arias (RB) rating 73.93 #4
   [GK] Álvaro Montero (GK) rating 74.51 #24
 
@@ -39,21 +39,21 @@ Starters:
   [CMF] Diego Chará (CMF) rating 72.82 #20
   [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Cristián Borja (LB) rating 73.27 #18
-  [CB] William Tesillo (CB) rating 74.06 #6
   [CB] Carlos Cuesta (CB) rating 74.04 #4
+  [CB] Yerson Mosquera (CB) rating 73.57 #3
   [RB] Daniel Muñoz (RMF) rating 94.96 #2
   [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
   [CF] Jhon Córdoba (CF) rating 77.21 #9
-  [LWF] Dylan Borrero (LWF) rating 71.32 #24
+  [LWF] Henry Mosquera (LWF) rating 71.60 #17
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
   [AMF] David Silva (AMF) rating 72.80 #14
-  [CMF] Steven Alzate (CMF) rating 71.61 #17
+  [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Matheus Uribe (DMF) rating 73.99 #15
   [LB] Junior Hernández (LB) rating 73.22 #13
+  [CB] Kevin Balanta (CB) rating 71.31 #24
   [CB] Brayan Vera (CB) rating 72.18 #16
-  [CB] Yeimar Gomez Andrade (CB) rating 73.45 #3
   [RB] VACANT
   [GK] Devis Vásquez (GK) rating 73.65 #22
 
