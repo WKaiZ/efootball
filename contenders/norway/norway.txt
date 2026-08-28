@@ -54,5 +54,8 @@ Substitutes:
   [LB] Birger Meling (LB) rating 72.28 #17
   [CB] Sondre Langås (CB) rating 71.50 #24
   [CB] Henrik Falchener (CB) rating 71.06 #25
-  [RB] Eivind Helland (CB) rating 67.52 #4
+  [RB] Colin Rösler (CB) rating 69.33 #21
   [GK] Viljar Myhra (GK) rating 70.76 #13
+
+Wildcard:
+  [WILD] Eivind Helland (CB) rating 67.52 #4
