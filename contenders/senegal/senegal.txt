@@ -7,33 +7,33 @@ Starters:
   [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Matar Sarr (CMF) rating 95.30 #17
   [DMF] Pape Gueye (DMF) rating 95.17 #26
-  [LB] El Hadji Malick Diouf (LB) rating 94.22 #25
+  [LB] El Hadji Malick Diouf (LB) rating 75.22 #25
   [CB] Kalidou Koulibaly (CB) rating 94.48 #3
-  [CB] Mamadou Sarr (CB) rating 94.44 #2
+  [CB] Moussa Niakhaté (CB) rating 93.28 #19
   [RB] Krépin Diatta (RB) rating 93.19 #15
   [GK] Edouard Mendy (GK) rating 95.14 #16
 
 Substitutes:
-  [CF] Nicolas Jackson (CF) rating 95.29 #7
-  [LWF] Abdallah Sima (LWF) rating 74.04 #12
+  [CF] Nicolas Jackson (CF) rating 77.57 #9
+  [LWF] Assane Diao (LWF) rating 74.32 #7
   [RWF] Ibrahim Mbaye (RWF) rating 91.31 #20
   [AMF] Habib Diarra (CMF) rating 74.24 #6
   [CMF] Lamine Camara (CMF) rating 94.07 #8
   [DMF] Idrissa Gueye (DMF) rating 75.44 #5
   [LB] Ismail Jakobs (LB) rating 73.54 #14
-  [CB] Moussa Niakhaté (CB) rating 93.28 #19
+  [CB] Mamadou Sarr (CB) rating 74.60 #2
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
   [RB] Youssouf Sabaly (RB) rating 73.45 #21
   [GK] Yehvann Diouf (GK) rating 75.21 #1
 
 Wildcard:
-  [WILD] Boulaye Dia (CF) rating 74.99 #9
+  [WILD] Abdallah Sima (LWF) rating 74.04 #12
 
 Second Squad
 
 Starters:
   [CF] Iliman Ndiaye (RMF) rating 95.32 #13
-  [LWF] Assane Diao (LWF) rating 74.32 #7
+  [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
   [RWF] Ismaïla Sarr (RWF) rating 94.13 #18
   [AMF] Rassoul Ndiaye (CMF) rating 70.64 #30
   [CMF] Pape Gueye (CMF) rating 93.99 #26
@@ -45,18 +45,17 @@ Starters:
   [GK] Mory Diaw (GK) rating 73.17 #23
 
 Substitutes:
-  [CF] Habib Diallo (CF) rating 74.11 #20
-  [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
+  [CF] Boulaye Dia (CF) rating 74.99 #9
+  [LWF] Ousseynou Niang (LWF) rating 71.75 #22
   [RWF] Malick Mbaye (RWF) rating 68.02 #11
-  [AMF] Keita Baldé (CF) rating 72.03 #15
+  [AMF] Keita Baldé (CF) rating 72.03 #7
   [CMF] Samba Diba (CMF) rating 66.50 #8
   [DMF] Cheikh Niasse (DMF) rating 72.94 #19
-  [LB] VACANT
-  [CB] Seydou Sano (CB) rating 64.88 #4
+  [LB] Seydou Sano (CB) rating 64.88 #4
+  [CB] Seyni Mbaye Ndiaye (CB) rating 65.99 #2
   [CB] Abdoulaye Ndiaye (CB) rating 70.83 #10
-  [RB] Ilay Camara (RB) rating 69.71 #2
+  [RB] Bouna Sarr (RB) rating 70.37 #20
   [GK] Seny Dieng (GK) rating 72.64 #1
 
 Wildcard:
-  [WILD] Mbaye Diagne (CF) rating 73.52 #9
-  [WILD] Bamba Dieng (CF) rating 72.53 #12
+  [WILD] Krépin Diatta (RMF) rating 74.84 #15
