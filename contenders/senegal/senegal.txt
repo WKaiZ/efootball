@@ -58,5 +58,5 @@ Substitutes:
   [GK] Seny Dieng (GK) rating 72.64 #1
 
 Wildcard:
-  [WILD] Bamba Dieng (CF) rating 72.53 #9
-  [WILD] Cherif Ndiaye (CF) rating 72.39 #12
+  [WILD] Mbaye Diagne (CF) rating 73.52 #9
+  [WILD] Bamba Dieng (CF) rating 72.53 #12
