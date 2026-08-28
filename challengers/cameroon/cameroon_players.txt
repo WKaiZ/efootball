@@ -1,5 +1,5 @@
 Samuel Eto'o, CF, 99.80, False, Epic, [LWF, CF, RWF, LMF, RMF], [SS, AMF]
-Bryan Mbeumo, CF, 95.16, False, Highlight, [CF, SS, RWF, RMF], [LWF, LMF, AMF]
+Bryan Mbeumo, CF, 95.20, False, Highlight, [CF, SS, RWF], [LWF, LMF, AMF, RMF]
 Bryan Mbeumo, RWF, 98.62, False, Showtime, [CF, SS, AMF, RWF, RMF], [LWF, LMF]
 Bryan Mbeumo, AMF, 95.01, False, Highlight, [CF, SS, AMF, RWF, RMF], [LWF, LMF, CMF]
 Samuel Eto'o, RMF, 96.09, False, Epic, [LWF, CF, RWF, LMF, RMF, SS], [AMF]
