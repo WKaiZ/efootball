@@ -43,7 +43,6 @@ MANUAL_ID_OVERRIDES = {
         "alisson": "105470",
         "alex sandro": "79960",
         "william": "341710",
-        "paulo henrique": "412594",
         "rafael": "68097",
     },
     "portugal": {
@@ -51,6 +50,7 @@ MANUAL_ID_OVERRIDES = {
         "andre silva": "198008",
         "joao mario": "537602",
         "joao moutinho": "29364",
+        "paulo henrique": "292365",
     },
     "spain": {
         "pedro": "65278",
