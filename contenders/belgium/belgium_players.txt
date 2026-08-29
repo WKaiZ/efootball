@@ -13,7 +13,7 @@ Leandro Trossard, LMF, 97.34, True, Showtime, [LWF, LMF, CF, SS, AMF], [RWF, RMF
 Malick Fofana, LMF, 94.21, False, Highlight, [LWF, LMF, CF, RWF, RMF], [LB, SS]
 Alexis Saelemaekers, RMF, 94.99, True, Highlight, [LWF, LMF, RWF, RMF, RB], [AMF]
 Arthur Vermeeren, CMF, 94.04, False, Highlight, [CMF, DMF], [AMF]
-Amadou Onana, DMF, 95.18, False, Highlight, [CMF, DMF], []
+Amadou Onana, DMF, 95.16, False, Highlight, [CMF, DMF], []
 Roméo Lavia, DMF, 94.46, False, Highlight, [CMF, DMF], []
 Vincent Kompany, CB, 99.12, False, Epic, [CB], []
 Thomas Vermaelen, CB, 96.44, False, Epic, [CB], []

@@ -6,7 +6,7 @@ Starters:
   [RWF] Adnan Januzaj (RWF) rating 93.39 #18
   [AMF] Kevin De Bruyne (AMF) rating 97.41 #7
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
-  [DMF] Amadou Onana (DMF) rating 95.18 #24
+  [DMF] Amadou Onana (DMF) rating 95.16 #24
   [LB] Arthur Theate (LB) rating 94.07 #3
   [CB] Vincent Kompany (CB) rating 99.12 #4
   [CB] Thomas Vermaelen (CB) rating 96.44 #5
