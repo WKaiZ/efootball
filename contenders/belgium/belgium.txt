@@ -3,13 +3,13 @@ First Squad
 Starters:
   [CF] Charles De Ketelaere (CF) rating 97.93 #17
   [LWF] Eden Hazard (LWF) rating 101.98 #10
-  [RWF] Adnan Januzaj (RWF) rating 93.39 #18
+  [RWF] Adnan Januzaj (RWF) rating 93.39 #20
   [AMF] Kevin De Bruyne (AMF) rating 97.41 #7
   [CMF] Arthur Vermeeren (CMF) rating 94.04 #23
   [DMF] Amadou Onana (DMF) rating 95.16 #24
-  [LB] Arthur Theate (LB) rating 94.07 #3
+  [LB] Joaquin Seys (LB) rating 93.38 #18
   [CB] Vincent Kompany (CB) rating 99.12 #4
-  [CB] Thomas Vermaelen (CB) rating 96.44 #5
+  [CB] Thomas Vermaelen (CB) rating 96.44 #3
   [RB] Timothy Castagne (RB) rating 94.09 #21
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
@@ -17,10 +17,10 @@ Substitutes:
   [CF] Matias Fernandez-Pardo (CF) rating 92.01 #26
   [LWF] Jérémy Doku (LWF) rating 96.99 #11
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
-  [AMF] Hans Vanaken (AMF) rating 93.99 #20
-  [CMF] Youri Tielemans (CMF) rating 77.66 #8
+  [AMF] Hans Vanaken (AMF) rating 93.99 #8
+  [CMF] Bryan Heynen (CMF) rating 74.59 #19
   [DMF] Axel Witsel (DMF) rating 75.86 #6
-  [LB] Joaquin Seys (LB) rating 93.38 #22
+  [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Koni De Winter (CB) rating 94.33 #16
   [CB] Zeno Debast (CB) rating 93.95 #2
   [RB] Thomas Meunier (RB) rating 74.37 #15
@@ -36,10 +36,10 @@ Starters:
   [LWF] Malick Fofana (LWF) rating 95.26 #9
   [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
   [AMF] Eden Hazard (AMF) rating 100.35 #10
-  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
+  [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
-  [LB] Maxim De Cuyper (LB) rating 74.31 #5
-  [CB] Arthur Theate (CB) rating 94.49 #3
+  [LB] Diego Moreira (LMF) rating 74.58 #19
+  [CB] Arthur Theate (CB) rating 78.45 #3
   [CB] Brandon Mechele (CB) rating 76.59 #4
   [RB] Nathan Ngoy (CB) rating 73.18 #25
   [GK] Senne Lammens (GK) rating 93.92 #12
@@ -49,8 +49,8 @@ Substitutes:
   [LWF] Leandro Trossard (LWF) rating 77.85 #11
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
   [AMF] Dennis Praet (AMF) rating 72.26 #7
-  [CMF] Bryan Heynen (CMF) rating 74.59 #19
-  [DMF] Orel Mangala (CMF) rating 74.33 #8
+  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
+  [DMF] VACANT
   [LB] Thorgan Hazard (LWF) rating 74.26 #16
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
   [CB] VACANT

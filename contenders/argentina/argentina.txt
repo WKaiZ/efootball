@@ -11,7 +11,7 @@ Starters:
   [CB] Cristian Romero (CB) rating 97.80 #13
   [CB] Lisandro Martínez (CB) rating 96.93 #6
   [RB] Juan Foyth (RB) rating 93.31 #2
-  [GK] Emiliano Martínez (GK) rating 95.04 #23
+  [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
@@ -40,20 +40,20 @@ Starters:
   [DMF] Máximo Perrone (DMF) rating 93.18 #22
   [LB] Marcos Acuña (LB) rating 92.25 #8
   [CB] Martín Demichelis (CB) rating 94.84 #2
-  [CB] Leonardo Balerdi (CB) rating 94.14 #6
+  [CB] Marcos Senesi (CB) rating 77.24 #25
   [RB] Nahuel Molina (RB) rating 76.96 #26
-  [GK] Agustín Rossi (GK) rating 93.95 #23
+  [GK] Emiliano Martínez (GK) rating 81.16 #23
 
 Substitutes:
-  [CF] Mauro Icardi (CF) rating 94.00 #18
-  [LWF] Joaquín Correa (SS) rating 74.42 #24
+  [CF] Paulo Dybala (CF) rating 94.07 #19
+  [LWF] Joaquín Correa (SS) rating 74.42 #20
   [RWF] Nico González (RWF) rating 93.15 #15
-  [SS] Paulo Dybala (SS) rating 94.37 #19
+  [SS] Diego Maradona (SS) rating 95.02 #6
   [CMF] Exequiel Palacios (CMF) rating 77.89 #14
-  [DMF] Guido Rodríguez (DMF) rating 75.60 #27
-  [LB] Milton Casco (LB) rating 74.03 #13
+  [DMF] Guido Rodríguez (DMF) rating 75.60 #18
+  [LB] Jonathan Silva (LB) rating 71.46 #24
+  [CB] Facundo Medina (CB) rating 76.78 #13
   [CB] Rodrigo Battaglia (CB) rating 76.31 #16
-  [CB] Facundo Medina (CB) rating 76.78 #25
   [RB] Agustín Giay (RB) rating 73.67 #4
   [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
