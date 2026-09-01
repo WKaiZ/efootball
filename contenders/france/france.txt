@@ -58,4 +58,4 @@ Substitutes:
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Bradley Barcola (LWF) rating 95.72 #25
+  [WILD] Eduardo Camavinga (AMF) rating 95.33 #6

@@ -10,7 +10,7 @@ Starters:
   [LB] Frank Fabra (LB) rating 74.28 #18
   [CB] Yerry Mina (CB) rating 93.36 #13
   [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [RB] Daniel Muñoz (RB) rating 92.16 #2
+  [RB] Juan Cuadrado (RMF) rating 95.13 #4
   [GK] Camilo Vargas (GK) rating 74.52 #12
 
 Substitutes:
@@ -23,7 +23,7 @@ Substitutes:
   [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Jhon Lucumí (CB) rating 77.31 #3
   [CB] William Tesillo (CB) rating 74.06 #6
-  [RB] Santiago Arias (RB) rating 73.93 #4
+  [RB] Daniel Muñoz (RB) rating 77.98 #2
   [GK] Álvaro Montero (GK) rating 74.51 #24
 
 Wildcard:
@@ -33,26 +33,26 @@ Second Squad
 
 Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
-  [LWF] Jáminton Campaz (LWF) rating 74.84 #21
-  [RWF] Juan Cuadrado (RMF) rating 95.13 #11
+  [LWF] Jhon Arias (LWF) rating 75.27 #11
+  [RWF] Diego Valoyes (RWF) rating 73.10 #9
   [AMF] James Rodríguez (AMF) rating 93.22 #10
   [CMF] Diego Chará (CMF) rating 72.82 #20
   [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Cristián Borja (LB) rating 73.27 #18
-  [CB] Carlos Cuesta (CB) rating 74.04 #4
+  [CB] Carlos Cuesta (CB) rating 74.04 #2
   [CB] Yerson Mosquera (CB) rating 73.57 #3
-  [RB] Daniel Muñoz (RMF) rating 94.96 #2
+  [RB] Santiago Arias (RB) rating 73.93 #4
   [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
-  [CF] Jhon Córdoba (CF) rating 77.21 #9
-  [LWF] Henry Mosquera (LWF) rating 71.60 #17
+  [CF] Jhon Córdoba (CF) rating 77.21 #24
+  [LWF] Jáminton Campaz (LWF) rating 74.84 #21
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
-  [AMF] David Silva (AMF) rating 72.80 #14
+  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #17
   [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Matheus Uribe (DMF) rating 73.99 #15
   [LB] Junior Hernández (LB) rating 73.22 #13
-  [CB] Kevin Balanta (CB) rating 71.31 #24
+  [CB] Felipe Aguilar (CB) rating 72.23 #14
   [CB] Brayan Vera (CB) rating 72.18 #16
   [RB] VACANT
   [GK] Devis Vásquez (GK) rating 73.65 #22
