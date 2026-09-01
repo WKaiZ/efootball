@@ -43,6 +43,7 @@ MANUAL_ID_OVERRIDES = {
         "alisson": "105470",
         "alex sandro": "79960",
         "william": "341710",
+        "paulo henrique": "412594",
         "rafael": "68097",
     },
     "portugal": {

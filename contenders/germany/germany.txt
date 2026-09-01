@@ -3,7 +3,7 @@ First Squad
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
   [LMF] Jamal Musiala (LMF) rating 97.68 #10
-  [RWF] Jamie Leweling (RWF) rating 95.10 #9
+  [RWF] Karim Adeyemi (RWF) rating 98.52 #14
   [AMF] Uli Hoeneß (AMF) rating 98.18 #8
   [CMF] Lothar Matthäus (CMF) rating 99.60 #18
   [DMF] Bastian Schweinsteiger (DMF) rating 98.08 #7
@@ -14,9 +14,9 @@ Starters:
   [GK] Manuel Neuer (GK) rating 100.29 #1
 
 Substitutes:
-  [CF] Kai Havertz (CF) rating 95.97 #20
+  [CF] Mario Götze (CF) rating 97.60 #19
   [LMF] Marco Reus (LMF) rating 97.37 #21
-  [RWF] Leroy Sané (RWF) rating 94.89 #19
+  [RWF] Jamie Leweling (RWF) rating 95.10 #9
   [AMF] Florian Wirtz (AMF) rating 96.12 #17
   [CMF] Pascal Groß (CMF) rating 94.23 #13
   [DMF] Aleksandar Pavlovic (DMF) rating 94.00 #25
@@ -27,36 +27,35 @@ Substitutes:
   [GK] Oliver Kahn (GK) rating 97.27 #12
 
 Wildcard:
-  [WILD] Malick Thiaw (CB) rating 94.99 #24
+  [WILD] Kai Havertz (CF) rating 95.97 #20
 
 Second Squad
 
 Starters:
   [CF] Gerd Müller (CF) rating 99.05 #13
   [LWF] Kevin Schade (LWF) rating 94.09 #14
-  [RWF] Florian Wirtz (LMF) rating 96.96 #17
+  [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Jamal Musiala (AMF) rating 97.02 #10
   [CMF] Nadiem Amiri (CMF) rating 93.48 #20
   [DMF] Felix Nmecha (DMF) rating 97.61 #23
   [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
   [CB] Joshua Kimmich (CB) rating 95.94 #6
   [CB] Robert Andrich (CB) rating 94.99 #8
-  [RB] Thilo Kehrer (CB) rating 76.98 #15
+  [RB] Jonas Hofmann (AMF) rating 94.03 #17
   [GK] Kevin Trapp (GK) rating 94.34 #12
 
 Substitutes:
   [CF] Miroslav Klose (CF) rating 97.85 #11
   [LWF] Timo Werner (LWF) rating 75.06 #9
-  [RWF] Karim Adeyemi (RWF) rating 78.54 #16
+  [RWF] Florian Wirtz (LMF) rating 96.96 #7
   [AMF] Thomas Müller (AMF) rating 95.36 #25
-  [CMF] Leon Goretzka (CMF) rating 78.14 #19
+  [CMF] İlkay Gündoğan (CMF) rating 77.18 #21
   [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
   [LB] David Raum (LMF) rating 93.96 #22
+  [CB] Malick Thiaw (CB) rating 94.99 #24
   [CB] Waldemar Anton (CB) rating 94.38 #3
-  [CB] Robin Koch (CB) rating 93.57 #2
-  [RB] VACANT
+  [RB] Thilo Kehrer (CB) rating 76.98 #15
   [GK] Oliver Baumann (GK) rating 94.22 #1
 
 Wildcard:
-  [WILD] Kai Havertz (AMF) rating 95.17 #7
-  [WILD] Deniz Undav (CF) rating 94.96 #26
+  [WILD] Angelo Stiller (DMF) rating 95.29 #16

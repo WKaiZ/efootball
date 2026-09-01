@@ -4,9 +4,9 @@ Starters:
   [CF] Pelé (CF) rating 99.81 #10
   [LWF] Ronaldinho (LWF) rating 99.95 #7
   [RMF] Lucas Moura (RMF) rating 95.07 #11
-  [AMF] Kaká (AMF) rating 99.35 #8
+  [AMF] Kaká (AMF) rating 99.35 #22
   [CMF] Ederson (CMF) rating 94.97 #2
-  [DMF] Casemiro (DMF) rating 97.38 #5
+  [DMF] Bruno Guimarães (DMF) rating 98.17 #8
   [LB] Roberto Carlos (LB) rating 99.93 #6
   [CB] Gabriel (CB) rating 97.96 #3
   [CB] Marquinhos (CB) rating 96.97 #4
@@ -16,10 +16,10 @@ Starters:
 Substitutes:
   [CF] Adriano (CF) rating 98.39 #9
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
-  [RMF] Estêvão (RMF) rating 95.01 #22
+  [RMF] Antony (RMF) rating 93.96 #19
   [AMF] Rivaldo (AMF) rating 97.67 #20
   [CMF] Joelinton (CMF) rating 94.78 #17
-  [DMF] Fabinho (DMF) rating 78.56 #16
+  [DMF] Casemiro (DMF) rating 97.38 #5
   [LB] Marcelo (LB) rating 97.92 #12
   [CB] Léo Pereira (CB) rating 94.91 #15
   [CB] Bremer (CB) rating 94.92 #25
@@ -27,12 +27,12 @@ Substitutes:
   [GK] Alisson (GK) rating 95.99 #23
 
 Wildcard:
-  [WILD] Romário (CF) rating 98.28 #19
+  [WILD] João Pedro (CF) rating 98.24 #21
 
 Second Squad
 
 Starters:
-  [CF] João Pedro (CF) rating 98.24 #7
+  [CF] Romário (CF) rating 98.28 #9
   [LWF] Neymar (LWF) rating 99.19 #10
   [RWF] Raphinha (RWF) rating 96.99 #11
   [AMF] Zico (AMF) rating 98.94 #8
@@ -45,10 +45,10 @@ Starters:
   [GK] Cássio (GK) rating 95.25 #16
 
 Substitutes:
-  [CF] Alexandre Pato (CF) rating 97.70 #9
+  [CF] Alexandre Pato (CF) rating 97.70 #17
   [LWF] Gabriel Martinelli (LWF) rating 95.98 #22
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
-  [AMF] Ronaldinho (AMF) rating 98.60 #17
+  [AMF] Ronaldinho (AMF) rating 98.60 #7
   [CMF] Andreas Pereira (CMF) rating 93.34 #19
   [DMF] Léo Ortiz (CB) rating 93.14 #4
   [LB] Alex Sandro (LB) rating 94.21 #6
