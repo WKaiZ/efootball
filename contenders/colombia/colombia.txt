@@ -10,7 +10,7 @@ Starters:
   [LB] Frank Fabra (LB) rating 74.28 #18
   [CB] Yerry Mina (CB) rating 93.36 #13
   [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [RB] Juan Cuadrado (RMF) rating 95.13 #4
+  [RB] Daniel Muñoz (RB) rating 77.98 #2
   [GK] Camilo Vargas (GK) rating 74.52 #12
 
 Substitutes:
@@ -23,7 +23,7 @@ Substitutes:
   [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Jhon Lucumí (CB) rating 77.31 #3
   [CB] William Tesillo (CB) rating 74.06 #6
-  [RB] Daniel Muñoz (RB) rating 77.98 #2
+  [RB] Santiago Arias (RB) rating 73.93 #4
   [GK] Álvaro Montero (GK) rating 74.51 #24
 
 Wildcard:
@@ -41,7 +41,7 @@ Starters:
   [LB] Cristián Borja (LB) rating 73.27 #18
   [CB] Carlos Cuesta (CB) rating 74.04 #2
   [CB] Yerson Mosquera (CB) rating 73.57 #3
-  [RB] Santiago Arias (RB) rating 73.93 #4
+  [RB] Andrés Felipe Román (RB) rating 73.37 #15
   [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
@@ -50,13 +50,12 @@ Substitutes:
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
   [AMF] Juan Fernando Quintero (AMF) rating 76.04 #17
   [CMF] Richard Rios (CMF) rating 72.80 #6
-  [DMF] Matheus Uribe (DMF) rating 73.99 #15
+  [DMF] Kevin Castaño (DMF) rating 72.04 #5
   [LB] Junior Hernández (LB) rating 73.22 #13
   [CB] Felipe Aguilar (CB) rating 72.23 #14
   [CB] Brayan Vera (CB) rating 72.18 #16
-  [RB] VACANT
+  [RB] Juan Mosquera (RB) rating 71.58 #4
   [GK] Devis Vásquez (GK) rating 73.65 #22
 
 Wildcard:
   [WILD] Duván Zapata (CF) rating 76.29 #19
-  [WILD] Alfredo Morelos (CF) rating 74.60 #27
