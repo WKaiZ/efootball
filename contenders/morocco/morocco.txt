@@ -5,7 +5,7 @@ Starters:
   [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
   [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
-  [CMF] Neil El Aynaoui (DMF) rating 94.23 #24
+  [CMF] Azzedine Ounahi (AMF) rating 94.00 #8
   [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
   [CB] Nayef Aguerd (CB) rating 95.28 #5
@@ -18,7 +18,7 @@ Substitutes:
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
   [RWF] Hakim Ziyech (RWF) rating 74.64 #7
   [AMF] Amine Adli (AMF) rating 94.14 #21
-  [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
+  [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #17
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
   [CB] Issa Diop (CB) rating 75.97 #14
@@ -36,8 +36,8 @@ Starters:
   [LWF] Mounir Chouiar (AMF) rating 93.25 #17
   [RWF] Brahim Díaz (RWF) rating 93.36 #10
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
-  [CMF] Azzedine Ounahi (AMF) rating 94.00 #8
-  [DMF] Anas Bach (RB) rating 92.44 #3
+  [CMF] Anas Bach (RB) rating 92.44 #3
+  [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
   [LB] Youssef Belammari (LB) rating 71.11 #19
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Romain Saïss (CB) rating 76.55 #6
@@ -45,12 +45,12 @@ Starters:
   [GK] Anas Zniti (GK) rating 71.78 #1
 
 Substitutes:
-  [CF] Hamza Igamane (CF) rating 74.23 #21
-  [LWF] Abde Ezzalzouli (LWF) rating 76.50 #16
+  [CF] Hamza Igamane (CF) rating 74.23 #20
+  [LWF] Amine Adli (LWF) rating 74.79 #21
   [RWF] Ilias Akhomach (RWF) rating 73.46 #11
   [AMF] Rayane Bounida (AMF) rating 67.10 #29
-  [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
-  [DMF] Oussama Targhalline (CMF) rating 72.51 #15
+  [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
+  [DMF] Mohamed Rabie Hrimat (DMF) rating 70.46 #24
   [LB] Hamza El Moussaoui (LB) rating 70.57 #13
   [CB] Jawad El Yamiq (CB) rating 74.27 #4
   [CB] Chadi Riad (CB) rating 74.06 #18

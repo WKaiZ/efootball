@@ -7,7 +7,7 @@ Starters:
   [DMF] Nicolas Seiwald (DMF) rating 76.52 #6
   [LB] Phillipp Mwene (LB) rating 74.87 #16
   [CB] David Alaba (CB) rating 94.09 #8
-  [CB] Kevin Danso (CB) rating 94.04 #3
+  [CB] Philipp Lienhart (CB) rating 93.92 #15
   [RB] Konrad Laimer (RB) rating 78.38 #20
   [GK] Alexander Schlager (GK) rating 73.94 #1
 
@@ -19,7 +19,7 @@ Substitutes:
   [CMF] Xaver Schlager (CMF) rating 77.27 #4
   [DMF] Dejan Ljubicic (DMF) rating 73.21 #14
   [LB] David Schnegg (LB) rating 71.25 #23
-  [CB] Philipp Lienhart (CB) rating 93.92 #15
+  [CB] Kevin Danso (CB) rating 77.27 #3
   [CB] Stefan Posch (CB) rating 75.34 #5
   [RB] VACANT
   [GK] Patrick Pentz (GK) rating 73.49 #13
