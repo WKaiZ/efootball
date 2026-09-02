@@ -3,12 +3,12 @@ Starters:
   [LWF] Filip Kostic (LMF) rating 74.58 #11
   [RWF] Darko Lazović (LMF) rating 73.74 #22
   [AMF] Dragan Stojkovic (AMF) rating 98.47 #10
-  [CMF] Ivan Ilić (CMF) rating 93.15 #17
+  [CMF] Sergej Milinković-Savić (CMF) rating 78.79 #20
   [DMF] Aleksandar Stanković (DMF) rating 93.04 #7
   [LB] Aleksa Terzić (LB) rating 73.96 #13
   [CB] Nikola Milenković (CB) rating 95.00 #4
   [CB] Strahinja Pavlović (CB) rating 93.97 #3
-  [RB] Kosta Nedeljkovic (RB) rating 71.41 #2
+  [RB] Kosta Nedeljkovic (RB) rating 71.41 #17
   [GK] Mile Svilar (GK) rating 95.04 #23
 
 Substitutes:
@@ -16,12 +16,12 @@ Substitutes:
   [LWF] Djordje Despotovic (CF) rating 71.52 #16
   [RWF] Petar Ratkov (CF) rating 70.63 #9
   [AMF] Lazar Samardžić (AMF) rating 76.98 #8
-  [CMF] Sergej Milinković-Savić (CMF) rating 78.79 #20
+  [CMF] Nemanja Maksimovic (CMF) rating 76.06 #5
   [DMF] Nemanja Matić (DMF) rating 74.29 #21
   [LB] Stefan Bukinac (LB) rating 67.74 #25
   [CB] Veljko Milosavljevic (CB) rating 70.76 #15
   [CB] Uros Spajic (CB) rating 72.48 #24
-  [RB] Jan-Carlo Simić (CB) rating 67.69 #5
+  [RB] Ognjen Mimović (RB) rating 69.48 #2
   [GK] Predrag Rajković (GK) rating 78.56 #1
 
 Wildcard:
