@@ -55,7 +55,7 @@ Substitutes:
   [CB] Levi Colwill (CB) rating 95.45 #16
   [CB] Jarell Quansah (CB) rating 94.03 #26
   [RB] Reece James (RB) rating 94.01 #24
-  [GK] Sam Johnstone (GK) rating 94.17 #13
+  [GK] Dean Henderson (GK) rating 93.08 #13
 
 Wildcard:
   [WILD] Bukayo Saka (RWF) rating 97.41 #25

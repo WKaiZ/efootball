@@ -33,7 +33,7 @@ Second Squad
 
 Starters:
   [CF] Koki Ogawa (CF) rating 95.34 #19
-  [LWF] Keito Nakamura (LWF) rating 91.99 #13
+  [LWF] Shuto Machino (SS) rating 94.03 #18
   [RWF] Junya Ito (RWF) rating 94.46 #14
   [SS] Takashi Usami (SS) rating 97.40 #11
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
@@ -46,16 +46,16 @@ Starters:
 
 Substitutes:
   [CF] Kento Shiogai (CF) rating 94.40 #26
-  [LWF] Daizen Maeda (LWF) rating 76.15 #25
+  [LWF] Kaoru Mitoma (LWF) rating 79.16 #13
   [RWF] Takefusa Kubo (RWF) rating 77.06 #8
   [SS] Shinji Okazaki (SS) rating 94.21 #9
   [CMF] Ao Tanaka (CMF) rating 74.11 #7
   [DMF] Shunta Tanaka (DMF) rating 93.85 #3
   [LB] Sota Miura (LB) rating 71.67 #24
   [CB] Genta Miura (CB) rating 91.27 #2
-  [CB] Tsukasa Shiotani (CB) rating 90.72 #18
-  [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
+  [CB] Tsukasa Shiotani (CB) rating 90.72 #16
+  [RB] Sei Muroya (RB) rating 71.93 #20
   [GK] Keisuke Osako (GK) rating 94.37 #12
 
 Wildcard:
-  [WILD] Yuito Suzuki (AMF) rating 94.23 #20
+  [WILD] Takumi Minamino (LMF) rating 93.98 #10

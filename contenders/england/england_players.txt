@@ -78,7 +78,6 @@ Tino Livramento, RB, 93.40, False, Highlight, [LB, RB, LMF, RMF], []
 David Seaman, GK, 95.65, False, Epic, [GK], []
 Jordan Pickford, GK, 94.98, True, Highlight, [GK], []
 Nick Pope, GK, 94.44, False, Highlight, [GK], []
-Sam Johnstone, GK, 94.17, False, Highlight, [GK], []
 Dean Henderson, GK, 93.08, True, Highlight, [GK], []
 
 Ivan Toney, CF, 79.18, True, Standard, [CF, SS], [RWF]
