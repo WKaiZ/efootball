@@ -14,7 +14,7 @@ Starters:
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:
-  [CF] Matias Fernandez-Pardo (CF) rating 92.01 #26
+  [CF] Loïs Openda (CF) rating 78.28 #9
   [LWF] Jérémy Doku (LWF) rating 96.99 #11
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #8
@@ -27,15 +27,15 @@ Substitutes:
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Leandro Trossard (LMF) rating 97.34 #9
+  [WILD] Alexis Saelemaekers (RMF) rating 94.99 #22
 
 Second Squad
 
 Starters:
   [CF] Charles De Ketelaere (SS) rating 95.17 #17
-  [LWF] Alexis Saelemaekers (RMF) rating 94.99 #22
-  [RWF] Malick Fofana (LWF) rating 75.50 #9
-  [AMF] Eden Hazard (AMF) rating 100.35 #10
+  [LMF] Leandro Trossard (LMF) rating 97.34 #10
+  [RWF] Cyril Ngonge (RWF) rating 74.06 #22
+  [AMF] Eden Hazard (AMF) rating 100.35 #7
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Diego Moreira (LMF) rating 74.58 #19
@@ -45,13 +45,13 @@ Starters:
   [GK] Senne Lammens (GK) rating 93.92 #12
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 78.28 #20
-  [LWF] Leandro Trossard (LWF) rating 77.85 #11
+  [CF] Romelu Lukaku (CF) rating 77.41 #9
+  [LMF] Thorgan Hazard (LWF) rating 74.26 #16
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
-  [AMF] Dennis Praet (AMF) rating 72.26 #7
+  [AMF] Dennis Praet (AMF) rating 72.26 #14
   [CMF] Nicolas Raskin (CMF) rating 75.30 #23
-  [DMF] VACANT
-  [LB] Thorgan Hazard (LWF) rating 74.26 #16
+  [DMF] Arne Engels (CMF) rating 74.03 #20
+  [LB] VACANT
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
   [CB] VACANT
   [RB] VACANT
@@ -60,4 +60,3 @@ Substitutes:
 Wildcard:
   [WILD] Michy Batshuayi (CF) rating 75.22 #21
   [WILD] Davy Roef (GK) rating 73.89 #1
-  [WILD] Mike Tresor (LWF) rating 72.82 #14

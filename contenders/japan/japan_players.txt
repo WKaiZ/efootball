@@ -30,7 +30,6 @@ Ryunosuke Sato, LMF, 93.07, False, Showtime, [LMF, AMF, RWF, RMF, RB], [LWF, LB,
 Yuto Nagatomo, LMF, 92.33, True, Highlight, [LB, LMF, RB], [RMF, LWF]
 Takefusa Kubo, RMF, 98.14, True, BigTime, [RWF, RMF, SS, AMF], [LWF, LMF, CF]
 Ritsu Doan, RMF, 97.70, True, Showtime, [RWF, RMF, RB, SS, AMF], [LWF, LMF, CF, CMF]
-Yukinari Sugawara, RMF, 94.39, True, Highlight, [RB, RMF], [RWF, CB]
 Gaku Shibasaki, CMF, 96.51, False, Epic, [CMF, DMF], [RMF, AMF]
 Daichi Kamada, CMF, 95.00, True, Highlight, [CMF, SS, AMF], [LWF, CF, LMF, DMF]
 Makoto Hasebe, DMF, 98.30, False, Epic, [CB, DMF], [CMF]

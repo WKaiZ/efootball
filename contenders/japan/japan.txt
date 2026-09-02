@@ -41,18 +41,18 @@ Starters:
   [LB] Yuto Nagatomo (LMF) rating 92.33 #5
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Maya Yoshida (CB) rating 93.28 #22
-  [RB] Yukinari Sugawara (RMF) rating 94.39 #2
+  [RB] Ryunosuke Sato (LMF) rating 93.07 #21
   [GK] Seigo Narazaki (GK) rating 96.92 #1
 
 Substitutes:
   [CF] Kento Shiogai (CF) rating 94.40 #26
-  [LWF] Kaoru Mitoma (LWF) rating 79.16 #7
+  [LWF] Daizen Maeda (LWF) rating 76.15 #25
   [RWF] Takefusa Kubo (RWF) rating 77.06 #8
   [SS] Shinji Okazaki (SS) rating 94.21 #9
-  [CMF] Reo Hatate (CMF) rating 75.03 #21
+  [CMF] Ao Tanaka (CMF) rating 74.11 #7
   [DMF] Shunta Tanaka (DMF) rating 93.85 #3
   [LB] Sota Miura (LB) rating 71.67 #24
-  [CB] Ko Itakura (CB) rating 75.28 #4
+  [CB] Genta Miura (CB) rating 91.27 #2
   [CB] Tsukasa Shiotani (CB) rating 90.72 #18
   [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
   [GK] Keisuke Osako (GK) rating 94.37 #12

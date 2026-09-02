@@ -52,7 +52,7 @@ Substitutes:
   [CMF] Adrien Rabiot (CMF) rating 95.00 #14
   [DMF] Boubacar Kamara (DMF) rating 95.46 #19
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
-  [CB] Jean-Clair Todibo (CB) rating 94.32 #17
+  [CB] Wesley Fofana (CB) rating 93.99 #17
   [CB] Jules Koundé (CB) rating 95.26 #5
   [RB] Jonathan Clauss (RB) rating 93.04 #3
   [GK] Robin Risser (GK) rating 94.39 #23

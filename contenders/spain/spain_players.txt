@@ -95,7 +95,6 @@ Joan García, GK, 99.09, True, Showtime, [GK], []
 David Raya, GK, 98.82, True, Showtime, [GK], []
 Iker Casillas, GK, 98.59, False, Epic, [GK], []
 Álex Remiro, GK, 95.02, False, Highlight, [GK], []
-Robert Sánchez, GK, 93.99, False, Highlight, [GK], []
 Josep Martínez, GK, 93.16, False, Highlight, [GK], []
 David de Gea, GK, 93.04, False, Highlight, [GK], []
 

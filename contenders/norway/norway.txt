@@ -7,9 +7,9 @@ Starters:
   [AMF] Kristian Thorstvedt (AMF) rating 93.18 #18
   [CMF] Martin Ødegaard (CMF) rating 97.57 #10
   [DMF] Sander Berge (DMF) rating 94.44 #8
-  [LB] David Møller Wolfe (LB) rating 93.08 #5
-  [CB] Leo Østigård (CB) rating 74.50 #4
+  [LB] Fredrik Bjørkan (LB) rating 73.17 #15
   [CB] Kristoffer Ajer (CB) rating 75.93 #3
+  [CB] Leo Østigård (CB) rating 74.50 #4
   [RB] Julian Ryerson (RB) rating 94.41 #26
   [GK] Egil Selvik (GK) rating 72.64 #13
 
@@ -20,7 +20,7 @@ Substitutes:
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
   [CMF] Fredrik Aursnes (CMF) rating 78.11 #14
   [DMF] Patrik Berg (DMF) rating 74.74 #6
-  [LB] Fredrik Bjørkan (LB) rating 73.17 #15
+  [LB] Birger Meling (LB) rating 72.28 #5
   [CB] Torbjørn Heggem (CB) rating 73.09 #17
   [CB] Stian Gregersen (CB) rating 73.53 #2
   [RB] Marcus Pedersen (RB) rating 74.11 #16
@@ -51,7 +51,7 @@ Substitutes:
   [AMF] Kristoffer Velde (LMF) rating 73.41 #7
   [CMF] Morten Thorsby (CMF) rating 72.13 #2
   [DMF] VACANT
-  [LB] Birger Meling (LB) rating 72.28 #17
+  [LB] VACANT
   [CB] Sondre Langås (CB) rating 71.50 #24
   [CB] Henrik Falchener (CB) rating 71.06 #25
   [RB] Colin Rösler (CB) rating 69.33 #21

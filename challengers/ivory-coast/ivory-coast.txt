@@ -8,7 +8,7 @@ Starters:
   [LB] Hassane Kamara (LB) rating 74.14 #3
   [CB] Evan Ndicka (CB) rating 95.99 #21
   [CB] Odilon Kossounou (CB) rating 95.33 #7
-  [RB] Guéla Doué (RB) rating 93.23 #17
+  [RB] Guéla Doué (RB) rating 74.34 #17
   [GK] Alban Lafont (GK) rating 74.66 #23
 
 Substitutes:

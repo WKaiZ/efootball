@@ -1,5 +1,4 @@
 Charles De Ketelaere, CF, 97.93, True, Showtime, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]
-Matias Fernandez-Pardo, CF, 92.01, True, Highlight, [CF, LWF, RWF], [SS, LMF, RMF]
 Charles De Ketelaere, SS, 95.17, True, Highlight, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]
 Eden Hazard, LWF, 101.98, False, Epic, [LWF, LMF, AMF], [SS, RWF]
 Jérémy Doku, LWF, 96.99, True, Highlight, [LWF, RWF, LMF, RMF], []
