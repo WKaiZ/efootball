@@ -47,10 +47,10 @@ Starters:
 Substitutes:
   [CF] Paulo Dybala (CF) rating 94.07 #19
   [LWF] Joaquín Correa (SS) rating 74.42 #20
-  [RWF] Nico González (RWF) rating 93.15 #15
+  [RWF] Ángel Correa (RWF) rating 78.22 #18
   [SS] Diego Maradona (SS) rating 95.02 #6
   [CMF] Exequiel Palacios (CMF) rating 77.89 #14
-  [DMF] Guido Rodríguez (DMF) rating 75.60 #18
+  [DMF] Santiago Ascacíbar (DMF) rating 76.14 #15
   [LB] Jonathan Silva (LB) rating 71.46 #24
   [CB] Facundo Medina (CB) rating 76.78 #13
   [CB] Rodrigo Battaglia (CB) rating 76.31 #16

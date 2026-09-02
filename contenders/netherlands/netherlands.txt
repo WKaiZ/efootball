@@ -55,7 +55,7 @@ Substitutes:
   [CB] Matthijs de Ligt (CB) rating 95.98 #3
   [CB] Teun Koopmeiners (CB) rating 93.34 #20
   [RB] Devyne Rensch (RB) rating 93.01 #18
-  [GK] Jasper Cillessen (GK) rating 93.87 #13
+  [GK] Mark Flekken (GK) rating 77.48 #23
 
 Wildcard:
   [WILD] Ryan Gravenberch (DMF) rating 95.68 #26
