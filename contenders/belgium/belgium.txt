@@ -33,8 +33,8 @@ Second Squad
 
 Starters:
   [CF] Charles De Ketelaere (SS) rating 95.17 #17
-  [LWF] Malick Fofana (LWF) rating 95.26 #9
-  [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
+  [LWF] Alexis Saelemaekers (RMF) rating 94.99 #22
+  [RWF] Malick Fofana (LWF) rating 75.50 #9
   [AMF] Eden Hazard (AMF) rating 100.35 #10
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Roméo Lavia (DMF) rating 94.46 #18

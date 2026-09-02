@@ -9,7 +9,7 @@ Starters:
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
   [CB] Ronald Araujo (CB) rating 96.61 #4
-  [CB] José María Giménez (CB) rating 94.51 #2
+  [CB] Leandro Cabrera (CB) rating 92.93 #16
   [RB] Guillermo Varela (RB) rating 73.24 #13
   [GK] Fernando Muslera (GK) rating 94.30 #23
 
@@ -20,29 +20,29 @@ Substitutes:
   [AMF] Rodrigo Zalazar (AMF) rating 76.87 #26
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Rodrigo Bentancur (DMF) rating 77.50 #6
-  [LB] Mathías Olivera (LB) rating 94.22 #16
-  [CB] Santiago Mouriño (CB) rating 74.30 #30
+  [LB] Maximiliano Araujo (LB) rating 93.98 #20
+  [CB] José María Giménez (CB) rating 79.37 #2
   [CB] Santiago Bueno (CB) rating 74.38 #24
   [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Wildcard:
-  [WILD] Maximiliano Araujo (LB) rating 93.98 #20
+  [WILD] Santiago Mele (GK) rating 74.55 #12
 
 Second Squad
 
 Starters:
   [CF] Diego Forlán (CF) rating 98.33 #10
   [LWF] Maximiliano Araujo (LMF) rating 93.96 #20
-  [RWF] Cristian Olivera (RWF) rating 73.66 #6
+  [RWF] Cristian Olivera (RWF) rating 73.66 #17
   [AMF] Wiston Fernández (AMF) rating 69.19 #7
   [CMF] Matías Vecino (CMF) rating 76.19 #5
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
-  [LB] Matías Viña (LB) rating 73.88 #17
-  [CB] Leandro Cabrera (CB) rating 92.93 #16
+  [LB] Mathías Olivera (LB) rating 94.22 #16
+  [CB] Santiago Mouriño (CB) rating 74.30 #30
   [CB] Sebastian Caceres (CB) rating 74.23 #3
   [RB] Federico Valverde (RB) rating 95.52 #8
-  [GK] Santiago Mele (GK) rating 74.55 #12
+  [GK] Cristopher Fiermarín (GK) rating 74.03 #1
 
 Substitutes:
   [CF] Miguel Merentiel (CF) rating 76.23 #19
@@ -55,7 +55,7 @@ Substitutes:
   [CB] Sebastián Boselli (CB) rating 73.41 #29
   [CB] Federico Ricca (CB) rating 73.07 #2
   [RB] Giovanni González (RB) rating 73.17 #13
-  [GK] Cristopher Fiermarín (GK) rating 74.03 #1
+  [GK] Franco Israel (GK) rating 72.64 #12
 
 Wildcard:
   [WILD] Federico Viñas (CF) rating 74.11 #21
