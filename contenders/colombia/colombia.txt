@@ -35,8 +35,8 @@ Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
   [LWF] Jhon Arias (LWF) rating 75.27 #11
   [RWF] Diego Valoyes (RWF) rating 73.10 #9
-  [AMF] James Rodríguez (AMF) rating 93.22 #10
-  [CMF] Diego Chará (CMF) rating 72.82 #20
+  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #20
+  [CMF] Richard Rios (CMF) rating 72.80 #6
   [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Cristián Borja (LB) rating 73.27 #18
   [CB] Carlos Cuesta (CB) rating 74.04 #2
@@ -48,8 +48,8 @@ Substitutes:
   [CF] Jhon Córdoba (CF) rating 77.21 #24
   [LWF] Jáminton Campaz (LWF) rating 74.84 #21
   [RWF] Andrés Gómez (RWF) rating 70.20 #26
-  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #17
-  [CMF] Richard Rios (CMF) rating 72.80 #6
+  [AMF] James Rodríguez (AMF) rating 74.75 #10
+  [CMF] Steven Alzate (CMF) rating 71.61 #17
   [DMF] Kevin Castaño (DMF) rating 72.04 #5
   [LB] Junior Hernández (LB) rating 73.22 #13
   [CB] Felipe Aguilar (CB) rating 72.23 #14

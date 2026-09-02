@@ -8,8 +8,8 @@ Starters:
   [CMF] Mohamed Boulacsout (RB) rating 93.43 #7
   [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
-  [CB] Nayef Aguerd (CB) rating 95.28 #5
-  [CB] Adam Masina (CB) rating 94.55 #25
+  [CB] Nayef Aguerd (CB) rating 95.28 #4
+  [CB] Medhi Benatia (CB) rating 94.38 #5
   [RB] Achraf Hakimi (RB) rating 97.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #17
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
+  [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 75.97 #14
-  [CB] Marouane Louadni (CB) rating 92.57 #4
   [RB] Omar El Hilali (RB) rating 94.08 #15
   [GK] El Mehdi Benabid (GK) rating 92.34 #12
 
@@ -39,7 +39,7 @@ Starters:
   [CMF] Ismael Saibari (AMF) rating 93.24 #11
   [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
   [LB] Youssef Belammari (LB) rating 71.11 #19
-  [CB] Medhi Benatia (CB) rating 94.38 #5
+  [CB] Marouane Louadni (CB) rating 92.57 #4
   [CB] Romain Saïss (CB) rating 76.55 #6
   [RB] Anas Bach (RB) rating 92.44 #3
   [GK] Anas Zniti (GK) rating 71.78 #1
@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
   [DMF] Oussama Targhalline (CMF) rating 72.51 #15
   [LB] Ayoub Amraoui (LB) rating 69.54 #26
-  [CB] Jawad El Yamiq (CB) rating 74.27 #4
   [CB] Chadi Riad (CB) rating 74.06 #18
+  [CB] Adam Masina (CB) rating 73.22 #25
   [RB] Noussair Mazraoui (RB) rating 75.30 #14
   [GK] Munir El Kajoui (GK) rating 71.57 #12
 
