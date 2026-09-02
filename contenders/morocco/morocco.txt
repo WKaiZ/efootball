@@ -5,7 +5,7 @@ Starters:
   [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
   [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
-  [CMF] Azzedine Ounahi (AMF) rating 94.00 #8
+  [CMF] Mohamed Boulacsout (RB) rating 93.43 #7
   [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
   [CB] Nayef Aguerd (CB) rating 95.28 #5
@@ -16,9 +16,9 @@ Starters:
 Substitutes:
   [CF] Soufiane Rahimi (CF) rating 93.00 #9
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
-  [RWF] Hakim Ziyech (RWF) rating 74.64 #7
+  [RWF] Hakim Ziyech (RWF) rating 74.64 #11
   [AMF] Amine Adli (AMF) rating 94.14 #21
-  [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
+  [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #17
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
   [CB] Issa Diop (CB) rating 75.97 #14
@@ -27,7 +27,7 @@ Substitutes:
   [GK] El Mehdi Benabid (GK) rating 92.34 #12
 
 Wildcard:
-  [WILD] Ismael Saibari (AMF) rating 93.24 #11
+  [WILD] Osame Sahraoui (LMF) rating 92.95 #24
 
 Second Squad
 
@@ -36,26 +36,26 @@ Starters:
   [LWF] Mounir Chouiar (AMF) rating 93.25 #17
   [RWF] Brahim Díaz (RWF) rating 93.36 #10
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
-  [CMF] Anas Bach (RB) rating 92.44 #3
+  [CMF] Ismael Saibari (AMF) rating 93.24 #11
   [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
   [LB] Youssef Belammari (LB) rating 71.11 #19
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Romain Saïss (CB) rating 76.55 #6
-  [RB] Mohamed Boulacsout (RB) rating 93.43 #7
+  [RB] Anas Bach (RB) rating 92.44 #3
   [GK] Anas Zniti (GK) rating 71.78 #1
 
 Substitutes:
-  [CF] Hamza Igamane (CF) rating 74.23 #20
-  [LWF] Amine Adli (LWF) rating 74.79 #21
-  [RWF] Ilias Akhomach (RWF) rating 73.46 #11
-  [AMF] Rayane Bounida (AMF) rating 67.10 #29
-  [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
-  [DMF] Mohamed Rabie Hrimat (DMF) rating 70.46 #24
-  [LB] Hamza El Moussaoui (LB) rating 70.57 #13
+  [CF] Youssef En-Nesyri (CF) rating 77.34 #7
+  [LWF] Ilias Chair (LWF) rating 74.23 #13
+  [RWF] Ayoube Amaimouni-Echghouyab (RWF) rating 70.70 #21
+  [AMF] Adel Taarabt (AMF) rating 73.34 #8
+  [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
+  [DMF] Oussama Targhalline (CMF) rating 72.51 #15
+  [LB] Ayoub Amraoui (LB) rating 69.54 #26
   [CB] Jawad El Yamiq (CB) rating 74.27 #4
   [CB] Chadi Riad (CB) rating 74.06 #18
   [RB] Noussair Mazraoui (RB) rating 75.30 #14
   [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Wildcard:
-  [WILD] Osame Sahraoui (LMF) rating 92.95 #26
+  [WILD] Hamza Igamane (CF) rating 74.23 #20
