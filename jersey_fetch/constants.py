@@ -92,7 +92,10 @@ MANUAL_ID_OVERRIDES = {
         "sebastian gomez": {"player_id": "570522", "preserve_name": True},
     },
     "senegal": {
-        "idrissa gueye": {"CF": {"player_id": "1178488", "preserve_name": True}},
+        "idrissa gueye": {
+            "CF": {"player_id": "1178488", "preserve_name": True},
+            "DMF": {"player_id": "126665", "preserve_name": True},
+        },
         "souleymane basse": {"player_id": "1111045", "preserve_name": True},
         "el hadji malick diouf": {"player_id": "1111589", "preserve_name": True},
         "formose mendy": {"player_id": "649023", "preserve_name": True},

@@ -40,6 +40,35 @@ def load_player_id_map(conn):
     return mapping
 
 
+def load_game_data_player_map(conn, country_name):
+    cur = conn.cursor()
+    cur.execute(
+        """
+        SELECT gd.position, gd.player_id, p.name
+        FROM game_data gd
+        JOIN players p ON p.player_id = gd.player_id
+        WHERE gd.country = ?
+        """,
+        (normalize_name(country_name),),
+    )
+    mapping = {}
+    for position, player_id, name in cur.fetchall():
+        mapping[(normalize_name(name), position.strip().upper())] = str(player_id)
+    return mapping
+
+
+def shared_player_id_for_name(game_data_map, player_rows, norm_name):
+    pids = {
+        game_data_map.get((norm_name, row["position"].strip().upper()))
+        for row in player_rows
+        if normalize_name(row["name"]) == norm_name
+    }
+    pids.discard(None)
+    if len(pids) == 1:
+        return next(iter(pids))
+    return None
+
+
 def get_official_name(conn, player_id):
     cur = conn.cursor()
     cur.execute("SELECT name FROM players WHERE player_id = ?", (str(player_id),))

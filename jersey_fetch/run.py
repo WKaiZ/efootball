@@ -2,6 +2,7 @@ import asyncio
 import os
 import shutil
 import sys
+from collections import Counter
 
 from bs4 import BeautifulSoup
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
@@ -14,8 +15,10 @@ from jersey_fetch.names import invalid_transfermarkt_title, normalize_name, nati
 from jersey_fetch.players_file import (
     build_local_player_profiles,
     build_local_player_search_hints,
+    build_player_position_rows,
     country_display_name,
     parse_args,
+    position_search_phrase,
     resolve_players_file,
     rewrite_players_txt,
 )
@@ -24,9 +27,11 @@ from jersey_fetch.storage import (
     get_official_name,
     init_db,
     load_cached_numbers_from_db,
+    load_game_data_player_map,
     load_jersey_entries_for_player,
     load_player_id_map,
     merge_jersey_entries,
+    shared_player_id_for_name,
     store_jersey_entries,
     warn_cached_jersey_nation_mismatch,
     warn_jersey_entries_nation_mismatch,
@@ -140,21 +145,32 @@ async def fetch_numbers_for_player(
         print(f"{name} {player_id} national jersey numbers: NONE FOUND")
     return (nums, False)
 
-def seed_recent_numbers_into_db(conn, country_name, country_label, players, player_positions, recent_numbers):
+def seed_recent_numbers_into_db(conn, country_name, country_label, player_rows, recent_numbers):
     if not recent_numbers:
         return
     id_map = load_player_id_map(conn)
+    game_data_map = load_game_data_player_map(conn, country_name)
+    ambiguous_names = {
+        name for name, count in Counter(normalize_name(row["name"]) for row in player_rows).items() if count > 1
+    }
     updated = 0
-    for name in players:
+    for row in player_rows:
+        name = row["name"]
+        player_position = row["position"]
         key = normalize_name(name)
         seed_entry = recent_numbers.get(key)
         if not seed_entry:
             continue
-        player_position = player_positions.get(key)
         override = get_manual_override(country_name, name, position=player_position)
-        pid_str = override["player_id"] if override else id_map.get(key)
+        pid_str = override["player_id"] if override else None
         if not pid_str:
-            print(f"  Skipping DB number seed for {name}: no cached Transfermarkt ID (run --refetch first).")
+            pid_str = game_data_map.get((key, player_position.strip().upper()))
+        if not pid_str and key not in ambiguous_names:
+            pid_str = id_map.get(key)
+        if not pid_str and key in ambiguous_names:
+            pid_str = shared_player_id_for_name(game_data_map, player_rows, key)
+        if not pid_str:
+            print(f"  Skipping DB number seed for {name} ({player_position}): no cached Transfermarkt ID (run --refetch first).")
             continue
         existing = load_jersey_entries_for_player(conn, pid_str)
         merged = merge_jersey_entries(seed_entry, existing)
@@ -178,22 +194,19 @@ async def main():
         raw_lines = [line.rstrip("\n") for line in f]
     country_name = os.path.basename(os.path.normpath(country_folder.strip()))
     country_label = country_display_name(country_name)
+    player_rows = build_player_position_rows(raw_lines)
     players = []
     seen_names = set()
     player_positions = {}
-    for line in raw_lines:
-        if not line.strip() or line.lstrip().startswith("#"):
-            continue
-        parts = [p.strip() for p in line.split(",")]
-        if not parts:
-            continue
-        nk = normalize_name(parts[0])
-        if nk not in player_positions and len(parts) >= 2:
-            player_positions[nk] = parts[1]
+    for row in player_rows:
+        name = row["name"]
+        nk = normalize_name(name)
+        if nk not in player_positions:
+            player_positions[nk] = row["position"]
         if nk in seen_names:
             continue
         seen_names.add(nk)
-        players.append(parts[0])
+        players.append(name)
     player_profiles = build_local_player_profiles(raw_lines)
     player_search_hints = build_local_player_search_hints(raw_lines)
     latest_match = None
@@ -214,7 +227,7 @@ async def main():
         conn = init_db()
         try:
             seed_recent_numbers_into_db(
-                conn, country_name, country_label, players, player_positions, recent_numbers
+                conn, country_name, country_label, player_rows, recent_numbers
             )
         finally:
             conn.close()
@@ -222,31 +235,55 @@ async def main():
     conn = init_db()
     async with async_playwright() as p:
         id_map = load_player_id_map(conn)
+        game_data_map = load_game_data_player_map(conn, country_name)
         had_error = False
         name_changes = {}
         refreshed_player_ids = set()
+        fetched_player_ids = set()
+        resolved_row_ids = {}
         browser = await launch_chromium(p)
         page = await browser.new_page()
-        for name in players:
-            player_position = player_positions.get(normalize_name(name))
+        ambiguous_names = {
+            name for name, count in Counter(normalize_name(row["name"]) for row in player_rows).items() if count > 1
+        }
+        for row in player_rows:
+            name = row["name"]
+            player_position = row["position"]
+            norm_name = normalize_name(name)
+            row_key = (norm_name, player_position.strip().upper())
             override = get_manual_override(country_name, name, position=player_position)
-            pid_str = id_map.get(normalize_name(name))
-            if override:
-                pid_str = override["player_id"]
+            pid_str = override["player_id"] if override else None
             if not pid_str:
+                pid_str = resolved_row_ids.get(row_key)
+            if not pid_str:
+                pid_str = game_data_map.get(row_key)
+            if not pid_str and norm_name not in ambiguous_names:
+                pid_str = id_map.get(norm_name)
+            if not pid_str and norm_name in ambiguous_names:
+                pid_str = shared_player_id_for_name(game_data_map, player_rows, norm_name)
+            if not pid_str:
+                position_hint = position_search_phrase(player_position) or player_search_hints.get(norm_name)
                 pid_str = await get_transfermarkt_id(
                     name,
                     page,
                     country_label=country_label,
-                    position_hint=player_search_hints.get(normalize_name(name)),
+                    position_hint=position_hint,
                 )
                 await asyncio.sleep(5)
             if not pid_str:
-                print(f"Skipping {name}: could not resolve Transfermarkt ID.")
+                print(f"Skipping {name} ({player_position}): could not resolve Transfermarkt ID.")
                 had_error = True
                 continue
-            id_map[normalize_name(name)] = str(pid_str)
+            resolved_row_ids[row_key] = str(pid_str)
+            if norm_name not in ambiguous_names:
+                id_map[norm_name] = str(pid_str)
             pid = int(pid_str)
+            if pid in fetched_player_ids and not force_refetch:
+                load_cached_numbers_from_db(conn, pid, display_name=name)
+                official = get_official_name(conn, pid)
+                if not override and official and (official.strip() != name.strip()):
+                    name_changes[norm_name] = official
+                continue
             should_clear_country_cache = force_refetch and pid not in refreshed_player_ids
             if should_clear_country_cache:
                 cur = conn.cursor()
@@ -275,6 +312,7 @@ async def main():
             )
             if not nums:
                 had_error = True
+            fetched_player_ids.add(pid)
             refreshed_player_ids.add(pid)
             official = get_official_name(conn, pid)
             if not override and official and (official.strip() != name.strip()):

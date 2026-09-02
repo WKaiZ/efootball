@@ -163,6 +163,18 @@ def build_local_player_profiles(raw_lines):
                     profile["roles"].add(role)
     return profiles
 
+def build_player_position_rows(raw_lines):
+    rows = []
+    for line in raw_lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        parts = [p.strip() for p in line.split(",")]
+        if len(parts) < 2:
+            continue
+        rows.append({"name": parts[0], "position": parts[1]})
+    return rows
+
 def build_local_player_search_hints(raw_lines):
     hints = {}
     for line in raw_lines:

@@ -10,7 +10,7 @@ Starters:
   [LB] El Hadji Malick Diouf (LB) rating 75.22 #25
   [CB] Kalidou Koulibaly (CB) rating 94.48 #3
   [CB] Moussa Niakhaté (CB) rating 93.28 #19
-  [RB] Krépin Diatta (RB) rating 93.19 #15
+  [RB] Youssouf Sabaly (RB) rating 73.45 #21
   [GK] Edouard Mendy (GK) rating 95.14 #16
 
 Substitutes:
@@ -23,17 +23,17 @@ Substitutes:
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Mamadou Sarr (CB) rating 74.60 #2
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
-  [RB] Youssouf Sabaly (RB) rating 73.45 #21
+  [RB] Antoine Mendy (RB) rating 70.46 #24
   [GK] Yehvann Diouf (GK) rating 75.21 #1
 
 Wildcard:
-  [WILD] Abdallah Sima (LWF) rating 74.04 #12
+  [WILD] Krépin Diatta (RMF) rating 74.84 #15
 
 Second Squad
 
 Starters:
   [CF] Boulaye Dia (CF) rating 74.99 #9
-  [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
+  [LWF] Abdallah Sima (LWF) rating 74.04 #12
   [RWF] Malick Mbaye (RWF) rating 68.02 #11
   [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Gueye (CMF) rating 93.99 #26
@@ -41,14 +41,14 @@ Starters:
   [LB] Moussa Ndiaye (LB) rating 72.25 #14
   [CB] Moustapha Mbow (CB) rating 73.07 #99
   [CB] Nobel Mendy (CB) rating 71.40 #28
-  [RB] Antoine Mendy (RB) rating 70.46 #24
+  [RB] Bouna Sarr (RB) rating 70.37 #20
   [GK] Mory Diaw (GK) rating 73.17 #23
 
 Substitutes:
-  [CF] Habib Diallo (CF) rating 74.11 #20
-  [LWF] Ousseynou Niang (LWF) rating 71.75 #22
-  [RWF] Krépin Diatta (RMF) rating 74.84 #15
-  [AMF] Keita Baldé (CF) rating 72.03 #7
+  [CF] Habib Diallo (CF) rating 74.11 #7
+  [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
+  [RWF] Keita Baldé (CF) rating 72.03 #15
+  [AMF] Samba Diba (CMF) rating 66.50 #8
   [CMF] Rassoul Ndiaye (CMF) rating 70.64 #30
   [DMF] Cheikh Niasse (DMF) rating 72.94 #19
   [LB] Souleymane Basse (LB) rating 66.08 #13
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Seny Dieng (GK) rating 72.64 #1
 
 Wildcard:
-  [WILD] Bamba Dieng (CF) rating 72.53 #12
+  [WILD] Nampalys Mendy (DMF) rating 72.33 #22

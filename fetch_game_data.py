@@ -78,6 +78,7 @@ MANUAL_ID_OVERRIDES = {
         "sebastian gomez": "570522",
     },
     "senegal" : {
+        "idrissa gueye": {"CF": "1178488", "DMF": "126665"},
         'souleymane basse': '1111045',
         'el hadji malick diouf': '1111589',
         'formose mendy': "649023",
@@ -217,16 +218,31 @@ def init_db(conn):
 def load_player_id_map(conn):
     cur = conn.cursor()
     cur.execute("SELECT player_id, name FROM players")
-    mapping = {}
+    by_name = {}
     for pid, name in cur.fetchall():
         key = normalize_name(name)
-        mapping[key] = pid
-    return mapping
+        by_name.setdefault(key, set()).add(str(pid))
+    mapping = {}
+    ambiguous = set()
+    for key, pids in by_name.items():
+        if len(pids) == 1:
+            mapping[key] = next(iter(pids))
+        else:
+            ambiguous.add(key)
+    return mapping, ambiguous
 
 
-def get_manual_override(country_name, player_name):
+def get_manual_override(country_name, player_name, position=None):
     country_overrides = MANUAL_ID_OVERRIDES.get(normalize_name(country_name), {})
-    return country_overrides.get(normalize_name(player_name))
+    override = country_overrides.get(normalize_name(player_name))
+    if not override:
+        return None
+    if isinstance(override, dict):
+        if position:
+            pos_key = position.strip().upper()
+            return override.get(pos_key) or override.get("default")
+        return None
+    return override
 
 
 def levenshtein(a, b):
@@ -339,7 +355,7 @@ def main():
     conn = sqlite3.connect(DB_PATH)
     try:
         init_db(conn)
-        name_map = load_player_id_map(conn)
+        name_map, ambiguous_names = load_player_id_map(conn)
         if not name_map:
             print("Warning: 'players' table is empty; cannot map names to player_ids.")
 
@@ -365,10 +381,10 @@ def main():
                 continue
 
             norm_name = normalize_name(data["name"])
-            manual_player_id = get_manual_override(country_name, data["name"])
+            manual_player_id = get_manual_override(country_name, data["name"], position=data["position"])
             if manual_player_id:
                 player_id = manual_player_id
-            elif norm_name in name_map:
+            elif norm_name in name_map and norm_name not in ambiguous_names:
                 player_id = name_map[norm_name]
             else:
                 best_key = None

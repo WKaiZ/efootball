@@ -45,8 +45,8 @@ Starters:
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Substitutes:
-  [CF] Jamie Vardy (CF) rating 94.99 #19
-  [LWF] Marcus Rashford (LWF) rating 94.34 #21
+  [CF] Ivan Toney (CF) rating 79.18 #19
+  [LWF] Harvey Barnes (LWF) rating 93.94 #17
   [RMF] Ray Parlour (RMF) rating 96.89 #15
   [AMF] Phil Foden (AMF) rating 95.88 #7
   [CMF] Frank Lampard (CMF) rating 98.11 #8
