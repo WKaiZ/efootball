@@ -130,6 +130,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "ecuador": {
         "joao ortiz": {"player_id": "348630", "preserve_name": True},
+        "sebastian gonzalez": {"player_id": "903610", "preserve_name": True},
     },
     "egypt": {
         "mohamed hamdi": {"player_id": "369901", "preserve_name": True},

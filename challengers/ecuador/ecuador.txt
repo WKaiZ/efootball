@@ -1,6 +1,6 @@
 Starters:
-  [CF] Nilson Angulo (LMF) rating 92.84 #20
-  [LWF] Bryan Ramírez (RMF) rating 72.95 #13
+  [CF] John Yeboah (SS) rating 93.07 #9
+  [LWF] Nilson Angulo (LMF) rating 92.84 #20
   [RWF] Gonzalo Plata (RWF) rating 74.51 #19
   [AMF] Kendry Páez (AMF) rating 71.64 #10
   [CMF] Alan Franco (CMF) rating 73.42 #21
@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Anderson Julio (CF) rating 74.43 #11
-  [LWF] John Yeboah (SS) rating 72.92 #9
+  [LWF] Alan Minda (SS) rating 70.53 #14
   [RWF] Keny Arroyo (RWF) rating 71.82 #18
-  [AMF] Denil Castillo (CMF) rating 71.88 #8
+  [AMF] Jordy Caicedo (CF) rating 74.19 #16
   [CMF] Pedro Vite (CMF) rating 72.49 #15
   [DMF] Jordy Alcívar (DMF) rating 72.40 #5
   [LB] Yaimar Medina (LB) rating 71.03 #26
   [CB] Robert Arboleda (CB) rating 76.35 #2
   [CB] Joel Ordóñez (CB) rating 74.81 #4
-  [RB] José Andrés Hurtado (RB) rating 71.68 #24
+  [RB] José Andrés Hurtado (RB) rating 71.68 #13
   [GK] Javier Burrai (GK) rating 74.55 #12
 
 Wildcard:
-  [WILD] Jordy Caicedo (CF) rating 74.19 #16
+  [WILD] Leonardo Campana (CF) rating 73.61 #8
