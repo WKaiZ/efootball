@@ -1,5 +1,5 @@
 Starters:
-  [CF] Andriy Shevchenko (CF) rating 95.67 #7
+  [CF] Andriy Shevchenko (CF) rating 101.00 #7
   [LWF] Mykhaylo Mudryk (LWF) rating 74.88 #20
   [RWF] Viktor Tsygankov (RWF) rating 75.67 #15
   [AMF] Yegor Yarmolyuk (AMF) rating 93.26 #18

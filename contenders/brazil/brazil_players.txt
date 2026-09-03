@@ -1,5 +1,5 @@
 Pelé, CF, 99.81, False, Epic, [CF, SS], [AMF]
-Adriano, CF, 98.39, False, Epic, [CF], [SS]
+Adriano, CF, 99.29, False, Epic, [CF], [SS]
 Romário, CF, 98.28, False, Epic, [CF], [SS]
 João Pedro, CF, 98.24, False, Showtime, [CF, SS, AMF], [LWF, LMF]
 Alexandre Pato, CF, 97.70, False, Epic, [CF], [SS, LWF, RWF]

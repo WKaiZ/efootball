@@ -1,4 +1,4 @@
-Andriy Shevchenko, CF, 95.67, False, Epic, [CF, SS], [LWF, LMF, RWF, RMF, AMF]
+Andriy Shevchenko, CF, 101.00, False, Epic, [CF], [RWF, RMF, SS]
 Yegor Yarmolyuk, AMF, 93.26, False, Highlight, [AMF, CMF], [SS]
 Ilya Zabarnyi, CB, 94.98, True, Highlight, [CB], []
 Vitaliy Mykolenko, LB, 93.23, True, Highlight, [LB], [LMF, CB, RB]
