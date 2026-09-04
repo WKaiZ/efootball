@@ -17,7 +17,7 @@ Désiré Doué, RWF, 95.62, True, Showtime, [RWF, AMF], [LWF, CF, SS, LMF, RMF, 
 Florian Thauvin, RWF, 94.33, False, Highlight, [RWF, CF, SS, LWF, RMF], [AMF, LMF]
 Michel Platini, AMF, 99.09, False, Epic, [AMF, SS], [CMF]
 Michael Olise, AMF, 98.26, True, Showtime, [AMF, RMF, RWF], [SS, CMF]
-Rayan Cherki, AMF, 95.47, True, Highlight, [AMF, RWF], [LWF, SS, CF, CMF, RMF]
+Rayan Cherki, AMF, 95.81, True, Highlight, [AMF, RWF], [LWF, SS, CF, CMF, RMF]
 Eduardo Camavinga, AMF, 95.33, False, Highlight, [LB, AMF, CMF, DMF], [SS, LMF]
 Florian Thauvin, AMF, 93.81, False, Highlight, [RWF, CF, SS, LWF, RMF, AMF], [CMF, LMF]
 Franck Ribéry, AMF, 93.24, False, Epic, [LWF, RWF, AMF], [SS, LMF, RMF, CMF]
