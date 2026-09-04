@@ -49,7 +49,7 @@ Substitutes:
   [LWF] Rafael Leão (LWF) rating 79.15 #17
   [RMF] Francisco Conceição (RMF) rating 94.37 #26
   [AMF] Bernardo Silva (AMF) rating 81.00 #10
-  [CMF] Renato Sanches (CMF) rating 76.01 #16
+  [CMF] João Moutinho (CMF) rating 75.04 #28
   [DMF] Rúben Neves (DMF) rating 79.25 #21
   [LB] VACANT
   [CB] Toti (CB) rating 75.44 #2
@@ -58,5 +58,5 @@ Substitutes:
   [GK] Anthony Lopes (GK) rating 74.63 #22
 
 Wildcard:
-  [WILD] Francisco Trincão (RWF) rating 78.39 #9
-  [WILD] João Moutinho (CMF) rating 75.04 #28
+  [WILD] Francisco Trincão (RWF) rating 78.39 #16
+  [WILD] Pedro Gonçalves (LWF) rating 77.86 #9

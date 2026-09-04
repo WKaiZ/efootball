@@ -45,8 +45,8 @@ Starters:
   [GK] Cássio (GK) rating 95.25 #16
 
 Substitutes:
-  [CF] Alexandre Pato (CF) rating 97.70 #17
-  [LWF] Gabriel Martinelli (LWF) rating 95.98 #22
+  [CF] Bebeto (CF) rating 97.56 #20
+  [LWF] Denilson (LWF) rating 95.65 #17
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #7
   [CMF] Andreas Pereira (CMF) rating 93.34 #19
@@ -54,8 +54,8 @@ Substitutes:
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Alexsandro (CB) rating 94.26 #15
   [CB] Roger Ibañez (CB) rating 94.31 #24
-  [RB] Paulo Henrique (RB) rating 75.41 #25
+  [RB] Danilo (RB) rating 94.04 #22
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Bebeto (CF) rating 97.56 #20
+  [WILD] Igor Thiago (CF) rating 95.90 #25
