@@ -1,5 +1,3 @@
-First Squad
-
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
   [LWF] Hirving Lozano (LWF) rating 73.22 #13
@@ -28,31 +26,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Héctor Herrera (CMF) rating 72.63 #16
-
-Second Squad
-
-Starters:
-  [CF] Ángel Sepúlveda (CF) rating 73.33 #20
-  [LWF] César Huerta (LWF) rating 72.98 #21
-  [RWF] VACANT
-  [AMF] Omar Govea (CMF) rating 72.37 #8
-  [CMF] Obed Vargas (CMF) rating 73.38 #18
-  [DMF] Alan Cervantes (DMF) rating 72.29 #13
-  [LB] VACANT
-  [CB] Ramón Juárez (CB) rating 72.52 #15
-  [CB] VACANT
-  [RB] Rodrigo Huescas (RB) rating 73.29 #19
-  [GK] Rodolfo Cota (GK) rating 72.54 #12
-
-Substitutes:
-  [CF] Armando González (CF) rating 70.49 #14
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Jonathan González (DMF) rating 69.98 #6
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Álex Padilla (GK) rating 71.10 #26

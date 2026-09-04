@@ -1,5 +1,3 @@
-First Squad
-
 Starters:
   [CF] Éric Cantona (CF) rating 99.67 #18
   [LWF] Franck Ribéry (LWF) rating 98.32 #7
@@ -28,34 +26,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Hugo Ekitiké (CF) rating 99.29 #9
-
-Second Squad
-
-Starters:
-  [CF] Kylian Mbappé (CF) rating 99.17 #10
-  [LMF] Franck Ribéry (LMF) rating 99.90 #22
-  [RWF] Ousmane Dembélé (RWF) rating 99.92 #7
-  [SS] Antoine Griezmann (SS) rating 97.99 #11
-  [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
-  [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
-  [LB] Lucas Hernández (LB) rating 94.06 #21
-  [CB] Ibrahima Konaté (CB) rating 95.55 #15
-  [CB] Dayot Upamecano (CB) rating 95.62 #4
-  [RB] Lilian Thuram (RB) rating 100.09 #2
-  [GK] Brice Samba (GK) rating 94.95 #1
-
-Substitutes:
-  [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LMF] Dimitri Payet (AMF) rating 73.74 #24
-  [RWF] Florian Thauvin (RWF) rating 94.33 #12
-  [SS] Désiré Doué (SS) rating 97.33 #20
-  [CMF] Adrien Rabiot (CMF) rating 95.00 #14
-  [DMF] Boubacar Kamara (DMF) rating 95.46 #19
-  [LB] Mikaël Silvestre (LB) rating 93.78 #13
-  [CB] Wesley Fofana (CB) rating 93.99 #17
-  [CB] Jules Koundé (CB) rating 95.26 #5
-  [RB] Jonathan Clauss (RB) rating 93.04 #3
-  [GK] Robin Risser (GK) rating 94.39 #23
-
-Wildcard:
-  [WILD] Eduardo Camavinga (AMF) rating 95.33 #6

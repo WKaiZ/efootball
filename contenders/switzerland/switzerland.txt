@@ -1,5 +1,3 @@
-First Squad
-
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
   [LWF] Rubén Vargas (LMF) rating 93.13 #17
@@ -28,36 +26,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Yann Sommer (GK) rating 80.51 #12
-
-Second Squad
-
-Starters:
-  [CF] Dan Ndoye (LMF) rating 93.45 #11
-  [LWF] Noah Okafor (LWF) rating 75.96 #19
-  [RWF] Renato Steffen (RWF) rating 71.81 #7
-  [AMF] Fabian Rieder (AMF) rating 73.21 #22
-  [CMF] Johan Manzambi (CMF) rating 76.07 #9
-  [DMF] Denis Zakaria (DMF) rating 93.53 #6
-  [LB] Jordan Lotomba (RB) rating 72.30 #14
-  [CB] Becir Omeragic (CB) rating 73.44 #5
-  [CB] Loris Benito (CB) rating 73.29 #3
-  [RB] Lucas Blondel (RB) rating 73.95 #2
-  [GK] Roman Bürki (GK) rating 75.35 #21
-
-Substitutes:
-  [CF] Cedric Itten (CF) rating 72.42 #26
-  [LWF] VACANT
-  [RWF] Michel Aebischer (CMF) rating 73.37 #20
-  [AMF] Uran Bislimi (CMF) rating 72.30 #16
-  [CMF] Djibril Sow (CMF) rating 75.00 #15
-  [DMF] Sandro Lauper (DMF) rating 72.07 #8
-  [LB] VACANT
-  [CB] Cédric Zesiger (CB) rating 72.82 #18
-  [CB] Aurèle Amenda (CB) rating 72.60 #24
-  [RB] Zachary Athekame (RB) rating 70.89 #23
-  [GK] Jonas Omlin (GK) rating 74.12 #1
-
-Wildcard:
-  [WILD] Yvon Mvogo (GK) rating 73.80 #12
-  [WILD] Eray Cömert (CB) rating 71.42 #4
-  [WILD] Luca Jaquez (CB) rating 68.94 #25
