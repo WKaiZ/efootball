@@ -1,5 +1,5 @@
 Starters:
-  [CF] Andriy Shevchenko (CF) rating 101.00 #7
+  [CF] Andriy Shevchenko (CF) rating 100.14 #7
   [LWF] Mykhaylo Mudryk (LWF) rating 74.88 #20
   [RWF] Viktor Tsygankov (RWF) rating 75.67 #15
   [AMF] Yegor Yarmolyuk (AMF) rating 93.26 #18
@@ -19,7 +19,7 @@ Substitutes:
   [CMF] Mykola Shaparenko (CMF) rating 73.22 #10
   [DMF] Ivan Kalyuzhnyi (DMF) rating 67.61 #21
   [LB] Bogdan Mykhaylichenko (LB) rating 73.04 #3
-  [CB] Oleksandr Svatok (CB) rating 73.15 #4
+  [CB] Oleksandr Svatok (CB) rating 73.00 #4
   [CB] Yevgen Cheberko (CB) rating 71.19 #14
   [RB] Oleksandr Tymchyk (RB) rating 72.04 #24
   [GK] Anatoliy Trubin (GK) rating 78.66 #12

@@ -1,10 +1,10 @@
 First Squad
 
 Starters:
-  [CF] Francesco Totti (CF) rating 100.37 #10
+  [CF] Alessandro Del Piero (CF) rating 98.58 #11
   [LWF] Lorenzo Insigne (LWF) rating 97.73 #20
   [RWF] Matteo Politano (RWF) rating 94.89 #17
-  [AMF] Roberto Baggio (AMF) rating 97.83 #18
+  [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #7
   [DMF] Andrea Pirlo (DMF) rating 99.04 #21
   [LB] Riccardo Calafiori (LB) rating 96.53 #13
@@ -14,10 +14,10 @@ Starters:
   [GK] Gianluigi Buffon (GK) rating 100.22 #1
 
 Substitutes:
-  [CF] Alessandro Del Piero (CF) rating 98.58 #11
+  [CF] Filippo Inzaghi (CF) rating 98.35 #9
   [LWF] Federico Chiesa (LWF) rating 94.39 #14
   [RWF] Gianfranco Zola (SS) rating 99.85 #15
-  [AMF] Nicolò Zaniolo (AMF) rating 95.92 #16
+  [AMF] Roberto Baggio (AMF) rating 97.83 #18
   [CMF] Nicolò Barella (CMF) rating 96.03 #23
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Leonardo Spinazzola (LB) rating 94.17 #4
@@ -27,17 +27,17 @@ Substitutes:
   [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
 
 Wildcard:
-  [WILD] Filippo Inzaghi (CF) rating 98.35 #9
+  [WILD] Daniele De Rossi (DMF) rating 98.15 #16
 
 Second Squad
 
 Starters:
-  [CF] Christian Vieri (CF) rating 98.01 #9
+  [CF] Francesco Totti (CF) rating 99.49 #20
   [LMF] Federico Dimarco (LMF) rating 98.01 #13
-  [RWF] Federico Bernardeschi (RWF) rating 93.35 #20
+  [RWF] Federico Bernardeschi (RWF) rating 93.35 #21
   [SS] Roberto Baggio (SS) rating 99.61 #10
   [CMF] Tommaso Pobega (CMF) rating 93.26 #4
-  [DMF] Daniele De Rossi (DMF) rating 98.15 #16
+  [DMF] Massimo Ambrosini (DMF) rating 97.01 #16
   [LB] Paolo Maldini (LB) rating 99.05 #3
   [CB] Riccardo Ferri (CB) rating 97.48 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
@@ -45,12 +45,12 @@ Starters:
   [GK] Christian Abbiati (GK) rating 97.74 #12
 
 Substitutes:
-  [CF] Gianluca Scamacca (CF) rating 95.43 #11
+  [CF] Christian Vieri (CF) rating 98.01 #9
   [LMF] Andrea Cambiaso (LMF) rating 94.42 #15
-  [RWF] Domenico Berardi (RWF) rating 93.34 #7
+  [RWF] Domenico Berardi (RWF) rating 93.34 #11
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
-  [CMF] Niccolò Pisilli (CMF) rating 92.12 #21
-  [DMF] Massimo Ambrosini (DMF) rating 97.01 #8
+  [CMF] Marco Verratti (CMF) rating 79.14 #24
+  [DMF] Sandro Tonali (DMF) rating 96.44 #8
   [LB] Matteo Ruggeri (LB) rating 75.81 #17
   [CB] Gianluca Mancini (CB) rating 94.01 #23
   [CB] Giorgio Scalvini (CB) rating 94.78 #14
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Alex Meret (GK) rating 95.11 #22
 
 Wildcard:
-  [WILD] Rolando Mandragora (DMF) rating 95.21 #27
+  [WILD] Gianluca Scamacca (CF) rating 95.43 #7

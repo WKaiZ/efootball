@@ -14,7 +14,7 @@ Starters:
   [GK] Dida (GK) rating 97.90 #1
 
 Substitutes:
-  [CF] Adriano (CF) rating 99.29 #9
+  [CF] Adriano (CF) rating 98.68 #9
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
   [RMF] Antony (RMF) rating 93.96 #19
   [AMF] Rivaldo (AMF) rating 97.67 #20
