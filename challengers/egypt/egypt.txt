@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Mohamed Shehata (CMF) rating 70.45 #15
   [DMF] Marwan Ateya (DMF) rating 73.41 #19
   [LB] Ahmed Fatouh (LB) rating 71.56 #13
+  [CB] Hossam Abdelmaguid (CB) rating 72.39 #4
   [CB] Yasser Ibrahim (CB) rating 71.59 #2
-  [CB] Hossam Abdelmaguid (CB) rating 71.09 #4
   [RB] Tarek Alaa (RB) rating 69.96 #24
   [GK] Mohamed El Shenawy (GK) rating 72.66 #1
 

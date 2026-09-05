@@ -45,6 +45,9 @@ MANUAL_ID_OVERRIDES = {
         "william": "341710",
         "paulo henrique": "412594",
         "rafael": "68097",
+        "igor thiago": "739443",
+        "paulinho": "428791",
+        "leo pereira": "288431",
     },
     "portugal": {
         "pepe": "14132",
@@ -65,6 +68,12 @@ MANUAL_ID_OVERRIDES = {
     "chile": {
         "diego sanchez": "179532",
         "matias fernandez": "402519",
+        "nicolas fernandez": "549597",
+        "carlos palacios": "571219",
+        "marcelo morales": "841340",
+    },
+    "italy": {
+        "luca pellegrini": "346567",
     },
     "colombia": {
         "luis suarez": "424784",

@@ -9,7 +9,7 @@ Starters:
   [CB] Willi Orbán (CB) rating 95.32 #6
   [CB] Attila Szalai (CB) rating 71.76 #4
   [RB] Bendegúz Bolla (RB) rating 72.44 #26
-  [GK] Dénes Dibusz (GK) rating 74.39 #1
+  [GK] Péter Gulácsi (GK) rating 79.67 #1
 
 Substitutes:
   [CF] Barnabás Varga (CF) rating 71.70 #19
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Botond Balogh (CB) rating 70.73 #5
   [CB] Márton Dárdai (CB) rating 69.44 #15
   [RB] Attila Osváth (RB) rating 69.72 #2
-  [GK] Balázs Tóth (GK) rating 70.49 #22
+  [GK] Dénes Dibusz (GK) rating 74.39 #12
 
 Wildcard:
-  [WILD] Áron Yaakobishvili (GK) rating 70.23 #12
+  [WILD] Balázs Tóth (GK) rating 70.49 #22
