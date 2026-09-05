@@ -16,6 +16,7 @@ Eduard Bello, RMF, 73.07, False, Standard, [LWF, RWF, RMF, RB, AMF], [LMF, SS, C
 Yangel Herrera, CMF, 76.07, True, Standard, [CMF, DMF], [AMF, RMF]
 Daniel Pereira, CMF, 74.17, True, Standard, [CMF, AMF], [SS, DMF]
 Cristian Cásseres, CMF, 74.17, False, Standard, [CMF, DMF], [AMF, RMF]
+Leonardo Flores, CMF, 71.20, False, Standard, [CMF, DMF], [AMF]
 Tomás Rincón, DMF, 73.24, False, Standard, [CMF, DMF], []
 José Martínez, DMF, 72.40, False, Standard, [CMF, DMF], [RMF, RB]
 Nahuel Ferraresi, CB, 74.80, True, Standard, [CB], [RB]

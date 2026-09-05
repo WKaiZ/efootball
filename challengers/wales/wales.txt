@@ -3,7 +3,7 @@ Starters:
   [LWF] Nathan Broadhead (LWF) rating 71.83 #23
   [RWF] Gareth Bale (RWF) rating 100.80 #11
   [AMF] Rubin Colwill (AMF) rating 70.54 #8
-  [CMF] Josh Sheehan (CMF) rating 70.51 #22
+  [CMF] Jordan James (CMF) rating 71.56 #17
   [DMF] Ethan Ampadu (DMF) rating 74.04 #5
   [LB] Neco Williams (LB) rating 94.05 #3
   [CB] Joe Rodon (CB) rating 93.30 #6
@@ -12,18 +12,18 @@ Starters:
   [GK] Karl Darlow (GK) rating 73.22 #1
 
 Substitutes:
-  [CF] Daniel James (RWF) rating 73.94 #20
+  [CF] Isaak Davies (LWF) rating 67.40 #24
   [LWF] Lewis Koumas (LWF) rating 69.31 #9
   [RWF] David Brooks (RWF) rating 75.39 #7
-  [AMF] Oliver Cooper (AMF) rating 68.19 #10
-  [CMF] Charlie Crew (CMF) rating 60.16 #16
+  [AMF] Harry Wilson (RMF) rating 78.17 #10
+  [CMF] Josh Sheehan (CMF) rating 70.51 #22
   [DMF] VACANT
   [LB] Ben Davies (LB) rating 73.25 #4
-  [CB] Ben Cabango (CB) rating 72.13 #24
+  [CB] Ben Cabango (CB) rating 72.13 #16
   [CB] Regan Poole (CB) rating 69.25 #18
-  [RB] Ronan Kpakio (RB) rating 68.04 #17
+  [RB] Ronan Kpakio (RB) rating 68.04 #15
   [GK] Danny Ward (GK) rating 72.21 #12
 
 Wildcard:
-  [WILD] Harry Wilson (RMF) rating 78.17 #15
+  [WILD] Daniel James (RWF) rating 73.94 #20
   [WILD] Sorba Thomas (RMF) rating 72.51 #19
