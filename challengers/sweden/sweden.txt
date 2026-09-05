@@ -8,14 +8,14 @@ Starters:
   [LB] Daniel Svensson (LB) rating 94.12 #8
   [CB] Isak Hien (CB) rating 93.44 #4
   [CB] Victor Lindelöf (CB) rating 91.56 #3
-  [RB] Emil Holm (RB) rating 72.87 #2
+  [RB] Joe Mendes (RB) rating 71.40 #2
   [GK] Viktor Johansson (GK) rating 74.42 #12
 
 Substitutes:
   [CF] Alexander Isak (CF) rating 96.84 #9
-  [LWF] Jesper Karlsson (LWF) rating 72.67 #14
+  [LWF] Kristoffer Peterson (LWF) rating 69.65 #24
   [RWF] Anthony Elanga (RWF) rating 93.93 #11
-  [AMF] Jordan Larsson (RWF) rating 73.17 #26
+  [AMF] Roony Bardghji (RMF) rating 92.90 #14
   [CMF] Yasin Ayari (CMF) rating 93.83 #18
   [DMF] Jens Cajuste (DMF) rating 74.18 #20
   [LB] Gabriel Gudmundsson (LB) rating 74.55 #5

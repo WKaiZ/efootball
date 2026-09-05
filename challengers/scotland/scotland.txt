@@ -25,4 +25,4 @@ Substitutes:
   [GK] Zander Clark (GK) rating 71.07 #21
 
 Wildcard:
-  [WILD] Billy Gilmour (CMF) rating 74.28 #23
+  [WILD] Callum McGregor (DMF) rating 75.74 #23

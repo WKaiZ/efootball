@@ -22,4 +22,4 @@ Substitutes:
   [CB] Martin Valjent (CB) rating 74.48 #4
   [CB] Ivan Mesik (CB) rating 69.63 #3
   [RB] VACANT
-  [GK] VACANT
+  [GK] Martin Dúbravka (GK) rating 75.61 #1

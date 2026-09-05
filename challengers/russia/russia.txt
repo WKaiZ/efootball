@@ -3,7 +3,7 @@ Starters:
   [LWF] Arsen Zakharyan (AMF) rating 71.84 #10
   [RWF] Aleksey Miranchuk (AMF) rating 74.47 #59
   [AMF] Aleksandr Golovin (AMF) rating 76.72 #17
-  [CMF] VACANT
+  [CMF] Aleksey Batrakov (AMF) rating 70.80 #7
   [DMF] VACANT
   [LB] VACANT
   [CB] Roman Neustädter (CB) rating 71.50 #3
