@@ -14,15 +14,15 @@ Starters:
 Substitutes:
   [CF] Gabriel Ávalos (CF) rating 74.53 #21
   [LWF] Julio Enciso (SS) rating 74.28 #19
-  [RWF] Álex Arce (CF) rating 74.29 #18
+  [RWF] Gustavo Caballero (RWF) rating 69.21 #24
   [AMF] Óscar Romero (AMF) rating 72.29 #20
   [CMF] José Florentín (CMF) rating 75.17 #16
-  [DMF] Hugo Martínez (CMF) rating 68.73 #5
-  [LB] Diego León (LB) rating 71.17 #25
+  [DMF] Braian Ojeda (CMF) rating 73.38 #25
+  [LB] Alexandro Maidana (LB) rating 69.66 #26
   [CB] José Canale (CB) rating 74.40 #13
   [CB] Júnior Alonso (CB) rating 74.09 #6
   [RB] Gustavo Velázquez (CB) rating 73.51 #2
   [GK] Gastón Olveira (GK) rating 74.22 #22
 
 Wildcard:
-  [WILD] Juan Espínola (GK) rating 73.55 #1
+  [WILD] Álex Arce (CF) rating 74.29 #18
