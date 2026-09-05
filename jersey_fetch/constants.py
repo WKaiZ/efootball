@@ -146,6 +146,13 @@ MANUAL_ID_OVERRIDES = {
     "iran": {
         "mehdi shiri": {"player_id": "280298", "preserve_name": True},
     },
+    "korea": {
+        "tae-hwan kim": {"player_id": "156009", "preserve_name": True},
+        "tae-hyeon kim": {
+            "CB": {"player_id": "645847", "preserve_name": True},
+            "RB": {"player_id": "508366", "preserve_name": True},
+        },
+    },
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
     },

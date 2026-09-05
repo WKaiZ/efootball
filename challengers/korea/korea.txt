@@ -14,14 +14,14 @@ Starters:
 Substitutes:
   [CF] Se-hun Oh (CF) rating 94.20 #9
   [LWF] Jun-ho Bae (LWF) rating 70.80 #17
-  [RWF] Hyun-jun Yang (RWF) rating 72.17 #15
+  [RWF] Won-sang Um (RWF) rating 69.35 #29
   [AMF] Dong-gyeong Lee (AMF) rating 73.50 #26
   [CMF] Jin-kyu Kim (CMF) rating 72.35 #24
   [DMF] Sung-yueng Ki (DMF) rating 70.68 #16
   [LB] Tae-seok Lee (LB) rating 71.13 #13
   [CB] Tae-hyeon Kim (CB) rating 72.46 #5
   [CB] Yu-min Cho (CB) rating 72.33 #14
-  [RB] Jae-won Hwang (RB) rating 69.50 #3
+  [RB] Moon-hwan Kim (RB) rating 69.51 #15
   [GK] Hyeon-woo Jo (GK) rating 72.37 #21
 
 Wildcard:

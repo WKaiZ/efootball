@@ -138,6 +138,10 @@ MANUAL_ID_OVERRIDES = {
     "iran": {
         "mehdi shiri": "280298",
     },
+    "korea": {
+        "tae-hwan kim": "156009",
+        "tae-hyeon kim": {"CB": "645847", "RB": "508366"},
+    },
     "usa": {
         "patrick agyemang": "1089574",
     },
