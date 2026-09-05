@@ -9,15 +9,3 @@ CB
 CB
 RB
 GK
-
-CF
-LWF
-RWF
-SS
-CMF
-DMF
-LB
-CB
-CB
-RB
-GK

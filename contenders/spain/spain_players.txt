@@ -96,6 +96,4 @@ Iker Casillas, GK, 98.59, False, Epic, [GK], []
 Josep Martínez, GK, 93.16, False, Highlight, [GK], []
 David de Gea, GK, 93.04, False, Highlight, [GK], []
 
-Ferran Torres, LWF, 79.43, True, Standard, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
-Víctor Muñoz, LWF, 73.17, True, Standard, [LWF, CF, LMF, RWF, RMF], [SS, AMF]
 Suso, RWF, 74.25, False, Standard, [LWF, SS, AMF, CMF, RWF, RMF], [CF, LMF]
