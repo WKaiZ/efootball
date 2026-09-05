@@ -11,6 +11,7 @@ Formation (default)
 - Slot order (each exactly one player):
   CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
 - Override: `{country}_formation.txt` in the country folder (comma-separated positions or one position per line); if missing, the default above is used.
+- Contender second formation (optional): a second block in `{country}_formation.txt` after a blank line is used only for the Second Squad. If omitted, the Second Squad reuses the first formation.
 
 Player selection
 - Choose STARTERS first, then choose SUBSTITUTES.
@@ -94,6 +95,13 @@ Starter replacement rule (when jerseys fail)
   - If still no candidate works, the slot stays empty (`VACANT` in the output).
 - Vacant sub slots may also use an extra swap routine in code (reassign another sub to free a number) before remaining `VACANT`.
   - That swap must not displace a substitute who is already on their MAIN position for their slot (e.g. a proficient RB fill cannot steal a MAIN LB's jersey and kick them off the bench).
+
+Contender Second Squad
+- Contender nations only: after the First Squad is finalized, draft a Second Squad with the same selection and jersey rules.
+- Card exclusion: any card used in the First Squad (identified by `player_id` + main position) cannot be used again. A different-position card of the same player may still be selected.
+- Within each squad, `player_id` uniqueness still applies (no duplicate person inside one squad).
+- Jersey numbers are assigned independently for the Second Squad and may overlap First Squad numbers.
+- Challenger nations do not run a second pass.
 
 Data source
 - All necessary information is pulled from the SQLite database (players, game_data, jersey history).

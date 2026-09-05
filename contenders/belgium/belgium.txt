@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Charles De Ketelaere (CF) rating 97.93 #17
   [LWF] Eden Hazard (LWF) rating 101.98 #10
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Alexis Saelemaekers (RMF) rating 94.99 #22
+
+Second Squad
+
+Starters:
+  [CF] Leandro Trossard (LMF) rating 97.34 #11
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Eden Hazard (AMF) rating 100.35 #10
+  [CMF] VACANT
+  [DMF] Roméo Lavia (DMF) rating 94.46 #18
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Senne Lammens (GK) rating 93.92 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] Charles De Ketelaere (SS) rating 95.17 #17
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

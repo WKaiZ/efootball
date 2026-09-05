@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Erling Haaland (CF) rating 99.85 #9
   [LWF] Antonio Nusa (LWF) rating 94.97 #20
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Jørgen Strand Larsen (CF) rating 94.28 #23
+
+Second Squad
+
+Starters:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Martin Ødegaard (AMF) rating 95.99 #10
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Julian Ryerson (RMF) rating 93.98 #26
+  [CB] Jakob Glesnes (CB) rating 73.84 #6
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] David Møller Wolfe (LB) rating 72.28 #5
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

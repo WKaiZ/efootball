@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Cristiano Ronaldo (CF) rating 99.07 #7
   [LMF] Pedro Neto (LMF) rating 98.71 #18
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] João Félix (LWF) rating 95.38 #11
+
+Second Squad
+
+Starters:
+  [CF] VACANT
+  [LMF] Gonçalo Guedes (LMF) rating 93.76 #19
+  [RWF] Pedro Neto (RWF) rating 95.47 #18
+  [AMF] Luís Figo (RMF) rating 100.33 #7
+  [CMF] João Neves (CMF) rating 95.72 #15
+  [DMF] Vitinha (DMF) rating 97.75 #23
+  [LB] João Cancelo (LB) rating 94.50 #20
+  [CB] Danilo Pereira (CB) rating 93.22 #13
+  [CB] VACANT
+  [RB] Diogo Dalot (RB) rating 94.01 #5
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LMF] VACANT
+  [RWF] Francisco Conceição (RMF) rating 94.37 #26
+  [AMF] VACANT
+  [CMF] Bruno Fernandes (CMF) rating 95.01 #8
+  [DMF] Rúben Neves (DMF) rating 79.25 #21
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Matheus Nunes (RB) rating 94.00 #6
+  [GK] VACANT

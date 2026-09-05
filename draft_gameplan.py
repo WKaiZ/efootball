@@ -5,7 +5,7 @@ import sys
 import gameplan.formation as formation
 from gameplan.builder import build_gameplan
 from gameplan.constants import DB_PATH
-from gameplan.data import load_roles, load_formation, resolve_country_paths
+from gameplan.data import load_roles, load_formations, resolve_country_paths
 
 
 def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
@@ -40,6 +40,28 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
     return lines
 
 
+def _squad_card_keys(starter_asg, sub_asg, wildcard_asgs):
+    return {
+        (a.player.player_id, a.player.position)
+        for a in (starter_asg + sub_asg + wildcard_asgs)
+        if a is not None
+    }
+
+
+def _exclude_cards(roles_by_pos, used_cards):
+    filtered = {}
+    for pos, roles in roles_by_pos.items():
+        kept = [r for r in roles if (r.player_id, r.position) not in used_cards]
+        if kept:
+            filtered[pos] = kept
+    return filtered
+
+
+def _is_contender(out_path):
+    country_dir = os.path.dirname(os.path.abspath(out_path))
+    return os.path.basename(os.path.dirname(country_dir)) == "contenders"
+
+
 def main():
     conn = sqlite3.connect(DB_PATH)
     try:
@@ -47,14 +69,14 @@ def main():
         country_name = os.path.basename(os.path.normpath(country_folder.strip()))
         formation_file, out_path = resolve_country_paths(country_folder)
 
-        slots = load_formation(formation_file)
+        primary_formation, secondary_formation = load_formations(formation_file)
         if not os.path.exists(formation_file):
-            default = ", ".join(slots)
+            default = ", ".join(primary_formation)
             print(
                 f"No {country_name}_formation.txt found; using default formation: {default}",
                 file=sys.stderr,
             )
-        formation.FORMATION[:] = slots
+        formation.FORMATION[:] = primary_formation
 
         roles_by_pos = load_roles(conn, country_name)
         if not roles_by_pos:
@@ -63,7 +85,23 @@ def main():
             )
 
         starter_asg, sub_asg, wildcard_asgs = build_gameplan(conn, roles_by_pos)
-        lines = format_squad(starter_asg, sub_asg, wildcard_asgs, slots)
+
+        if _is_contender(out_path):
+            used_cards = _squad_card_keys(starter_asg, sub_asg, wildcard_asgs)
+            remaining = _exclude_cards(roles_by_pos, used_cards)
+
+            second_slots = secondary_formation if secondary_formation is not None else primary_formation
+            formation.FORMATION[:] = second_slots
+            starter_asg2, sub_asg2, wildcard_asgs2 = build_gameplan(conn, remaining)
+
+            lines = ["First Squad", ""]
+            lines.extend(format_squad(starter_asg, sub_asg, wildcard_asgs, primary_formation))
+            lines.append("")
+            lines.append("Second Squad")
+            lines.append("")
+            lines.extend(format_squad(starter_asg2, sub_asg2, wildcard_asgs2, second_slots))
+        else:
+            lines = format_squad(starter_asg, sub_asg, wildcard_asgs, primary_formation)
 
         text = "\n".join(lines) + "\n"
         print(text, end="")

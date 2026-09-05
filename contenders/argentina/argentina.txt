@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Carlos Tévez (CF) rating 98.22 #11
   [LWF] Giuliano Simeone (RMF) rating 95.63 #17
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Lautaro Martínez (CF) rating 97.78 #22
+
+Second Squad
+
+Starters:
+  [CF] Lionel Messi (CF) rating 99.24 #10
+  [LWF] Giuliano Simeone (RWF) rating 94.21 #17
+  [RWF] Matías Soulé (RWF) rating 95.32 #21
+  [AMF] Paulo Dybala (AMF) rating 95.00 #19
+  [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
+  [DMF] Máximo Perrone (DMF) rating 93.18 #22
+  [LB] Marcos Acuña (LB) rating 92.25 #8
+  [CB] Martín Demichelis (CB) rating 94.84 #2
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Substitutes:
+  [CF] Javier Saviola (CF) rating 98.07 #9
+  [LWF] Diego Maradona (SS) rating 95.02 #6
+  [RWF] VACANT
+  [AMF] Giovani Lo Celso (AMF) rating 92.93 #11
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

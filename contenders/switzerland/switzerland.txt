@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
   [LWF] Rubén Vargas (LMF) rating 93.13 #17
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Yann Sommer (GK) rating 80.51 #12
+
+Second Squad
+
+Starters:
+  [CF] Dan Ndoye (LMF) rating 93.45 #11
+  [LWF] VACANT
+  [RWF] Renato Steffen (RWF) rating 71.81 #7
+  [AMF] VACANT
+  [CMF] Johan Manzambi (CMF) rating 76.07 #9
+  [DMF] Denis Zakaria (DMF) rating 93.53 #6
+  [LB] Jordan Lotomba (RB) rating 72.30 #14
+  [CB] Sandro Lauper (DMF) rating 72.07 #8
+  [CB] VACANT
+  [RB] Lucas Blondel (RB) rating 73.95 #2
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

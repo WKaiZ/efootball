@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ante Budimir (CF) rating 93.98 #11
   [LWF] Ivan Perišić (LMF) rating 94.38 #14
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Luka Sucic (CMF) rating 94.16 #21
+
+Second Squad
+
+Starters:
+  [CF] VACANT
+  [LWF] Luka Ivanušec (LWF) rating 72.06 #18
+  [RWF] VACANT
+  [AMF] Martin Baturina (AMF) rating 93.99 #16
+  [CMF] Petar Sučić (AMF) rating 93.99 #17
+  [DMF] Luka Modrić (DMF) rating 94.05 #10
+  [LB] Ivan Perišić (LB) rating 93.99 #14
+  [CB] Josko Gvardiol (CB) rating 95.36 #4
+  [CB] VACANT
+  [RB] Ivan Smolcic (RB) rating 70.37 #2
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

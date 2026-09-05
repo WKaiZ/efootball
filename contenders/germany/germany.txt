@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
   [LMF] Jamal Musiala (LMF) rating 97.68 #10
@@ -26,3 +28,36 @@ Substitutes:
 
 Wildcard:
   [WILD] Kai Havertz (CF) rating 95.97 #20
+
+Second Squad
+
+Starters:
+  [CF] Gerd Müller (CF) rating 99.05 #13
+  [LMF] Florian Wirtz (LMF) rating 96.96 #17
+  [RWF] Leroy Sané (RWF) rating 94.89 #19
+  [AMF] Jamal Musiala (AMF) rating 97.02 #10
+  [CMF] Nadiem Amiri (CMF) rating 93.48 #20
+  [DMF] Felix Nmecha (DMF) rating 97.61 #23
+  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
+  [CB] Joshua Kimmich (CB) rating 95.94 #6
+  [CB] Robert Andrich (CB) rating 94.99 #8
+  [RB] VACANT
+  [GK] Kevin Trapp (GK) rating 94.34 #12
+
+Substitutes:
+  [CF] Miroslav Klose (CF) rating 97.85 #11
+  [LMF] David Raum (LMF) rating 93.96 #22
+  [RWF] Kai Havertz (AMF) rating 95.17 #7
+  [AMF] Thomas Müller (AMF) rating 95.36 #25
+  [CMF] Angelo Stiller (DMF) rating 95.29 #16
+  [DMF] Lothar Matthäus (DMF) rating 96.95 #14
+  [LB] VACANT
+  [CB] Malick Thiaw (CB) rating 94.99 #24
+  [CB] Waldemar Anton (CB) rating 94.38 #3
+  [RB] Robin Koch (CB) rating 93.57 #2
+  [GK] Oliver Baumann (GK) rating 94.22 #1
+
+Wildcard:
+  [WILD] Franz Beckenbauer (DMF) rating 96.90 #5
+  [WILD] Deniz Undav (CF) rating 94.96 #26
+  [WILD] Anton Stach (DMF) rating 93.14 #4

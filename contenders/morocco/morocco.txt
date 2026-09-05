@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ayoub El Kaabi (CF) rating 94.26 #20
   [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
@@ -26,3 +28,31 @@ Substitutes:
 
 Wildcard:
   [WILD] Osame Sahraoui (LMF) rating 92.95 #24
+
+Second Squad
+
+Starters:
+  [CF] Oussama Lamlioui (CF) rating 92.43 #9
+  [LWF] Mounir Chouiar (AMF) rating 93.25 #17
+  [RWF] Brahim Díaz (RWF) rating 93.36 #10
+  [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
+  [CMF] Ismael Saibari (AMF) rating 93.24 #11
+  [DMF] VACANT
+  [LB] Youssef Belammari (LB) rating 71.11 #19
+  [CB] Marouane Louadni (CB) rating 92.57 #4
+  [CB] Romain Saïss (CB) rating 76.55 #6
+  [RB] Anas Bach (RB) rating 92.44 #3
+  [GK] VACANT
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Chadi Riad (CB) rating 74.06 #18
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
