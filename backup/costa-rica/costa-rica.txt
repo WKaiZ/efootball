@@ -1,0 +1,25 @@
+Starters:
+  [CF] Alonso Martínez (CF) rating 77.47 #12
+  [LWF] Álvaro Zamora (LWF) rating 71.19 #21
+  [RWF] Joel Campbell (RWF) rating 72.90 #9
+  [AMF] Brandon Aguilera (AMF) rating 69.23 #10
+  [CMF] Celso Borges (CMF) rating 69.99 #5
+  [DMF] Orlando Galo (DMF) rating 68.31 #14
+  [LB] Joseph Mora (LB) rating 70.07 #8
+  [CB] Juan Pablo Vargas (CB) rating 73.97 #4
+  [CB] Francisco Calvo (CB) rating 71.99 #15
+  [RB] Haxzel Quirós (RB) rating 68.78 #20
+  [GK] Keylor Navas (GK) rating 77.66 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Alejandro Bran (DMF) rating 68.24 #16
+  [LB] VACANT
+  [CB] Kendall Waston (CB) rating 71.13 #19
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

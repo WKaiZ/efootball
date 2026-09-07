@@ -1,0 +1,7 @@
+Ionut Radu, GK, 92.89, False, Highlight, [GK], []
+
+Dennis Man, RWF, 75.21, False, Standard, [RWF, RMF, SS], [CF, AMF, LMF, LWF]
+Nicolae Stanciu, AMF, 74.43, False, Standard, [AMF, CMF], [SS, DMF]
+Alexandru Maxim, AMF, 74.20, False, Standard, [AMF, CMF, LWF, LMF], [CF, SS, RWF, RMF]
+Radu Dragusin, CB, 74.26, False, Standard, [CB], []
+Andrei Ratiu, RB, 76.33, False, Standard, [RB], [RMF, CMF]

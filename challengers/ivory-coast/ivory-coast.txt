@@ -13,12 +13,12 @@ Starters:
 
 Substitutes:
   [CF] Elye Wahi (CF) rating 75.27 #12
-  [LWF] Evann Guessand (RWF) rating 75.40 #22
+  [LWF] Jonathan Bamba (LWF) rating 74.63 #13
   [RWF] Nicolas Pépé (RWF) rating 94.36 #2
   [AMF] Hamed Traoré (AMF) rating 74.80 #25
   [CMF] Franck Kessié (CMF) rating 76.47 #8
   [DMF] Mory Gbane (DMF) rating 70.40 #24
-  [LB] Hassane Kamara (LB) rating 74.14 #13
+  [LB] Hassane Kamara (LB) rating 74.14 #4
   [CB] Emmanuel Agbadou (CB) rating 94.67 #20
   [CB] Wilfried Singo (CB) rating 77.38 #5
   [RB] Jean-Daniel Akpa Akpro (CMF) rating 72.40 #14
