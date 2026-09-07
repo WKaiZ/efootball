@@ -1,0 +1,2 @@
+Benjamin Sesko, CF, 97.70, False, Showtime, [CF], [SS, RWF]
+Jan Oblak, GK, 95.94, False, Highlight, [GK], []

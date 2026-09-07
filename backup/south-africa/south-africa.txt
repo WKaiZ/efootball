@@ -1,0 +1,25 @@
+Starters:
+  [CF] Lyle Foster (CF) rating 73.00 #9
+  [LWF] Relebohile Mofokeng (LWF) rating 70.02 #10
+  [RWF] Bongokuhle Hlongwane (RWF) rating 71.33 #12
+  [AMF] Themba Zwane (AMF) rating 69.33 #11
+  [CMF] Teboho Mokoena (CMF) rating 71.28 #4
+  [DMF] Njabulo Blom (DMF) rating 70.35 #8
+  [LB] Aubrey Modiba (LB) rating 71.10 #6
+  [CB] Olwethu Makhanya (CB) rating 72.03 #24
+  [CB] Siyabonga Ngezana (CB) rating 71.54 #21
+  [RB] Khuliso Mudau (RB) rating 70.54 #20
+  [GK] Ronwen Williams (GK) rating 73.27 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Percy Tau (RWF) rating 71.11 #19
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

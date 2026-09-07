@@ -1,0 +1,13 @@
+John O'Shea, DMF, 96.26, False, Epic, [CMF, DMF, CB, LB, RB], []
+Nathan Collins, CB, 93.51, True, Highlight, [CB], []
+Caoimhín Kelleher, GK, 94.38, False, Highlight, [GK], []
+
+Troy Parrott, CF, 75.21, True, Standard, [CF, SS], [RWF]
+Sammie Szmodics, LWF, 74.76, False, Standard, [LWF, LMF, CF, SS, AMF], [CMF, RWF, RMF]
+Chiedozie Ogbene, RWF, 74.07, True, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
+Finn Azaz, AMF, 73.70, False, Standard, [AMF, CMF, LMF], [LWF, SS]
+Jason Knight, CMF, 73.04, False, Standard, [CMF, DMF], [LMF, RMF, DMF, RB, SS]
+Dara O'Shea, CB, 74.02, False, Standard, [CB], [RB]
+Ryan Manning, LB, 72.75, False, Standard, [LMF, LB], [LWF, CB]
+Kevin O'Toole, LB, 72.20, False, Standard, [LB, LMF], []
+Matt Doherty, RB, 75.02, False, Standard, [LB, RB, RMF], [CB]
