@@ -1,0 +1,25 @@
+Starters:
+  [CF] Armando Broja (CF) rating 74.56 #9
+  [LWF] Anis Mehmeti (LWF) rating 71.56 #24
+  [RWF] Arbnor Muja (RWF) rating 72.26 #16
+  [AMF] Ernest Muci (AMF) rating 73.79 #17
+  [CMF] Qazim Laci (CMF) rating 73.27 #14
+  [DMF] Kristjan Asllani (DMF) rating 73.36 #8
+  [LB] Mario Mitaj (LB) rating 70.76 #3
+  [CB] Ardian Ismajli (CB) rating 73.49 #18
+  [CB] Adrian Bajrami (CB) rating 72.25 #6
+  [RB] Iván Balliu (RB) rating 71.21 #2
+  [GK] Alen Sherri (GK) rating 70.67 #1
+
+Substitutes:
+  [CF] Myrto Uzuni (CF) rating 74.49 #11
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
