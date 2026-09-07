@@ -49,6 +49,9 @@ MANUAL_ID_OVERRIDES = {
         "paulinho": "428791",
         "leo pereira": "288431",
     },
+    "burkina-faso": {
+        "lassina traore": "551695",
+    },
     "portugal": {
         "pepe": "14132",
         "andre silva": "198008",

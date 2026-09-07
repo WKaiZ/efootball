@@ -1,0 +1,25 @@
+Starters:
+  [CF] Milan Djuric (CF) rating 72.68 #18
+  [LWF] Kerim Alajbegovic (LWF) rating 93.35 #19
+  [RWF] Esmir Bajraktarevic (RWF) rating 71.45 #20
+  [AMF] Haris Hajradinovic (AMF) rating 73.07 #21
+  [CMF] Armin Gigovic (CMF) rating 71.24 #8
+  [DMF] Amir Hadziahmetovic (DMF) rating 72.64 #16
+  [LB] VACANT
+  [CB] Sead Kolasinac (CB) rating 76.27 #5
+  [CB] Anel Ahmedhodzic (CB) rating 74.36 #3
+  [RB] Amar Dedic (RB) rating 74.78 #7
+  [GK] Vladan Kovacevic (GK) rating 73.61 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

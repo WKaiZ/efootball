@@ -53,6 +53,9 @@ MANUAL_ID_OVERRIDES = {
         "paulo henrique": {"player_id": "412594", "preserve_name": True},
         "rafael": {"player_id": "68097", "preserve_name": True},
     },
+    "burkina-faso": {
+        "lassina traore": {"player_id": "551695", "preserve_name": True},
+    },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},
         "andre silva": {"player_id": "198008", "preserve_name": True},
@@ -195,6 +198,7 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 )
 
 ESPN_TEAM_NAME_ALIASES = {
+    "bosnia": ("Bosnia-Herzegovina", "Bosnia and Herzegovina"),
     "congo": ("Democratic Republic of the Congo", "DR Congo", "Congo DR"),
     "czechia": ("Czech Republic",),
     "ireland": ("Republic of Ireland",),

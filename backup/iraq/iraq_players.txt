@@ -1,0 +1,2 @@
+Aymen Hussein, CF, 72.50, False, Standard, [CF], [SS]
+Ahmed Qasem, LWF, 71.32, False, Standard, [LWF, LMF, AMF, CMF, RWF, RMF], []

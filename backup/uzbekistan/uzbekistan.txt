@@ -1,0 +1,25 @@
+Starters:
+  [CF] Eldor Shomurodov (CF) rating 75.01 #14
+  [LWF] Jaloliddin Masharipov (LWF) rating 71.66 #10
+  [RWF] Azizbek Turgunboev (RWF) rating 70.31 #19
+  [AMF] Abbosbek Fayzullaev (AMF) rating 71.39 #22
+  [CMF] Otabek Shukurov (CMF) rating 71.85 #7
+  [DMF] Odildzhon Khamrobekov (DMF) rating 71.19 #9
+  [LB] Sherzod Nasrullaev (LB) rating 69.46 #13
+  [CB] Abdukodir Khusanov (CB) rating 94.13 #2
+  [CB] Khusniddin Alikulov (CB) rating 70.72 #23
+  [RB] Khozhiakbar Alizhonov (RB) rating 70.22 #3
+  [GK] Utkir Yusupov (GK) rating 70.50 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Khozhimat Erkinov (RWF) rating 70.19 #20
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Farrukh Sayfiev (LB) rating 69.37 #4
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

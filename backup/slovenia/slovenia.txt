@@ -1,0 +1,25 @@
+Starters:
+  [CF] Benjamin Sesko (CF) rating 97.70 #11
+  [LWF] Benjamin Verbic (LWF) rating 71.09 #7
+  [RWF] Andrés Vombergar (CF) rating 72.14 #18
+  [AMF] Tomi Horvat (AMF) rating 70.37 #15
+  [CMF] Sandi Lovrić (CMF) rating 72.15 #8
+  [DMF] Jon Gorenc Stankovic (DMF) rating 71.61 #5
+  [LB] Jure Balkovec (LB) rating 70.42 #3
+  [CB] Jaka Bijol (CB) rating 75.78 #6
+  [CB] David Brekalo (CB) rating 72.57 #23
+  [RB] Petar Stojanović (RB) rating 71.23 #20
+  [GK] Jan Oblak (GK) rating 95.94 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Adrian Zeljkovic (DMF) rating 71.17 #26
+  [LB] VACANT
+  [CB] Vanja Drkusic (CB) rating 72.09 #21
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

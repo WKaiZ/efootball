@@ -1,0 +1,25 @@
+Starters:
+  [CF] Almoez Ali (CF) rating 73.50 #19
+  [LWF] Edmílson Junior (LWF) rating 76.00 #8
+  [RWF] Abdelrahman Moustafa (RWF) rating 70.35 #17
+  [AMF] Hassan Al-Haydos (AMF) rating 72.35 #10
+  [CMF] Abdulaziz Hatim (CMF) rating 71.15 #6
+  [DMF] Karim Boudiaf (DMF) rating 73.01 #12
+  [LB] Sultan Al-Brake (LB) rating 71.92 #18
+  [CB] Lucas Mendes (CB) rating 73.43 #3
+  [CB] Boualem Khoukhi (CB) rating 72.44 #16
+  [RB] Pedro Miguel (RB) rating 72.27 #2
+  [GK] Meshaal Barsham (GK) rating 73.69 #22
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Mohammed Waad (LB) rating 71.33 #4
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

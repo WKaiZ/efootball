@@ -1,0 +1,13 @@
+Kerim Alajbegovic, LWF, 93.35, True, Highlight, [LWF, LMF, AMF], [CF, SS, RWF, RMF]
+
+Milan Djuric, CF, 72.68, False, Standard, [CF], [SS, AMF]
+Edin Visca, RWF, 73.10, False, Standard, [RWF, RMF], [LWF, LMF]
+Esmir Bajraktarevic, RWF, 71.45, True, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
+Haris Hajradinovic, AMF, 73.07, False, Standard, [AMF, CMF], [LWF, LMF, SS, RWF, RMF]
+Armin Gigovic, CMF, 71.24, True, Standard, [CMF, DMF], [AMF, LMF]
+Denis Huseinbasic, CMF, 71.23, False, Standard, [CMF, DMF], [AMF, LMF, RMF]
+Amir Hadziahmetovic, DMF, 72.64, True, Standard, [LMF, DMF], [AMF, CMF, RMF]
+Sead Kolasinac, CB, 76.27, True, Standard, [LMF, LB, CB], [CMF, DMF]
+Anel Ahmedhodzic, CB, 74.36, False, Standard, [CB], []
+Amar Dedic, RB, 74.78, True, Standard, [LB, RB], [LMF, RMF, CB]
+Vladan Kovacevic, GK, 73.61, False, Standard, [GK], []
