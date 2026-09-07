@@ -311,20 +311,22 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
         return None
     athlete_role_cache = {}
     roster = []
+    missing_jersey_count = 0
     for player in roster_payload.get("roster", []):
-        jersey = player.get("jersey")
-        if not jersey or not str(jersey).isdigit():
-            continue
         aliases = build_espn_player_aliases(player)
         if not aliases:
             continue
+        raw_jersey = player.get("jersey")
+        jersey = int(raw_jersey) if raw_jersey and str(raw_jersey).isdigit() else None
+        if jersey is None:
+            missing_jersey_count += 1
         athlete_id = str(player.get("athlete", {}).get("id") or "")
         role = espn_lineup_role(player.get("position", {}).get("abbreviation"))
         if role is None and athlete_id:
             if athlete_id not in athlete_role_cache:
                 athlete_role_cache[athlete_id] = fetch_espn_athlete_role(athlete_id)
             role = athlete_role_cache[athlete_id]
-        roster.append({"aliases": aliases, "jersey": int(jersey), "role": role})
+        roster.append({"aliases": aliases, "jersey": jersey, "role": role})
     lineup_url = f"https://www.espn.com/soccer/lineups/_/gameId/{event_id}"
     match_name = summary.get("header", {}).get("competitions", [{}])[0].get("name") or f"Match {event_id}"
     match_date = summary.get("header", {}).get("competitions", [{}])[0].get("date", "")
@@ -337,6 +339,12 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
     else:
         date_str = "Unknown"
     print(f"Latest ESPN match for {country_label}: {match_name} ({date_str}) [{lineup_url}]")
+    if roster and missing_jersey_count == len(roster):
+        print(
+            f"  Warning: ESPN roster has no jersey numbers for this match "
+            f"({missing_jersey_count} player(s)); recent flags will still update, "
+            "but squad numbers will not be seeded. Try --game-index 2 for an older match with numbers."
+        )
     return {
         "event_id": str(event_id),
         "date": date_str,
@@ -401,6 +409,8 @@ def map_recent_players_to_roster(player_profiles, latest_match):
             continue
         taken.add(matched_key)
         recent_flags[matched_key] = True
+        if espn_player.get("jersey") is None:
+            continue
         recent_numbers[matched_key] = {
             "season": latest_match["season"],
             "match_date": latest_match["date"],

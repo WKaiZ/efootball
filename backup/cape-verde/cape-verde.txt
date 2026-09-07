@@ -1,0 +1,25 @@
+Starters:
+  [CF] Dailon Livramento (CF) rating 70.47 #19
+  [LWF] Ilano Silva Timas (LWF) rating 65.46 #7
+  [RWF] Vasco Lopes (RWF) rating 69.82 #25
+  [AMF] David Costa (AMF) rating 65.30 #8
+  [CMF] Jamiro Monteiro (CMF) rating 70.78 #10
+  [DMF] VACANT
+  [LB] Dylan Tavares (LB) rating 67.68 #16
+  [CB] Logan Costa (CB) rating 75.22 #5
+  [CB] Ivanildo Fernandes (CB) rating 69.18 #14
+  [RB] Steven Moreira (RB) rating 73.46 #22
+  [GK] Vozinha (GK) rating 96.99 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Fabrício Garcia (RWF) rating 69.26 #17
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

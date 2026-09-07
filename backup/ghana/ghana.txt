@@ -1,0 +1,25 @@
+Starters:
+  [CF] Mohammed Kudus (RMF) rating 95.03 #10
+  [LMF] Antoine Semenyo (LMF) rating 97.50 #11
+  [RWF] Iñaki Williams (RWF) rating 94.93 #19
+  [AMF] Amankwah Forson (AMF) rating 70.79 #13
+  [CMF] Alfred Duncan (CMF) rating 73.60 #8
+  [DMF] Thomas Partey (DMF) rating 75.43 #5
+  [LB] Gideon Mensah (LB) rating 72.29 #14
+  [CB] Mohammed Salisu (CB) rating 75.76 #6
+  [CB] Alidu Seidu (CB) rating 74.22 #2
+  [RB] Tariq Lamptey (RB) rating 73.52 #3
+  [GK] Lawrence Ati Zigi (GK) rating 72.59 #1
+
+Substitutes:
+  [CF] VACANT
+  [LMF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

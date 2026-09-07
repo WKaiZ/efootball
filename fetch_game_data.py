@@ -52,6 +52,9 @@ MANUAL_ID_OVERRIDES = {
     "burkina-faso": {
         "lassina traore": "551695",
     },
+    "cape-verde": {
+        "david costa": "1160599",
+    },
     "portugal": {
         "pepe": "14132",
         "andre silva": "198008",
@@ -144,6 +147,10 @@ MANUAL_ID_OVERRIDES = {
     },
     "iran": {
         "mehdi shiri": "280298",
+    },
+    "iraq": {
+        "hussein ali": "585325",
+        "ali jasim": "877672",
     },
     "korea": {
         "tae-hwan kim": "156009",

@@ -56,6 +56,9 @@ MANUAL_ID_OVERRIDES = {
     "burkina-faso": {
         "lassina traore": {"player_id": "551695", "preserve_name": True},
     },
+    "cape-verde": {
+        "david costa": {"player_id": "1160599", "preserve_name": True},
+    },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},
         "andre silva": {"player_id": "198008", "preserve_name": True},
@@ -152,6 +155,10 @@ MANUAL_ID_OVERRIDES = {
     },
     "iran": {
         "mehdi shiri": {"player_id": "280298", "preserve_name": True},
+    },
+    "iraq": {
+        "hussein ali": {"player_id": "585325", "preserve_name": True},
+        "ali jasim": {"player_id": "877672", "preserve_name": True},
     },
     "korea": {
         "tae-hwan kim": {"player_id": "156009", "preserve_name": True},
