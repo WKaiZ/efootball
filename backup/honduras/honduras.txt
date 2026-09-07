@@ -1,0 +1,25 @@
+Starters:
+  [CF] Choco Lozano (CF) rating 73.42 #9
+  [LWF] Luis Palma (LWF) rating 72.30 #10
+  [RWF] Rigoberto Rivas (RWF) rating 69.40 #7
+  [AMF] Alexander López (AMF) rating 69.94 #16
+  [CMF] Bryan Acosta (CMF) rating 72.19 #6
+  [DMF] David Ruíz (DMF) rating 72.26 #15
+  [LB] Joseph Rosales (LB) rating 71.31 #8
+  [CB] Denil Maldonado (CB) rating 70.48 #2
+  [CB] Marcelo Santos (CB) rating 68.45 #3
+  [RB] Andy Nájar (RB) rating 72.47 #14
+  [GK] Edrick Menjívar (GK) rating 69.01 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Luis Vega (CB) rating 68.14 #4
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

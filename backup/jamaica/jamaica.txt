@@ -1,0 +1,25 @@
+Starters:
+  [CF] Rumarn Burrell (CF) rating 69.61 #10
+  [LWF] Demarai Gray (LWF) rating 74.15 #7
+  [RWF] Norman Campbell (RWF) rating 68.99 #21
+  [AMF] Andre Brooks (AMF) rating 69.53 #2
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Rico Henry (LB) rating 74.45 #3
+  [CB] Ethan Pinnock (CB) rating 75.31 #5
+  [CB] Amari'i Bell (CB) rating 73.18 #4
+  [RB] Tayvon Gray (RB) rating 72.46 #12
+  [GK] Andre Blake (GK) rating 75.31 #1
+
+Substitutes:
+  [CF] Bailey Cadamarteri (CF) rating 69.22 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

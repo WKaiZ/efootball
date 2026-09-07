@@ -146,12 +146,18 @@ MANUAL_ID_OVERRIDES = {
         "mohamed hamdi": {"player_id": "369901", "preserve_name": True},
         "trezeguet": {"player_id": "234189", "preserve_name": True},
     },
+    "emirates": {
+        "fabio lima": {"player_id": "179054", "preserve_name": True},
+    },
     "england": {
         "alex scott": {"player_id": "855256", "preserve_name": True},
         "josh king": {"player_id": "1011131", "preserve_name": True},
     },
     "germany": {
         "jamie leweling": {"player_id": "518505", "preserve_name": True},
+    },
+    "honduras": {
+        "david ruiz": {"player_id": "914681", "preserve_name": True},
     },
     "iran": {
         "mehdi shiri": {"player_id": "280298", "preserve_name": True},
@@ -208,6 +214,7 @@ ESPN_TEAM_NAME_ALIASES = {
     "bosnia": ("Bosnia-Herzegovina", "Bosnia and Herzegovina"),
     "congo": ("Democratic Republic of the Congo", "DR Congo", "Congo DR"),
     "czechia": ("Czech Republic",),
+    "emirates": ("United Arab Emirates", "UAE"),
     "ireland": ("Republic of Ireland",),
     "korea": ("South Korea",),
     "serbia": ("Yugoslavia", "Serbia and Montenegro"),

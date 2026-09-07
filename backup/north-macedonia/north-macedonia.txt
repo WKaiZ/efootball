@@ -1,0 +1,25 @@
+Starters:
+  [CF] Danny Musovski (CF) rating 73.38 #13
+  [LWF] Darko Churlinov (LWF) rating 70.22 #11
+  [RWF] Dimitar Mitrovski (RWF) rating 71.38 #16
+  [AMF] Eljif Elmas (AMF) rating 74.11 #7
+  [CMF] Isnik Alimi (CMF) rating 72.51 #22
+  [DMF] Jani Atanasov (DMF) rating 70.24 #21
+  [LB] Ezgjan Alioski (LB) rating 69.96 #10
+  [CB] Darko Velkovski (CB) rating 73.67 #14
+  [CB] Visar Musliu (CB) rating 72.35 #6
+  [RB] Bojan Ilievski (RB) rating 69.18 #2
+  [GK] Stole Dimitrievski (GK) rating 75.49 #23
+
+Substitutes:
+  [CF] Bojan Miovski (CF) rating 73.33 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Bojan Dimoski (LB) rating 69.32 #17
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

@@ -138,12 +138,18 @@ MANUAL_ID_OVERRIDES = {
         "mohamed hamdi": "369901",
         "trezeguet": "234189",
     },
+    "emirates": {
+        "fabio lima": "179054",
+    },
     "england": {
         "alex scott": "855256",
         "josh king": "1011131",
     },
     "germany": {
         "jamie leweling": "518505",
+    },
+    "honduras": {
+        "david ruiz": "914681",
     },
     "iran": {
         "mehdi shiri": "280298",

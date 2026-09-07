@@ -1,0 +1,12 @@
+George Best, RWF, 99.98, False, Epic, [RWF], [LWF, SS, RMF]
+Dan Ballard, CB, 91.79, False, Highlight, [CB], []
+Conor Bradley, RB, 94.36, False, Highlight, [RMF, RB], []
+Trai Hume, RB, 93.05, True, Highlight, [RB], [LB, CB, RMF]
+
+Ross McCausland, RWF, 70.30, False, Standard, [LWF, LMF, RWF, RMF], []
+Isaac Price, AMF, 71.25, True, Standard, [AMF, CMF, DMF], [LMF, RMF, AMF]
+Shea Charles, CMF, 73.24, True, Standard, [CMF, DMF], [AMF, CB, RB]
+Ethan Galbraith, CMF, 73.12, True, Standard, [AMF, CMF, DMF, RB], [RMF]
+Liam Donnelly, DMF, 68.34, False, Standard, [CMF, DMF, CB, RB], [LB, RMF]
+Paddy McNair, CB, 73.28, False, Standard, [DMF, CB], [CMF, RB]
+Pierce Charles, GK, 69.36, True, Standard, [GK], []

@@ -1,0 +1,25 @@
+Starters:
+  [CF] Georges Mikautadze (CF) rating 96.00 #22
+  [LWF] Khvicha Kvaratskhelia (LWF) rating 99.65 #7
+  [RWF] Saba Lobjanidze (RWF) rating 73.60 #27
+  [AMF] Giorgi Chakvetadze (AMF) rating 74.79 #10
+  [CMF] Giorgi Kochorashvili (CMF) rating 70.27 #6
+  [DMF] VACANT
+  [LB] Guram Giorbelidze (LB) rating 69.20 #5
+  [CB] Giorgi Gvelesiani (CB) rating 70.64 #15
+  [CB] Saba Sazonov (CB) rating 70.46 #19
+  [RB] Giorgi Gocholeishvili (RB) rating 70.46 #26
+  [GK] Giorgi Mamardashvili (GK) rating 95.25 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

@@ -1,0 +1,25 @@
+Starters:
+  [CF] VACANT
+  [LWF] Ross McCausland (RWF) rating 70.30 #7
+  [RWF] George Best (RWF) rating 99.98 #11
+  [AMF] Isaac Price (AMF) rating 71.25 #14
+  [CMF] Shea Charles (CMF) rating 73.24 #19
+  [DMF] Liam Donnelly (DMF) rating 68.34 #6
+  [LB] VACANT
+  [CB] Dan Ballard (CB) rating 91.79 #4
+  [CB] Paddy McNair (CB) rating 73.28 #17
+  [RB] Conor Bradley (RB) rating 94.36 #2
+  [GK] Pierce Charles (GK) rating 69.36 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Ethan Galbraith (CMF) rating 73.12 #20
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Trai Hume (RB) rating 93.05 #5
+  [GK] VACANT

@@ -1,0 +1,25 @@
+Starters:
+  [CF] Caio Canedo (CF) rating 72.75 #11
+  [LWF] Caio Lucas (LWF) rating 73.38 #10
+  [RWF] Yahya Al-Ghassani (LWF) rating 69.58 #20
+  [AMF] Fábio Lima (AMF) rating 73.21 #15
+  [CMF] Abdulla Hamad (CMF) rating 67.59 #14
+  [DMF] Ali Salmin (DMF) rating 68.31 #5
+  [LB] Mackenzie Hunt (LB) rating 68.47 #18
+  [CB] Sasa Ivkovic (CB) rating 71.48 #6
+  [CB] Lucas Pimenta (CB) rating 70.66 #3
+  [RB] Khaled Ebraheim (RB) rating 68.65 #19
+  [GK] Ali Khaseif (GK) rating 69.13 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Majed Hassan (DMF) rating 68.23 #8
+  [LB] VACANT
+  [CB] Shahin Abdulrahman (CB) rating 70.06 #4
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Khalid Eisa (GK) rating 69.04 #17

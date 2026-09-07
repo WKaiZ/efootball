@@ -1,0 +1,12 @@
+Georges Mikautadze, CF, 96.00, False, Highlight, [CF, SS], [LWF, AMF, RWF, LMF]
+Khvicha Kvaratskhelia, LWF, 99.65, True, BigTime, [LWF, CF, SS, RWF], [LMF, AMF, RMF]
+Khvicha Kvaratskhelia, RWF, 96.98, True, Highlight, [LWF, CF, SS, RWF], [LMF, RMF]
+Giorgi Mamardashvili, GK, 95.25, False, Highlight, [GK], []
+
+Saba Lobjanidze, RWF, 73.60, True, Standard, [LWF, LMF, RWF, RMF], []
+Giorgi Chakvetadze, AMF, 74.79, False, Standard, [LWF, LMF, AMF, CMF], [CF, SS, RWF]
+Giorgi Kochorashvili, CMF, 70.27, True, Standard, [AMF, CMF, DMF], []
+Giorgi Gvelesiani, CB, 70.64, False, Standard, [CB], [DMF]
+Saba Sazonov, CB, 70.46, False, Standard, [CB], []
+Guram Giorbelidze, LB, 69.20, False, Standard, [LMF, LB], []
+Giorgi Gocholeishvili, RB, 70.46, False, Standard, [RMF, RB], [RWF]
