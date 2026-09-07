@@ -2,8 +2,8 @@ Starters:
   [CF] Denis Drăguș (CF) rating 72.30 #9
   [LWF] Florinel Coman (LWF) rating 72.82 #7
   [RWF] Dennis Man (RWF) rating 75.21 #20
-  [AMF] VACANT
-  [CMF] Alexandru Maxim (AMF) rating 74.20 #10
+  [AMF] Nicolae Stanciu (AMF) rating 74.43 #10
+  [CMF] Alexandru Maxim (AMF) rating 74.20 #19
   [DMF] Răzvan Marin (DMF) rating 73.91 #18
   [LB] Nicușor Bancu (LB) rating 72.70 #11
   [CB] Radu Drăgușin (CB) rating 74.26 #3

@@ -8,6 +8,6 @@ Alexandru Maxim, AMF, 74.20, False, Standard, [AMF, CMF, LWF, LMF], [CF, SS, RWF
 Răzvan Marin, DMF, 73.91, False, Standard, [CMF, DMF], [AMF]
 Daniel Boloca, DMF, 73.22, False, Standard, [CMF, DMF], [LMF, AMF]
 Radu Drăgușin, CB, 74.26, False, Standard, [CB], []
-Andrei Burcă, CB, 71.85, False, Standard, [CB], [DMF, RB]
+Andrei Burcă, CB, 71.85, True, Standard, [CB], [DMF, RB]
 Nicușor Bancu, LB, 72.70, False, Standard, [LMF, LB], [LWF, AMF]
 Andrei Rațiu, RB, 76.33, False, Standard, [RB], [RMF, CMF]

@@ -102,6 +102,10 @@ MANUAL_ID_OVERRIDES = {
         "ivan lopez": "370861",
         "german berterame": "401572",
     },
+    "mali": {
+        "mamadou fofana": "402004",
+        "ousmane camara": "804711",
+    },
     "uruguay": {
         "luis suarez": "44352",
         "sebastian caceres": "532389",

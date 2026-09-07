@@ -1,0 +1,25 @@
+Starters:
+  [CF] El Bilal Touré (CF) rating 74.31 #9
+  [LWF] Gaoussou Diarra (LWF) rating 70.03 #21
+  [RWF] Dorgeles Nene (RWF) rating 74.32 #7
+  [AMF] Kamory Doumbia (AMF) rating 73.22 #19
+  [CMF] Mamadou Sangaré (CMF) rating 76.72 #8
+  [DMF] Lassana Coulibaly (DMF) rating 93.00 #11
+  [LB] Massadio Haïdara (LB) rating 71.24 #6
+  [CB] Ousmane Camara (CB) rating 73.16 #5
+  [CB] Mamadou Fofana (CB) rating 72.55 #15
+  [RB] Hamari Traoré (RB) rating 94.15 #2
+  [GK] Ismael Diawara (GK) rating 71.51 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Modibo Sagnan (CB) rating 72.27 #13
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Djigui Diarra (GK) rating 71.51 #16

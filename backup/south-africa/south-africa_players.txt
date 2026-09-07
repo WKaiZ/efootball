@@ -1,0 +1,4 @@
+Lyle Foster, CF, 73.00, False, Standard, [CF, SS], [LMF]
+Olwethu Makhanya, CB, 72.03, False, Standard, [CB], []
+Siyabonga Ngezana, CB, 71.54, False, Standard, [CB], []
+Ronwen Williams, GK, 73.27, False, Standard, [GK], []

@@ -110,6 +110,10 @@ MANUAL_ID_OVERRIDES = {
         "ivan lopez": {"player_id": "370861", "preserve_name": True},
         "german berterame": {"player_id": "401572", "preserve_name": True},
     },
+    "mali": {
+        "mamadou fofana": {"player_id": "402004", "preserve_name": True},
+        "ousmane camara": {"player_id": "804711", "preserve_name": True},
+    },
     "uruguay": {
         "luis suarez": {"player_id": "44352", "preserve_name": True},
         "sebastian caceres": {"player_id": "532389", "preserve_name": True},
