@@ -1,0 +1,13 @@
+Hákon Arnar Haraldsson, LMF, 93.91, False, Highlight, [LWF, LMF, CF, RWF, LMF, CMF], [AMF, SS, DMF, RMF]
+
+Albert Gudmundsson, CF, 76.37, True, Standard, [LWF, CF, RWF, LMF, RMF, SS, AMF], [CMF]
+Mikael Anderson, LWF, 71.33, False, Standard, [LWF, LMF, CMF], [CF, SS, AMF, DMF, RWF, RMF]
+Kristian Hlynsson, AMF, 72.05, True, Standard, [AMF, CMF], [LWF, SS, RWF, RMF, DMF]
+Mikael Egill Ellertsson, CMF, 70.50, False, Standard, [LMF, CMF, RWF], [LWF, AMF, DMF, RMF, RB]
+Aron Gunnarsson, DMF, 70.93, True, Standard, [CMF, DMF, CB], [RB]
+Daníel Leó Grétarsson, CB, 69.46, False, Standard, [CB], [LB]
+Brynjar Ingi Bjarnason, CB, 68.73, False, Standard, [CB], []
+Logi Tómasson, LB, 69.34, True, Standard, [LMF, LB], [CB]
+Alfons Sampsted, RB, 70.43, False, Standard, [RB], [RMF, LB]
+Dagur Dan Thórhallsson, RB, 70.34, False, Standard, [RWF, RMF, RB, CMF], [DMF, LWF, LMF, LB]
+Elías Ólafsson, GK, 73.34, True, Standard, [GK], []

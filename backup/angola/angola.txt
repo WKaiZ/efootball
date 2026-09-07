@@ -1,0 +1,25 @@
+Starters:
+  [CF] M'Bala Nzola (CF) rating 76.10 #17
+  [LWF] André Vidigal (LWF) rating 69.96 #7
+  [RWF] Zito Luvumbo (RWF) rating 73.25 #18
+  [AMF] Fredy (AMF) rating 71.30 #16
+  [CMF] Maestro (CMF) rating 71.83 #8
+  [DMF] Show (DMF) rating 69.86 #23
+  [LB] Núrio Fortuna (LB) rating 71.55 #2
+  [CB] Clinton Mata (CB) rating 93.28 #4
+  [CB] David Carmo (CB) rating 76.03 #5
+  [RB] Eddie Afonso (RB) rating 64.71 #21
+  [GK] Neblú (GK) rating 71.63 #22
+
+Substitutes:
+  [CF] VACANT
+  [LWF] Milson (LWF) rating 69.07 #11
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Beni Mukendi (CMF) rating 71.71 #15
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

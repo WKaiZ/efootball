@@ -1,0 +1,25 @@
+Starters:
+  [CF] Joel Pohjanpalo (CF) rating 73.71 #20
+  [LWF] Robert Taylor (LWF) rating 72.62 #16
+  [RWF] Oliver Antman (RWF) rating 72.18 #7
+  [AMF] Onni Valakari (AMF) rating 74.76 #11
+  [CMF] Robin Lod (CMF) rating 71.72 #8
+  [DMF] Glen Kamara (DMF) rating 71.37 #6
+  [LB] Jere Uronen (LB) rating 71.89 #18
+  [CB] Robert Ivanov (CB) rating 69.88 #4
+  [CB] Arttu Hoskonen (CB) rating 69.81 #5
+  [RB] Nikolai Alho (RB) rating 69.43 #17
+  [GK] Lukas Hradecky (GK) rating 78.46 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Kaan Kairinen (CMF) rating 71.08 #14
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Miro Tenho (CB) rating 69.48 #15
+  [CB] VACANT
+  [RB] Adam Ståhl (RB) rating 69.18 #3
+  [GK] VACANT

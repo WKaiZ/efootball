@@ -21,6 +21,9 @@ MANUAL_ID_OVERRIDES = {
     "austria": {
         "hannes wolf": {"player_id": "321070", "preserve_name": True},
     },
+    "bolivia": {
+        "roberto fernandez": {"player_id": "598101", "preserve_name": True},
+    },
     "brazil": {
         "gabriel": {"player_id": "435338", "preserve_name": True},
         "ederson": {"player_id": "607854", "preserve_name": True},
@@ -156,6 +159,9 @@ MANUAL_ID_OVERRIDES = {
     "germany": {
         "jamie leweling": {"player_id": "518505", "preserve_name": True},
     },
+    "guinea": {
+        "sekou sylla": {"player_id": "587333", "preserve_name": True},
+    },
     "honduras": {
         "david ruiz": {"player_id": "914681", "preserve_name": True},
     },
@@ -217,6 +223,7 @@ ESPN_TEAM_NAME_ALIASES = {
     "emirates": ("United Arab Emirates", "UAE"),
     "ireland": ("Republic of Ireland",),
     "korea": ("South Korea",),
+    "north macedonia": ("Macedonia",),
     "serbia": ("Yugoslavia", "Serbia and Montenegro"),
     "turkey": ("Türkiye", "Turkiye"),
     "usa": ("United States",),

@@ -1,0 +1,25 @@
+Starters:
+  [CF] Muhsen Al-Ghassani (CF) rating 67.44 #11
+  [LWF] Al-Mandhar Al-Alawi (LWF) rating 64.02 #15
+  [RWF] Abdulrahman Al-Mushaifri (RWF) rating 65.62 #21
+  [AMF] Omar Al-Malki (AMF) rating 65.96 #9
+  [CMF] Abdullah Fawaz (CMF) rating 68.99 #12
+  [DMF] Harib Al-Saadi (DMF) rating 70.45 #23
+  [LB] Ahmed Al-Kaabi (LB) rating 69.61 #14
+  [CB] Ahmed Al-Khamisi (CB) rating 68.74 #6
+  [CB] Khalid Al-Braiki (CB) rating 68.48 #16
+  [RB] Amjad Al-Harthi (RB) rating 67.63 #13
+  [GK] Ibrahim Al-Mukhaini (GK) rating 69.08 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Arshad Al-Alawi (CMF) rating 68.52 #4
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

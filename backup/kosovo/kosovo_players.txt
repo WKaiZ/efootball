@@ -1,0 +1,13 @@
+Edon Zhegrova, AMF, 93.10, False, Highlight, [AMF, RWF, RMF], [LWF, SS, CMF]
+Amir Rrahmani, CB, 93.05, False, Highlight, [CB], [LB, RB]
+Arijanet Murić, GK, 92.28, False, Highlight, [GK], []
+
+Vedat Muriqi, CF, 77.70, False, Standard, [CF], [SS]
+Elbasan Rashani, LWF, 70.58, False, Standard, [LWF, RWF], [CF, SS, AMF, LMF, RMF]
+Milot Rashica, RWF, 74.18, False, Standard, [LWF, RWF, LMF, RMF, SS], [CF, AMF, RB]
+Donat Rrudhani, LMF, 69.16, False, Standard, [LWF, LMF, LB, RMF], [AMF, CMF, RWF]
+Valon Berisha, CMF, 71.18, False, Standard, [LWF, LMF, AMF, CMF], [DMF]
+Betim Fazliji, DMF, 67.44, False, Standard, [CB, CMF, DMF], [AMF]
+Kreshnik Hajrizi, CB, 71.41, False, Standard, [CB], [DMF, RB]
+Fidan Aliti, CB, 71.40, False, Standard, [CB], [LB]
+Mërgim Vojvoda, RB, 74.43, True, Standard, [RMF, RB], [LMF, LB, CB]

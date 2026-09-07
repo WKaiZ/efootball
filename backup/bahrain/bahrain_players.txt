@@ -1,0 +1,6 @@
+Mahdi Abduljabbar, CF, 67.96, False, Standard, [CF], [SS]
+Ismail Abdullatif H, CF, 67.38, False, Standard, [CF, SS], [LWF, RWF, LMF, AMF, RMF]
+Mohamed Al Romaihi, CF, 67.13, False, Standard, [CF], [SS]
+Mahdi Al Humaidan, LWF, 68.43, False, Standard, [LWF, SS], [CF, RWF, RMF, LMF]
+Mohamed Marhoon, LWF, 68.19, False, Standard, [LWF, LMF, AMF, RWF, RMF], [RB, CMF]
+Ali Madan, RWF, 69.08, False, Standard, [RWF, RMF], [LWF, RB]

@@ -21,6 +21,9 @@ MANUAL_ID_OVERRIDES = {
     "austria": {
         "hannes wolf": "321070",
     },
+    "bolivia": {
+        "roberto fernandez": "598101",
+    },
     "brazil": {
         "gabriel": "435338",
         "ederson": "607854",
@@ -147,6 +150,9 @@ MANUAL_ID_OVERRIDES = {
     },
     "germany": {
         "jamie leweling": "518505",
+    },
+    "guinea": {
+        "sekou sylla": "587333",
     },
     "honduras": {
         "david ruiz": "914681",

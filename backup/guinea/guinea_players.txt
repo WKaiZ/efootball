@@ -1,0 +1,12 @@
+Serhou Guirassy, CF, 95.97, False, Highlight, [CF, SS], [LWF, RWF]
+Ilaix Moriba, CMF, 94.33, False, Highlight, [CMF], [AMF, DMF]
+
+Aliou Baldé, LWF, 69.72, False, Standard, [LWF, RWF], [LMF, RMF]
+Morgan Guilavogui, RWF, 72.36, False, Standard, [LWF, CF, RWF], [SS, AMF, LMF, RMF]
+Yadaly Diaby, RWF, 68.30, False, Standard, [AMF, RWF], [CF, SS, CMF, RMF]
+Abdoulaye Touré, DMF, 73.51, False, Standard, [CMF, DMF], [CB]
+Mouctar Diakhaby, CB, 73.65, False, Standard, [CMF, DMF, CB], []
+Saïdou Sow, CB, 70.98, False, Standard, [CB], []
+Sekou Sylla, LB, 68.04, True, Standard, [LB], [LMF, CMF, RB]
+Ibrahim Diakité, RB, 68.43, False, Standard, [CB, RB], [LB, LMF]
+Ibrahim Koné, GK, 66.60, False, Standard, [GK], []

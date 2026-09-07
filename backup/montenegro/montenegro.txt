@@ -1,0 +1,25 @@
+Starters:
+  [CF] Nikola Krstović (CF) rating 93.21 #9
+  [LWF] Viktor Djukanovic (LWF) rating 69.33 #22
+  [RWF] Andrija Radulovic (RWF) rating 70.35 #21
+  [AMF] Vasilije Adžić (AMF) rating 70.02 #17
+  [CMF] Marko Jankovic (CMF) rating 71.48 #10
+  [DMF] Nebojsa Kosovic (CMF) rating 71.28 #18
+  [LB] Adam Marusic (LB) rating 94.19 #23
+  [CB] Stefan Savić (CB) rating 75.59 #15
+  [CB] Igor Vujacic (CB) rating 73.04 #5
+  [RB] Filip Stojkovic (RB) rating 70.63 #2
+  [GK] Lazar Carević (GK) rating 72.51 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] Driton Camaj (LWF) rating 69.25 #8
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Marko Vukcevic (RB) rating 70.61 #4
+  [GK] VACANT

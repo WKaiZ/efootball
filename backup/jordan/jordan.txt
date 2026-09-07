@@ -1,0 +1,25 @@
+Starters:
+  [CF] Yazan Al-Naimat (CF) rating 70.04 #11
+  [LWF] Mahmoud Al-Mardi (LWF) rating 69.22 #13
+  [RWF] Mohammad Abu Zrayq (RWF) rating 66.89 #7
+  [AMF] Yousef Qashi (AMF) rating 66.94 #26
+  [CMF] Noor Al-Rawabdeh (CMF) rating 70.73 #8
+  [DMF] Nizar Al-Rashdan (DMF) rating 69.66 #21
+  [LB] Mohammad Abu Ghoush (LB) rating 67.94 #18
+  [CB] Yazan Al-Arab (CB) rating 71.42 #5
+  [CB] Abdallah Nasib (CB) rating 68.88 #3
+  [RB] Ehsan Haddad (RB) rating 68.15 #23
+  [GK] Yazeed Abulaila (GK) rating 68.66 #1
+
+Substitutes:
+  [CF] Ahmed Israiwah (AMF) rating 66.10 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Saleh Ratib (AMF) rating 66.64 #16
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Mohammad Abu Hasheesh (LB) rating 67.57 #2
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

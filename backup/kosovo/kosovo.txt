@@ -1,0 +1,25 @@
+Starters:
+  [CF] Vedat Muriqi (CF) rating 77.70 #18
+  [LWF] Elbasan Rashani (LWF) rating 70.58 #11
+  [RWF] Milot Rashica (RWF) rating 74.18 #7
+  [AMF] Edon Zhegrova (AMF) rating 93.10 #10
+  [CMF] Valon Berisha (CMF) rating 71.18 #14
+  [DMF] Betim Fazliji (DMF) rating 67.44 #5
+  [LB] Donat Rrudhani (LMF) rating 69.16 #21
+  [CB] Amir Rrahmani (CB) rating 93.05 #13
+  [CB] Kreshnik Hajrizi (CB) rating 71.41 #2
+  [RB] Mërgim Vojvoda (RB) rating 74.43 #15
+  [GK] Arijanet Murić (GK) rating 92.28 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Fidan Aliti (CB) rating 71.40 #3
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

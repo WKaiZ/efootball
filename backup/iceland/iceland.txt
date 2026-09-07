@@ -1,0 +1,25 @@
+Starters:
+  [CF] Hákon Arnar Haraldsson (LMF) rating 93.91 #7
+  [LWF] Mikael Anderson (LWF) rating 71.33 #18
+  [RWF] Albert Gudmundsson (CF) rating 76.37 #11
+  [AMF] Kristian Hlynsson (AMF) rating 72.05 #20
+  [CMF] Mikael Egill Ellertsson (CMF) rating 70.50 #19
+  [DMF] Aron Gunnarsson (DMF) rating 70.93 #17
+  [LB] Logi Tómasson (LB) rating 69.34 #2
+  [CB] Daníel Leó Grétarsson (CB) rating 69.46 #3
+  [CB] Brynjar Ingi Bjarnason (CB) rating 68.73 #4
+  [RB] Alfons Sampsted (RB) rating 70.43 #6
+  [GK] Elías Ólafsson (GK) rating 73.34 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Dagur Dan Thórhallsson (RB) rating 70.34 #15
+  [GK] VACANT

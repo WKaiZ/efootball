@@ -1,0 +1,25 @@
+Starters:
+  [CF] Dor Turgeman (CF) rating 74.57 #9
+  [LWF] Manor Solomon (LWF) rating 75.08 #10
+  [RWF] Liel Abada (RWF) rating 73.52 #11
+  [AMF] Gabi Kanichowsky (AMF) rating 72.46 #16
+  [CMF] Dan Glazer (DMF) rating 71.59 #6
+  [DMF] Dor Peretz (DMF) rating 71.81 #8
+  [LB] Roy Revivo (LB) rating 71.28 #3
+  [CB] Raz Shlomo (CB) rating 73.35 #4
+  [CB] Idan Nachmias (CB) rating 71.08 #5
+  [RB] Ilay Feingold (RB) rating 72.36 #2
+  [GK] Daniel Peretz (GK) rating 72.59 #1
+
+Substitutes:
+  [CF] Tai Baribo (CF) rating 74.42 #20
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Neta Lavi (DMF) rating 71.39 #12
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
