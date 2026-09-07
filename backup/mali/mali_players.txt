@@ -1,0 +1,6 @@
+Lassana Coulibaly, DMF, 93.00, False, Highlight, [AMF, CMF, DMF], [LMF, RMF]
+Hamari Traore, RB, 94.15, False, Highlight, [RB], [RWF, RMF, LB]
+
+El Bilal Toura, CF, 74.31, False, Standard, [CF, LWF], [SS, RWF, LMF]
+Nene Dorgeles, RWF, 74.32, False, Standard, [RWF, RMF, CF, SS, LWF, LMF], []
+Mamadou Sangare, CMF, 76.72, False, Standard, [AMF, CMF], [SS, DMF, RMF]
