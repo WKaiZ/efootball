@@ -1,0 +1,25 @@
+Starters:
+  [CF] Aleksandar Kolev (CF) rating 72.47 #9
+  [LWF] Radoslav Kirilov (LWF) rating 67.30 #7
+  [RWF] Kiril Despodov (RWF) rating 74.41 #11
+  [AMF] Georgi Milanov (AMF) rating 71.07 #17
+  [CMF] Ivaylo Chochev (CMF) rating 70.55 #18
+  [DMF] Ilia Gruev (DMF) rating 73.01 #4
+  [LB] Fabian Nürnberger (LB) rating 70.24 #5
+  [CB] Valentin Antov (CB) rating 72.48 #6
+  [CB] Simeon Petrov (CB) rating 70.61 #15
+  [RB] Viktor Popov (RB) rating 68.50 #2
+  [GK] Dimitar Mitov (GK) rating 71.10 #1
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Filip Krastev (AMF) rating 71.00 #14
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

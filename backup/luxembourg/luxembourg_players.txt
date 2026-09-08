@@ -1,0 +1,7 @@
+Danel Sinani, SS, 70.28, False, Standard, [SS, AMF, LWF, RWF], [CF, CMF, LMF, RMF]
+Diego Duarte, RMF, 63.05, False, Standard, [CMF, AMF, RMF], [LWF, RWF, CF, SS, DMF]
+Leandro Barreiro, CMF, 73.30, False, Standard, [AMF, CMF, DMF], []
+Mathias Olesen, DMF, 69.46, False, Standard, [CMF, DMF], [AMF, CB]
+Seid Korac, CB, 67.19, False, Standard, [CB], [RB]
+Laurent Jans, RB, 67.38, False, Standard, [RB], [LB, CB, RMF]
+Tiago Pereira, GK, 64.93, False, Standard, [GK], []

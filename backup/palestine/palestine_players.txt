@@ -1,0 +1,12 @@
+Oday Dabbagh, CF, 72.08, False, Standard, [LWF, CF, RWF], [SS, RMF]
+Tamer Seyam, LWF, 68.14, False, Standard, [LWF, LMF], [CF, RWF, RMF]
+Mahmoud Abu Warda, RWF, 66.17, False, Standard, [RWF], [LWF, LMF, AMF, RMF]
+Moustafa Zeidan, AMF, 69.89, False, Standard, [AMF, CMF], [SS, DMF]
+Mohammed Rashid, CMF, 68.03, False, Standard, [CMF, DMF], [AMF]
+Oday Kharoub, DMF, 65.69, False, Standard, [DMF], [CMF, AMF]
+Muhamad Darwish, DMF, 65.09, False, Standard, [DMF], [CMF]
+Yaser Hamed, CB, 68.84, False, Standard, [CB], []
+Michel Termanini, CB, 66.92, False, Standard, [CB], []x
+Camilo Saldana, LB, 67.44, False, Standard, [LB], [LMF]
+Mus ab Al Battat, RB, 65.83, False, Standard, [RB], [CB, RMF]
+Rami Hamadeh, GK, 67.92, False, Standard, [GK], []

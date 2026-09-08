@@ -81,6 +81,9 @@ MANUAL_ID_OVERRIDES = {
         "carlos palacios": "571219",
         "marcelo morales": "841340",
     },
+    "china": {
+        "serginho": "329013",
+    },
     "italy": {
         "luca pellegrini": "346567",
     },
