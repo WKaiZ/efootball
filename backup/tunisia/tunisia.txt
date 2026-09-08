@@ -10,16 +10,3 @@ Starters:
   [CB] Yassine Meriah (CB) rating 71.71 #4
   [RB] Yan Valery (RB) rating 70.95 #20
   [GK] Aymen Dahmen (GK) rating 71.51 #16
-
-Substitutes:
-  [CF] Seifeddine Jaziri (CF) rating 70.02 #11
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Oussama Haddadi (CB) rating 71.34 #15
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

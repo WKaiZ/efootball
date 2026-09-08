@@ -10,16 +10,3 @@ Starters:
   [CB] Idan Nachmias (CB) rating 71.08 #5
   [RB] Ilay Feingold (RB) rating 72.36 #2
   [GK] Daniel Peretz (GK) rating 72.59 #1
-
-Substitutes:
-  [CF] Tai Baribo (CF) rating 74.42 #20
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Neta Lavi (DMF) rating 71.39 #12
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

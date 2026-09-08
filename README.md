@@ -89,7 +89,7 @@ For **contenders**, a second formation may be listed after a blank line. The fir
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass).
+The drafted gameplan written by `draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass). Nations under `backup/` render only their starters. Full squads always include a Wildcard section, showing `[WILD] VACANT` when no card is available.
 
 ---
 

@@ -10,16 +10,3 @@ Starters:
   [CB] Arttu Hoskonen (CB) rating 69.81 #5
   [RB] Nikolai Alho (RB) rating 69.43 #17
   [GK] Lukas Hradecky (GK) rating 78.46 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] Kaan Kairinen (CMF) rating 71.08 #14
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Miro Tenho (CB) rating 69.48 #15
-  [CB] VACANT
-  [RB] Adam Ståhl (RB) rating 69.18 #3
-  [GK] VACANT

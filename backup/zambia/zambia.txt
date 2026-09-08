@@ -1,0 +1,12 @@
+Starters:
+  [CF] Patson Daka (CF) rating 74.30 #20
+  [LWF] Lameck Banda (LWF) rating 74.07 #9
+  [RWF] Fashion Sakala (RWF) rating 73.74 #10
+  [AMF] Wilson Chisala (AMF) rating 66.01 #12
+  [CMF] Kings Kangwa (CMF) rating 69.69 #17
+  [DMF] Benson Sakala (DMF) rating 67.83 #6
+  [LB] Lubambo Musonda (LB) rating 68.52 #8
+  [CB] Stoppila Sunzu (CB) rating 71.32 #13
+  [CB] Kabaso Chongo (CB) rating 69.30 #14
+  [RB] Mathews Banda (RB) rating 63.97 #2
+  [GK] Lawrence Mulenga (GK) rating 66.54 #16

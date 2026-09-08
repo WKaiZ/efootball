@@ -10,16 +10,3 @@ Starters:
   [CB] Aaron Appindangoyé (CB) rating 70.66 #2
   [RB] Anthony Oyono (RB) rating 70.23 #3
   [GK] Loyce Mbaba (GK) rating 68.82 #23
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Jim Allevinah (RWF) rating 71.18 #11
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Michel Mboula (CB) rating 70.24 #6
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

@@ -1,0 +1,12 @@
+Starters:
+  [CF] Oday Dabbagh (CF) rating 72.08 #11
+  [LWF] Tamer Seyam (LWF) rating 68.14 #9
+  [RWF] Mahmoud Abu Warda (RWF) rating 66.17 #10
+  [AMF] Moustafa Zeidan (AMF) rating 69.89 #23
+  [CMF] Mohammed Rashid (CMF) rating 68.03 #3
+  [DMF] Oday Kharoub (DMF) rating 65.69 #6
+  [LB] Camilo Saldaña (LB) rating 67.44 #12
+  [CB] Yaser Hamed (CB) rating 68.84 #4
+  [CB] Michel Termanini (CB) rating 66.92 #15
+  [RB] Mus'ab Al-Batat (RB) rating 65.83 #7
+  [GK] Rami Hamadeh (GK) rating 67.92 #22

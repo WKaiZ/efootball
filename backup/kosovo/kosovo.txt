@@ -10,16 +10,3 @@ Starters:
   [CB] Kreshnik Hajrizi (CB) rating 71.41 #2
   [RB] Mërgim Vojvoda (RB) rating 74.43 #15
   [GK] Arijanet Murić (GK) rating 92.28 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Fidan Aliti (CB) rating 71.40 #3
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

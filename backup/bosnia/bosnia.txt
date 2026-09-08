@@ -10,16 +10,3 @@ Starters:
   [CB] Anel Ahmedhodzic (CB) rating 74.36 #3
   [RB] Amar Dedic (RB) rating 74.78 #7
   [GK] Vladan Kovacevic (GK) rating 73.61 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

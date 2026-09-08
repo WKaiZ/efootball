@@ -10,16 +10,3 @@ Starters:
   [CB] Mamadou Fofana (CB) rating 72.55 #15
   [RB] Hamari Traoré (RB) rating 94.15 #2
   [GK] Ismael Diawara (GK) rating 71.51 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Modibo Sagnan (CB) rating 72.27 #13
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Djigui Diarra (GK) rating 71.51 #16

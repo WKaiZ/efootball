@@ -10,16 +10,3 @@ Starters:
   [CB] Igor Vujacic (CB) rating 73.04 #5
   [RB] Filip Stojkovic (RB) rating 70.63 #2
   [GK] Lazar Carević (GK) rating 72.51 #12
-
-Substitutes:
-  [CF] VACANT
-  [LWF] Driton Camaj (LWF) rating 69.25 #8
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] Marko Vukcevic (RB) rating 70.61 #4
-  [GK] VACANT

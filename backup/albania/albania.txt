@@ -10,16 +10,3 @@ Starters:
   [CB] Adrian Bajrami (CB) rating 72.25 #6
   [RB] Iván Balliu (RB) rating 71.21 #2
   [GK] Alen Sherri (GK) rating 70.67 #1
-
-Substitutes:
-  [CF] Myrto Uzuni (CF) rating 74.49 #11
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

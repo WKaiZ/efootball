@@ -1,0 +1,12 @@
+Starters:
+  [CF] Wilson Isidor (CF) rating 92.88 #18
+  [LWF] Derrick Etienne Jr. (LWF) rating 71.89 #7
+  [RWF] Josué Casimir (RWF) rating 72.01 #21
+  [AMF] VACANT
+  [CMF] Jean-Ricner Bellegarde (CMF) rating 74.28 #10
+  [DMF] Danley Jean Jacques (CMF) rating 72.36 #17
+  [LB] VACANT
+  [CB] Hannes Delcroix (CB) rating 72.16 #5
+  [CB] Wilguens Paugain (RB) rating 65.38 #24
+  [RB] Carlens Arcus (RB) rating 71.56 #2
+  [GK] Alexandre Pierre (GK) rating 66.83 #12

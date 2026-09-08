@@ -165,6 +165,10 @@ MANUAL_ID_OVERRIDES = {
     "guinea": {
         "sekou sylla": {"player_id": "587333", "preserve_name": True},
     },
+    "guatemala": {
+        "antonio lopez": {"player_id": "599909", "preserve_name": True},
+        "jose morales": {"player_id": "354673", "preserve_name": True},
+    },
     "honduras": {
         "david ruiz": {"player_id": "914681", "preserve_name": True},
     },

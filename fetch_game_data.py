@@ -157,6 +157,10 @@ MANUAL_ID_OVERRIDES = {
     "guinea": {
         "sekou sylla": "587333",
     },
+    "guatemala": {
+        "antonio lopez": "599909",
+        "jose morales": "354673",
+    },
     "honduras": {
         "david ruiz": "914681",
     },

@@ -45,14 +45,17 @@ Starters:
   [GK] Matt Freese (GK) rating 74.12 #24
 
 Substitutes:
-  [CF] Brandon Vazquez (CF) rating 74.84 #19
-  [LWF] Diego Luna (LMF) rating 76.32 #14
-  [RWF] Timothy Weah (RMF) rating 75.09 #21
+  [CF] Haji Wright (CF) rating 74.61 #19
+  [LWF] Jesús Ferreira (SS) rating 73.71 #9
+  [RWF] Bernard Kamungo (RWF) rating 71.22 #17
   [AMF] Jack McGlynn (CMF) rating 74.18 #12
   [CMF] Yunus Musah (CMF) rating 74.52 #18
-  [DMF] VACANT
-  [LB] Daniel Lovitz (LB) rating 72.62 #5
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  [DMF] Emeka Eneli (DMF) rating 72.53 #14
+  [LB] Max Arfsten (LMF) rating 71.11 #27
+  [CB] Walker Zimmerman (CB) rating 73.93 #5
+  [CB] Mark McKenzie (CB) rating 73.73 #4
+  [RB] Alex Freeman (RB) rating 73.02 #16
+  [GK] Gabriel Slonina (GK) rating 73.63 #21
+
+Wildcard:
+  [WILD] Matt Miazga (CB) rating 73.69 #3

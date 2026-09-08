@@ -10,16 +10,3 @@ Starters:
   [CB] Andrei Burcă (CB) rating 71.85 #15
   [RB] Andrei Rațiu (RB) rating 76.33 #2
   [GK] Ionuț Radu (GK) rating 92.89 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Daniel Boloca (DMF) rating 73.22 #14
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

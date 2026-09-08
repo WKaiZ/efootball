@@ -10,16 +10,3 @@ Starters:
   [CB] Khalid Al-Braiki (CB) rating 68.48 #16
   [RB] Amjad Al-Harthi (RB) rating 67.63 #13
   [GK] Ibrahim Al-Mukhaini (GK) rating 69.08 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] Arshad Al-Alawi (CMF) rating 68.52 #4
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

@@ -10,16 +10,3 @@ Starters:
   [CB] Lucas Pimenta (CB) rating 70.66 #3
   [RB] Khaled Ebraheim (RB) rating 68.65 #19
   [GK] Ali Khaseif (GK) rating 69.13 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Majed Hassan (DMF) rating 68.23 #8
-  [LB] VACANT
-  [CB] Shahin Abdulrahman (CB) rating 70.06 #4
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Khalid Eisa (GK) rating 69.04 #17

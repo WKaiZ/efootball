@@ -1,0 +1,12 @@
+Starters:
+  [CF] Rubio Rubín (CF) rating 71.29 #9
+  [LWF] Antonio López (AMF) rating 66.79 #10
+  [RWF] Nathaniel Méndez-Laing (RWF) rating 69.64 #11
+  [AMF] Olger Escobar (AMF) rating 67.47 #20
+  [CMF] Stheven Robles (CMF) rating 65.77 #13
+  [DMF] Jonathan Franco (DMF) rating 64.25 #22
+  [LB] José Morales (LB) rating 65.55 #16
+  [CB] José Carlos Pinto (CB) rating 68.32 #4
+  [CB] Nicolás Samayoa (CB) rating 68.18 #3
+  [RB] Aarón Herrera (RB) rating 72.60 #7
+  [GK] Nicholas Hagen (GK) rating 70.54 #1

@@ -10,16 +10,3 @@ Starters:
   [CB] David Brekalo (CB) rating 72.57 #23
   [RB] Petar Stojanović (RB) rating 71.23 #20
   [GK] Jan Oblak (GK) rating 95.94 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Adrian Zeljkovic (DMF) rating 71.17 #26
-  [LB] VACANT
-  [CB] Vanja Drkusic (CB) rating 72.09 #21
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

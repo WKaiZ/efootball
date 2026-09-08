@@ -33,9 +33,9 @@ Second Squad
 
 Starters:
   [CF] Kylian Mbappé (CF) rating 99.17 #10
-  [LWF] Ousmane Dembélé (RWF) rating 99.92 #7
-  [RMF] Désiré Doué (SS) rating 97.33 #20
-  [AMF] Michael Olise (AMF) rating 98.26 #11
+  [LMF] Franck Ribéry (LMF) rating 99.90 #22
+  [RWF] Ousmane Dembélé (RWF) rating 99.92 #7
+  [SS] Antoine Griezmann (SS) rating 97.99 #11
   [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Lucas Hernández (LB) rating 94.06 #21
@@ -46,9 +46,9 @@ Starters:
 
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LWF] Florian Thauvin (SS) rating 93.97 #12
-  [RMF] Franck Ribéry (AMF) rating 93.24 #22
-  [AMF] Eduardo Camavinga (AMF) rating 95.33 #6
+  [LMF] Dimitri Payet (AMF) rating 73.74 #24
+  [RWF] Florian Thauvin (RWF) rating 94.33 #12
+  [SS] Désiré Doué (SS) rating 97.33 #20
   [CMF] Adrien Rabiot (CMF) rating 95.00 #14
   [DMF] Boubacar Kamara (DMF) rating 95.46 #19
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
@@ -56,3 +56,6 @@ Substitutes:
   [CB] Jules Koundé (CB) rating 95.26 #5
   [RB] Jonathan Clauss (RB) rating 93.04 #3
   [GK] Robin Risser (GK) rating 94.39 #23
+
+Wildcard:
+  [WILD] Eduardo Camavinga (AMF) rating 95.33 #6

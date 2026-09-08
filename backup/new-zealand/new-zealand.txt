@@ -1,0 +1,12 @@
+Starters:
+  [CF] Chris Wood (CF) rating 94.97 #9
+  [LWF] Jesse Randall (LWF) rating 69.05 #21
+  [RWF] Logan Rogerson (RWF) rating 69.55 #7
+  [AMF] Elijah Just (AMF) rating 72.37 #11
+  [CMF] Ryan Thomas (CMF) rating 70.17 #23
+  [DMF] Joe Bell (DMF) rating 72.32 #6
+  [LB] Liberato Cacace (LB) rating 71.47 #13
+  [CB] Finn Surman (CB) rating 73.01 #16
+  [CB] Michael Boxall (CB) rating 71.36 #5
+  [RB] Tim Payne (RB) rating 70.54 #2
+  [GK] Max Crocombe (GK) rating 71.63 #1

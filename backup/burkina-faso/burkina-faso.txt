@@ -10,16 +10,3 @@ Starters:
   [CB] Adamo Nagalo (CB) rating 73.46 #4
   [RB] Issa Kaboré (RB) rating 74.08 #9
   [GK] Hervé Koffi (GK) rating 75.66 #16
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Bertrand Traoré (RWF) rating 72.36 #10
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Gustavo Sangaré (DMF) rating 69.05 #17
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

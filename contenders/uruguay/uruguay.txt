@@ -35,7 +35,7 @@ Starters:
   [CF] Diego Forlán (CF) rating 98.33 #10
   [LWF] Maximiliano Araujo (LMF) rating 93.96 #20
   [RWF] Cristian Olivera (RWF) rating 73.66 #17
-  [AMF] VACANT
+  [AMF] Wiston Fernández (AMF) rating 69.19 #7
   [CMF] Gabriel Neves (CMF) rating 74.04 #18
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Mathías Olivera (LB) rating 94.22 #16
@@ -49,13 +49,14 @@ Substitutes:
   [LWF] Diego Rossi (SS) rating 74.68 #9
   [RWF] Matías Abaldo (RWF) rating 73.49 #22
   [AMF] VACANT
-  [CMF] VACANT
+  [CMF] Emiliano Martinez (DMF) rating 73.32 #15
   [DMF] Mauro Arambarri (DMF) rating 76.15 #5
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
+  [LB] Juan Manuel Sanabria (LB) rating 73.70 #25
+  [CB] Sebastián Boselli (CB) rating 73.41 #29
+  [CB] Federico Ricca (CB) rating 73.07 #2
   [RB] Giovanni González (RB) rating 73.17 #13
-  [GK] VACANT
+  [GK] Franco Israel (GK) rating 72.64 #12
 
 Wildcard:
   [WILD] Federico Viñas (CF) rating 74.11 #21
+  [WILD] Mauricio Lemos (CB) rating 72.39 #4

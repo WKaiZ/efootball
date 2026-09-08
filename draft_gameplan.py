@@ -8,7 +8,7 @@ from gameplan.constants import DB_PATH
 from gameplan.data import load_roles, load_formations, resolve_country_paths
 
 
-def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
+def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False):
     lines = []
     lines.append("Starters:")
     for slot, a in zip(slots, starter_asg):
@@ -18,6 +18,9 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
             lines.append(
                 f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
             )
+
+    if starters_only:
+        return lines
 
     lines.append("")
     lines.append("Substitutes:")
@@ -29,9 +32,11 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots):
                 f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
             )
 
-    if wildcard_asgs:
-        lines.append("")
-        lines.append("Wildcard:")
+    lines.append("")
+    lines.append("Wildcard:")
+    if not wildcard_asgs:
+        lines.append("  [WILD] VACANT")
+    else:
         for a in wildcard_asgs:
             lines.append(
                 f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
@@ -57,9 +62,13 @@ def _exclude_cards(roles_by_pos, used_cards):
     return filtered
 
 
-def _is_contender(out_path):
+def _country_group(out_path):
     country_dir = os.path.dirname(os.path.abspath(out_path))
-    return os.path.basename(os.path.dirname(country_dir)) == "contenders"
+    return os.path.basename(os.path.dirname(country_dir))
+
+
+def _is_contender(out_path):
+    return _country_group(out_path) == "contenders"
 
 
 def main():
@@ -101,7 +110,10 @@ def main():
             lines.append("")
             lines.extend(format_squad(starter_asg2, sub_asg2, wildcard_asgs2, second_slots))
         else:
-            lines = format_squad(starter_asg, sub_asg, wildcard_asgs, primary_formation)
+            lines = format_squad(
+                starter_asg, sub_asg, wildcard_asgs, primary_formation,
+                starters_only=_country_group(out_path) == "backup",
+            )
 
         text = "\n".join(lines) + "\n"
         print(text, end="")

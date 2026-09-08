@@ -1,0 +1,12 @@
+Starters:
+  [CF] VACANT
+  [LWF] Danel Sinani (SS) rating 70.28 #10
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Leandro Barreiro (CMF) rating 73.30 #16
+  [DMF] Mathias Olesen (DMF) rating 69.46 #19
+  [LB] VACANT
+  [CB] Seid Korac (CB) rating 67.19 #2
+  [CB] VACANT
+  [RB] Laurent Jans (RB) rating 67.38 #18
+  [GK] Tiago Pereira Cardoso (GK) rating 64.93 #1

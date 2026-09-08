@@ -10,16 +10,3 @@ Starters:
   [CB] Siyabonga Ngezana (CB) rating 71.54 #21
   [RB] Khuliso Mudau (RB) rating 70.54 #20
   [GK] Ronwen Williams (GK) rating 73.27 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Percy Tau (RWF) rating 71.11 #19
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

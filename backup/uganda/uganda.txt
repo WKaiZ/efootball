@@ -1,0 +1,12 @@
+Starters:
+  [CF] Uche Ikpeazu (CF) rating 69.54 #9
+  [LWF] Melvyn Lorenzen (LWF) rating 69.80 #27
+  [RWF] Shafik Nana Kwikiriza (RWF) rating 65.28 #25
+  [AMF] Allan Okello (AMF) rating 68.46 #21
+  [CMF] Bobosi Byaruhanga (CMF) rating 67.43 #6
+  [DMF] Baba Alhassan (DMF) rating 67.77 #12
+  [LB] Jordan Obita (LB) rating 70.47 #15
+  [CB] Elio Capradossi (CB) rating 70.62 #13
+  [CB] Toby Sibbick (CB) rating 70.19 #5
+  [RB] VACANT
+  [GK] Denis Onyango (GK) rating 68.61 #18

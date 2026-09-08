@@ -10,16 +10,3 @@ Starters:
   [CB] Marcelo Santos (CB) rating 68.45 #3
   [RB] Andy Nájar (RB) rating 72.47 #14
   [GK] Edrick Menjívar (GK) rating 69.01 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Luis Vega (CB) rating 68.14 #4
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

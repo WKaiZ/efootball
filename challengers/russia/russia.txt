@@ -23,3 +23,6 @@ Substitutes:
   [CB] VACANT
   [RB] VACANT
   [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

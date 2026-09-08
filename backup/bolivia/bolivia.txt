@@ -10,16 +10,3 @@ Starters:
   [CB] Efraín Morales (CB) rating 70.53 #5
   [RB] Diego Medina (RB) rating 68.68 #3
   [GK] Guillermo Viscarra (GK) rating 72.26 #23
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] Carlos Melgar (AMF) rating 70.10 #20
-  [CMF] Gabriel Villamíl (CMF) rating 69.23 #15
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

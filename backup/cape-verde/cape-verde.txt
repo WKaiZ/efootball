@@ -10,16 +10,3 @@ Starters:
   [CB] Ivanildo Fernandes (CB) rating 69.18 #14
   [RB] Steven Moreira (RB) rating 73.46 #22
   [GK] Vozinha (GK) rating 96.99 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Fabrício Garcia (RWF) rating 69.26 #17
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

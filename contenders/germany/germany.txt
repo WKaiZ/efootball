@@ -33,7 +33,7 @@ Second Squad
 
 Starters:
   [CF] Gerd Müller (CF) rating 99.05 #13
-  [LMF] Florian Wirtz (LMF) rating 96.96 #17
+  [LWF] Kevin Schade (LWF) rating 94.09 #14
   [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Jamal Musiala (AMF) rating 97.02 #10
   [CMF] Nadiem Amiri (CMF) rating 93.48 #20
@@ -41,23 +41,21 @@ Starters:
   [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
   [CB] Joshua Kimmich (CB) rating 95.94 #6
   [CB] Robert Andrich (CB) rating 94.99 #8
-  [RB] VACANT
+  [RB] Jonas Hofmann (AMF) rating 94.03 #17
   [GK] Kevin Trapp (GK) rating 94.34 #12
 
 Substitutes:
   [CF] Miroslav Klose (CF) rating 97.85 #11
-  [LMF] David Raum (LMF) rating 93.96 #22
-  [RWF] Kai Havertz (AMF) rating 95.17 #7
+  [LWF] Timo Werner (LWF) rating 75.06 #9
+  [RWF] Florian Wirtz (LMF) rating 96.96 #7
   [AMF] Thomas Müller (AMF) rating 95.36 #25
-  [CMF] Angelo Stiller (DMF) rating 95.29 #16
-  [DMF] Lothar Matthäus (DMF) rating 96.95 #14
-  [LB] VACANT
+  [CMF] İlkay Gündoğan (CMF) rating 77.18 #21
+  [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
+  [LB] David Raum (LMF) rating 93.96 #22
   [CB] Malick Thiaw (CB) rating 94.99 #24
   [CB] Waldemar Anton (CB) rating 94.38 #3
-  [RB] Robin Koch (CB) rating 93.57 #2
+  [RB] Thilo Kehrer (CB) rating 76.98 #15
   [GK] Oliver Baumann (GK) rating 94.22 #1
 
 Wildcard:
-  [WILD] Franz Beckenbauer (DMF) rating 96.90 #5
-  [WILD] Deniz Undav (CF) rating 94.96 #26
-  [WILD] Anton Stach (DMF) rating 93.14 #4
+  [WILD] Angelo Stiller (DMF) rating 95.29 #16

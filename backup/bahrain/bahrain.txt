@@ -10,16 +10,3 @@ Starters:
   [CB] Waleed Al-Hayyam (CB) rating 68.15 #3
   [RB] Mohamed Adel (RB) rating 66.20 #18
   [GK] Ebrahim Lutfalla (GK) rating 67.43 #22
-
-Substitutes:
-  [CF] Ismail Abdullatif (CF) rating 67.38 #11
-  [LWF] Mohamed Marhoon (LWF) rating 68.19 #8
-  [RWF] Mohamed Al-Romaihi (CF) rating 67.13 #13
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

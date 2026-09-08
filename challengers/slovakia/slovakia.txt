@@ -23,3 +23,6 @@ Substitutes:
   [CB] Ivan Mesik (CB) rating 69.63 #3
   [RB] VACANT
   [GK] Martin Dúbravka (GK) rating 75.61 #1
+
+Wildcard:
+  [WILD] VACANT

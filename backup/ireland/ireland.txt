@@ -10,16 +10,3 @@ Starters:
   [CB] Dara O'Shea (CB) rating 74.02 #5
   [RB] Matt Doherty (RB) rating 75.02 #2
   [GK] Caoimhín Kelleher (GK) rating 94.38 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] Kevin O'Toole (LB) rating 72.20 #13
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

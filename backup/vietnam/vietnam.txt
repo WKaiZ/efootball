@@ -1,0 +1,12 @@
+Starters:
+  [CF] Van Toan Nguyen (CF) rating 67.49 #9
+  [LWF] Van Duc Phan (LWF) rating 68.27 #20
+  [RWF] Van Dat Tran (LWF) rating 62.56 #29
+  [AMF] Quang Hai Nguyen (AMF) rating 67.61 #19
+  [CMF] Cong Hoang Anh Ly (CMF) rating 66.23 #8
+  [DMF] Tuan Anh Nguyen (DMF) rating 66.74 #11
+  [LB] Phong Hong Duy Nguyen (LB) rating 68.33 #7
+  [CB] Hoang Viet Anh Bui (CB) rating 67.77 #12
+  [CB] Dinh Trong Tran (CB) rating 66.90 #6
+  [RB] Van Thanh Vu (RB) rating 67.63 #17
+  [GK] Filip Nguyen (GK) rating 70.53 #1

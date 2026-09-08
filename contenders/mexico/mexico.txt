@@ -50,9 +50,12 @@ Substitutes:
   [RWF] VACANT
   [AMF] VACANT
   [CMF] VACANT
-  [DMF] VACANT
+  [DMF] Jonathan González (DMF) rating 69.98 #6
   [LB] VACANT
   [CB] VACANT
   [CB] VACANT
   [RB] VACANT
-  [GK] VACANT
+  [GK] Álex Padilla (GK) rating 71.10 #26
+
+Wildcard:
+  [WILD] VACANT

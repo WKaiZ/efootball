@@ -10,16 +10,3 @@ Starters:
   [CB] Abdallah Nasib (CB) rating 68.88 #3
   [RB] Ehsan Haddad (RB) rating 68.15 #23
   [GK] Yazeed Abulaila (GK) rating 68.66 #1
-
-Substitutes:
-  [CF] Ahmed Israiwah (AMF) rating 66.10 #9
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] Saleh Ratib (AMF) rating 66.64 #16
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] Mohammad Abu Hasheesh (LB) rating 67.57 #2
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

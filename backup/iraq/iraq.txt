@@ -10,16 +10,3 @@ Starters:
   [CB] Rebin Sulaka (CB) rating 69.00 #2
   [RB] Hussein Ali (RB) rating 67.93 #3
   [GK] Jalal Hassan (GK) rating 70.25 #12
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Ibrahim Bayesh (RWF) rating 69.31 #16
-  [AMF] VACANT
-  [CMF] Ahmed Yahya (LB) rating 67.36 #5
-  [DMF] Osama Rashid (DMF) rating 67.73 #20
-  [LB] Dhurgham Ismail (LB) rating 67.39 #15
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

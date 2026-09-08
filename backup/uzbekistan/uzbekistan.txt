@@ -10,16 +10,3 @@ Starters:
   [CB] Khusniddin Alikulov (CB) rating 70.72 #23
   [RB] Khozhiakbar Alizhonov (RB) rating 70.22 #3
   [GK] Utkir Yusupov (GK) rating 70.50 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] Khozhimat Erkinov (RWF) rating 70.19 #20
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] Farrukh Sayfiev (LB) rating 69.37 #4
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

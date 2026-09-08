@@ -10,16 +10,3 @@ Starters:
   [CB] Brynjar Ingi Bjarnason (CB) rating 68.73 #4
   [RB] Alfons Sampsted (RB) rating 70.43 #6
   [GK] Elías Ólafsson (GK) rating 73.34 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] Dagur Dan Thórhallsson (RB) rating 70.34 #15
-  [GK] VACANT

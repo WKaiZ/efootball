@@ -10,16 +10,3 @@ Starters:
   [CB] Paddy McNair (CB) rating 73.28 #17
   [RB] Conor Bradley (RB) rating 94.36 #2
   [GK] Pierce Charles (GK) rating 69.36 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] Ethan Galbraith (CMF) rating 73.12 #20
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] Trai Hume (RB) rating 93.05 #5
-  [GK] VACANT

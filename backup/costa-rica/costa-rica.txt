@@ -10,16 +10,3 @@ Starters:
   [CB] Francisco Calvo (CB) rating 71.99 #15
   [RB] Haxzel Quirós (RB) rating 68.78 #20
   [GK] Keylor Navas (GK) rating 77.66 #1
-
-Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Alejandro Bran (DMF) rating 68.24 #16
-  [LB] VACANT
-  [CB] Kendall Waston (CB) rating 71.13 #19
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

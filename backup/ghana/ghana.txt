@@ -10,16 +10,3 @@ Starters:
   [CB] Alidu Seidu (CB) rating 74.22 #2
   [RB] Tariq Lamptey (RB) rating 73.52 #3
   [GK] Lawrence Ati Zigi (GK) rating 72.59 #1
-
-Substitutes:
-  [CF] VACANT
-  [LMF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT

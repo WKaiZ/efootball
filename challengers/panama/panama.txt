@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Azarías Londoño (CF) rating 70.93 #24
-  [LWF] José Luis Rodríguez (LWF) rating 72.28 #7
+  [LWF] Tomás Rodríguez (CF) rating 70.02 #9
   [RWF] Alberto Quintero (RWF) rating 70.30 #19
   [AMF] Edward Cedeño (CMF) rating 65.85 #25
   [CMF] Cristian Martínez (CMF) rating 69.27 #6
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Luis Mejía (GK) rating 69.40 #1
 
 Wildcard:
-  [WILD] Tomás Rodríguez (CF) rating 70.02 #9
+  [WILD] VACANT

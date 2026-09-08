@@ -1,0 +1,12 @@
+Starters:
+  [CF] Kiatisuk Senamuang (CF) rating 94.36 #13
+  [LWF] Bordin Phala (LWF) rating 68.81 #11
+  [RWF] Suphanat Mueanta (RWF) rating 67.38 #10
+  [AMF] Chanathip Songkrasin (AMF) rating 70.19 #18
+  [CMF] Picha Autra (CMF) rating 69.43 #17
+  [DMF] Sarach Yooyen (DMF) rating 68.45 #6
+  [LB] Nicholas Mickelson (LB) rating 93.42 #12
+  [CB] Elias Dolah (CB) rating 67.77 #4
+  [CB] Jakkaphan Praisuwan (CB) rating 67.52 #16
+  [RB] Narubadin Weerawatnodom (RB) rating 68.36 #15
+  [GK] Saranon Anuin (GK) rating 68.89 #20
