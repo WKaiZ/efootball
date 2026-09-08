@@ -1,0 +1,25 @@
+Starters:
+  [CF] Pierre-Emerick Aubameyang (CF) rating 99.13 #9
+  [LWF] Denis Bouanga (LWF) rating 77.52 #20
+  [RWF] David Sambissa (RWF) rating 71.24 #7
+  [AMF] Guélor Kanga (AMF) rating 72.48 #12
+  [CMF] Samaké Nzé Bagnama (CMF) rating 64.44 #15
+  [DMF] Mario Lemina (DMF) rating 75.27 #18
+  [LB] Jacques Ekomié (LB) rating 71.17 #19
+  [CB] Bruno Ecuele Manga (CB) rating 71.27 #5
+  [CB] Aaron Appindangoyé (CB) rating 70.66 #2
+  [RB] Anthony Oyono (RB) rating 70.23 #3
+  [GK] Loyce Mbaba (GK) rating 68.82 #23
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Jim Allevinah (RWF) rating 71.18 #11
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Michel Mboula (CB) rating 70.24 #6
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

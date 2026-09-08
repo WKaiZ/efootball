@@ -2,6 +2,10 @@ import asyncio
 import os
 import re
 import sys
+from contextlib import suppress
+from pathlib import Path
+
+from playwright.async_api import Error as PlaywrightError
 
 from jersey_fetch.constants import (
     TRANSFERMARKT_PLAYWRIGHT_UA,
@@ -31,7 +35,7 @@ def maybe_note_transfermarkt_waf_once(html: str) -> None:
         return
     print(
         "  Note: Transfermarkt is showing a bot check (HTML still saved under debug_html/ if needed). "
-        "Install curl_cffi (pip install curl_cffi) or set PLAYWRIGHT_BROWSER_CHANNEL=chrome."
+        "Run with TRANSFERMARKT_INTERACTIVE=1 to complete the check in a saved browser session."
     )
     _transfermarkt_waf_hint_printed = True
 
@@ -102,22 +106,30 @@ def try_transfermarkt_rueckennummern_curl(url: str):
 
 
 async def _transfermarkt_html_playwright(playwright, url: str):
-    browser = await launch_chromium(playwright, hardened=True)
-    context = await browser.new_context(
-        user_agent=TRANSFERMARKT_PLAYWRIGHT_UA,
-        locale="de-DE",
-        timezone_id="Europe/Berlin",
-        viewport={"width": 1920, "height": 1080},
-        extra_http_headers={
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7",
-            "DNT": "1",
-            "Upgrade-Insecure-Requests": "1",
-        },
-    )
-    await context.add_init_script(_TRANSFERMARKT_STEALTH_JS)
-    page = await context.new_page()
+    interactive = os.environ.get("TRANSFERMARKT_INTERACTIVE", "").lower() in {"1", "true", "yes"}
+    browser = None
+    if interactive:
+        # A dedicated profile retains verification cookies without touching personal Chrome data.
+        profile = Path(os.environ.get(
+            "TRANSFERMARKT_PROFILE_DIR", str(Path(__file__).resolve().parent.parent / ".transfermarkt-browser")
+        )).expanduser().resolve()
+        options = {"headless": False, "locale": "de-DE"}
+        channel = os.environ.get("PLAYWRIGHT_BROWSER_CHANNEL", "chrome").strip()
+        if channel and channel != "chromium":
+            options["channel"] = channel
+        context = await playwright.chromium.launch_persistent_context(str(profile), **options)
+    else:
+        browser = await launch_chromium(playwright, hardened=True)
+        context = await browser.new_context(
+            user_agent=TRANSFERMARKT_PLAYWRIGHT_UA,
+            locale="de-DE",
+            timezone_id="Europe/Berlin",
+            viewport={"width": 1920, "height": 1080},
+        )
     try:
+        if not interactive:
+            await context.add_init_script(_TRANSFERMARKT_STEALTH_JS)
+        page = context.pages[0] if context.pages else await context.new_page()
         await page.goto("https://www.transfermarkt.com/", wait_until="domcontentloaded", timeout=60000)
         await page.wait_for_timeout(800)
         for selector in [
@@ -135,17 +147,37 @@ async def _transfermarkt_html_playwright(playwright, url: str):
         await page.goto(url, wait_until="domcontentloaded", timeout=120000)
         await page.wait_for_timeout(1500)
         html = await page.content()
-        if html_looks_like_waf_challenge(html):
+        if interactive and html_looks_like_waf_challenge(html):
+            print("  Complete Transfermarkt's human verification in the browser (waiting up to 5 minutes).", flush=True)
+            deadline = asyncio.get_running_loop().time() + 300
+            while html_looks_like_waf_challenge(html) and asyncio.get_running_loop().time() < deadline:
+                await asyncio.sleep(1)
+                try:
+                    html = await page.content()
+                except PlaywrightError:
+                    if page.is_closed():
+                        raise
+                    # Completing the check can navigate while content is being read.
+                    continue
+        elif html_looks_like_waf_challenge(html):
             await page.reload(wait_until="domcontentloaded", timeout=90000)
             await page.wait_for_timeout(2000)
             html = await page.content()
         return html
     finally:
-        await context.close()
-        await browser.close()
+        # Closing an already disconnected browser must not mask Ctrl-C or a fetch error.
+        try:
+            with suppress(PlaywrightError):
+                await context.close()
+        finally:
+            if browser is not None:
+                with suppress(PlaywrightError):
+                    await browser.close()
 
 
 async def fetch_transfermarkt_html(playwright, url: str, *, require_grid=False):
+    if os.environ.get("TRANSFERMARKT_INTERACTIVE", "").lower() in {"1", "true", "yes"}:
+        return await _transfermarkt_html_playwright(playwright, url)
     curl_html = await asyncio.to_thread(try_transfermarkt_html_curl, url, require_grid=require_grid)
     if curl_html:
         return curl_html

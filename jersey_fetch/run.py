@@ -142,7 +142,7 @@ async def fetch_numbers_for_player(
             countries = ", ".join(sorted(by_number[n]))
             print(f"  {n}: {countries}")
     else:
-        print(f"{name} {player_id} national jersey numbers: NONE FOUND")
+        print(f"{name} {player_id} national jersey numbers: {'BLOCKED by human verification; retry with TRANSFERMARKT_INTERACTIVE=1' if html_looks_like_waf_challenge(html) else 'NONE FOUND'}")
     return (nums, False)
 
 def seed_recent_numbers_into_db(conn, country_name, country_label, player_rows, recent_numbers):

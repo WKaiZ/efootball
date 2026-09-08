@@ -30,6 +30,33 @@ python -m playwright install chromium
 
 ---
 
+### Transfermarkt human verification
+
+If fetching reports a bot check, run:
+
+```bash
+TRANSFERMARKT_INTERACTIVE=1 ./run_workflow.sh gabon
+```
+
+This opens installed Google Chrome and waits up to five minutes for you to complete
+verification. A dedicated `.transfermarkt-browser/` profile preserves browser data
+between players and runs; it is ignored by Git. This uses Playwright's
+[persistent browser context](https://playwright.dev/python/docs/api/class-browsertype#browser-type-launch-persistent-context).
+Keep the window open until the fetcher closes it. Verification may be requested again;
+this mode does not automatically solve CAPTCHAs or guarantee access.
+
+If Chrome is unavailable, use the installed Playwright Chromium:
+
+```bash
+TRANSFERMARKT_INTERACTIVE=1 PLAYWRIGHT_BROWSER_CHANNEL=chromium ./run_workflow.sh gabon
+```
+
+Set `TRANSFERMARKT_PROFILE_DIR` to use another dedicated profile directory. Run only
+one interactive fetcher per profile at a time. Blocked pages are reported as blocked,
+rather than as missing jersey history. Ctrl-C stops the entrypoint cleanly.
+
+---
+
 ## 2. Per-country inputs
 
 For each national team you want to draft, create a folder named after the country inside the appropriate group directory — `contenders/<country>/` for a current FIFA top-20 side, `challengers/<country>/` otherwise (e.g. `contenders/belgium/`) — containing:
