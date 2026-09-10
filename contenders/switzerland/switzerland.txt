@@ -2,7 +2,7 @@ First Squad
 
 Starters:
   [CF] Noah Okafor (CF) rating 95.18 #19
-  [LWF] Rubén Vargas (LMF) rating 93.13 #17
+  [LWF] Rubén Vargas (LMF) rating 93.33 #17
   [RWF] Dan Ndoye (RWF) rating 94.18 #11
   [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
@@ -46,7 +46,7 @@ Starters:
 
 Substitutes:
   [CF] Cedric Itten (CF) rating 72.42 #26
-  [LWF] VACANT
+  [LWF] Albian Ajeti (CF) rating 68.84 #17
   [RWF] Michel Aebischer (CMF) rating 73.37 #20
   [AMF] Uran Bislimi (CMF) rating 72.30 #16
   [CMF] Djibril Sow (CMF) rating 75.00 #15
@@ -60,4 +60,3 @@ Substitutes:
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
   [WILD] Eray Cömert (CB) rating 71.42 #4
-  [WILD] Luca Jaquez (CB) rating 68.94 #25

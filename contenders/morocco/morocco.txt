@@ -1,7 +1,7 @@
 First Squad
 
 Starters:
-  [CF] Ayoub El Kaabi (CF) rating 94.26 #20
+  [CF] Ismael Saibari (CF) rating 95.35 #11
   [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
   [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
@@ -14,9 +14,9 @@ Starters:
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
 Substitutes:
-  [CF] Soufiane Rahimi (CF) rating 93.00 #9
+  [CF] Ayoub El Kaabi (CF) rating 94.26 #20
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
-  [RWF] Hakim Ziyech (RWF) rating 74.64 #11
+  [RWF] Munir El Haddadi (RWF) rating 73.19 #9
   [AMF] Amine Adli (AMF) rating 94.14 #21
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #17
@@ -27,7 +27,7 @@ Substitutes:
   [GK] El Mehdi Benabid (GK) rating 92.34 #12
 
 Wildcard:
-  [WILD] Osame Sahraoui (LMF) rating 92.95 #24
+  [WILD] Soufiane Rahimi (CF) rating 93.00 #27
 
 Second Squad
 
@@ -42,20 +42,20 @@ Starters:
   [CB] Marouane Louadni (CB) rating 92.57 #4
   [CB] Romain Saïss (CB) rating 76.55 #6
   [RB] Anas Bach (RB) rating 92.44 #3
-  [GK] Anas Zniti (GK) rating 71.78 #1
+  [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Substitutes:
-  [CF] Youssef En-Nesyri (CF) rating 77.34 #7
-  [LWF] Ilias Chair (LWF) rating 74.23 #13
-  [RWF] Ayoube Amaimouni-Echghouyab (RWF) rating 70.70 #21
+  [CF] Hamza Igamane (CF) rating 74.23 #20
+  [LWF] Amine Adli (LWF) rating 74.79 #21
+  [RWF] Hakim Ziyech (RWF) rating 74.64 #7
   [AMF] Adel Taarabt (AMF) rating 73.34 #8
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
   [DMF] Oussama Targhalline (CMF) rating 72.51 #15
-  [LB] Ayoub Amraoui (LB) rating 69.54 #26
+  [LB] Hamza El Moussaoui (LB) rating 70.57 #13
   [CB] Chadi Riad (CB) rating 74.06 #18
   [CB] Adam Masina (CB) rating 73.22 #25
   [RB] Noussair Mazraoui (RB) rating 75.30 #14
-  [GK] Munir El Kajoui (GK) rating 71.57 #12
+  [GK] Ahmed Reda Tagnaouti (GK) rating 70.99 #22
 
 Wildcard:
-  [WILD] Hamza Igamane (CF) rating 74.23 #20
+  [WILD] Osame Sahraoui (LMF) rating 92.95 #26

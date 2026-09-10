@@ -10,7 +10,7 @@ Starters:
   [LB] Fredrik Bjørkan (LB) rating 73.17 #15
   [CB] Kristoffer Ajer (CB) rating 75.93 #3
   [CB] Leo Østigård (CB) rating 74.50 #4
-  [RB] Julian Ryerson (RB) rating 94.41 #26
+  [RB] Julian Ryerson (RB) rating 94.43 #26
   [GK] Egil Selvik (GK) rating 72.64 #13
 
 Substitutes:
@@ -37,25 +37,25 @@ Starters:
   [RWF] Mohamed Elyounoussi (SS) rating 74.75 #11
   [AMF] Martin Ødegaard (AMF) rating 95.99 #10
   [CMF] Hugo Vetlesen (CMF) rating 72.21 #16
-  [DMF] Markus Solbakken (CMF) rating 68.51 #18
+  [DMF] Felix Horn Myhre (CMF) rating 71.15 #22
   [LB] Julian Ryerson (RMF) rating 93.98 #26
   [CB] Jakob Glesnes (CB) rating 73.84 #6
-  [CB] Jesper Daland (CB) rating 72.56 #22
-  [RB] Warren Kamanzi (RB) rating 69.73 #5
+  [CB] Sondre Langås (CB) rating 71.50 #24
+  [RB] VACANT
   [GK] Sander Tangvik (GK) rating 71.31 #12
 
 Substitutes:
   [CF] Tokmac Chol Nguen (LWF) rating 69.52 #14
-  [LWF] Kristian Arnstad (LWF) rating 72.15 #19
-  [RWF] Aron Dønnum (RMF) rating 73.25 #20
+  [LWF] Dennis Johnsen (LWF) rating 72.20 #18
+  [RWF] Aron Dønnum (RMF) rating 73.25 #19
   [AMF] Kristoffer Velde (LMF) rating 73.41 #7
   [CMF] Morten Thorsby (CMF) rating 72.13 #2
   [DMF] VACANT
-  [LB] VACANT
-  [CB] Sondre Langås (CB) rating 71.50 #24
+  [LB] David Møller Wolfe (LB) rating 72.28 #5
   [CB] Henrik Falchener (CB) rating 71.06 #25
-  [RB] Colin Rösler (CB) rating 69.33 #21
+  [CB] Colin Rösler (CB) rating 69.33 #21
+  [RB] Eivind Helland (CB) rating 67.52 #4
   [GK] Viljar Myhra (GK) rating 70.76 #13
 
 Wildcard:
-  [WILD] Eivind Helland (CB) rating 67.52 #4
+  [WILD] VACANT

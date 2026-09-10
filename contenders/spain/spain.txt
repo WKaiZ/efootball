@@ -16,8 +16,8 @@ Starters:
 Substitutes:
   [CF] David Villa (CF) rating 98.57 #21
   [LMF] Nico Williams (LMF) rating 96.40 #17
-  [RWF] Yéremy Pino (SS) rating 95.33 #15
-  [AMF] Marco Asensio (AMF) rating 95.97 #11
+  [RWF] Adama Traoré (RWF) rating 74.91 #11
+  [AMF] Fermín López (AMF) rating 95.98 #25
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Xabi Alonso (DMF) rating 96.19 #14
   [LB] Sergi Barjuan (LB) rating 98.36 #12
@@ -45,17 +45,17 @@ Starters:
   [GK] Iker Casillas (GK) rating 98.59 #1
 
 Substitutes:
-  [CF] Ferran Torres (CF) rating 96.88 #11
+  [CF] Ferran Torres (CF) rating 96.88 #21
   [LWF] Nico Williams (LWF) rating 95.76 #17
-  [RMF] Ayoze Pérez (CF) rating 92.99 #26
-  [SS] Fernando Torres (CF) rating 96.02 #16
+  [RMF] Marco Asensio (AMF) rating 95.97 #20
+  [SS] Yéremy Pino (SS) rating 95.33 #11
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xavi (DMF) rating 97.06 #8
   [LB] Alejandro Balde (LB) rating 95.80 #3
   [CB] Aymeric Laporte (CB) rating 94.54 #14
-  [CB] Marc Bartra (CB) rating 93.42 #21
+  [CB] Iñigo Martínez (CB) rating 78.41 #16
   [RB] Lucas Vázquez (RB) rating 93.81 #9
   [GK] Álex Remiro (GK) rating 95.02 #13
 
 Wildcard:
-  [WILD] Fermín López (AMF) rating 95.65 #25
+  [WILD] Samu Aghehowa (CF) rating 94.38 #26

@@ -17,11 +17,11 @@ Substitutes:
   [CF] Ousmane Dembélé (CF) rating 99.48 #12
   [LWF] Désiré Doué (LWF) rating 95.99 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #13
-  [AMF] Rayan Cherki (AMF) rating 95.81 #24
-  [CMF] Eduardo Camavinga (CMF) rating 95.07 #25
+  [AMF] Eduardo Camavinga (AMF) rating 95.33 #21
+  [CMF] Adrien Rabiot (CMF) rating 95.00 #14
   [DMF] Claude Makélélé (DMF) rating 99.11 #6
   [LB] Adrien Truffert (LB) rating 94.36 #22
-  [CB] Lucas Hernández (CB) rating 95.17 #21
+  [CB] Ibrahima Konaté (CB) rating 95.55 #24
   [CB] William Saliba (CB) rating 96.99 #3
   [RB] Malo Gusto (RB) rating 93.99 #2
   [GK] Mike Maignan (GK) rating 95.44 #16
@@ -39,23 +39,23 @@ Starters:
   [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Lucas Hernández (LB) rating 94.06 #21
-  [CB] Ibrahima Konaté (CB) rating 95.55 #15
+  [CB] Jules Koundé (CB) rating 95.26 #5
   [CB] Dayot Upamecano (CB) rating 95.62 #4
-  [RB] Lilian Thuram (RB) rating 100.09 #2
+  [RB] Lilian Thuram (RB) rating 100.09 #15
   [GK] Brice Samba (GK) rating 94.95 #1
 
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
-  [LMF] Dimitri Payet (AMF) rating 73.74 #24
+  [LMF] Robert Pirès (LMF) rating 96.89 #14
   [RWF] Florian Thauvin (RWF) rating 94.33 #12
   [SS] Désiré Doué (SS) rating 97.33 #20
-  [CMF] Adrien Rabiot (CMF) rating 95.00 #14
-  [DMF] Boubacar Kamara (DMF) rating 95.46 #19
+  [CMF] Eduardo Camavinga (CMF) rating 95.07 #6
+  [DMF] Mattéo Guendouzi (DMF) rating 94.03 #17
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
-  [CB] Wesley Fofana (CB) rating 93.99 #17
-  [CB] Jules Koundé (CB) rating 95.26 #5
-  [RB] Jonathan Clauss (RB) rating 93.04 #3
+  [CB] Maxence Lacroix (CB) rating 93.57 #26
+  [CB] Pierre Kalulu (CB) rating 93.58 #19
+  [RB] Jonathan Clauss (RB) rating 93.04 #2
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Eduardo Camavinga (AMF) rating 95.33 #6
+  [WILD] Rayan Cherki (AMF) rating 95.18 #24
