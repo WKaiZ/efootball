@@ -27,7 +27,7 @@ Substitutes:
   [GK] Juan Musso (GK) rating 93.93 #1
 
 Wildcard:
-  [WILD] Lautaro Martínez (CF) rating 97.78 #22
+  [WILD] Lautaro Martínez (CF) rating 96.00 #22
 
 Second Squad
 
