@@ -19,10 +19,10 @@ Substitutes:
   [RWF] Francisco Conceição (RWF) rating 94.00 #26
   [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Deco (CMF) rating 96.53 #16
-  [DMF] Samú Costa (DMF) rating 76.14 #24
+  [DMF] João Palhinha (DMF) rating 78.20 #6
   [LB] Nuno Tavares (LB) rating 94.43 #2
   [CB] Tomás Araújo (CB) rating 95.54 #4
-  [CB] Gonçalo Inácio (CB) rating 93.99 #14
+  [CB] António Silva (CB) rating 94.47 #24
   [RB] João Cancelo (RB) rating 95.29 #21
   [GK] Rui Silva (GK) rating 94.31 #22
 
@@ -39,8 +39,8 @@ Starters:
   [CMF] João Neves (CMF) rating 95.72 #15
   [DMF] Vitinha (DMF) rating 97.75 #23
   [LB] João Cancelo (LB) rating 94.50 #20
+  [CB] Gonçalo Inácio (CB) rating 93.99 #14
   [CB] Danilo Pereira (CB) rating 93.22 #13
-  [CB] António Silva (CB) rating 76.70 #4
   [RB] Diogo Dalot (RB) rating 94.01 #5
   [GK] José Sá (GK) rating 75.58 #12
 
@@ -53,7 +53,7 @@ Substitutes:
   [DMF] Rúben Neves (DMF) rating 79.25 #21
   [LB] Kévin Rodrigues (LB) rating 72.29 #19
   [CB] Toti (CB) rating 75.44 #2
-  [CB] Tiago Djaló (CB) rating 73.13 #14
+  [CB] Tiago Djaló (CB) rating 73.13 #3
   [RB] Matheus Nunes (RB) rating 94.00 #6
   [GK] Anthony Lopes (GK) rating 74.63 #22
 

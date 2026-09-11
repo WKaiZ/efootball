@@ -9,7 +9,7 @@ Federico Valverde, RMF, 96.02, True, Highlight, [RWF, RMF, RB, CMF], [LMF, AMF, 
 Federico Valverde, CMF, 98.93, True, Showtime, [RWF, RMF, RB, CMF], [LMF, AMF, DMF]
 Nicolás de la Cruz, CMF, 95.32, True, Showtime, [LMF, AMF, CMF, RMF], [DMF, SS, LWF, RWF]
 Manuel Ugarte, DMF, 94.12, True, Highlight, [CMF, DMF], [AMF]
-Ronald Araujo, CB, 96.61, True, Showtime, [CB, RB], [DMF, LB, CF]
+Ronald Araujo, CB, 96.80, True, Showtime, [CB, RB], [DMF, LB, CF]
 Leandro Cabrera, CB, 92.93, False, Highlight, [CB], [LB]
 Joaquín Piquerez, LB, 94.91, True, Showtime, [LMF, LB], [CB]
 Mathías Olivera, LB, 94.22, True, Highlight, [LB, LMF], [CB]
