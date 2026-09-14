@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Petar Ratkov (CF) rating 70.63 #9
   [AMF] Lazar Samardžić (AMF) rating 76.98 #8
   [CMF] Nemanja Maksimovic (CMF) rating 76.06 #5
-  [DMF] Nemanja Matić (DMF) rating 74.29 #21
+  [DMF] Nemanja Gudelj (DMF) rating 75.26 #6
   [LB] Stefan Bukinac (LB) rating 67.74 #25
   [CB] Veljko Milosavljevic (CB) rating 70.76 #15
   [CB] Uros Spajic (CB) rating 72.48 #24
   [RB] Ognjen Mimović (RB) rating 69.48 #2
-  [GK] Predrag Rajković (GK) rating 78.56 #1
+  [GK] Filip Stanković (GK) rating 93.40 #1
 
 Wildcard:
-  [WILD] Djordje Petrovic (GK) rating 76.53 #12
+  [WILD] Predrag Rajković (GK) rating 78.56 #12

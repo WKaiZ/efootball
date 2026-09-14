@@ -7,10 +7,10 @@ Starters:
   [AMF] Nico Paz (AMF) rating 98.59 #18
   [CMF] Enzo Fernández (CMF) rating 98.78 #24
   [DMF] Alan Varela (DMF) rating 94.32 #21
-  [LB] Javier Zanetti (LB) rating 99.02 #8
+  [LB] Nicolás Tagliafico (LB) rating 94.06 #3
   [CB] Cristian Romero (CB) rating 97.80 #13
   [CB] Lisandro Martínez (CB) rating 96.93 #6
-  [RB] Juan Foyth (RB) rating 93.31 #2
+  [RB] Javier Zanetti (RB) rating 99.03 #8
   [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:
@@ -20,9 +20,9 @@ Substitutes:
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
   [CMF] Alexis Mac Allister (CMF) rating 96.80 #20
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
-  [LB] Nicolás Tagliafico (LB) rating 94.06 #3
+  [LB] Marcos Acuña (LB) rating 92.25 #14
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
-  [CB] Nehuén Pérez (CB) rating 94.16 #14
+  [CB] Martín Demichelis (CB) rating 94.84 #2
   [RB] Gonzalo Montiel (RB) rating 93.22 #4
   [GK] Juan Musso (GK) rating 93.93 #1
 
@@ -38,10 +38,10 @@ Starters:
   [SS] Lionel Messi (SS) rating 101.33 #10
   [CMF] Rodrigo De Paul (CMF) rating 95.37 #7
   [DMF] Máximo Perrone (DMF) rating 93.18 #22
-  [LB] Marcos Acuña (LB) rating 92.25 #8
-  [CB] Martín Demichelis (CB) rating 94.84 #2
+  [LB] Javier Zanetti (LB) rating 99.02 #8
+  [CB] Nehuén Pérez (CB) rating 94.16 #2
   [CB] Marcos Senesi (CB) rating 77.24 #25
-  [RB] Nahuel Molina (RB) rating 76.96 #26
+  [RB] Juan Foyth (RB) rating 93.31 #4
   [GK] Emiliano Martínez (GK) rating 81.16 #23
 
 Substitutes:
@@ -54,7 +54,7 @@ Substitutes:
   [LB] Jonathan Silva (LB) rating 71.46 #24
   [CB] Facundo Medina (CB) rating 76.78 #13
   [CB] Rodrigo Battaglia (CB) rating 76.31 #16
-  [RB] Agustín Giay (RB) rating 73.67 #4
+  [RB] Nahuel Molina (RB) rating 76.96 #26
   [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
 Wildcard:
