@@ -17,7 +17,7 @@ Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9
   [LWF] Steven Bergwijn (LWF) rating 76.69 #25
   [RWF] Donyell Malen (RWF) rating 94.47 #18
-  [AMF] Wesley Sneijder (AMF) rating 97.30 #16
+  [AMF] Wesley Sneijder (AMF) rating 97.36 #16
   [CMF] Ryan Gravenberch (CMF) rating 96.15 #26
   [DMF] Frenkie de Jong (DMF) rating 95.88 #21
   [LB] Micky van de Ven (LB) rating 96.06 #15

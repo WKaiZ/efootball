@@ -7,7 +7,7 @@ Starters:
   [AMF] Daichi Kamada (AMF) rating 97.41 #15
   [CMF] Gaku Shibasaki (CMF) rating 96.51 #7
   [DMF] Makoto Hasebe (DMF) rating 98.30 #17
-  [LB] Yuto Nagatomo (LB) rating 98.08 #5
+  [LB] Yuto Nagatomo (LB) rating 98.33 #5
   [CB] Hiroki Ito (CB) rating 97.10 #21
   [CB] Tsuyoshi Watanabe (CB) rating 96.46 #16
   [RB] Seiya Maikuma (RB) rating 93.04 #22
