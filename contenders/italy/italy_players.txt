@@ -1,5 +1,5 @@
-Alessandro Del Piero, CF, 100.43, False, Epic, [CF, SS, AMF], []
 Francesco Totti, CF, 99.49, False, Epic, [AMF, SS, CF], [LWF, RWF, CMF]
+Alessandro Del Piero, CF, 99.36, False, Epic, [CF, SS, AMF], []
 Filippo Inzaghi, CF, 98.35, False, Epic, [CF], [SS]
 Christian Vieri, CF, 98.01, False, Epic, [CF], [SS]
 Roberto Baggio, CF, 96.94, False, Epic, [CF, SS, AMF], []

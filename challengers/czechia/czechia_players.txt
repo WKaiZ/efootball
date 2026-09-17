@@ -1,7 +1,7 @@
 Jan Koller, CF, 97.42, False, Epic, [CF], [SS]
 Patrik Schick, CF, 94.47, True, Highlight, [CF], [SS, AMF]
 Adam Hlozek, CF, 94.07, True, Highlight, [LWF, CF, SS, AMF], [LMF, RWF, RMF]
-Tomas Rosicky, AMF, 99.12, False, Epic, [LMF, AMF, CMF, RMF], [LWF, SS, RWF]
+Tomas Rosicky, AMF, 97.98, False, Epic, [LMF, AMF, CMF, RMF], [LWF, SS, RWF]
 Pavel Sulc, AMF, 94.39, True, Highlight, [AMF], [SS, CMF]
 Pavel Nedved, LMF, 99.94, False, Epic, [LWF, LMF, AMF, CMF, RWF, RMF], [SS]
 Vladimír Coufal, RB, 92.96, True, Highlight, [RMF, RB], [LB]

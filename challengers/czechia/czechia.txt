@@ -2,7 +2,7 @@ Starters:
   [CF] Jan Koller (CF) rating 97.42 #9
   [LMF] Pavel Nedved (LMF) rating 99.94 #4
   [RWF] Vaclav Cerny (RWF) rating 75.16 #17
-  [AMF] Tomas Rosicky (AMF) rating 99.12 #10
+  [AMF] Tomas Rosicky (AMF) rating 97.98 #10
   [CMF] Alex Král (CMF) rating 74.09 #21
   [DMF] Tomáš Souček (DMF) rating 76.28 #22
   [LB] David Jurásek (LB) rating 72.37 #14

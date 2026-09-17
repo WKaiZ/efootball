@@ -11,7 +11,7 @@ Starters:
   [CB] Jaap Stam (CB) rating 99.09 #3
   [CB] Virgil van Dijk (CB) rating 97.05 #4
   [RB] Jurriën Timber (RB) rating 95.61 #2
-  [GK] Edwin van der Sar (GK) rating 100.29 #1
+  [GK] Edwin van der Sar (GK) rating 100.01 #1
 
 Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9

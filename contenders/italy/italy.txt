@@ -1,10 +1,10 @@
 First Squad
 
 Starters:
-  [CF] Alessandro Del Piero (CF) rating 100.43 #10
-  [LWF] Lorenzo Insigne (LWF) rating 97.73 #11
+  [CF] Alessandro Del Piero (CF) rating 99.36 #11
+  [LWF] Lorenzo Insigne (LWF) rating 97.73 #20
   [RWF] Riccardo Orsolini (RWF) rating 95.09 #17
-  [AMF] Francesco Totti (AMF) rating 99.59 #20
+  [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #7
   [DMF] Andrea Pirlo (DMF) rating 99.04 #21
   [LB] Riccardo Calafiori (LB) rating 96.53 #13
