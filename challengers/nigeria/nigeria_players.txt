@@ -14,7 +14,7 @@ Alex Iwobi, CMF, 93.65, True, Highlight, [AMF, CMF, LWF, RWF, LMF, RMF], [SS, DM
 Frank Onyeka, CMF, 93.22, True, Highlight, [CMF, DMF], [AMF]
 Fisayo Dele-Bashiru, CMF, 93.09, True, Highlight, [CMF, AMF], [CF, SS, LMF, RMF, DMF]
 Raphael Onyedika, DMF, 94.24, True, Highlight, [DMF, CMF, CB], []
-Calvin Bassey, CB, 95.16, True, Highlight, [CB, LB], [LMF]
+Calvin Bassey, CB, 95.34, True, Showtime, [CB, LB], [LMF]
 Bright Osayi-Samuel, RB, 93.16, False, Highlight, [RB, RMF], [RWF]
 
 Chidera Ejuke, LWF, 75.04, False, Standard, [LWF, LMF, RMF], [CF, SS, RWF]

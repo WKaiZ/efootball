@@ -33,10 +33,10 @@ Second Squad
 
 Starters:
   [CF] Gerd Müller (CF) rating 99.05 #13
-  [LWF] Kevin Schade (LWF) rating 94.09 #14
+  [LWF] Serge Gnabry (LWF) rating 95.13 #20
   [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Jamal Musiala (AMF) rating 97.02 #10
-  [CMF] Nadiem Amiri (CMF) rating 93.48 #20
+  [CMF] Assan Ouédraogo (CMF) rating 94.02 #25
   [DMF] Lothar Matthäus (DMF) rating 96.95 #8
   [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
   [CB] Joshua Kimmich (CB) rating 95.94 #6
@@ -46,10 +46,10 @@ Starters:
 
 Substitutes:
   [CF] Miroslav Klose (CF) rating 97.85 #11
-  [LWF] Timo Werner (LWF) rating 75.06 #9
+  [LWF] Kevin Schade (LWF) rating 94.09 #14
   [RWF] Florian Wirtz (LMF) rating 96.96 #15
-  [AMF] Thomas Müller (AMF) rating 95.36 #25
-  [CMF] Felix Nmecha (CMF) rating 79.04 #7
+  [AMF] Kai Havertz (AMF) rating 95.17 #7
+  [CMF] İlkay Gündoğan (CMF) rating 77.18 #21
   [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
   [LB] David Raum (LMF) rating 93.96 #22
   [CB] Malick Thiaw (CB) rating 94.99 #24

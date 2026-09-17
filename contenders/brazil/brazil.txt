@@ -50,7 +50,7 @@ Substitutes:
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #7
   [CMF] Andreas Pereira (CMF) rating 93.34 #19
-  [DMF] Léo Ortiz (CB) rating 93.14 #4
+  [DMF] Pablo Maia (DMF) rating 72.89 #26
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Alexsandro (CB) rating 94.26 #15
   [CB] Roger Ibañez (CB) rating 94.31 #24

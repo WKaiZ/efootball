@@ -45,7 +45,7 @@ Starters:
   [GK] Nick Pope (GK) rating 94.44 #22
 
 Substitutes:
-  [CF] Ivan Toney (CF) rating 79.18 #19
+  [CF] Ivan Toney (CF) rating 95.13 #19
   [LWF] Harvey Barnes (LWF) rating 93.94 #17
   [RMF] Ray Parlour (RMF) rating 96.89 #15
   [AMF] Phil Foden (AMF) rating 95.88 #7

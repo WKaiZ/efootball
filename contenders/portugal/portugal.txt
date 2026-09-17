@@ -21,7 +21,7 @@ Substitutes:
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] João Palhinha (DMF) rating 78.20 #6
   [LB] Nuno Tavares (LB) rating 94.43 #2
-  [CB] Tomás Araújo (CB) rating 95.54 #4
+  [CB] Tomás Araújo (CB) rating 95.26 #4
   [CB] António Silva (CB) rating 94.47 #24
   [RB] João Cancelo (RB) rating 95.29 #21
   [GK] Rui Silva (GK) rating 94.31 #22

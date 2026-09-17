@@ -22,12 +22,12 @@ Substitutes:
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Koni De Winter (CB) rating 94.33 #16
-  [CB] Zeno Debast (CB) rating 93.95 #2
+  [CB] Brandon Mechele (CB) rating 94.19 #22
   [RB] Thomas Meunier (RB) rating 74.37 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Alexis Saelemaekers (RMF) rating 94.99 #22
+  [WILD] Alexis Saelemaekers (RMF) rating 94.99 #23
 
 Second Squad
 
@@ -39,8 +39,8 @@ Starters:
   [CMF] Nicolas Raskin (CMF) rating 75.30 #23
   [DMF] Roméo Lavia (DMF) rating 94.46 #18
   [LB] Diego Moreira (LMF) rating 74.58 #19
+  [CB] Zeno Debast (CB) rating 93.95 #2
   [CB] Arthur Theate (CB) rating 78.45 #3
-  [CB] Brandon Mechele (CB) rating 76.59 #4
   [RB] Nathan Ngoy (CB) rating 73.18 #25
   [GK] Senne Lammens (GK) rating 93.92 #12
 
@@ -48,15 +48,15 @@ Substitutes:
   [CF] Romelu Lukaku (CF) rating 77.41 #9
   [LMF] Malick Fofana (LWF) rating 75.50 #14
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
-  [AMF] Thorgan Hazard (LWF) rating 74.26 #16
-  [CMF] Orel Mangala (CMF) rating 74.33 #8
-  [DMF] Arne Engels (CMF) rating 74.03 #20
-  [LB] VACANT
+  [AMF] Yari Verschaeren (AMF) rating 71.29 #11
+  [CMF] Arthur Vermeeren (CMF) rating 74.86 #20
+  [DMF] Orel Mangala (CMF) rating 74.33 #8
+  [LB] Thorgan Hazard (LWF) rating 74.26 #16
   [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
-  [CB] VACANT
+  [CB] Christian Kabasele (CB) rating 74.10 #4
   [RB] VACANT
   [GK] Mike Penders (GK) rating 75.63 #13
 
 Wildcard:
-  [WILD] Michy Batshuayi (CF) rating 75.22 #21
   [WILD] Davy Roef (GK) rating 73.89 #1
+  [WILD] Benito Raman (CF) rating 72.22 #21
