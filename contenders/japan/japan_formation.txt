@@ -1,6 +1,6 @@
 CF
-LMF
-RMF
+LWF
+RWF
 AMF
 CMF
 DMF
@@ -11,8 +11,8 @@ RB
 GK
 
 CF
-LWF
-RWF
+LMF
+RMF
 SS
 CMF
 DMF

@@ -38,6 +38,7 @@ def espn_request_json(url, params=None, timeout=None):
         r.raise_for_status()
         return r.json()
 
+
 def is_womens_espn_competition(text):
     low = (text or "").strip().lower()
     if "wworldq" in low:
@@ -184,7 +185,13 @@ def _espn_event_team_lineup_datetime(team_id, event, now_utc):
             return dt
     return None
 
-def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout):
+def _merge_scoreboard_day(team_id, day, now_utc, event_times, timeout):
+    """Merge one calendar day from ESPN scoreboard.
+
+    ESPN's soccer/all/scoreboard rejects YYYYMMDD-YYYYMMDD ranges with HTTP 400;
+    single-day `dates=YYYYMMDD` still works.
+    """
+    dates_param = day.strftime("%Y%m%d")
     board = espn_request_json(
         "https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/scoreboard",
         params={"dates": dates_param, "limit": 500},
@@ -201,13 +208,46 @@ def _merge_scoreboard_window(team_id, dates_param, now_utc, event_times, timeout
         if prev is None or dt > prev:
             event_times[eid] = dt
 
-def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, chunk_days=14, game_index=1):
 
+def _scan_scoreboard_days(team_id, start_day, end_day, now_utc, event_times, timeout):
+    """Scan inclusive [start_day, end_day] one day at a time. Returns failed day count."""
+    if start_day > end_day:
+        return 0
+    failed = 0
+    day = end_day
+    while day >= start_day:
+        try:
+            _merge_scoreboard_day(team_id, day, now_utc, event_times, timeout)
+        except requests.HTTPError as exc:
+            failed += 1
+            status = getattr(exc.response, "status_code", None)
+            # 400 means bad date format / unsupported range — not worth retrying.
+            if status not in (400, 404) and failed <= 3:
+                print(f"  Warning: ESPN scoreboard failed for {day.strftime('%Y%m%d')}: {exc}")
+        except requests.RequestException as exc:
+            failed += 1
+            if failed <= 3:
+                print(f"  Warning: ESPN scoreboard failed for {day.strftime('%Y%m%d')}: {exc}")
+        day -= timedelta(days=1)
+    return failed
+
+
+def resolve_latest_completed_espn_event_id_for_team(
+    team_id, max_days_back=120, chunk_days=14, game_index=1
+):
+    del chunk_days  # date-range scoreboard windows are no longer supported by ESPN
     now = datetime.now(timezone.utc)
     event_times = {}
     latest_sched_dt = None
     schedule_timeout = float(os.environ.get("ESPN_SCHEDULE_TIMEOUT", "30"))
-    scoreboard_timeout = float(os.environ.get("ESPN_SCOREBOARD_TIMEOUT", "60"))
+    scoreboard_timeout = float(
+        os.environ.get("ESPN_SCOREBOARD_TIMEOUT", os.environ.get("ESPN_REQUEST_TIMEOUT", "30"))
+    )
+    # ESPN soccer/all/scoreboard rejects YYYYMMDD-YYYYMMDD ranges (HTTP 400).
+    # Only single-day queries work, so keep this window small.
+    recent_scoreboard_days = max(
+        1, int(os.environ.get("ESPN_SCOREBOARD_RECENT_DAYS", "14"))
+    )
     try:
         schedule = espn_request_json(
             f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/all/teams/{team_id}/schedule",
@@ -229,29 +269,23 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
                 latest_sched_dt = dt
     except requests.RequestException:
         pass
+
     end_date = now.date()
-    cap_start = end_date - timedelta(days=max_days_back)
-    if latest_sched_dt is not None:
-        overlap_start = (latest_sched_dt - timedelta(days=3)).date()
-        oldest = max(overlap_start, cap_start)
+    # Prefer the team schedule; only day-scan recent boards to catch matches missing there.
+    if latest_sched_dt is None:
+        oldest = end_date - timedelta(days=min(max_days_back, max(recent_scoreboard_days * 2, 30)))
+        _scan_scoreboard_days(
+            team_id, oldest, end_date, now, event_times, scoreboard_timeout
+        )
     else:
-        oldest = cap_start
-    scan_end = end_date
-    while scan_end >= oldest:
-        start_date = max(oldest, scan_end - timedelta(days=chunk_days - 1))
-        dates_param = f"{start_date.strftime('%Y%m%d')}-{scan_end.strftime('%Y%m%d')}"
-        for attempt in range(3):
-            try:
-                _merge_scoreboard_window(team_id, dates_param, now, event_times, scoreboard_timeout)
-                break
-            except requests.RequestException:
-                if attempt == 2:
-                    print(
-                        f"  Warning: ESPN scoreboard failed for {dates_param} after 3 tries "
-                        f"(timeout {scoreboard_timeout}s)."
-                    )
-                time.sleep(1.0 * (attempt + 1))
-        scan_end = start_date - timedelta(days=1)
+        # Schedule already has history; only probe a short recent window for newer games.
+        stale_vs_now = (end_date - latest_sched_dt.date()).days
+        if stale_vs_now >= 3:
+            oldest = end_date - timedelta(days=recent_scoreboard_days)
+            _scan_scoreboard_days(
+                team_id, oldest, end_date, now, event_times, scoreboard_timeout
+            )
+
     if not event_times:
         return None
 
@@ -259,23 +293,10 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
     _, best_dt = sorted_events[0]
     stale_days = (now.date() - best_dt.date()).days
     if stale_days > 21:
-        supplemental_start = max(cap_start, (now - timedelta(days=45)).date())
-        sup_param = f"{supplemental_start.strftime('%Y%m%d')}-{end_date.strftime('%Y%m%d')}"
-        for attempt in range(3):
-            try:
-                _merge_scoreboard_window(team_id, sup_param, now, event_times, scoreboard_timeout)
-                break
-            except requests.RequestException:
-                time.sleep(1.5 * (attempt + 1))
-        else:
-            sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
-            _, best_dt2 = sorted_events[0]
-            if best_dt2 <= best_dt:
-                print(
-                    f"  Warning: Latest ESPN lineup source looks stale ({best_dt2.date()}). "
-                    "Scoreboard may be failing; try again or pass --gameid <eventId>."
-                )
-        sorted_events = sorted(event_times.items(), key=lambda kv: kv[1], reverse=True)
+        print(
+            f"  Warning: Latest ESPN lineup source looks stale ({best_dt.date()}). "
+            "Pass --gameid <eventId> if a newer match exists."
+        )
     idx = max(0, game_index - 1)
     if idx >= len(sorted_events):
         print(
@@ -284,6 +305,7 @@ def resolve_latest_completed_espn_event_id_for_team(team_id, max_days_back=120, 
         )
         idx = len(sorted_events) - 1
     return sorted_events[idx][0]
+
 
 def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
     team_id = lookup_espn_team(country_label)
