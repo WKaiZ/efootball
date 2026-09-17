@@ -1,7 +1,7 @@
 Yoane Wissa, CF, 94.87, True, Highlight, [CF, LWF, LMF, RWF, RMF], [SS, AMF]
+Simon Banza, CF, 94.11, True, Highlight, [CF], [SS]
 Noah Sadiki, CMF, 94.31, True, Highlight, [CMF, DMF], [AMF, RMF, RB]
 
-Simon Banza, CF, 77.27, True, Standard, [CF], [SS]
 Samuel Essende, CF, 74.38, False, Standard, [CF], [SS]
 Cédric Bakambu, CF, 74.12, True, Standard, [LWF, CF, RWF], [SS, LMF, RMF]
 Meschack Elia, SS, 71.08, True, Standard, [CF, SS, RWF, RMF], [LWF, LMF, AMF]

@@ -6,7 +6,7 @@ Starters:
   [CMF] Christos Zafeiris (CMF) rating 71.73 #20
   [DMF] Nectarios Triantis (DMF) rating 73.31 #23
   [LB] Konstantinos Tsimikas (LB) rating 75.10 #21
-  [CB] Konstantinos Mavropanos (CB) rating 76.63 #4
+  [CB] Konstantinos Mavropanos (CB) rating 95.39 #4
   [CB] Panagiotis Retsos (CB) rating 73.61 #5
   [RB] Georgios Vagiannidis (RB) rating 70.48 #2
   [GK] Odysseas Vlachodimos (GK) rating 75.59 #1

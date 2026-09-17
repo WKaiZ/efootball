@@ -2,13 +2,13 @@ Starters:
   [CF] Zlatan Ibrahimović (CF) rating 100.30 #10
   [LWF] Williot Swedberg (LWF) rating 94.20 #6
   [RWF] Dejan Kulusevski (RWF) rating 96.43 #21
-  [AMF] Mattias Svanberg (CMF) rating 75.07 #19
+  [AMF] Mattias Svanberg (CMF) rating 93.18 #19
   [CMF] Lucas Bergvall (CMF) rating 93.99 #7
   [DMF] Jesper Karlström (DMF) rating 93.15 #16
   [LB] Daniel Svensson (LB) rating 94.12 #8
   [CB] Isak Hien (CB) rating 93.44 #4
   [CB] Victor Lindelöf (CB) rating 91.56 #3
-  [RB] Joe Mendes (RB) rating 71.40 #2
+  [RB] Emil Holm (RB) rating 72.88 #2
   [GK] Viktor Johansson (GK) rating 74.42 #12
 
 Substitutes:

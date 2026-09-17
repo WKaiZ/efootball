@@ -12,7 +12,7 @@ Starters:
   [GK] Matthieu Epolo (GK) rating 72.85 #21
 
 Substitutes:
-  [CF] Simon Banza (CF) rating 77.27 #23
+  [CF] Simon Banza (CF) rating 94.11 #23
   [LWF] Brian Cipenga (LWF) rating 71.44 #9
   [RWF] Meschack Elia (SS) rating 71.08 #13
   [AMF] William Balikwisha (AMF) rating 69.25 #28

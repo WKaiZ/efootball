@@ -1,8 +1,8 @@
+Troy Parrott, CF, 95.02, True, Highlight, [CF, SS], [RWF]
 John O'Shea, DMF, 96.26, False, Epic, [CMF, DMF, CB, LB, RB], []
 Nathan Collins, CB, 93.51, True, Highlight, [CB], []
 Caoimhín Kelleher, GK, 94.38, False, Highlight, [GK], []
 
-Troy Parrott, CF, 75.21, True, Standard, [CF, SS], [RWF]
 Sammie Szmodics, LWF, 74.76, False, Standard, [LWF, LMF, CF, SS, AMF], [CMF, RWF, RMF]
 Chiedozie Ogbene, RWF, 74.07, True, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
 Finn Azaz, AMF, 73.70, False, Standard, [AMF, CMF, LMF], [LWF, SS]

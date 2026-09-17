@@ -1,3 +1,4 @@
+Jordan Bos, LB, 93.03, True, Highlight, [LMF, LB], [RB]
 Mathew Ryan, GK, 93.92, True, Highlight, [GK], []
 
 Jamie Maclaren, CF, 72.08, False, Standard, [CF], [SS]
@@ -26,7 +27,6 @@ Milos Degenek, CB, 72.48, True, Standard, [CB], [DMF, RB]
 Kye Rowles, CB, 72.38, False, Standard, [CB], []
 Jason Geria, CB, 72.31, True, Standard, [CB, RB], [LB, RMF]
 Cameron Burgess, CB, 71.08, True, Standard, [CB], []
-Jordan Bos, LB, 72.98, True, Standard, [LMF, LB], [RB]
 Aziz Behich, LB, 70.55, True, Standard, [LMF, LB], [LWF]
 Nathaniel Atkinson, RB, 70.99, False, Standard, [RB, RMF], []
 Lewis Miller, RB, 70.54, False, Standard, [RB, RMF], []
