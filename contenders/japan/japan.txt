@@ -2,8 +2,8 @@ First Squad
 
 Starters:
   [CF] Ayase Ueda (CF) rating 97.66 #18
-  [LWF] Takashi Inui (LWF) rating 98.04 #10
-  [RWF] Kensuke Nagai (RWF) rating 97.39 #11
+  [LWF] Takashi Inui (LWF) rating 97.07 #10
+  [RWF] Kensuke Nagai (RWF) rating 96.72 #11
   [AMF] Daichi Kamada (AMF) rating 97.41 #15
   [CMF] Gaku Shibasaki (CMF) rating 96.51 #7
   [DMF] Makoto Hasebe (DMF) rating 98.30 #17
@@ -42,7 +42,7 @@ Starters:
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Maya Yoshida (CB) rating 93.28 #22
   [RB] Ritsu Doan (RMF) rating 97.70 #10
-  [GK] Eiji Kawashima (GK) rating 97.32 #1
+  [GK] Eiji Kawashima (GK) rating 97.19 #1
 
 Substitutes:
   [CF] Kento Shiogai (CF) rating 94.40 #26
