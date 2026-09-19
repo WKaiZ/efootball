@@ -50,13 +50,14 @@ Substitutes:
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
   [AMF] Yari Verschaeren (AMF) rating 71.29 #11
   [CMF] Arthur Vermeeren (CMF) rating 74.86 #20
-  [DMF] Orel Mangala (CMF) rating 74.33 #8
+  [DMF] Charles Vanhoutte (DMF) rating 73.30 #15
   [LB] Thorgan Hazard (LWF) rating 74.26 #16
-  [CB] Sebastiaan Bornauw (CB) rating 75.90 #15
   [CB] Christian Kabasele (CB) rating 74.10 #4
+  [CB] VACANT
   [RB] VACANT
   [GK] Mike Penders (GK) rating 75.63 #13
 
 Wildcard:
+  [WILD] Orel Mangala (CMF) rating 74.33 #8
   [WILD] Davy Roef (GK) rating 73.89 #1
   [WILD] Benito Raman (CF) rating 72.22 #21
