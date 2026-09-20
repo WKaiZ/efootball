@@ -38,9 +38,9 @@ Starters:
   [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Gueye (CMF) rating 93.99 #26
   [DMF] Pathé Ciss (DMF) rating 72.97 #6
-  [LB] Moussa Ndiaye (LB) rating 72.25 #14
+  [LB] Souleymane Basse (LB) rating 66.08 #13
   [CB] Moustapha Mbow (CB) rating 73.07 #99
-  [CB] Nobel Mendy (CB) rating 71.40 #28
+  [CB] Ousseynou Ba (CB) rating 71.68 #14
   [RB] Bouna Sarr (RB) rating 70.37 #20
   [GK] Mory Diaw (GK) rating 73.17 #23
 
@@ -51,11 +51,11 @@ Substitutes:
   [AMF] Samba Diba (CMF) rating 66.50 #8
   [CMF] Rassoul Ndiaye (CMF) rating 70.64 #30
   [DMF] Cheikh Niasse (DMF) rating 72.94 #19
-  [LB] Souleymane Basse (LB) rating 66.08 #13
-  [CB] Seydou Sano (CB) rating 64.88 #4
+  [LB] Assane Dioussé (DMF) rating 68.44 #24
+  [CB] Nobel Mendy (CB) rating 71.40 #28
   [CB] Abdoulaye Ndiaye (CB) rating 70.83 #10
   [RB] Ilay Camara (RB) rating 69.71 #2
-  [GK] Seny Dieng (GK) rating 72.64 #1
+  [GK] Bingourou Kamara (GK) rating 71.75 #1
 
 Wildcard:
   [WILD] Nampalys Mendy (DMF) rating 72.33 #22
