@@ -1,7 +1,7 @@
 Cecilio Waterman, CF, 71.31, True, Standard, [CF, RWF], [SS, RMF]
 Azarías Londoño, CF, 70.93, True, Standard, [CF, RWF], [AMF, RMF]
 Tomás Rodríguez, CF, 70.02, True, Standard, [CF, SS, LWF], [LMF]
-Ismael Díaz, LWF, 73.17, True, Standard, [LWF, SS], [CF, SS, LMF]
+Ismael Díaz, LWF, 73.17, True, Standard, [LWF, SS], [CF, AMF, LMF]
 José Luis Rodríguez, LWF, 72.28, True, Standard, [LWF, RWF, RMF], [SS, AMF, CMF, LMF]
 César Yanis, RWF, 70.72, True, Standard, [RWF, RMF, AMF, LMF], [LWF, CMF]
 Alberto Quintero, RWF, 70.30, True, Standard, [LWF, LMF, RWF, RMF, SS], [CF, AMF, CMF]

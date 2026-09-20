@@ -2,7 +2,7 @@ Benjamin Sesko, CF, 97.70, False, Showtime, [CF], [SS, RWF]
 Jan Oblak, GK, 95.94, True, Highlight, [GK], []
 
 Andrés Vombergar, CF, 72.14, False, Standard, [RWF, CF], [SS]
-Benjamin Verbic, LWF, 71.09, True, Standard, [LWF, LMF, AMF], [CF, SS, AMF, DMF, RWF, RMF]
+Benjamin Verbic, LWF, 71.09, True, Standard, [LWF, LMF, CMF], [CF, SS, AMF, DMF, RWF, RMF]
 Tomi Horvat, AMF, 70.37, False, Standard, [AMF, CMF], [SS, DMF]
 Sandi Lovrić, CMF, 72.15, True, Standard, [AMF, CMF, DMF], [SS, RMF]
 Jon Gorenc Stankovic, DMF, 71.61, False, Standard, [DMF, CB], [CMF]

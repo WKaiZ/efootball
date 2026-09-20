@@ -1,7 +1,7 @@
 Pierre-Emerick Aubameyang, CF, 99.13, False, BigTime, [LWF, CF], [SS, RWF]
 
 Denis Bouanga, LWF, 77.52, False, Standard, [LWF, LMF], [CF, RWF, RMF]
-David Sambissa, RWF, 71.24, False, Standard, [RWF, RMF, LB], [LWF, LMF, LB]
+David Sambissa, RWF, 71.24, False, Standard, [RWF, RMF, LB], [LWF, LMF, RB]
 Jim Allevinah, RWF, 71.18, False, Standard, [LWF, RWF, LMF, RMF], [LB, RB]
 Guélor Kanga, AMF, 72.48, False, Standard, [AMF, CMF], [SS, DMF]
 Samaké Nzé Bagnama, CMF, 64.44, False, Standard, [CMF, DMF], [AMF]

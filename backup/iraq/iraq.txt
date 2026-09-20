@@ -5,7 +5,7 @@ Starters:
   [AMF] Mohammed Qasim (AMF) rating 68.25 #19
   [CMF] Amjad Attwan (CMF) rating 69.83 #8
   [DMF] Safaa Hadi (DMF) rating 67.96 #7
-  [LB] Merchas Doski (LB) rating 67.54 #23
+  [LB] Ahmed Yahya (LB) rating 67.81 #15
   [CB] Saad Natiq (CB) rating 70.53 #4
   [CB] Rebin Sulaka (CB) rating 69.00 #2
   [RB] Hussein Ali (RB) rating 67.93 #3
