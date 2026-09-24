@@ -246,6 +246,7 @@ PLAYER_NAME_ALIASES = {
     ],
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
+        ("Leo Kokubo", "Leo Brian Kokubo", "Kokubo Leo Brian"),
     ],
     "iran": [
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),
