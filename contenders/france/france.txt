@@ -58,4 +58,4 @@ Substitutes:
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Rayan Cherki (AMF) rating 95.18 #24
+  [WILD] Maghnes Akliouche (RMF) rating 95.45 #25
