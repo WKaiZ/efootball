@@ -7,18 +7,18 @@ Starters:
   [AMF] Francesco Totti (AMF) rating 99.59 #10
   [CMF] Roberto Donadoni (CMF) rating 97.54 #7
   [DMF] Andrea Pirlo (DMF) rating 99.04 #21
-  [LB] Riccardo Calafiori (LB) rating 96.53 #13
+  [LB] Riccardo Calafiori (LB) rating 96.53 #5
   [CB] Paolo Maldini (CB) rating 100.18 #3
-  [CB] Fabio Cannavaro (CB) rating 99.64 #5
+  [CB] Fabio Cannavaro (CB) rating 99.64 #13
   [RB] Gianluca Zambrotta (RB) rating 98.41 #19
   [GK] Gianluigi Buffon (GK) rating 100.22 #1
 
 Substitutes:
   [CF] Filippo Inzaghi (CF) rating 98.35 #9
   [LWF] Federico Chiesa (LWF) rating 94.39 #14
-  [RWF] Matteo Politano (RWF) rating 94.89 #16
-  [AMF] Roberto Baggio (AMF) rating 97.83 #18
-  [CMF] Nicolò Barella (CMF) rating 96.03 #23
+  [RWF] Matteo Politano (RWF) rating 94.89 #23
+  [AMF] Roberto Baggio (AMF) rating 97.83 #16
+  [CMF] Nicolò Barella (CMF) rating 96.03 #18
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Leonardo Spinazzola (LB) rating 94.17 #4
   [CB] Alessandro Nesta (CB) rating 98.91 #2
@@ -46,14 +46,14 @@ Starters:
 
 Substitutes:
   [CF] Christian Vieri (CF) rating 98.01 #9
-  [LMF] Andrea Cambiaso (LMF) rating 94.42 #15
+  [LMF] Andrea Cambiaso (LMF) rating 94.42 #24
   [RWF] Domenico Berardi (RWF) rating 93.34 #11
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
-  [CMF] Marco Verratti (CMF) rating 79.14 #24
+  [CMF] Niccolò Pisilli (CMF) rating 92.12 #14
   [DMF] Massimo Ambrosini (DMF) rating 97.01 #8
   [LB] Matteo Ruggeri (LB) rating 75.81 #17
   [CB] Gianluca Mancini (CB) rating 94.01 #23
-  [CB] Giorgio Scalvini (CB) rating 94.78 #14
+  [CB] Giorgio Scalvini (CB) rating 94.78 #15
   [RB] Christian Panucci (RB) rating 96.96 #2
   [GK] Alex Meret (GK) rating 95.11 #22
 

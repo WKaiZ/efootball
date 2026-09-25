@@ -3,13 +3,13 @@ First Squad
 Starters:
   [CF] Ismael Saibari (CF) rating 95.35 #11
   [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
-  [RWF] Abde Ezzalzouli (LMF) rating 94.26 #16
+  [RWF] Abde Ezzalzouli (LMF) rating 94.26 #17
   [AMF] Brahim Díaz (AMF) rating 97.79 #10
   [CMF] Mohamed Boulacsout (RB) rating 93.43 #7
   [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
   [LB] Noussair Mazraoui (LB) rating 93.89 #3
-  [CB] Nayef Aguerd (CB) rating 95.28 #4
-  [CB] Medhi Benatia (CB) rating 94.38 #5
+  [CB] Nayef Aguerd (CB) rating 95.28 #5
+  [CB] Marouane Louadni (CB) rating 92.57 #4
   [RB] Achraf Hakimi (RB) rating 97.94 #2
   [GK] Yassine Bounou (GK) rating 96.28 #1
 
@@ -19,7 +19,7 @@ Substitutes:
   [RWF] Munir El Haddadi (RWF) rating 73.19 #9
   [AMF] Amine Adli (AMF) rating 94.14 #21
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
-  [DMF] Sofyan Amrabat (DMF) rating 77.03 #17
+  [DMF] Sofyan Amrabat (DMF) rating 77.03 #16
   [LB] Anass Salah-Eddine (LB) rating 71.36 #26
   [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 75.97 #14
@@ -38,24 +38,24 @@ Starters:
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
   [CMF] Ismael Saibari (AMF) rating 93.24 #11
   [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
-  [LB] Youssef Belammari (LB) rating 71.11 #19
-  [CB] Marouane Louadni (CB) rating 92.57 #4
+  [LB] Souffian El Karouani (LB) rating 73.47 #21
+  [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Romain Saïss (CB) rating 76.55 #6
   [RB] Anas Bach (RB) rating 92.44 #3
-  [GK] Munir El Kajoui (GK) rating 71.57 #12
+  [GK] Anas Zniti (GK) rating 71.78 #1
 
 Substitutes:
-  [CF] Hamza Igamane (CF) rating 74.23 #20
-  [LWF] Amine Adli (LWF) rating 74.79 #21
+  [CF] Youssef En-Nesyri (CF) rating 77.34 #19
+  [LWF] Ilias Chair (LWF) rating 74.23 #13
   [RWF] Hakim Ziyech (RWF) rating 74.64 #7
   [AMF] Adel Taarabt (AMF) rating 73.34 #8
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
   [DMF] Oussama Targhalline (CMF) rating 72.51 #15
-  [LB] Hamza El Moussaoui (LB) rating 70.57 #13
+  [LB] Youssef Belammari (LB) rating 71.11 #28
   [CB] Chadi Riad (CB) rating 74.06 #18
   [CB] Adam Masina (CB) rating 73.22 #25
   [RB] Noussair Mazraoui (RB) rating 75.30 #14
-  [GK] Ahmed Reda Tagnaouti (GK) rating 70.99 #22
+  [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Wildcard:
   [WILD] Osame Sahraoui (LMF) rating 92.95 #26

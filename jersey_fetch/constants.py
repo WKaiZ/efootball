@@ -55,6 +55,9 @@ MANUAL_ID_OVERRIDES = {
         "william": {"player_id": "341710", "preserve_name": True},
         "paulo henrique": {"player_id": "412594", "preserve_name": True},
         "rafael": {"player_id": "68097", "preserve_name": True},
+        "otavio": {"player_id": "997947", "preserve_name": True},
+        "danilo santos": {"player_id": "808509", "preserve_name": True},
+        "serginho": {"player_id": "5819", "preserve_name": True},
     },
     "burkina-faso": {
         "lassina traore": {"player_id": "551695", "preserve_name": True},
@@ -244,6 +247,9 @@ COUNTRY_DISPLAY_NAMES = {
 PLAYER_NAME_ALIASES = {
     "argentina": [
         ("Flaco López", "José Manuel López"),
+    ],
+    "brazil": [
+        ("Jair Cunha", "Jair Paula"),
     ],
     "japan": [
         ("Ko Itakura", "Kou Itakura"),

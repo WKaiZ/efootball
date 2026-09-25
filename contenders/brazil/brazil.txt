@@ -5,12 +5,12 @@ Starters:
   [LWF] Ronaldinho (LWF) rating 99.95 #7
   [RMF] Lucas Moura (RMF) rating 95.07 #11
   [AMF] Kaká (AMF) rating 99.35 #22
-  [CMF] Ederson (CMF) rating 94.97 #2
+  [CMF] Ederson (CMF) rating 94.97 #17
   [DMF] Bruno Guimarães (DMF) rating 98.17 #8
   [LB] Roberto Carlos (LB) rating 99.93 #6
   [CB] Gabriel (CB) rating 97.96 #3
   [CB] Marquinhos (CB) rating 96.97 #4
-  [RB] Cafu (RB) rating 98.85 #14
+  [RB] Cafu (RB) rating 98.85 #2
   [GK] Dida (GK) rating 97.90 #1
 
 Substitutes:
@@ -18,44 +18,44 @@ Substitutes:
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
   [RMF] Antony (RMF) rating 93.96 #19
   [AMF] Rivaldo (AMF) rating 97.67 #20
-  [CMF] Joelinton (CMF) rating 94.78 #17
+  [CMF] Andrey Santos (CMF) rating 94.21 #21
   [DMF] Casemiro (DMF) rating 97.38 #5
   [LB] Marcelo (LB) rating 97.92 #12
-  [CB] Léo Pereira (CB) rating 94.91 #15
-  [CB] Bremer (CB) rating 94.92 #25
+  [CB] Bremer (CB) rating 94.92 #15
+  [CB] Murillo (CB) rating 94.98 #14
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 
 Wildcard:
-  [WILD] João Pedro (CF) rating 98.24 #21
+  [WILD] Bebeto (CF) rating 97.56 #16
 
 Second Squad
 
 Starters:
-  [CF] Romário (CF) rating 98.28 #9
-  [LWF] Neymar (LWF) rating 99.19 #10
-  [RWF] Raphinha (RWF) rating 96.99 #11
+  [CF] Romário (CF) rating 98.28 #11
+  [LWF] Denilson (LWF) rating 95.65 #17
+  [RWF] Raphinha (RWF) rating 96.99 #10
   [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Andrey Santos (CMF) rating 94.21 #18
+  [CMF] Joelinton (CMF) rating 94.78 #18
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Wesley (LB) rating 95.00 #13
   [CB] Éder Militão (CB) rating 95.22 #3
-  [CB] Murillo (CB) rating 94.98 #14
+  [CB] Léo Pereira (CB) rating 94.91 #15
   [RB] Juliano Belletti (RB) rating 97.04 #2
   [GK] Cássio (GK) rating 95.25 #16
 
 Substitutes:
-  [CF] Bebeto (CF) rating 97.56 #20
-  [LWF] Denilson (LWF) rating 95.65 #17
+  [CF] João Pedro (CF) rating 98.24 #9
+  [LWF] Rodrygo (LWF) rating 95.46 #23
   [RWF] Luiz Henrique (RWF) rating 95.39 #21
   [AMF] Ronaldinho (AMF) rating 98.60 #7
   [CMF] Andreas Pereira (CMF) rating 93.34 #19
   [DMF] Pablo Maia (DMF) rating 72.89 #26
   [LB] Alex Sandro (LB) rating 94.21 #6
-  [CB] Alexsandro (CB) rating 94.26 #15
+  [CB] Fabrício Bruno (CB) rating 94.56 #14
   [CB] Roger Ibañez (CB) rating 94.31 #24
   [RB] Danilo (RB) rating 94.04 #22
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Igor Thiago (CF) rating 95.90 #25
+  [WILD] Vinicius Junior (LMF) rating 97.46 #20

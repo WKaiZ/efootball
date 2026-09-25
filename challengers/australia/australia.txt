@@ -13,10 +13,10 @@ Starters:
 
 Substitutes:
   [CF] Adam Taggart (CF) rating 71.88 #15
-  [LWF] Mathew Leckie (LWF) rating 72.18 #7
+  [LWF] Awer Mabil (LWF) rating 71.49 #11
   [RWF] Nestory Irankunda (RWF) rating 71.51 #17
   [AMF] Dimitri Petratos (AMF) rating 70.47 #21
-  [CMF] Patrick Yazbek (CMF) rating 73.15 #24
+  [CMF] Patrick Yazbek (CMF) rating 73.15 #7
   [DMF] Aiden O'Neill (DMF) rating 71.59 #13
   [LB] Aziz Behich (LB) rating 70.55 #16
   [CB] Lucas Herrington (CB) rating 73.20 #25

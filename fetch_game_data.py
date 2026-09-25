@@ -51,6 +51,9 @@ MANUAL_ID_OVERRIDES = {
         "igor thiago": "739443",
         "paulinho": "428791",
         "leo pereira": "288431",
+        "otavio": "997947",
+        "danilo santos": "808509",
+        "serginho": "5819",
     },
     "burkina-faso": {
         "lassina traore": "551695",
