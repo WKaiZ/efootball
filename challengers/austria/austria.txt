@@ -15,7 +15,7 @@ Substitutes:
   [CF] Michael Gregoritsch (CF) rating 73.59 #11
   [LWF] Hannes Wolf (LWF) rating 74.32 #17
   [RWF] Raul Florucz (RWF) rating 71.15 #22
-  [AMF] Paul Wanner (AMF) rating 72.54 #24
+  [AMF] Paul Wanner (AMF) rating 72.54 #10
   [CMF] Xaver Schlager (CMF) rating 77.27 #4
   [DMF] Dejan Ljubicic (DMF) rating 73.21 #14
   [LB] David Schnegg (LB) rating 71.25 #23

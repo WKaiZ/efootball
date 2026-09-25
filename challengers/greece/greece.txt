@@ -13,10 +13,10 @@ Starters:
 
 Substitutes:
   [CF] Anastasios Douvikas (CF) rating 94.00 #9
-  [LWF] Georgios Masouras (LWF) rating 74.02 #16
+  [LWF] Georgios Masouras (LWF) rating 74.02 #19
   [RWF] Alexandros Kyziridis (LWF) rating 72.19 #26
-  [AMF] Konstantinos Karetsas (AMF) rating 71.42 #19
-  [CMF] Christos Mouzakitis (CMF) rating 70.72 #8
+  [AMF] Petros Mantalos (AMF) rating 72.16 #8
+  [CMF] Christos Mouzakitis (CMF) rating 70.72 #16
   [DMF] Dimitrios Kourbelis (DMF) rating 72.51 #6
   [LB] Dimitrios Giannoulis (LB) rating 73.18 #22
   [CB] Pantelis Hatzidiakos (CB) rating 73.41 #17

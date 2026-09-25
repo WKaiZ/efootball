@@ -20,9 +20,9 @@ Substitutes:
   [DMF] Saeed Ezatolahi (DMF) rating 68.84 #6
   [LB] Milad Mohammadi (LB) rating 71.62 #5
   [CB] Mohammad Daneshgar (CB) rating 69.85 #24
-  [CB] Aref Aghasi (CB) rating 69.83 #31
+  [CB] Aref Aghasi (CB) rating 69.83 #33
   [RB] Arya Yousefi (RB) rating 70.46 #18
   [GK] Payam Niazmand (GK) rating 70.36 #12
 
 Wildcard:
-  [WILD] Alireza Jahanbakhsh (RMF) rating 75.08 #7
+  [WILD] Mehrdad Mohammadi (CF) rating 71.90 #7

@@ -15,12 +15,12 @@ Substitutes:
   [CF] Mika Biereth (CF) rating 92.94 #12
   [LWF] Martin Braithwaite (CF) rating 75.36 #10
   [RWF] Anders Dreyer (RWF) rating 76.97 #20
-  [AMF] Jesper Lindstrøm (AMF) rating 75.97 #19
+  [AMF] Noah Nartey (AMF) rating 72.18 #19
   [CMF] Mathias Jensen (CMF) rating 94.00 #7
   [DMF] Christian Nørgaard (DMF) rating 76.02 #15
   [LB] Joakim Maehle (LB) rating 75.98 #5
-  [CB] Victor Nelsson (CB) rating 75.48 #3
-  [CB] Jannik Vestergaard (CB) rating 74.72 #4
+  [CB] Victor Nelsson (CB) rating 75.48 #4
+  [CB] Jannik Vestergaard (CB) rating 74.72 #3
   [RB] Alexander Bah (RB) rating 73.77 #18
   [GK] Filip Jørgensen (GK) rating 75.48 #22
 

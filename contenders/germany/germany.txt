@@ -2,10 +2,10 @@ First Squad
 
 Starters:
   [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
-  [LMF] Jamal Musiala (LMF) rating 97.68 #10
-  [RWF] Karim Adeyemi (RWF) rating 98.52 #14
+  [LMF] Jamal Musiala (LMF) rating 97.68 #14
+  [RWF] Karim Adeyemi (RWF) rating 98.52 #19
   [AMF] Uli Hoeneß (AMF) rating 98.18 #8
-  [CMF] Lothar Matthäus (CMF) rating 99.60 #18
+  [CMF] Lothar Matthäus (CMF) rating 99.60 #10
   [DMF] Bastian Schweinsteiger (DMF) rating 98.08 #7
   [LB] David Raum (LB) rating 94.18 #22
   [CB] Franz Beckenbauer (CB) rating 99.41 #5
@@ -14,14 +14,14 @@ Starters:
   [GK] Manuel Neuer (GK) rating 100.29 #1
 
 Substitutes:
-  [CF] Mario Götze (CF) rating 97.60 #19
+  [CF] Gerd Müller (CF) rating 99.05 #13
   [LMF] Marco Reus (LMF) rating 97.37 #21
   [RWF] Jamie Leweling (RWF) rating 95.10 #9
   [AMF] Florian Wirtz (AMF) rating 96.12 #17
-  [CMF] Pascal Groß (CMF) rating 94.23 #13
+  [CMF] Assan Ouédraogo (CMF) rating 94.02 #25
   [DMF] Felix Nmecha (DMF) rating 97.61 #23
-  [LB] Nico Schlotterbeck (CB) rating 95.32 #15
-  [CB] Emre Can (CB) rating 96.47 #25
+  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
+  [CB] Nico Schlotterbeck (CB) rating 95.32 #15
   [CB] Antonio Rüdiger (CB) rating 95.87 #2
   [RB] Joshua Kimmich (RB) rating 95.99 #6
   [GK] Oliver Kahn (GK) rating 97.27 #12
@@ -32,30 +32,31 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Gerd Müller (CF) rating 99.05 #13
+  [CF] Miroslav Klose (CF) rating 97.85 #11
   [LWF] Serge Gnabry (LWF) rating 95.13 #20
   [RWF] Leroy Sané (RWF) rating 94.89 #19
-  [AMF] Jamal Musiala (AMF) rating 97.02 #10
-  [CMF] Assan Ouédraogo (CMF) rating 94.02 #25
-  [DMF] Lothar Matthäus (DMF) rating 96.95 #8
-  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
+  [AMF] Jamal Musiala (AMF) rating 97.02 #14
+  [CMF] Pascal Groß (CMF) rating 94.23 #13
+  [DMF] Lothar Matthäus (DMF) rating 96.95 #10
+  [LB] David Raum (LMF) rating 93.96 #22
+  [CB] Emre Can (CB) rating 96.47 #23
   [CB] Joshua Kimmich (CB) rating 95.94 #6
-  [CB] Robert Andrich (CB) rating 94.99 #23
-  [RB] Jonas Hofmann (AMF) rating 94.03 #17
+  [RB] Jonas Hofmann (AMF) rating 94.03 #18
   [GK] Kevin Trapp (GK) rating 94.34 #12
 
 Substitutes:
-  [CF] Miroslav Klose (CF) rating 97.85 #11
-  [LWF] Kevin Schade (LWF) rating 94.09 #14
-  [RWF] Florian Wirtz (LMF) rating 96.96 #15
-  [AMF] Kai Havertz (AMF) rating 95.17 #7
+  [CF] Jonathan Burkardt (CF) rating 95.09 #7
+  [LWF] Kevin Schade (LWF) rating 94.09 #9
+  [RWF] Florian Wirtz (LMF) rating 96.96 #17
+  [AMF] Thomas Müller (AMF) rating 95.36 #25
   [CMF] İlkay Gündoğan (CMF) rating 77.18 #21
   [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
-  [LB] David Raum (LMF) rating 93.96 #22
+  [LB] VACANT
+  [CB] Robert Andrich (CB) rating 94.99 #8
   [CB] Malick Thiaw (CB) rating 94.99 #24
-  [CB] Waldemar Anton (CB) rating 94.38 #3
-  [RB] Thilo Kehrer (CB) rating 76.98 #2
+  [RB] Thilo Kehrer (CB) rating 76.98 #15
   [GK] Oliver Baumann (GK) rating 94.22 #1
 
 Wildcard:
   [WILD] Angelo Stiller (DMF) rating 95.29 #16
+  [WILD] Deniz Undav (CF) rating 94.96 #26

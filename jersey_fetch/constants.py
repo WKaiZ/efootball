@@ -68,6 +68,7 @@ MANUAL_ID_OVERRIDES = {
         "joao mario": {"player_id": "537602", "preserve_name": True},
         "joao moutinho": {"player_id": "29364", "preserve_name": True},
         "paulo henrique": {"player_id": "292365", "preserve_name": True},
+        "josue": {"player_id": "72772", "preserve_name": True},
     },
     "france": {
         "maxence lacroix": {"player_id": "434224", "preserve_name": True},

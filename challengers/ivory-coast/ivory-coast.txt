@@ -1,28 +1,28 @@
 Starters:
-  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
-  [LWF] Simon Adingra (LWF) rating 76.28 #10
-  [RWF] Yan Diomande (RWF) rating 96.47 #11
+  [CF] Didier Drogba (CF) rating 99.38 #11
+  [LWF] Simon Adingra (LWF) rating 76.28 #24
+  [RWF] Yan Diomande (RWF) rating 96.47 #10
   [AMF] Amad Diallo (AMF) rating 93.78 #15
   [CMF] Ibrahim Sangaré (DMF) rating 94.00 #18
   [DMF] Yaya Touré (DMF) rating 97.66 #19
-  [LB] Ghislain Konan (LB) rating 74.30 #3
+  [LB] Hassane Kamara (LB) rating 74.14 #3
   [CB] Evan Ndicka (CB) rating 95.99 #21
   [CB] Odilon Kossounou (CB) rating 95.33 #7
   [RB] Guéla Doué (RB) rating 74.34 #17
   [GK] Alban Lafont (GK) rating 74.66 #23
 
 Substitutes:
-  [CF] Elye Wahi (CF) rating 75.27 #12
-  [LWF] Jonathan Bamba (LWF) rating 74.63 #13
+  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
+  [LWF] Wilfried Zaha (LWF) rating 76.11 #12
   [RWF] Nicolas Pépé (RWF) rating 94.36 #2
   [AMF] Hamed Traoré (AMF) rating 74.80 #25
   [CMF] Franck Kessié (CMF) rating 76.47 #8
-  [DMF] Mory Gbane (DMF) rating 70.40 #24
-  [LB] Hassane Kamara (LB) rating 74.14 #4
+  [DMF] Seko Fofana (CMF) rating 75.45 #6
+  [LB] Christopher Operi (LB) rating 73.13 #13
   [CB] Emmanuel Agbadou (CB) rating 94.67 #20
   [CB] Wilfried Singo (CB) rating 77.38 #5
-  [RB] Jean-Daniel Akpa Akpro (CMF) rating 72.40 #14
+  [RB] Jean-Philippe Gbamin (CB) rating 72.22 #4
   [GK] Yahia Fofana (GK) rating 74.47 #1
 
 Wildcard:
-  [WILD] Seko Fofana (CMF) rating 75.45 #6
+  [WILD] Evann Guessand (RWF) rating 75.40 #22
