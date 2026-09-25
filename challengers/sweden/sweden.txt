@@ -1,6 +1,6 @@
 Starters:
   [CF] Zlatan Ibrahimović (CF) rating 100.30 #10
-  [LWF] Williot Swedberg (LWF) rating 94.20 #6
+  [LWF] Williot Swedberg (LWF) rating 94.20 #13
   [RWF] Dejan Kulusevski (RWF) rating 96.43 #21
   [AMF] Mattias Svanberg (CMF) rating 93.18 #19
   [CMF] Lucas Bergvall (CMF) rating 93.99 #7
@@ -8,21 +8,21 @@ Starters:
   [LB] Daniel Svensson (LB) rating 94.12 #8
   [CB] Isak Hien (CB) rating 93.44 #4
   [CB] Victor Lindelöf (CB) rating 91.56 #3
-  [RB] Emil Holm (RB) rating 72.88 #2
+  [RB] Emil Holm (RB) rating 72.88 #6
   [GK] Viktor Johansson (GK) rating 74.42 #12
 
 Substitutes:
   [CF] Alexander Isak (CF) rating 96.84 #9
   [LWF] Kristoffer Peterson (LWF) rating 69.65 #24
   [RWF] Anthony Elanga (RWF) rating 93.93 #11
-  [AMF] Roony Bardghji (RMF) rating 92.90 #14
+  [AMF] Besfort Zeneli (CMF) rating 70.29 #22
   [CMF] Yasin Ayari (CMF) rating 93.83 #18
   [DMF] Jens Cajuste (DMF) rating 74.18 #20
   [LB] Gabriel Gudmundsson (LB) rating 74.55 #5
   [CB] Carl Starfelt (CB) rating 75.02 #15
-  [CB] Gustaf Lagerbielke (CB) rating 74.89 #22
+  [CB] Gustaf Lagerbielke (CB) rating 74.89 #2
   [RB] Jesper Tolinsson (CB) rating 69.42 #25
   [GK] Noel Törnqvist (GK) rating 73.60 #1
 
 Wildcard:
-  [WILD] Viktor Gyökeres (CF) rating 80.42 #17
+  [WILD] Roony Bardghji (RMF) rating 92.90 #14

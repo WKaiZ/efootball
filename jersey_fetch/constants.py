@@ -207,6 +207,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "panama": {
         "cristian martinez": {"player_id": "419247", "preserve_name": True},
+        "jose luis rodriguez": {"player_id": "425028", "preserve_name": True},
     },
     "paraguay": {
         "diego gomez": {"player_id": "996897", "preserve_name": True},

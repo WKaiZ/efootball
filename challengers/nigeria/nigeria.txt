@@ -8,8 +8,8 @@ Starters:
   [LB] Bruno Onyemaechi (LB) rating 71.59 #3
   [CB] Calvin Bassey (CB) rating 94.26 #21
   [CB] Igoh Ogbu (CB) rating 73.58 #5
-  [RB] Bright Osayi-Samuel (RB) rating 93.16 #2
-  [GK] Maduka Okoye (GK) rating 73.41 #23
+  [RB] Bright Osayi-Samuel (RB) rating 93.16 #12
+  [GK] Maduka Okoye (GK) rating 73.41 #1
 
 Substitutes:
   [CF] Victor Osimhen (CF) rating 97.10 #9
@@ -17,12 +17,12 @@ Substitutes:
   [RWF] Samuel Chukwueze (RWF) rating 94.32 #11
   [AMF] Christantus Uche (AMF) rating 71.27 #7
   [CMF] Fisayo Dele-Bashiru (CMF) rating 93.09 #14
-  [DMF] Tochukwu Nnadi (CMF) rating 67.16 #28
-  [LB] Zaidu Sanusi (LB) rating 71.34 #12
-  [CB] Chibuike Nwaiwu (CB) rating 72.41 #6
+  [DMF] Wilfred Ndidi (DMF) rating 75.18 #6
+  [LB] Zaidu Sanusi (LB) rating 71.34 #15
+  [CB] Kevin Akpoguma (CB) rating 72.37 #22
   [CB] Emmanuel Fernandez (CB) rating 72.73 #18
-  [RB] Ryan Alebiosu (RB) rating 70.48 #27
-  [GK] Arthur Okonkwo (GK) rating 70.51 #16
+  [RB] Ola Aina (RB) rating 78.03 #2
+  [GK] Stanley Nwabali (GK) rating 71.36 #23
 
 Wildcard:
   [WILD] Paul Onuachu (CF) rating 96.37 #19

@@ -5,7 +5,7 @@ Starters:
   [AMF] Yoel Bárcenas (AMF) rating 71.42 #11
   [CMF] Adalberto Carrasquilla (CMF) rating 73.35 #8
   [DMF] Aníbal Godoy (DMF) rating 72.82 #20
-  [LB] Omar Valencia (LB) rating 71.43 #3
+  [LB] Omar Valencia (LB) rating 71.43 #19
   [CB] Andrés Andrade (CB) rating 73.50 #16
   [CB] Jiovany Ramos (CB) rating 70.83 #13
   [RB] Amir Murillo (RB) rating 74.19 #23
@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Azarías Londoño (CF) rating 70.93 #24
-  [LWF] Tomás Rodríguez (CF) rating 70.02 #9
-  [RWF] Alberto Quintero (RWF) rating 70.30 #19
+  [LWF] José Luis Rodríguez (LWF) rating 72.28 #7
+  [RWF] Tomás Rodríguez (CF) rating 70.02 #9
   [AMF] Edward Cedeño (CMF) rating 65.85 #25
   [CMF] Cristian Martínez (CMF) rating 69.27 #6
   [DMF] Carlos Harvey (DMF) rating 70.71 #14
-  [LB] Jorge Gutiérrez (LB) rating 69.65 #26
-  [CB] José Córdoba (CB) rating 70.14 #5
+  [LB] Jorge Gutiérrez (LB) rating 69.65 #15
+  [CB] José Córdoba (CB) rating 70.14 #3
   [CB] Fidel Escobar (CB) rating 69.59 #4
   [RB] César Blackman (RB) rating 69.30 #2
   [GK] Luis Mejía (GK) rating 69.40 #1
 
 Wildcard:
-  [WILD] VACANT
+  [WILD] José Fajardo (CF) rating 69.64 #17

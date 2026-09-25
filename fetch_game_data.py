@@ -196,6 +196,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "panama": {
         "cristian martinez": "419247",
+        "jose luis rodriguez": "425028",
     },
     "paraguay": {
         "diego gomez": "996897",
