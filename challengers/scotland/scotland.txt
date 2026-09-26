@@ -6,23 +6,23 @@ Starters:
   [CMF] Lewis Ferguson (CMF) rating 94.37 #19
   [DMF] Darren Fletcher (DMF) rating 96.61 #7
   [LB] Andrew Robertson (LB) rating 77.21 #3
-  [CB] Scott McKenna (CB) rating 74.69 #26
+  [CB] Scott McKenna (CB) rating 74.69 #16
   [CB] John Souttar (CB) rating 74.22 #15
   [RB] Aaron Hickey (RB) rating 73.64 #2
   [GK] Angus Gunn (GK) rating 71.65 #1
 
 Substitutes:
-  [CF] Lawrence Shankland (CF) rating 74.37 #20
+  [CF] Lawrence Shankland (CF) rating 74.37 #9
   [LWF] Lewis Morgan (LWF) rating 72.38 #18
   [RWF] James Forrest (RWF) rating 72.02 #25
-  [AMF] Stuart Armstrong (CMF) rating 72.02 #16
+  [AMF] Ryan Gauld (AMF) rating 74.84 #20
   [CMF] Tom Cairney (CMF) rating 74.42 #22
   [DMF] Scott McTominay (DMF) rating 94.99 #4
   [LB] Kieran Tierney (LB) rating 75.76 #6
   [CB] Ryan Porteous (CB) rating 73.69 #14
   [CB] Jack Hendry (CB) rating 73.63 #13
   [RB] Anthony Ralston (RB) rating 72.15 #24
-  [GK] Zander Clark (GK) rating 71.07 #21
+  [GK] Zander Clark (GK) rating 70.92 #21
 
 Wildcard:
   [WILD] Callum McGregor (DMF) rating 75.74 #23

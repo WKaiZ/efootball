@@ -14,10 +14,10 @@ Starters:
 Substitutes:
   [CF] Patrik Schick (CF) rating 94.47 #19
   [LMF] Denis Visinsky (LWF) rating 68.25 #26
-  [RWF] Ondrej Lingr (AMF) rating 72.39 #12
+  [RWF] Mojmír Chytil (CF) rating 73.10 #18
   [AMF] Pavel Sulc (AMF) rating 94.39 #15
-  [CMF] Vladimír Darida (CMF) rating 73.05 #8
-  [DMF] Michal Sadílek (DMF) rating 71.54 #18
+  [CMF] Lukas Cerv (CMF) rating 72.11 #12
+  [DMF] Michal Sadílek (DMF) rating 71.54 #8
   [LB] Jaroslav Zeleny (LB) rating 72.31 #20
   [CB] Martin Vitík (CB) rating 71.69 #6
   [CB] David Zima (CB) rating 72.52 #2

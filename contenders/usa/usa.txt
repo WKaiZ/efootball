@@ -14,25 +14,25 @@ Starters:
   [GK] Zack Steffen (GK) rating 74.77 #22
 
 Substitutes:
-  [CF] Josh Sargent (CF) rating 75.03 #9
-  [LWF] Álex Zendejas (RMF) rating 75.10 #26
-  [RWF] Emmanuel Sabbi (RWF) rating 72.28 #11
+  [CF] Brian White (CF) rating 76.59 #23
+  [LWF] Mathis Albert (LWF) rating 62.99 #27
+  [RWF] Zavier Gozo (RWF) rating 73.18 #11
   [AMF] Djordje Mihailovic (AMF) rating 75.91 #14
   [CMF] Cristian Roldán (CMF) rating 74.62 #7
   [DMF] Tyler Adams (DMF) rating 76.37 #4
   [LB] Sam Vines (LB) rating 70.70 #21
   [CB] Miles Robinson (CB) rating 74.55 #12
   [CB] Tim Ream (CB) rating 74.59 #13
-  [RB] Joe Scally (RB) rating 73.74 #23
+  [RB] Joe Scally (RB) rating 73.74 #26
   [GK] Matt Turner (GK) rating 74.74 #1
 
 Wildcard:
-  [WILD] Ricardo Pepi (CF) rating 74.99 #18
+  [WILD] Josh Sargent (CF) rating 75.03 #9
 
 Second Squad
 
 Starters:
-  [CF] Brian White (CF) rating 76.59 #23
+  [CF] Ricardo Pepi (CF) rating 74.99 #9
   [LWF] Konrad de la Fuente (LWF) rating 68.53 #20
   [RWF] Paul Arriola (RWF) rating 72.16 #7
   [AMF] Christian Pulisic (AMF) rating 96.31 #10
@@ -42,20 +42,20 @@ Starters:
   [CB] Cameron Carter-Vickers (CB) rating 75.44 #2
   [CB] Auston Trusty (CB) rating 74.47 #6
   [RB] DeAndre Yedlin (RB) rating 74.31 #22
-  [GK] Matt Freese (GK) rating 74.12 #24
+  [GK] Matt Freese (GK) rating 74.12 #1
 
 Substitutes:
-  [CF] Haji Wright (CF) rating 74.61 #19
-  [LWF] Jesús Ferreira (SS) rating 73.71 #9
+  [CF] Brandon Vazquez (CF) rating 74.84 #19
+  [LWF] Álex Zendejas (RMF) rating 75.10 #26
   [RWF] Bernard Kamungo (RWF) rating 71.22 #17
-  [AMF] Jack McGlynn (CMF) rating 74.18 #12
+  [AMF] Paxten Aaronson (AMF) rating 72.92 #21
   [CMF] Yunus Musah (CMF) rating 74.52 #18
   [DMF] Emeka Eneli (DMF) rating 72.53 #14
-  [LB] Max Arfsten (LMF) rating 71.11 #27
+  [LB] Kristoffer Lund (LB) rating 71.18 #23
   [CB] Walker Zimmerman (CB) rating 73.93 #5
   [CB] Mark McKenzie (CB) rating 73.73 #4
   [RB] Alex Freeman (RB) rating 73.02 #16
-  [GK] Gabriel Slonina (GK) rating 73.63 #21
+  [GK] Roman Celentano (GK) rating 73.73 #24
 
 Wildcard:
-  [WILD] Matt Miazga (CB) rating 73.69 #3
+  [WILD] Jack McGlynn (CMF) rating 74.18 #12

@@ -7,27 +7,27 @@ Starters:
   [AMF] Dani Olmo (AMF) rating 97.79 #10
   [CMF] Xavi (CMF) rating 98.16 #8
   [DMF] Rodri (DMF) rating 99.11 #16
-  [LB] Marc Cucurella (LB) rating 99.01 #24
+  [LB] Marc Cucurella (LB) rating 99.01 #22
   [CB] Gerard Piqué (CB) rating 98.90 #3
-  [CB] Pau Cubarsí (CB) rating 97.54 #22
+  [CB] Pau Cubarsí (CB) rating 97.54 #5
   [RB] Albert Ferrer (RB) rating 96.99 #2
   [GK] Unai Simón (GK) rating 99.79 #23
 
 Substitutes:
   [CF] David Villa (CF) rating 98.57 #21
   [LMF] Nico Williams (LMF) rating 96.40 #17
-  [RWF] Adama Traoré (RWF) rating 74.91 #11
-  [AMF] Fermín López (AMF) rating 95.98 #25
+  [RWF] Yéremy Pino (SS) rating 95.33 #15
+  [AMF] Fermín López (AMF) rating 95.98 #9
   [CMF] Pedri (CMF) rating 97.43 #20
-  [DMF] Xabi Alonso (DMF) rating 96.19 #14
-  [LB] Sergi Barjuan (LB) rating 98.36 #12
-  [CB] Yeray Álvarez (CB) rating 95.10 #26
+  [DMF] Sergio Busquets (DMF) rating 98.11 #13
+  [LB] Sergi Barjuan (LB) rating 98.36 #11
+  [CB] Dean Huijsen (CB) rating 96.56 #14
   [CB] Eric García (CB) rating 95.96 #4
-  [RB] Marcos Llorente (RB) rating 96.97 #5
-  [GK] Joan García (GK) rating 99.09 #13
+  [RB] Marc Pubill (RB) rating 95.06 #12
+  [GK] David Raya (GK) rating 98.82 #1
 
 Wildcard:
-  [WILD] David Raya (GK) rating 98.82 #1
+  [WILD] Jordi Alba (LB) rating 97.74 #18
 
 Second Squad
 
@@ -37,25 +37,25 @@ Starters:
   [RMF] Lamine Yamal (RMF) rating 98.94 #19
   [SS] Raúl (SS) rating 95.50 #7
   [CMF] Andrés Iniesta (CMF) rating 97.70 #6
-  [DMF] Sergio Busquets (DMF) rating 98.11 #5
-  [LB] Jordi Alba (LB) rating 97.74 #18
-  [CB] Dean Huijsen (CB) rating 96.56 #12
-  [CB] Dani Vivian (CB) rating 95.07 #4
-  [RB] Marc Pubill (RB) rating 95.06 #2
-  [GK] Iker Casillas (GK) rating 98.59 #1
-
-Substitutes:
-  [CF] Ferran Torres (CF) rating 96.88 #21
-  [LWF] Nico Williams (LWF) rating 95.76 #17
-  [RMF] Marco Asensio (AMF) rating 95.97 #20
-  [SS] Yéremy Pino (SS) rating 95.33 #11
-  [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xavi (DMF) rating 97.06 #8
   [LB] Alejandro Balde (LB) rating 95.80 #3
-  [CB] Aymeric Laporte (CB) rating 94.54 #14
-  [CB] Iñigo Martínez (CB) rating 78.41 #16
+  [CB] Cristhian Mosquera (CB) rating 96.49 #2
+  [CB] Carles Puyol (CB) rating 95.87 #5
+  [RB] Marcos Llorente (RB) rating 96.97 #14
+  [GK] Joan García (GK) rating 99.09 #13
+
+Substitutes:
+  [CF] Ferran Torres (CF) rating 96.88 #11
+  [LWF] Nico Williams (LWF) rating 95.76 #17
+  [RMF] Pedro Porro (RMF) rating 95.01 #12
+  [SS] Marco Asensio (AMF) rating 95.97 #20
+  [CMF] Thiago Alcántara (CMF) rating 95.98 #22
+  [DMF] Xabi Alonso (DMF) rating 96.19 #16
+  [LB] José Gayà (LB) rating 94.99 #18
+  [CB] Yeray Álvarez (CB) rating 95.10 #26
+  [CB] Dani Vivian (CB) rating 95.07 #4
   [RB] Lucas Vázquez (RB) rating 93.81 #9
-  [GK] Álex Remiro (GK) rating 95.02 #13
+  [GK] Iker Casillas (GK) rating 98.59 #1
 
 Wildcard:
-  [WILD] Samu Aghehowa (CF) rating 94.38 #26
+  [WILD] Aleix García (CMF) rating 95.10 #21

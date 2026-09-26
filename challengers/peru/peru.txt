@@ -14,10 +14,10 @@ Starters:
 Substitutes:
   [CF] Paolo Guerrero (CF) rating 71.68 #9
   [LWF] Joao Grimaldo (LWF) rating 70.10 #7
-  [RWF] Luis Ramos (CF) rating 70.30 #16
+  [RWF] Andy Polo (RMF) rating 73.18 #14
   [AMF] Sergio Peña (CMF) rating 71.65 #10
   [CMF] Yoshimar Yotún (CMF) rating 71.66 #19
-  [DMF] Wilder Cartagena (DMF) rating 71.75 #14
+  [DMF] Wilder Cartagena (DMF) rating 71.75 #16
   [LB] VACANT
   [CB] Miguel Araujo (CB) rating 71.55 #15
   [CB] Erick Noriega (CB) rating 70.34 #3
