@@ -13,8 +13,8 @@ Starters:
 
 Substitutes:
   [CF] Mika Biereth (CF) rating 92.94 #12
-  [LWF] Martin Braithwaite (CF) rating 75.36 #10
-  [RWF] Anders Dreyer (RWF) rating 76.97 #20
+  [LWF] Mohamed Daramy (LWF) rating 71.39 #20
+  [RWF] Anders Dreyer (RWF) rating 76.97 #24
   [AMF] Noah Nartey (AMF) rating 72.18 #19
   [CMF] Mathias Jensen (CMF) rating 94.00 #7
   [DMF] Christian Nørgaard (DMF) rating 76.02 #15
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Filip Jørgensen (GK) rating 75.48 #22
 
 Wildcard:
-  [WILD] Kasper Schmeichel (GK) rating 75.19 #16
+  [WILD] Matt O'Riley (CMF) rating 75.98 #10
