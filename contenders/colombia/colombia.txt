@@ -33,7 +33,7 @@ Second Squad
 
 Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
-  [LWF] Jhon Arias (LWF) rating 75.27 #11
+  [LWF] Jhon Arias (LWF) rating 75.27 #10
   [RWF] Diego Valoyes (RWF) rating 73.10 #9
   [AMF] Juan Fernando Quintero (AMF) rating 76.04 #20
   [CMF] Richard Rios (CMF) rating 72.80 #6
@@ -45,17 +45,17 @@ Starters:
   [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
-  [CF] Jhon Córdoba (CF) rating 77.21 #24
+  [CF] Jhon Córdoba (CF) rating 77.21 #4
   [LWF] Jáminton Campaz (LWF) rating 74.84 #21
-  [RWF] Andrés Gómez (RWF) rating 70.20 #26
-  [AMF] James Rodríguez (AMF) rating 74.75 #10
-  [CMF] Steven Alzate (CMF) rating 71.61 #17
+  [RWF] Felipe Pardo (RWF) rating 71.53 #11
+  [AMF] Yáser Asprilla (AMF) rating 72.97 #22
+  [CMF] Jhon Solís (CMF) rating 72.24 #14
   [DMF] Kevin Castaño (DMF) rating 72.04 #5
   [LB] Junior Hernández (LB) rating 73.22 #13
-  [CB] Felipe Aguilar (CB) rating 72.23 #14
+  [CB] Kevin Balanta (CB) rating 71.31 #24
   [CB] Brayan Vera (CB) rating 72.18 #16
-  [RB] Juan Mosquera (RB) rating 71.58 #4
-  [GK] Devis Vásquez (GK) rating 73.65 #22
+  [RB] Helibelton Palacios (RB) rating 71.80 #17
+  [GK] Alejandro Rodríguez (GK) rating 68.73 #12
 
 Wildcard:
   [WILD] Duván Zapata (CF) rating 76.29 #19

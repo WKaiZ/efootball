@@ -2,7 +2,7 @@ First Squad
 
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
-  [LWF] Hirving Lozano (LWF) rating 73.22 #13
+  [LWF] Hirving Lozano (LWF) rating 73.22 #22
   [RWF] Roberto Alvarado (RWF) rating 75.06 #25
   [AMF] Jordán Carrillo (AMF) rating 72.26 #27
   [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
@@ -14,48 +14,49 @@ Starters:
   [GK] Luis Malagón (GK) rating 75.55 #1
 
 Substitutes:
-  [CF] German Berterame (CF) rating 76.29 #19
+  [CF] Santiago Gimenez (CF) rating 75.76 #17
   [LWF] Henry Martin (CF) rating 75.14 #6
-  [RWF] Santiago Gimenez (CF) rating 75.76 #17
+  [RWF] VACANT
   [AMF] Brian Gutiérrez (CMF) rating 74.43 #26
   [CMF] Erick Sanchez (CMF) rating 75.04 #14
   [DMF] Luis Romo (DMF) rating 75.48 #7
   [LB] Mateo Chávez (LB) rating 70.94 #20
   [CB] Johan Vasquez (CB) rating 73.36 #5
   [CB] Luis Gabriel Rey (CB) rating 66.58 #18
-  [RB] Julián Araujo (RB) rating 73.19 #22
+  [RB] Rodrigo Huescas (RB) rating 73.29 #19
   [GK] Raúl Rangel (GK) rating 73.85 #12
 
 Wildcard:
-  [WILD] Héctor Herrera (CMF) rating 72.63 #16
+  [WILD] Julián Araujo (RB) rating 73.19 #16
+  [WILD] Alan Cervantes (DMF) rating 72.29 #13
 
 Second Squad
 
 Starters:
-  [CF] Ángel Sepúlveda (CF) rating 73.33 #20
-  [LWF] César Huerta (LWF) rating 72.98 #21
-  [RWF] VACANT
+  [CF] German Berterame (CF) rating 76.29 #9
+  [LWF] Efraín Álvarez (RMF) rating 73.40 #20
+  [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
   [AMF] Omar Govea (CMF) rating 72.37 #8
   [CMF] Obed Vargas (CMF) rating 73.38 #18
-  [DMF] Alan Cervantes (DMF) rating 72.29 #13
+  [DMF] Jonathan González (DMF) rating 69.98 #6
   [LB] VACANT
   [CB] Ramón Juárez (CB) rating 72.52 #15
   [CB] VACANT
-  [RB] Rodrigo Huescas (RB) rating 73.29 #19
+  [RB] VACANT
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] Armando González (CF) rating 70.49 #14
-  [LWF] VACANT
+  [CF] Rogelio Funes Mori (CF) rating 72.30 #11
+  [LWF] Isaías Violante (LMF) rating 69.08 #26
   [RWF] VACANT
   [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Jonathan González (DMF) rating 69.98 #6
+  [CMF] Héctor Herrera (CMF) rating 72.63 #16
+  [DMF] VACANT
   [LB] VACANT
   [CB] VACANT
   [CB] VACANT
   [RB] VACANT
-  [GK] Álex Padilla (GK) rating 71.10 #26
+  [GK] Álex Padilla (GK) rating 71.10 #29
 
 Wildcard:
   [WILD] VACANT
