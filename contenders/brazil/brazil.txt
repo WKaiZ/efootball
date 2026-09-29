@@ -1,10 +1,10 @@
 First Squad
 
 Starters:
-  [CF] Pelé (CF) rating 99.81 #10
-  [LWF] Ronaldinho (LWF) rating 99.95 #7
+  [CF] Adriano (CF) rating 98.68 #9
+  [LWF] Ronaldinho (LWF) rating 99.95 #10
   [RMF] Lucas Moura (RMF) rating 95.07 #11
-  [AMF] Kaká (AMF) rating 99.35 #22
+  [AMF] Kaká (AMF) rating 99.35 #7
   [CMF] Ederson (CMF) rating 94.97 #17
   [DMF] Bruno Guimarães (DMF) rating 98.17 #8
   [LB] Roberto Carlos (LB) rating 99.93 #6
@@ -14,9 +14,9 @@ Starters:
   [GK] Dida (GK) rating 97.90 #1
 
 Substitutes:
-  [CF] Adriano (CF) rating 98.68 #9
+  [CF] Romário (CF) rating 98.28 #19
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
-  [RMF] Antony (RMF) rating 93.96 #19
+  [RMF] Estêvão (RMF) rating 95.01 #22
   [AMF] Rivaldo (AMF) rating 97.67 #20
   [CMF] Andrey Santos (CMF) rating 94.21 #21
   [DMF] Casemiro (DMF) rating 97.38 #5
@@ -32,11 +32,11 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Romário (CF) rating 98.28 #11
-  [LWF] Denilson (LWF) rating 95.65 #17
+  [CF] João Pedro (CF) rating 98.24 #7
+  [LWF] Neymar (LWF) rating 99.19 #11
   [RWF] Raphinha (RWF) rating 96.99 #10
   [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Joelinton (CMF) rating 94.78 #18
+  [CMF] Joelinton (CMF) rating 94.78 #17
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Wesley (LB) rating 95.00 #13
   [CB] Éder Militão (CB) rating 95.22 #3
@@ -45,11 +45,11 @@ Starters:
   [GK] Cássio (GK) rating 95.25 #16
 
 Substitutes:
-  [CF] João Pedro (CF) rating 98.24 #9
-  [LWF] Rodrygo (LWF) rating 95.46 #23
-  [RWF] Luiz Henrique (RWF) rating 95.39 #21
-  [AMF] Ronaldinho (AMF) rating 98.60 #7
-  [CMF] Andreas Pereira (CMF) rating 93.34 #19
+  [CF] Alexandre Pato (CF) rating 97.70 #21
+  [LWF] Denilson (LWF) rating 95.65 #19
+  [RWF] Luiz Henrique (RWF) rating 95.39 #20
+  [AMF] Ronaldinho (AMF) rating 98.60 #18
+  [CMF] Douglas Luiz (CMF) rating 76.06 #25
   [DMF] Pablo Maia (DMF) rating 72.89 #26
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Fabrício Bruno (CB) rating 94.56 #14
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Vinicius Junior (LMF) rating 97.46 #20
+  [WILD] Zé Roberto (LMF) rating 97.10 #9

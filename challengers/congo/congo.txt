@@ -20,7 +20,7 @@ Substitutes:
   [DMF] Charles Pickel (DMF) rating 70.99 #18
   [LB] Joris Kayembe (LB) rating 73.23 #12
   [CB] Axel Tuanzebe (CB) rating 73.98 #4
-  [CB] Rocky Bushiri (CB) rating 71.74 #15
+  [CB] Willy Kambwala (CB) rating 73.02 #5
   [RB] Gédéon Kalulu (RB) rating 71.41 #24
   [GK] Lionel Mpasi-Nzau (GK) rating 72.81 #1
 

@@ -140,6 +140,7 @@ MANUAL_ID_OVERRIDES = {
         "christhian stuani": {"player_id": "59323", "preserve_name": True},
         "maximiliano araujo": {"player_id": "572675", "preserve_name": True},
         "thiago borbas": {"player_id": "743951", "preserve_name": True},
+        "juan rodriguez vega": {"player_id": "1228231", "preserve_name": True},
     },
     "switzerland": {
         "dominik schmid": {"player_id": "359409", "preserve_name": True},
@@ -255,6 +256,9 @@ PLAYER_NAME_ALIASES = {
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
         ("Leo Kokubo", "Leo Brian Kokubo", "Kokubo Leo Brian"),
+    ],
+    "uruguay": [
+        ("Juan Rodríguez Vega", "Juan Rodríguez"),
     ],
     "iran": [
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),

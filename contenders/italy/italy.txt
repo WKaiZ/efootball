@@ -16,9 +16,9 @@ Starters:
 Substitutes:
   [CF] Filippo Inzaghi (CF) rating 98.35 #9
   [LWF] Federico Chiesa (LWF) rating 94.39 #14
-  [RWF] Matteo Politano (RWF) rating 94.89 #23
-  [AMF] Roberto Baggio (AMF) rating 97.83 #16
-  [CMF] Nicolò Barella (CMF) rating 96.03 #18
+  [RWF] Matteo Politano (RWF) rating 94.89 #16
+  [AMF] Roberto Baggio (AMF) rating 97.83 #18
+  [CMF] Nicolò Barella (CMF) rating 96.03 #23
   [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
   [LB] Leonardo Spinazzola (LB) rating 94.17 #4
   [CB] Alessandro Nesta (CB) rating 98.91 #2

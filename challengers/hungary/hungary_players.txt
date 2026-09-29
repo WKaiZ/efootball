@@ -18,7 +18,7 @@ Roland Sallai, RMF, 74.97, False, Standard, [LWF, LMF, RWF, RMF, RB], [CF, SS, A
 Alex Tóth, CMF, 73.52, True, Standard, [CMF, DMF], [AMF]
 András Schäfer, CMF, 72.35, True, Standard, [CMF, DMF], [LMF, AMF]
 Áron Csongvai, DMF, 70.22, True, Standard, [CMF, DMF, CB], []
-Rajmund Tóth, DMF, 69.98, True, Standard, [CMF, DMF, RB], []
+Rajmund Tóth, DMF, 69.98, False, Standard, [CMF, DMF, RB], []
 Attila Szalai, CB, 71.76, False, Standard, [LB, CB], []
 Botond Balogh, CB, 70.73, False, Standard, [CB], []
 Attila Mocsi, CB, 69.58, False, Standard, [CB], []

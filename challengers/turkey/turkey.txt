@@ -3,7 +3,7 @@ Starters:
   [LWF] Kenan Yıldız (LWF) rating 97.02 #11
   [RWF] İrfan Can Kahveci (RWF) rating 74.25 #17
   [AMF] Arda Güler (AMF) rating 95.99 #10
-  [CMF] Orkun Kökçü (CMF) rating 97.21 #23
+  [CMF] Orkun Kökçü (CMF) rating 97.21 #6
   [DMF] Hakan Çalhanoğlu (DMF) rating 95.15 #5
   [LB] Ferdi Kadıoğlu (LB) rating 93.90 #20
   [CB] Merih Demiral (CB) rating 76.48 #3
@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Kerem Aktürkoğlu (LWF) rating 77.20 #7
   [RWF] Yunus Akgün (RWF) rating 74.10 #19
   [AMF] Can Uzun (AMF) rating 94.16 #26
-  [CMF] Ozan Tufan (CMF) rating 73.03 #6
+  [CMF] Salih Uçan (CMF) rating 72.33 #8
   [DMF] İsmail Yüksek (DMF) rating 75.01 #16
   [LB] Eren Elmalı (LB) rating 73.26 #13
   [CB] Ozan Kabak (CB) rating 74.34 #15
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Uğurcan Çakır (GK) rating 77.62 #1
 
 Wildcard:
-  [WILD] Berkan Kutlu (AMF) rating 91.95 #8
+  [WILD] Aral Şimşir (LWF) rating 74.26 #22
