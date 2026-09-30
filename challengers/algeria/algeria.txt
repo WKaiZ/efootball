@@ -20,9 +20,9 @@ Substitutes:
   [DMF] Ismaël Bennacer (DMF) rating 77.32 #22
   [LB] Jaouen Hadjam (LB) rating 72.72 #13
   [CB] Ahmed Touba (CB) rating 73.30 #4
-  [CB] Zineddine Belaid (CB) rating 68.05 #5
+  [CB] Sohaib Naïr (CB) rating 69.51 #25
   [RB] Mohamed Farsi (RB) rating 72.44 #3
   [GK] Anthony Mandréa (GK) rating 71.50 #1
 
 Wildcard:
-  [WILD] Ilan Kebbal (RWF) rating 74.29 #24
+  [WILD] Baghdad Bounedjah (CF) rating 74.72 #5

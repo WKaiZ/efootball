@@ -15,10 +15,10 @@ Substitutes:
   [CF] Danny Namaso (CF) rating 73.24 #14
   [LWF] Georges-Kevin N'Koudou (LWF) rating 73.43 #7
   [RWF] Christian Bassogog (RWF) rating 73.25 #11
-  [AMF] VACANT
+  [AMF] Ryan Fosso (CMF) rating 68.62 #19
   [CMF] Olivier Kemen (CMF) rating 72.14 #20
-  [DMF] Martin Hongla (DMF) rating 70.98 #19
-  [LB] Mahamadou Nagida (LB) rating 68.13 #18
+  [DMF] Martin Hongla (DMF) rating 70.98 #18
+  [LB] Lilian Njoh (LB) rating 70.88 #25
   [CB] Christopher Wooh (CB) rating 74.37 #4
   [CB] Gerzino Nyamsi (CB) rating 73.75 #6
   [RB] Enzo Tchato (RB) rating 69.96 #26
@@ -26,4 +26,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Jean-Charles Castelletto (CB) rating 72.85 #12
-  [WILD] Malcom Bokele (CB) rating 72.44 #25

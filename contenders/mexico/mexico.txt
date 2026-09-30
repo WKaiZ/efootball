@@ -15,9 +15,9 @@ Starters:
 
 Substitutes:
   [CF] Santiago Gimenez (CF) rating 75.76 #17
-  [LWF] Henry Martin (CF) rating 75.14 #6
-  [RWF] VACANT
-  [AMF] Brian Gutiérrez (CMF) rating 74.43 #26
+  [LWF] Isaías Violante (LMF) rating 69.08 #26
+  [RWF] Henry Martin (CF) rating 75.14 #6
+  [AMF] Santiago Sandoval (AMF) rating 60.09 #28
   [CMF] Erick Sanchez (CMF) rating 75.04 #14
   [DMF] Luis Romo (DMF) rating 75.48 #7
   [LB] Mateo Chávez (LB) rating 70.94 #20
@@ -28,30 +28,29 @@ Substitutes:
 
 Wildcard:
   [WILD] Julián Araujo (RB) rating 73.19 #16
-  [WILD] Alan Cervantes (DMF) rating 72.29 #13
 
 Second Squad
 
 Starters:
   [CF] German Berterame (CF) rating 76.29 #9
   [LWF] Efraín Álvarez (RMF) rating 73.40 #20
-  [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
+  [RWF] Hugo Camberos (RWF) rating 69.41 #21
   [AMF] Omar Govea (CMF) rating 72.37 #8
-  [CMF] Obed Vargas (CMF) rating 73.38 #18
-  [DMF] Jonathan González (DMF) rating 69.98 #6
+  [CMF] Brian Gutiérrez (CMF) rating 74.43 #26
+  [DMF] Alan Cervantes (DMF) rating 72.29 #13
   [LB] VACANT
   [CB] Ramón Juárez (CB) rating 72.52 #15
-  [CB] VACANT
+  [CB] Diego Campillo (DMF) rating 71.42 #3
   [RB] VACANT
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] Rogelio Funes Mori (CF) rating 72.30 #11
-  [LWF] Isaías Violante (LMF) rating 69.08 #26
+  [CF] Ángel Sepúlveda (CF) rating 73.33 #22
+  [LWF] Rogelio Funes Mori (CF) rating 72.30 #11
   [RWF] VACANT
-  [AMF] VACANT
-  [CMF] Héctor Herrera (CMF) rating 72.63 #16
-  [DMF] VACANT
+  [AMF] Héctor Herrera (CMF) rating 72.63 #16
+  [CMF] Obed Vargas (CMF) rating 73.38 #18
+  [DMF] Jonathan González (DMF) rating 69.98 #6
   [LB] VACANT
   [CB] VACANT
   [CB] VACANT

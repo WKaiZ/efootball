@@ -12,7 +12,7 @@ Starters:
   [GK] Oufa Shobeir (GK) rating 72.78 #1
 
 Substitutes:
-  [CF] Osama Faisal (CF) rating 70.73 #9
+  [CF] Osama Faisal (CF) rating 70.73 #7
   [LMF] Ibrahim Adel (LWF) rating 72.28 #20
   [RMF] Mostafa Fathi (RWF) rating 72.58 #18
   [AMF] Mahmoud Saber (CMF) rating 70.34 #21
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Mohamed El Shenawy (GK) rating 72.66 #23
 
 Wildcard:
-  [WILD] Trezeguet (LWF) rating 74.42 #7
+  [WILD] Mohanad Lasheen (DMF) rating 73.21 #17
