@@ -249,6 +249,7 @@ COUNTRY_DISPLAY_NAMES = {
 PLAYER_NAME_ALIASES = {
     "argentina": [
         ("Flaco López", "José Manuel López"),
+        ("Equi Fernández", "Ezequiel Fernández"),
     ],
     "brazil": [
         ("Jair Cunha", "Jair Paula"),

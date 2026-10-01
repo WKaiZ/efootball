@@ -41,6 +41,7 @@ Gonzalo Montiel, RB, 93.00, False, Highlight, [RB, RMF], []
 Agustín Rossi, GK, 93.95, False, Highlight, [GK], []
 Juan Musso, GK, 93.93, True, Highlight, [GK], []
 
+Flaco López, CF, 76.27, True, Standard, [CF, SS, AMF], []
 Santiago Castro, CF, 75.35, True, Standard, [CF], [LWF, SS, RWF, LMF]
 Leonel Flores, CF, 64.17, True, Standard, [LWF, CF, RWF], [SS]
 Alejandro Garnacho, LWF, 77.15, False, Standard, [LWF, LMF, RWF, RMF, AMF], []
