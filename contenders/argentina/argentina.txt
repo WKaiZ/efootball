@@ -15,47 +15,47 @@ Starters:
 
 Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
-  [LWF] Alejandro Garnacho (LWF) rating 77.15 #28
-  [RWF] Giuliano Simeone (RWF) rating 94.21 #17
-  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
+  [LWF] Alejandro Garnacho (LWF) rating 77.15 #17
+  [RWF] Matías Soulé (RWF) rating 95.32 #28
+  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #4
   [CMF] Alexis Mac Allister (CMF) rating 96.80 #20
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Nicolás Tagliafico (LB) rating 94.06 #3
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
-  [CB] Nehuén Pérez (CB) rating 94.16 #14
-  [RB] Gonzalo Montiel (RB) rating 93.00 #4
+  [CB] Martín Demichelis (CB) rating 94.84 #15
+  [RB] Nahuel Molina (RB) rating 76.96 #26
   [GK] Juan Musso (GK) rating 93.93 #1
 
 Wildcard:
-  [WILD] Lautaro Martínez (CF) rating 96.00 #22
+  [WILD] Giuliano Simeone (RMF) rating 96.52 #16
 
 Second Squad
 
 Starters:
   [CF] Javier Saviola (CF) rating 98.07 #7
-  [LWF] Ángel Di María (RWF) rating 94.53 #15
-  [RWF] Matías Soulé (RWF) rating 95.32 #21
+  [LWF] Giuliano Simeone (RWF) rating 94.21 #17
+  [RWF] Ángel Di María (RWF) rating 94.53 #11
   [SS] Lionel Messi (SS) rating 101.33 #10
-  [CMF] Giovani Lo Celso (AMF) rating 92.93 #11
+  [CMF] Giovani Lo Celso (AMF) rating 92.93 #16
   [DMF] Máximo Perrone (DMF) rating 93.18 #22
   [LB] Marcos Acuña (LB) rating 92.25 #14
-  [CB] Martín Demichelis (CB) rating 94.84 #2
-  [CB] Marcos Senesi (CB) rating 77.24 #25
+  [CB] Nehuén Pérez (CB) rating 94.16 #2
+  [CB] Valentín Gómez (CB) rating 94.11 #34
   [RB] Javier Zanetti (RB) rating 97.89 #8
   [GK] Emiliano Martínez (GK) rating 81.16 #23
 
 Substitutes:
   [CF] Gabriel Batistuta (CF) rating 96.48 #9
-  [LWF] Paulo Dybala (SS) rating 94.37 #19
-  [RWF] Ángel Correa (RWF) rating 78.22 #20
+  [LWF] Matías Vargas (LWF) rating 74.14 #26
+  [RWF] Ángel Correa (RWF) rating 78.22 #21
   [SS] Diego Maradona (SS) rating 95.02 #6
-  [CMF] Nicolás Domínguez (CMF) rating 76.01 #13
-  [DMF] Guido Rodríguez (DMF) rating 75.60 #18
-  [LB] Jonathan Silva (LB) rating 71.46 #24
-  [CB] Facundo Medina (CB) rating 76.78 #4
-  [CB] Rodrigo Battaglia (CB) rating 76.31 #16
-  [RB] Nahuel Molina (RB) rating 76.96 #26
+  [CMF] Exequiel Palacios (CMF) rating 77.89 #20
+  [DMF] Santiago Ascacíbar (DMF) rating 76.14 #15
+  [LB] Milton Casco (LB) rating 74.03 #13
+  [CB] Leonardo Balerdi (CB) rating 76.01 #5
+  [CB] Facundo Medina (CB) rating 76.78 #25
+  [RB] Gonzalo Montiel (RB) rating 93.00 #4
   [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
 Wildcard:
-  [WILD] Giuliano Simeone (RMF) rating 96.52 #17
+  [WILD] Paulo Dybala (AMF) rating 95.00 #19
