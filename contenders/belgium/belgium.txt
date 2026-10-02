@@ -14,8 +14,8 @@ Starters:
   [GK] Thibaut Courtois (GK) rating 98.33 #1
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 78.28 #19
-  [LWF] Malick Fofana (LWF) rating 75.50 #9
+  [CF] Loïs Openda (CF) rating 78.28 #9
+  [LWF] Malick Fofana (LWF) rating 75.50 #19
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #20
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
@@ -33,10 +33,10 @@ Second Squad
 
 Starters:
   [CF] Charles De Ketelaere (SS) rating 95.17 #17
-  [LMF] Leandro Trossard (LMF) rating 97.34 #11
+  [LMF] Leandro Trossard (LMF) rating 97.34 #10
   [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
-  [AMF] Eden Hazard (AMF) rating 100.35 #10
-  [CMF] Arthur Vermeeren (CMF) rating 74.86 #7
+  [AMF] Eden Hazard (AMF) rating 100.35 #7
+  [CMF] Arthur Vermeeren (CMF) rating 74.86 #23
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Diego Moreira (LMF) rating 74.58 #19
   [CB] Arthur Theate (CB) rating 78.45 #3
@@ -46,17 +46,18 @@ Starters:
 
 Substitutes:
   [CF] Romelu Lukaku (CF) rating 77.41 #9
-  [LMF] Thorgan Hazard (LWF) rating 74.26 #21
+  [LMF] Thorgan Hazard (LWF) rating 74.26 #11
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
   [AMF] Dennis Praet (AMF) rating 72.26 #14
   [CMF] Orel Mangala (CMF) rating 74.33 #8
   [DMF] Mandela Keita (DMF) rating 71.60 #16
   [LB] VACANT
   [CB] Siebe Van der Heyden (CB) rating 71.79 #25
-  [CB] Matte Smets (CB) rating 72.90 #23
+  [CB] VACANT
   [RB] VACANT
   [GK] Mike Penders (GK) rating 75.63 #13
 
 Wildcard:
   [WILD] Gaëtan Coucke (GK) rating 75.05 #12
   [WILD] Christian Benteke (CF) rating 74.26 #20
+  [WILD] Benito Raman (CF) rating 72.22 #21

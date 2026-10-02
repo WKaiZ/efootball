@@ -26,4 +26,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Bartłomiej Drągowski (GK) rating 75.45 #22
-  [WILD] Karol Świderski (CF) rating 74.09 #11
+  [WILD] Karol Swiderski (CF) rating 74.09 #11

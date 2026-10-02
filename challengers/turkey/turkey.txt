@@ -25,4 +25,4 @@ Substitutes:
   [GK] Uğurcan Çakır (GK) rating 77.62 #1
 
 Wildcard:
-  [WILD] Aral Şimşir (LWF) rating 74.26 #22
+  [WILD] Barış Alper Yılmaz (LWF) rating 76.13 #21

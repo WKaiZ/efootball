@@ -9,7 +9,7 @@ Starters:
   [CB] Dávid Hancko (CB) rating 94.55 #16
   [CB] Milan Škriniar (CB) rating 78.58 #14
   [RB] VACANT
-  [GK] Dominik Greif (GK) rating 92.99 #12
+  [GK] Dominik Greif (GK) rating 92.99 #23
 
 Substitutes:
   [CF] Tomas Bobcek (CF) rating 70.89 #17

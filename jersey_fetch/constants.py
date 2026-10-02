@@ -261,6 +261,9 @@ PLAYER_NAME_ALIASES = {
     "uruguay": [
         ("Juan Rodríguez Vega", "Juan Rodríguez"),
     ],
+    "venezuela": [
+        ("Cristian Cásseres", "Cristian Cásseres Jr."),
+    ],
     "iran": [
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),
         ("Seyed Mohammad Karimi", "Mohammad Karimi"),
