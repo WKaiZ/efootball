@@ -25,4 +25,4 @@ Substitutes:
   [GK] Noel Törnqvist (GK) rating 73.60 #1
 
 Wildcard:
-  [WILD] Roony Bardghji (RMF) rating 92.90 #14
+  [WILD] Viktor Gyökeres (CF) rating 94.54 #17

@@ -1,5 +1,6 @@
 Zlatan Ibrahimović, CF, 100.30, False, Epic, [CF], [SS]
 Alexander Isak, CF, 96.84, False, Highlight, [CF], [LWF, SS]
+Viktor Gyökeres, CF, 94.54, True, Highlight, [CF], [SS]
 Williot Swedberg, LWF, 94.20, True, Highlight, [LWF, LMF, AMF, CMF], [DMF]
 Dejan Kulusevski, RWF, 96.43, False, Highlight, [RWF, RMF, SS, AMF], [LWF, LMF, CF, CMF]
 Anthony Elanga, RWF, 93.93, False, Highlight, [LWF, LMF, CF, RWF, RMF], []

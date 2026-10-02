@@ -53,7 +53,7 @@ Substitutes:
   [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
   [LB] VACANT
   [CB] Robert Andrich (CB) rating 94.99 #8
-  [CB] Malick Thiaw (CB) rating 94.99 #24
+  [CB] Malick Thiaw (CB) rating 94.99 #2
   [RB] Thilo Kehrer (CB) rating 76.98 #15
   [GK] Oliver Baumann (GK) rating 94.22 #1
 
