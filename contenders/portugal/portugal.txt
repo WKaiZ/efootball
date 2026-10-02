@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Gonçalo Ramos (CF) rating 96.12 #9
   [LMF] Diogo Dalot (LMF) rating 94.24 #2
-  [RWF] Francisco Conceição (RWF) rating 94.00 #14
+  [RWF] Francisco Conceição (RWF) rating 96.86 #14
   [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] Rúben Neves (DMF) rating 79.25 #21
