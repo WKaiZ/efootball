@@ -8,7 +8,7 @@ Starters:
   [CMF] Luka Modrić (CMF) rating 98.25 #10
   [DMF] Petar Sučić (DMF) rating 93.75 #17
   [LB] Josko Gvardiol (LB) rating 95.77 #4
-  [CB] Luka Vuskovic (CB) rating 94.56 #5
+  [CB] Luka Vušković (CB) rating 94.56 #5
   [CB] Martin Erlić (CB) rating 93.06 #25
   [RB] Josip Stanisic (RB) rating 94.10 #2
   [GK] Dominik Livakovic (GK) rating 94.29 #1
@@ -22,8 +22,8 @@ Substitutes:
   [DMF] Nikola Moro (DMF) rating 93.15 #7
   [LB] Domagoj Bradarić (LB) rating 72.50 #16
   [CB] Josip Sutalo (CB) rating 76.06 #6
-  [CB] Marin Pongracic (CB) rating 75.70 #3
-  [RB] Ivan Smolcic (RB) rating 70.37 #22
+  [CB] Marin Pongracic (CB) rating 75.70 #22
+  [RB] Ivan Smolcic (RB) rating 70.37 #3
   [GK] Dominik Kotarski (GK) rating 74.64 #23
 
 Wildcard:

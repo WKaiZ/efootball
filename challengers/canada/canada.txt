@@ -1,8 +1,8 @@
 Starters:
-  [CF] Jonathan David (CF) rating 97.91 #20
+  [CF] Jonathan David (CF) rating 97.91 #10
   [LWF] Jacob Shaffelburg (LWF) rating 72.41 #14
   [RWF] Tajon Buchanan (RMF) rating 92.07 #17
-  [AMF] Ali Ahmed (LMF) rating 71.30 #23
+  [AMF] Ali Ahmed (LMF) rating 71.30 #20
   [CMF] Stephen Eustaquio (CMF) rating 73.75 #7
   [DMF] Victor Loturi (DMF) rating 72.01 #12
   [LB] Alphonso Davies (LB) rating 95.43 #19

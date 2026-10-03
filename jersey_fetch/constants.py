@@ -81,6 +81,7 @@ MANUAL_ID_OVERRIDES = {
         "pedro": {"player_id": "65278", "preserve_name": True},
         "adama traore": {"player_id": "204103", "preserve_name": True},
         "victor munoz": {"player_id": "935231", "preserve_name": True},
+        "roberto fernandez": {"player_id": "720518", "preserve_name": True},
         "pepelu": {"player_id": "328480", "preserve_name": True},
     },
     "italy": {
@@ -253,10 +254,14 @@ PLAYER_NAME_ALIASES = {
     ],
     "brazil": [
         ("Jair Cunha", "Jair Paula"),
+        ("Pedro Morisco", "Pedro Luccas"),
     ],
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
         ("Leo Kokubo", "Leo Brian Kokubo", "Kokubo Leo Brian"),
+    ],
+    "scotland": [
+        ("Andrew Robertson", "Andy Robertson"),
     ],
     "uruguay": [
         ("Juan Rodríguez Vega", "Juan Rodríguez"),
