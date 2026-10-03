@@ -1,8 +1,8 @@
 Starters:
   [CF] Ramón Sosa (CF) rating 92.99 #7
-  [LWF] Enso González (LWF) rating 69.56 #17
+  [LWF] Mauricio (AMF) rating 74.48 #11
   [RWF] Miguel Almirón (RWF) rating 76.20 #10
-  [AMF] Kaku (AMF) rating 74.76 #11
+  [AMF] Kaku (AMF) rating 74.76 #17
   [CMF] Diego Gómez (CMF) rating 93.21 #8
   [DMF] Andrés Cubas (DMF) rating 74.47 #14
   [LB] Santiago Arzamendia (LB) rating 75.22 #23
