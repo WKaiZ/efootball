@@ -2,7 +2,7 @@ First Squad
 
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
-  [LWF] Hirving Lozano (LWF) rating 73.22 #22
+  [LWF] Hirving Lozano (LWF) rating 73.22 #13
   [RWF] Roberto Alvarado (RWF) rating 75.06 #25
   [AMF] Jordán Carrillo (AMF) rating 72.26 #27
   [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Santiago Gimenez (CF) rating 75.76 #17
   [LWF] Isaías Violante (LMF) rating 69.08 #26
-  [RWF] Henry Martin (CF) rating 75.14 #6
+  [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
   [AMF] Santiago Sandoval (AMF) rating 60.09 #28
   [CMF] Erick Sanchez (CMF) rating 75.04 #14
   [DMF] Luis Romo (DMF) rating 75.48 #7
@@ -27,7 +27,7 @@ Substitutes:
   [GK] Raúl Rangel (GK) rating 73.85 #12
 
 Wildcard:
-  [WILD] Julián Araujo (RB) rating 73.19 #16
+  [WILD] Henry Martin (CF) rating 75.14 #6
 
 Second Squad
 
@@ -41,12 +41,12 @@ Starters:
   [LB] VACANT
   [CB] Ramón Juárez (CB) rating 72.52 #15
   [CB] Diego Campillo (DMF) rating 71.42 #3
-  [RB] VACANT
+  [RB] Julián Araujo (RB) rating 73.19 #22
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] Ángel Sepúlveda (CF) rating 73.33 #22
-  [LWF] Rogelio Funes Mori (CF) rating 72.30 #11
+  [CF] Rogelio Funes Mori (CF) rating 72.30 #11
+  [LWF] VACANT
   [RWF] VACANT
   [AMF] Héctor Herrera (CMF) rating 72.63 #16
   [CMF] Obed Vargas (CMF) rating 73.38 #18
