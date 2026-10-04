@@ -1,8 +1,8 @@
 First Squad
 
 Starters:
-  [CF] Cristiano Ronaldo (CF) rating 99.07 #17
-  [LMF] Pedro Neto (LMF) rating 98.71 #18
+  [CF] Gonçalo Ramos (CF) rating 96.12 #9
+  [LMF] Pedro Neto (LMF) rating 98.71 #17
   [RWF] Luís Figo (RWF) rating 100.74 #7
   [AMF] Bruno Fernandes (AMF) rating 98.59 #8
   [CMF] Vitinha (CMF) rating 98.42 #23
@@ -14,7 +14,7 @@ Starters:
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
-  [CF] Gonçalo Ramos (CF) rating 96.12 #9
+  [CF] Fábio Silva (CF) rating 75.31 #18
   [LMF] Diogo Dalot (LMF) rating 94.24 #2
   [RWF] Francisco Conceição (RWF) rating 96.86 #14
   [AMF] Rui Costa (AMF) rating 98.11 #10
@@ -32,7 +32,7 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Pedro Neto (LWF) rating 94.91 #18
+  [CF] Cristiano Ronaldo (CF) rating 99.07 #17
   [LWF] João Félix (LWF) rating 95.38 #11
   [RMF] Luís Figo (RMF) rating 100.33 #7
   [AMF] Bruno Fernandes (CMF) rating 95.01 #8
@@ -45,17 +45,17 @@ Starters:
   [GK] José Sá (GK) rating 75.58 #12
 
 Substitutes:
-  [CF] Fábio Silva (CF) rating 75.31 #17
+  [CF] Gonçalo Guedes (LMF) rating 93.76 #19
   [LWF] Pedro Gonçalves (LWF) rating 77.86 #9
-  [RMF] Francisco Conceição (RMF) rating 94.37 #14
+  [RMF] Pedro Neto (RMF) rating 95.47 #18
   [AMF] Bernardo Silva (AMF) rating 81.00 #10
-  [CMF] João Moutinho (CMF) rating 75.05 #28
+  [CMF] Joao Moutinho (CMF) rating 75.05 #28
   [DMF] João Palhinha (DMF) rating 78.20 #16
-  [LB] Kévin Rodrigues (LB) rating 72.29 #19
+  [LB] Nuno Tavares (LB) rating 94.43 #14
   [CB] Tiago Djaló (CB) rating 73.13 #3
   [CB] Nélson Semedo (RB) rating 76.12 #21
   [RB] Matheus Nunes (RB) rating 94.00 #6
   [GK] Anthony Lopes (GK) rating 74.63 #22
 
 Wildcard:
-  [WILD] Samú Costa (DMF) rating 76.14 #24
+  [WILD] Francisco Conceição (RMF) rating 94.37 #26

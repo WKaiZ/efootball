@@ -256,6 +256,15 @@ PLAYER_NAME_ALIASES = {
         ("Jair Cunha", "Jair Paula"),
         ("Pedro Morisco", "Pedro Luccas"),
     ],
+    "denmark": [
+        ("Rasmus Nissen Kristensen", "Rasmus Kristensen"),
+    ],
+    "egypt": [
+        ("Oufa Shobeir", "Mostafa Shoubir", "Mostafa Shobeir"),
+    ],
+    "greece": [
+        ("Konstantinos Tsimikas", "Kostas Tsimikas"),
+    ],
     "japan": [
         ("Ko Itakura", "Kou Itakura"),
         ("Leo Kokubo", "Leo Brian Kokubo", "Kokubo Leo Brian"),
@@ -268,6 +277,9 @@ PLAYER_NAME_ALIASES = {
     ],
     "venezuela": [
         ("Cristian Cásseres", "Cristian Cásseres Jr."),
+    ],
+    "wales": [
+        ("Jay Dasilva", "Jay Da Silva"),
     ],
     "iran": [
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),

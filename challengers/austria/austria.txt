@@ -1,6 +1,6 @@
 Starters:
   [CF] Marko Arnautovic (CF) rating 75.30 #7
-  [LWF] Romano Schmid (LWF) rating 76.03 #18
+  [LWF] Romano Schmid (LWF) rating 76.03 #10
   [RWF] Patrick Wimmer (RWF) rating 73.79 #21
   [AMF] Christoph Baumgartner (AMF) rating 94.18 #19
   [CMF] Marcel Sabitzer (CMF) rating 94.04 #9
@@ -15,7 +15,7 @@ Substitutes:
   [CF] Michael Gregoritsch (CF) rating 73.59 #11
   [LWF] Hannes Wolf (LWF) rating 74.32 #17
   [RWF] Raul Florucz (RWF) rating 71.15 #22
-  [AMF] Paul Wanner (AMF) rating 72.54 #10
+  [AMF] Paul Wanner (AMF) rating 72.54 #24
   [CMF] Xaver Schlager (CMF) rating 77.27 #4
   [DMF] Dejan Ljubicic (DMF) rating 73.21 #14
   [LB] David Schnegg (LB) rating 71.25 #23
@@ -25,5 +25,5 @@ Substitutes:
   [GK] Patrick Pentz (GK) rating 73.49 #13
 
 Wildcard:
+  [WILD] Felix Bacher (CB) rating 74.49 #18
   [WILD] Sasa Kalajdzic (CF) rating 73.40 #25
-  [WILD] Marco Friedl (CB) rating 73.40 #2

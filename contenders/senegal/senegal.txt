@@ -22,12 +22,12 @@ Substitutes:
   [DMF] Idrissa Gueye (DMF) rating 75.44 #5
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Mamadou Sarr (CB) rating 74.60 #2
-  [CB] Moustapha Mbow (CB) rating 73.07 #22
+  [CB] Arouna Sangante (CB) rating 73.64 #15
   [RB] Antoine Mendy (RB) rating 70.46 #24
   [GK] Yehvann Diouf (GK) rating 75.21 #1
 
 Wildcard:
-  [WILD] Krépin Diatta (RMF) rating 74.84 #15
+  [WILD] Habib Diarra (CMF) rating 74.24 #6
 
 Second Squad
 
@@ -40,22 +40,22 @@ Starters:
   [DMF] Pathé Ciss (DMF) rating 72.97 #6
   [LB] Souleymane Basse (LB) rating 66.08 #13
   [CB] Abdoulaye Seck (CB) rating 73.52 #4
-  [CB] Ousseynou Ba (CB) rating 71.68 #14
+  [CB] Moustapha Mbow (CB) rating 73.07 #22
   [RB] Bouna Sarr (RB) rating 70.37 #20
   [GK] Mory Diaw (GK) rating 72.45 #23
 
 Substitutes:
-  [CF] Cherif Ndiaye (CF) rating 72.39 #15
+  [CF] Habib Diallo (CF) rating 74.11 #7
   [LWF] Issa Soumaré (LWF) rating 73.23 #12
-  [RWF] Ousseynou Niang (LWF) rating 71.76 #22
-  [AMF] Rassoul Ndiaye (CMF) rating 70.64 #24
-  [CMF] Habib Diarra (CMF) rating 74.24 #7
+  [RWF] Krépin Diatta (RMF) rating 74.84 #15
+  [AMF] Samba Diba (CMF) rating 66.50 #8
+  [CMF] Rassoul Ndiaye (CMF) rating 70.64 #24
   [DMF] Cheikh Niasse (DMF) rating 72.94 #19
   [LB] Abdou Aziz Ndiaye (RB) rating 64.00 #27
+  [CB] Ousseynou Ba (CB) rating 71.68 #14
   [CB] Nobel Mendy (CB) rating 71.40 #28
-  [CB] Abdoulaye Ndiaye (CB) rating 70.83 #10
   [RB] Ilay Camara (RB) rating 69.71 #2
   [GK] Bingourou Kamara (GK) rating 71.75 #1
 
 Wildcard:
-  [WILD] Demba Thiam (GK) rating 70.68 #30
+  [WILD] Abdoulaye Ndiaye (CB) rating 70.83 #10
