@@ -4,7 +4,7 @@ Starters:
   [CF] Adriano (CF) rating 98.68 #9
   [LWF] Ronaldinho (LWF) rating 99.95 #10
   [RMF] Lucas Moura (RMF) rating 95.07 #11
-  [AMF] Kaká (AMF) rating 99.35 #7
+  [AMF] Kaká (AMF) rating 99.41 #7
   [CMF] Ederson (CMF) rating 94.97 #17
   [DMF] Bruno Guimarães (DMF) rating 98.17 #8
   [LB] Roberto Carlos (LB) rating 99.93 #6
@@ -47,9 +47,9 @@ Starters:
 Substitutes:
   [CF] João Pedro (CF) rating 98.24 #9
   [LWF] Denilson (LWF) rating 95.65 #19
-  [RWF] Luiz Henrique (RWF) rating 95.39 #21
-  [AMF] Ronaldinho (AMF) rating 98.60 #18
-  [CMF] Douglas Luiz (CMF) rating 76.06 #25
+  [RWF] Luiz Henrique (RWF) rating 95.39 #20
+  [AMF] Ronaldinho (AMF) rating 98.60 #21
+  [CMF] Douglas Luiz (CMF) rating 94.12 #18
   [DMF] Pablo Maia (DMF) rating 72.89 #26
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Fabrício Bruno (CB) rating 94.56 #14
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Bento (GK) rating 94.38 #12
 
 Wildcard:
-  [WILD] Vinicius Junior (LMF) rating 97.46 #20
+  [WILD] Igor Thiago (CF) rating 95.90 #25

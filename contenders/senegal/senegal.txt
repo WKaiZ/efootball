@@ -18,7 +18,7 @@ Substitutes:
   [LWF] Assane Diao (LWF) rating 74.32 #7
   [RWF] Ibrahim Mbaye (RWF) rating 72.79 #20
   [AMF] Iliman Ndiaye (RMF) rating 77.42 #13
-  [CMF] Pape Matar Sarr (CMF) rating 75.85 #17
+  [CMF] Pape Matar Sarr (CMF) rating 93.12 #17
   [DMF] Idrissa Gueye (DMF) rating 75.44 #5
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Mamadou Sarr (CB) rating 74.60 #2

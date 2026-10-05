@@ -6,9 +6,9 @@ Starters:
   [CMF] Orkun Kökçü (CMF) rating 97.21 #6
   [DMF] Hakan Çalhanoğlu (DMF) rating 95.15 #5
   [LB] Ferdi Kadıoğlu (LB) rating 93.90 #20
-  [CB] Merih Demiral (CB) rating 76.48 #3
   [CB] Abdülkerim Bardakcı (CB) rating 75.11 #14
-  [RB] Zeki Çelik (RB) rating 75.94 #2
+  [CB] Merih Demiral (CB) rating 76.48 #3
+  [RB] Zeki Çelik (RB) rating 94.23 #2
   [GK] Berke Özer (GK) rating 91.99 #12
 
 Substitutes:
