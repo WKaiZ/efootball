@@ -9,4 +9,4 @@ Starters:
   [CB] Hannes Delcroix (CB) rating 72.16 #5
   [CB] Wilguens Paugain (RB) rating 65.38 #24
   [RB] Carlens Arcus (RB) rating 71.56 #2
-  [GK] Alexandre Pierre (GK) rating 66.83 #12
+  [GK] Alexandre Pierre (GK) rating 66.83 #1

@@ -8,5 +8,5 @@ Starters:
   [LB] Lubambo Musonda (LB) rating 68.52 #8
   [CB] Stoppila Sunzu (CB) rating 71.32 #13
   [CB] Kabaso Chongo (CB) rating 69.30 #14
-  [RB] Mathews Banda (RB) rating 63.97 #2
+  [RB] Mathews Banda (RB) rating 63.97 #15
   [GK] Lawrence Mulenga (GK) rating 66.54 #16

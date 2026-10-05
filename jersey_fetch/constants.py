@@ -170,6 +170,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "guinea": {
         "sekou sylla": {"player_id": "587333", "preserve_name": True},
+        "ousmane camara": {"player_id": "827950", "preserve_name": True},
     },
     "guatemala": {
         "antonio lopez": {"player_id": "599909", "preserve_name": True},
@@ -285,6 +286,18 @@ PLAYER_NAME_ALIASES = {
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),
         ("Seyed Mohammad Karimi", "Mohammad Karimi"),
         ("Dennis Eckert Ayensa", "Dennis Dargahi"),
+    ],
+    "bolivia": [
+        ("Miguelito", "Miguel Terceros"),
+    ],
+    "gabon": [
+        ("Michel Mboula", "Urie-Michel Mboula"),
+    ],
+    "palestine": [
+        ("Mus'ab Al-Batat", "Musab Battat"),
+    ],
+    "israel": [
+        ("Gabi Kanichowsky", "Gavriel Kanichowsky"),
     ],
 }
 

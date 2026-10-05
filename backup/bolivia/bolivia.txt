@@ -9,4 +9,4 @@ Starters:
   [CB] José Sagredo (CB) rating 70.92 #21
   [CB] Efraín Morales (CB) rating 70.53 #5
   [RB] Diego Medina (RB) rating 68.68 #3
-  [GK] Guillermo Viscarra (GK) rating 72.26 #23
+  [GK] Carlos Lampe (GK) rating 72.58 #1

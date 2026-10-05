@@ -2,10 +2,10 @@ Starters:
   [CF] Troy Parrott (CF) rating 95.02 #7
   [LWF] Sammie Szmodics (LWF) rating 74.76 #21
   [RWF] Chiedozie Ogbene (RWF) rating 74.07 #20
-  [AMF] Finn Azaz (AMF) rating 73.70 #8
-  [CMF] Jason Knight (CMF) rating 73.04 #17
+  [AMF] Finn Azaz (AMF) rating 73.70 #11
+  [CMF] Jason Knight (CMF) rating 73.04 #8
   [DMF] John O'Shea (DMF) rating 96.26 #4
-  [LB] Ryan Manning (LB) rating 72.75 #3
+  [LB] Ryan Manning (LB) rating 72.75 #18
   [CB] Nathan Collins (CB) rating 93.51 #22
   [CB] Dara O'Shea (CB) rating 74.02 #5
   [RB] Matt Doherty (RB) rating 75.02 #2

@@ -1,5 +1,5 @@
 Starters:
-  [CF] Alonso Martínez (CF) rating 77.47 #12
+  [CF] Alonso Martínez (CF) rating 74.47 #12
   [LWF] Álvaro Zamora (LWF) rating 71.19 #21
   [RWF] Joel Campbell (RWF) rating 72.90 #9
   [AMF] Brandon Aguilera (AMF) rating 69.23 #10
