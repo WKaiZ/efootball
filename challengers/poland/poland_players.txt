@@ -6,7 +6,7 @@ Piotr Zielinski, CMF, 94.98, True, Highlight, [CMF, AMF, LMF, RMF], [LWF, RWF, S
 Matty Cash, RB, 93.99, True, Highlight, [RB, RMF], []
 Wojciech Szczesny, GK, 94.45, False, Highlight, [GK], []
 
-Robert Lewandowski, CF, 79.83, True, Standard, [CF], [SS]
+Robert Lewandowski, CF, 79.83, False, Standard, [CF], [SS]
 Krzysztof Piatek, CF, 75.30, False, Standard, [CF], [SS]
 Adam Buksa, CF, 74.37, False, Standard, [CF], [LWF, RWF, SS]
 Karol Swiderski, CF, 74.09, True, Standard, [CF, SS, AMF], [LWF, RWF]

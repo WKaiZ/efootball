@@ -22,7 +22,7 @@ Substitutes:
   [CB] Carl Starfelt (CB) rating 75.02 #15
   [CB] Gustaf Lagerbielke (CB) rating 74.89 #22
   [RB] Emil Holm (RB) rating 72.88 #6
-  [GK] Noel Törnqvist (GK) rating 73.60 #23
+  [GK] Noel Törnqvist (GK) rating 73.60 #1
 
 Wildcard:
   [WILD] Viktor Gyökeres (CF) rating 94.54 #17

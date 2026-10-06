@@ -24,7 +24,7 @@ Benjamin Nygren, AMF, 75.96, False, Standard, [RWF, RMF, AMF, CMF, SS], [LWF, LM
 Rami Al Hajj, AMF, 69.10, False, Standard, [AMF, CMF], [LWF, LMF, SS, DMF]
 Besfort Zeneli, CMF, 70.29, True, Standard, [CMF, AMF], [DMF]
 Jens Cajuste, DMF, 74.18, False, Standard, [CMF, DMF], [LMF, RMF]
-Carl Starfelt, CB, 75.02, True, Standard, [CB], []
+Carl Starfelt, CB, 75.02, False, Standard, [CB], []
 Gustaf Lagerbielke, CB, 74.89, False, Standard, [CB], []
 Gabriel Gudmundsson, LB, 74.55, True, Standard, [LB, LMF, CB], []
 Felix Beijmo, RB, 73.22, True, Standard, [RMF, RB, CB], [LB]

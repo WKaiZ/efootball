@@ -91,6 +91,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "italy": {
         "luca pellegrini": "346567",
+        "alessandro romano": "911224",
     },
     "colombia": {
         "luis suarez": "424784",
