@@ -22,8 +22,8 @@ Substitutes:
   [DMF] Nikola Moro (DMF) rating 93.15 #7
   [LB] Domagoj Bradarić (LB) rating 72.50 #16
   [CB] Josip Sutalo (CB) rating 76.06 #6
-  [CB] Marin Pongracic (CB) rating 75.70 #22
-  [RB] Ivan Smolcic (RB) rating 70.37 #3
+  [CB] Marin Pongracic (CB) rating 75.70 #3
+  [RB] Ivan Smolcic (RB) rating 70.37 #22
   [GK] Dominik Kotarski (GK) rating 74.64 #23
 
 Wildcard:

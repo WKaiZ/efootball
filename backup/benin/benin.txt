@@ -1,0 +1,12 @@
+Starters:
+  [CF] Steve Mounié (CF) rating 73.38 #9
+  [LWF] Adam Akimey (LWF) rating 65.77 #28
+  [RWF] Yamirou Ouorou (RWF) rating 65.76 #11
+  [AMF] Junior Olaitan (AMF) rating 71.71 #18
+  [CMF] Mattéo Ahlinvi (CMF) rating 68.22 #7
+  [DMF] Sessi D'Almeida (DMF) rating 69.90 #15
+  [LB] David Kiki (LB) rating 67.88 #12
+  [CB] Olivier Verdon (CB) rating 71.40 #6
+  [CB] Mohamed Tijani (CB) rating 69.23 #13
+  [RB] Tamimou Ouorou (RB) rating 66.33 #3
+  [GK] Marcel Dandjinou (GK) rating 67.81 #1

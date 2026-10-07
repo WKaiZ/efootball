@@ -1,9 +1,9 @@
 Starters:
   [CF] Joel Pohjanpalo (CF) rating 73.71 #20
-  [LWF] Robert Taylor (LWF) rating 72.62 #16
-  [RWF] Oliver Antman (RWF) rating 72.18 #7
-  [AMF] Onni Valakari (AMF) rating 74.76 #11
-  [CMF] Robin Lod (CMF) rating 71.72 #8
+  [LWF] Robert Taylor (LWF) rating 72.62 #7
+  [RWF] Oliver Antman (RWF) rating 72.18 #11
+  [AMF] Onni Valakari (AMF) rating 74.76 #8
+  [CMF] Robin Lod (CMF) rating 71.72 #19
   [DMF] Glen Kamara (DMF) rating 71.37 #6
   [LB] Jere Uronen (LB) rating 71.89 #18
   [CB] Robert Ivanov (CB) rating 69.88 #4

@@ -9,4 +9,4 @@ Starters:
   [CB] Valentin Antov (CB) rating 72.48 #6
   [CB] Simeon Petrov (CB) rating 70.61 #15
   [RB] Viktor Popov (RB) rating 68.50 #2
-  [GK] Dimitar Mitov (GK) rating 71.10 #1
+  [GK] Dimitar Mitov (GK) rating 71.10 #12

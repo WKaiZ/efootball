@@ -6,7 +6,12 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
-from jersey_fetch.constants import EXCLUDE_FROM_ESPN_RECENT, ESPN_TEAM_NAME_ALIASES, HEADERS
+from jersey_fetch.constants import (
+    EXCLUDE_FROM_ESPN_RECENT,
+    ESPN_TEAM_ID_OVERRIDES,
+    ESPN_TEAM_NAME_ALIASES,
+    HEADERS,
+)
 from jersey_fetch.matching import (
     compatible_name_tokens,
     espn_lineup_role,
@@ -85,6 +90,8 @@ def _espn_team_search_queries(country_label):
 
 def lookup_espn_team(country_label):
     country_key = normalize_name(country_label)
+    if country_key in ESPN_TEAM_ID_OVERRIDES:
+        return ESPN_TEAM_ID_OVERRIDES[country_key]
     match_names = _espn_team_match_names(country_label)
     unique_queries = _espn_team_search_queries(country_label)
     best = None

@@ -5,9 +5,9 @@ Starters:
   [LWF] Rodrigo De Paul (CMF) rating 95.37 #7
   [RWF] Lionel Messi (RWF) rating 101.48 #10
   [AMF] Nico Paz (AMF) rating 98.59 #18
-  [CMF] Enzo Fernández (CMF) rating 98.78 #24
+  [CMF] Enzo Fernández (CMF) rating 98.78 #8
   [DMF] Alan Varela (DMF) rating 94.32 #21
-  [LB] Javier Zanetti (LB) rating 99.02 #8
+  [LB] Javier Zanetti (LB) rating 99.02 #4
   [CB] Cristian Romero (CB) rating 97.80 #13
   [CB] Lisandro Martínez (CB) rating 96.93 #6
   [RB] Juan Foyth (RB) rating 93.31 #2
@@ -17,12 +17,12 @@ Substitutes:
   [CF] Julián Alvarez (CF) rating 98.11 #9
   [LWF] Alejandro Garnacho (LWF) rating 77.15 #17
   [RWF] Matías Soulé (RWF) rating 95.32 #28
-  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #4
+  [AMF] Juan Sebastián Verón (AMF) rating 98.38 #15
   [CMF] Alexis Mac Allister (CMF) rating 96.80 #20
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Nicolás Tagliafico (LB) rating 94.06 #3
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
-  [CB] Martín Demichelis (CB) rating 94.84 #15
+  [CB] Nehuén Pérez (CB) rating 94.16 #14
   [RB] Nahuel Molina (RB) rating 76.96 #26
   [GK] Juan Musso (GK) rating 93.93 #1
 
@@ -39,7 +39,7 @@ Starters:
   [CMF] Giovani Lo Celso (AMF) rating 92.93 #16
   [DMF] Máximo Perrone (DMF) rating 93.18 #22
   [LB] Marcos Acuña (LB) rating 92.25 #14
-  [CB] Nehuén Pérez (CB) rating 94.16 #2
+  [CB] Martín Demichelis (CB) rating 94.84 #2
   [CB] Valentín Gómez (CB) rating 94.11 #34
   [RB] Javier Zanetti (RB) rating 97.89 #8
   [GK] Emiliano Martínez (GK) rating 81.16 #23

@@ -169,6 +169,9 @@ MANUAL_ID_OVERRIDES = {
         "antonio lopez": "599909",
         "jose morales": "354673",
     },
+    "luxembourg": {
+        "diego duarte": "885845",
+    },
     "honduras": {
         "david ruiz": "914681",
     },

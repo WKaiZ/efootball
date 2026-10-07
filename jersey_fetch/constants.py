@@ -177,6 +177,9 @@ MANUAL_ID_OVERRIDES = {
         "antonio lopez": {"player_id": "599909", "preserve_name": True},
         "jose morales": {"player_id": "354673", "preserve_name": True},
     },
+    "luxembourg": {
+        "diego duarte": {"player_id": "885845", "preserve_name": True},
+    },
     "honduras": {
         "david ruiz": {"player_id": "914681", "preserve_name": True},
     },
@@ -245,6 +248,10 @@ ESPN_TEAM_NAME_ALIASES = {
     "usa": ("United States",),
 }
 
+ESPN_TEAM_ID_OVERRIDES = {
+    "jordan": "2917",
+}
+
 COUNTRY_DISPLAY_NAMES = {
     "congo": "DR Congo",
 }
@@ -290,6 +297,26 @@ PLAYER_NAME_ALIASES = {
     ],
     "bolivia": [
         ("Miguelito", "Miguel Terceros"),
+    ],
+    "luxembourg": [
+        ("Tiago Pereira Cardoso", "Tiago Pereira"),
+    ],
+    "ecuador": [
+        ("José Andrés Hurtado", "José Hurtado"),
+    ],
+    "china": [
+        ("Tyias Browning", "Jiang Guangtai"),
+    ],
+    "benin": [
+        ("Sessi D Almeida", "Sessi D'Almeida"),
+    ],
+    "iceland": [
+        ("Hákon Arnar Haraldsson", "Hakon Haraldsson"),
+        ("Daníel Leó Grétarsson", "Daniel Gretarsson"),
+        ("Brynjar Ingi Bjarnason", "Brynjar Bjarnason"),
+    ],
+    "uzbekistan": [
+        ("Odildzhon Khamrobekov", "Odiljon Xamrobekov"),
     ],
     "gabon": [
         ("Michel Mboula", "Urie-Michel Mboula"),

@@ -1,12 +1,12 @@
 Starters:
-  [CF] M'Bala Nzola (CF) rating 76.10 #17
+  [CF] M'Bala Nzola (CF) rating 74.02 #17
   [LWF] André Vidigal (LWF) rating 69.96 #7
   [RWF] Zito Luvumbo (RWF) rating 73.25 #18
-  [AMF] Fredy (AMF) rating 71.30 #16
+  [AMF] Fredy (AMF) rating 71.30 #9
   [CMF] Maestro (CMF) rating 71.83 #8
   [DMF] Show (DMF) rating 69.86 #23
   [LB] Núrio Fortuna (LB) rating 71.55 #2
   [CB] Clinton Mata (CB) rating 93.28 #4
-  [CB] David Carmo (CB) rating 76.03 #5
+  [CB] David Carmo (CB) rating 76.03 #16
   [RB] Eddie Afonso (RB) rating 64.71 #21
   [GK] Neblú (GK) rating 71.63 #22

@@ -12,17 +12,18 @@ Starters:
   [GK] Wuilker Fariñez (GK) rating 72.64 #1
 
 Substitutes:
-  [CF] Jhonder Cádiz (CF) rating 74.48 #29
+  [CF] Jhonder Cádiz (CF) rating 74.48 #9
   [LWF] Jhon Murillo (LWF) rating 73.41 #18
   [RWF] Eduard Bello (RMF) rating 73.07 #25
   [AMF] Wikelman Carmona (AMF) rating 69.87 #16
   [CMF] Cristian Cásseres (CMF) rating 74.17 #11
   [DMF] José Martínez (DMF) rating 72.40 #13
-  [LB] Teo Quintero (CB) rating 69.39 #5
+  [LB] VACANT
   [CB] Wilker Ángel (CB) rating 71.70 #20
-  [CB] Christian Makoun (CB) rating 69.58 #14
+  [CB] Christian Makoun (CB) rating 69.58 #5
   [RB] Alexander González (RB) rating 70.24 #21
   [GK] Rafael Romo (GK) rating 72.42 #22
 
 Wildcard:
   [WILD] Josef Martínez (CF) rating 74.22 #17
+  [WILD] Daniel Pereira (CMF) rating 74.17 #26

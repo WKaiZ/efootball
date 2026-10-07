@@ -1,8 +1,8 @@
 Starters:
-  [CF] Benjamin Sesko (CF) rating 97.70 #11
+  [CF] Benjamin Šeško (CF) rating 97.70 #11
   [LWF] Benjamin Verbic (LWF) rating 71.09 #7
   [RWF] Andrés Vombergar (CF) rating 72.14 #18
-  [AMF] Tomi Horvat (AMF) rating 70.37 #15
+  [AMF] Tomi Horvat (AMF) rating 70.37 #19
   [CMF] Sandi Lovrić (CMF) rating 72.15 #8
   [DMF] Jon Gorenc Stankovic (DMF) rating 71.61 #5
   [LB] Jure Balkovec (LB) rating 70.42 #3
