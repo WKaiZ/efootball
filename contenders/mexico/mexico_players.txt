@@ -1,6 +1,7 @@
 Raúl Jiménez, CF, 93.90, False, Highlight, [CF], [SS]
 Rafa Márquez, CB, 96.20, False, Epic, [CB, DMF], [CMF]
 
+Julián Quiñones, CF, 79.01, False, Standard, [CF, LWF], [SS, RWF, LMF]
 German Berterame, CF, 76.29, True, Standard, [CF, SS, RWF, RMF], [AMF]
 Santiago Gimenez, CF, 75.76, True, Standard, [CF], [SS]
 Henry Martin, CF, 75.14, False, Standard, [CF, SS], []

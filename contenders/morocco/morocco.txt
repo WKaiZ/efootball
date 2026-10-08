@@ -20,7 +20,7 @@ Substitutes:
   [AMF] Amine Adli (AMF) rating 94.14 #21
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #16
-  [LB] Anass Salah-Eddine (LB) rating 71.36 #26
+  [LB] Yahia Attiyat Allah (LB) rating 72.80 #25
   [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 75.97 #14
   [RB] Omar El Hilali (RB) rating 94.08 #15
@@ -47,15 +47,15 @@ Starters:
 Substitutes:
   [CF] Youssef En-Nesyri (CF) rating 77.34 #19
   [LWF] Ilias Chair (LWF) rating 74.23 #13
-  [RWF] Hakim Ziyech (RWF) rating 74.64 #7
-  [AMF] Adel Taarabt (AMF) rating 73.34 #8
+  [RWF] Ilias Akhomach (RWF) rating 73.46 #7
+  [AMF] Khalid Aït Ouarkhane (AMF) rating 67.90 #8
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
-  [DMF] Oussama Targhalline (CMF) rating 72.51 #15
-  [LB] Youssef Belammari (LB) rating 71.11 #28
+  [DMF] Youssef Aït Bennasser (DMF) rating 70.48 #15
+  [LB] Anass Salah-Eddine (LB) rating 71.36 #26
   [CB] Chadi Riad (CB) rating 74.06 #18
   [CB] Adam Masina (CB) rating 73.22 #25
   [RB] Noussair Mazraoui (RB) rating 75.30 #14
   [GK] Munir El Kajoui (GK) rating 71.57 #12
 
 Wildcard:
-  [WILD] Osame Sahraoui (LMF) rating 92.95 #26
+  [WILD] Hamza Igamane (CF) rating 74.23 #20

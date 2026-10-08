@@ -58,4 +58,4 @@ Substitutes:
   [GK] Bingourou Kamara (GK) rating 71.75 #1
 
 Wildcard:
-  [WILD] Abdoulaye Ndiaye (CB) rating 70.83 #10
+  [WILD] Dion Lopy (DMF) rating 72.22 #17

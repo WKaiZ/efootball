@@ -36,7 +36,7 @@ Starters:
   [LWF] Maximiliano Araujo (LMF) rating 93.96 #20
   [RWF] Agustín Canobbio (RMF) rating 93.00 #14
   [AMF] Wiston Fernández (AMF) rating 69.19 #7
-  [CMF] Gabriel Neves (CMF) rating 74.04 #18
+  [CMF] Nahitan Nández (CMF) rating 75.09 #15
   [DMF] Rodrigo Bentancur (DMF) rating 77.50 #6
   [LB] Mathías Olivera (LB) rating 94.22 #16
   [CB] Santiago Mouriño (CB) rating 74.30 #19
@@ -48,8 +48,8 @@ Substitutes:
   [CF] Christhian Stuani (CF) rating 74.54 #11
   [LWF] Diego Rossi (SS) rating 74.68 #9
   [RWF] Matías Abaldo (RWF) rating 73.49 #22
-  [AMF] VACANT
-  [CMF] Juan Manuel Sanabria (LB) rating 73.70 #25
+  [AMF] Juan Manuel Sanabria (LB) rating 73.70 #25
+  [CMF] Gabriel Neves (CMF) rating 74.04 #18
   [DMF] Mauro Arambarri (DMF) rating 76.15 #5
   [LB] Matías Viña (LB) rating 73.88 #17
   [CB] Sebastián Boselli (CB) rating 73.41 #29
@@ -59,4 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Federico Viñas (CF) rating 74.11 #21
-  [WILD] Emiliano Martinez (DMF) rating 73.32 #15

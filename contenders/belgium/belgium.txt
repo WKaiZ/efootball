@@ -55,8 +55,8 @@ Substitutes:
   [CB] Nathan Ngoy (CB) rating 73.18 #15
   [CB] Matte Smets (CB) rating 72.90 #23
   [RB] VACANT
-  [GK] Mike Penders (GK) rating 75.63 #13
+  [GK] Koen Casteels (GK) rating 77.63 #12
 
 Wildcard:
-  [WILD] Gaëtan Coucke (GK) rating 75.05 #12
+  [WILD] Mike Penders (GK) rating 75.63 #13
   [WILD] Benito Raman (CF) rating 72.22 #21
