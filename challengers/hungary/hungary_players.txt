@@ -4,7 +4,7 @@ Dominik Szoboszlai, LWF, 94.87, True, Highlight, [LWF, LMF, AMF, CMF, RWF, RMF],
 Dominik Szoboszlai, AMF, 96.98, True, Highlight, [LWF, LMF, AMF, CMF, RWF, RMF, RB], [SS, DMF]
 Dominik Szoboszlai, CMF, 95.65, True, Highlight, [LWF, LMF, AMF, CMF, RWF, RMF], [SS, DMF]
 Willi Orbán, CB, 95.32, True, Highlight, [CB], []
-Milos Kerkez, LB, 95.44, False, Highlight, [LMF, LB], []
+Milos Kerkez, LB, 94.00, False, Highlight, [LMF, LB], []
 Dominik Szoboszlai, RB, 95.92, True, Highlight, [LWF, LMF, AMF, CMF, RWF, RMF, RB], [SS]
 
 Barnabás Varga, CF, 71.70, False, Standard, [CF], [SS]

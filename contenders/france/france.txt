@@ -53,9 +53,9 @@ Substitutes:
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
   [CB] Jules Koundé (CB) rating 95.26 #5
-  [CB] Clément Lenglet (CB) rating 94.22 #19
-  [RB] Jonathan Clauss (RB) rating 93.04 #2
+  [CB] Benjamin Pavard (CB) rating 94.56 #2
+  [RB] Jonathan Clauss (RB) rating 93.04 #3
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Rayan Cherki (AMF) rating 95.18 #24
+  [WILD] Boubacar Kamara (DMF) rating 95.46 #19

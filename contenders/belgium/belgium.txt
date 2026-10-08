@@ -15,19 +15,19 @@ Starters:
 
 Substitutes:
   [CF] Loïs Openda (CF) rating 78.28 #9
-  [LWF] Malick Fofana (LWF) rating 75.50 #19
+  [LWF] Mika Godts (LWF) rating 76.02 #22
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #20
   [CMF] Nicolas Raskin (CMF) rating 75.30 #23
   [DMF] Mandela Keita (DMF) rating 71.60 #8
   [LB] Maxim De Cuyper (LB) rating 74.31 #5
+  [CB] Arthur Theate (CB) rating 95.49 #2
   [CB] Koni De Winter (CB) rating 94.33 #16
-  [CB] Brandon Mechele (CB) rating 94.19 #22
   [RB] Thomas Meunier (RB) rating 74.37 #15
   [GK] Matz Sels (GK) rating 95.14 #13
 
 Wildcard:
-  [WILD] Zeno Debast (CB) rating 93.95 #2
+  [WILD] Brandon Mechele (CB) rating 94.19 #19
 
 Second Squad
 
@@ -39,7 +39,7 @@ Starters:
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
   [DMF] Axel Witsel (DMF) rating 75.86 #6
   [LB] Diego Moreira (LMF) rating 74.58 #19
-  [CB] Arthur Theate (CB) rating 78.45 #3
+  [CB] Zeno Debast (CB) rating 93.95 #2
   [CB] Christian Kabasele (CB) rating 74.10 #18
   [RB] Kyriani Sabbe (RB) rating 70.48 #16
   [GK] Senne Lammens (GK) rating 93.92 #1

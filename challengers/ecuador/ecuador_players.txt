@@ -1,5 +1,5 @@
 John Yeboah, SS, 93.07, True, Highlight, [SS, CF, RWF], [LWF, AMF, RMF]
-Pervis Estupiñán, LMF, 94.20, True, Highlight, [LMF, LB], [LWF]
+Pervis Estupiñán, LMF, 94.18, True, Highlight, [LMF, LB], [LWF]
 Nilson Angulo, LMF, 92.84, True, Highlight, [LMF, LWF, CF, SS, AMF], [CMF, RWF]
 Moisés Caicedo, DMF, 97.32, False, Showtime, [CMF, DMF], [RB]
 Willian Pacho, CB, 95.99, True, Highlight, [CB], []

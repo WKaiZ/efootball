@@ -7,6 +7,7 @@ Kai Havertz, CF, 95.97, False, Highlight, [AMF, CF, SS], [LWF, RWF, LMF, RMF, CM
 Jonathan Burkardt, CF, 95.09, True, Highlight, [CF], [LWF, RWF, SS, AMF]
 Deniz Undav, CF, 94.96, False, Highlight, [CF, SS], [AMF]
 Maximilian Beier, CF, 93.10, False, Highlight, [CF], [LWF, RWF, SS, AMF]
+Florian Wirtz, SS, 95.90, True, Highlight, [AMF, SS, LWF, LMF, CF], [RMF, CMF, RWF]
 Serge Gnabry, LWF, 95.13, False, Highlight, [LWF, RWF, RMF], [CF, SS, LMF, AMF]
 Kevin Schade, LWF, 94.09, False, Highlight, [LWF, LMF, CF], [RWF, RMF]
 Karim Adeyemi, RWF, 98.52, False, Showtime, [LWF, CF, SS, RWF, LMF, RMF], [AMF]

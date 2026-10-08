@@ -27,7 +27,7 @@ Substitutes:
   [GK] Juan Musso (GK) rating 93.93 #1
 
 Wildcard:
-  [WILD] Giuliano Simeone (RMF) rating 96.52 #16
+  [WILD] Lautaro Martínez (CF) rating 97.20 #22
 
 Second Squad
 

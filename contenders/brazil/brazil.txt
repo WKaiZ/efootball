@@ -3,7 +3,7 @@ First Squad
 Starters:
   [CF] Adriano (CF) rating 98.68 #9
   [LWF] Ronaldinho (LWF) rating 99.95 #10
-  [RMF] Lucas Moura (RMF) rating 95.07 #11
+  [RMF] Rodrygo (RMF) rating 96.03 #11
   [AMF] Kaká (AMF) rating 99.41 #7
   [CMF] Ederson (CMF) rating 94.97 #17
   [DMF] Bruno Guimarães (DMF) rating 98.17 #8
@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Romário (CF) rating 98.28 #19
   [LWF] Vinicius Junior (LWF) rating 99.34 #18
-  [RMF] Estêvão (RMF) rating 95.01 #22
+  [RMF] Lucas Moura (RMF) rating 95.07 #22
   [AMF] Rivaldo (AMF) rating 97.67 #20
   [CMF] Andrey Santos (CMF) rating 94.21 #21
   [DMF] Casemiro (DMF) rating 97.38 #5

@@ -5,7 +5,7 @@ Starters:
   [AMF] Dominik Szoboszlai (AMF) rating 96.98 #10
   [CMF] Alex Tóth (CMF) rating 73.52 #21
   [DMF] Áron Csongvai (DMF) rating 70.22 #15
-  [LB] Milos Kerkez (LB) rating 95.44 #11
+  [LB] Milos Kerkez (LB) rating 94.00 #11
   [CB] Willi Orbán (CB) rating 95.32 #6
   [CB] Attila Szalai (CB) rating 71.76 #4
   [RB] Bendegúz Bolla (RB) rating 72.44 #26

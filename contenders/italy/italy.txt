@@ -36,8 +36,8 @@ Starters:
   [LMF] Federico Dimarco (LMF) rating 98.01 #13
   [RWF] Federico Bernardeschi (RWF) rating 93.35 #21
   [SS] Roberto Baggio (SS) rating 99.61 #10
-  [CMF] Tommaso Pobega (CMF) rating 93.26 #4
-  [DMF] Daniele De Rossi (DMF) rating 98.15 #16
+  [CMF] Davide Frattesi (CMF) rating 94.09 #16
+  [DMF] Daniele De Rossi (DMF) rating 98.15 #4
   [LB] Paolo Maldini (LB) rating 99.05 #3
   [CB] Riccardo Ferri (CB) rating 97.48 #6
   [CB] Leonardo Bonucci (CB) rating 97.17 #19
