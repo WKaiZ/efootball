@@ -52,10 +52,11 @@ Substitutes:
   [CMF] Bruno Fernandes (CMF) rating 95.01 #8
   [DMF] João Palhinha (DMF) rating 78.20 #16
   [LB] Nélson Semedo (RB) rating 76.12 #21
-  [CB] Tiago Djaló (CB) rating 73.13 #3
   [CB] VACANT
+  [CB] Tiago Djaló (CB) rating 73.13 #3
   [RB] Matheus Nunes (RB) rating 94.00 #6
   [GK] Anthony Lopes (GK) rating 74.63 #22
 
 Wildcard:
+  [WILD] Samú Costa (DMF) rating 76.18 #24
   [WILD] Joao Moutinho (CMF) rating 75.05 #28
