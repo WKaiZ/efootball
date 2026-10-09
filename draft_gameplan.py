@@ -62,6 +62,12 @@ def _exclude_cards(roles_by_pos, used_cards):
     return filtered
 
 
+def _plan(conn, roles_by_pos, slots):
+    if not roles_by_pos:
+        return [None] * len(slots), [None] * len(slots), []
+    return build_gameplan(conn, roles_by_pos)
+
+
 def _country_group(out_path):
     country_dir = os.path.dirname(os.path.abspath(out_path))
     return os.path.basename(os.path.dirname(country_dir))
@@ -89,11 +95,12 @@ def main():
 
         roles_by_pos = load_roles(conn, country_name)
         if not roles_by_pos:
-            raise RuntimeError(
-                f"No game_data rows found for country '{country_name}'. Run fetch_game_data.py {country_name} first."
+            print(
+                f"No game_data rows found for country '{country_name}'; every position will be VACANT.",
+                file=sys.stderr,
             )
 
-        starter_asg, sub_asg, wildcard_asgs = build_gameplan(conn, roles_by_pos)
+        starter_asg, sub_asg, wildcard_asgs = _plan(conn, roles_by_pos, primary_formation)
 
         if _is_contender(out_path):
             used_cards = _squad_card_keys(starter_asg, sub_asg, wildcard_asgs)
@@ -101,7 +108,7 @@ def main():
 
             second_slots = secondary_formation if secondary_formation is not None else primary_formation
             formation.FORMATION[:] = second_slots
-            starter_asg2, sub_asg2, wildcard_asgs2 = build_gameplan(conn, remaining)
+            starter_asg2, sub_asg2, wildcard_asgs2 = _plan(conn, remaining, second_slots)
 
             lines = ["First Squad", ""]
             lines.extend(format_squad(starter_asg, sub_asg, wildcard_asgs, primary_formation))

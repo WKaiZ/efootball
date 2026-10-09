@@ -124,6 +124,15 @@ MANUAL_ID_OVERRIDES = {
     "mali": {
         "mamadou fofana": "402004",
         "ousmane camara": "804711",
+        "adama traore": {"RWF": "364405", "AMF": "262608"},
+        "brahima diarra": "723667",
+        "ousmane diallo": "1060545",
+        "mamadou doumbia": "1101539",
+    },
+    "mozambique": {
+        "domingues": "64298",
+        "nene": "615702",
+        "guima": "305425",
     },
     "uruguay": {
         "luis suarez": "44352",

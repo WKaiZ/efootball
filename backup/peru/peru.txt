@@ -1,0 +1,12 @@
+Starters:
+  [CF] Álex Valera (CF) rating 71.88 #20
+  [LWF] Bryan Reyna (LWF) rating 71.35 #11
+  [RWF] Kevin Quevedo (RWF) rating 71.01 #22
+  [AMF] Piero Quispe (AMF) rating 71.49 #8
+  [CMF] André Carrillo (CMF) rating 73.10 #18
+  [DMF] Renato Tapia (DMF) rating 74.29 #13
+  [LB] Marcos López (LB) rating 72.12 #4
+  [CB] Luis Abram (CB) rating 73.11 #2
+  [CB] Carlos Zambrano (CB) rating 72.69 #5
+  [RB] Luis Advíncula (RB) rating 74.38 #17
+  [GK] Pedro Gallese (GK) rating 74.43 #1

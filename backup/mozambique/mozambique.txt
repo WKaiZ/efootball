@@ -1,0 +1,12 @@
+Starters:
+  [CF] Stanley Ratifo (CF) rating 69.46 #13
+  [LWF] Geny Catamo (RMF) rating 74.58 #20
+  [RWF] Clésio Baúque (RWF) rating 69.40 #10
+  [AMF] Domingues (AMF) rating 68.51 #7
+  [CMF] Alfonso Amade (DMF) rating 69.70 #16
+  [DMF] Guima (DMF) rating 71.02 #21
+  [LB] Reinildo Mandava (LB) rating 94.30 #15
+  [CB] Edmilson Dove (CB) rating 71.00 #8
+  [CB] Nene (CB) rating 70.44 #3
+  [RB] Diogo Calila (RB) rating 67.73 #23
+  [GK] Ernan Siluane (GK) rating 69.81 #1

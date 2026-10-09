@@ -132,6 +132,18 @@ MANUAL_ID_OVERRIDES = {
     "mali": {
         "mamadou fofana": {"player_id": "402004", "preserve_name": True},
         "ousmane camara": {"player_id": "804711", "preserve_name": True},
+        "adama traore": {
+            "RWF": {"player_id": "364405", "preserve_name": True},
+            "AMF": {"player_id": "262608", "preserve_name": True},
+        },
+        "brahima diarra": {"player_id": "723667", "preserve_name": True},
+        "ousmane diallo": {"player_id": "1060545", "preserve_name": True},
+        "mamadou doumbia": {"player_id": "1101539", "preserve_name": True},
+    },
+    "mozambique": {
+        "domingues": {"player_id": "64298", "preserve_name": True},
+        "nene": {"player_id": "615702", "preserve_name": True},
+        "guima": {"player_id": "305425", "preserve_name": True},
     },
     "uruguay": {
         "luis suarez": {"player_id": "44352", "preserve_name": True},
