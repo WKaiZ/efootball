@@ -1,5 +1,5 @@
 Almoez Ali, CF, 73.50, False, Standard, [CF, LWF, RWF], [SS, AMF, LMF, RMF]
-Edmílson Junior, LWF, 76.00, False, Standard, [LWF, LMF, RWF, RMF], [SS]
+Akram Afif, LWF, 74.98, False, Standard, [LWF, CF, SS], [LMF, AMF, RMF, RWF]
 Abdelrahman Moustafa, RWF, 70.35, False, Standard, [RWF, LMF], [LWF, RMF, AMF, CMF]
 Hassan Al-Haydos, AMF, 72.35, False, Standard, [LWF, CF, SS, RWF, RMF, RB, LMF, AMF], [CMF]
 Abdulaziz Hatim, CMF, 71.15, False, Standard, [LMF, LB, CMF, DMF], [AMF, LWF, RMF, RB]
@@ -9,4 +9,4 @@ Boualem Khoukhi, CB, 72.44, False, Standard, [DMF, CB, RWF], [LWF, AMF, CMF, RMF
 Sultan Al-Brake, LB, 71.92, False, Standard, [LB], [LMF, CB]
 Mohammed Waad, LB, 71.33, False, Standard, [CMF, LB], [LMF, AMF, DMF]
 Pedro Miguel, RB, 72.27, False, Standard, [CB, RB], [DMF, RMF]
-Meshaal Barsham, GK, 73.69, False, Standard, [GK], []
+Meshaal Barsham, GK, 71.78, False, Standard, [GK], []

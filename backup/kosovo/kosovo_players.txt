@@ -3,7 +3,7 @@ Amir Rrahmani, CB, 93.05, False, Highlight, [CB], [LB, RB]
 Arijanet Murić, GK, 92.28, True, Highlight, [GK], []
 
 Vedat Muriqi, CF, 77.70, True, Standard, [CF], [SS]
-Elbasan Rashani, LWF, 70.58, False, Standard, [LWF, RWF], [CF, SS, AMF, LMF, RMF]
+Ermal Krasniqi, LWF, 65.41, True, Standard, [LWF], [LMF, RWF]
 Milot Rashica, RWF, 74.18, True, Standard, [LWF, RWF, LMF, RMF, SS], [CF, AMF, RB]
 Donat Rrudhani, LMF, 69.16, False, Standard, [LWF, LMF, LB, RMF], [AMF, CMF, RWF]
 Valon Berisha, CMF, 71.18, False, Standard, [LWF, LMF, AMF, CMF], [DMF]

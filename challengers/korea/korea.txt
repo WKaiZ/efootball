@@ -1,6 +1,6 @@
 Starters:
   [CF] Heung-min Son (CF) rating 96.92 #7
-  [LWF] Min-kyu Song (LWF) rating 70.89 #17
+  [LWF] Dae-won Kim (LWF) rating 71.40 #17
   [RWF] Kang-in Lee (RWF) rating 77.49 #19
   [AMF] Jae-sung Lee (AMF) rating 93.23 #10
   [CMF] In-beom Hwang (CMF) rating 73.86 #6
@@ -13,10 +13,10 @@ Starters:
 
 Substitutes:
   [CF] Se-hun Oh (CF) rating 94.20 #9
-  [LWF] Min-su Kim (LWF) rating 70.88 #27
+  [LWF] Min-kyu Song (LWF) rating 70.89 #11
   [RWF] Hyun-jun Yang (RWF) rating 72.17 #26
   [AMF] Dong-gyeong Lee (AMF) rating 73.50 #14
-  [CMF] Jin-kyu Kim (CMF) rating 72.35 #3
+  [CMF] Jin-kyu Kim (CMF) rating 71.76 #3
   [DMF] Sung-yueng Ki (DMF) rating 70.68 #16
   [LB] Tae-seok Lee (LB) rating 71.13 #13
   [CB] Tae-hyeon Kim (CB) rating 72.46 #5
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Hyeon-woo Jo (GK) rating 72.37 #21
 
 Wildcard:
-  [WILD] Hee-chan Hwang (CF) rating 75.67 #11
+  [WILD] Hyeon-gyu Oh (CF) rating 74.36 #18

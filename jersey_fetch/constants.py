@@ -97,6 +97,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "china": {
         "serginho": {"player_id": "329013", "preserve_name": True},
+        "fernandinho": {"player_id": "230937", "preserve_name": True},
     },
     "colombia": {
         "david silva": {"player_id": "74071", "preserve_name": True},
@@ -196,6 +197,9 @@ MANUAL_ID_OVERRIDES = {
             "CB": {"player_id": "645847", "preserve_name": True},
             "RB": {"player_id": "508366", "preserve_name": True},
         },
+    },
+    "kosovo": {
+        "ermal krasniqi": {"player_id": "606893", "preserve_name": True},
     },
     "usa": {
         "patrick agyemang": {"player_id": "1089574", "preserve_name": True},

@@ -1,6 +1,6 @@
 Starters:
   [CF] Almoez Ali (CF) rating 73.50 #19
-  [LWF] Edmílson Junior (LWF) rating 76.00 #8
+  [LWF] Akram Afif (LWF) rating 74.98 #11
   [RWF] Abdelrahman Moustafa (RWF) rating 70.35 #17
   [AMF] Hassan Al-Haydos (AMF) rating 72.35 #10
   [CMF] Abdulaziz Hatim (CMF) rating 71.15 #6
@@ -9,4 +9,4 @@ Starters:
   [CB] Lucas Mendes (CB) rating 73.43 #3
   [CB] Boualem Khoukhi (CB) rating 72.44 #16
   [RB] Pedro Miguel (RB) rating 72.27 #2
-  [GK] Meshaal Barsham (GK) rating 73.69 #22
+  [GK] Meshaal Barsham (GK) rating 71.78 #22

@@ -88,6 +88,7 @@ MANUAL_ID_OVERRIDES = {
     },
     "china": {
         "serginho": "329013",
+        "fernandinho": "230937",
     },
     "italy": {
         "luca pellegrini": "346567",
@@ -185,6 +186,9 @@ MANUAL_ID_OVERRIDES = {
     "korea": {
         "tae-hwan kim": "156009",
         "tae-hyeon kim": {"CB": "645847", "RB": "508366"},
+    },
+    "kosovo": {
+        "ermal krasniqi": "606893",
     },
     "usa": {
         "patrick agyemang": "1089574",

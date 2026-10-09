@@ -1,6 +1,6 @@
 Starters:
   [CF] Ibrahim Maza (AMF) rating 94.08 #30
-  [LWF] Yacine Brahimi (LWF) rating 75.55 #11
+  [LWF] Adil Boulbina (LWF) rating 66.80 #18
   [RWF] Riyad Mahrez (RWF) rating 78.91 #7
   [AMF] Farès Chaïbi (AMF) rating 94.20 #10
   [CMF] Hicham Boudaoui (CMF) rating 94.17 #14
@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Amine Gouiri (CF) rating 76.29 #9
-  [LWF] Adil Boulbina (LWF) rating 66.80 #18
-  [RWF] Anis Hadj Moussa (RWF) rating 75.26 #26
+  [LWF] Adam Ounas (RWF) rating 73.29 #12
+  [RWF] Anis Hadj Moussa (RWF) rating 75.26 #11
   [AMF] Houssem Aouar (AMF) rating 76.21 #8
   [CMF] Adem Zorgane (CMF) rating 75.40 #6
   [DMF] Ismaël Bennacer (DMF) rating 77.32 #22
   [LB] Jaouen Hadjam (LB) rating 72.72 #13
   [CB] Ahmed Touba (CB) rating 73.30 #4
-  [CB] Sohaib Naïr (CB) rating 69.51 #25
-  [RB] Mohamed Farsi (RB) rating 72.44 #3
+  [CB] Zineddine Belaid (CB) rating 71.58 #5
+  [RB] Rafik Belghali (RB) rating 71.94 #17
   [GK] Anthony Mandréa (GK) rating 71.50 #1
 
 Wildcard:
-  [WILD] Baghdad Bounedjah (CF) rating 74.72 #5
+  [WILD] Mohamed Amoura (CF) rating 74.65 #26

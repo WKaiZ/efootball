@@ -1,7 +1,7 @@
 Vozinha, GK, 96.99, True, Showtime, [GK], []
 
 Dailon Livramento, CF, 70.47, True, Standard, [CF], [LWF, RWF, SS]
-Ilano Silva Timas, LWF, 65.46, False, Standard, [LWF, LMF, CF], [SS, AMF, CMF, RWF, RMF]
+Ryan Mendes, LWF, 71.57, True, Standard, [LWF, RWF, LMF, RMF], [CF, SS]
 Vasco Lopes, RWF, 69.82, False, Standard, [RWF, CF, RMF], [SS]
 Fabrício Garcia, RWF, 69.26, False, Standard, [RWF, RMF], [LWF, RB]
 David Costa, AMF, 65.30, False, Standard, [AMF, CMF], [LWF, RWF, SS]

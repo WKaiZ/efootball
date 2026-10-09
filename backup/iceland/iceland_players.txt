@@ -4,7 +4,7 @@ Albert Gudmundsson, CF, 76.37, False, Standard, [LWF, CF, RWF, LMF, RMF, SS, AMF
 Mikael Anderson, LWF, 71.33, True, Standard, [LWF, LMF, CMF], [CF, SS, AMF, DMF, RWF, RMF]
 Kristian Hlynsson, AMF, 72.05, False, Standard, [AMF, CMF], [LWF, SS, RWF, RMF, DMF]
 Mikael Egill Ellertsson, CMF, 70.50, False, Standard, [LMF, CMF, RWF], [LWF, AMF, DMF, RMF, RB]
-Aron Gunnarsson, DMF, 70.93, True, Standard, [CMF, DMF, CB], [RB]
+Andri Fannar Baldursson, DMF, 68.18, True, Standard, [CMF, DMF], []
 Daníel Leó Grétarsson, CB, 69.46, True, Standard, [CB], [LB]
 Brynjar Ingi Bjarnason, CB, 68.73, True, Standard, [CB], []
 Logi Tómasson, LB, 69.34, True, Standard, [LMF, LB], [CB]

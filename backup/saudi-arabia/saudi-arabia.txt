@@ -1,12 +1,12 @@
 Starters:
-  [CF] Saleh Al-Shehri (CF) rating 71.30 #11
+  [CF] Feras Al-Buraikan (CF) rating 71.41 #9
   [LWF] Salem Al-Dawsari (LWF) rating 72.13 #10
   [RWF] Fahad Al-Muwallad (RWF) rating 73.24 #19
-  [AMF] Abdulrahman Ghareeb (LMF) rating 70.36 #18
-  [CMF] Mohamed Kanno (CMF) rating 70.93 #23
+  [AMF] Mohamed Kanno (CMF) rating 70.93 #23
+  [CMF] Musab Al-Juwayr (CMF) rating 73.27 #7
   [DMF] Nasser Al-Dawsari (DMF) rating 70.98 #6
-  [LB] Moteb Al-Harbi (LB) rating 69.43 #24
-  [CB] Abdulelah Al-Amri (CB) rating 72.69 #4
+  [LB] Yasser Al-Shahrani (LB) rating 70.24 #13
   [CB] Ali Al-Bulayhi (CB) rating 72.53 #5
+  [CB] Abdulelah Al-Amri (CB) rating 71.69 #4
   [RB] Sultan Al-Ghannam (RB) rating 74.06 #2
-  [GK] Mohammed Al-Owais (GK) rating 72.59 #21
+  [GK] Nawaf Al-Aqidi (GK) rating 70.66 #1

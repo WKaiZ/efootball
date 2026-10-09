@@ -2,11 +2,11 @@ Starters:
   [CF] Aymen Hussein (CF) rating 72.50 #18
   [LWF] Ahmed Qasem (LWF) rating 71.32 #11
   [RWF] Ali Jasim (RWF) rating 69.43 #17
-  [AMF] Mohammed Qasim (AMF) rating 68.25 #19
+  [AMF] Bashar Resan (AMF) rating 69.32 #13
   [CMF] Amjad Attwan (CMF) rating 69.83 #8
-  [DMF] Safaa Hadi (DMF) rating 67.96 #7
-  [LB] Ahmed Yahya (LB) rating 67.81 #15
+  [DMF] Saad Abdulameer (DMF) rating 69.99 #21
+  [LB] Mohanad Jeahze (LB) rating 70.27 #3
   [CB] Saad Natiq (CB) rating 70.53 #4
   [CB] Rebin Sulaka (CB) rating 69.00 #2
-  [RB] Hussein Ali (RB) rating 67.93 #3
-  [GK] Jalal Hassan (GK) rating 70.25 #12
+  [RB] Mustafa Saadoon (RB) rating 65.62 #25
+  [GK] Jalal Hassan (GK) rating 69.57 #12
