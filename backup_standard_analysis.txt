@@ -1,0 +1,407 @@
+BACKUP (starters only) - standard cards (numbered, not in players.txt) that beat current standard squad cards
+XI = starter, sub = substitute, WC = wildcard. 'tie' = same whole-number rating, decimals decide.
+(prof)/(semi) after an incumbent = how they hold that slot. [as prof]/[as semi] = how the candidate would.
+
+PART 1 - beats current squad members
+
+## albania
+  77 CB Berat Djimsiti (last no. 22/23)
+      > XI CB Ardian Ismajli 73.49
+      > XI CB Marash Kumbulla 71.44
+  73 DMF Kristjan Asllani (last no. 24/25)
+      > XI DMF Ylber Ramadani 70.83
+  73 RB Elseid Hysaj (last no. 14/15)
+      > XI RB Iván Balliu 71.21
+  71 CB Enea Mihaj (last no. 18/19 - 24/25)  <-- club: Atlanta RB
+      > tie: XI CB Marash Kumbulla 71.44
+  71 CB Frederic Veseli (last no. 16/17 - 23/24)
+      > tie: XI CB Marash Kumbulla 71.44
+  70 DMF Keidi Bare (last no. 22/23 - 23/24)
+      > tie: XI DMF Ylber Ramadani 70.83
+## angola
+  69 DMF Estrela (last no. 23/24 - 24/25)
+      > tie: XI DMF Show 69.86
+  69 RB Marsoni Sambu (last no. 26/27)
+      > XI RB Eddie Afonso 64.71
+  69 RB Jordy Gaspar (last no. 24/25)
+      > XI RB Eddie Afonso 64.71
+## bahrain
+  67 CF Thiago Fernandes (last no. 18/19)
+      > tie: XI CF Mahdi Abduljabbar 67.96
+## belarus  (nothing)
+## benin
+  71 CB Cedric Hountondji (last no. 23/24 - 24/25)
+      > tie: XI CB Olivier Verdon 71.40
+      > XI CB Mohamed Tijani 69.23
+  67 LWF Steve Traore (last no. 23/24 - 24/25)
+      > XI LWF Adam Akimey 65.77
+  67 RWF Lenny Pirringuel (last no. 24/25)
+      > XI RWF Yamirou Ouorou 65.76
+  65 RWF Rodolfo Aloko (last no. 26/27)  <-- club: Charlotte BBGW
+      > tie: XI RWF Yamirou Ouorou 65.76
+## bolivia  (nothing)
+## bosnia
+  77 CF Edin Dzeko (last no. 12/13)
+      > XI CF Milan Djuric 72.68
+  73 GK Ibrahim Sehic (last no. 14/15 - 23/24)
+      > tie: XI GK Vladan Kovacevic 73.61
+  72 DMF Amir Hadziahmetovic (last no. 20/21 - 23/24)
+      > XI DMF Benjamin Tahirović 71.34
+## bulgaria
+  71 CB Petko Hristov (last no. 24/25)
+      > XI CB Simeon Petrov 70.61
+  71 CB Plamen Galabov (last no. 22/23)
+      > XI CB Simeon Petrov 70.61
+  68 LWF Spas Delev (last no. 22/23 - 23/24)
+      > XI LWF Radoslav Kirilov 67.30
+  67 LWF Zdravko Dimitrov (last no. 24/25)
+      > tie: XI LWF Radoslav Kirilov 67.30
+## burkina-faso
+  69 CMF Bryan Dabo (last no. 17/18 - 20/21)
+      > tie: XI CMF Ibrahim Blati Touré 69.58
+## cape-verde
+  73 LWF Duk (last no. 23/24)
+      > XI LWF Ryan Mendes 71.57
+  71 CF Nuno Da Costa (last no. 25/26 - 26/27)
+      > XI CF Dailon Livramento 70.47
+  71 CF Ze Luis (last no. 21/22)
+      > XI CF Dailon Livramento 70.47
+  71 LWF Jovane Cabral (last no. 23/24 - 26/27)
+      > tie: XI LWF Ryan Mendes 71.57
+  70 CF Ricardo Gomes (last no. 19/20)
+      > tie: XI CF Dailon Livramento 70.47
+  69 CB Fernando Varela (last no. 11/12 - 18/19)
+      > tie: XI CB Ivanildo Fernandes 69.18
+## china
+  73 RWF Wu Lei (last no. 22/23 - 23/24) [already in squad on another card]  <-- club: Shanghai Port FC
+      > XI RWF Fernandinho 71.24
+  71 DMF Zhang Jiaqi (last no. 22/23)
+      > XI DMF Shangyuan Wang 70.51
+  71 DMF Xu Xin (last no. 22/23)
+      > XI DMF Shangyuan Wang 70.51
+  70 CMF Peng Xinli (last no. 11/12)
+      > tie: XI CMF Xi Wu 70.98
+  70 CMF Yao Junsheng (last no. 19/20)
+      > tie: XI CMF Xi Wu 70.98
+  70 DMF Chi Zhongguo (last no. 19/20)  <-- club: Beijing FC
+      > tie: XI DMF Shangyuan Wang 70.51
+  70 LB Sun Guowen (last no. 22/23)
+      > tie: XI LB Shuai Li 70.86
+  70 RB Wang Tong (last no. 15/16)
+      > tie: XI RB Tian Ming 70.98
+## costa-rica
+  68 RB Gerald Taylor (last no. 23/24 - 24/25)
+      > tie: XI RB Haxzel Quirós 68.78
+## curacao
+  73 RB Joshua Brenet (last no. 23/24)
+      > XI RB Livano Comenencia 70.06
+  72 CB Riechedly Bazoer (last no. 23/24)
+      > tie: XI CB Armando Obispo 72.62
+      > XI CB Deveron Fonville 68.50 (prof)
+  71 CF Jurgen Locadia (last no. 23/24)
+      > XI CF Richairo Zivkovic 70.38
+  70 RWF Brandley Kuwas (last no. 18/19 - 25/26)
+      > tie: XI RWF Sontje Hansen 70.94
+  70 RWF Elson Hooi (last no. 22/23 - 23/24)
+      > tie: XI RWF Sontje Hansen 70.94
+  69 CB Deveron Fonville (last no. 23/24) [already in squad on another card]  <-- club: N.E.C. Nijmegen
+      > XI CB Deveron Fonville 68.50 (prof)
+## czechia
+  74 CMF Pavel Bucha (last no. 25/26)  <-- club: Cincinnati OB
+      > tie: XI CMF Alex Král 74.09
+## emirates
+  68 DMF Majed Hassan (last no. 17/18 - 24/25)
+      > tie: XI DMF Yahya Nader 68.33
+  68 RB Khaled Ebraheim (last no. 22/23 - 25/26)
+      > XI RB Marcus Meloni 67.67
+  67 CMF Ahmed Barman (last no. 18/19 - 19/20)
+      > tie: XI CMF Abdulla Hamad 67.59
+## finland
+  72 DMF Matti Peltola (last no. 24/25)  <-- club: Washington D.C. BR
+      > XI DMF Glen Kamara 71.37
+  72 CB Leo Vaisanen (last no. 26/27)
+      > XI CB Robert Ivanov 69.88
+      > XI CB Arttu Hoskonen 69.81
+  70 CB Daniel O Shaughnessy (last no. 24/25)
+      > XI CB Robert Ivanov 69.88
+      > XI CB Arttu Hoskonen 69.81
+## gabon
+  68 CMF Medwin Biteghe (last no. 23/24 - 24/25)
+      > XI CMF Samaké Nzé Bagnama 64.44
+## georgia  (nothing)
+## ghana
+  74 CB Alexander Djiku (last no. 26/27)
+      > tie: XI CB Alidu Seidu 74.22
+  73 LB Jeffrey Schlupp (last no. 19/20)
+      > XI LB Gideon Mensah 72.29
+  72 GK Richard Ofori (last no. 23/24)
+      > tie: XI GK Lawrence Ati Zigi 72.59
+## guatemala
+  69 LMF Damian Rivera (last no. 24/25)
+      > XI LWF Antonio López 66.79 (prof) [as prof]
+## guinea
+  68 RWF Bafode Dansoko (last no. 21/22)
+      > XI RWF Ousmane Camara 68.46 (prof)
+  68 RWF Yadaly Diaby (last no. 26/27)
+      > XI RWF Ousmane Camara 68.46 (prof)
+## haiti
+  72 CB Jean-Kevin Duverne (last no. 23/24 - 24/25)
+      > tie: XI CB Hannes Delcroix 72.16
+      > XI CB Wilguens Paugain 65.38 (prof)
+  70 GK Johny Placide (last no. 22/23 - 25/26)
+      > XI GK Alexandre Pierre 66.83
+  68 CB Garven Metusala (last no. 24/25)
+      > XI CB Wilguens Paugain 65.38 (prof)
+  67 LB Martin Experience (last no. 24/25)
+      > XI CB Wilguens Paugain 65.38 (prof) [as prof]
+  65 DMF Carl Sainte (last no. 23/24)
+      > XI DMF Danley Jean Jacques 72.36 (prof)
+  61 CB Keeto Thermoncy (last no. 26/27)
+      > XI CB Wilguens Paugain 65.38 (prof)
+## honduras
+  68 CB Devron Garcia (last no. 23/24 - 24/25)
+      > tie: XI CB Marcelo Santos 68.45
+## iceland
+  70 DMF Aron Gunnarsson (last no. 24/25)
+      > XI DMF Andri Fannar Baldursson 68.18
+## iraq
+  69 CMF Zidane Iqbal (last no. 23/24)
+      > tie: XI CMF Amjad Attwan 69.83
+## ireland
+  73 CMF Will Smallbone (last no. 24/25)
+      > tie: XI CMF Jason Knight 73.04
+## israel
+  74 AMF Oscar Gloukh (last no. 24/25)  <-- club: Ajax
+      > XI AMF Gabi Kanichowsky 72.46
+## jamaica
+  75 CF Michail Antonio (last no. 24/25)  <-- club: Watford BY
+      > XI CF Rumarn Burrell 69.61
+  71 CF Andre Gray (last no. 20/21)
+      > XI CF Rumarn Burrell 69.61
+  70 CF Cory Burke (last no. 22/23 - 23/24)
+      > XI CF Rumarn Burrell 69.61
+  70 AMF Kasey Palmer (last no. 23/24 - 26/27)
+      > XI AMF Andre Brooks 69.53
+  69 CF Romario Williams (last no. 23/24 - 24/25)
+      > tie: XI CF Rumarn Burrell 69.61
+  69 RWF Maalique Foster (last no. 19/20)
+      > XI RWF Norman Campbell 68.99
+  69 AMF Peter-Lee Vassell (last no. 20/21)
+      > tie: XI AMF Andre Brooks 69.53
+## jordan
+  68 LB Mohannad Abu Taha (last no. 23/24)
+      > XI LB Mohammad Abu Hasheesh 67.57
+  67 LB Salem Al Ajalin (last no. 22/23 - 23/24)
+      > tie: XI LB Mohammad Abu Hasheesh 67.57
+  66 AMF Saleh Ratib (last no. 22/23 - 23/24)
+      > tie: XI AMF Yousef Qashi 66.94
+## kosovo
+  76 RWF Edon Zhegrova (last no. 22/23) [already in squad on another card]  <-- club: Piemonte BN
+      > XI RWF Milot Rashica 74.18
+  70 LWF Elbasan Rashani (last no. 22/23 - 23/24)
+      > XI LWF Ermal Krasniqi 65.41
+  70 CB Albian Hajdari (last no. 24/25)
+      > XI LB Donat Rrudhani 69.16 (prof) [as prof]
+  68 LWF Altin Zeqiri (last no. 22/23 - 23/24)
+      > XI LWF Ermal Krasniqi 65.41
+## montenegro
+  75 RB Adam Marusic (last no. 16/17 - 24/25) [already in squad on another card]  <-- club: S.S. Lazio
+      > XI RB Marko Vukcevic 70.61
+  72 DMF Ilija Vukotic (last no. 24/25)
+      > XI DMF Nikola Sipcic 71.69 (prof)
+  70 RB Filip Stojkovic (last no. 16/17 - 18/19)
+      > tie: XI RB Marko Vukcevic 70.61
+## mozambique
+  67 RB Domingos Macandza (last no. 23/24 - 24/25)
+      > tie: XI RB Diogo Calila 67.73
+  65 LWF Edson Mucuana (last no. 26/27)
+      > XI LWF Geny Catamo 74.58 (prof)
+  64 CMF Ali Abudo (last no. 24/25)
+      > XI CMF Alfonso Amade 69.70 (prof)
+## new-zealand
+  71 CB Bill Tuiloma (last no. 25/26)
+      > tie: XI CB Michael Boxall 71.36
+  71 RB Storm Roux (last no. 24/25)
+      > XI RB Tim Payne 70.54
+  70 CMF Cameron Howieson (last no. 23/24 - 24/25)
+      > tie: XI CMF Ryan Thomas 70.17
+## north-macedonia
+  70 RB Ahmed Iljazovski (last no. 22/23 - 24/25)
+      > XI RB Bojan Ilievski 69.18
+## northern-ireland
+  70 CF Kyle Vassell (last no. 18/19)
+      > XI CF Braiden Graham 64.92
+  70 GK Trevor Carson (last no. 22/23)
+      > XI GK Pierce Charles 69.36
+  69 LWF Matty Kennedy (last no. 23/24)
+      > XI LWF Ross McCausland 70.30 (prof)
+  69 DMF Jamie McDonnell (last no. 24/25)
+      > XI DMF Liam Donnelly 68.34
+  68 CF Callum Marshall (last no. 22/23)
+      > XI CF Braiden Graham 64.92
+## oman
+  66 RWF Ahmed Al Riyami (last no. 24/25)  <-- club: Al Seeb Club
+      > XI RWF Abdulrahman Al-Mushaifri 65.62
+  65 LWF Hamad Al Habsi (last no. 24/25)
+      > XI LWF Al-Mandhar Al-Alawi 64.02
+## palestine
+  67 CB Mohammed Saleh (last no. 19/20 - 24/25)
+      > XI CB Michel Termanini 66.92
+## peru
+  73 CB Alexander Callens (last no. 18/19 - 23/24)
+      > tie: XI CB Luis Abram 73.11
+      > XI CB Carlos Zambrano 72.69
+  72 CF Gianluca Lapadula (last no. 25/26)
+      > XI CF Álex Valera 71.88
+## qatar
+  74 LWF Edmilson Junior (last no. 23/24 - 24/25)
+      > tie: XI LWF Akram Afif 74.98
+  71 LB Abdelkarim Hassan (last no. 23/24)
+      > tie: XI LB Sultan Al-Brake 71.92
+## romania
+  73 CF Louis Munteanu (last no. 25/26 - 26/27)  <-- club: Washington D.C. BR
+      > XI CF Denis Drăguș 72.30
+  73 LWF Alexandru Mitrita (last no. 24/25)
+      > XI LWF Florinel Coman 72.82
+## saudi-arabia
+  70 LMF Abdulrahman Ghareeb (last no. 22/23 - 23/24)  <-- club: Al Nassr FC
+      > tie: XI AMF Mohamed Kanno 70.93 (prof) [as prof]
+## slovenia
+  74 SS Josip Ilicic (last no. 23/24)
+      > XI RWF Andrés Vombergar 72.14 (prof) [as prof]
+  72 CMF Miha Zajc (last no. 18/19)
+      > tie: XI CMF Sandi Lovrić 72.15
+  70 AMF Svit Seslar (last no. 24/25)
+      > tie: XI AMF Tomi Horvat 70.37
+  70 AMF David Tijanic (last no. 20/21)
+      > tie: XI AMF Tomi Horvat 70.37
+## syria  (nothing)
+## thailand
+  68 RB Nicholas Mickelson (last no. 21/22) [already in squad on another card]
+      > tie: XI RB Suphanan Bureerat 68.39
+## tunisia
+  73 CMF Aissa Laidouni (last no. 21/22 - 24/25)
+      > XI CMF Ferjani Sassi 72.64
+  71 CB Alaa Ghram (last no. 24/25)
+      > tie: XI CB Yassine Meriah 71.71
+  70 CF Haythem Jouini (last no. 21/22)  <-- club: Air Force Club
+      > tie: XI CF Issam Jebali 70.67
+  70 RB Hamza Mathlouthi (last no. 24/25)
+      > tie: XI RB Yan Valery 70.95
+  69 RWF Amor Layouni (last no. 24/25)
+      > tie: XI RWF Khalil Ayari 69.38
+## uganda
+  71 CB Bevis Mugabi (last no. 23/24 - 24/25)
+      > XI CB Elio Capradossi 70.62
+      > XI CB Toby Sibbick 70.19
+  70 DMF Noble Okello (last no. 26/27)
+      > XI DMF Baba Alhassan 67.77
+  67 CMF Moses Opondo (last no. 17/18)
+      > tie: XI CMF Bobosi Byaruhanga 67.43
+## uzbekistan
+  70 CB Abbos Otakhonov (last no. 17/18)
+      > tie: XI CB Khusniddin Alikulov 70.72
+## vietnam
+  67 CB Bui Tien Dung (last no. 18/19 - 24/25)
+      > XI CB Dinh Trong Tran 66.90
+  67 CB Nguyen Thanh Binh (last no. 21/22 - 24/25)
+      > XI CB Dinh Trong Tran 66.90
+  67 RB Tran Van Kien (last no. 19/20)
+      > tie: XI RB Van Thanh Vu 67.63
+  66 DMF Pham Duc Huy (last no. 18/19 - 20/21)
+      > XI DMF Van Toan Hoang 63.14
+  66 DMF Ho Khac Ngoc (last no. 16/17)
+      > XI DMF Van Toan Hoang 63.14
+  66 DMF Nguyen Tuan Anh (last no. 19/20 - 23/24)
+      > XI DMF Van Toan Hoang 63.14
+## zambia
+  69 CMF Emmanuel Banda (last no. 23/24 - 24/25)
+      > tie: XI CMF Kings Kangwa 69.69
+  67 AMF Kelvin Kampamba (last no. 23/24 - 24/25)
+      > XI AMF Wilson Chisala 66.01
+  67 RB Benedict Chepeshi (last no. 24/25)
+      > XI RB Mathews Banda 63.97
+  67 GK Toaster Nsabata (last no. 23/24 - 24/25)
+      > XI GK Lawrence Mulenga 66.54
+
+
+PART 2 - full sweep (any rating) for slots held via semi-proficiency, and VACANT slots
+
+## belarus
+  Squad starter [CF] VACANT
+      68 CF Vladislav Morozov (age 26) via main | last no. 22/23 - 23/24
+  Squad starter [LWF] VACANT
+      (none)
+  Squad starter [RWF] VACANT
+      (none)
+  Squad starter [CMF] VACANT
+      (none)
+  Squad starter [DMF] VACANT
+      (none)
+  Squad starter [LB] VACANT
+      (none)
+  Squad starter [CB] VACANT
+      (none)
+  Squad starter [CB] VACANT
+      (none)
+  Squad starter [RB] VACANT
+      (none)
+  Squad starter [GK] VACANT
+      (none)
+## bosnia
+  Squad starter [LB] VACANT
+      (none)
+## cape-verde
+  Squad starter [DMF] VACANT
+      67 CMF Helder Tavares (age 37) via prof | last no. 16/17 - 20/21
+## curacao
+  Squad starter [GK] VACANT
+      73 GK Eloy Room (age 37) via main | last no. 16/17
+      65 GK Tyrick Bodak (age 24) via main | last no. 26/27
+## georgia
+  Squad starter [DMF] VACANT
+      67 CMF Nodar Lominadze (age 24) via prof | last no. 24/25
+## guinea
+  Squad starter [AMF] VACANT
+      72 CMF Seydouba Cisse (age 25) via prof | last no. 26/27
+      68 RWF Yadaly Diaby (age 26) via prof | last no. 26/27
+## haiti
+  Squad starter [AMF] VACANT
+      (none)
+  Squad starter [LB] VACANT
+      72 CB Jean-Kevin Duverne (age 29) via prof | last no. 23/24 - 24/25
+      67 LB Martin Experience (age 27) via main | last no. 24/25
+## jamaica
+  Squad starter [CMF] VACANT
+      72 DMF Isaac Hayden (age 31) via prof | last no. 23/24 - 26/27
+      69 AMF Peter-Lee Vassell (age 27) via prof | last no. 20/21
+      68 AMF Daniel Johnson (age 34) via prof | last no. 22/23 - 23/24
+      67 CMF Karoy Anderson (age 22) via main | last no. 24/25
+      66 CMF Tyrese Hall (age 21) via main | last no. 25/26
+      65 CB Christopher Pearson (age 23) via prof | last no. 20/21
+  Squad starter [DMF] VACANT
+      72 DMF Isaac Hayden (age 31) via main | last no. 23/24 - 26/27
+      68 AMF Daniel Johnson (age 34) via prof | last no. 22/23 - 23/24
+      66 CMF Tyrese Hall (age 21) via prof | last no. 25/26
+      65 CB Christopher Pearson (age 23) via prof | last no. 20/21
+      63 RB Brandon Cover (age 23) via prof | last no. 24/25
+## northern-ireland
+  Squad starter [LB] VACANT
+      72 LB Jamal Lewis (age 28) via main | last no. 22/23 - 24/25
+      71 CB Ciaron Brown (age 28) via prof | last no. 20/21
+      69 RB Brodie Spencer (age 22) via prof | last no. 24/25
+      66 CB Aaron Donnelly (age 23) via prof | last no. 23/24
+## syria
+  Squad starter [RWF] VACANT
+      70 CF Tobias Cervera (age 24) via prof | last no. 23/24
+  Squad starter [DMF] VACANT
+      (none)
+  Squad starter [GK] VACANT
+      (none)
+## uganda
+  Squad starter [RB] VACANT
+      71 CB Bevis Mugabi (age 30) via prof | last no. 23/24 - 24/25
+      65 RB Nathan Asiimwe (age 22) via main | last no. 26/27
+## vietnam
+  Squad starter [RWF] VACANT
+      (none)
