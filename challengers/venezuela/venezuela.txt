@@ -18,12 +18,11 @@ Substitutes:
   [AMF] Wikelman Carmona (AMF) rating 69.87 #16
   [CMF] Cristian Cásseres (CMF) rating 74.17 #11
   [DMF] José Martínez (DMF) rating 72.40 #13
-  [LB] VACANT
+  [LB] Christian Makoun (CB) rating 69.58 #5
   [CB] Wilker Ángel (CB) rating 71.70 #20
-  [CB] Christian Makoun (CB) rating 69.58 #5
+  [CB] Rubén Ramírez (CB) rating 70.01 #14
   [RB] Alexander González (RB) rating 70.24 #21
   [GK] Rafael Romo (GK) rating 72.42 #22
 
 Wildcard:
   [WILD] Josef Martínez (CF) rating 74.22 #17
-  [WILD] Daniel Pereira (CMF) rating 74.17 #26

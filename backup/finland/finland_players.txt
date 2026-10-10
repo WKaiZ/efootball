@@ -4,7 +4,7 @@ Oliver Antman, RWF, 72.18, False, Standard, [LWF, LMF, RWF, RMF], [AMF, CF, SS, 
 Onni Valakari, AMF, 74.76, True, Standard, [AMF, CMF], [SS, RWF, RMF]
 Robin Lod, CMF, 71.72, False, Standard, [AMF, CMF, RWF, RMF], [LWF, LMF, CF, SS, DMF]
 Kaan Kairinen, CMF, 71.08, False, Standard, [CMF], [AMF, DMF]
-Glen Kamara, DMF, 71.37, False, Standard, [CMF, DMF], []
+Matti Peltola, DMF, 72.40, False, Standard, [CMF, DMF, CB], [RB]
 Robert Ivanov, CB, 69.88, False, Standard, [CB], [DMF]
 Arttu Hoskonen, CB, 69.81, False, Standard, [CB], [RB]
 Miro Tenho, CB, 69.48, True, Standard, [CB], []

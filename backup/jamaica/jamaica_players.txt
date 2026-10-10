@@ -1,4 +1,4 @@
-Rumarn Burrell, CF, 69.61, False, Standard, [CF], [SS, RWF]
+Michail Antonio, CF, 75.21, False, Standard, [CF, RWF, RMF], [SS]
 Bailey Cadamarteri, CF, 69.22, False, Standard, [CF, SS], []
 Demarai Gray, LWF, 74.15, False, Standard, [LWF, LMF], [CF, SS, AMF, RWF, RMF]
 Norman Campbell, RWF, 68.99, False, Standard, [RWF, RMF], [CF, SS, AMF, LWF, LMF]

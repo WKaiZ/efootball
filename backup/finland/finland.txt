@@ -4,7 +4,7 @@ Starters:
   [RWF] Oliver Antman (RWF) rating 72.18 #11
   [AMF] Onni Valakari (AMF) rating 74.76 #8
   [CMF] Robin Lod (CMF) rating 71.72 #19
-  [DMF] Glen Kamara (DMF) rating 71.37 #6
+  [DMF] Matti Peltola (DMF) rating 72.40 #2
   [LB] Jere Uronen (LB) rating 71.89 #18
   [CB] Robert Ivanov (CB) rating 69.88 #4
   [CB] Arttu Hoskonen (CB) rating 69.81 #5

@@ -2,6 +2,7 @@ Feras Al-Buraikan, CF, 71.41, False, Standard, [CF, SS, AMF], [LWF, LMF, RWF, RM
 Saleh Al-Shehri, CF, 71.30, False, Standard, [CF, SS], [AMF, RWF]
 Salem Al-Dawsari, LWF, 72.13, False, Standard, [LWF, LMF, RWF, RMF], [CF, SS, AMF, CMF]
 Fahad Al-Muwallad, RWF, 73.24, False, Standard, [LWF, SS, RWF], [CF, LMF, RMF]
+Abdulrahman Ghareeb, LMF, 70.36, False, Standard, [LMF, CF, SS, AMF], [LWF, RWF, RMF, CMF]
 Musab Al-Juwayr, CMF, 73.27, False, Standard, [AMF, CMF], [DMF, RMF, RWf]
 Mohamed Kanno, CMF, 70.93, False, Standard, [AMF, CMF, DMF], []
 Nasser Al-Dawsari, DMF, 70.98, False, Standard, [CMF, DMF], [LMF, LB]

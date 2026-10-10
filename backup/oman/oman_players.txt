@@ -1,5 +1,6 @@
 Muhsen Al-Ghassani, CF, 67.44, False, Standard, [CF], [SS]
 Al-Mandhar Al-Alawi, LWF, 64.02, False, Standard, [LWF, LMF], [CF, SS, AMF, RWF, RMF]
+Ahmed Al-Riyami, RWF, 66.56, False, Standard, [LWF, RWF], [SS, AMF, RMF]
 Abdulrahman Al-Mushaifri, RWF, 65.62, False, Standard, [CF, RWF, RMF], [SS]
 Omar Al-Malki, AMF, 65.96, False, Standard, [AMF, CMF], [SS, DMF]
 Abdullah Fawaz, CMF, 68.99, False, Standard, [CMF, DMF, RMF], [RWF, AMF]

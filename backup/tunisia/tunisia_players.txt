@@ -1,4 +1,5 @@
 Issam Jebali, CF, 70.67, False, Standard, [CF, SS], [LWF, AMF]
+Haythem Jouini, CF, 70.26, False, Standard, [CF], [SS]
 Seifeddine Jaziri, CF, 70.02, False, Standard, [CF], [LWF, SS]
 Naïm Sliti, LWF, 73.59, False, Standard, [LWF, LMF, RWF, SS, AMF], [CF, CMF, RMF]
 Khalil Ayari, RWF, 69.38, True, Standard, [LWF, RWF, LMF, RMF], []

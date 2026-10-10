@@ -1,7 +1,7 @@
 Starters:
   [CF] Muhsen Al-Ghassani (CF) rating 67.44 #11
   [LWF] Al-Mandhar Al-Alawi (LWF) rating 64.02 #15
-  [RWF] Abdulrahman Al-Mushaifri (RWF) rating 65.62 #21
+  [RWF] Ahmed Al-Riyami (RWF) rating 66.56 #33
   [AMF] Omar Al-Malki (AMF) rating 65.96 #9
   [CMF] Abdullah Fawaz (CMF) rating 68.99 #12
   [DMF] Harib Al-Saadi (DMF) rating 70.45 #23
