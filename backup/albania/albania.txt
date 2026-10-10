@@ -7,6 +7,6 @@ Starters:
   [DMF] Ylber Ramadani (DMF) rating 70.83 #20
   [LB] Mario Mitaj (LB) rating 70.76 #3
   [CB] Ardian Ismajli (CB) rating 73.49 #18
-  [CB] Marash Kumbulla (CB) rating 71.44 #15
+  [CB] Enea Mihaj (CB) rating 71.65 #13
   [RB] Iván Balliu (RB) rating 71.21 #2
   [GK] Alen Sherri (GK) rating 70.67 #12

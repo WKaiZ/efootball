@@ -20,7 +20,7 @@ Substitutes:
   [DMF] VACANT
   [LB] Ben Davies (LB) rating 73.25 #4
   [CB] Ben Cabango (CB) rating 72.13 #16
-  [CB] Regan Poole (CB) rating 69.25 #18
+  [CB] Tom Lockyer (CB) rating 71.11 #18
   [RB] Ronan Kpakio (RB) rating 68.04 #15
   [GK] Danny Ward (GK) rating 72.21 #12
 

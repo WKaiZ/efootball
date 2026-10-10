@@ -17,9 +17,9 @@ Substitutes:
   [RWF] Samuel Chukwueze (RWF) rating 94.32 #11
   [AMF] Christantus Uche (AMF) rating 71.27 #7
   [CMF] Fisayo Dele-Bashiru (CMF) rating 93.09 #14
-  [DMF] Tochukwu Nnadi (CMF) rating 67.16 #28
+  [DMF] Augustine Oladapo (DMF) rating 67.36 #18
   [LB] Zaidu Sanusi (LB) rating 71.34 #15
-  [CB] William Troost-Ekong (CB) rating 73.47 #18
+  [CB] Kevin Akpoguma (CB) rating 72.37 #22
   [CB] Emmanuel Fernandez (CB) rating 72.73 #6
   [RB] Ola Aina (RB) rating 78.03 #2
   [GK] Stanley Nwabali (GK) rating 71.36 #23

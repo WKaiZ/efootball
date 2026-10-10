@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Alexander Isak (CF) rating 96.84 #9
-  [LWF] Kristoffer Peterson (LWF) rating 69.65 #24
+  [LWF] Jesper Karlsson (LWF) rating 72.67 #14
   [RWF] Anthony Elanga (RWF) rating 93.93 #13
-  [AMF] Roony Bardghji (RMF) rating 92.90 #14
+  [AMF] Samuel Gustafson (DMF) rating 71.45 #17
   [CMF] Yasin Ayari (CMF) rating 93.83 #18
   [DMF] Jens Cajuste (DMF) rating 74.18 #20
   [LB] Gabriel Gudmundsson (LB) rating 74.55 #5
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Noel Törnqvist (GK) rating 73.60 #1
 
 Wildcard:
-  [WILD] Viktor Gyökeres (CF) rating 94.54 #17
+  [WILD] Gustaf Nilsson (CF) rating 72.11 #25
