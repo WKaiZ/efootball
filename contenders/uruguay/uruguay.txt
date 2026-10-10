@@ -45,7 +45,7 @@ Starters:
   [GK] Santiago Mele (GK) rating 74.55 #1
 
 Substitutes:
-  [CF] Christhian Stuani (CF) rating 74.54 #11
+  [CF] Federico Viñas (CF) rating 74.11 #21
   [LWF] Diego Rossi (SS) rating 74.68 #9
   [RWF] Matías Abaldo (RWF) rating 73.49 #22
   [AMF] Juan Manuel Sanabria (LB) rating 73.70 #25
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Cristopher Fiermarín (GK) rating 74.03 #23
 
 Wildcard:
-  [WILD] Federico Viñas (CF) rating 74.11 #21
+  [WILD] Christhian Stuani (CF) rating 73.16 #11

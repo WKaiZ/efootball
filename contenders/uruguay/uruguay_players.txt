@@ -19,8 +19,8 @@ Federico Valverde, RB, 95.52, False, Highlight, [RWF, RMF, RB, CMF], [LMF, AMF, 
 Fernando Muslera, GK, 94.30, False, Highlight, [GK], []
 
 Miguel Merentiel, CF, 76.23, False, Standard, [CF], [LWF, RWF, SS, AMF, RMF]
-Christhian Stuani, CF, 74.54, False, Standard, [CF, SS, LWF, RWF, RMF], [AMF, CMF, LMF]
 Federico Viñas, CF, 74.11, True, Standard, [CF], [RWF, SS]
+Christhian Stuani, CF, 73.16, False, Standard, [CF, SS, LWF, RWF, RMF], [AMF, CMF, LMF]
 Rodrigo Aguirre, CF, 72.87, True, Standard, [CF], [LWF, LMF, RWF, RMF, SS]
 Diego Rossi, SS, 74.68, False, Standard, [LWF, LMF, CF, SS], [AMF, RWF, RMF]
 Nicolás López, SS, 73.06, False, Standard, [LWF, CF, SS, RWF, RMF], [LMF, AMF]

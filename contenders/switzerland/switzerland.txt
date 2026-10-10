@@ -59,4 +59,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
-  [WILD] Luca Jaquez (CB) rating 68.94 #25
+  [WILD] Stefan Gartenmann (CB) rating 70.18 #26
