@@ -221,6 +221,7 @@ MANUAL_ID_OVERRIDES = {
         "daniel pereira": {"player_id": "856498", "preserve_name": True},
         "alexander gonzalez": {"player_id": "147562", "preserve_name": True},
         "leonardo flores": {"player_id": "377389", "preserve_name": True},
+        "ruben ramirez": {"player_id": "308810", "preserve_name": True},
     },
     "norway": {
         "patrik berg": {"player_id": "308439", "preserve_name": True},

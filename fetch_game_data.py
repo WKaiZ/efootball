@@ -207,6 +207,7 @@ MANUAL_ID_OVERRIDES = {
         "daniel pereira": "856498",
         "alexander gonzalez": "147562",
         "leonardo flores": "377389",
+        "ruben ramirez": "308810",
     },
     "norway": {
         "patrik berg": "308439",
