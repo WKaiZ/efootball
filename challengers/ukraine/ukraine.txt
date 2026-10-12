@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Artem Dovbyk (CF) rating 77.99 #11
-  [LWF] Danylo Sikan (CF) rating 70.90 #9
+  [LWF] Danylo Sikan (CF) rating 73.16 #9
   [RWF] Oleksandr Zubkov (RWF) rating 75.15 #19
   [AMF] Georgiy Sudakov (AMF) rating 76.49 #14
   [CMF] Mykola Shaparenko (CMF) rating 73.22 #10

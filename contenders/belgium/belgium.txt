@@ -37,7 +37,7 @@ Starters:
   [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
   [AMF] Eden Hazard (AMF) rating 100.35 #7
   [CMF] Youri Tielemans (CMF) rating 77.66 #8
-  [DMF] Axel Witsel (DMF) rating 75.86 #6
+  [DMF] Axel Witsel (DMF) rating 73.93 #6
   [LB] Diego Moreira (LMF) rating 74.58 #19
   [CB] Zeno Debast (CB) rating 93.95 #2
   [CB] Christian Kabasele (CB) rating 74.10 #18
@@ -51,8 +51,8 @@ Substitutes:
   [AMF] Dennis Praet (AMF) rating 72.26 #14
   [CMF] Arthur Vermeeren (CMF) rating 74.86 #20
   [DMF] VACANT
-  [LB] Siebe Van der Heyden (CB) rating 71.79 #25
-  [CB] Nathan Ngoy (CB) rating 73.18 #15
+  [LB] Siebe Van der Heyden (CB) rating 72.53 #25
+  [CB] Nathan Ngoy (CB) rating 74.06 #15
   [CB] Matte Smets (CB) rating 72.90 #23
   [RB] VACANT
   [GK] Koen Casteels (GK) rating 77.63 #12

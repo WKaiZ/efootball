@@ -21,7 +21,7 @@ Substitutes:
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Maximiliano Araujo (LB) rating 93.98 #20
-  [CB] José María Giménez (CB) rating 79.37 #2
+  [CB] José María Giménez (CB) rating 78.24 #2
   [CB] Santiago Bueno (CB) rating 74.38 #24
   [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
   [GK] Thiago Cardozo (GK) rating 76.60 #12

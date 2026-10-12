@@ -7,7 +7,7 @@ Starters:
   [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
-  [LB] Ulisses Garcia (LB) rating 73.24 #15
+  [LB] Ulisses Garcia (LB) rating 73.25 #15
   [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Nico Elvedi (CB) rating 93.74 #4
   [RB] Denis Zakaria (RB) rating 93.96 #6
@@ -20,9 +20,9 @@ Substitutes:
   [AMF] Xherdan Shaqiri (AMF) rating 93.01 #23
   [CMF] Remo Freuler (CMF) rating 76.26 #8
   [DMF] Edimilson Fernandes (DMF) rating 72.21 #20
-  [LB] Loris Benito (CB) rating 73.29 #3
+  [LB] Ricardo Rodríguez (CB) rating 74.21 #13
   [CB] Fabian Schär (CB) rating 78.06 #22
-  [CB] Ricardo Rodríguez (CB) rating 74.21 #13
+  [CB] Aurèle Amenda (CB) rating 74.32 #24
   [RB] Lucas Blondel (RB) rating 73.95 #2
   [GK] Yann Sommer (GK) rating 95.33 #12
 
@@ -40,23 +40,22 @@ Starters:
   [DMF] Denis Zakaria (DMF) rating 93.53 #6
   [LB] Miro Muheim (LB) rating 71.89 #4
   [CB] Becir Omeragic (CB) rating 73.44 #2
-  [CB] Cédric Zesiger (CB) rating 72.82 #14
-  [RB] Kevin Mbabu (RB) rating 73.14 #3
+  [CB] Loris Benito (CB) rating 73.29 #3
+  [RB] Kevin Mbabu (RB) rating 73.14 #23
   [GK] Roman Bürki (GK) rating 75.35 #21
 
 Substitutes:
   [CF] Cedric Itten (CF) rating 72.42 #17
-  [LWF] VACANT
-  [RWF] Michel Aebischer (CMF) rating 73.37 #20
-  [AMF] Alvyn Sanches (AMF) rating 71.47 #23
+  [LWF] Isaac Schmidt (RB) rating 68.68 #24
+  [RWF] Michel Aebischer (CMF) rating 73.38 #20
+  [AMF] Uran Bislimi (CMF) rating 72.30 #16
   [CMF] Djibril Sow (CMF) rating 75.00 #15
   [DMF] Sandro Lauper (DMF) rating 72.07 #8
-  [LB] Jordan Lotomba (RB) rating 72.30 #16
-  [CB] Aurèle Amenda (CB) rating 72.60 #24
+  [LB] Jordan Lotomba (RB) rating 72.30 #26
+  [CB] Cédric Zesiger (CB) rating 72.82 #14
   [CB] Eray Cömert (CB) rating 71.42 #18
   [RB] Silvan Widmer (RB) rating 72.99 #5
   [GK] Jonas Omlin (GK) rating 74.12 #1
 
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
-  [WILD] Stefan Gartenmann (CB) rating 70.18 #26

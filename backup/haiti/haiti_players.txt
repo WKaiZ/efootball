@@ -1,6 +1,6 @@
 Wilson Isidor, CF, 92.88, True, Highlight, [CF, SS], [LWF, RWF]
 
-Derrick Etienne Jr., LWF, 71.89, False, Standard, [LWF, LMF, RWF, RMF], [CF]
+Derrick Etienne Jr., LWF, 72.22, False, Standard, [LWF, LMF, RWF, RMF], [CF]
 Fafà Picault, LWF, 71.73, True, Standard, [LWF, LMF, CF, RWF, RMF], [SS]
 Josué Casimir, RWF, 72.01, False, Standard, [RWF, CF, RMF], [RB, LWF, LMF, LB, SS]
 Jean-Ricner Bellegarde, CMF, 74.28, True, Standard, [CMF, AMF, LWF, LMF], [RWF, RMF, DMF]

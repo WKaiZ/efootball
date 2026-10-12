@@ -21,7 +21,7 @@ Substitutes:
   [LB] Joakim Maehle (LB) rating 75.98 #5
   [CB] Victor Nelsson (CB) rating 75.48 #4
   [CB] Jannik Vestergaard (CB) rating 74.72 #3
-  [RB] Alexander Bah (RB) rating 73.77 #18
+  [RB] Alexander Bah (RB) rating 74.22 #18
   [GK] Filip Jørgensen (GK) rating 75.48 #22
 
 Wildcard:

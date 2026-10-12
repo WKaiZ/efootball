@@ -6,7 +6,7 @@ Starters:
   [CMF] Juninho Bacuna (CMF) rating 73.02 #7
   [DMF] Nicky Souren (DMF) rating 66.53 #6
   [LB] Sherel Floranus (LB) rating 70.31 #5
-  [CB] Armando Obispo (CB) rating 72.62 #18
+  [CB] Armando Obispo (CB) rating 72.96 #18
   [CB] Deveron Fonville (LB) rating 68.50 #24
   [RB] Livano Comenencia (RB) rating 70.06 #8
   [GK] VACANT

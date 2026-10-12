@@ -1,5 +1,5 @@
 Starters:
-  [CF] Didier Drogba (CF) rating 99.38 #11
+  [CF] Didier Drogba (CF) rating 98.73 #11
   [LWF] Simon Adingra (LWF) rating 76.28 #24
   [RWF] Yan Diomande (RWF) rating 96.47 #10
   [AMF] Amad Diallo (AMF) rating 93.78 #15
@@ -15,7 +15,7 @@ Substitutes:
   [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
   [LWF] Wilfried Zaha (LWF) rating 76.11 #12
   [RWF] Nicolas Pépé (RWF) rating 94.36 #2
-  [AMF] Hamed Traoré (AMF) rating 74.80 #25
+  [AMF] Hamed Traoré (AMF) rating 74.22 #25
   [CMF] Franck Kessié (CMF) rating 76.47 #8
   [DMF] Seko Fofana (CMF) rating 75.45 #6
   [LB] Christopher Operi (LB) rating 73.13 #13

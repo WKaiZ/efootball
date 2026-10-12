@@ -3,7 +3,7 @@ Starters:
   [LWF] Filip Kostic (LMF) rating 74.58 #11
   [RWF] Darko Lazović (LMF) rating 73.74 #22
   [AMF] Dragan Stojkovic (AMF) rating 98.47 #10
-  [CMF] Sergej Milinković-Savić (CMF) rating 78.79 #20
+  [CMF] Sergej Milinković-Savić (CMF) rating 78.63 #20
   [DMF] Aleksandar Stanković (DMF) rating 93.04 #7
   [LB] Aleksa Terzić (LB) rating 73.96 #17
   [CB] Nikola Milenković (CB) rating 95.00 #4
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Filip Stanković (GK) rating 93.40 #12
 
 Wildcard:
-  [WILD] Predrag Rajković (GK) rating 78.56 #1
+  [WILD] Djordje Petrović (GK) rating 76.54 #1

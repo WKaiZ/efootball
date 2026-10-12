@@ -25,4 +25,4 @@ Substitutes:
   [GK] Patrick Beach (GK) rating 72.02 #18
 
 Wildcard:
-  [WILD] Kye Rowles (CB) rating 72.38 #4
+  [WILD] Kye Rowles (CB) rating 72.72 #4

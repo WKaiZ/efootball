@@ -17,7 +17,7 @@ Substitutes:
   [RWF] Gustavo Caballero (RWF) rating 69.21 #24
   [AMF] Óscar Romero (AMF) rating 72.29 #20
   [CMF] José Florentín (CMF) rating 75.17 #16
-  [DMF] Braian Ojeda (CMF) rating 73.38 #25
+  [DMF] Braian Ojeda (CMF) rating 74.34 #25
   [LB] Alexandro Maidana (LB) rating 69.66 #26
   [CB] José Canale (CB) rating 74.40 #13
   [CB] Júnior Alonso (CB) rating 74.09 #6

@@ -2,7 +2,7 @@ Kerim Alajbegovic, LWF, 93.35, False, Highlight, [LWF, LMF, AMF], [CF, SS, RWF, 
 
 Milan Djuric, CF, 72.68, False, Standard, [CF], [SS, AMF]
 Edin Visca, RWF, 73.10, False, Standard, [RWF, RMF], [LWF, LMF]
-Esmir Bajraktarevic, RWF, 71.45, True, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
+Esmir Bajraktarevic, RWF, 72.12, True, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF]
 Haris Hajradinovic, AMF, 73.07, False, Standard, [AMF, CMF], [LWF, LMF, SS, RWF, RMF]
 Armin Gigovic, CMF, 71.24, True, Standard, [CMF, DMF], [AMF, LMF]
 Denis Huseinbasic, CMF, 71.23, False, Standard, [CMF, DMF], [AMF, LMF, RMF]

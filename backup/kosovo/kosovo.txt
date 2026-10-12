@@ -1,5 +1,5 @@
 Starters:
-  [CF] Vedat Muriqi (CF) rating 77.70 #18
+  [CF] Vedat Muriqi (CF) rating 77.09 #18
   [LWF] Ermal Krasniqi (LWF) rating 65.41 #17
   [RWF] Milot Rashica (RWF) rating 74.18 #7
   [AMF] Edon Zhegrova (AMF) rating 93.10 #10

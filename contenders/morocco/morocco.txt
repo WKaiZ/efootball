@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Ayoub El Kaabi (CF) rating 94.26 #20
   [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
-  [RWF] Munir El Haddadi (RWF) rating 73.19 #9
+  [RWF] Munir El Haddadi (RWF) rating 71.65 #9
   [AMF] Amine Adli (AMF) rating 94.14 #21
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #16

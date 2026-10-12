@@ -1,7 +1,7 @@
 Starters:
   [CF] Milan Djuric (CF) rating 72.68 #18
   [LWF] Kerim Alajbegovic (LWF) rating 93.35 #19
-  [RWF] Esmir Bajraktarevic (RWF) rating 71.45 #11
+  [RWF] Esmir Bajraktarevic (RWF) rating 72.12 #11
   [AMF] Haris Hajradinovic (AMF) rating 73.07 #20
   [CMF] Armin Gigovic (CMF) rating 71.24 #8
   [DMF] Benjamin Tahirović (DMF) rating 71.34 #6

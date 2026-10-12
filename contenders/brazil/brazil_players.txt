@@ -103,7 +103,7 @@ Bento, GK, 94.38, False, Highlight, [GK], []
 Gabriel Brazão, GK, 94.33, False, Showtime, [GK], []
 Rafael, GK, 91.99, False, Highlight, [GK], []
 
-Endrick, CF, 75.75, True, Standard, [CF], [LWF, RWF, SS]
+Endrick, CF, 76.42, True, Standard, [CF, SS], [LWF, RWF]
 Gabriel Bontempo, AMF, 72.17, True, Standard, [AMF, CMF, RMF], [DMF, SS]
 Bruno Guimarães, CMF, 81.19, True, Standard, [CMF, DMF], [AMF]
 Martinelli, CMF, 74.31, True, Standard, [CMF, DMF], [AMF]

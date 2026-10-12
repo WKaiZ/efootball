@@ -1,4 +1,5 @@
 Antoine Semenyo, RWF, 95.82, False, Highlight, [LWF, LMF, RWF, RMF], [CF, SS]
+Mohammed Kudus, RWF, 95.00, False, Highlight, [RWF, RMF, AMF], [LWF, LMF, CF, SS]
 Iñaki Williams, RWF, 94.93, False, Highlight, [RWF, RMF, LWF, LMF, CF, SS], [AMF]
 Antoine Semenyo, LMF, 97.50, False, BigTime, [LWF, LMF, RWF, RMF], [CF, SS]
 Mohammed Kudus, LMF, 94.24, False, Highlight, [LWF, LMF, RWF, RMF, CF, SS, AMF], []
@@ -6,7 +7,7 @@ Mohammed Kudus, RMF, 95.03, False, Highlight, [LWF, LMF, RWF, RMF, CF, SS, AMF],
 
 Amankwah Forson, AMF, 70.79, False, Standard, [AMF, CMF, RMF], [LWF, LMF, SS, RWF]
 Alfred Duncan, CMF, 73.60, False, Standard, [CMF, DMF], [AMF, RMF]
-Thomas Partey, DMF, 75.43, False, Standard, [CMF, DMF], [RB]
+Thomas Partey, DMF, 73.56, False, Standard, [CMF, DMF], [RB]
 Mohammed Salisu, CB, 75.76, False, Standard, [CB], [LB]
 Alidu Seidu, CB, 74.22, False, Standard, [CB, RB], [RMF, LB]
 Gideon Mensah, LB, 72.29, True, Standard, [LMF, LB], [CB]

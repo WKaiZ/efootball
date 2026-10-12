@@ -4,7 +4,7 @@ Starters:
   [RWF] Théo Bongonda (RWF) rating 75.14 #10
   [AMF] Gaël Kakuta (AMF) rating 71.58 #11
   [CMF] Noah Sadiki (CMF) rating 94.31 #14
-  [DMF] Ngal'ayel Mukau (DMF) rating 72.31 #6
+  [DMF] Ngal'ayel Mukau (DMF) rating 72.80 #6
   [LB] Arthur Masuaku (LB) rating 74.01 #26
   [CB] Chancel Mbemba (CB) rating 74.53 #22
   [CB] Steve Kapuadi (CB) rating 74.48 #3
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Lionel Mpasi-Nzau (GK) rating 72.81 #1
 
 Wildcard:
-  [WILD] Cédric Bakambu (CF) rating 74.12 #17
+  [WILD] Cédric Bakambu (CF) rating 72.86 #17

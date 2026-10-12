@@ -6,7 +6,7 @@ Andriy Lunin, GK, 91.28, False, Highlight, [GK], []
 
 Artem Dovbyk, CF, 77.99, False, Standard, [CF], [SS, RWF]
 Roman Yaremchuk, CF, 73.69, True, Standard, [CF], [LWF, RWF, SS]
-Danylo Sikan, CF, 70.90, False, Standard, [LWF, CF, SS], [LMF, RWF, RMF, AMF]
+Danylo Sikan, CF, 73.16, False, Standard, [LWF, CF, SS], [LMF, RWF, RMF, AMF]
 Mykhaylo Mudryk, LWF, 74.88, False, Standard, [LWF, LMF], [CF, SS, AMF, RWF, RMF]
 Viktor Tsygankov, RWF, 75.67, True, Standard, [RWF, RMF, CMF], [LWF, LMF, CF, SS, AMF, DMF]
 Oleksandr Zubkov, RWF, 75.15, False, Standard, [RWF, RMF], [LWF, LMF, SS, AMF]

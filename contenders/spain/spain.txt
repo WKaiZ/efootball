@@ -32,7 +32,7 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Fernando Morientes (CF) rating 97.96 #10
+  [CF] Fernando Torres (CF) rating 98.11 #9
   [LWF] Álex Baena (LWF) rating 96.32 #15
   [RMF] Lamine Yamal (RMF) rating 98.94 #19
   [SS] Raúl (SS) rating 95.50 #7
@@ -45,17 +45,17 @@ Starters:
   [GK] Joan García (GK) rating 99.09 #13
 
 Substitutes:
-  [CF] Ferran Torres (CF) rating 96.88 #11
-  [LWF] Nico Williams (LWF) rating 95.76 #17
+  [CF] Fernando Morientes (CF) rating 97.96 #10
+  [LWF] Ferran Torres (LWF) rating 95.99 #21
   [RMF] Pedro Porro (RMF) rating 95.01 #12
   [SS] Marco Asensio (AMF) rating 95.97 #20
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xabi Alonso (DMF) rating 96.19 #16
-  [LB] José Gayà (LB) rating 94.99 #18
+  [LB] Alejandro Grimaldo (LB) rating 95.43 #17
   [CB] Yeray Álvarez (CB) rating 95.10 #26
   [CB] Dani Vivian (CB) rating 95.07 #4
-  [RB] Lucas Vázquez (RB) rating 93.81 #9
+  [RB] Lucas Vázquez (RB) rating 93.81 #11
   [GK] Iker Casillas (GK) rating 98.59 #1
 
 Wildcard:
-  [WILD] Aleix García (CMF) rating 95.10 #21
+  [WILD] Martín Zubimendi (DMF) rating 95.98 #18

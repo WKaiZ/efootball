@@ -20,7 +20,7 @@ Substitutes:
   [AMF] Santiago Sandoval (AMF) rating 60.09 #28
   [CMF] Erick Sanchez (CMF) rating 75.04 #14
   [DMF] Luis Romo (DMF) rating 75.48 #7
-  [LB] Mateo Chávez (LB) rating 70.94 #20
+  [LB] Mateo Chávez (LB) rating 71.40 #20
   [CB] Johan Vasquez (CB) rating 73.36 #5
   [CB] Luis Gabriel Rey (CB) rating 66.58 #18
   [RB] Rodrigo Huescas (RB) rating 73.29 #19

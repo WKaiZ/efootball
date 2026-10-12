@@ -9,7 +9,7 @@ Starters:
   [CB] Derek Cornelius (CB) rating 74.39 #13
   [CB] Kamal Miller (CB) rating 73.67 #4
   [RB] Alistair Johnston (RB) rating 74.76 #2
-  [GK] Dayne St. Clair (GK) rating 74.39 #1
+  [GK] Maxime Crépeau (GK) rating 74.82 #16
 
 Substitutes:
   [CF] Promise David (CF) rating 75.21 #24
@@ -22,7 +22,7 @@ Substitutes:
   [CB] Moïse Bombito (CB) rating 73.53 #15
   [CB] Joel Waterman (CB) rating 73.43 #5
   [RB] Richie Laryea (RB) rating 73.48 #22
-  [GK] Maxime Crépeau (GK) rating 74.17 #16
+  [GK] Dayne St. Clair (GK) rating 74.39 #1
 
 Wildcard:
   [WILD] Cyle Larin (CF) rating 74.61 #9

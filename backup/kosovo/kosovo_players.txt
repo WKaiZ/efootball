@@ -2,7 +2,7 @@ Edon Zhegrova, AMF, 93.10, True, Highlight, [AMF, RWF, RMF], [LWF, SS, CMF]
 Amir Rrahmani, CB, 93.05, False, Highlight, [CB], [LB, RB]
 Arijanet Murić, GK, 92.28, True, Highlight, [GK], []
 
-Vedat Muriqi, CF, 77.70, True, Standard, [CF], [SS]
+Vedat Muriqi, CF, 77.09, True, Standard, [CF], [SS]
 Ermal Krasniqi, LWF, 65.41, True, Standard, [LWF], [LMF, RWF]
 Milot Rashica, RWF, 74.18, True, Standard, [LWF, RWF, LMF, RMF, SS], [CF, AMF, RB]
 Donat Rrudhani, LMF, 69.16, False, Standard, [LWF, LMF, LB, RMF], [AMF, CMF, RWF]
