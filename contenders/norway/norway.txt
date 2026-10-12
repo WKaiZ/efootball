@@ -54,7 +54,7 @@ Substitutes:
   [DMF] VACANT
   [LB] David Møller Wolfe (LB) rating 72.28 #5
   [CB] Eivind Helland (CB) rating 67.52 #4
-  [CB] Colin Rösler (CB) rating 69.33 #21
+  [CB] Colin Rösler (CB) rating 69.34 #21
   [RB] Aron Dønnum (RMF) rating 73.25 #20
   [GK] Viljar Myhra (GK) rating 70.76 #1
 

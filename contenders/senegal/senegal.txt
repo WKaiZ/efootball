@@ -4,7 +4,7 @@ Starters:
   [CF] El-Hadji Diouf (CF) rating 96.26 #11
   [LWF] Sadio Mané (LWF) rating 97.89 #10
   [RWF] Ismaïla Sarr (RWF) rating 94.13 #18
-  [AMF] Ousseynou Fall Seck (AMF) rating 64.28 #4
+  [AMF] Ousseynou Fall Seck (AMF) rating 64.50 #4
   [CMF] Lamine Camara (CMF) rating 94.07 #8
   [DMF] Pape Gueye (DMF) rating 95.17 #26
   [LB] El Hadji Malick Diouf (LB) rating 75.23 #25
