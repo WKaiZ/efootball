@@ -7,6 +7,6 @@ Starters:
   [DMF] Nasser Al-Dawsari (DMF) rating 70.98 #6
   [LB] Yasser Al-Shahrani (LB) rating 70.24 #13
   [CB] Ali Al-Bulayhi (CB) rating 72.53 #5
-  [CB] Abdulelah Al-Amri (CB) rating 71.69 #4
+  [CB] Abdulelah Al-Amri (CB) rating 71.19 #4
   [RB] Sultan Al-Ghannam (RB) rating 74.06 #2
   [GK] Nawaf Al-Aqidi (GK) rating 70.66 #1

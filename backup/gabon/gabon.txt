@@ -1,7 +1,7 @@
 Starters:
   [CF] Pierre-Emerick Aubameyang (CF) rating 99.13 #9
   [LWF] Denis Bouanga (LWF) rating 77.52 #20
-  [RWF] David Sambissa (RWF) rating 71.24 #7
+  [RWF] Jim Allevinah (RWF) rating 71.18 #11
   [AMF] Guélor Kanga (AMF) rating 72.48 #12
   [CMF] Samaké Nzé Bagnama (CMF) rating 64.44 #15
   [DMF] Mario Lemina (DMF) rating 75.27 #18

@@ -5,7 +5,7 @@ Vladimir Jovovic, LWF, 69.74, False, Standard, [LWF, AMF], [CF, SS, CMF, LMF, RW
 Viktor Djukanovic, LWF, 69.33, True, Standard, [LWF], [CF, SS, LMF, AMF]
 Driton Camaj, LWF, 69.25, False, Standard, [LWF], [LMF, CF, SS, RWF]
 Andrija Radulovic, RWF, 70.35, False, Standard, [RWF, RMF, CMF], [SS, AMF, DMF, LWF, LMF]
-Vasilije Adžić, AMF, 70.02, True, Standard, [AMF, CMF], [SS, DMF]
+Vasilije Adžić, AMF, 70.07, True, Standard, [AMF, CMF], [SS, DMF]
 Marko Jankovic, CMF, 71.48, True, Standard, [CMF, DMF], [AMF, RMF]
 Nebojsa Kosovic, CMF, 71.28, False, Standard, [CMF, DMF], [AMF]
 Stefan Savić, CB, 75.59, True, Standard, [CB], []

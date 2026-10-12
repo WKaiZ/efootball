@@ -5,7 +5,7 @@ Starters:
   [AMF] Jay-Jay Okocha (AMF) rating 97.04 #10
   [CMF] Frank Onyeka (CMF) rating 93.22 #8
   [DMF] Raphael Onyedika (DMF) rating 94.24 #20
-  [LB] Bruno Onyemaechi (LB) rating 71.59 #3
+  [LB] Bruno Onyemaechi (LB) rating 71.44 #3
   [CB] Calvin Bassey (CB) rating 94.26 #21
   [CB] Igoh Ogbu (CB) rating 73.58 #5
   [RB] Bright Osayi-Samuel (RB) rating 93.16 #12

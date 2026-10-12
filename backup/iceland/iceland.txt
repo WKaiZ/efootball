@@ -8,5 +8,5 @@ Starters:
   [LB] Logi Tómasson (LB) rating 69.34 #2
   [CB] Daníel Leó Grétarsson (CB) rating 69.46 #3
   [CB] Brynjar Ingi Bjarnason (CB) rating 68.73 #19
-  [RB] Alfons Sampsted (RB) rating 70.43 #15
+  [RB] Dagur Dan Thórhallsson (RB) rating 71.19 #15
   [GK] Elías Ólafsson (GK) rating 73.34 #1

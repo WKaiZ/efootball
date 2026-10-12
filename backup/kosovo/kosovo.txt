@@ -8,5 +8,5 @@ Starters:
   [LB] Donat Rrudhani (LMF) rating 69.16 #21
   [CB] Amir Rrahmani (CB) rating 93.05 #13
   [CB] Kreshnik Hajrizi (CB) rating 71.41 #2
-  [RB] Mërgim Vojvoda (RB) rating 74.43 #15
+  [RB] Mërgim Vojvoda (RB) rating 74.38 #15
   [GK] Arijanet Murić (GK) rating 92.28 #1

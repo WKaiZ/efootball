@@ -6,7 +6,7 @@ Starters:
   [CMF] Noor Al-Rawabdeh (CMF) rating 70.73 #8
   [DMF] Nizar Al-Rashdan (DMF) rating 69.66 #21
   [LB] Mohammad Abu Hasheesh (LB) rating 67.57 #2
-  [CB] Yazan Al-Arab (CB) rating 71.42 #5
+  [CB] Yazan Al-Arab (CB) rating 71.24 #5
   [CB] Husam Abu Dahab (CB) rating 70.68 #4
   [RB] Ehsan Haddad (RB) rating 68.15 #23
   [GK] Yazeed Abulaila (GK) rating 69.04 #1

@@ -8,5 +8,5 @@ Starters:
   [LB] Saba Kharebashvili (LB) rating 69.80 #16
   [CB] Giorgi Gvelesiani (CB) rating 70.64 #15
   [CB] Saba Sazonov (CB) rating 70.46 #20
-  [RB] Giorgi Gocholeishvili (RB) rating 70.46 #26
+  [RB] Giorgi Gocholeishvili (RB) rating 70.36 #26
   [GK] Giorgi Mamardashvili (GK) rating 95.25 #1

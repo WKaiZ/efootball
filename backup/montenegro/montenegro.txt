@@ -2,7 +2,7 @@ Starters:
   [CF] Nikola Krstović (CF) rating 93.21 #9
   [LWF] Vladimir Jovovic (LWF) rating 69.74 #16
   [RWF] Andrija Radulovic (RWF) rating 70.35 #21
-  [AMF] Vasilije Adžić (AMF) rating 70.02 #17
+  [AMF] Vasilije Adžić (AMF) rating 70.07 #17
   [CMF] Marko Jankovic (CMF) rating 71.48 #8
   [DMF] Nikola Sipcic (CB) rating 71.69 #22
   [LB] Adam Marusic (LB) rating 94.19 #23

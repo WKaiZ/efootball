@@ -6,7 +6,7 @@ Starters:
   [CMF] Moisés Villarroel (CMF) rating 69.51 #14
   [DMF] Boris Céspedes (DMF) rating 69.01 #16
   [LB] Roberto Fernández (LB) rating 70.84 #17
+  [CB] Efraín Morales (CB) rating 71.99 #5
   [CB] José Sagredo (CB) rating 70.92 #21
-  [CB] Efraín Morales (CB) rating 70.53 #5
   [RB] Diego Medina (RB) rating 68.68 #3
   [GK] Carlos Lampe (GK) rating 72.58 #1

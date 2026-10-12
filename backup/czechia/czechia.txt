@@ -6,7 +6,7 @@ Starters:
   [CMF] Alex Král (CMF) rating 74.09 #21
   [DMF] Tomáš Souček (DMF) rating 76.28 #22
   [LB] David Jurásek (LB) rating 72.37 #14
-  [CB] Ladislav Krejci (CB) rating 76.24 #7
+  [CB] Ladislav Krejci (CB) rating 76.09 #7
   [CB] Tomas Holes (CB) rating 75.36 #3
   [RB] Vladimír Coufal (RB) rating 92.96 #5
   [GK] Petr Cech (GK) rating 99.70 #1
