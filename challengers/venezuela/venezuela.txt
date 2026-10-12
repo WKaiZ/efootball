@@ -13,16 +13,16 @@ Starters:
 
 Substitutes:
   [CF] Jhonder Cádiz (CF) rating 74.48 #9
-  [LWF] Jhon Murillo (LWF) rating 73.41 #18
-  [RWF] Eduard Bello (RMF) rating 73.07 #25
-  [AMF] Wikelman Carmona (AMF) rating 69.87 #16
+  [LWF] Jhon Murillo (LWF) rating 73.41 #16
+  [RWF] Eduard Bello (RMF) rating 73.07 #18
+  [AMF] Kervin Andrade (AMF) rating 71.77 #17
   [CMF] Cristian Cásseres (CMF) rating 74.17 #11
   [DMF] José Martínez (DMF) rating 72.40 #13
-  [LB] Christian Makoun (CB) rating 69.58 #5
+  [LB] Teo Quintero (CB) rating 69.39 #25
   [CB] Wilker Ángel (CB) rating 71.70 #20
   [CB] Rubén Ramírez (CB) rating 70.01 #14
   [RB] Alexander González (RB) rating 70.24 #21
   [GK] Rafael Romo (GK) rating 72.42 #22
 
 Wildcard:
-  [WILD] Josef Martínez (CF) rating 74.22 #17
+  [WILD] Daniel Pereira (CMF) rating 74.17 #5

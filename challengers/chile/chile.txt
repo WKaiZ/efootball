@@ -7,8 +7,8 @@ Starters:
   [DMF] Erick Pulgar (DMF) rating 93.93 #13
   [LB] Gabriel Suazo (LB) rating 93.22 #17
   [CB] Guillermo Maripán (CB) rating 75.81 #3
-  [CB] Benjamín Kuscevic (CB) rating 73.91 #4
-  [RB] Fabián Hormazábal (RB) rating 71.84 #14
+  [CB] Matías Catalán (CB) rating 73.39 #21
+  [RB] Fabián Hormazábal (RB) rating 71.84 #4
   [GK] Gabriel Castellón (GK) rating 74.07 #1
 
 Substitutes:
@@ -19,10 +19,10 @@ Substitutes:
   [CMF] Charles Aránguiz (CMF) rating 74.13 #20
   [DMF] Vicente Pizarro (DMF) rating 73.63 #6
   [LB] Diego Ulloa (LB) rating 69.04 #26
-  [CB] Matías Catalán (CB) rating 73.39 #21
   [CB] Paulo Díaz (CB) rating 73.36 #5
+  [CB] Benjamín Kuscevic (CB) rating 73.29 #19
   [RB] Óscar Opazo (RB) rating 70.77 #18
   [GK] Lawrence Vigouroux (GK) rating 73.57 #12
 
 Wildcard:
-  [WILD] Marcelino Núñez (CMF) rating 73.79 #10
+  [WILD] Felipe Loyola (CMF) rating 73.83 #14

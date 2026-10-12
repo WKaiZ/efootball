@@ -11,7 +11,7 @@ Mykhaylo Mudryk, LWF, 74.88, False, Standard, [LWF, LMF], [CF, SS, AMF, RWF, RMF
 Viktor Tsygankov, RWF, 75.67, True, Standard, [RWF, RMF, CMF], [LWF, LMF, CF, SS, AMF, DMF]
 Oleksandr Zubkov, RWF, 75.15, False, Standard, [RWF, RMF], [LWF, LMF, SS, AMF]
 Georgiy Sudakov, AMF, 76.49, False, Standard, [AMF, CMF], [SS, DMF]
-Ruslan Malinovskyi, CMF, 74.93, False, Standard, [AMF, CMF], [LWF, CF, SS, RWF, LMF, RMF, DMF]
+Ruslan Malinovskyi, CMF, 74.93, False, Standard, [AMF, CMF], [LWF, CF, SS, RWF, DMF]
 Mykola Shaparenko, CMF, 73.22, False, Standard, [AMF, CMF], [LMF, SS, DMF]
 Sergiy Sydorchuk, DMF, 71.46, False, Standard, [CMF, DMF], [AMF]
 Ivan Kalyuzhnyi, DMF, 67.61, False, Standard, [DMF], [CMF, CB]

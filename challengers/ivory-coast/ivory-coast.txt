@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Hamed Traoré (AMF) rating 74.22 #25
   [CMF] Franck Kessié (CMF) rating 76.47 #8
   [DMF] Seko Fofana (CMF) rating 75.45 #6
-  [LB] Christopher Operi (LB) rating 73.13 #13
+  [LB] Christopher Operi (LB) rating 73.12 #13
   [CB] Emmanuel Agbadou (CB) rating 94.67 #20
   [CB] Wilfried Singo (CB) rating 77.38 #5
   [RB] Jean-Philippe Gbamin (CB) rating 72.22 #4

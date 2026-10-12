@@ -22,7 +22,7 @@ Substitutes:
   [CB] José Canale (CB) rating 74.40 #13
   [CB] Júnior Alonso (CB) rating 74.09 #6
   [RB] Gustavo Velázquez (CB) rating 73.51 #2
-  [GK] Gastón Olveira (GK) rating 74.22 #22
+  [GK] Gastón Olveira (GK) rating 74.07 #22
 
 Wildcard:
   [WILD] Álex Arce (CF) rating 74.29 #18

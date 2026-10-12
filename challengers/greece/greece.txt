@@ -16,7 +16,7 @@ Substitutes:
   [LWF] Alexandros Kyziridis (LWF) rating 72.19 #26
   [RWF] Georgios Giakoumakis (CF) rating 74.34 #8
   [AMF] Konstantinos Karetsas (AMF) rating 73.43 #19
-  [CMF] Christos Mouzakitis (CMF) rating 70.72 #16
+  [CMF] Christos Mouzakitis (CMF) rating 70.57 #16
   [DMF] Dimitrios Kourbelis (DMF) rating 72.51 #6
   [LB] Dimitrios Giannoulis (LB) rating 73.18 #22
   [CB] Pantelis Hatzidiakos (CB) rating 73.41 #17

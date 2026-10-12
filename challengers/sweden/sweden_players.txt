@@ -7,7 +7,7 @@ Anthony Elanga, RWF, 93.93, False, Highlight, [LWF, LMF, CF, RWF, RMF], []
 Roony Bardghji, RWF, 91.44, False, Highlight, [RWF], [RMF, AMF]
 Dejan Kulusevski, AMF, 96.17, False, Highlight, [RWF, RMF, SS, AMF], [LWF, LMF, CF, CMF]
 Sebastian Nanasi, LMF, 93.10, True, Highlight, [LMF, CMF], [AMF, DMF, LWF]
-Dejan Kulusevski, RMF, 94.24, False, Highlight, [RWF, RMF, SS, AMF], [LWF, LMF, CF, CMF]å
+Dejan Kulusevski, RMF, 94.24, False, Highlight, [RWF, RMF, SS, AMF], [LWF, LMF, CF, CMF]
 Anthony Elanga, RMF, 93.14, False, Highlight, [LWF, LMF, CF, RWF, RMF], []
 Roony Bardghji, RMF, 92.90, False, Highlight, [RWF, RMF], [AMF]
 Lucas Bergvall, CMF, 93.99, True, Highlight, [CMF, AMF, DMF], []

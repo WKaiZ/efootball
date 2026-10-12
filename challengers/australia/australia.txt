@@ -1,6 +1,6 @@
 Starters:
   [CF] Adam Taggart (CF) rating 71.88 #9
-  [LWF] Craig Goodwin (LWF) rating 72.38 #23
+  [LWF] Craig Goodwin (LWF) rating 72.22 #23
   [RWF] Martin Boyle (RWF) rating 73.49 #6
   [AMF] Connor Metcalfe (AMF) rating 72.17 #8
   [CMF] Jackson Irvine (CMF) rating 73.26 #22

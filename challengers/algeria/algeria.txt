@@ -1,6 +1,6 @@
 Starters:
   [CF] Ibrahim Maza (AMF) rating 94.08 #30
-  [LWF] Adil Boulbina (LWF) rating 66.80 #18
+  [LWF] Adil Boulbina (LWF) rating 64.72 #18
   [RWF] Riyad Mahrez (RWF) rating 78.91 #7
   [AMF] Farès Chaïbi (AMF) rating 94.20 #10
   [CMF] Hicham Boudaoui (CMF) rating 94.17 #14

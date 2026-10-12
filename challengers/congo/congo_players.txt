@@ -4,7 +4,7 @@ Noah Sadiki, CMF, 94.31, False, Highlight, [CMF, DMF], [AMF, RMF, RB]
 
 Samuel Essende, CF, 74.38, False, Standard, [CF], [SS]
 Cédric Bakambu, CF, 72.86, False, Standard, [LWF, CF, RWF], [SS, LMF, RMF]
-Chadrac Akolo, CF, 72.42, False, Standard, [LWF, CF, RWF, SS], [LMF, RMF]
+Chadrac Akolo, CF, 72.42, False, Standard, [LWF, CF, RWF, SS], [LMF, RMF, AMF]
 Jackson Muleka, CF, 72.37, False, Standard, [CF, LWF, RWF], [SS, AMF, LMF, RMF]
 Yannick Bolasie, CF, 72.07, False, Standard, [LWF, CF, RWF, LMF], [SS, RMF]
 Fiston Mayele, CF, 72.02, False, Standard, [CF], [SS]

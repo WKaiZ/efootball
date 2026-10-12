@@ -12,15 +12,15 @@ Starters:
   [GK] Hernán Galíndez (GK) rating 74.72 #1
 
 Substitutes:
-  [CF] Jordy Caicedo (CF) rating 74.19 #9
+  [CF] Jordy Caicedo (CF) rating 74.04 #9
   [LWF] Alan Minda (SS) rating 70.53 #14
   [RWF] Keny Arroyo (RWF) rating 71.82 #11
   [AMF] Denil Castillo (CMF) rating 71.88 #18
-  [CMF] Pedro Vite (CMF) rating 72.49 #15
+  [CMF] Pedro Vite (CMF) rating 72.34 #15
   [DMF] Jordy Alcívar (DMF) rating 72.40 #5
   [LB] Pervis Estupiñán (LB) rating 94.02 #7
   [CB] Robert Arboleda (CB) rating 76.35 #2
-  [CB] Jackson Porozo (CB) rating 73.47 #25
+  [CB] Jackson Porozo (CB) rating 73.57 #25
   [RB] José Andrés Hurtado (RB) rating 71.68 #13
   [GK] Javier Burrai (GK) rating 74.55 #12
 

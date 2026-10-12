@@ -1,11 +1,11 @@
 Starters:
   [CF] Cecilio Waterman (CF) rating 71.31 #18
   [LWF] Ismael Díaz (LWF) rating 73.17 #10
-  [RWF] César Yanis (RWF) rating 70.72 #21
+  [RWF] César Yanis (RWF) rating 70.56 #21
   [AMF] Yoel Bárcenas (AMF) rating 71.42 #11
   [CMF] Adalberto Carrasquilla (CMF) rating 73.35 #8
   [DMF] Aníbal Godoy (DMF) rating 72.82 #20
-  [LB] Omar Valencia (LB) rating 71.43 #19
+  [LB] Omar Valencia (LB) rating 71.04 #19
   [CB] Andrés Andrade (CB) rating 73.50 #16
   [CB] Jiovany Ramos (CB) rating 70.83 #13
   [RB] Amir Murillo (RB) rating 74.19 #23

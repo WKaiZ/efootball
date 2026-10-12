@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Se-hun Oh (CF) rating 94.20 #9
-  [LWF] Min-kyu Song (LWF) rating 70.89 #11
+  [LWF] Min-su Kim (LWF) rating 70.88 #27
   [RWF] Hyun-jun Yang (RWF) rating 72.17 #26
   [AMF] Dong-gyeong Lee (AMF) rating 73.59 #14
   [CMF] Jin-kyu Kim (CMF) rating 71.76 #3
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Hyeon-woo Jo (GK) rating 72.37 #21
 
 Wildcard:
-  [WILD] Hyeon-gyu Oh (CF) rating 74.36 #18
+  [WILD] Hee-chan Hwang (CF) rating 75.67 #11

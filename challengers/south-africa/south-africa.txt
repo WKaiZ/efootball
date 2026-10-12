@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [CF] Tshegofatso Mabasa (CF) rating 70.62 #7
-  [LWF] Tshepang Moremi (LWF) rating 68.66 #8
-  [RWF] Mohau Nkota (RWF) rating 69.28 #23
-  [AMF] Sipho Mbule (AMF) rating 68.27 #17
+  [LWF] Puso Dithejane (LWF) rating 69.31 #23
+  [RWF] Elias Mokwana (RWF) rating 67.62 #17
+  [AMF] Patrick Maswanganyi (AMF) rating 69.28 #8
   [CMF] Yaya Sithole (CMF) rating 68.33 #13
   [DMF] Thalente Mbatha (DMF) rating 66.45 #5
   [LB] Samukele Kabini (LB) rating 68.75 #18

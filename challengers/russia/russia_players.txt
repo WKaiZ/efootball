@@ -1,4 +1,4 @@
-Aleksandr Golovin, AMF, 76.72, False, Standard, [LWF, LMF, AMF], [CF, SS, DMF, RWF, RMF]
+Aleksandr Golovin, AMF, 76.72, False, Standard, [LWF, LMF, AMF, CMF], [CF, SS, DMF, RWF, RMF]
 Aleksey Miranchuk, AMF, 74.47, True, Standard, [AMF, SS, RWF], [LWF, LMF, RMF, CF, CMF]
 Arsen Zakharyan, AMF, 71.84, False, Standard, [AMF, CMF, LWF, RWF, LMF, RMF], [SS, DMF]
 Aleksey Batrakov, AMF, 70.80, True, Standard, [AMF, CMF], [DMF, SS, RWF, RMF]
