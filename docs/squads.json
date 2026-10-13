@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 05:37 UTC",
+ "updated": "2026-10-13 14:19 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -5925,7 +5925,7 @@
      "dropped": "2026-08-27",
      "days": 2,
      "callups": 1,
-     "img": null,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/520662-1758830033.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/520662"
     },
     {
@@ -5995,7 +5995,7 @@
      "dropped": "2026-08-13",
      "days": 5,
      "callups": 1,
-     "img": null,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/808509-1780390517.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/808509"
     },
     {
@@ -13921,20 +13921,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/61651"
     },
     {
-     "name": "Harry Maguire",
-     "pos": "CB",
-     "rating": 94.0,
-     "number": 6,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 4,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/177907"
-    },
-    {
      "name": "Dan Burn",
      "pos": "CB",
      "rating": 94.0,
@@ -13947,6 +13933,20 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/134270-1682340860.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/134270"
+    },
+    {
+     "name": "Harry Maguire",
+     "pos": "CB",
+     "rating": 94.0,
+     "number": 6,
+     "squad": "second",
+     "section": "substitutes",
+     "since": "2026-08-09",
+     "dropped": "2026-08-13",
+     "days": 4,
+     "callups": 4,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg",
+     "tm": "https://www.transfermarkt.com/x/profil/spieler/177907"
     },
     {
      "name": "Kieran Trippier",
