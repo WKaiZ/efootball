@@ -1,0 +1,61 @@
+name: Probe Transfermarkt reachability
+
+# Diagnostic only — never scheduled, writes nothing. Transfermarkt answers a
+# GitHub runner very differently than it answers a laptop, so when photo
+# backfill stops finding anything, run this to see what a runner can still do.
+#
+# As of 2026-08-03: every regional domain answers a runner with HTTP 202 and an
+# empty body, r.jina.ai refuses keyless requests from those IPs, and only the
+# Cloudflare WARP route works. If that ever changes, this is how you find out.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    # The builders' own view: every strategy in scripts/tmfetch.py, including
+    # warp, since this job sets TM_SOCKS_PROXY the same way they do.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Route Transfermarkt requests around the runner IP block
+        uses: ./.github/actions/warp-proxy
+
+      - name: Report usable fetch strategies
+        env:
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+        run: python3 scripts/tmfetch.py
+
+  probe-tlds:
+    # Transfermarkt serves the same site on ~30 country domains. They sit behind
+    # one WAF that refuses runner IPs, but if any regional edge is ever
+    # configured differently the fix becomes a host list instead of a proxy —
+    # so this sweeps all of them directly, with no proxy in the way.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sweep every regional domain
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+          for host in transfermarkt.us transfermarkt.com transfermarkt.de \
+                      transfermarkt.co.uk transfermarkt.at transfermarkt.be \
+                      transfermarkt.ch transfermarkt.co transfermarkt.co.id \
+                      transfermarkt.co.in transfermarkt.co.kr transfermarkt.co.za \
+                      transfermarkt.com.ar transfermarkt.com.br transfermarkt.com.tr \
+                      transfermarkt.es transfermarkt.fr transfermarkt.gr \
+                      transfermarkt.it transfermarkt.jp transfermarkt.mx \
+                      transfermarkt.nl transfermarkt.pe transfermarkt.pl \
+                      transfermarkt.pt transfermarkt.ro transfermarkt.world; do
+            # -L is essential: /x/profil/spieler/<id> 301s to the canonical slug
+            # URL, and without following it every response looks empty.
+            out=$(curl -sSL -m 25 -w '%{http_code} %{size_download}' -o /tmp/body \
+                  -A "$UA" -H 'Accept-Language: en-US,en;q=0.9' \
+                  "https://www.$host/x/profil/spieler/2219" 2>&1) || out="curl-failed"
+            hit=$(grep -c -o 'portrait/big/2219-[0-9]*' /tmp/body 2>/dev/null || echo 0)
+            verdict=$([ "$hit" -gt 0 ] && echo "PORTRAIT <-- usable directly" || echo blocked)
+            printf '  %-26s %s  %s\n' "$host" "$out" "$verdict"
+          done

@@ -1,0 +1,55 @@
+name: Update eFootball site
+
+on:
+  schedule:
+    - cron: "20 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "contenders/**"
+      - "challengers/**"
+      - "backup/**"
+      - "pes.db"
+      - "data/overrides.json"
+      - "scripts/**"
+  workflow_dispatch:
+    inputs:
+      tm_limit:
+        description: "Photos to resolve this run (blank = the daily default). Raise it to drain a backlog in one go."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: efootball-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Route Transfermarkt requests around the runner IP block
+        uses: ./.github/actions/warp-proxy
+
+      - name: Build squads.json
+        env:
+          EFOOTBALL_TM_LIMIT: ${{ inputs.tm_limit }}
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+        run: python3 scripts/efootball_build.py
+
+      - name: Stage changes
+        run: git add docs/squads.json data
+
+      - name: Commit and push
+        uses: ./.github/actions/commit-push
+        with:
+          message: "chore: daily eFootball squad update"

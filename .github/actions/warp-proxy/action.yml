@@ -1,0 +1,54 @@
+name: Cloudflare WARP SOCKS proxy
+description: >
+  Start Cloudflare WARP in proxy mode and export TM_SOCKS_PROXY, giving the
+  builders a route to Transfermarkt. Every Transfermarkt domain answers a GitHub
+  runner's IP with HTTP 202 and an empty body, so without this the photo
+  backfill can't read a single profile. Proxy mode (rather than a full tunnel)
+  means only requests that opt into the proxy are affected -- ESPN, fotmob and
+  git traffic keep using the runner's normal network.
+
+  Failure to come up is not fatal: the builders treat an unreachable
+  Transfermarkt as "try again tomorrow" and leave their caches untouched.
+
+inputs:
+  port:
+    description: Local port for the SOCKS proxy.
+    required: false
+    default: "40000"
+
+runs:
+  using: composite
+  steps:
+    - name: Install and connect WARP
+      shell: bash
+      run: |
+        PORT=${{ inputs.port }}
+        # Deliberately no `set -e` at this level: if WARP can't come up we want
+        # the job to carry on without TM_SOCKS_PROXY, not fail. The builders
+        # then find Transfermarkt unreadable, stop early and change nothing.
+        setup() (
+          set -e
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg \
+            | sudo gpg --yes --dearmor -o /usr/share/keyrings/cloudflare-warp.gpg
+          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" \
+            | sudo tee /etc/apt/sources.list.d/cloudflare-client.list >/dev/null
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq cloudflare-warp
+          sudo warp-cli --accept-tos registration new
+          sudo warp-cli --accept-tos mode proxy
+          sudo warp-cli --accept-tos proxy port "$PORT"
+          sudo warp-cli --accept-tos connect
+          for _ in $(seq 1 30); do
+            (echo > /dev/tcp/127.0.0.1/"$PORT") >/dev/null 2>&1 && exit 0
+            sleep 2
+          done
+          echo "no SOCKS listener on $PORT after 60s"
+          exit 1
+        )
+        if setup; then
+          warp-cli --accept-tos status || true
+          echo "egress through the proxy: $(curl -sS -m 20 --proxy socks5h://127.0.0.1:"$PORT" https://api.ipify.org || echo unknown)"
+          echo "TM_SOCKS_PROXY=127.0.0.1:$PORT" >> "$GITHUB_ENV"
+        else
+          echo "::warning title=WARP proxy unavailable::Transfermarkt is unreachable from GitHub runners without it, so this run will skip photo backfill and leave its caches untouched."
+        fi

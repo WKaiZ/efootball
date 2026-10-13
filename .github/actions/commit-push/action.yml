@@ -1,0 +1,77 @@
+name: Commit and push with rebase retry
+description: >
+  Commit staged changes (if any) and push to origin HEAD, rebasing over
+  concurrent main updates. JSON cache conflicts are deep-merged so parallel
+  league photo backfills do not clobber each other.
+
+inputs:
+  message:
+    description: Commit message used when the index has changes.
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Commit and push
+      shell: bash
+      run: |
+        set -euo pipefail
+        git config user.name  "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+          exit 0
+        fi
+
+        git commit -m "${{ inputs.message }}"
+
+        resolve_json_conflicts() {
+          local f ok=0 seen=0
+          # Portable across bash 3.2+ (no mapfile).
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            seen=1
+            case "$f" in
+              *.json)
+                python3 scripts/merge_json_conflict.py "$f"
+                git add "$f"
+                ;;
+              *)
+                echo "Non-JSON conflict in $f — cannot auto-resolve."
+                ok=1
+                ;;
+            esac
+          done < <(git diff --name-only --diff-filter=U)
+          [ "$seen" -eq 1 ] || return 1
+          return "$ok"
+        }
+
+        for attempt in 1 2 3 4 5 6 7 8; do
+          git fetch origin main
+          if git rebase origin/main; then
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); retrying..."
+          else
+            if resolve_json_conflicts; then
+              if GIT_EDITOR=true git rebase --continue; then
+                if git push origin HEAD:main; then
+                  exit 0
+                fi
+                echo "Push rejected after conflict resolve (attempt $attempt); retrying..."
+              else
+                echo "rebase --continue failed (attempt $attempt)"
+                git rebase --abort || true
+              fi
+            else
+              echo "Unresolved rebase conflicts (attempt $attempt)"
+              git rebase --abort || true
+            fi
+          fi
+          sleep $((attempt * 3))
+        done
+
+        echo "Failed to push after rebase retries."
+        exit 1

@@ -1,0 +1,9 @@
+{
+ "_comment": "Optional Transfermarkt id overrides for players the pes.db mapping gets wrong. Shape: lowercase country directory id -> player name (as in the squad file) -> transfermarkt player id. Player names match case/accent-insensitively. Empty by default; pes.db supplies ids for all drafted players.",
+ "norway": {
+  "Marcus Pedersen": "583404"
+ },
+ "mexico": {
+  "Armando González": "837619"
+ }
+}
