@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eFootball Squads · Wesley Zheng</title>
+  <meta name="description" content="Wesley Zheng's eFootball national-team squads for the top 50 FIFA Men's World Ranking nations, refreshed daily.">
+  <link rel="icon" href="https://wkaiz.github.io/assets/icon.png">
+  <style>
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+           background:#fafbfc; color:#1f2937; line-height:1.5; }
+    a { color:#2c6bed; }
+    .site-header { background:#fff; border-bottom:1px solid #e6e8eb; }
+    .site-header .inner { max-width:1400px; margin:0 auto; padding:.8rem 1.5rem;
+                          display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .site-title { font-weight:700; font-size:1.1rem; color:inherit; text-decoration:none; }
+    .site-nav a { margin-left:1rem; font-size:.9rem; text-decoration:none; color:#4b5563; }
+    .site-nav a:hover { color:#2c6bed; }
+    main { max-width:1400px; margin:0 auto; padding:1.5rem; }
+    h1 { font-size:1.8rem; margin:0 0 .5rem; }
+    .intro { color:#374151; margin:0 0 1rem; max-width:60rem; }
+
+    .ef-wrap { --ef-card-bg:#fff; --ef-card-br:#e6e8eb; --ef-muted:#6b7280;
+               --ef-accent:#2c6bed; --ef-shadow:0 1px 3px rgba(0,0,0,.08);
+               --ef-chip:#eef2f7; --ef-photo-bg:#f1f3f6;
+               color:#1f2937; margin-top:.5rem; }
+    .ef-meta { color:var(--ef-muted); font-size:.85rem; margin-bottom:1rem; }
+    .ef-tabs { display:flex; flex-wrap:wrap; gap:.4rem; margin-bottom:1.25rem; }
+    .ef-tab { display:inline-flex; align-items:center; gap:.4rem; cursor:pointer;
+              border:1px solid var(--ef-card-br); background:var(--ef-card-bg);
+              border-radius:999px; padding:.35rem .8rem; font-size:.9rem; line-height:1;
+              transition:all .12s ease; color:inherit; font-family:inherit; }
+    .ef-tab:hover { border-color:var(--ef-accent); }
+    .ef-tab.active { background:var(--ef-accent); border-color:var(--ef-accent); color:#fff; }
+    .ef-tab .flag { font-size:1.05rem; }
+    .ef-squad-switch { display:flex; gap:.35rem; margin:.25rem 0 1rem; }
+    .ef-squad-choice { cursor:pointer; border:1px solid var(--ef-card-br);
+                       background:var(--ef-card-bg); color:inherit; border-radius:8px;
+                       padding:.3rem .7rem; font-size:.8rem; font-family:inherit; }
+    .ef-squad-choice:hover { border-color:var(--ef-accent); }
+    .ef-squad-choice.active { background:var(--ef-accent); border-color:var(--ef-accent); color:#fff; }
+    .ef-section-title { font-size:1.05rem; font-weight:600; margin:1.5rem 0 .7rem;
+                        display:flex; align-items:baseline; gap:.5rem; }
+    .ef-section-title .count { color:var(--ef-muted); font-weight:400; font-size:.85rem; }
+    .ef-grid { display:grid; gap:.8rem; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); }
+    .ef-card { position:relative; background:var(--ef-card-bg); border:1px solid var(--ef-card-br);
+               border-radius:14px; padding:.55rem; box-shadow:var(--ef-shadow); text-align:center;
+               transition:transform .12s ease, box-shadow .12s ease; }
+    .ef-card:hover { transform:translateY(-3px); box-shadow:0 6px 16px rgba(0,0,0,.14); }
+    a.ef-card { display:block; color:inherit; text-decoration:none; cursor:pointer; }
+    a.ef-card:hover .ef-name { color:var(--ef-accent); }
+    .ef-photo { position:relative; width:100%; aspect-ratio:3/4; margin:0 auto .5rem;
+                border-radius:10px; background:var(--ef-photo-bg); overflow:hidden;
+                display:flex; align-items:center; justify-content:center; }
+    .ef-photo img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+    .ef-photo .ef-initials { font-size:1.7rem; font-weight:600; color:var(--ef-muted); }
+    .ef-num { position:absolute; top:.35rem; left:.4rem; z-index:2; font-weight:700; font-size:.7rem;
+              color:#fff; background:rgba(0,0,0,.55); border-radius:6px; padding:.06rem .3rem; }
+    .ef-rating { position:absolute; top:.35rem; right:.4rem; z-index:2; font-weight:700; font-size:.7rem;
+                 background:var(--ef-accent); color:#fff; border-radius:6px; padding:.06rem .32rem;
+                 box-shadow:0 1px 2px rgba(0,0,0,.3); }
+    .ef-days .ef-medal { font-size:.9rem; margin-right:.15rem; vertical-align:-1px; }
+    .ef-card.ef-ranked { border-color:var(--ef-accent); }
+    .ef-card.ef-ranked .ef-days { color:var(--ef-accent); font-weight:600; }
+    .ef-name { font-weight:600; font-size:.88rem; line-height:1.2; min-height:2.2em;
+               display:flex; align-items:center; justify-content:center; }
+    .ef-pos { display:inline-block; margin-top:.3rem; font-size:.7rem; font-weight:600;
+              border-radius:6px; padding:.1rem .42rem; background:var(--ef-chip); color:var(--ef-muted); }
+    .ef-country { margin-top:.35rem; font-size:.72rem; color:var(--ef-muted); }
+    .ef-pos[data-line="GK"]  { background:#fde9c8; color:#8a5a00; }
+    .ef-pos[data-line="DEF"] { background:#d6ecff; color:#0b5cad; }
+    .ef-pos[data-line="MID"] { background:#dcf5e3; color:#1f7a3d; }
+    .ef-pos[data-line="FWD"] { background:#ffe0e0; color:#b02121; }
+    .ef-days { margin-top:.35rem; font-size:.68rem; color:var(--ef-muted); }
+
+    .ef-card.ef-ct-standard .ef-rating { background:linear-gradient(135deg,#6b7280,#9ca3af); }
+
+    .ef-card.ef-ct-highlight .ef-rating { background:linear-gradient(135deg,#374151,#111827); }
+    .ef-card.ef-ct-highlight { background:linear-gradient(160deg,#f4f5f7,#d6dae0);
+      border-color:#6b7280; box-shadow:0 2px 12px rgba(75,85,99,.28); }
+    .ef-card.ef-ct-highlight:hover { box-shadow:0 8px 20px rgba(75,85,99,.40); }
+
+    .ef-card.ef-ct-showtime .ef-rating { background:linear-gradient(135deg,#db2777,#f472b6); }
+    .ef-card.ef-ct-showtime { background:linear-gradient(160deg,#ffe9f4,#fbcfe8);
+      border-color:#db2777; box-shadow:0 2px 12px rgba(219,39,119,.28); }
+    .ef-card.ef-ct-showtime:hover { box-shadow:0 8px 20px rgba(219,39,119,.40); }
+
+    .ef-card.ef-ct-epic .ef-rating { background:linear-gradient(135deg,#b45309,#f59e0b); }
+    .ef-card.ef-ct-epic { background:linear-gradient(160deg,#fff7e0,#fde68a);
+      border-color:#f59e0b; box-shadow:0 2px 12px rgba(245,158,11,.30); }
+    .ef-card.ef-ct-epic:hover { box-shadow:0 8px 20px rgba(245,158,11,.42); }
+
+    .ef-card.ef-ct-bigtime .ef-rating { background:linear-gradient(135deg,#0891b2,#22d3ee); }
+    .ef-card.ef-ct-bigtime { background:linear-gradient(160deg,#e6faff,#bae6fd);
+      border-color:#0891b2; box-shadow:0 2px 12px rgba(8,145,178,.30); }
+    .ef-card.ef-ct-bigtime:hover { box-shadow:0 8px 20px rgba(8,145,178,.42); }
+
+    .ef-loading, .ef-error { color:var(--ef-muted); padding:2rem 0; }
+    footer { text-align:center; color:#9ca3af; font-size:.8rem; padding:2rem 1rem; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <a class="site-title" href="./">eFootball Squads</a>
+      <nav class="site-nav">
+        <a href="https://wkaiz.github.io/">Home</a>
+        <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>eFootball</h1>
+    <p class="intro">
+      My eFootball national-team squads for top 50 FIFA Men’s World Ranking nations.
+      Squads are generated by my
+      <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">efootball</a>
+      project and this page refreshes automatically every day.
+    </p>
+
+    <div class="ef-wrap">
+      <div class="ef-meta" id="ef-meta"></div>
+      <div class="ef-tabs" id="ef-tabs" role="tablist"></div>
+      <div id="ef-squad"><div class="ef-loading">Loading squads…</div></div>
+    </div>
+  </main>
+
+  <footer>© Wesley Zheng</footer>
+
+<script>
+(function () {
+  const DATA_URL = "https://wkaiz.github.io/assets/efootball/squads.json";
+  const LINE = { GK:["GK"], DEF:["CB","LB","RB","LWB","RWB"],
+                 MID:["DMF","CMF","AMF","LMF","RMF"], FWD:["CF","SS","LWF","RWF"] };
+  const lineOf = (p) => Object.keys(LINE).find(k => LINE[k].includes(p)) || "MID";
+  const MEDAL = { 1:"🥇", 2:"🥈", 3:"🥉" };
+  const ctClass = (t) => "ef-ct-" + String(t || "Standard").toLowerCase();
+
+  const esc = (s) => String(s).replace(/[&<>"]/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+  const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso+"T00:00:00Z"))/86400000));
+  const photoHTML = (p) => p.img
+    ? `<img loading="lazy" src="${esc(p.img)}" alt="${esc(p.name)}"
+         onerror="this.outerHTML='<span class=&quot;ef-initials&quot;>${esc(initials(p.name))}</span>'">`
+    : `<span class="ef-initials">${esc(initials(p.name))}</span>`;
+
+  function card(p, country) {
+    const medal = p.tenureRank ? `<span class="ef-medal">${MEDAL[p.tenureRank]}</span>` : "";
+    const tip = `${p.name} · ${p.pos} · ${p.card_type || "Standard"} · rating ${p.rating.toFixed(0)} · in squad since ${p.since}`;
+    const cls = `ef-card ${ctClass(p.card_type)}${p.tenureRank ? " ef-ranked" : ""}`;
+    const inner = `
+      <div class="ef-photo">
+        ${photoHTML(p)}
+        <span class="ef-num">#${p.number}</span>
+        <span class="ef-rating">${p.rating.toFixed(0)}</span>
+      </div>
+      <div class="ef-name">${esc(p.name)}</div>
+      <div><span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span></div>
+      ${country ? `<div class="ef-country">${country.flag||""} ${esc(country.name)}</div>` : ""}
+      <div class="ef-days">${medal}${daysSince(p.since)}d in squad</div>`;
+    return p.tm
+      ? `<a class="${cls}" href="${esc(p.tm)}" target="_blank" rel="noopener" title="${esc(tip)}">${inner}</a>`
+      : `<div class="${cls}" title="${esc(tip)}">${inner}</div>`;
+  }
+
+  function section(title, players, extra) {
+    if (!players.length) return "";
+    return `<div class="ef-section ${extra||''}">
+      <div class="ef-section-title">${title}<span class="count">${players.length}</span></div>
+      <div class="ef-grid">${players.map(p => card(p)).join("")}</div></div>`;
+  }
+
+  function renderSquad(c, selectedSquad) {
+    const hasSecond = c.players.some(p => p.squad === "second");
+    const squad = hasSecond && selectedSquad === "second" ? "second" : "first";
+    const players = c.players.filter(p => (p.squad || "first") === squad);
+    const byS = (s) => players.filter(p => p.section === s);
+    const picker = hasSecond ? `<div class="ef-squad-switch" role="group" aria-label="Choose squad">
+      <button class="ef-squad-choice${squad === "first" ? " active" : ""}" data-squad="first">First Squad</button>
+      <button class="ef-squad-choice${squad === "second" ? " active" : ""}" data-squad="second">Second Squad</button>
+    </div>` : "";
+    const root = document.getElementById("ef-squad");
+    root.innerHTML = picker +
+      section("Starters", byS("starters")) +
+      section("Substitutes", byS("substitutes")) +
+      section("Wildcard", byS("wildcard"), "ef-wild");
+    root.querySelectorAll(".ef-squad-choice").forEach(button =>
+      button.addEventListener("click", () => renderSquad(c, button.dataset.squad)));
+  }
+
+  function renderVeterans(countries) {
+    const positionOrder = ["GK", "CB", "LB", "RB", "LWB", "RWB",
+                           "DMF", "CMF", "AMF", "LMF", "RMF",
+                           "CF", "SS", "LWF", "RWF"];
+    const all = countries.flatMap(country => country.players
+      .filter(player => (player.squad || "first") === "first")
+      .map(player => ({ player, country })));
+    const oldestAt = pos => all.filter(x => x.player.pos === pos).sort((a,b) =>
+      a.player.since.localeCompare(b.player.since) ||
+      b.player.rating - a.player.rating ||
+      a.player.name.localeCompare(b.player.name))[0];
+    const winners = positionOrder.map(oldestAt).filter(Boolean);
+    document.getElementById("ef-squad").innerHTML = `
+      <div class="ef-section">
+        <div class="ef-section-title">Longest-Serving Player by Position
+          <span class="count">across ${countries.length} nations</span>
+        </div>
+        <div class="ef-grid">${winners.map(x => card(x.player, x.country)).join("")}</div>
+      </div>`;
+  }
+
+  fetch(DATA_URL + "?v=" + Date.now())
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      const countries = data.countries || [];
+      document.getElementById("ef-meta").innerHTML =
+        `Updated ${esc(data.updated || "")} · source: ` +
+        `<a href="${esc(data.source)}" target="_blank" rel="noopener">WKaiZ/efootball</a>`;
+      const tabs = document.getElementById("ef-tabs");
+      tabs.innerHTML = `<button class="ef-tab" data-view="veterans">Across the Squads</button>` +
+        countries.map((c,i) =>
+        `<button class="ef-tab" data-i="${i}">
+           <span class="flag">${c.flag||''}</span>${esc(c.name)}</button>`).join("");
+
+      const show = (tab) => {
+        tabs.querySelectorAll(".ef-tab").forEach(x => x.classList.toggle("active", x === tab));
+        if (tab.dataset.view === "veterans") renderVeterans(countries);
+        else renderSquad(countries[+tab.dataset.i]);
+      };
+      const tabForHash = () => {
+        const id = decodeURIComponent(location.hash.slice(1));
+        const i = countries.findIndex(c => c.id === id);
+        return tabs.querySelector(i >= 0 ? `.ef-tab[data-i="${i}"]` : `.ef-tab[data-view="veterans"]`);
+      };
+
+      tabs.addEventListener("click", e => {
+        const t = e.target.closest(".ef-tab"); if (!t) return;
+        const id = t.dataset.view === "veterans" ? "" : countries[+t.dataset.i].id;
+        history.replaceState(null, "", id ? "#" + id : location.pathname + location.search);
+        show(t);
+      });
+      window.addEventListener("hashchange", () => show(tabForHash()));
+
+      if (countries.length) show(tabForHash());
+      else document.getElementById("ef-squad").innerHTML = `<div class="ef-error">No squads available.</div>`;
+    })
+    .catch(err => {
+      document.getElementById("ef-squad").innerHTML =
+        `<div class="ef-error">Couldn't load squads (${esc(err.message)}).</div>`;
+    });
+})();
+</script>
+</body>
+</html>
