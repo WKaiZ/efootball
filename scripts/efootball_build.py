@@ -316,13 +316,66 @@ def _pool_states(text):
     return {(key, row[0]): [e["name"], [row[1], row[2], row[5]]]
             for key, e in parse_pool(text).items() for row in e["rows"]}
 
+def _join_position_changes(hist):
+    """Carry a card's history across a same-day change of main position.
+
+    A one-for-one removal and addition of the same card type is a position
+    change. Keep simultaneous cards separate, even when they share a type.
+    Work from the original events so an old position can later hold a new card.
+    """
+    events = {}
+    for (name, pos), snaps in hist.items():
+        for i, snap in enumerate(snaps):
+            previous = snaps[i - 1] if i else None
+            if previous and previous["p"] and not snap["p"] and not snap["a"]:
+                events.setdefault((name, snap["d"]), {"out": [], "in": []})["out"].append(
+                    (pos, previous["p"][1]))
+            if snap["p"] and (previous is None or not previous["p"]):
+                events.setdefault((name, snap["d"]), {"out": [], "in": []})["in"].append(
+                    (pos, snap["p"][1]))
+
+    for (name, day), changes in sorted(events.items(), key=lambda item: item[0][1]):
+        if len(changes["out"]) != 1 or len(changes["in"]) != 1:
+            continue
+        old_pos, old_type = changes["out"][0]
+        new_pos, new_type = changes["in"][0]
+        if old_pos == new_pos or old_type != new_type:
+            continue
+        old_key, new_key = (name, old_pos), (name, new_pos)
+        old_snaps, new_snaps = hist.get(old_key), hist.get(new_key)
+        if not old_snaps or not new_snaps:
+            continue
+        prior = [s for s in old_snaps if s["d"] < day]
+        remaining = [s for s in old_snaps if s["d"] > day]
+        if not prior or not any(s["d"] == day and s["p"] for s in new_snaps):
+            continue
+        # Two cards present at once cannot be the same card.
+        target_before = [s for s in new_snaps if s["d"] < day]
+        target_at_start = next(
+            (s for s in reversed(target_before) if s["d"] <= prior[0]["d"]), None)
+        if (target_at_start and (target_at_start["p"] or target_at_start["a"])) or any(
+            (s["p"] or s["a"]) and s["d"] >= prior[0]["d"]
+            for s in target_before
+        ):
+            continue
+        for snap in prior:
+            snap.setdefault("pos", old_pos)
+        for snap in new_snaps:
+            snap.setdefault("pos", new_pos)
+        hist[new_key] = sorted(prior + new_snaps, key=lambda s: s["d"])
+        if remaining:
+            hist[old_key] = remaining
+        else:
+            del hist[old_key]
+
 def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
     """Per-card snapshots, recorded only on days that card changed.
 
     Output is {player name: {position: [snapshot, ...]}}, where a snapshot is
     {"d": date, "a": [[squad, section, slot, number, rating], ...],
-    "p": [rating, card type, recent] or null}. Several commits on one day
-    collapse to that day's last version.
+    "p": [rating, card type, recent] or null, and an optional "pos" for
+    cards whose main position changed}. Several commits on one day collapse
+    to that day's last version.
     """
     def by_day(texts, now, parser):
         days = {d: parser(t) for d, t in reversed(texts)}
@@ -344,6 +397,7 @@ def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
             if snap != last.get(k):
                 hist.setdefault(k, []).append({"d": d, **snap})
                 last[k] = snap
+    _join_position_changes(hist)
     out = {}
     for (n, pos), snaps in hist.items():
         out.setdefault(names[n], {})[pos] = snaps
@@ -595,9 +649,15 @@ def build():
             for p in players:
                 p["callups"] = callups.get(norm(p["name"]), 1)
                 p["joined"] = min(joined.get(norm(p["name"]), p["since"]), p["since"])
+            pool = parse_pool(pool_now) if pool_now is not None else {}
+            current = set(pool) | {norm(p["name"]) for p in players}
+            if pool_now is not None:
+                gone = {d["name"] for d in dropouts if norm(d["name"]) not in current}
+                dropouts = [d for d in dropouts if norm(d["name"]) in current]
+                if gone:
+                    log(f"  {c}: hiding {len(gone)} player(s) no longer in the pool")
             for d in dropouts:
                 d["tm_id"] = find_tm_id(game_data.get(c, []), d, ov.get(norm(d["name"])))
-            pool = parse_pool(pool_now) if pool_now is not None else {}
             for key, entry in pool.items():
                 best = entry["rows"][0]
                 entry["tm_id"] = find_tm_id(game_data.get(c, []),
@@ -606,6 +666,8 @@ def build():
             pools[c] = list(pool.values())
             histories[c] = card_history(
                 texts, pool_texts, squad_now, pool_now, today)
+            if pool_now is not None:
+                histories[c] = {n: v for n, v in histories[c].items() if norm(n) in current}
             flag = flag_for(c)
             if not flag:
                 log(f"  WARNING: no flag mapping for '{c}' — add it to "

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 20:26 UTC",
+ "updated": "2026-10-13 20:39 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -210,34 +210,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/371371"
-    },
-    {
-     "name": "Kristjan Asllani",
-     "pos": "DMF",
-     "rating": 73.36,
-     "number": 8,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-07",
-     "days": 30,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Adrian Bajrami",
-     "pos": "CB",
-     "rating": 72.25,
-     "number": 6,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-07",
-     "days": 30,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -641,20 +613,6 @@
    ],
    "dropouts": [
     {
-     "name": "Yacine Brahimi",
-     "pos": "LWF",
-     "rating": 75.55,
-     "number": 11,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-10-09",
-     "days": 118,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Baghdad Bounedjah",
      "pos": "CF",
      "rating": 74.72,
@@ -683,20 +641,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/674013"
     },
     {
-     "name": "Sohaib Naïr",
-     "pos": "CB",
-     "rating": 69.51,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-29",
-     "dropped": "2026-10-09",
-     "days": 10,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Ilan Kebbal",
      "pos": "RWF",
      "rating": 74.29,
@@ -709,20 +653,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/739769-1762353660.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/739769"
-    },
-    {
-     "name": "Samir Chergui",
-     "pos": "CB",
-     "rating": 69.53,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-09-25",
-     "days": 104,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -1769,20 +1699,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/575998"
     },
     {
-     "name": "Jonathan Silva",
-     "pos": "LB",
-     "rating": 71.46,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-10-03",
-     "dropped": "2026-10-11",
-     "days": 8,
-     "callups": 4,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Lautaro Martínez",
      "pos": "CF",
      "rating": 97.2,
@@ -1809,34 +1725,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/469781-1738824319.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/469781"
-    },
-    {
-     "name": "Nicolás Domínguez",
-     "pos": "CMF",
-     "rating": 76.01,
-     "number": 13,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-17",
-     "dropped": "2026-09-30",
-     "days": 13,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Joaquín Correa",
-     "pos": "SS",
-     "rating": 74.42,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-17",
-     "days": 10,
-     "callups": 2,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Agustín Giay",
@@ -1867,20 +1755,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/486031"
     },
     {
-     "name": "Mauro Icardi",
-     "pos": "CF",
-     "rating": 94.0,
-     "number": 18,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-30",
-     "days": 22,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Valentín Barco",
      "pos": "CMF",
      "rating": 75.36,
@@ -1893,62 +1767,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/849410-1750770955.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/849410"
-    },
-    {
-     "name": "Kevin Lomónaco",
-     "pos": "CB",
-     "rating": 75.53,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Gabriel Mercado",
-     "pos": "CB",
-     "rating": 74.56,
-     "number": 20,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-11",
-     "dropped": "2026-08-13",
-     "days": 2,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Papu Gómez",
-     "pos": "AMF",
-     "rating": 77.26,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-11",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Emanuel Mammana",
-     "pos": "CB",
-     "rating": 75.33,
-     "number": 13,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-11",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Franco Mastantuono",
@@ -2366,62 +2184,6 @@
    ],
    "dropouts": [
     {
-     "name": "Jamie Maclaren",
-     "pos": "CF",
-     "rating": 72.08,
-     "number": 9,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-10-09",
-     "days": 118,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Joe Gauci",
-     "pos": "GK",
-     "rating": 71.97,
-     "number": 12,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-10-09",
-     "days": 118,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Nathaniel Atkinson",
-     "pos": "RB",
-     "rating": 70.99,
-     "number": 2,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-10-09",
-     "days": 118,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Dimitri Petratos",
-     "pos": "AMF",
-     "rating": 70.47,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-10-09",
-     "days": 55,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Mathew Leckie",
      "pos": "LWF",
      "rating": 72.18,
@@ -2436,48 +2198,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/126214"
     },
     {
-     "name": "Cameron Burgess",
-     "pos": "CB",
-     "rating": 72.83,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jason Cummings",
-     "pos": "CF",
-     "rating": 71.34,
-     "number": 25,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-27",
-     "dropped": "2026-08-15",
-     "days": 49,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Keanu Baccus",
-     "pos": "DMF",
-     "rating": 70.4,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Cristian Volpato",
      "pos": "AMF",
      "rating": 70.36,
@@ -2490,20 +2210,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/746891-1780931649.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/746891"
-    },
-    {
-     "name": "Ajdin Hrustic",
-     "pos": "CMF",
-     "rating": 70.72,
-     "number": 10,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-03",
-     "days": 30,
-     "callups": 2,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -2921,20 +2627,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/156990"
     },
     {
-     "name": "Gernot Trauner",
-     "pos": "CB",
-     "rating": 75.5,
-     "number": 4,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Valentino Lazaro",
      "pos": "RMF",
      "rating": 73.98,
@@ -2947,34 +2639,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/186368-1692819728.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/186368"
-    },
-    {
-     "name": "Florian Grillitsch",
-     "pos": "DMF",
-     "rating": 72.75,
-     "number": 10,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Alessandro Schöpf",
-     "pos": "CMF",
-     "rating": 71.99,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-11",
-     "days": 59,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Maximilian Ullmann",
@@ -4100,34 +3764,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/502302"
     },
     {
-     "name": "Sebastiaan Bornauw",
-     "pos": "CB",
-     "rating": 75.9,
-     "number": 15,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-18",
-     "days": 11,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Michy Batshuayi",
-     "pos": "CF",
-     "rating": 75.22,
-     "number": 21,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-09-07",
-     "dropped": "2026-09-17",
-     "days": 10,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Arne Engels",
      "pos": "CMF",
      "rating": 74.03,
@@ -4140,20 +3776,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/565435-1722850116.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/565435"
-    },
-    {
-     "name": "Adnan Januzaj",
-     "pos": "RWF",
-     "rating": 93.39,
-     "number": 20,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-28",
-     "dropped": "2026-09-02",
-     "days": 66,
-     "callups": 2,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Bryan Heynen",
@@ -4182,48 +3804,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/381963-1790545630.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/381963"
-    },
-    {
-     "name": "Leander Dendoncker",
-     "pos": "DMF",
-     "rating": 74.97,
-     "number": 6,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-27",
-     "days": 19,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Björn Engels",
-     "pos": "CB",
-     "rating": 66.8,
-     "number": 16,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-13",
-     "dropped": "2026-08-21",
-     "days": 8,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jorthy Mokio",
-     "pos": "DMF",
-     "rating": 70.23,
-     "number": 21,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -4811,22 +4391,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/429070"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Amir Hadziahmetovic",
-     "pos": "DMF",
-     "rating": 72.64,
-     "number": 16,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-06",
-     "dropped": "2026-10-05",
-     "days": 29,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "brazil",
@@ -5759,20 +5324,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/655488"
     },
     {
-     "name": "Paulo Henrique",
-     "pos": "RB",
-     "rating": 75.41,
-     "number": 25,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-27",
-     "dropped": "2026-09-03",
-     "days": 7,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Fabinho",
      "pos": "DMF",
      "rating": 78.56,
@@ -5815,48 +5366,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/872171"
     },
     {
-     "name": "Savinho",
-     "pos": "LWF",
-     "rating": 96.38,
-     "number": 20,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-24",
-     "dropped": "2026-08-25",
-     "days": 1,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Thiago Silva",
-     "pos": "CB",
-     "rating": 94.09,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-24",
-     "days": 16,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Gerson",
-     "pos": "CMF",
-     "rating": 76.67,
-     "number": 19,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-24",
-     "days": 16,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Danilo Santos",
      "pos": "DMF",
      "rating": 75.3,
@@ -5869,20 +5378,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/808509-1780390517.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/808509"
-    },
-    {
-     "name": "Caio Henrique",
-     "pos": "LB",
-     "rating": 94.42,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-03-22",
-     "dropped": "2026-04-30",
-     "days": 39,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -6735,48 +6230,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/620832"
     },
     {
-     "name": "Mahamadou Nagida",
-     "pos": "LB",
-     "rating": 68.13,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-25",
-     "dropped": "2026-09-29",
-     "days": 4,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Yvan Neyou",
-     "pos": "DMF",
-     "rating": 72.18,
-     "number": 12,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-25",
-     "days": 41,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Junior Dina Ebimbe",
-     "pos": "RMF",
-     "rating": 72.12,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-09-25",
-     "days": 84,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Darlin Yongwa",
      "pos": "LB",
      "rating": 71.53,
@@ -7192,20 +6645,6 @@
    ],
    "dropouts": [
     {
-     "name": "Keven Alemán",
-     "pos": "AMF",
-     "rating": 65.24,
-     "number": 23,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-14",
-     "dropped": "2026-09-26",
-     "days": 104,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Kyle Hiebert",
      "pos": "CB",
      "rating": 73.36,
@@ -7218,48 +6657,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/982519"
-    },
-    {
-     "name": "Liam Millar",
-     "pos": "LWF",
-     "rating": 71.97,
-     "number": 11,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-14",
-     "dropped": "2026-08-15",
-     "days": 62,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Cristiam Gutiérrez",
-     "pos": "LB",
-     "rating": 68.61,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-18",
-     "dropped": "2026-06-25",
-     "days": 7,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Luc De Fougerolles",
-     "pos": "RB",
-     "rating": 66.3,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-14",
-     "dropped": "2026-06-18",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -7440,22 +6837,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/242277"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Ilano Silva Timas",
-     "pos": "LWF",
-     "rating": 65.46,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "chile",
@@ -7885,20 +7267,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/662742"
     },
     {
-     "name": "Alexis Sánchez",
-     "pos": "CF",
-     "rating": 73.76,
-     "number": 10,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-19",
-     "dropped": "2026-09-04",
-     "days": 47,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Rodrigo Echeverría",
      "pos": "DMF",
      "rating": 74.28,
@@ -7939,20 +7307,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/248352-1613738423.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/248352"
-    },
-    {
-     "name": "Igor Lichnovsky",
-     "pos": "CB",
-     "rating": 73.43,
-     "number": 4,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-19",
-     "dropped": "2026-08-15",
-     "days": 27,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -8150,50 +7504,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/224161"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Xin Xu",
-     "pos": "DMF",
-     "rating": 71.02,
-     "number": 13,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Yuning Zhang",
-     "pos": "CF",
-     "rating": 70.42,
-     "number": 9,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Wenjun Lü",
-     "pos": "LWF",
-     "rating": 69.67,
-     "number": 25,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "colombia",
@@ -9084,34 +8395,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/263032"
     },
     {
-     "name": "Juan Cuadrado",
-     "pos": "RMF",
-     "rating": 95.13,
-     "number": 4,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-08-08",
-     "dropped": "2026-09-02",
-     "days": 25,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Alfredo Morelos",
-     "pos": "CF",
-     "rating": 74.6,
-     "number": 27,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-08-13",
-     "dropped": "2026-09-02",
-     "days": 20,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Matheus Uribe",
      "pos": "DMF",
      "rating": 73.99,
@@ -9154,20 +8437,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/74071"
     },
     {
-     "name": "Henry Mosquera",
-     "pos": "LWF",
-     "rating": 71.6,
-     "number": 17,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-27",
-     "dropped": "2026-08-31",
-     "days": 4,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Yeimar Gomez Andrade",
      "pos": "CB",
      "rating": 73.45,
@@ -9180,34 +8449,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/343359"
-    },
-    {
-     "name": "Dylan Borrero",
-     "pos": "LWF",
-     "rating": 71.32,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-13",
-     "dropped": "2026-08-27",
-     "days": 14,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Yimmi Chará",
-     "pos": "RMF",
-     "rating": 74.3,
-     "number": 28,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Willer Ditta",
@@ -9236,90 +8477,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/260740"
-    },
-    {
-     "name": "Deiver Machado",
-     "pos": "LB",
-     "rating": 72.88,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Marlos Moreno",
-     "pos": "LWF",
-     "rating": 70.89,
-     "number": 21,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-11",
-     "dropped": "2026-08-13",
-     "days": 2,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Baldomero Perlaza",
-     "pos": "CMF",
-     "rating": 70.66,
-     "number": 25,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Darwin Quintero",
-     "pos": "SS",
-     "rating": 73.98,
-     "number": 9,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-11",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Kevin Mier",
-     "pos": "GK",
-     "rating": 75.47,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-28",
-     "dropped": "2026-08-08",
-     "days": 72,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Álvaro Angulo",
-     "pos": "LB",
-     "rating": 74.73,
-     "number": 5,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-04-12",
-     "dropped": "2026-06-25",
-     "days": 74,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Rafael Carrascal",
@@ -10265,48 +9422,6 @@
    ],
    "dropouts": [
     {
-     "name": "Borna Sosa",
-     "pos": "LB",
-     "rating": 73.27,
-     "number": 19,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-03-22",
-     "dropped": "2026-09-17",
-     "days": 179,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Luka Ivanušec",
-     "pos": "LWF",
-     "rating": 72.06,
-     "number": 18,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-08-08",
-     "dropped": "2026-09-17",
-     "days": 40,
-     "callups": 1,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/205940-1764689450.png",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/205940"
-    },
-    {
-     "name": "Alen Halilovic",
-     "pos": "AMF",
-     "rating": 70.19,
-     "number": 8,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-09-13",
-     "days": 6,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Ivo Grbic",
      "pos": "GK",
      "rating": 74.67,
@@ -10319,20 +9434,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/226073-1755098360.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/226073"
-    },
-    {
-     "name": "Josip Juranovic",
-     "pos": "RB",
-     "rating": 76.18,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-03-22",
-     "dropped": "2026-08-08",
-     "days": 139,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -11111,20 +10212,6 @@
    ],
    "dropouts": [
     {
-     "name": "Martin Braithwaite",
-     "pos": "CF",
-     "rating": 75.36,
-     "number": 10,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-09-27",
-     "days": 106,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Kasper Schmeichel",
      "pos": "GK",
      "rating": 75.19,
@@ -11139,34 +10226,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/16911"
     },
     {
-     "name": "Jesper Lindstrøm",
-     "pos": "AMF",
-     "rating": 75.97,
-     "number": 19,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-25",
-     "days": 41,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mads Hermansen",
-     "pos": "GK",
-     "rating": 74.38,
-     "number": 16,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Christian Eriksen",
      "pos": "CMF",
      "rating": 94.26,
@@ -11179,62 +10238,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/69633-1718628122.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/69633"
-    },
-    {
-     "name": "Victor Bak",
-     "pos": "LB",
-     "rating": 71.07,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-07",
-     "dropped": "2026-06-13",
-     "days": 6,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Daniel Wass",
-     "pos": "CMF",
-     "rating": 73.27,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-04",
-     "dropped": "2026-06-07",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Victor Kristiansen",
-     "pos": "LB",
-     "rating": 73.92,
-     "number": 17,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-14",
-     "dropped": "2026-06-04",
-     "days": 51,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Carlo Holse",
-     "pos": "RWF",
-     "rating": 72.25,
-     "number": 24,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-04-30",
-     "dropped": "2026-05-11",
-     "days": 11,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -11638,20 +10641,6 @@
    ],
    "dropouts": [
     {
-     "name": "Rocky Bushiri",
-     "pos": "CB",
-     "rating": 71.74,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-09-29",
-     "days": 87,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Jackson Muleka",
      "pos": "RWF",
      "rating": 72.53,
@@ -11664,20 +10653,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/549966-1696076449.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/549966"
-    },
-    {
-     "name": "Timothy Fayulu",
-     "pos": "GK",
-     "rating": 71.35,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -12095,62 +11070,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/310640"
     },
     {
-     "name": "Yaimar Medina",
-     "pos": "LB",
-     "rating": 71.03,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-09-24",
-     "days": 103,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Bryan Ramírez",
-     "pos": "RMF",
-     "rating": 72.95,
-     "number": 13,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-09-03",
-     "days": 82,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "José Cifuentes",
-     "pos": "CMF",
-     "rating": 74.71,
-     "number": 5,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Enner Valencia",
-     "pos": "CF",
-     "rating": 74.31,
-     "number": 22,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Jeremy Sarmiento",
      "pos": "RWF",
      "rating": 71.81,
@@ -12177,20 +11096,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/351941"
-    },
-    {
-     "name": "João Ortiz",
-     "pos": "DMF",
-     "rating": 70.61,
-     "number": 18,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-13",
-     "dropped": "2026-06-25",
-     "days": 12,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -12606,20 +11511,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/234189-1780929645.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/234189"
-    },
-    {
-     "name": "Nabil Dunga",
-     "pos": "DMF",
-     "rating": 71.53,
-     "number": 17,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-08-08",
-     "dropped": "2026-08-15",
-     "days": 7,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -13526,76 +12417,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/306024"
     },
     {
-     "name": "Jamie Vardy",
-     "pos": "CF",
-     "rating": 94.99,
-     "number": 19,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-02",
-     "days": 25,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Marcus Rashford",
-     "pos": "LWF",
-     "rating": 94.34,
-     "number": 21,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-02",
-     "days": 25,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Sam Johnstone",
-     "pos": "GK",
-     "rating": 94.17,
-     "number": 13,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-02",
-     "days": 25,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Kalvin Phillips",
-     "pos": "DMF",
-     "rating": 74.18,
-     "number": 16,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-23",
-     "dropped": "2026-08-27",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Harry Winks",
-     "pos": "DMF",
-     "rating": 73.45,
-     "number": 17,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-18",
-     "dropped": "2026-08-23",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Jordan Henderson",
      "pos": "DMF",
      "rating": 96.28,
@@ -13608,20 +12429,6 @@
      "callups": 4,
      "img": "https://img.a.transfermarkt.technology/portrait/big/61651-1662621084.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/61651"
-    },
-    {
-     "name": "Harry Maguire",
-     "pos": "CB",
-     "rating": 94.0,
-     "number": 6,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 3,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/177907"
     },
     {
      "name": "Dan Burn",
@@ -13638,18 +12445,18 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/134270"
     },
     {
-     "name": "Kieran Trippier",
-     "pos": "RB",
-     "rating": 76.37,
-     "number": 17,
+     "name": "Harry Maguire",
+     "pos": "CB",
+     "rating": 94.0,
+     "number": 6,
      "squad": "second",
      "section": "substitutes",
-     "since": "2026-08-08",
+     "since": "2026-08-09",
      "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
+     "days": 4,
+     "callups": 3,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg",
+     "tm": "https://www.transfermarkt.com/x/profil/spieler/177907"
     },
     {
      "name": "Trevoh Chalobah",
@@ -13875,36 +12682,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/48015"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Robin Lod",
-     "pos": "CMF",
-     "rating": 71.72,
-     "number": 19,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-11",
-     "days": 34,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Glen Kamara",
-     "pos": "DMF",
-     "rating": 71.37,
-     "number": 6,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "france",
@@ -14809,34 +13587,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/475411"
     },
     {
-     "name": "Dimitri Payet",
-     "pos": "AMF",
-     "rating": 73.74,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-10",
-     "days": 3,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jean-Clair Todibo",
-     "pos": "CB",
-     "rating": 94.32,
-     "number": 17,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-01",
-     "days": 24,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Bradley Barcola",
      "pos": "LWF",
      "rating": 95.72,
@@ -14849,20 +13599,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/708265-1780989250.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/708265"
-    },
-    {
-     "name": "Paul Pogba",
-     "pos": "CMF",
-     "rating": 95.42,
-     "number": 6,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-21",
-     "dropped": "2026-06-04",
-     "days": 14,
-     "callups": 2,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Lucas Chevalier",
@@ -15074,22 +13810,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/961091"
     }
    ],
-   "dropouts": [
-    {
-     "name": "David Sambissa",
-     "pos": "RWF",
-     "rating": 71.24,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-11",
-     "days": 34,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "georgia",
@@ -16118,20 +14839,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/232454"
     },
     {
-     "name": "Timo Werner",
-     "pos": "LWF",
-     "rating": 75.06,
-     "number": 9,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-17",
-     "days": 10,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Aleksandar Pavlovic",
      "pos": "DMF",
      "rating": 94.0,
@@ -16186,20 +14893,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/153084-1700040179.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/153084"
-    },
-    {
-     "name": "Robin Gosens",
-     "pos": "LMF",
-     "rating": 75.32,
-     "number": 20,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-09",
-     "days": 37,
-     "callups": 3,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Nathaniel Brown",
@@ -16827,20 +15520,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/329517"
     },
     {
-     "name": "Petros Mantalos",
-     "pos": "AMF",
-     "rating": 72.16,
-     "number": 8,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-25",
-     "dropped": "2026-10-11",
-     "days": 16,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Anastasios Bakasetas",
      "pos": "AMF",
      "rating": 74.16,
@@ -16855,34 +15534,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/162571"
     },
     {
-     "name": "Charalampos Lykogiannis",
-     "pos": "LB",
-     "rating": 74.15,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Dimitrios Limnios",
-     "pos": "RWF",
-     "rating": 72.73,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Konstantinos Koulierakis",
      "pos": "CB",
      "rating": 72.08,
@@ -16895,20 +15546,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/669380-1752736071.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/669380"
-    },
-    {
-     "name": "Manolis Siopis",
-     "pos": "DMF",
-     "rating": 71.41,
-     "number": 23,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -17299,20 +15936,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/691786"
-    },
-    {
-     "name": "Yadaly Diaby",
-     "pos": "RWF",
-     "rating": 68.3,
-     "number": 11,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-04",
-     "days": 27,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -17672,22 +16295,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/333949"
     }
    ],
-   "dropouts": [
-    {
-     "name": "David Ruíz",
-     "pos": "DMF",
-     "rating": 72.26,
-     "number": 11,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-11",
-     "days": 34,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "hungary",
@@ -18143,34 +16751,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/938145-1699371976.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/938145"
-    },
-    {
-     "name": "Ádám Nagy",
-     "pos": "DMF",
-     "rating": 71.29,
-     "number": 8,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Tamás Nikitscher",
-     "pos": "CMF",
-     "rating": 68.99,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -18368,36 +16948,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/464373"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Alfons Sampsted",
-     "pos": "RB",
-     "rating": 70.43,
-     "number": 15,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-11",
-     "days": 34,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Aron Gunnarsson",
-     "pos": "DMF",
-     "rating": 70.93,
-     "number": 17,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "iran",
@@ -18799,34 +17350,6 @@
    ],
    "dropouts": [
     {
-     "name": "Ehsan Hajsafi",
-     "pos": "LB",
-     "rating": 71.97,
-     "number": 3,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-11",
-     "dropped": "2026-10-09",
-     "days": 120,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mehrdad Mohammadi",
-     "pos": "CF",
-     "rating": 71.9,
-     "number": 7,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-09-25",
-     "dropped": "2026-10-09",
-     "days": 14,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Allahyar Sayyadmanesh",
      "pos": "LWF",
      "rating": 71.39,
@@ -18841,20 +17364,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/480975"
     },
     {
-     "name": "Arya Yousefi",
-     "pos": "RB",
-     "rating": 70.46,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-11",
-     "dropped": "2026-10-09",
-     "days": 120,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Aref Aghasi",
      "pos": "CB",
      "rating": 69.83,
@@ -18867,48 +17376,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/385102-1511367123.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/385102"
-    },
-    {
-     "name": "Mohammadhossein Eslami",
-     "pos": "RWF",
-     "rating": 69.1,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-10-09",
-     "days": 55,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Majid Hosseini",
-     "pos": "CB",
-     "rating": 71.8,
-     "number": 19,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-11",
-     "dropped": "2026-08-15",
-     "days": 65,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mohammadmehdi Mohebi",
-     "pos": "RWF",
-     "rating": 68.96,
-     "number": 8,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-11",
-     "dropped": "2026-08-15",
-     "days": 65,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -19108,34 +17575,6 @@
    ],
    "dropouts": [
     {
-     "name": "Mohammed Qasim",
-     "pos": "AMF",
-     "rating": 68.25,
-     "number": 19,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Safaa Hadi",
-     "pos": "DMF",
-     "rating": 67.96,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Hussein Ali",
      "pos": "RB",
      "rating": 67.93,
@@ -19148,34 +17587,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/585325-1705017013.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/585325"
-    },
-    {
-     "name": "Ahmed Yahya",
-     "pos": "LB",
-     "rating": 67.81,
-     "number": 15,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-20",
-     "dropped": "2026-10-09",
-     "days": 19,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Merchas Doski",
-     "pos": "LB",
-     "rating": 67.54,
-     "number": 23,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-09-20",
-     "days": 13,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -19585,34 +17996,6 @@
     }
    ],
    "dropouts": [
-    {
-     "name": "Gabi Kanichowsky",
-     "pos": "AMF",
-     "rating": 72.46,
-     "number": 16,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Omri Gandelman",
-     "pos": "CMF",
-     "rating": 69.35,
-     "number": 6,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-10-04",
-     "dropped": "2026-10-09",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
     {
      "name": "Dan Glazer",
      "pos": "DMF",
@@ -20434,20 +18817,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/392538"
     },
     {
-     "name": "Marco Verratti",
-     "pos": "CMF",
-     "rating": 79.14,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-25",
-     "days": 18,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Sandro Tonali",
      "pos": "DMF",
      "rating": 96.44,
@@ -20504,20 +18873,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/392085"
     },
     {
-     "name": "Rolando Mandragora",
-     "pos": "DMF",
-     "rating": 95.21,
-     "number": 27,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-04",
-     "dropped": "2026-09-07",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Demetrio Albertini",
      "pos": "DMF",
      "rating": 96.16,
@@ -20530,20 +18885,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_3390_123_2012_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3390"
-    },
-    {
-     "name": "Honest Ahanor",
-     "pos": "CB",
-     "rating": 70.65,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-23",
-     "dropped": "2026-09-03",
-     "days": 11,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Giorgio Chiellini",
@@ -20572,20 +18913,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/315853-1742497518.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/315853"
-    },
-    {
-     "name": "Costantino Favasuli",
-     "pos": "LMF",
-     "rating": 68.22,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-20",
-     "dropped": "2026-08-23",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Jorginho",
@@ -21017,48 +19344,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/659542"
     },
     {
-     "name": "Jonathan Bamba",
-     "pos": "LWF",
-     "rating": 74.63,
-     "number": 13,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-06",
-     "dropped": "2026-09-25",
-     "days": 19,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ghislain Konan",
-     "pos": "LB",
-     "rating": 74.3,
-     "number": 3,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-04",
-     "dropped": "2026-09-25",
-     "days": 21,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jean-Daniel Akpa Akpro",
-     "pos": "CMF",
-     "rating": 72.4,
-     "number": 14,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-18",
-     "dropped": "2026-09-25",
-     "days": 99,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Mory Gbane",
      "pos": "DMF",
      "rating": 70.4,
@@ -21248,22 +19533,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/244149"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Rumarn Burrell",
-     "pos": "CF",
-     "rating": 69.61,
-     "number": 21,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "japan",
@@ -22084,20 +20354,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/948169"
     },
     {
-     "name": "Sei Muroya",
-     "pos": "RB",
-     "rating": 71.93,
-     "number": 20,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-24",
-     "days": 17,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Keisuke Osako",
      "pos": "GK",
      "rating": 94.37,
@@ -22138,20 +20394,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/957544-1764256625.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/957544"
-    },
-    {
-     "name": "Kashif Bangnagande",
-     "pos": "LB",
-     "rating": 70.25,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-13",
-     "dropped": "2026-09-13",
-     "days": 31,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Yuito Suzuki",
@@ -22224,48 +20466,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/420931"
     },
     {
-     "name": "Ko Itakura",
-     "pos": "CB",
-     "rating": 75.28,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-01",
-     "days": 24,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Daiya Maekawa",
-     "pos": "GK",
-     "rating": 73.56,
-     "number": 1,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Yasuto Wakizaka",
-     "pos": "CMF",
-     "rating": 73.23,
-     "number": 14,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-02",
-     "dropped": "2026-08-13",
-     "days": 42,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Ryo Hatsuse",
      "pos": "LB",
      "rating": 72.3,
@@ -22278,34 +20478,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/414926-1772685243.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/414926"
-    },
-    {
-     "name": "Gotoku Sakai",
-     "pos": "RB",
-     "rating": 71.12,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-11",
-     "dropped": "2026-07-16",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ryuta Koike",
-     "pos": "RB",
-     "rating": 71.33,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-02",
-     "dropped": "2026-07-11",
-     "days": 9,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Yoichiro Kakitani",
@@ -22336,76 +20508,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/49362"
     },
     {
-     "name": "Yosuke Ideguchi",
-     "pos": "CMF",
-     "rating": 70.15,
-     "number": 2,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-26",
-     "dropped": "2026-06-27",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Hiroki Sekine",
-     "pos": "RB",
-     "rating": 92.01,
-     "number": 2,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-04",
-     "dropped": "2026-06-26",
-     "days": 22,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Daiki Hashioka",
-     "pos": "RB",
-     "rating": 72.81,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-07",
-     "dropped": "2026-06-21",
-     "days": 14,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Hidemasa Morita",
-     "pos": "DMF",
-     "rating": 75.26,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-04",
-     "dropped": "2026-06-07",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Joel Chima Fujita",
-     "pos": "CMF",
-     "rating": 72.97,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-04",
-     "dropped": "2026-06-07",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Taishi Brandon Nozawa",
      "pos": "GK",
      "rating": 92.07,
@@ -22418,76 +20520,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/617377"
-    },
-    {
-     "name": "Yuya Osako",
-     "pos": "CF",
-     "rating": 71.98,
-     "number": 99,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-31",
-     "dropped": "2026-06-01",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Shunsuke Mito",
-     "pos": "RMF",
-     "rating": 71.35,
-     "number": 14,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-31",
-     "dropped": "2026-06-01",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Kyogo Furuhashi",
-     "pos": "CF",
-     "rating": 74.27,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-30",
-     "dropped": "2026-05-31",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ryotaro Ito",
-     "pos": "AMF",
-     "rating": 73.12,
-     "number": 7,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-13",
-     "dropped": "2026-05-31",
-     "days": 48,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Takuma Asano",
-     "pos": "LMF",
-     "rating": 92.39,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-13",
-     "dropped": "2026-05-07",
-     "days": 24,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -22699,20 +20731,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/882197-1705681650.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/882197"
-    },
-    {
-     "name": "Mohammad Abu Ghoush",
-     "pos": "LB",
-     "rating": 67.94,
-     "number": 18,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -22910,22 +20928,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/371021"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Elbasan Rashani",
-     "pos": "LWF",
-     "rating": 70.58,
-     "number": 11,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "mali",
@@ -23997,162 +22000,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/834483"
     }
    ],
-   "dropouts": [
-    {
-     "name": "César Huerta",
-     "pos": "LWF",
-     "rating": 72.98,
-     "number": 21,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-08-08",
-     "dropped": "2026-09-26",
-     "days": 49,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Armando González",
-     "pos": "CF",
-     "rating": 70.49,
-     "number": 14,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-26",
-     "days": 49,
-     "callups": 1,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/837619-1727117232.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/837619"
-    },
-    {
-     "name": "Diéter Villalpando",
-     "pos": "AMF",
-     "rating": 73.19,
-     "number": 22,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-04-12",
-     "dropped": "2026-08-08",
-     "days": 118,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jonathan dos Santos",
-     "pos": "DMF",
-     "rating": 72.89,
-     "number": 6,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-25",
-     "dropped": "2026-08-08",
-     "days": 44,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Néstor Araújo",
-     "pos": "CB",
-     "rating": 72.23,
-     "number": 3,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-25",
-     "dropped": "2026-08-08",
-     "days": 44,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Uriel Antuna",
-     "pos": "RWF",
-     "rating": 74.34,
-     "number": 10,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-12",
-     "dropped": "2026-06-25",
-     "days": 74,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jesús Angulo",
-     "pos": "LB",
-     "rating": 73.77,
-     "number": 21,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-04-12",
-     "dropped": "2026-06-25",
-     "days": 74,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Gilberto Sepúlveda",
-     "pos": "CB",
-     "rating": 73.37,
-     "number": 20,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-12",
-     "dropped": "2026-06-25",
-     "days": 74,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Osvaldo Rodriguez",
-     "pos": "LB",
-     "rating": 72.21,
-     "number": 31,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-12",
-     "dropped": "2026-06-25",
-     "days": 74,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Érick Gutiérrez",
-     "pos": "DMF",
-     "rating": 74.17,
-     "number": 16,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-05-30",
-     "dropped": "2026-06-07",
-     "days": 8,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Marcelo Flores",
-     "pos": "LWF",
-     "rating": 72.25,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-12",
-     "dropped": "2026-05-30",
-     "days": 48,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "montenegro",
@@ -24349,20 +22197,6 @@
     }
    ],
    "dropouts": [
-    {
-     "name": "Filip Stojkovic",
-     "pos": "RB",
-     "rating": 70.63,
-     "number": 2,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
     {
      "name": "Viktor Djukanovic",
      "pos": "LWF",
@@ -25198,34 +23032,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/580657"
     },
     {
-     "name": "Hakim Ziyech",
-     "pos": "RWF",
-     "rating": 74.64,
-     "number": 7,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-13",
-     "dropped": "2026-10-08",
-     "days": 56,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Adel Taarabt",
-     "pos": "AMF",
-     "rating": 73.34,
-     "number": 8,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-10-08",
-     "days": 31,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Oussama Targhalline",
      "pos": "CMF",
      "rating": 72.51,
@@ -25254,76 +23060,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/518804"
     },
     {
-     "name": "Ahmed Reda Tagnaouti",
-     "pos": "GK",
-     "rating": 70.99,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-10",
-     "dropped": "2026-09-25",
-     "days": 15,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Hamza El Moussaoui",
-     "pos": "LB",
-     "rating": 70.57,
-     "number": 13,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-10",
-     "dropped": "2026-09-25",
-     "days": 15,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ayoube Amaimouni-Echghouyab",
-     "pos": "RWF",
-     "rating": 70.7,
-     "number": 21,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-10",
-     "days": 3,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ayoub Amraoui",
-     "pos": "LB",
-     "rating": 69.54,
-     "number": 26,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-10",
-     "days": 3,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mohamed Rabie Hrimat",
-     "pos": "DMF",
-     "rating": 70.46,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-01",
-     "dropped": "2026-09-02",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Rayane Bounida",
      "pos": "AMF",
      "rating": 67.1,
@@ -25336,20 +23072,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/598491"
-    },
-    {
-     "name": "Abdel Abqar",
-     "pos": "CB",
-     "rating": 72.06,
-     "number": 15,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-13",
-     "dropped": "2026-08-30",
-     "days": 17,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Yassine Kechta",
@@ -25380,34 +23102,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/913660"
     },
     {
-     "name": "Zakaria Aboukhlal",
-     "pos": "RWF",
-     "rating": 74.22,
-     "number": 17,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-13",
-     "days": 61,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Walid Cheddira",
-     "pos": "CF",
-     "rating": 72.3,
-     "number": 21,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Marwane Saadane",
      "pos": "CB",
      "rating": 72.27,
@@ -25422,34 +23116,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/210009"
     },
     {
-     "name": "Soufiane Bouftini",
-     "pos": "CB",
-     "rating": 71.07,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "El Mehdi Al Harrar",
-     "pos": "GK",
-     "rating": 70.49,
-     "number": 1,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Zakaria El Ouahdi",
      "pos": "RB",
      "rating": 70.1,
@@ -25462,34 +23128,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/820474-1714037470.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/820474"
-    },
-    {
-     "name": "Reda Belahyane",
-     "pos": "DMF",
-     "rating": 66.84,
-     "number": 27,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-06-14",
-     "days": 1,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Sofiane Boufal",
-     "pos": "LWF",
-     "rating": 75.8,
-     "number": 17,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-03-19",
-     "dropped": "2026-05-30",
-     "days": 72,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Amine Harit",
@@ -26522,20 +24160,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/129554"
     },
     {
-     "name": "Steven Bergwijn",
-     "pos": "LWF",
-     "rating": 76.69,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-24",
-     "dropped": "2026-10-08",
-     "days": 76,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Noa Lang",
      "pos": "LWF",
      "rating": 76.26,
@@ -26548,20 +24172,6 @@
      "callups": 3,
      "img": "https://img.a.transfermarkt.technology/portrait/big/339332-1742501723.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/339332"
-    },
-    {
-     "name": "Javairô Dilrosun",
-     "pos": "RWF",
-     "rating": 73.05,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-25",
-     "dropped": "2026-10-01",
-     "days": 6,
-     "callups": 2,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Jerdy Schouten",
@@ -26606,34 +24216,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/364245"
     },
     {
-     "name": "Jasper Cillessen",
-     "pos": "GK",
-     "rating": 93.87,
-     "number": 13,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-09-02",
-     "days": 25,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Lutsharel Geertruida",
-     "pos": "RB",
-     "rating": 95.11,
-     "number": 12,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-23",
-     "dropped": "2026-08-21",
-     "days": 120,
-     "callups": 3,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/484547-1689710682.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/484547"
-    },
-    {
      "name": "Dennis Bergkamp",
      "pos": "CF",
      "rating": 97.55,
@@ -26674,20 +24256,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/420213-1765214219.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/420213"
-    },
-    {
-     "name": "Youri Baas",
-     "pos": "CB",
-     "rating": 72.41,
-     "number": 22,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-12",
-     "dropped": "2026-07-24",
-     "days": 12,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Ruud van Nistelrooy",
@@ -27315,20 +24883,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/192875"
     },
     {
-     "name": "Tochukwu Nnadi",
-     "pos": "CMF",
-     "rating": 67.16,
-     "number": 28,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-10-07",
-     "dropped": "2026-10-09",
-     "days": 2,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Wilfred Ndidi",
      "pos": "DMF",
      "rating": 75.18,
@@ -27357,34 +24911,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/985825"
     },
     {
-     "name": "Arthur Okonkwo",
-     "pos": "GK",
-     "rating": 70.51,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-25",
-     "days": 41,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ryan Alebiosu",
-     "pos": "RB",
-     "rating": 70.48,
-     "number": 27,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-09-25",
-     "days": 104,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Ademola Lookman",
      "pos": "CF",
      "rating": 95.37,
@@ -27397,132 +24923,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/406040-1769763751.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/406040"
-    },
-    {
-     "name": "Tolu Arokodare",
-     "pos": "CF",
-     "rating": 73.99,
-     "number": 10,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-08-15",
-     "dropped": "2026-08-20",
-     "days": 5,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Alhassan Yusuf",
-     "pos": "CMF",
-     "rating": 73.68,
-     "number": 12,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-20",
-     "days": 68,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Akor Adams",
-     "pos": "CF",
-     "rating": 73.44,
-     "number": 22,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-27",
-     "dropped": "2026-08-20",
-     "days": 54,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Emmanuel Dennis",
-     "pos": "CF",
-     "rating": 73.3,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-08-20",
-     "days": 5,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Semi Ajayi",
-     "pos": "CB",
-     "rating": 70.73,
-     "number": 6,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-25",
-     "dropped": "2026-08-20",
-     "days": 56,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Usman Mohammed",
-     "pos": "AMF",
-     "rating": 66.78,
-     "number": 14,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-27",
-     "dropped": "2026-08-20",
-     "days": 54,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Moses Simon",
-     "pos": "LWF",
-     "rating": 75.14,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Francis Uzoho",
-     "pos": "GK",
-     "rating": 70.09,
-     "number": 1,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Salim Fago Lawal",
-     "pos": "CF",
-     "rating": 69.86,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-27",
-     "dropped": "2026-08-15",
-     "days": 49,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -28672,20 +26072,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/205586"
     },
     {
-     "name": "Jesper Daland",
-     "pos": "CB",
-     "rating": 72.56,
-     "number": 22,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-09-10",
-     "days": 3,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Kristian Arnstad",
      "pos": "LWF",
      "rating": 72.15,
@@ -28700,20 +26086,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/581106"
     },
     {
-     "name": "Warren Kamanzi",
-     "pos": "RB",
-     "rating": 69.73,
-     "number": 5,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-09-10",
-     "days": 3,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Markus Solbakken",
      "pos": "CMF",
      "rating": 68.51,
@@ -28726,20 +26098,6 @@
      "callups": 2,
      "img": "https://img.a.transfermarkt.technology/portrait/big/418567-1687764418.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/418567"
-    },
-    {
-     "name": "Sondre Tronstad",
-     "pos": "DMF",
-     "rating": 71.93,
-     "number": 7,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 3,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Lasse Berg Johnsen",
@@ -29576,20 +26934,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/126019-1735325689.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/126019"
-    },
-    {
-     "name": "Edgardo Fariña",
-     "pos": "CB",
-     "rating": 68.47,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -30007,48 +27351,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1060740"
     },
     {
-     "name": "Juan Espínola",
-     "pos": "GK",
-     "rating": 73.55,
-     "number": 1,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-08-27",
-     "dropped": "2026-09-04",
-     "days": 8,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Diego León",
-     "pos": "LB",
-     "rating": 71.17,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-04",
-     "days": 20,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Hugo Martínez",
-     "pos": "CMF",
-     "rating": 68.73,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-04",
-     "days": 20,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Ángel Romero",
      "pos": "RWF",
      "rating": 72.9,
@@ -30075,20 +27377,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/847023-1742570529.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/847023"
-    },
-    {
-     "name": "Antonio Sanabria",
-     "pos": "CF",
-     "rating": 73.4,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -30702,34 +27990,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/407098"
     },
     {
-     "name": "Bartosz Salamon",
-     "pos": "CB",
-     "rating": 72.94,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-03",
-     "days": 19,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Sebastian Walukiewicz",
-     "pos": "CB",
-     "rating": 72.73,
-     "number": 3,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-03",
-     "days": 19,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Krzysztof Piatek",
      "pos": "CF",
      "rating": 75.31,
@@ -30772,20 +28032,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/431475"
     },
     {
-     "name": "Michal Helik",
-     "pos": "CB",
-     "rating": 73.71,
-     "number": 3,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Jakub Moder",
      "pos": "CMF",
      "rating": 73.38,
@@ -30798,34 +28044,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/384461-1716985274.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/384461"
-    },
-    {
-     "name": "Michal Skoras",
-     "pos": "LWF",
-     "rating": 73.17,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mateusz Legowski",
-     "pos": "DMF",
-     "rating": 71.81,
-     "number": 13,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -31704,34 +28922,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/412669"
     },
     {
-     "name": "Rodrigo Mora",
-     "pos": "AMF",
-     "rating": 74.29,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-25",
-     "dropped": "2026-09-27",
-     "days": 2,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Renato Sanches",
-     "pos": "CMF",
-     "rating": 76.01,
-     "number": 16,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-20",
-     "dropped": "2026-09-03",
-     "days": 14,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Samuel Soares",
      "pos": "GK",
      "rating": 72.56,
@@ -31744,34 +28934,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/504072"
-    },
-    {
-     "name": "Celton Biai",
-     "pos": "GK",
-     "rating": 70.01,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Raphaël Guerreiro",
-     "pos": "LB",
-     "rating": 93.09,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-03-28",
-     "dropped": "2026-06-06",
-     "days": 70,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -31970,20 +29132,6 @@
     }
    ],
    "dropouts": [
-    {
-     "name": "Edmílson Junior",
-     "pos": "LWF",
-     "rating": 76.0,
-     "number": 8,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-06",
-     "dropped": "2026-10-09",
-     "days": 33,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
     {
      "name": "Mohammed Waad",
      "pos": "LB",
@@ -32196,20 +29344,6 @@
    ],
    "dropouts": [
     {
-     "name": "Denis Drăguș",
-     "pos": "CF",
-     "rating": 72.3,
-     "number": 9,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-06",
-     "dropped": "2026-10-09",
-     "days": 33,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Daniel Boloca",
      "pos": "DMF",
      "rating": 73.22,
@@ -32334,50 +29468,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/318470"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Georgiy Dzhikiya",
-     "pos": "CB",
-     "rating": 74.38,
-     "number": 14,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Fedor Chalov",
-     "pos": "SS",
-     "rating": 73.71,
-     "number": 9,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Denis Makarov",
-     "pos": "RMF",
-     "rating": 72.26,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "saudi-arabia",
@@ -32615,34 +29706,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/164593"
-    },
-    {
-     "name": "Moteb Al-Harbi",
-     "pos": "LB",
-     "rating": 69.43,
-     "number": 24,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-06",
-     "dropped": "2026-10-09",
-     "days": 33,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Sami Al-Najei",
-     "pos": "SS",
-     "rating": 70.36,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-06",
-     "dropped": "2026-09-07",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -33046,20 +30109,6 @@
    ],
    "dropouts": [
     {
-     "name": "Stuart Armstrong",
-     "pos": "CMF",
-     "rating": 72.02,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-09-26",
-     "days": 85,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Billy Gilmour",
      "pos": "CMF",
      "rating": 74.28,
@@ -33074,20 +30123,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/423744"
     },
     {
-     "name": "Jacob Brown",
-     "pos": "RWF",
-     "rating": 73.13,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Liam Kelly",
      "pos": "GK",
      "rating": 71.59,
@@ -33100,34 +30135,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/208772-1701544031.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/208772"
-    },
-    {
-     "name": "Findlay Curtis",
-     "pos": "LWF",
-     "rating": 66.85,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Johnny Russell",
-     "pos": "RWF",
-     "rating": 72.03,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-07-12",
-     "days": 9,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -33964,20 +30971,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/480705"
     },
     {
-     "name": "Ousseynou Niang",
-     "pos": "LWF",
-     "rating": 71.76,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-25",
-     "dropped": "2026-10-04",
-     "days": 9,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Demba Thiam",
      "pos": "GK",
      "rating": 70.68,
@@ -34034,90 +31027,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/238752"
     },
     {
-     "name": "Assane Dioussé",
-     "pos": "DMF",
-     "rating": 68.44,
-     "number": 24,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-19",
-     "dropped": "2026-09-25",
-     "days": 6,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Seny Dieng",
-     "pos": "GK",
-     "rating": 72.64,
-     "number": 1,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-19",
-     "days": 12,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Moussa Ndiaye",
-     "pos": "LB",
-     "rating": 72.25,
-     "number": 14,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-09-19",
-     "days": 12,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Seydou Sano",
-     "pos": "CB",
-     "rating": 64.88,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-19",
-     "days": 12,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Bamba Dieng",
-     "pos": "CF",
-     "rating": 72.53,
-     "number": 12,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-09-01",
-     "dropped": "2026-09-02",
-     "days": 1,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Seyni Mbaye Ndiaye",
-     "pos": "CB",
-     "rating": 65.99,
-     "number": 2,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-28",
-     "dropped": "2026-09-01",
-     "days": 4,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Mbaye Diagne",
      "pos": "CF",
      "rating": 73.52,
@@ -34132,20 +31041,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/271966"
     },
     {
-     "name": "M'Baye Niang",
-     "pos": "CF",
-     "rating": 71.4,
-     "number": 19,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Formose Mendy",
      "pos": "CB",
      "rating": 70.39,
@@ -34158,34 +31053,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/649023"
-    },
-    {
-     "name": "Pape Demba Diop",
-     "pos": "CMF",
-     "rating": 69.68,
-     "number": 17,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mikayil Faye",
-     "pos": "CB",
-     "rating": 72.45,
-     "number": 12,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-12",
-     "dropped": "2026-05-31",
-     "days": 49,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -34589,20 +31456,6 @@
    ],
    "dropouts": [
     {
-     "name": "Predrag Rajković",
-     "pos": "GK",
-     "rating": 78.56,
-     "number": 1,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-07-03",
-     "dropped": "2026-10-11",
-     "days": 100,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Nemanja Maksimovic",
      "pos": "CMF",
      "rating": 76.06,
@@ -34645,20 +31498,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/167316"
     },
     {
-     "name": "Veljko Milosavljevic",
-     "pos": "CB",
-     "rating": 70.76,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-01",
-     "dropped": "2026-09-25",
-     "days": 24,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Petar Ratkov",
      "pos": "CF",
      "rating": 70.63,
@@ -34685,90 +31524,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/851551-1758221972.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/851551"
-    },
-    {
-     "name": "Nemanja Matić",
-     "pos": "DMF",
-     "rating": 74.29,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-09-13",
-     "days": 72,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ivan Ilić",
-     "pos": "CMF",
-     "rating": 93.15,
-     "number": 17,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-03",
-     "dropped": "2026-09-01",
-     "days": 60,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Nikola Maras",
-     "pos": "CB",
-     "rating": 71.59,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-09-01",
-     "days": 60,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Veljko Birmancevic",
-     "pos": "LWF",
-     "rating": 74.31,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Filip Mladenovic",
-     "pos": "LB",
-     "rating": 71.79,
-     "number": 25,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Nikola Cumic",
-     "pos": "RWF",
-     "rating": 70.0,
-     "number": 21,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -35068,36 +31823,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/74960"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Lubomir Satka",
-     "pos": "CB",
-     "rating": 73.14,
-     "number": 5,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Leo Sauer",
-     "pos": "LWF",
-     "rating": 71.17,
-     "number": 18,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "slovenia",
@@ -35738,20 +32464,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1236525"
     },
     {
-     "name": "Tshepang Moremi",
-     "pos": "LWF",
-     "rating": 68.66,
-     "number": 8,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-10-09",
-     "dropped": "2026-10-11",
-     "days": 2,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Sipho Mbule",
      "pos": "AMF",
      "rating": 68.27,
@@ -36167,20 +32879,6 @@
    ],
    "dropouts": [
     {
-     "name": "Hyeon-gyu Oh",
-     "pos": "CF",
-     "rating": 74.36,
-     "number": 18,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-10-09",
-     "dropped": "2026-10-11",
-     "days": 2,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Min-kyu Song",
      "pos": "LWF",
      "rating": 70.89,
@@ -36209,20 +32907,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/912081"
     },
     {
-     "name": "Won-sang Um",
-     "pos": "RWF",
-     "rating": 69.35,
-     "number": 29,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-04",
-     "dropped": "2026-09-25",
-     "days": 21,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Jae-won Hwang",
      "pos": "RB",
      "rating": 69.5,
@@ -36235,20 +32919,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/90785"
-    },
-    {
-     "name": "Ui-jo Hwang",
-     "pos": "CF",
-     "rating": 74.14,
-     "number": 18,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Myung-jae Lee",
@@ -36277,62 +32947,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/613192-1760966991.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/613192"
-    },
-    {
-     "name": "Dong-jun Lee",
-     "pos": "RWF",
-     "rating": 70.3,
-     "number": 13,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Hyun-seok Hong",
-     "pos": "AMF",
-     "rating": 73.14,
-     "number": 13,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-08-08",
-     "days": 56,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jin-seob Park",
-     "pos": "DMF",
-     "rating": 69.65,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-18",
-     "dropped": "2026-08-08",
-     "days": 51,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Woo-young Jung",
-     "pos": "DMF",
-     "rating": 71.08,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-06-18",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -37239,20 +33853,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/991268"
     },
     {
-     "name": "Iñigo Martínez",
-     "pos": "CB",
-     "rating": 78.41,
-     "number": 16,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-10",
-     "dropped": "2026-09-26",
-     "days": 16,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Marc Bartra",
      "pos": "CB",
      "rating": 93.42,
@@ -37323,20 +33923,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/461617"
     },
     {
-     "name": "Pedro",
-     "pos": "RWF",
-     "rating": 93.18,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-02",
-     "days": 18,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Pau Torres",
      "pos": "CB",
      "rating": 94.84,
@@ -37349,48 +33935,6 @@
      "callups": 3,
      "img": "https://img.a.transfermarkt.technology/portrait/big/399776-1765899002.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/399776"
-    },
-    {
-     "name": "Sergi Roberto",
-     "pos": "RB",
-     "rating": 93.44,
-     "number": 20,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-09",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Brais Méndez",
-     "pos": "CMF",
-     "rating": 94.2,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-20",
-     "dropped": "2026-05-21",
-     "days": 1,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "César Azpilicueta",
-     "pos": "CB",
-     "rating": 94.55,
-     "number": 17,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-04-16",
-     "dropped": "2026-04-18",
-     "days": 2,
-     "callups": 1,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/176553-1685546335.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/176553"
     },
     {
      "name": "Pep Guardiola",
@@ -37836,20 +34380,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/792331"
     },
     {
-     "name": "Kristoffer Peterson",
-     "pos": "LWF",
-     "rating": 69.65,
-     "number": 24,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-09-04",
-     "dropped": "2026-10-09",
-     "days": 35,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Besfort Zeneli",
      "pos": "CMF",
      "rating": 70.29,
@@ -37862,48 +34392,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/715653-1789480532.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/715653"
-    },
-    {
-     "name": "Jesper Tolinsson",
-     "pos": "CB",
-     "rating": 69.42,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-10-02",
-     "days": 48,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Joe Mendes",
-     "pos": "RB",
-     "rating": 71.4,
-     "number": 2,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-04",
-     "dropped": "2026-09-17",
-     "days": 13,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jordan Larsson",
-     "pos": "RWF",
-     "rating": 73.17,
-     "number": 26,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-04",
-     "days": 20,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Hugo Larsson",
@@ -37932,20 +34420,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/579928-1732576164.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/579928"
-    },
-    {
-     "name": "Kerim Mrabti",
-     "pos": "AMF",
-     "rating": 74.16,
-     "number": 13,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Kristoffer Nordfeldt",
@@ -38768,34 +35242,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/583058"
     },
     {
-     "name": "Stefan Gartenmann",
-     "pos": "CB",
-     "rating": 70.18,
-     "number": 26,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-10-09",
-     "dropped": "2026-10-11",
-     "days": 2,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Luca Jaquez",
-     "pos": "CB",
-     "rating": 68.94,
-     "number": 25,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-09-26",
-     "dropped": "2026-10-09",
-     "days": 13,
-     "callups": 5,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Zachary Athekame",
      "pos": "RB",
      "rating": 70.89,
@@ -38878,20 +35324,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/410787-1646128116.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/410787"
-    },
-    {
-     "name": "Luca Zuffi",
-     "pos": "DMF",
-     "rating": 69.48,
-     "number": 16,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Andi Zeqiri",
@@ -39052,22 +35484,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/538774"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Mahmoud Al-Mawas",
-     "pos": "RWF",
-     "rating": 70.14,
-     "number": 10,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "tajikistan",
@@ -39272,20 +35689,6 @@
     }
    ],
    "dropouts": [
-    {
-     "name": "Picha Autra",
-     "pos": "CMF",
-     "rating": 69.43,
-     "number": 17,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
     {
      "name": "Sarach Yooyen",
      "pos": "DMF",
@@ -39955,20 +36358,6 @@
    ],
    "dropouts": [
     {
-     "name": "Aral Şimşir",
-     "pos": "LWF",
-     "rating": 74.26,
-     "number": 22,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-09-29",
-     "dropped": "2026-10-02",
-     "days": 3,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Berkan Kutlu",
      "pos": "AMF",
      "rating": 91.95,
@@ -40025,20 +36414,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/341647"
     },
     {
-     "name": "Altay Bayındır",
-     "pos": "GK",
-     "rating": 74.21,
-     "number": 1,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-08-15",
-     "dropped": "2026-09-25",
-     "days": 41,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Berkay Özcan",
      "pos": "CMF",
      "rating": 72.06,
@@ -40051,34 +36426,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/249952-1755098866.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/249952"
-    },
-    {
-     "name": "Mert Günok",
-     "pos": "GK",
-     "rating": 75.66,
-     "number": 1,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Cenk Tosun",
-     "pos": "CF",
-     "rating": 73.21,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-13",
-     "dropped": "2026-08-15",
-     "days": 63,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -40290,34 +36637,6 @@
      "callups": 1,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/179054"
-    },
-    {
-     "name": "Yahya Al-Ghassani",
-     "pos": "LWF",
-     "rating": 69.58,
-     "number": 20,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Khaled Ebraheim",
-     "pos": "RB",
-     "rating": 68.65,
-     "number": 19,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Ali Salmin",
@@ -41748,48 +38067,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/707447"
     },
     {
-     "name": "Franco Israel",
-     "pos": "GK",
-     "rating": 72.64,
-     "number": 12,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-24",
-     "days": 17,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Fabricio Díaz",
-     "pos": "CMF",
-     "rating": 65.29,
-     "number": 22,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-14",
-     "dropped": "2026-09-24",
-     "days": 10,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mauricio Lemos",
-     "pos": "CB",
-     "rating": 72.39,
-     "number": 4,
-     "squad": "second",
-     "section": "wildcard",
-     "since": "2026-09-07",
-     "dropped": "2026-09-14",
-     "days": 7,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Miguel Merentiel",
      "pos": "CF",
      "rating": 76.23,
@@ -41804,20 +38081,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/481367"
     },
     {
-     "name": "Matías Vecino",
-     "pos": "CMF",
-     "rating": 76.19,
-     "number": 5,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-08-09",
-     "dropped": "2026-09-03",
-     "days": 25,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Facundo Pellistri",
      "pos": "RWF",
      "rating": 71.48,
@@ -41830,62 +38093,6 @@
      "callups": 2,
      "img": null,
      "tm": "https://www.transfermarkt.com/x/profil/spieler/676318"
-    },
-    {
-     "name": "Mateo Ponte",
-     "pos": "RB",
-     "rating": 71.83,
-     "number": 28,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Brian Ocampo",
-     "pos": "LWF",
-     "rating": 70.47,
-     "number": 26,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Fernando Gorriarán",
-     "pos": "CMF",
-     "rating": 76.06,
-     "number": 6,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-16",
-     "dropped": "2026-06-21",
-     "days": 5,
-     "callups": 2,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Michael Santos",
-     "pos": "CF",
-     "rating": 73.0,
-     "number": 17,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-07",
-     "dropped": "2026-06-21",
-     "days": 14,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Agustín Sant'Anna",
@@ -42876,20 +39083,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/381187"
     },
     {
-     "name": "Max Arfsten",
-     "pos": "LMF",
-     "rating": 71.11,
-     "number": 27,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-09-07",
-     "dropped": "2026-09-26",
-     "days": 19,
-     "callups": 3,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Diego Luna",
      "pos": "LMF",
      "rating": 76.32,
@@ -42930,76 +39123,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/504215-1760967520.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/504215"
-    },
-    {
-     "name": "Aaron Long",
-     "pos": "CB",
-     "rating": 73.91,
-     "number": 3,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Jordan Morris",
-     "pos": "LWF",
-     "rating": 73.82,
-     "number": 13,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-04-12",
-     "dropped": "2026-08-13",
-     "days": 123,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Tyler Boyd",
-     "pos": "RWF",
-     "rating": 70.92,
-     "number": 21,
-     "squad": "second",
-     "section": "starters",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Taylor Booth",
-     "pos": "CMF",
-     "rating": 70.74,
-     "number": 4,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-09",
-     "dropped": "2026-08-13",
-     "days": 4,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Reggie Cannon",
-     "pos": "RB",
-     "rating": 70.96,
-     "number": 21,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-05-31",
-     "dropped": "2026-06-25",
-     "days": 25,
-     "callups": 1,
-     "img": null,
-     "tm": null
     },
     {
      "name": "Brenden Aaronson",
@@ -43668,48 +39791,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/661147-1771706969.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/661147"
-    },
-    {
-     "name": "Christian Makoun",
-     "pos": "CB",
-     "rating": 69.58,
-     "number": 5,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-10-11",
-     "days": 99,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Alain Baroja",
-     "pos": "GK",
-     "rating": 70.83,
-     "number": 12,
-     "squad": "first",
-     "section": "wildcard",
-     "since": "2026-08-15",
-     "dropped": "2026-09-29",
-     "days": 45,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Darwin Machís",
-     "pos": "LWF",
-     "rating": 73.32,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-04",
-     "dropped": "2026-08-15",
-     "days": 42,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },
@@ -43890,92 +39971,7 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/202914"
     }
    ],
-   "dropouts": [
-    {
-     "name": "Phong Hong Duy Nguyen",
-     "pos": "LB",
-     "rating": 68.33,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Van Duc Phan",
-     "pos": "LWF",
-     "rating": 68.27,
-     "number": 16,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Van Toan Nguyen",
-     "pos": "CF",
-     "rating": 67.49,
-     "number": 9,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Tuan Anh Nguyen",
-     "pos": "DMF",
-     "rating": 66.74,
-     "number": 11,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Cong Hoang Anh Ly",
-     "pos": "CMF",
-     "rating": 66.23,
-     "number": 8,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Van Dat Tran",
-     "pos": "LWF",
-     "rating": 62.56,
-     "number": 29,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "wales",
@@ -44377,48 +40373,6 @@
    ],
    "dropouts": [
     {
-     "name": "Regan Poole",
-     "pos": "CB",
-     "rating": 69.25,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-10-09",
-     "days": 55,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Oliver Cooper",
-     "pos": "AMF",
-     "rating": 68.19,
-     "number": 10,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-09-04",
-     "days": 66,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Charlie Crew",
-     "pos": "CMF",
-     "rating": 60.16,
-     "number": 16,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-08-15",
-     "dropped": "2026-09-04",
-     "days": 20,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Brennan Johnson",
      "pos": "SS",
      "rating": 75.22,
@@ -44431,76 +40385,6 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/470607-1692959021.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/470607"
-    },
-    {
-     "name": "Wes Burns",
-     "pos": "RMF",
-     "rating": 71.99,
-     "number": 20,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Mark Harris",
-     "pos": "CF",
-     "rating": 71.26,
-     "number": 18,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Will Vaulks",
-     "pos": "DMF",
-     "rating": 70.64,
-     "number": 19,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Rhys Norrington-Davies",
-     "pos": "LB",
-     "rating": 70.25,
-     "number": 15,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
-     "name": "Ollie Bostock",
-     "pos": "LMF",
-     "rating": 61.15,
-     "number": 25,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-06-30",
-     "dropped": "2026-08-15",
-     "days": 46,
-     "callups": 1,
-     "img": null,
-     "tm": null
     }
    ]
   },

@@ -935,6 +935,9 @@
 
   function describeChange(prev, cur) {
     const out = [];
+    if (prev && prev.pos && cur.pos && prev.pos !== cur.pos &&
+        (prev.p || prev.a.length) && (cur.p || cur.a.length))
+      out.push(hc(`position ${esc(prev.pos)} → ${esc(cur.pos)}`, "card"));
     const bySquad = (snap) => Object.fromEntries(((snap && snap.a) || []).map(a => [a[0], a]));
     const before = bySquad(prev), after = bySquad(cur);
     const both = Object.keys(after).length > 1;
@@ -985,10 +988,13 @@
 
   function ladderSeries(h, pos, target) {
     const cards = [];
+    const positions = new Set(target.map(s => s.pos || pos));
     for (const nation of Object.values(h.countries))
       for (const byPos of Object.values(nation))
-        if (byPos[pos] && byPos[pos] !== target) cards.push(byPos[pos]);
-    const dates = [...new Set([...cards, target].flatMap(snaps => snaps.map(x => x.d)))].sort();
+        for (const [cardPos, snaps] of Object.entries(byPos))
+          if (snaps !== target && snaps.some(s => positions.has(s.pos || cardPos)))
+            cards.push({ pos: cardPos, snaps });
+    const dates = [...new Set([...cards.flatMap(c => c.snaps), ...target].map(x => x.d))].sort();
     const ptr = new Array(cards.length).fill(-1);
     let tp = -1;
     const listedRating = (snap) => snap && snap.a.length ? Math.max(...snap.a.map(a => a[4])) : null;
@@ -996,19 +1002,22 @@
     for (const d of dates) {
       while (tp + 1 < target.length && target[tp + 1].d <= d) tp++;
       const me = tp >= 0 ? target[tp] : null;
+      const currentPos = me && me.pos || pos;
       let above = 0, total = 0;
       const mine = listedRating(me);
       const ref = mine != null ? mine : me && me.p ? me.p[0] : null;
-      cards.forEach((snaps, i) => {
+      cards.forEach(({ pos: cardPos, snaps }, i) => {
         while (ptr[i] + 1 < snaps.length && snaps[ptr[i] + 1].d <= d) ptr[i]++;
-        const r = ptr[i] >= 0 ? listedRating(snaps[ptr[i]]) : null;
+        const snap = ptr[i] >= 0 ? snaps[ptr[i]] : null;
+        const r = snap && (snap.pos || cardPos) === currentPos ? listedRating(snap) : null;
         if (r == null) return;
         total++;
         if (ref != null && r > ref) above++;
       });
-      const point = ref == null ? { d, rank: null } : { d, rank: above + 1, total: total + (mine != null ? 1 : 0), listed: mine != null };
+      const point = ref == null ? { d, rank: null, pos: currentPos } :
+        { d, rank: above + 1, total: total + (mine != null ? 1 : 0), listed: mine != null, pos: currentPos };
       const last = points[points.length - 1];
-      if (!last || last.rank !== point.rank || last.total !== point.total || last.listed !== point.listed) points.push(point);
+      if (!last || last.rank !== point.rank || last.total !== point.total || last.listed !== point.listed || last.pos !== point.pos) points.push(point);
     }
     return points.filter((pt, i) => pt.rank != null || (points[i - 1] && points[i - 1].rank != null));
   }
@@ -1029,7 +1038,7 @@
   };
   const rankText = (p, pos, kind) => p.rank == null ? (kind === "nation" ? "no first-squad starters" : "not rated")
     : kind === "nation" ? `#${p.rank} of ${p.total} nations · starters avg ${p.avg.toFixed(2)}`
-    : p.listed ? `#${p.rank} of ${p.total} ${esc(pos)}s · in squad`
+    : p.listed ? `#${p.rank} of ${p.total} ${esc(p.pos || pos)}s · in squad`
     : `would rank #${p.rank} of ${p.total} · not in a squad, placed by its pool rating`;
 
   function rankChartHTML(points, pos, kind = "card") {
@@ -1157,7 +1166,8 @@
           let snap = null;
           for (const x of snaps) { if (x.d <= day) snap = x; else break; }
           if (!snap || !snap.a.length) continue;
-          (byPos[pos] = byPos[pos] || []).push({ key: `${nid}|${name}|${pos}`, rating: Math.max(...snap.a.map(a => a[4])) });
+          const actualPos = snap.pos || pos;
+          (byPos[actualPos] = byPos[actualPos] || []).push({ key: `${nid}|${name}|${pos}`, rating: Math.max(...snap.a.map(a => a[4])) });
         }
     const ranks = new Map();
     for (const list of Object.values(byPos))
