@@ -541,22 +541,19 @@
       <div class="panel-head"><span class="title">${title}</span>${aside ? `<span class="aside">${aside}</span>` : ""}</div>
       ${body}</div>`;
 
-  const XI = [["LWF",18,13],["CF",50,9],["RWF",82,13],
-              ["CMF",29,34],["AMF",71,34],["DMF",50,57],
-              ["LB",13,68],["CB",37,74],["CB",63,74],["RB",87,68],["GK",50,91]];
+  const POSITION_SPOTS = [["LWF",14,13],["CF",38,13],["SS",62,13],["RWF",86,13],
+                          ["LMF",14,32],["AMF",50,32],["RMF",86,32],
+                          ["CMF",32,51],["DMF",68,51],
+                          ["LB",14,70],["CB",50,70],["RB",86,70],
+                          ["GK",50,89]];
 
-  function bestXI(countries) {
-    const pool = firstSquad(countries).sort(byRating);
-    const used = new Set();
-    return XI.map(([pos, x, y]) => {
-      const pick = pool.find(e => e.player.pos === pos && !used.has(e));
-      if (pick) used.add(pick);
-      return { pos, x, y, pick };
-    });
+  function topOfEachPosition(countries) {
+    const all = countries.flatMap(country => country.players.map(player => ({ player, country }))).sort(byRating);
+    return POSITION_SPOTS.map(([pos, x, y]) => ({ pos, x, y, pick: all.find(e => e.player.pos === pos) }));
   }
 
   function pitchHTML(countries) {
-    const nodes = bestXI(countries).map(({ pos, x, y, pick }) => {
+    const nodes = topOfEachPosition(countries).map(({ pos, x, y, pick }) => {
       if (!pick) return "";
       const { player: p, country: c } = pick;
       const inner = `<div class="xi-photo ${ctClass(p.card_type)}">${photoHTML(p)}</div>
@@ -648,7 +645,7 @@
     const rows = strength(countries);
     root().innerHTML = `
       <div class="ov-grid">
-        ${panel("Best XI", "top-rated first-squad player per slot", pitchHTML(countries))}
+        ${panel("Top of each position", "highest-rated squad card at every position", pitchHTML(countries))}
         ${panel("Latest call-ups", `last ${FEED_DAYS} days`, feedHTML(countries))}
       </div>
       <div class="ov-grid ov-even">

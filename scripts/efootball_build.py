@@ -272,7 +272,11 @@ def parse_pool(text):
     return pool
 
 def history_texts(repo, rel_path):
-    """Every committed version of a file, newest first, as (date, text)."""
+    """The last committed version of a file on each day, newest first, as (date, text).
+
+    Edits made and undone within one day (a player added to a first draft and
+    removed that evening) never existed as far as the history is concerned.
+    """
     out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-only", "--", rel_path)
     commits, h, d = [], None, None
     for ln in out.splitlines():
@@ -280,7 +284,10 @@ def history_texts(repo, rel_path):
             _, h, d = ln.split("|")
         elif ln.strip():
             commits.append((h, d[:10], ln.strip()))
-    return [(d, git(repo, "show", f"{h}:{path}")) for h, d, path in commits]
+    latest = {}
+    for h, d, path in commits:
+        latest.setdefault(d, (h, path))
+    return [(d, git(repo, "show", f"{h}:{path}")) for d, (h, path) in latest.items()]
 
 def history_versions(repo, rel_path, parser=parse_sigs, texts=None):
     if texts is None:
