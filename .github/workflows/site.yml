@@ -3,15 +3,6 @@ name: Update eFootball site
 on:
   schedule:
     - cron: "20 6 * * *"
-  push:
-    branches: [main]
-    paths:
-      - "contenders/**"
-      - "challengers/**"
-      - "backup/**"
-      - "pes.db"
-      - "data/overrides.json"
-      - "scripts/**"
   workflow_dispatch:
     inputs:
       tm_limit:

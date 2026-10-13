@@ -295,6 +295,9 @@
     button.card-pick:last-child { border-bottom:0; }
     button.card-pick:hover, button.card-pick.active { background:var(--panel-2); }
     button.card-pick.active { box-shadow:inset 2px 0 0 var(--accent); }
+    .card-rank { font-family:var(--mono); font-size:.72rem; color:var(--muted); min-width:3.2rem; text-align:right; }
+    .tab-rank { color:var(--muted); margin-left:.35rem; }
+    .card-tab.active .tab-rank { color:inherit; }
     .chip.in { border-color:#4ade80; color:#4ade80; }
     .card-side { display:flex; align-items:center; gap:.4rem; }
     .card-rating { min-width:3.6rem; text-align:right; }
@@ -444,7 +447,7 @@
     (ch.normalize("NFD").replace(/[\u0300-\u036f]/g, "") || ch)[0].toLowerCase());
   const slug = (str) => fold(str).join("").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const playerKey = (c, p) => `${c.id}/${slug(p.name)}`;
-  const playerHref = (c, p) => `#/player/${playerKey(c, p)}`;
+  const playerHref = (c, p) => `#/player/${playerKey(c, p)}${p.pos ? "/" + p.pos : ""}`;
   const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
   const joinedOf = (p) => p.joined || p.since;
   const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso+"T00:00:00Z"))/86400000));
@@ -888,7 +891,7 @@
       const head = f ? `<div class="ps-filters">${[...f.nations].map(id => `<span class="chip">${byId(id).flag||""} ${esc(byId(id).name)}</span>`).join("")}${[...f.positions].map(p => `<span class="chip">${p}</span>`).join("")}${f.name ? `<span class="chip">“${esc(f.name)}”</span>` : ""}</div>` : "";
       const more = res.total > hits.length ? `<div class="ps-empty">${res.total - hits.length} more · keep typing to narrow</div>` : "";
       out.innerHTML = hits.length ? head + hits.map(({ e, pos, card }, i) => `
-        <a class="ps-item" role="option" href="#/player/${esc(e.key)}" data-i="${i}">
+        <a class="ps-item" role="option" href="#/player/${esc(e.key)}${card ? "/" + esc(card[0]) : ""}" data-i="${i}">
           <span class="ps-thumb">${photoHTML(e.p)}</span>
           <span><div class="ps-name">${highlight(e.p.name, pos)}</div>
                 <div class="ps-meta">${e.c.flag||""} ${esc(e.c.name)} · ${esc(card ? card[0] : e.p.pos)} · ${STATUS_TEXT[e.status]}</div></span>
@@ -899,7 +902,7 @@
     };
     const go = (i) => {
       if (!hits[i]) return;
-      location.hash = `/player/${hits[i].e.key}`;
+      location.hash = `/player/${hits[i].e.key}${hits[i].card ? "/" + hits[i].card[0] : ""}`;
       input.value = ""; close(); input.blur();
     };
     input.addEventListener("input", render);
@@ -1195,7 +1198,7 @@
       const [nid, name, pos] = m.key.split("|");
       const c = byId.get(nid);
       if (!c) return "";
-      return `<a class="mover-row" href="#/player/${esc(nid)}/${esc(slug(name))}" title="${esc(`${name} (${pos}): #${m.from} → #${m.to} of ${m.total}`)}">
+      return `<a class="mover-row" href="#/player/${esc(nid)}/${esc(slug(name))}/${esc(pos)}" title="${esc(`${name} (${pos}): #${m.from} → #${m.to} of ${m.total}`)}">
         <span class="feed-who"><b>${esc(name)}</b><span>${c.flag||""} ${esc(c.name)} · ${esc(pos)}</span></span>
         ${spark(m.key)}
         <span class="mover-ranks">#${m.from} → #${m.to}</span>
@@ -1213,7 +1216,9 @@
     return Object.keys(cards).sort((a, b) => (b === current) - (a === current) || latest(cards[b]) - latest(cards[a]));
   }
 
-  function fillHistory(entry) {
+  const goCard = (entry, pos) => location.replace(`#/player/${entry.key}/${pos}`);
+
+  function fillHistory(entry, pos) {
     loadHistory().then(h => {
       const box = document.getElementById("pl-history");
       if (!box || box.dataset.key !== entry.key) return;
@@ -1225,106 +1230,126 @@
       const name = Object.keys(nation).find(n => n === entry.p.name)
         || Object.keys(nation).find(n => slug(n) === slug(entry.p.name));
       const cards = name ? nation[name] : {};
-      const order = cardOrder(cards, entry.p.pos);
-      const show = (pos) => {
-        const tabs = order.length > 1 ? `<div class="card-tabs" role="tablist">${order.map(k =>
-          `<button role="tab" class="card-tab${k === pos ? " active" : ""}" data-pos="${esc(k)}" aria-selected="${k === pos}">${esc(k)}</button>`).join("")}</div>` : "";
-        const snaps = cards[pos];
-        box.innerHTML = panel(`Card history${pos ? ` · ${esc(pos)}` : ""}`,
-          `${order.length} card${order.length === 1 ? "" : "s"} · ${snaps ? snaps.length : 0} recorded change${snaps && snaps.length === 1 ? "" : "s"}`,
-          tabs + (snaps ? rankChartHTML(ladderSeries(h, pos, snaps), pos) : "") + cardHistoryHTML(snaps));
-        bindRankChart(box);
-        document.querySelectorAll(".card-pick").forEach(el => el.classList.toggle("active", el.dataset.pos === pos));
-      };
-      box.addEventListener("click", e => {
-        const tab = e.target.closest(".card-tab");
-        if (tab) show(tab.dataset.pos);
-      });
-      document.querySelectorAll(".card-pick").forEach(el => el.addEventListener("click", () => {
-        if (!cards[el.dataset.pos]) return;
-        show(el.dataset.pos);
-        box.scrollIntoView({ behavior: "smooth", block: "start" });
-      }));
-      show(order[0]);
+      const order = cardOrder(cards, null);
+      const show = cards[pos] ? pos : order[0];
+      const tabs = order.length > 1 ? `<div class="card-tabs" role="tablist">${order.map(k =>
+        `<button role="tab" class="card-tab${k === show ? " active" : ""}" data-pos="${esc(k)}" aria-selected="${k === show}">${esc(k)}</button>`).join("")}</div>` : "";
+      const snaps = cards[show];
+      box.innerHTML = panel(`Card history${show ? ` · ${esc(show)}` : ""}`,
+        `${order.length} card${order.length === 1 ? "" : "s"} · ${snaps ? snaps.length : 0} recorded change${snaps && snaps.length === 1 ? "" : "s"}`,
+        tabs + (snaps ? rankChartHTML(ladderSeries(h, show, snaps), show) : "") + cardHistoryHTML(snaps));
+      bindRankChart(box);
+      box.querySelectorAll(".card-tab").forEach(t => t.addEventListener("click", () => goCard(entry, t.dataset.pos)));
     });
   }
 
-  function renderPlayer(entry, index) {
-    const { c, p, status } = entry;
-    const inSquad = status === "squad";
-    const squadAtPos = [];
+  function cardInfo(entry, pos) {
+    const listings = entry.apps.filter(a => a.pos === pos);
+    const row = entry.pool && entry.pool.rows.find(r => r[0] === pos);
+    const drop = entry.drop && entry.drop.pos === pos ? entry.drop : null;
+    const rating = listings.length ? Math.max(...listings.map(a => a.rating))
+      : row ? row[1] : drop ? drop.rating : entry.p.rating;
+    const type = (listings[0] && listings[0].card_type) || (row && row[2]) || entry.p.card_type || "Standard";
+    return { pos, rating, type, recent: !!(row && row[5]), listing: listings[0] || null, drop };
+  }
+
+  function cardLadder(index, entry, card) {
+    const rows = [];
     for (const e of index.values()) {
       if (e.status !== "squad") continue;
-      const at = e.apps.filter(a => a.pos === p.pos);
-      if (at.length) squadAtPos.push({ e, r: Math.max(...at.map(a => a.rating)) });
+      const at = e.apps.filter(a => a.pos === card.pos);
+      if (at.length) rows.push({ e, r: Math.max(...at.map(a => a.rating)) });
     }
-    if (!inSquad || !squadAtPos.some(x => x.e === entry)) squadAtPos.push({ e: entry, r: p.rating, extra: true });
-    const ladderAll = squadAtPos.sort((a, b) => b.r - a.r || a.e.p.name.localeCompare(b.e.p.name));
-    const listedAtPos = ladderAll.filter(x => !x.extra).length;
-    const at = ladderAll.findIndex(x => x.e === entry);
-    const posRank = at + 1;
+    if (!card.listing) rows.push({ e: entry, r: card.rating, extra: true });
+    rows.sort((a, b) => b.r - a.r || a.e.p.name.localeCompare(b.e.p.name));
+    let above = 0;
+    rows.forEach((x, i) => {
+      if (i && x.r < rows[i - 1].r) above = rows.slice(0, i).filter(y => !y.extra).length;
+      x.rank = above + 1;
+    });
+    const at = rows.findIndex(x => x.e === entry);
+    return { rows, at, rank: rows[at].rank, listed: rows.filter(x => !x.extra).length };
+  }
+
+  function renderPlayer(entry, index, wantPos) {
+    const { c, p, status } = entry;
+    const inSquad = status === "squad";
+    const positions = [...new Set(cardsOf(entry).map(([pos]) => pos))];
+    const pos = positions.includes(wantPos) ? wantPos : p.pos;
+    const cards = positions.map(k => {
+      const info = cardInfo(entry, k);
+      return { ...info, ladder: cardLadder(index, entry, info) };
+    });
+    const cur = cards.find(x => x.pos === pos);
+    const { listing } = cur;
+    const lad = cur.ladder, at = lad.at, ladderAll = lad.rows;
+    const rankLabel = (x) => x.listing ? `#${x.ladder.rank}` : `~#${x.ladder.rank}`;
+
     const lo = Math.max(0, Math.min(at - 3, ladderAll.length - 7));
     const maxR = ladderAll[0].r, minR = ladderAll[ladderAll.length - 1].r;
     const w = (v) => maxR === minR ? 100 : 8 + 92 * (v - minR) / (maxR - minR);
-    const ladderRows = ladderAll.slice(lo, lo + 7).map(({ e, r }, i) => {
-      const n = lo + i;
-      const shown = inSquad || n < at ? n + 1 : e === entry ? "→" : n;
-      return `<a class="rank-row${e === entry ? " me" : ""}" href="#/player/${esc(e.key)}">
+    const ladderRows = ladderAll.slice(lo, lo + 7).map(({ e, r, rank }) => {
+      const shown = e === entry && !listing ? "→" : rank;
+      return `<a class="rank-row${e === entry ? " me" : ""}" href="#/player/${esc(e.key)}/${esc(pos)}">
         <span class="rank-n">${typeof shown === "number" ? String(shown).padStart(2, "0") : shown}</span>
         <span class="rank-nation"><span>${e.c.flag||""}</span><span class="nm">${esc(e.p.name)}</span></span>
         <span class="bar"><i style="width:${w(r).toFixed(1)}%"></i></span>
         <span class="num">${r.toFixed(0)}</span>
       </a>`;
     }).join("");
+    const ladderTabs = cards.length > 1 ? `<div class="card-tabs" role="tablist">${cards.map(x =>
+      `<button role="tab" class="card-tab ladder-tab${x.pos === pos ? " active" : ""}" data-pos="${esc(x.pos)}" aria-selected="${x.pos === pos}">${esc(x.pos)} <span class="tab-rank">${rankLabel(x)}</span></button>`).join("")}</div>` : "";
 
-    const nationAtPos = c.players.filter(x => x.pos === p.pos && !entry.apps.includes(x))
+    const nationAtPos = c.players.filter(x => x.pos === pos && !entry.apps.includes(x))
       .sort((a, b) => b.rating - a.rating);
     const weakest = nationAtPos[nationAtPos.length - 1];
     const gapStat = weakest
-      ? statHTML(`${signed(p.rating - weakest.rating)}<small>vs ${esc(weakest.name)}</small>`, `Gap to weakest ${esc(p.pos)}`)
-      : statHTML(`—<small>no ${esc(p.pos)} in squad</small>`, `Gap to weakest ${esc(p.pos)}`);
-    const rankStat = inSquad
-      ? statHTML(`#${posRank}<small>of ${ladderAll.length} ${esc(p.pos)}s</small>`, "Position rank")
-      : statHTML(`#${posRank}<small>among ${listedAtPos} squad ${esc(p.pos)}s</small>`, "Would rank");
+      ? statHTML(`${signed(cur.rating - weakest.rating)}<small>vs ${esc(weakest.name)}</small>`, `Gap to weakest ${esc(pos)}`)
+      : statHTML(`—<small>no ${esc(pos)} in squad</small>`, `Gap to weakest ${esc(pos)}`);
+    const rankStat = listing
+      ? statHTML(`#${lad.rank}<small>of ${ladderAll.length} ${esc(pos)}s</small>`, "Position rank")
+      : statHTML(`#${lad.rank}<small>among ${lad.listed} squad ${esc(pos)}s</small>`, "Would rank");
 
     let chips, stats, sidePanel;
     if (inSquad) {
-      const squadPlayers = c.players.filter(x => (x.squad || "first") === (p.squad || "first"));
-      const nationRank = [...squadPlayers].sort((a, b) => b.rating - a.rating).indexOf(p) + 1;
-      chips = `<span class="chip">#${p.number}</span><span class="chip">${squadLabel(p)}</span>`;
-      stats = statHTML(p.rating.toFixed(2), "Exact rating") + rankStat +
-        statHTML(`#${nationRank}<small>of ${squadPlayers.length} in squad</small>`, "Squad rank") +
+      const lp = listing || p;
+      const squadPlayers = c.players.filter(x => (x.squad || "first") === (lp.squad || "first"));
+      const nationRank = [...squadPlayers].sort((a, b) => b.rating - a.rating).indexOf(lp) + 1;
+      chips = listing
+        ? `<span class="chip">#${listing.number}</span><span class="chip">${squadLabel(listing)}</span>`
+        : `<span class="chip">not listed at ${esc(pos)}</span>`;
+      stats = statHTML(cur.rating.toFixed(2), listing ? "Exact rating" : "Card rating") + rankStat +
+        (listing ? statHTML(`#${nationRank}<small>of ${squadPlayers.length} in squad</small>`, "Squad rank") : gapStat) +
         statHTML(`${daysSince(joinedOf(p))}d<small>since ${esc(joinedOf(p))}</small>`, "In squad") +
         statHTML(`${p.callups || 1}<small>${(p.callups || 1) === 1 ? "first stint" : "separate stints"}</small>`, "Call-ups") +
-        statHTML(ordinalMedal(p.tenureRank), "Tenure medal");
+        statHTML(ordinalMedal(lp.tenureRank), "Tenure medal");
       sidePanel = panel("Appearances", `${entry.apps.length} listing${entry.apps.length === 1 ? "" : "s"}`,
-        entry.apps.map(a => `<div class="appear"><div>${squadLabel(a)}${a.slot ? ` · ${esc(a.slot)} slot` : ""}</div>
+        entry.apps.map(a => `<div class="appear"><div>${squadLabel(a)} · ${esc(a.pos)}${a.slot ? ` · ${esc(a.slot)} slot` : ""}</div>
           <span>#${a.number} · this card since ${esc(a.since)}</span></div>`).join(""));
     } else if (status === "dropped") {
       const d = entry.drop;
       chips = `<span class="chip">#${d.number}</span><span class="chip warn">dropped ${esc(d.dropped)}</span>`;
-      stats = statHTML(d.rating.toFixed(2), "Last rating") + rankStat + gapStat +
+      stats = statHTML(cur.rating.toFixed(2), cur.drop ? "Last rating" : "Card rating") + rankStat + gapStat +
         statHTML(`${daysSince(d.dropped)}d ago<small>${esc(d.dropped)}</small>`, "Dropped") +
         statHTML(`${d.days}d<small>${esc(d.since)} → ${esc(d.dropped)}</small>`, "Last stint") +
         statHTML(`${d.callups}<small>${d.callups === 1 ? "single stint" : "separate stints"}</small>`, "Call-ups");
-      sidePanel = panel("Last stint", "", `<div class="appear"><div>${squadLabel(d)}</div><span>#${d.number}</span></div>
+      sidePanel = panel("Last stint", "", `<div class="appear"><div>${squadLabel(d)} · ${esc(d.pos)}</div><span>#${d.number}</span></div>
         <div class="appear"><div>Called up</div><span>${esc(d.since)}</span></div>
         <div class="appear"><div>Dropped</div><span>${esc(d.dropped)}</span></div>`);
     } else {
       chips = `<span class="chip">not called up</span>`;
-      stats = statHTML(p.rating.toFixed(2), "Best rating") + rankStat + gapStat +
-        statHTML(entry.pool.rows.length, "Cards") +
-        statHTML(entry.pool.rows[0][5] ? "yes" : "no", "Recent card");
+      stats = statHTML(cur.rating.toFixed(2), "Card rating") + rankStat + gapStat +
+        statHTML(cards.length, "Cards") +
+        statHTML(cur.recent ? "yes" : "no", "Recent card");
     }
-    const listedPos = new Set(entry.apps.map(a => a.pos));
-    const posPanel = entry.pool ? panel("Cards", `${entry.pool.rows.length} card${entry.pool.rows.length === 1 ? "" : "s"} · pick one for its history`,
-      entry.pool.rows.map(([pos, rating, card, , , recent]) => `<button class="appear card-pick" data-pos="${esc(pos)}">
-        <div><span class="ef-pos" data-line="${lineOf(pos)}">${esc(pos)}</span> ${esc(card)}${listedPos.has(pos) ? ` <span class="chip in">in squad</span>` : ""}</div>
-        <span class="card-side">${recent ? `<span class="chip">recent</span>` : ""}<span class="card-rating">${rating.toFixed(2)}</span></span></button>`).join("")) : "";
+    const posPanel = panel("Cards", `${cards.length} card${cards.length === 1 ? "" : "s"} · pick one for its ladder and history`,
+      cards.map(x => `<button class="appear card-pick${x.pos === pos ? " active" : ""}" data-pos="${esc(x.pos)}">
+        <div><span class="ef-pos" data-line="${lineOf(x.pos)}">${esc(x.pos)}</span> ${esc(x.type)}${x.listing ? ` <span class="chip in">in squad</span>` : ""}</div>
+        <span class="card-side">${x.recent ? `<span class="chip">recent</span>` : ""}<span class="card-rank" title="${x.listing ? "position rank" : "would rank"}">${rankLabel(x)}</span><span class="card-rating">${x.rating.toFixed(2)}</span></span></button>`).join(""));
 
     root().innerHTML = `
       <a class="pl-back" href="#${esc(c.id)}">← ${c.flag||""} ${esc(c.name)} squad</a>
-      <div class="pl-head ${ctClass(p.card_type)}">
+      <div class="pl-head ${ctClass(cur.type)}">
         <div class="pl-photo">${photoHTML(p)}</div>
         <div>
           <div class="pl-top">
@@ -1332,11 +1357,11 @@
               <h2 class="pl-name">${esc(p.name)}</h2>
               <div class="pl-sub"><a href="#${esc(c.id)}">${c.flag||""} ${esc(c.name)}</a>${tierLabel(c)}</div>
             </div>
-            <div class="pl-rating"><span>${inSquad ? "rating" : status === "dropped" ? "last rating" : "best rating"}</span><b>${p.rating.toFixed(0)}</b></div>
+            <div class="pl-rating"><span>${listing ? "rating" : cur.drop ? "last rating" : "card rating"}</span><b>${cur.rating.toFixed(0)}</b></div>
           </div>
           <div class="pl-badges">
-            <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
-            <span class="chip ct">${esc(p.card_type || "Standard")}</span>
+            <span class="ef-pos" data-line="${lineOf(pos)}">${esc(pos)}</span>
+            <span class="chip ct">${esc(cur.type)}</span>
             ${chips}
           </div>
           <div class="pl-stats">${stats}</div>
@@ -1347,13 +1372,15 @@
         </div>
       </div>
       <div class="pl-grid">
-        ${panel(`${esc(p.pos)} ladder`, inSquad ? `all ${ladderAll.length} squad ${esc(p.pos)}s by rating`
-                                                : `where they'd sit among ${listedAtPos} squad ${esc(p.pos)}s`, ladderRows)}
+        ${panel(`${esc(pos)} ladder`, listing ? `all ${ladderAll.length} squad ${esc(pos)}s by rating`
+                                             : `where this card would sit among ${lad.listed} squad ${esc(pos)}s`, ladderTabs + ladderRows)}
         <div class="pl-stack">${sidePanel || ""}${posPanel}</div>
       </div>
       <div id="pl-history" class="pl-history" data-key="${esc(entry.key)}">${panel("Card history", "loading…", "")}</div>
-      ${nationAtPos.length ? gridSectionPlayers(`${inSquad ? "Other" : "Current"} ${esc(p.pos)}s in ${esc(c.name)}`, nationAtPos, c) : ""}`;
-    fillHistory(entry);
+      ${nationAtPos.length ? gridSectionPlayers(`${listing ? "Other" : "Current"} ${esc(pos)}s in ${esc(c.name)}`, nationAtPos, c) : ""}`;
+    root().querySelectorAll(".card-pick, .ladder-tab").forEach(el =>
+      el.addEventListener("click", () => goCard(entry, el.dataset.pos)));
+    fillHistory(entry, pos);
   }
 
   function gridSectionPlayers(title, players, c) {
@@ -1431,14 +1458,15 @@
         if (first) location.hash = first.dataset.id;
       });
 
-      let lastNation = ordered[0];
+      let lastNation = ordered[0], lastPlayer = null;
       const nav = document.getElementById("site-nav");
       const hero = document.getElementById("hero");
       const route = () => {
         const hash = decodeURIComponent(location.hash.slice(1));
         const nation = countries.find(c => c.id === hash);
         const key = hash.replace(/^\//, "");
-        const player = key.startsWith("player/") ? index.get(key.slice(7)) : null;
+        const [pid, pslug, cardPos] = key.startsWith("player/") ? key.slice(7).split("/") : [];
+        const player = pid ? index.get(`${pid}/${pslug}`) : null;
         const view = nation ? "nations" : player ? "player" : (VIEWS[key] ? key : "overview");
         nav.querySelectorAll("a[data-view]").forEach(a =>
           a.classList.toggle("active", a.dataset.view === view));
@@ -1459,10 +1487,12 @@
             if (top < list.scrollTop + 30 || top > list.scrollTop + h - 40) list.scrollTop = top - h / 3;
           }
           renderSquad(lastNation);
-        } else if (view === "player") renderPlayer(player, index);
+        } else if (view === "player") renderPlayer(player, index, cardPos);
         else if (view === "records") renderRecords(countries);
         else renderOverview(countries);
-        if (nation || key) window.scrollTo({ top: 0 });
+        const samePlayer = player && player === lastPlayer;
+        lastPlayer = player;
+        if ((nation || key) && !samePlayer) window.scrollTo({ top: 0 });
       };
       window.addEventListener("hashchange", route);
       route();
