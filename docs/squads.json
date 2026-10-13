@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 20:21 UTC",
+ "updated": "2026-10-13 20:26 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -13610,20 +13610,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/61651"
     },
     {
-     "name": "Dan Burn",
-     "pos": "CB",
-     "rating": 94.0,
-     "number": 15,
-     "squad": "second",
-     "section": "substitutes",
-     "since": "2026-08-08",
-     "dropped": "2026-08-13",
-     "days": 5,
-     "callups": 1,
-     "img": "https://img.a.transfermarkt.technology/portrait/big/134270-1682340860.jpg",
-     "tm": "https://www.transfermarkt.com/x/profil/spieler/134270"
-    },
-    {
      "name": "Harry Maguire",
      "pos": "CB",
      "rating": 94.0,
@@ -13636,6 +13622,20 @@
      "callups": 3,
      "img": "https://img.a.transfermarkt.technology/portrait/big/177907-1663841733.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/177907"
+    },
+    {
+     "name": "Dan Burn",
+     "pos": "CB",
+     "rating": 94.0,
+     "number": 15,
+     "squad": "second",
+     "section": "substitutes",
+     "since": "2026-08-08",
+     "dropped": "2026-08-13",
+     "days": 5,
+     "callups": 1,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/134270-1682340860.jpg",
+     "tm": "https://www.transfermarkt.com/x/profil/spieler/134270"
     },
     {
      "name": "Kieran Trippier",
@@ -30063,20 +30063,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/262262"
     },
     {
-     "name": "Antonio Sanabria",
-     "pos": "CF",
-     "rating": 73.4,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Agustín Sández",
      "pos": "LB",
      "rating": 73.4,
@@ -30089,6 +30075,20 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/847023-1742570529.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/847023"
+    },
+    {
+     "name": "Antonio Sanabria",
+     "pos": "CF",
+     "rating": 73.4,
+     "number": 9,
+     "squad": "first",
+     "section": "substitutes",
+     "since": "2026-07-03",
+     "dropped": "2026-08-15",
+     "days": 43,
+     "callups": 1,
+     "img": null,
+     "tm": null
     }
    ]
   },
@@ -39075,22 +39075,7 @@
    "flag": "🇹🇯",
    "group": "backup",
    "players": [],
-   "dropouts": [
-    {
-     "name": "Maksim Kireev",
-     "pos": "AMF",
-     "rating": 66.63,
-     "number": 7,
-     "squad": "first",
-     "section": "starters",
-     "since": "2026-09-07",
-     "dropped": "2026-10-09",
-     "days": 32,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    }
-   ]
+   "dropouts": []
   },
   {
    "id": "thailand",

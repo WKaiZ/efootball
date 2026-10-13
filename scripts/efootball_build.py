@@ -276,14 +276,19 @@ def history_texts(repo, rel_path):
 
     Edits made and undone within one day (a player added to a first draft and
     removed that evening) never existed as far as the history is concerned.
+    History follows renames but stops at copies: a nation file started from
+    another nation's file must not inherit that nation's past squads.
     """
-    out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-only", "--", rel_path)
+    out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-status", "--", rel_path)
     commits, h, d = [], None, None
     for ln in out.splitlines():
         if ln.startswith("C|"):
             _, h, d = ln.split("|")
         elif ln.strip():
-            commits.append((h, d[:10], ln.strip()))
+            status, *paths = ln.split("\t")
+            commits.append((h, d[:10], paths[-1]))
+            if status.startswith("C"):
+                break
     latest = {}
     for h, d, path in commits:
         latest.setdefault(d, (h, path))
