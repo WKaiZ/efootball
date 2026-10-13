@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 17:39 UTC",
+ "updated": "2026-10-13 17:47 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -30670,20 +30670,6 @@
      "tm": "https://www.transfermarkt.com/x/profil/spieler/262262"
     },
     {
-     "name": "Antonio Sanabria",
-     "pos": "CF",
-     "rating": 73.4,
-     "number": 9,
-     "squad": "first",
-     "section": "substitutes",
-     "since": "2026-07-03",
-     "dropped": "2026-08-15",
-     "days": 43,
-     "callups": 1,
-     "img": null,
-     "tm": null
-    },
-    {
      "name": "Agustín Sández",
      "pos": "LB",
      "rating": 73.4,
@@ -30696,6 +30682,20 @@
      "callups": 1,
      "img": "https://img.a.transfermarkt.technology/portrait/big/847023-1742570529.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/847023"
+    },
+    {
+     "name": "Antonio Sanabria",
+     "pos": "CF",
+     "rating": 73.4,
+     "number": 9,
+     "squad": "first",
+     "section": "substitutes",
+     "since": "2026-07-03",
+     "dropped": "2026-08-15",
+     "days": 43,
+     "callups": 1,
+     "img": null,
+     "tm": null
     }
    ]
   },
