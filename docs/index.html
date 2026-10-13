@@ -458,19 +458,19 @@
 
   function card(p, c, showCountry) {
     const medal = p.tenureRank ? `<span class="ef-medal">${MEDAL[p.tenureRank]}</span>` : "";
-    const tip = `${p.name} · ${p.pos} · ${p.card_type || "Standard"} · rating ${p.rating.toFixed(0)} · in squad since ${p.since}`;
+    const tip = `${p.name} · ${p.pos} · ${p.card_type || "Standard"} · rating ${p.rating.toFixed(0)}${p.since ? ` · in squad since ${p.since}` : p.note ? ` · ${p.note}` : ""}`;
     const cls = `ef-card ${ctClass(p.card_type)}${p.tenureRank ? " ef-ranked" : ""}`;
     const inner = `
       <div class="ef-photo">
         ${photoHTML(p)}
-        <span class="ef-num">#${p.number}</span>
+        ${p.number != null ? `<span class="ef-num">#${p.number}</span>` : ""}
         <span class="ef-rating">${p.rating.toFixed(0)}</span>
       </div>
       <div class="ef-name">${esc(p.name)}</div>
       ${showCountry ? `<div class="ef-country">${c.flag||""} ${esc(c.name)}</div>` : ""}
       <div class="ef-meta-row">
         <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
-        <span class="ef-days">${medal}${daysSince(p.since)}d</span>
+        <span class="ef-days">${p.since ? `${medal}${daysSince(p.since)}d` : esc(p.note || "pool")}</span>
       </div>`;
     return `<a class="${cls}" href="${esc(playerHref(c, p))}" title="${esc(tip)}">${inner}</a>`;
   }
@@ -1303,6 +1303,14 @@
     const nationAtPos = c.players.filter(x => x.pos === pos && !entry.apps.includes(x))
       .sort((a, b) => b.rating - a.rating);
     const weakest = nationAtPos[nationAtPos.length - 1];
+    const STATUS_NOTE = { squad: "listed elsewhere", dropped: "dropped", pool: "not called up" };
+    const poolAtPos = [];
+    for (const e of index.values()) {
+      if (e.c !== c || e === entry || !e.pool || e.apps.some(a => a.pos === pos)) continue;
+      const row = e.pool.rows.find(r => r[0] === pos);
+      if (row) poolAtPos.push({ name: e.p.name, pos, rating: row[1], card_type: row[2], img: e.p.img, tm: e.p.tm, note: STATUS_NOTE[e.status] });
+    }
+    poolAtPos.sort((a, b) => b.rating - a.rating);
     const gapStat = weakest
       ? statHTML(`${signed(cur.rating - weakest.rating)}<small>vs ${esc(weakest.name)}</small>`, `Gap to weakest ${esc(pos)}`)
       : statHTML(`—<small>no ${esc(pos)} in squad</small>`, `Gap to weakest ${esc(pos)}`);
@@ -1377,7 +1385,8 @@
         <div class="pl-stack">${sidePanel || ""}${posPanel}</div>
       </div>
       <div id="pl-history" class="pl-history" data-key="${esc(entry.key)}">${panel("Card history", "loading…", "")}</div>
-      ${nationAtPos.length ? gridSectionPlayers(`${listing ? "Other" : "Current"} ${esc(pos)}s in ${esc(c.name)}`, nationAtPos, c) : ""}`;
+      ${nationAtPos.length ? gridSectionPlayers(`${listing ? "Other" : "Current"} ${esc(pos)}s in ${esc(c.name)}`, nationAtPos, c) : ""}
+      ${poolAtPos.length ? gridSectionPlayers(`${esc(pos)} cards in the ${esc(c.name)} pool, not in a squad at ${esc(pos)}`, poolAtPos, c) : ""}`;
     root().querySelectorAll(".card-pick, .ladder-tab").forEach(el =>
       el.addEventListener("click", () => goCard(entry, el.dataset.pos)));
     fillHistory(entry, pos);
