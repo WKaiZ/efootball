@@ -47,7 +47,7 @@ jobs:
         run: python3 scripts/efootball_build.py
 
       - name: Stage changes
-        run: git add docs/squads.json data
+        run: git add docs/squads.json docs/players.json docs/history.json data
 
       - name: Commit and push
         uses: ./.github/actions/commit-push

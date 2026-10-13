@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import difflib
 import json
 import os
 import re
@@ -36,6 +37,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA_DIR = os.path.join(ROOT, "data")
 SQUADS_PATH = os.path.join(ROOT, "docs", "squads.json")
+PLAYERS_PATH = os.path.join(ROOT, "docs", "players.json")
+HISTORY_PATH = os.path.join(ROOT, "docs", "history.json")
 CACHE_PATH = os.path.join(DATA_DIR, "img_cache.json")
 OVERRIDES_PATH = os.path.join(DATA_DIR, "overrides.json")
 
@@ -48,7 +51,6 @@ LINE_RE = re.compile(
     r"^\s*\[(?P<slot>[A-Z]+)\]\s+(?P<name>.+?)\s+\((?P<pos>[A-Z]+)\)\s+"
     r"rating\s+(?P<rating>[\d.]+)\s+#(?P<num>\d+)\s*$"
 )
-
 # Flags for the four UK home nations are subdivision flag sequences that can't
 # be derived from a two-letter code, so they're kept explicit.
 _SCOT = "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F"
@@ -162,7 +164,96 @@ def parse_pool_rows(text):
             rows[(norm(m["name"]), m["pos"])] = pool_sig(ln)
     return rows
 
-def history_versions(repo, rel_path, parser=parse_sigs):
+POOL_FULL_RE = re.compile(
+    r"^\s*(?P<name>[^,\[\]]+?),\s*(?P<pos>[A-Z]+),\s*(?P<rating>[\d.]+),\s*"
+    r"(?:(?P<recent>True|False),\s*)?(?P<card>[A-Za-z]+),\s*"
+    r"\[(?P<prof>[^\]]*)\],\s*\[(?P<semi>[^\]]*)\]")
+
+CARD_TYPES = ("Standard", "Highlight", "Showtime", "Epic", "BigTime")
+POOL_CARD_RE = re.compile(
+    r"(?m)^(\s*[^,\[\]]+?,\s*[A-Z]+,\s*[\d.]+,\s*(?:(?:True|False),\s*)?)([A-Za-z]+)(?=,\s*\[)")
+
+def canon_card(card):
+    """Fix card-type typos in the pool files ("Bigtime", "Standrd")."""
+    for name in CARD_TYPES:
+        if card.lower() == name.lower():
+            return name
+    close = difflib.get_close_matches(card, CARD_TYPES, n=1, cutoff=0.75)
+    return close[0] if close else card
+
+def clean_pool_text(text):
+    return POOL_CARD_RE.sub(lambda m: m[1] + canon_card(m[2]), text)
+
+def _names_in(squad_text, pool_text):
+    names = {p["name"] for p in _parse_players(squad_text or "")}
+    names |= {m["name"].strip() for m in map(POOL_ROW_RE.match, (pool_text or "").splitlines()) if m}
+    return names
+
+def detect_renames(squad_texts, pool_texts, squad_now, pool_now, today):
+    """Spelling fixes to player names, as {old name: current name}.
+
+    A rename is a name that vanishes from both files on the day a near-identical
+    name first appears in the same nation: 80%+ similar overall and 85%+ on the
+    surname, so "Cristhian Stuani" -> "Christhian Stuani" counts but teammates
+    who only share a first name ("Matías Vecino", "Matías Viña") don't. Without
+    this, a fix reads as a drop-out plus a call-up.
+    """
+    def similar(a, b):
+        a, b = norm(a), norm(b)
+        whole = difflib.SequenceMatcher(None, a, b).ratio()
+        surname = difflib.SequenceMatcher(None, a.split()[-1], b.split()[-1]).ratio()
+        return whole if surname >= 0.85 else 0
+
+    days = {}
+    for key, texts, now in (("s", squad_texts, squad_now), ("p", pool_texts, pool_now)):
+        for d, t in reversed(texts):
+            days.setdefault(d, {})[key] = t
+        if now is not None:
+            days.setdefault(today.isoformat(), {})[key] = now
+    cur, prev, renames = {}, None, {}
+    for d in sorted(days):
+        cur.update(days[d])
+        names = _names_in(cur.get("s"), cur.get("p"))
+        if prev is not None:
+            new = names - prev
+            for old in prev - names:
+                if not new:
+                    break
+                best = max(new, key=lambda n: similar(old, n))
+                if norm(old) != norm(best) and similar(old, best) >= 0.8:
+                    renames[old] = best
+        prev = names
+    for old in list(renames):
+        seen = {old}
+        while renames[old] in renames and renames[old] not in seen:
+            seen.add(renames[old])
+            renames[old] = renames[renames[old]]
+    return renames
+
+def apply_renames(text, renames):
+    for old, new in renames.items():
+        text = re.sub(rf"(?m)^(\s*(?:\[[A-Z]+\]\s+)?){re.escape(old)}(?=\s+\(|\s*,)",
+                      lambda m: m[1] + new, text)
+    return text
+
+def parse_pool(text):
+    """Group a nation's *_players.txt rows by player, best position first."""
+    pool = {}
+    for ln in text.splitlines():
+        m = POOL_FULL_RE.match(ln)
+        if not m:
+            continue
+        entry = pool.setdefault(norm(m["name"]), {
+            "name": m["name"].strip(), "recent": m["recent"] == "True", "rows": []})
+        entry["rows"].append([m["pos"], float(m["rating"]), m["card"],
+                              re.sub(r"\s+", "", m["prof"]), re.sub(r"\s+", "", m["semi"]),
+                              m["recent"] == "True"])
+    for entry in pool.values():
+        entry["rows"].sort(key=lambda r: -r[1])
+    return pool
+
+def history_texts(repo, rel_path):
+    """Every committed version of a file, newest first, as (date, text)."""
     out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-only", "--", rel_path)
     commits, h, d = [], None, None
     for ln in out.splitlines():
@@ -170,7 +261,98 @@ def history_versions(repo, rel_path, parser=parse_sigs):
             _, h, d = ln.split("|")
         elif ln.strip():
             commits.append((h, d[:10], ln.strip()))
-    return [(d, parser(git(repo, "show", f"{h}:{path}"))) for h, d, path in commits]
+    return [(d, git(repo, "show", f"{h}:{path}")) for h, d, path in commits]
+
+def history_versions(repo, rel_path, parser=parse_sigs, texts=None):
+    if texts is None:
+        texts = history_texts(repo, rel_path)
+    return [(d, parser(t)) for d, t in texts]
+
+def squad_members(text):
+    members = {}
+    for p in _parse_players(text):
+        members.setdefault(norm(p["name"]), p)
+    return members
+
+# A card is one player at one position: a player can hold several cards
+# (Messi has CF, SS and RWF), and each card keeps its own history.
+def _squad_states(text):
+    states = {}
+    for p in _parse_players(text):
+        entry = states.setdefault((norm(p["name"]), p["pos"]), [p["name"], []])
+        entry[1].append([p["squad"], p["section"], p["slot"], p["number"], p["rating"]])
+    return states
+
+def _pool_states(text):
+    return {(key, row[0]): [e["name"], [row[1], row[2], row[5]]]
+            for key, e in parse_pool(text).items() for row in e["rows"]}
+
+def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
+    """Per-card snapshots, recorded only on days that card changed.
+
+    Output is {player name: {position: [snapshot, ...]}}, where a snapshot is
+    {"d": date, "a": [[squad, section, slot, number, rating], ...],
+    "p": [rating, card type, recent] or null}. Several commits on one day
+    collapse to that day's last version.
+    """
+    def by_day(texts, now, parser):
+        days = {d: parser(t) for d, t in reversed(texts)}
+        if now is not None:
+            days[today.isoformat()] = parser(now)
+        return days
+
+    squads = by_day(squad_texts, squad_now, _squad_states)
+    pools = by_day(pool_texts, pool_now, _pool_states)
+    cur_sq, cur_pool, last, names, hist = {}, {}, {}, {}, {}
+    for d in sorted(set(squads) | set(pools)):
+        cur_sq = squads.get(d, cur_sq)
+        cur_pool = pools.get(d, cur_pool)
+        for k in set(cur_sq) | set(cur_pool) | set(last):
+            sq, pl = cur_sq.get(k), cur_pool.get(k)
+            if sq or pl:
+                names[k[0]] = (sq or pl)[0]
+            snap = {"a": sq[1] if sq else [], "p": pl[1] if pl else None}
+            if snap != last.get(k):
+                hist.setdefault(k, []).append({"d": d, **snap})
+                last[k] = snap
+    out = {}
+    for (n, pos), snaps in hist.items():
+        out.setdefault(names[n], {})[pos] = snaps
+    return out
+
+def squad_history(texts, current, today):
+    """Call-up counts and unbroken-stint start dates for current players, plus
+    the drop-outs from past versions.
+
+    A drop-out is anyone listed in an earlier version of the squad file who is
+    in neither squad now; a stint is an unbroken run of versions listing them.
+    """
+    chrono = [(d, squad_members(t)) for d, t in reversed(texts)]
+    chrono.append((today.isoformat(), {norm(p["name"]): p for p in current}))
+    names = {n for _, members in chrono for n in members}
+    callups, joined, dropouts = {}, {}, []
+    for n in names:
+        present = [n in members for _, members in chrono]
+        runs = sum(1 for i, x in enumerate(present) if x and (i == 0 or not present[i - 1]))
+        callups[n] = runs
+        last = max(i for i, x in enumerate(present) if x)
+        start = last
+        while start > 0 and present[start - 1]:
+            start -= 1
+        if present[-1]:
+            joined[n] = chrono[start][0]
+            continue
+        info = chrono[last][1][n]
+        since, dropped = chrono[start][0], chrono[last + 1][0]
+        dropouts.append({
+            "name": info["name"], "pos": info["pos"], "rating": info["rating"],
+            "number": info["number"], "squad": info["squad"], "section": info["section"],
+            "since": since, "dropped": dropped,
+            "days": (datetime.fromisoformat(dropped) - datetime.fromisoformat(since)).days,
+            "callups": runs,
+        })
+    dropouts.sort(key=lambda d: (d["dropped"], d["rating"]), reverse=True)
+    return callups, joined, dropouts
 
 def compute_since(versions, sig):
     since = None
@@ -333,7 +515,7 @@ def build():
     game_data, card_types = load_game_data(os.path.join(ROOT, "pes.db"))
     today = datetime.now(timezone.utc).date()
 
-    out_countries, all_players = [], []
+    out_countries, all_players, extras, pools, histories = [], [], [], {}, {}
     for group_dir, group in GROUPS:
         base = os.path.join(ROOT, group_dir)
         if not os.path.isdir(base):
@@ -343,13 +525,23 @@ def build():
             path = os.path.join(ROOT, rel)
             if not os.path.exists(path):
                 continue
-            players = _parse_players(open(path).read())
-            versions = history_versions(ROOT, rel, parse_squad_sigs)
+            squad_now = open(path).read()
+            players = _parse_players(squad_now)
+            texts = history_texts(ROOT, rel)
             pool_rel = f"{group_dir}/{c}/{c}_players.txt"
             pool_path = os.path.join(ROOT, pool_rel)
-            pool_rows = (parse_pool_rows(open(pool_path).read())
-                         if os.path.exists(pool_path) else {})
-            pool_versions = (history_versions(ROOT, pool_rel, parse_pool_sigs)
+            pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
+            pool_texts = ([(d, clean_pool_text(t)) for d, t in history_texts(ROOT, pool_rel)]
+                          if pool_now is not None else [])
+            renames = detect_renames(texts, pool_texts, squad_now, pool_now, today)
+            if renames:
+                log(f"  {c}: treating renames as one player: "
+                    + ", ".join(f"{o} -> {n}" for o, n in renames.items()))
+                texts = [(d, apply_renames(t, renames)) for d, t in texts]
+                pool_texts = [(d, apply_renames(t, renames)) for d, t in pool_texts]
+            versions = history_versions(ROOT, rel, parse_squad_sigs, texts)
+            pool_rows = parse_pool_rows(pool_now) if pool_now is not None else {}
+            pool_versions = (history_versions(ROOT, pool_rel, parse_pool_sigs, pool_texts)
                              if pool_rows else [])
             ov = {norm(k): v for k, v in (overrides.get(c) or {}).items()
                   if not str(k).startswith("_")}
@@ -369,15 +561,35 @@ def build():
                 p["days"] = (today - datetime.fromisoformat(since).date()).days
             for squad in ("first", "second"):
                 _assign_medals([p for p in players if p["squad"] == squad])
+            callups, joined, dropouts = squad_history(texts, players, today)
+            for p in players:
+                p["callups"] = callups.get(norm(p["name"]), 1)
+                # "since" restarts whenever the row changes (number, rating,
+                # slot); "joined" only restarts when the player leaves the squad.
+                p["joined"] = min(joined.get(norm(p["name"]), p["since"]), p["since"])
+            for d in dropouts:
+                d["tm_id"] = find_tm_id(game_data.get(c, []), d, ov.get(norm(d["name"])))
+            pool = parse_pool(pool_now) if pool_now is not None else {}
+            for key, entry in pool.items():
+                best = entry["rows"][0]
+                entry["tm_id"] = find_tm_id(game_data.get(c, []),
+                                            {"name": entry["name"], "pos": best[0], "rating": best[1]},
+                                            ov.get(key))
+            pools[c] = list(pool.values())
+            histories[c] = card_history(
+                texts, pool_texts, squad_now, pool_now, today)
             flag = flag_for(c)
             if not flag:
                 log(f"  WARNING: no flag mapping for '{c}' — add it to "
                     f"ISO2 in efootball_build.py (flag will be blank).")
             out_countries.append({
         "id": c, "name": display_name(c), "flag": flag, "group": group,
-            "players": players,
+                "players": players, "dropouts": dropouts,
             })
             all_players.extend((c, p) for p in players)
+            extras.extend((c, {**d, "days": -1}) for d in dropouts)
+            extras.extend((c, {"name": e["name"], "tm_id": e["tm_id"], "days": -1})
+                          for e in pools[c])
             log(f"  {group_dir}/{c}: {len(players)} players")
 
     out_countries.sort(key=lambda c: c["name"].lower())
@@ -394,7 +606,14 @@ def build():
             log("Nations unchanged.")
 
     _resolve_fotmob(all_players, cache)
-    _backfill_transfermarkt(all_players, cache)
+    # Drop-outs and pool-only players queue behind every current squad player.
+    _backfill_transfermarkt(all_players + extras, cache)
+
+    def photo(tm_id):
+        return tm_cache.get(tm_id) if tm_id else None
+
+    def tm_link(tm_id):
+        return TM_LINK.format(id=tm_id) if tm_id else None
 
     for c in out_countries:
         for p in c["players"]:
@@ -414,6 +633,8 @@ def build():
             if p["tm_id"]:
                 p["tm"] = TM_LINK.format(id=p["tm_id"])
             p.pop("fm_id", None); p.pop("tm_id", None); p.pop("row", None)
+        for d in c["dropouts"]:
+            d["img"], d["tm"] = photo(d["tm_id"]), tm_link(d.pop("tm_id"))
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -421,6 +642,15 @@ def build():
         "countries": out_countries,
     }
     json.dump(out, open(SQUADS_PATH, "w"), ensure_ascii=False, indent=1)
+    json.dump({
+        "updated": out["updated"],
+        # Rows are [position, rating, card type, proficient, semi-proficient].
+        "countries": {c: [{"name": e["name"], "recent": e["recent"], "rows": e["rows"],
+                           "img": photo(e["tm_id"]), "tm": tm_link(e["tm_id"])}
+                          for e in pool] for c, pool in pools.items()},
+    }, open(PLAYERS_PATH, "w"), ensure_ascii=False, separators=(",", ":"))
+    json.dump({"updated": out["updated"], "countries": histories},
+              open(HISTORY_PATH, "w"), ensure_ascii=False, separators=(",", ":"))
     save_cache(cache)
 
     have = sum(1 for c in out_countries for p in c["players"] if p["img"])

@@ -3,138 +3,442 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>eFootball Squads · Wesley Zheng</title>
-  <meta name="description" content="Wesley Zheng's eFootball national-team squads for the top 50 FIFA Men's World Ranking nations, refreshed daily.">
+  <title>The Call-Up · Wesley Zheng</title>
+  <meta name="description" content="Wesley Zheng's national-team squads for the top 100 FIFA Men's World Ranking nations, refreshed daily.">
   <link rel="icon" href="https://wkaiz.github.io/assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
+    :root { --bg:#08090b; --panel:#0e1013; --panel-2:#13161a; --line:#1f242b; --line-2:#2a313a;
+            --ink:#e6e9ee; --muted:#7d8794; --dim:#545d68; --accent:#38bdf8;
+            --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+            --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
     * { box-sizing:border-box; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-           background:#fafbfc; color:#1f2937; line-height:1.5; }
-    a { color:#2c6bed; }
-    .site-header { background:#fff; border-bottom:1px solid #e6e8eb; }
-    .site-header .inner { max-width:1400px; margin:0 auto; padding:.8rem 1.5rem;
-                          display:flex; align-items:center; justify-content:space-between; gap:1rem; }
-    .site-title { font-weight:700; font-size:1.1rem; color:inherit; text-decoration:none; }
-    .site-nav a { margin-left:1rem; font-size:.9rem; text-decoration:none; color:#4b5563; }
-    .site-nav a:hover { color:#2c6bed; }
-    main { max-width:1400px; margin:0 auto; padding:1.5rem; }
-    h1 { font-size:1.8rem; margin:0 0 .5rem; }
-    .intro { color:#374151; margin:0 0 1rem; max-width:60rem; }
+    body { margin:0; font-family:var(--sans); color:var(--ink); line-height:1.5; -webkit-font-smoothing:antialiased;
+           background-color:var(--bg);
+           background-image:linear-gradient(var(--line) 1px, transparent 1px),
+                            linear-gradient(90deg, var(--line) 1px, transparent 1px);
+           background-size:48px 48px; background-position:-1px -1px; background-attachment:fixed; }
+    body::before { content:""; position:fixed; inset:0; pointer-events:none; z-index:-1;
+                   background:radial-gradient(ellipse at 50% 0%, transparent 0%, var(--bg) 75%); }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; text-underline-offset:3px; }
+    ::selection { background:rgba(56,189,248,.3); }
 
-    .ef-wrap { --ef-card-bg:#fff; --ef-card-br:#e6e8eb; --ef-muted:#6b7280;
-               --ef-accent:#2c6bed; --ef-shadow:0 1px 3px rgba(0,0,0,.08);
-               --ef-chip:#eef2f7; --ef-photo-bg:#f1f3f6;
-               color:#1f2937; margin-top:.5rem; }
-    .ef-meta { color:var(--ef-muted); font-size:.85rem; margin-bottom:1rem; }
-    .ef-tabs { margin-bottom:1.25rem; }
-    .ef-tab-group { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem; margin-bottom:.6rem; }
-    .ef-tab-label { width:100%; font-size:.75rem; font-weight:600; letter-spacing:.04em;
-                    text-transform:uppercase; color:var(--ef-muted); margin-top:.2rem; }
-    .ef-tab { display:inline-flex; align-items:center; gap:.4rem; cursor:pointer;
-              border:1px solid var(--ef-card-br); background:var(--ef-card-bg);
-              border-radius:999px; padding:.35rem .8rem; font-size:.9rem; line-height:1;
-              transition:all .12s ease; color:inherit; font-family:inherit; }
-    .ef-tab:hover { border-color:var(--ef-accent); }
-    .ef-tab.active { background:var(--ef-accent); border-color:var(--ef-accent); color:#fff; }
-    .ef-tab .flag { font-size:1.05rem; }
-    .ef-squad-switch { display:flex; gap:.35rem; margin:.25rem 0 1rem; }
-    .ef-squad-choice { cursor:pointer; border:1px solid var(--ef-card-br);
-                       background:var(--ef-card-bg); color:inherit; border-radius:8px;
-                       padding:.3rem .7rem; font-size:.8rem; font-family:inherit; }
-    .ef-squad-choice:hover { border-color:var(--ef-accent); }
-    .ef-squad-choice.active { background:var(--ef-accent); border-color:var(--ef-accent); color:#fff; }
-    .ef-section-title { font-size:1.05rem; font-weight:600; margin:1.5rem 0 .7rem;
-                        display:flex; align-items:baseline; gap:.5rem; }
-    .ef-section-title .count { color:var(--ef-muted); font-weight:400; font-size:.85rem; }
-    .ef-grid { display:grid; gap:.8rem; grid-template-columns:repeat(auto-fill,minmax(140px,1fr)); }
-    .ef-card { position:relative; background:var(--ef-card-bg); border:1px solid var(--ef-card-br);
-               border-radius:14px; padding:.55rem; box-shadow:var(--ef-shadow); text-align:center;
-               transition:transform .12s ease, box-shadow .12s ease; }
-    .ef-card:hover { transform:translateY(-3px); box-shadow:0 6px 16px rgba(0,0,0,.14); }
-    a.ef-card { display:block; color:inherit; text-decoration:none; cursor:pointer; }
-    a.ef-card:hover .ef-name { color:var(--ef-accent); }
-    .ef-photo { position:relative; width:100%; aspect-ratio:3/4; margin:0 auto .5rem;
-                border-radius:10px; background:var(--ef-photo-bg); overflow:hidden;
-                display:flex; align-items:center; justify-content:center; }
+    /* Navigation */
+    .site-header { position:sticky; top:0; z-index:50; background:rgba(8,9,11,.82);
+                   backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
+    .site-header .inner { max-width:1320px; margin:0 auto; padding:0 1.5rem; display:flex; align-items:stretch;
+                          justify-content:space-between; gap:1rem; flex-wrap:wrap; min-height:52px; }
+    .site-title { display:flex; align-items:center; gap:.6rem; font-family:var(--mono); font-weight:600;
+                  font-size:.9rem; color:var(--ink); letter-spacing:.02em; }
+    .site-title:hover { text-decoration:none; }
+    .site-title .dot { width:8px; height:8px; background:var(--accent); box-shadow:0 0 10px var(--accent); }
+    .site-nav { display:flex; flex-wrap:wrap; align-items:stretch; }
+    .site-nav a { display:flex; align-items:center; font-family:var(--mono); font-size:.76rem; font-weight:500;
+                  letter-spacing:.06em; text-transform:uppercase; color:var(--muted); padding:0 .9rem;
+                  border-bottom:2px solid transparent; margin-bottom:-1px; transition:color .15s, border-color .15s; }
+    .site-nav a:hover { color:var(--ink); text-decoration:none; }
+    .site-nav a.active { color:var(--ink); border-bottom-color:var(--accent); }
+    .site-nav .sep { width:1px; background:var(--line); margin:.9rem .4rem; }
+
+    /* Hero */
+    .hero { border-bottom:1px solid var(--line); }
+    .hero .inner { max-width:1320px; margin:0 auto; padding:1.75rem 1.5rem 1.5rem; display:grid;
+                   grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:2rem; align-items:end; }
+    .eyebrow { font-family:var(--mono); font-size:.72rem; color:var(--accent); letter-spacing:.08em; }
+    .eyebrow::before { content:"> "; color:var(--dim); }
+    h1 { font-size:clamp(1.8rem, 3.6vw, 2.5rem); line-height:1.1; letter-spacing:-.02em; margin:.5rem 0 .6rem; font-weight:700; }
+    .intro { color:var(--muted); margin:0; max-width:46rem; font-size:1rem; }
+    .intro a { color:var(--ink); border-bottom:1px solid var(--accent); }
+    .intro a:hover { text-decoration:none; color:var(--accent); }
+    .hero-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1px; margin-top:0;
+                  border:1px solid var(--line); background:var(--line); max-width:860px; }
+    .stat { padding:.8rem 1rem; background:var(--panel); min-width:0; }
+    .stat span { display:block; font-family:var(--mono); font-size:.66rem; color:var(--dim);
+                 text-transform:uppercase; letter-spacing:.1em; }
+    .stat b { display:block; font-family:var(--mono); font-size:1rem; font-weight:500; margin-top:.15rem;
+              white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .stat b small { display:block; font-size:.7rem; font-weight:400; color:var(--muted); margin-top:.1rem; }
+
+    main { max-width:1320px; margin:0 auto; padding:1.25rem 1.5rem 1rem; }
+    .view-head { margin-bottom:1.1rem; }
+    .view-title { font-size:1.3rem; font-weight:600; margin:0; letter-spacing:-.01em; }
+    .view-desc { color:var(--muted); font-size:.88rem; margin:.15rem 0 0; }
+
+    .ef-wrap { --ef-muted:var(--muted); --ef-accent:var(--accent); color:var(--ink); }
+
+
+    /* Nation header + squad switch */
+    .nation-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;
+                   padding-bottom:.9rem; border-bottom:1px solid var(--line); }
+    .nation-name { display:flex; align-items:center; gap:.7rem; font-size:1.5rem; font-weight:700; letter-spacing:-.01em; }
+    .nation-name .flag { font-size:1.7rem; line-height:1; }
+    .tier { font-family:var(--mono); font-size:.66rem; font-weight:500; letter-spacing:.1em; text-transform:uppercase;
+            padding:.18rem .45rem; border:1px solid currentColor; border-radius:3px; color:#4ade80; }
+    .tier[data-tier="challenger"] { color:var(--accent); }
+    .tier[data-tier="backup"] { color:var(--muted); }
+    .ef-squad-switch { display:inline-flex; border:1px solid var(--line-2); border-radius:4px; overflow:hidden; }
+    .ef-squad-choice { cursor:pointer; border:0; background:transparent; color:var(--muted); padding:.4rem .85rem;
+                       font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; text-transform:uppercase;
+                       transition:all .12s; }
+    .ef-squad-choice + .ef-squad-choice { border-left:1px solid var(--line-2); }
+    .ef-squad-choice:hover { color:var(--ink); }
+    .ef-squad-choice.active { background:var(--ink); color:var(--bg); }
+
+    /* Sections + cards */
+    .ef-section-title { font-family:var(--mono); font-size:.72rem; font-weight:500; letter-spacing:.1em;
+                        text-transform:uppercase; color:var(--muted); margin:1.6rem 0 .8rem;
+                        display:flex; align-items:center; gap:.6rem; }
+    .ef-section-title::before { content:"//"; color:var(--dim); }
+    .ef-section-title .count { color:var(--accent); letter-spacing:0; }
+    .ef-section-title .count::before { content:"["; color:var(--dim); }
+    .ef-section-title .count::after { content:"]"; color:var(--dim); }
+    .ef-section-title::after { content:""; flex:1; height:1px; background:var(--line); }
+    .ef-grid { display:grid; gap:.75rem; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); }
+    .ef-card { --ct:var(--line-2); position:relative; background:var(--panel); border:1px solid var(--line);
+               border-top:2px solid var(--ct); border-radius:4px; padding:.5rem .5rem .65rem; text-align:left;
+               transition:border-color .15s, background .15s, transform .15s; }
+    .ef-card:hover { background:var(--panel-2); border-color:var(--line-2); border-top-color:var(--ct); transform:translateY(-2px); }
+    a.ef-card { display:block; color:inherit; text-decoration:none; }
+    a.ef-card:hover .ef-name { color:var(--accent); }
+    .ef-photo { position:relative; width:100%; aspect-ratio:4/5; margin-bottom:.55rem; border-radius:2px;
+                background:#15191e; overflow:hidden; display:flex; align-items:center; justify-content:center; }
     .ef-photo img { width:100%; height:100%; object-fit:cover; object-position:top center; }
-    .ef-photo .ef-initials { font-size:1.7rem; font-weight:600; color:var(--ef-muted); }
-    .ef-num { position:absolute; top:.35rem; left:.4rem; z-index:2; font-weight:700; font-size:.7rem;
-              color:#fff; background:rgba(0,0,0,.55); border-radius:6px; padding:.06rem .3rem; }
-    .ef-rating { position:absolute; top:.35rem; right:.4rem; z-index:2; font-weight:700; font-size:.7rem;
-                 background:var(--ef-accent); color:#fff; border-radius:6px; padding:.06rem .32rem;
-                 box-shadow:0 1px 2px rgba(0,0,0,.3); }
-    .ef-days .ef-medal { font-size:.9rem; margin-right:.15rem; vertical-align:-1px; }
-    .ef-card.ef-ranked { border-color:var(--ef-accent); }
-    .ef-card.ef-ranked .ef-days { color:var(--ef-accent); font-weight:600; }
-    .ef-name { font-weight:600; font-size:.88rem; line-height:1.2; min-height:2.2em;
-               display:flex; align-items:center; justify-content:center; }
-    .ef-pos { display:inline-block; margin-top:.3rem; font-size:.7rem; font-weight:600;
-              border-radius:6px; padding:.1rem .42rem; background:var(--ef-chip); color:var(--ef-muted); }
-    .ef-country { margin-top:.35rem; font-size:.72rem; color:var(--ef-muted); }
-    .ef-pos[data-line="GK"]  { background:#fde9c8; color:#8a5a00; }
-    .ef-pos[data-line="DEF"] { background:#d6ecff; color:#0b5cad; }
-    .ef-pos[data-line="MID"] { background:#dcf5e3; color:#1f7a3d; }
-    .ef-pos[data-line="FWD"] { background:#ffe0e0; color:#b02121; }
-    .ef-days { margin-top:.35rem; font-size:.68rem; color:var(--ef-muted); }
+    .ef-photo .ef-initials { font-family:var(--mono); font-size:1.5rem; font-weight:500; color:var(--dim); }
+    .ef-num { position:absolute; top:.35rem; left:.35rem; z-index:2; font-family:var(--mono); font-size:.68rem; font-weight:500;
+              color:var(--ink); background:rgba(8,9,11,.78); border:1px solid var(--line-2); border-radius:2px; padding:0 .3rem; }
+    .ef-rating { position:absolute; top:.35rem; right:.35rem; z-index:2; font-family:var(--mono); font-size:.78rem; font-weight:600;
+                 color:var(--bg); background:var(--ct); border-radius:2px; padding:0 .32rem; }
+    .ef-name { font-weight:600; font-size:.88rem; line-height:1.25; min-height:2.5em; display:flex; align-items:center;
+               transition:color .12s; }
+    .ef-meta-row { display:flex; align-items:center; justify-content:space-between; gap:.4rem; margin-top:.35rem; }
+    .ef-pos { font-family:var(--mono); font-size:.66rem; font-weight:500; letter-spacing:.04em; padding:0 .3rem;
+              border:1px solid currentColor; border-radius:2px; color:var(--muted); }
+    .ef-pos[data-line="GK"]  { color:#fbbf24; }
+    .ef-pos[data-line="DEF"] { color:#60a5fa; }
+    .ef-pos[data-line="MID"] { color:#4ade80; }
+    .ef-pos[data-line="FWD"] { color:#f87171; }
+    .ef-country { margin-top:.3rem; font-size:.74rem; color:var(--muted); }
+    .ef-days { font-family:var(--mono); font-size:.66rem; color:var(--dim); }
+    .ef-days .ef-medal { font-size:.8rem; margin-right:.2rem; }
+    .ef-card.ef-ranked .ef-days { color:#fbbf24; }
 
-    .ef-card.ef-ct-standard .ef-rating { background:linear-gradient(135deg,#6b7280,#9ca3af); }
+    .ef-card.ef-ct-standard  { --ct:#6b7280; }
+    .ef-card.ef-ct-highlight { --ct:#e5e7eb; }
+    .ef-card.ef-ct-showtime  { --ct:#f472b6; }
+    .ef-card.ef-ct-epic      { --ct:#f59e0b; }
+    .ef-card.ef-ct-bigtime   { --ct:#22d3ee; }
 
-    .ef-card.ef-ct-highlight .ef-rating { background:linear-gradient(135deg,#374151,#111827); }
-    .ef-card.ef-ct-highlight { background:linear-gradient(160deg,#f4f5f7,#d6dae0);
-      border-color:#6b7280; box-shadow:0 2px 12px rgba(75,85,99,.28); }
-    .ef-card.ef-ct-highlight:hover { box-shadow:0 8px 20px rgba(75,85,99,.40); }
+    .ef-loading, .ef-error { font-family:var(--mono); font-size:.82rem; color:var(--muted); padding:2rem 1rem;
+                             text-align:center; border:1px dashed var(--line-2); background:var(--panel); margin-top:1rem; }
+    footer { font-family:var(--mono); text-align:center; color:var(--dim); font-size:.72rem; padding:2.5rem 1rem;
+             letter-spacing:.06em; }
 
-    .ef-card.ef-ct-showtime .ef-rating { background:linear-gradient(135deg,#db2777,#f472b6); }
-    .ef-card.ef-ct-showtime { background:linear-gradient(160deg,#ffe9f4,#fbcfe8);
-      border-color:#db2777; box-shadow:0 2px 12px rgba(219,39,119,.28); }
-    .ef-card.ef-ct-showtime:hover { box-shadow:0 8px 20px rgba(219,39,119,.40); }
 
-    .ef-card.ef-ct-epic .ef-rating { background:linear-gradient(135deg,#b45309,#f59e0b); }
-    .ef-card.ef-ct-epic { background:linear-gradient(160deg,#fff7e0,#fde68a);
-      border-color:#f59e0b; box-shadow:0 2px 12px rgba(245,158,11,.30); }
-    .ef-card.ef-ct-epic:hover { box-shadow:0 8px 20px rgba(245,158,11,.42); }
+    /* Overview */
+    .ov-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; margin-bottom:1rem; }
+    .panel { background:var(--panel); border:1px solid var(--line); min-width:0; }
+    .panel-head { display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.7rem 1rem;
+                  border-bottom:1px solid var(--line); font-family:var(--mono); font-size:.7rem; letter-spacing:.1em;
+                  text-transform:uppercase; color:var(--muted); }
+    .panel-head::before { content:"//"; color:var(--dim); margin-right:-.2rem; }
+    .panel-head .title { flex:1; }
+    .panel-head .aside { color:var(--dim); letter-spacing:.04em; text-transform:none; }
 
-    .ef-card.ef-ct-bigtime .ef-rating { background:linear-gradient(135deg,#0891b2,#22d3ee); }
-    .ef-card.ef-ct-bigtime { background:linear-gradient(160deg,#e6faff,#bae6fd);
-      border-color:#0891b2; box-shadow:0 2px 12px rgba(8,145,178,.30); }
-    .ef-card.ef-ct-bigtime:hover { box-shadow:0 8px 20px rgba(8,145,178,.42); }
+    .panel:has(> .pitch) { display:flex; flex-direction:column; }
+    .panel.locked { display:flex; flex-direction:column; }
+    .panel.locked .xlist { flex:1; min-height:0; overflow-y:auto; }
+    .pitch { position:relative; flex:1; min-height:400px; margin:1rem; border:1px solid var(--line-2);
+             background:repeating-linear-gradient(0deg, rgba(255,255,255,.012) 0 10%, transparent 10% 20%), #0b0d10; }
+    .pitch .pm { position:absolute; border:1px solid var(--line-2); pointer-events:none; }
+    .pitch .pm.half { left:0; right:0; top:50%; height:0; border-width:1px 0 0; }
+    .pitch .pm.circle { left:50%; top:50%; width:22%; aspect-ratio:1; border-radius:50%; transform:translate(-50%,-50%); }
+    .pitch .pm.box-top { left:25%; right:25%; top:0; height:15%; border-top:0; }
+    .pitch .pm.box-bot { left:25%; right:25%; bottom:0; height:15%; border-bottom:0; }
+    .xi-node { position:absolute; width:92px; transform:translate(-50%,-50%); text-align:center; color:inherit; z-index:1; }
+    a.xi-node:hover { text-decoration:none; }
+    a.xi-node:hover .xi-name { color:var(--accent); }
+    .xi-photo { --ct:var(--line-2); position:relative; width:52px; height:52px; margin:0 auto .3rem; border:2px solid var(--ct);
+                border-radius:3px; background:#15191e; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+    .xi-photo img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+    .xi-photo .ef-initials { font-family:var(--mono); font-size:.9rem; color:var(--dim); }
+    .xi-photo.ef-ct-standard { --ct:#6b7280; } .xi-photo.ef-ct-highlight { --ct:#e5e7eb; }
+    .xi-photo.ef-ct-showtime { --ct:#f472b6; } .xi-photo.ef-ct-epic { --ct:#f59e0b; } .xi-photo.ef-ct-bigtime { --ct:#22d3ee; }
+    .xi-name { font-size:.74rem; font-weight:600; line-height:1.2; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+               transition:color .12s; }
+    .xi-meta { font-family:var(--mono); font-size:.62rem; color:var(--muted); white-space:nowrap; }
+    .xi-meta b { color:var(--ink); font-weight:600; }
 
-    .ef-loading, .ef-error { color:var(--ef-muted); padding:2rem 0; }
-    footer { text-align:center; color:#9ca3af; font-size:.8rem; padding:2rem 1rem; }
+    .feed-row, .rank-row { display:grid; align-items:center; gap:.7rem; padding:.42rem 1rem; border-bottom:1px solid var(--line);
+                           font-size:.85rem; color:inherit; }
+    .feed-row:last-child, .rank-row:last-child { border-bottom:0; }
+    a.feed-row:hover, a.rank-row:hover { background:var(--panel-2); text-decoration:none; }
+    .feed-row { grid-template-columns:3.4rem minmax(0,1fr) auto 2.2rem; }
+    .feed-date { font-family:var(--mono); font-size:.72rem; color:var(--dim); }
+    .feed-who { min-width:0; }
+    .feed-who b { display:block; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .feed-who span { display:block; font-size:.74rem; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .num { font-family:var(--mono); font-size:.82rem; text-align:right; }
+    .feed-more { padding:.6rem 1rem; font-family:var(--mono); font-size:.7rem; color:var(--dim); border-top:1px solid var(--line); }
+
+    .rank-row { grid-template-columns:2rem minmax(0,13rem) minmax(0,1fr) 3.4rem; }
+    .rank-n { font-family:var(--mono); font-size:.74rem; color:var(--dim); }
+    .rank-nation { display:flex; align-items:center; gap:.5rem; min-width:0; font-weight:500; }
+    .rank-nation .nm { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .rank-nation .tier { font-size:.58rem; padding:0 .3rem; }
+    .bar { height:6px; background:#1a1f25; position:relative; }
+    .bar i { position:absolute; left:0; top:0; bottom:0; background:var(--accent); opacity:.85; }
+    .rank-row[data-tier="contender"] .bar i { background:#4ade80; }
+    .rank-row[data-tier="backup"] .bar i { background:var(--muted); }
+    .rank-toggle { display:block; width:100%; padding:.65rem 1rem; border:0; border-top:1px solid var(--line); background:transparent;
+                   color:var(--accent); font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; text-transform:uppercase;
+                   cursor:pointer; text-align:left; }
+    .rank-toggle:hover { background:var(--panel-2); }
+
+    /* Nations sidebar */
+    .layout.with-sidebar { display:grid; grid-template-columns:260px minmax(0,1fr); gap:1.5rem; align-items:start; }
+    .content { min-width:0; }
+    .sidebar[hidden] { display:none; }
+    .sidebar { position:sticky; top:68px; display:flex; flex-direction:column; max-height:calc(100vh - 84px);
+               background:var(--panel); border:1px solid var(--line); }
+    .sidebar .nation-search { margin:.7rem; }
+    .nation-list { overflow-y:auto; flex:1; padding-bottom:.4rem; scrollbar-width:thin; scrollbar-color:var(--line-2) transparent; }
+    .nation-group-label { position:sticky; top:0; z-index:1; display:flex; justify-content:space-between;
+                          padding:.45rem .9rem; background:var(--panel); border-bottom:1px solid var(--line);
+                          font-family:var(--mono); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:var(--dim); }
+    .nation-group-label::before { content:"// "; white-space:pre; }
+    .nation-group-label span { margin-right:auto; }
+    .nation-row { display:grid; grid-template-columns:1.4rem minmax(0,1fr) auto; align-items:center; gap:.5rem;
+                  padding:.36rem .9rem .36rem calc(.9rem - 2px); border-left:2px solid transparent;
+                  font-size:.85rem; color:#b5bdc8; }
+    .nation-row:hover { background:var(--panel-2); color:var(--ink); text-decoration:none; }
+    .nation-row.active { border-left-color:var(--accent); background:rgba(56,189,248,.08); color:var(--ink); }
+    .nation-row .nm { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .nation-row .score { font-family:var(--mono); font-size:.7rem; color:var(--dim); }
+    .nation-row.active .score { color:var(--accent); }
+    .nation-row[hidden], .nation-group[hidden] { display:none; }
+    .nation-search { display:flex; align-items:center; gap:.6rem; border:1px solid var(--line-2); background:var(--bg);
+                     padding:0 .7rem; }
+    .nation-search span { font-family:var(--mono); color:var(--accent); font-size:.85rem; }
+    .nation-search input { flex:1; min-width:0; border:0; outline:0; background:transparent; color:var(--ink);
+                           font-family:var(--mono); font-size:.85rem; padding:.6rem 0; }
+    .nation-search input::placeholder { color:var(--dim); }
+    .nation-search:focus-within { border-color:var(--accent); }
+    .no-match { font-family:var(--mono); font-size:.75rem; color:var(--dim); padding:.6rem .9rem; }
+    .nation-head { margin-top:0; }
+
+    @media (max-width:900px) {
+      .ov-grid { grid-template-columns:minmax(0,1fr); }
+      .pitch { flex:none; aspect-ratio:7/8; min-height:0; }
+      .layout.with-sidebar { grid-template-columns:minmax(0,1fr); gap:1rem; }
+      .sidebar { position:static; max-height:320px; }
+    }
+    @media (max-width:520px) { .xi-node { width:70px; } .xi-photo { width:40px; height:40px; }
+                               .rank-row { grid-template-columns:1.6rem minmax(0,1fr) 3rem; } .rank-row .bar { display:none; } }
+
+    /* Player search */
+    .psearch { position:relative; flex:1; max-width:360px; display:flex; align-items:center; gap:.5rem; align-self:center;
+               border:1px solid var(--line-2); background:var(--bg); padding:0 .6rem; margin:0 1.25rem; }
+    .psearch:focus-within { border-color:var(--accent); }
+    .psearch .ps-icon { font-family:var(--mono); color:var(--accent); font-size:.8rem; }
+    .psearch input { flex:1; min-width:0; border:0; outline:0; background:transparent; color:var(--ink);
+                     font-family:var(--mono); font-size:.8rem; padding:.45rem 0; }
+    .psearch input::placeholder { color:var(--dim); }
+    .psearch input::-webkit-search-cancel-button { display:none; }
+    .psearch kbd { font-family:var(--mono); font-size:.65rem; color:var(--dim); border:1px solid var(--line-2);
+                   border-radius:3px; padding:0 .3rem; }
+    .ps-results { position:absolute; left:-1px; right:-1px; top:calc(100% + 4px); z-index:60; background:var(--panel);
+                  border:1px solid var(--line-2); box-shadow:0 18px 40px rgba(0,0,0,.55); max-height:70vh; overflow-y:auto; }
+    .ps-results[hidden] { display:none; }
+    .ps-item { display:grid; grid-template-columns:32px minmax(0,1fr) auto; gap:.6rem; align-items:center;
+               padding:.45rem .7rem; color:inherit; border-bottom:1px solid var(--line); }
+    .ps-item:last-child { border-bottom:0; }
+    .ps-item:hover, .ps-item.sel { background:var(--panel-2); text-decoration:none; }
+    .ps-item.sel { box-shadow:inset 2px 0 0 var(--accent); }
+    .ps-thumb { width:32px; height:32px; background:#15191e; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+    .ps-thumb img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+    .ps-thumb .ef-initials { font-family:var(--mono); font-size:.65rem; color:var(--dim); }
+    .ps-name { font-size:.85rem; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .ps-name mark { background:none; color:var(--accent); font-weight:700; }
+    .ps-meta { font-size:.72rem; color:var(--muted); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .ps-filters { display:flex; flex-wrap:wrap; gap:.35rem; padding:.5rem .7rem; border-bottom:1px solid var(--line); }
+    .ps-empty { padding:.8rem; font-family:var(--mono); font-size:.75rem; color:var(--dim); }
+
+    /* Player page */
+    .pl-back { display:inline-block; font-family:var(--mono); font-size:.75rem; color:var(--muted); margin-bottom:1rem; }
+    .pl-head { --ct:var(--line-2); display:grid; grid-template-columns:200px minmax(0,1fr); gap:1.5rem;
+               background:var(--panel); border:1px solid var(--line); border-top:2px solid var(--ct); padding:1.25rem; }
+    .pl-head.ef-ct-standard { --ct:#6b7280; } .pl-head.ef-ct-highlight { --ct:#e5e7eb; }
+    .pl-head.ef-ct-showtime { --ct:#f472b6; } .pl-head.ef-ct-epic { --ct:#f59e0b; } .pl-head.ef-ct-bigtime { --ct:#22d3ee; }
+    .pl-photo { aspect-ratio:4/5; background:#15191e; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+    .pl-photo img { width:100%; height:100%; object-fit:cover; object-position:top center; }
+    .pl-photo .ef-initials { font-family:var(--mono); font-size:2.4rem; color:var(--dim); }
+    .pl-top { display:flex; justify-content:space-between; gap:1rem; align-items:flex-start; }
+    .pl-name { font-size:clamp(1.6rem,3.5vw,2.3rem); font-weight:700; letter-spacing:-.02em; line-height:1.1; margin:0; }
+    .pl-sub { margin-top:.4rem; color:var(--muted); display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; }
+    .pl-sub a { color:var(--ink); }
+    .pl-rating { font-family:var(--mono); text-align:right; }
+    .pl-rating b { display:block; font-size:3rem; line-height:1; font-weight:600; color:var(--ct); }
+    .pl-rating span { font-size:.66rem; color:var(--dim); letter-spacing:.1em; text-transform:uppercase; }
+    .pl-badges { display:flex; flex-wrap:wrap; gap:.4rem; margin:.9rem 0 1.1rem; }
+    .chip { font-family:var(--mono); font-size:.68rem; letter-spacing:.04em; padding:.1rem .45rem;
+            border:1px solid var(--line-2); border-radius:2px; color:var(--muted); }
+    .chip.ct { border-color:var(--ct); color:var(--ct); }
+    .pl-stats { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:1px; background:var(--line);
+                border:1px solid var(--line); }
+    .pl-links { margin-top:1rem; display:flex; gap:1rem; font-family:var(--mono); font-size:.78rem; }
+    .pl-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; margin-top:1rem; }
+    .ov-grid.ov-even { grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+    .chip.warn { border-color:#f87171; color:#f87171; }
+    .pl-history { margin-top:1rem; scroll-margin-top:70px; }
+    .card-tabs { display:flex; flex-wrap:wrap; gap:1px; background:var(--line); border-bottom:1px solid var(--line); }
+    .card-tab { font-family:var(--mono); font-size:.72rem; letter-spacing:.06em; padding:.5rem .9rem; border:0; cursor:pointer;
+                background:var(--panel); color:var(--muted); }
+    .card-tab:hover { color:var(--ink); }
+    .card-tab.active { background:var(--panel-2); color:var(--accent); box-shadow:inset 0 -2px 0 var(--accent); }
+    button.card-pick { width:100%; background:none; border:0; border-bottom:1px solid var(--line); color:inherit; font:inherit;
+                       font-size:.85rem; text-align:left; cursor:pointer; align-items:center; }
+    button.card-pick:last-child { border-bottom:0; }
+    button.card-pick:hover, button.card-pick.active { background:var(--panel-2); }
+    button.card-pick.active { box-shadow:inset 2px 0 0 var(--accent); }
+    .chip.in { border-color:#4ade80; color:#4ade80; }
+    .card-side { display:flex; align-items:center; gap:.4rem; }
+    .card-rating { min-width:3.6rem; text-align:right; }
+    .seg { display:flex; gap:1px; background:var(--line); border-bottom:1px solid var(--line); }
+    .seg button { flex:1; font-family:var(--mono); font-size:.7rem; letter-spacing:.06em; padding:.45rem; border:0; cursor:pointer;
+                  background:var(--panel); color:var(--muted); }
+    .seg button.active { background:var(--panel-2); color:var(--accent); box-shadow:inset 0 -2px 0 var(--accent); }
+    .mover-label { font-family:var(--mono); font-size:.64rem; letter-spacing:.1em; text-transform:uppercase; color:var(--dim);
+                   padding:.45rem 1rem .25rem; border-bottom:1px solid var(--line); }
+    .mover-row { display:grid; grid-template-columns:minmax(0,1fr) 84px 6.2rem 3rem; gap:.7rem; align-items:center;
+                 padding:.42rem 1rem; border-bottom:1px solid var(--line); color:inherit; }
+    .mover-row:hover { background:var(--panel-2); text-decoration:none; }
+    .mover-ranks { font-family:var(--mono); font-size:.74rem; color:var(--muted); text-align:right; }
+    .mover-delta { font-family:var(--mono); font-size:.78rem; text-align:right; }
+    .mover-delta.up { color:#4ade80; } .mover-delta.down { color:#f87171; }
+    .spark { width:84px; height:24px; overflow:visible; }
+    .spark path { fill:none; stroke:var(--accent); stroke-width:1.5; vector-effect:non-scaling-stroke; }
+    .strength { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); }
+    .strength-list { border-right:1px solid var(--line); min-width:0; }
+    .strength-chart { min-width:0; position:sticky; top:64px; align-self:start; }
+    .strength-chart-head { display:flex; align-items:center; gap:.5rem; padding:.75rem 1rem 0; font-size:.9rem; }
+    .strength-chart-head a { margin-left:auto; font-family:var(--mono); font-size:.72rem; }
+    .strength-chart .rank-chart { border-bottom:0; }
+    .rank-chart { padding:.75rem 1rem .5rem; border-bottom:1px solid var(--line); }
+    .rank-chart-head { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem; margin-bottom:.5rem; }
+    .rank-chart-head > span:first-child { font-family:var(--mono); font-size:.68rem; letter-spacing:.1em; text-transform:uppercase;
+                                          color:var(--dim); margin-right:.3rem; }
+    .rank-chart svg { display:block; width:100%; height:auto; overflow:visible; }
+    .rank-chart svg text { font-family:var(--mono); font-size:10px; fill:var(--dim); }
+    .rank-chart .rk-grid { stroke:var(--line-2); stroke-dasharray:2 4; }
+    .rank-chart line.rk-on { stroke:var(--accent); stroke-width:2; vector-effect:non-scaling-stroke; }
+    .rank-chart line.rk-off { stroke:var(--muted); stroke-width:1.5; stroke-dasharray:4 3; vector-effect:non-scaling-stroke; }
+    .rank-chart line.rk-step { opacity:.6; }
+    .rank-chart circle.rk-on { fill:var(--accent); } .rank-chart circle.rk-off { fill:var(--muted); }
+    .rank-chart svg { cursor:crosshair; touch-action:pan-y; }
+    .rank-chart .rk-guide { stroke:var(--ink); stroke-opacity:.35; stroke-dasharray:3 3; vector-effect:non-scaling-stroke; }
+    .rank-chart .rk-marker { stroke:var(--bg); stroke-width:2; }
+    .rank-readout { font-family:var(--mono); font-size:.74rem; color:var(--muted); margin-top:.35rem; min-height:1.2em; }
+    .rank-readout b { color:var(--ink); font-weight:500; margin-right:.4rem; }
+    .rank-legend { display:flex; align-items:center; gap:.4rem; margin-top:.35rem; font-family:var(--mono); font-size:.66rem; color:var(--dim); }
+    .rank-legend span { display:inline-block; width:16px; height:0; border-top:2px solid var(--accent); }
+    .rank-legend span.off { border-top:2px dashed var(--muted); margin-left:.8rem; }
+    .hist-facts { display:flex; flex-wrap:wrap; gap:.4rem; padding:.75rem 1rem; border-bottom:1px solid var(--line); }
+    .hist-row { display:grid; grid-template-columns:6.2rem minmax(0,1fr); gap:.8rem; align-items:baseline;
+                padding:.55rem 1rem; border-bottom:1px solid var(--line); }
+    .hist-row:last-child { border-bottom:0; }
+    .hist-changes { display:flex; flex-wrap:wrap; gap:.35rem; }
+    .hc { font-family:var(--mono); font-size:.72rem; padding:.1rem .45rem; border:1px solid var(--line-2); border-radius:2px; color:var(--ink); }
+    .hc.in { border-color:#4ade80; color:#4ade80; } .hc.out { border-color:#f87171; color:#f87171; }
+    .hc.up { color:#4ade80; } .hc.down { color:#f87171; } .hc.card { border-color:var(--accent); color:var(--accent); }
+    .pl-stack { display:flex; flex-direction:column; gap:1rem; min-width:0; }
+    .rank-row.me { background:rgba(56,189,248,.08); box-shadow:inset 2px 0 0 var(--accent); }
+    .rank-row.me .num { color:var(--accent); }
+    .appear { padding:.6rem 1rem; border-bottom:1px solid var(--line); font-size:.85rem; display:flex; justify-content:space-between; gap:1rem; }
+    .appear:last-child { border-bottom:0; }
+    .appear span { color:var(--muted); font-family:var(--mono); font-size:.75rem; }
+    @media (max-width:900px) {
+      .psearch { order:3; flex-basis:100%; max-width:none; margin:0 0 .6rem; }
+      .pl-grid { grid-template-columns:minmax(0,1fr); }
+      .ov-grid.ov-even { grid-template-columns:minmax(0,1fr); }
+    }
+    @media (max-width:600px) { .pl-head { grid-template-columns:110px minmax(0,1fr); gap:1rem; padding:1rem; }
+                               .pl-rating b { font-size:2.2rem; } }
+    @media (max-width:900px) { .hero .inner { grid-template-columns:minmax(0,1fr); gap:1.2rem; }
+                               .strength { grid-template-columns:minmax(0,1fr); }
+                               .strength-list { border-right:0; border-bottom:1px solid var(--line); }
+                               .strength-chart { position:static; } }
+    @media (max-width:640px) {
+      .site-header .inner { padding:0 1rem; }
+      .site-nav a { padding:.6rem .55rem; }
+      .hero .inner { padding:1.5rem 1rem 1.2rem; }
+      main { padding:1.5rem 1rem; }
+      .ef-grid { grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); }
+    }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="inner">
-      <a class="site-title" href="./">eFootball Squads</a>
-      <nav class="site-nav">
-        <a href="https://wkaiz.github.io/">Home</a>
+      <a class="site-title" href="./"><span class="dot"></span>THE CALL-UP</a>
+      <div class="psearch" id="psearch" role="combobox" aria-expanded="false" aria-haspopup="listbox">
+        <span class="ps-icon">&gt;</span>
+        <input id="player-search" type="search" placeholder="search players, nations, positions…" autocomplete="off" spellcheck="false"
+               aria-label="Search players" aria-controls="ps-results">
+        <kbd>/</kbd>
+        <div class="ps-results" id="ps-results" role="listbox" hidden></div>
+      </div>
+      <nav class="site-nav" id="site-nav">
+        <a href="#/" data-view="overview">Overview</a>
+        <a href="#/nations" data-view="nations">Nations</a>
+        <a href="#/records" data-view="records">Records</a>
+        <span class="sep" aria-hidden="true"></span>
         <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <h1>eFootball</h1>
-    <p class="intro">
-      My eFootball national-team squads for top 100 FIFA Men’s World Ranking
-      nations. Squads are generated by my
-      <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">efootball</a>
-      project and this page refreshes automatically every day.
-    </p>
+  <section class="hero" id="hero">
+    <div class="inner">
+      <div>
+      <div class="eyebrow">national-team squads, rebuilt daily</div>
+      <h1>The Call-Up</h1>
+      <p class="intro">
+        My national-team squads for top 100 FIFA Men’s World Ranking nations.
+        Squads are generated by my
+        <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">eFootball</a>
+        project and this page refreshes automatically every day.
+      </p>
+      </div>
+      <div class="hero-stats" id="ef-meta"></div>
+    </div>
+  </section>
 
+  <main>
     <div class="ef-wrap">
-      <div class="ef-meta" id="ef-meta"></div>
-      <div class="ef-tabs" id="ef-tabs" role="tablist"></div>
-      <div id="ef-squad"><div class="ef-loading">Loading squads…</div></div>
+      <div class="view-head">
+        <h2 class="view-title" id="view-title"></h2>
+        <p class="view-desc" id="view-desc"></p>
+      </div>
+      <div class="layout" id="layout">
+        <aside class="sidebar" id="ef-tabs" hidden>
+          <label class="nation-search"><span>&gt;</span>
+            <input id="nation-filter" type="search" placeholder="search nations…" autocomplete="off" spellcheck="false">
+          </label>
+          <nav class="nation-list" id="nation-list" aria-label="Nations"></nav>
+        </aside>
+        <div class="content" id="ef-squad"><div class="ef-loading">loading squads…</div></div>
+      </div>
     </div>
   </main>
 
-  <footer>© Wesley Zheng</footer>
+  <footer>© WESLEY ZHENG</footer>
 
 <script>
 (function () {
-  const DATA_URL = "squads.json";
+  const DATA_URL = "squads.json", POOL_URL = "players.json", HISTORY_URL = "history.json";
   const GROUPS = [["contender", "Contenders"], ["challenger", "Challengers"], ["backup", "Backup"]];
   const LINE = { GK:["GK"], DEF:["CB","LB","RB","LWB","RWB"],
                  MID:["DMF","CMF","AMF","LMF","RMF"], FWD:["CF","SS","LWF","RWF"] };
@@ -144,14 +448,20 @@
 
   const esc = (s) => String(s).replace(/[&<>"]/g, c =>
     ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  const fold = (str) => [...String(str)].map(ch =>
+    (ch.normalize("NFD").replace(/[\u0300-\u036f]/g, "") || ch)[0].toLowerCase());
+  const slug = (str) => fold(str).join("").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const playerKey = (c, p) => `${c.id}/${slug(p.name)}`;
+  const playerHref = (c, p) => `#/player/${playerKey(c, p)}`;
   const initials = (n) => n.split(/\s+/).filter(Boolean).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+  const joinedOf = (p) => p.joined || p.since;
   const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso+"T00:00:00Z"))/86400000));
   const photoHTML = (p) => p.img
     ? `<img loading="lazy" src="${esc(p.img)}" alt="${esc(p.name)}"
          onerror="this.outerHTML='<span class=&quot;ef-initials&quot;>${esc(initials(p.name))}</span>'">`
     : `<span class="ef-initials">${esc(initials(p.name))}</span>`;
 
-  function card(p, country) {
+  function card(p, c, showCountry) {
     const medal = p.tenureRank ? `<span class="ef-medal">${MEDAL[p.tenureRank]}</span>` : "";
     const tip = `${p.name} · ${p.pos} · ${p.card_type || "Standard"} · rating ${p.rating.toFixed(0)} · in squad since ${p.since}`;
     const cls = `ef-card ${ctClass(p.card_type)}${p.tenureRank ? " ef-ranked" : ""}`;
@@ -162,19 +472,19 @@
         <span class="ef-rating">${p.rating.toFixed(0)}</span>
       </div>
       <div class="ef-name">${esc(p.name)}</div>
-      <div><span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span></div>
-      ${country ? `<div class="ef-country">${country.flag||""} ${esc(country.name)}</div>` : ""}
-      <div class="ef-days">${medal}${daysSince(p.since)}d in squad</div>`;
-    return p.tm
-      ? `<a class="${cls}" href="${esc(p.tm)}" target="_blank" rel="noopener" title="${esc(tip)}">${inner}</a>`
-      : `<div class="${cls}" title="${esc(tip)}">${inner}</div>`;
+      ${showCountry ? `<div class="ef-country">${c.flag||""} ${esc(c.name)}</div>` : ""}
+      <div class="ef-meta-row">
+        <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
+        <span class="ef-days">${medal}${daysSince(p.since)}d</span>
+      </div>`;
+    return `<a class="${cls}" href="${esc(playerHref(c, p))}" title="${esc(tip)}">${inner}</a>`;
   }
 
-  function section(title, players, extra) {
+  function section(title, players, c, extra) {
     if (!players.length) return "";
     return `<div class="ef-section ${extra||''}">
       <div class="ef-section-title">${title}<span class="count">${players.length}</span></div>
-      <div class="ef-grid">${players.map(p => card(p)).join("")}</div></div>`;
+      <div class="ef-grid">${players.map(p => card(p, c)).join("")}</div></div>`;
   }
 
   function renderSquad(c, selectedSquad) {
@@ -187,85 +497,1002 @@
       <button class="ef-squad-choice${squad === "second" ? " active" : ""}" data-squad="second">Second Squad</button>
     </div>` : "";
     const root = document.getElementById("ef-squad");
+    const tier = GROUPS.find(([g]) => g === c.group);
+    const head = `<div class="nation-head">
+      <div class="nation-name"><span class="flag">${c.flag||""}</span>${esc(c.name)}
+        ${tier ? `<span class="tier" data-tier="${c.group}">${tier[1].replace(/s$/, "")}</span>` : ""}</div>
+      ${picker}</div>`;
     if (!players.length) {
-      root.innerHTML = `<div class="ef-error">No squad selected yet.</div>`;
+      root.innerHTML = head + `<div class="ef-error">No players available for ${esc(c.name)}.</div>` + dropSection(c);
       return;
     }
-    root.innerHTML = picker +
-      section("Starters", byS("starters")) +
-      section("Substitutes", byS("substitutes")) +
-      section("Wildcard", byS("wildcard"), "ef-wild");
+    root.innerHTML = head +
+      section("Starters", byS("starters"), c) +
+      section("Substitutes", byS("substitutes"), c) +
+      section("Wildcard", byS("wildcard"), c, "ef-wild") + dropSection(c);
     root.querySelectorAll(".ef-squad-choice").forEach(button =>
       button.addEventListener("click", () => renderSquad(c, button.dataset.squad)));
   }
 
-  function renderVeterans(countries) {
-    const positionOrder = ["GK", "CB", "LB", "RB", "LWB", "RWB",
-                           "DMF", "CMF", "AMF", "LMF", "RMF",
-                           "CF", "SS", "LWF", "RWF"];
-    const all = countries.flatMap(country => country.players
-      .filter(player => (player.squad || "first") === "first")
-      .map(player => ({ player, country })));
-    const oldestAt = pos => all.filter(x => x.player.pos === pos).sort((a,b) =>
-      a.player.since.localeCompare(b.player.since) ||
-      b.player.rating - a.player.rating ||
-      a.player.name.localeCompare(b.player.name))[0];
-    const winners = positionOrder.map(oldestAt).filter(Boolean);
-    document.getElementById("ef-squad").innerHTML = `
-      <div class="ef-section">
-        <div class="ef-section-title">Longest-Serving Player by Position
-          <span class="count">across ${countries.length} nations</span>
-        </div>
-        <div class="ef-grid">${winners.map(x => card(x.player, x.country)).join("")}</div>
+  function dropSection(c) {
+    const drops = c.dropouts || [];
+    if (!drops.length) return "";
+    const avg = drops.reduce((n, d) => n + d.days, 0) / drops.length;
+    return `<div class="ef-section">
+      <div class="ef-section-title">Drop-outs<span class="count">${drops.length}</span></div>
+      ${panel("Left the squad", `avg stint ${avg.toFixed(0)}d`, drops.map(d => dropRow({ c, d }, false)).join(""))}</div>`;
+  }
+
+  const POSITION_ORDER = ["GK", "CB", "LB", "RB", "LWB", "RWB",
+                          "DMF", "CMF", "AMF", "LMF", "RMF",
+                          "CF", "SS", "LWF", "RWF"];
+  const firstSquad = (countries) => countries.flatMap(country => country.players
+    .filter(player => (player.squad || "first") === "first")
+    .map(player => ({ player, country })));
+  const byRating = (a, b) =>
+    b.player.rating - a.player.rating ||
+    a.player.since.localeCompare(b.player.since) ||
+    a.player.name.localeCompare(b.player.name);
+  const byTenure = (a, b) =>
+    a.player.since.localeCompare(b.player.since) ||
+    b.player.rating - a.player.rating ||
+    a.player.name.localeCompare(b.player.name);
+  const root = () => document.getElementById("ef-squad");
+  const tierLabel = (c) => {
+    const tier = GROUPS.find(([g]) => g === c.group);
+    return tier ? `<span class="tier" data-tier="${c.group}">${tier[1].replace(/s$/, "")}</span>` : "";
+  };
+  const panel = (title, aside, body) => `<div class="panel">
+      <div class="panel-head"><span class="title">${title}</span>${aside ? `<span class="aside">${aside}</span>` : ""}</div>
+      ${body}</div>`;
+
+  // Best XI, laid out as a 4-1-2-3 with the attack at the top of the pitch.
+  const XI = [["LWF",18,13],["CF",50,9],["RWF",82,13],
+              ["CMF",29,34],["AMF",71,34],["DMF",50,57],
+              ["LB",13,68],["CB",37,74],["CB",63,74],["RB",87,68],["GK",50,91]];
+
+  function bestXI(countries) {
+    const pool = firstSquad(countries).sort(byRating);
+    const used = new Set();
+    return XI.map(([pos, x, y]) => {
+      const pick = pool.find(e => e.player.pos === pos && !used.has(e));
+      if (pick) used.add(pick);
+      return { pos, x, y, pick };
+    });
+  }
+
+  function pitchHTML(countries) {
+    const nodes = bestXI(countries).map(({ pos, x, y, pick }) => {
+      if (!pick) return "";
+      const { player: p, country: c } = pick;
+      const inner = `<div class="xi-photo ${ctClass(p.card_type)}">${photoHTML(p)}</div>
+        <div class="xi-name">${esc(p.name)}</div>
+        <div class="xi-meta">${c.flag||""} ${esc(pos)} · <b>${p.rating.toFixed(0)}</b></div>`;
+      const style = `left:${x}%;top:${y}%`;
+      const tip = esc(`${p.name} · ${c.name} · ${p.pos} · rating ${p.rating.toFixed(0)}`);
+      return `<a class="xi-node" style="${style}" href="${esc(playerHref(c, p))}" title="${tip}">${inner}</a>`;
+    }).join("");
+    return `<div class="pitch"><div class="pm half"></div><div class="pm circle"></div>
+      <div class="pm box-top"></div><div class="pm box-bot"></div>${nodes}</div>`;
+  }
+
+  const FEED_DAYS = 7, OV_PREVIEW = 10;
+  // Overview lists show the top OV_PREVIEW rows; the rest sit behind a toggle.
+  const expandList = (rows) => `<div class="xlist">${rows.slice(0, OV_PREVIEW).join("")}` + (rows.length > OV_PREVIEW
+    ? `<div class="xlist-more" hidden>${rows.slice(OV_PREVIEW).join("")}</div></div>
+       <button class="rank-toggle xlist-toggle" type="button" data-total="${rows.length}">show all ${rows.length}</button>` : "</div>");
+  document.addEventListener("click", e => {
+    const toggle = e.target.closest(".xlist-toggle");
+    if (!toggle) return;
+    const more = toggle.previousElementSibling.querySelector(".xlist-more");
+    const panel = toggle.closest(".panel");
+    // Side-by-side panels keep their paired height and scroll instead of growing.
+    if (panel.closest(".ov-grid") && more.hidden) {
+      panel.style.height = panel.offsetHeight + "px";
+      panel.classList.add("locked");
+    } else {
+      panel.style.height = "";
+      panel.classList.remove("locked");
+    }
+    more.hidden = !more.hidden;
+    toggle.textContent = more.hidden ? `show all ${toggle.dataset.total}` : `show top ${OV_PREVIEW}`;
+  });
+  function feedHTML(countries) {
+    const recent = firstSquad(countries)
+      .filter(e => daysSince(joinedOf(e.player)) < FEED_DAYS)
+      .sort((a, b) => joinedOf(b.player).localeCompare(joinedOf(a.player)) || byRating(a, b));
+    if (!recent.length) return `<div class="feed-more">No new call-ups in the last ${FEED_DAYS} days.</div>`;
+    return expandList(recent.map(({ player: p, country: c }) => `
+      <a class="feed-row" href="${esc(playerHref(c, p))}" title="${esc(`${p.name} joined ${c.name} on ${joinedOf(p)}`)}">
+        <span class="feed-date">${esc(joinedOf(p).slice(5))}</span>
+        <span class="feed-who"><b>${esc(p.name)}</b><span>${c.flag||""} ${esc(c.name)} · ${esc(p.section || "")}</span></span>
+        <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
+        <span class="num">${p.rating.toFixed(0)}</span>
+      </a>`));
+  }
+
+  const allDropouts = (countries) => countries.flatMap(c => (c.dropouts || []).map(d => ({ c, d })));
+  const dropRow = ({ c, d }, showNation = true) => `
+      <a class="feed-row" href="${esc(playerHref(c, d))}" title="${esc(`${d.name} left ${c.name} on ${d.dropped} after ${d.days} days`)}">
+        <span class="feed-date">${esc(d.dropped.slice(5))}</span>
+        <span class="feed-who"><b>${esc(d.name)}</b><span>${showNation ? `${c.flag||""} ${esc(c.name)} · ` : ""}${squadLabel(d)} · lasted ${d.days}d</span></span>
+        <span class="ef-pos" data-line="${lineOf(d.pos)}">${esc(d.pos)}</span>
+        <span class="num">${d.rating.toFixed(0)}</span>
+      </a>`;
+
+  function dropFeedHTML(countries) {
+    const recent = allDropouts(countries).filter(x => daysSince(x.d.dropped) < FEED_DAYS)
+      .sort((a, b) => b.d.dropped.localeCompare(a.d.dropped) || b.d.rating - a.d.rating);
+    if (!recent.length) return `<div class="feed-more">No drop-outs in the last ${FEED_DAYS} days.</div>`;
+    return expandList(recent.map(x => dropRow(x)));
+  }
+
+  const RECORDS_MAX = 12;
+
+  const RANK_PREVIEW = OV_PREVIEW;
+  function strength(countries) {
+    return countries.map(c => {
+      const xi = c.players.filter(p => (p.squad || "first") === "first" && p.section === "starters");
+      const avg = xi.length ? xi.reduce((n, p) => n + p.rating, 0) / xi.length : 0;
+      return { c, avg };
+    }).sort((a, b) => b.avg - a.avg || a.c.name.localeCompare(b.c.name));
+  }
+
+  function rankingsHTML(rows) {
+    const rated = rows.filter(r => r.avg > 0);
+    const max = rated.length ? rated[0].avg : 0, min = rated.length ? rated[rated.length - 1].avg : 0;
+    const width = (v) => v <= 0 ? 0 : max === min ? 100 : 8 + 92 * (v - min) / (max - min);
+    return expandList(rows.map(({ c, avg }, i) => `
+      <a class="rank-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-tier="${esc(c.group || "")}">
+        <span class="rank-n">${String(i + 1).padStart(2, "0")}</span>
+        <span class="rank-nation"><span>${c.flag||""}</span><span class="nm">${esc(c.name)}</span>${tierLabel(c)}</span>
+        <span class="bar"><i style="width:${width(avg).toFixed(1)}%"></i></span>
+        <span class="num">${avg > 0 ? avg.toFixed(1) : "0"}</span>
+      </a>`));
+  }
+
+  let moverDays = 7;
+  function renderOverview(countries) {
+    const rows = strength(countries);
+    root().innerHTML = `
+      <div class="ov-grid">
+        ${panel("Best XI", "top-rated first-squad player per slot", pitchHTML(countries))}
+        ${panel("Latest call-ups", `last ${FEED_DAYS} days`, feedHTML(countries))}
+      </div>
+      <div class="ov-grid ov-even">
+        ${panel("Latest drop-outs", `last ${FEED_DAYS} days`, dropFeedHTML(countries))}
+        ${panel("Rank movers", "ladder rank change by card", `<div class="seg" role="group" aria-label="Window">
+            <button type="button" data-days="7">7 days</button><button type="button" data-days="30">30 days</button></div>
+            <div id="movers"><div class="feed-more">loading history…</div></div>`)}
+      </div>
+      ${panel("Strength rankings", "average rating of first-squad starters · pick a nation to chart its rank", `<div class="strength">
+          <div class="strength-list" id="rankings">${rankingsHTML(rows)}</div>
+          <div class="strength-chart" id="nation-chart"><div class="feed-more">loading history…</div></div>
+        </div>`)}`;
+
+    let selected = rows.length ? rows[0].c.id : null;
+    const list = document.getElementById("rankings");
+    const mark = () => list.querySelectorAll(".rank-row").forEach(r => r.classList.toggle("me", r.dataset.id === selected));
+    mark();
+    loadHistory().then(h => {
+      const moversBox = document.getElementById("movers"), chartBox = document.getElementById("nation-chart");
+      if (!moversBox || !chartBox) return;
+      if (!h) {
+        moversBox.innerHTML = chartBox.innerHTML = `<div class="feed-more">Couldn't load history.</div>`;
+        return;
+      }
+      const seg = moversBox.previousElementSibling;
+      const drawMovers = () => {
+        seg.querySelectorAll("button").forEach(b => b.classList.toggle("active", +b.dataset.days === moverDays));
+        moversBox.innerHTML = moversHTML(h, countries, moverDays);
+      };
+      seg.addEventListener("click", e => {
+        const b = e.target.closest("button");
+        if (!b) return;
+        moverDays = +b.dataset.days;
+        drawMovers();
+      });
+      drawMovers();
+
+      const series = nationRankSeries(h);
+      const drawChart = () => {
+        const c = countries.find(x => x.id === selected);
+        if (!c) return;
+        chartBox.innerHTML = `<div class="strength-chart-head">${c.flag||""} <b>${esc(c.name)}</b>
+            <a href="#${esc(c.id)}">open squad →</a></div>` +
+          (rankChartHTML(series[c.id] || [], "", "nation") || `<div class="feed-more">No ranking history for ${esc(c.name)}.</div>`);
+        bindRankChart(chartBox);
+      };
+      list.addEventListener("click", e => {
+        const r = e.target.closest(".rank-row");
+        if (!r) return;
+        e.preventDefault();
+        selected = r.dataset.id;
+        mark();
+        drawChart();
+      });
+      drawChart();
+    });
+  }
+
+  function gridSection(title, countLabel, entries) {
+    return `<div class="ef-section">
+      <div class="ef-section-title">${title}<span class="count">${countLabel}</span></div>
+      <div class="ef-grid">${entries.map(x => card(x.player, x.country, true)).join("")}</div></div>`;
+  }
+
+  function bestByPosition(countries, cmp) {
+    const all = firstSquad(countries);
+    return POSITION_ORDER
+      .map(pos => all.filter(x => x.player.pos === pos).sort(cmp)[0])
+      .filter(Boolean);
+  }
+
+  function renderRecords(countries) {
+    root().innerHTML =
+      gridSection("Highest-rated player by position", countries.length + " nations", bestByPosition(countries, byRating)) +
+      gridSection("Longest-serving player by position", countries.length + " nations", bestByPosition(countries, byTenure)) +
+      `<div class="ov-grid ov-even">
+        ${panel("Longest stints ended", "drop-outs by days in squad",
+          allDropouts(countries).sort((a, b) => b.d.days - a.d.days).slice(0, RECORDS_MAX).map(x => dropRow(x)).join(""))}
+        ${panel("Most call-ups", "current players with the most separate stints",
+          firstSquad(countries).concat(countries.flatMap(country => country.players
+              .filter(p => p.squad === "second").map(player => ({ player, country }))))
+            .filter(x => (x.player.callups || 1) > 1)
+            .sort((a, b) => b.player.callups - a.player.callups || byRating(a, b)).slice(0, RECORDS_MAX)
+            .map(({ player: p, country: c }) => `
+              <a class="feed-row" href="${esc(playerHref(c, p))}">
+                <span class="feed-date">×${p.callups}</span>
+                <span class="feed-who"><b>${esc(p.name)}</b><span>${c.flag||""} ${esc(c.name)} · ${squadLabel(p)}</span></span>
+                <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
+                <span class="num">${p.rating.toFixed(0)}</span>
+              </a>`).join("") || `<div class="feed-more">Nobody has been called up twice yet.</div>`)}
       </div>`;
   }
 
-  fetch(DATA_URL + "?v=" + Date.now())
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(data => {
+  const statHTML = (value, label) => `<div class="stat"><span>${label}</span><b>${value}</b></div>`;
+  const SECTION_LABEL = { starters:"Starter", substitutes:"Substitute", wildcard:"Wildcard" };
+  const ordinalMedal = (r) => r ? `${MEDAL[r]} ${["", "1st", "2nd", "3rd"][r]}` : "—";
+
+  // One entry per player per nation. Squad players keep every appearance (a
+  // player can be in both squads); drop-outs and pool-only players from
+  // players.json are folded in so every player in the files is searchable.
+  const STATUS_ORDER = { squad: 0, dropped: 1, pool: 2 };
+  function buildIndex(countries, pools) {
+    const byKey = new Map();
+    const get = (c, name, status) => {
+      const key = `${c.id}/${slug(name)}`;
+      if (!byKey.has(key)) byKey.set(key, { key, c, status, apps: [] });
+      return byKey.get(key);
+    };
+    for (const c of countries) {
+      for (const p of c.players) get(c, p.name, "squad").apps.push(p);
+      for (const d of c.dropouts || []) {
+        const e = get(c, d.name, "dropped");
+        if (e.status === "dropped" && !e.drop) e.drop = d;
+      }
+      for (const row of (pools && pools[c.id]) || []) get(c, row.name, "pool").pool = row;
+    }
+    for (const e of byKey.values()) {
+      const best = e.pool && e.pool.rows[0];
+      if (e.status === "squad") {
+        e.apps.sort((a, b) => (a.squad === "second") - (b.squad === "second"));
+        e.p = e.apps[0];
+      } else if (e.status === "dropped") {
+        const row = e.pool && e.pool.rows.find(r => r[0] === e.drop.pos);
+        e.p = { ...e.drop, card_type: row ? row[2] : "Standard",
+                img: e.drop.img || (e.pool && e.pool.img), tm: e.drop.tm || (e.pool && e.pool.tm) };
+      } else {
+        e.p = { name: e.pool.name, pos: best[0], rating: best[1], card_type: best[2],
+                img: e.pool.img, tm: e.pool.tm };
+      }
+      e.chars = fold(e.p.name);
+    }
+    return byKey;
+  }
+
+  function fuzzy(q, t) {
+    let score = 0, ti = 0, prev = -2;
+    const pos = [];
+    for (const qc of q) {
+      if (qc === " ") continue;
+      let idx = -1;
+      for (let k = ti; k < t.length; k++) if (t[k] === qc) { idx = k; break; }
+      if (idx < 0) return null;
+      let bonus = 1;
+      if (idx === prev + 1) bonus += 5;
+      if (idx === 0 || /[\s\-'.]/.test(t[idx - 1])) bonus += 8;
+      score += bonus; pos.push(idx); prev = idx; ti = idx + 1;
+    }
+    const qs = q.join("").trim();
+    if (qs && t.join("").includes(qs)) score += 15;
+    return { score: score - t.length * 0.1 - (pos[0] || 0) * 0.2, pos };
+  }
+
+  // Every card a player holds, as [position, rating]: squad listings, the
+  // drop-out record and pool rows, best first.
+  const cardsOf = (e) => [
+    ...e.apps.map(a => [a.pos, a.rating]),
+    ...(e.drop ? [[e.drop.pos, e.drop.rating]] : []),
+    ...(e.pool ? e.pool.rows.map(r => [r[0], r[1]]) : []),
+  ].sort((a, b) => b[1] - a[1]);
+
+  const POSITIONS = new Set(POSITION_ORDER.map(p => p.toLowerCase()));
+  const words = (str) => fold(str).join("").replace(/[^a-z0-9]+/g, " ").trim();
+
+  // Splits a query into nation filters, position filters and the leftover
+  // name. Nation words need minLen+ letters (or an exact short name like
+  // "usa") so partial names such as "ser" for Sergio aren't read as Serbia.
+  function parseQuery(query, countries, minLen) {
+    let text = ` ${words(query)} `;
+    const nations = new Set(), positions = new Set();
+    const names = countries.map(c => ({ c, forms: [...new Set([words(c.name), words(c.id)])] }))
+      .sort((a, b) => b.forms[0].length - a.forms[0].length);
+    for (const { c, forms } of names) {
+      for (const f of forms) {
+        if (f.includes(" ") && text.includes(` ${f} `)) { nations.add(c.id); text = text.replace(` ${f} `, " "); }
+      }
+    }
+    const rest = [];
+    for (const t of text.trim().split(/\s+/).filter(Boolean)) {
+      if (POSITIONS.has(t)) { positions.add(t.toUpperCase()); continue; }
+      const hits = names.filter(({ forms }) => forms.some(f =>
+        f.split(" ").includes(t) || (t.length >= minLen && f.split(" ").some(w => w.startsWith(t)))));
+      if (hits.length) hits.forEach(({ c }) => nations.add(c.id));
+      else rest.push(t);
+    }
+    return { nations, positions, name: rest.join(" ") };
+  }
+
+  function searchPlayers(index, countries, query, limit) {
+    const plain = (pool) => {
+      const q = fold(query.trim());
+      if (!q.length) return [];
+      const hits = [];
+      for (const e of pool) {
+        const m = fuzzy(q, e.chars);
+        if (m) hits.push({ e, ...m });
+      }
+      return hits;
+    };
+    const rank = (hits) => hits.sort((a, b) => Math.round(b.score) - Math.round(a.score) || STATUS_ORDER[a.e.status] - STATUS_ORDER[b.e.status]
+      || (b.card || [0, b.e.p.rating])[1] - (a.card || [0, a.e.p.rating])[1]);
+    const filtered = (f) => {
+      if (!f.nations.size && !f.positions.size) return null;
+      const hits = [];
+      for (const e of index.values()) {
+        if (f.nations.size && !f.nations.has(e.c.id)) continue;
+        const card = f.positions.size ? cardsOf(e).find(([pos]) => f.positions.has(pos)) : null;
+        if (f.positions.size && !card) continue;
+        let m = { score: 0, pos: [] };
+        if (f.name) {
+          m = fuzzy(fold(f.name), e.chars);
+          if (!m) continue;
+        }
+        hits.push({ e, ...m, card });
+      }
+      return hits.length ? { filters: f, total: hits.length, hits: rank(hits).slice(0, limit) } : null;
+    };
+    const strict = filtered(parseQuery(query, countries, 4));
+    if (strict) return strict;
+    const hits = plain(index.values());
+    if (hits.length) return { filters: null, total: hits.length, hits: rank(hits).slice(0, limit) };
+    return filtered(parseQuery(query, countries, 3)) || { filters: null, total: 0, hits: [] };
+  }
+
+  const STATUS_TEXT = { squad: "in squad", dropped: "dropped", pool: "not called up" };
+  const highlight = (name, pos) => {
+    const set = new Set(pos);
+    return [...name].map((ch, i) => set.has(i) ? `<mark>${esc(ch)}</mark>` : esc(ch)).join("");
+  };
+
+  function bindPlayerSearch(index, countries) {
+    const box = document.getElementById("psearch");
+    const input = document.getElementById("player-search");
+    const out = document.getElementById("ps-results");
+    let hits = [], sel = 0;
+    const close = () => { out.hidden = true; box.setAttribute("aria-expanded", "false"); };
+    const paint = () => {
+      out.querySelectorAll(".ps-item").forEach((el, i) => el.classList.toggle("sel", i === sel));
+      const cur = out.querySelector(".ps-item.sel");
+      if (cur) cur.scrollIntoView({ block: "nearest" });
+    };
+    const render = () => {
+      const res = searchPlayers(index, countries, input.value, 8);
+      hits = res.hits;
+      sel = 0;
+      if (!input.value.trim()) return close();
+      const f = res.filters;
+      const byId = (id) => countries.find(c => c.id === id);
+      const head = f ? `<div class="ps-filters">${[...f.nations].map(id => `<span class="chip">${byId(id).flag||""} ${esc(byId(id).name)}</span>`).join("")}${[...f.positions].map(p => `<span class="chip">${p}</span>`).join("")}${f.name ? `<span class="chip">“${esc(f.name)}”</span>` : ""}</div>` : "";
+      const more = res.total > hits.length ? `<div class="ps-empty">${res.total - hits.length} more · keep typing to narrow</div>` : "";
+      out.innerHTML = hits.length ? head + hits.map(({ e, pos, card }, i) => `
+        <a class="ps-item" role="option" href="#/player/${esc(e.key)}" data-i="${i}">
+          <span class="ps-thumb">${photoHTML(e.p)}</span>
+          <span><div class="ps-name">${highlight(e.p.name, pos)}</div>
+                <div class="ps-meta">${e.c.flag||""} ${esc(e.c.name)} · ${esc(card ? card[0] : e.p.pos)} · ${STATUS_TEXT[e.status]}</div></span>
+          <span class="num">${(card ? card[1] : e.p.rating).toFixed(0)}</span>
+        </a>`).join("") + more : `<div class="ps-empty">no players match “${esc(input.value.trim())}”.</div>`;
+      out.hidden = false; box.setAttribute("aria-expanded", "true");
+      paint();
+    };
+    const go = (i) => {
+      if (!hits[i]) return;
+      location.hash = `/player/${hits[i].e.key}`;
+      input.value = ""; close(); input.blur();
+    };
+    input.addEventListener("input", render);
+    input.addEventListener("focus", () => { if (input.value.trim()) render(); });
+    input.addEventListener("keydown", e => {
+      if (e.key === "ArrowDown") { e.preventDefault(); sel = Math.min(sel + 1, hits.length - 1); paint(); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); sel = Math.max(sel - 1, 0); paint(); }
+      else if (e.key === "Enter") { e.preventDefault(); go(sel); }
+      else if (e.key === "Escape") { input.value = ""; close(); input.blur(); }
+    });
+    out.addEventListener("click", e => {
+      const item = e.target.closest(".ps-item");
+      if (!item) return;
+      e.preventDefault(); go(+item.dataset.i);
+    });
+    document.addEventListener("click", e => { if (!box.contains(e.target)) close(); });
+    document.addEventListener("keydown", e => {
+      if (e.key === "/" && !/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)) { e.preventDefault(); input.focus(); }
+    });
+  }
+
+  const squadLabel = (p) => `${p.squad === "second" ? "Second" : "First"} squad · ${SECTION_LABEL[p.section] || "—"}`;
+  const signed = (v) => (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(2);
+
+  let historyLoad = null;
+  const loadHistory = () => historyLoad || (historyLoad =
+    fetch(HISTORY_URL + "?v=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null));
+
+  const SQUAD_NAME = { first: "First squad", second: "Second squad" };
+  const hc = (text, cls = "") => `<span class="hc ${cls}">${text}</span>`;
+  // Recalculations nudge ratings by ±0.01–0.02; those aren't real changes.
+  const moved = (from, to) => Math.abs(to - from) > 0.025;
+  const delta = (from, to) => hc(`rating ${from.toFixed(2)} → ${to.toFixed(2)}`, to > from ? "up" : "down");
+
+  // Turns two consecutive snapshots of one card ({a: squad listings, p: pool
+  // row [rating, card type, recent]}) into change chips.
+  function describeChange(prev, cur) {
+    const out = [];
+    const bySquad = (snap) => Object.fromEntries(((snap && snap.a) || []).map(a => [a[0], a]));
+    const before = bySquad(prev), after = bySquad(cur);
+    const both = Object.keys(after).length > 1;
+    for (const squad of ["first", "second"]) {
+      const was = before[squad], now = after[squad];
+      const tag = (text, cls) => hc(`${both ? SQUAD_NAME[squad] + " · " : ""}${text}`, cls);
+      if (now && !was) {
+        const [, section, slot, number, rating] = now;
+        out.push(hc(`called up · ${SQUAD_NAME[squad]} · ${SECTION_LABEL[section] || "—"}${slot ? ` · ${esc(slot)} slot` : ""} · #${number} · ${rating.toFixed(2)}`, "in"));
+      } else if (was && !now) {
+        out.push(hc(`left ${SQUAD_NAME[squad]}`, "out"));
+      } else if (was && now) {
+        if (was[1] !== now[1]) out.push(tag(`${SECTION_LABEL[was[1]] || "—"} → ${SECTION_LABEL[now[1]] || "—"}`));
+        if (was[2] !== now[2]) out.push(tag(`slot ${esc(was[2])} → ${esc(now[2])}`));
+        if (was[3] !== now[3]) out.push(tag(`#${was[3]} → #${now[3]}`));
+        if (moved(was[4], now[4])) out.push(delta(was[4], now[4]));
+      }
+    }
+    const pp = prev && prev.p, cp = cur.p;
+    if (cp && !pp) out.push(hc(`${prev ? "card back in pool" : "card added"} · ${esc(cp[1])} · ${cp[0].toFixed(2)}${cp[2] ? " · recent" : ""}`, "card"));
+    if (pp && !cp) out.push(hc("card removed from pool", "out"));
+    if (pp && cp) {
+      if (pp[1] !== cp[1]) out.push(hc(`card ${esc(pp[1])} → ${esc(cp[1])}`, "card"));
+      if (pp[2] !== cp[2]) out.push(hc(cp[2] ? "now a recent card" : "no longer a recent card"));
+      if (moved(pp[0], cp[0]) && !cur.a.length && !prev.a.length) out.push(delta(pp[0], cp[0]));
+    }
+    return out;
+  }
+
+  function cardHistoryHTML(snaps) {
+    if (!snaps || !snaps.length) return `<div class="feed-more">No history recorded for this card.</div>`;
+    const numbers = [...new Set(snaps.flatMap(s => s.a.map(a => a[3])))];
+    const types = [...new Set(snaps.filter(s => s.p).map(s => s.p[1]))];
+    const ratings = snaps.flatMap(s => s.a.map(a => a[4]).concat(s.p ? [s.p[0]] : []));
+    const listed = snaps.find(s => s.a.length);
+    const facts = [
+      listed ? `first listed ${esc(listed.d)}` : "never listed in a squad",
+      numbers.length ? `numbers worn ${numbers.map(n => "#" + n).join(" ")}` : "",
+      types.length ? `card ${types.map(esc).join(" → ")}` : "",
+      ratings.length ? `peak ${Math.max(...ratings).toFixed(2)}` : "",
+    ].filter(Boolean).map(f => `<span class="chip">${f}</span>`).join("");
+    const rows = snaps.map((s, i) => ({ d: s.d, changes: describeChange(snaps[i - 1], s) }))
+      .filter(r => r.changes.length).reverse()
+      .map(r => `<div class="hist-row"><span class="feed-date">${esc(r.d)}</span><div class="hist-changes">${r.changes.join("")}</div></div>`)
+      .join("");
+    return `<div class="hist-facts">${facts}</div>${rows}`;
+  }
+
+  // Rank of one card among every squad-listed card at its position, at each
+  // date any of those cards changed. Off-squad stretches get the rank the
+  // card's pool rating would earn ("would rank").
+  function ladderSeries(h, pos, target) {
+    const cards = [];
+    for (const nation of Object.values(h.countries))
+      for (const byPos of Object.values(nation))
+        if (byPos[pos] && byPos[pos] !== target) cards.push(byPos[pos]);
+    const dates = [...new Set([...cards, target].flatMap(snaps => snaps.map(x => x.d)))].sort();
+    const ptr = new Array(cards.length).fill(-1);
+    let tp = -1;
+    const listedRating = (snap) => snap && snap.a.length ? Math.max(...snap.a.map(a => a[4])) : null;
+    const points = [];
+    for (const d of dates) {
+      while (tp + 1 < target.length && target[tp + 1].d <= d) tp++;
+      const me = tp >= 0 ? target[tp] : null;
+      let above = 0, total = 0;
+      const mine = listedRating(me);
+      const ref = mine != null ? mine : me && me.p ? me.p[0] : null;
+      cards.forEach((snaps, i) => {
+        while (ptr[i] + 1 < snaps.length && snaps[ptr[i] + 1].d <= d) ptr[i]++;
+        const r = ptr[i] >= 0 ? listedRating(snaps[ptr[i]]) : null;
+        if (r == null) return;
+        total++;
+        if (ref != null && r > ref) above++;
+      });
+      const point = ref == null ? { d, rank: null } : { d, rank: above + 1, total: total + (mine != null ? 1 : 0), listed: mine != null };
+      const last = points[points.length - 1];
+      if (!last || last.rank !== point.rank || last.total !== point.total || last.listed !== point.listed) points.push(point);
+    }
+    return points.filter((pt, i) => pt.rank != null || (points[i - 1] && points[i - 1].rank != null));
+  }
+
+  const RC = { W: 600, H: 150, L: 34, R: 10, T: 12, B: 22 };
+  const chartH = (kind) => kind === "nation" ? 190 : RC.H;
+  const dayMs = (d) => new Date(d + "T00:00:00Z").getTime();
+  const chartScale = (points, H = RC.H) => {
+    const { W, L, R, T, B } = RC;
+    const today = new Date().toISOString().slice(0, 10);
+    const x0 = dayMs(points[0].d), x1 = Math.max(dayMs(today), x0 + 86400000);
+    const maxRank = Math.max(5, ...points.filter(p => p.rank != null).map(p => p.rank));
+    return {
+      today, x0, x1, maxRank,
+      X: (d) => L + (W - L - R) * (dayMs(d) - x0) / (x1 - x0),
+      Y: (r) => T + (H - T - B) * (r - 1) / (maxRank - 1),
+    };
+  };
+  const rankText = (p, pos, kind) => p.rank == null ? (kind === "nation" ? "no first-squad starters" : "not rated")
+    : kind === "nation" ? `#${p.rank} of ${p.total} nations · starters avg ${p.avg.toFixed(2)}`
+    : p.listed ? `#${p.rank} of ${p.total} ${esc(pos)}s · in squad`
+    : `would rank #${p.rank} of ${p.total} · not in a squad, placed by its pool rating`;
+
+  function rankChartHTML(points, pos, kind = "card") {
+    const ranked = points.filter(p => p.rank != null);
+    if (!ranked.length) return "";
+    const { W, L, R } = RC, H = chartH(kind);
+    const { today, maxRank, X, Y } = chartScale(points, H);
+    let segs = "";
+    points.forEach((p, i) => {
+      if (p.rank == null) return;
+      const xa = X(p.d), xb = X(points[i + 1] ? points[i + 1].d : today), y = Y(p.rank);
+      segs += `<line x1="${xa.toFixed(1)}" y1="${y.toFixed(1)}" x2="${xb.toFixed(1)}" y2="${y.toFixed(1)}" class="${p.listed ? "rk-on" : "rk-off"}"/>`;
+      const next = points[i + 1];
+      if (next && next.rank != null) segs += `<line x1="${xb.toFixed(1)}" y1="${y.toFixed(1)}" x2="${xb.toFixed(1)}" y2="${Y(next.rank).toFixed(1)}" class="${next.listed && p.listed ? "rk-on" : "rk-off"} rk-step"/>`;
+      const prev = points[i - 1];
+      if (!prev || prev.rank !== p.rank || prev.listed !== p.listed) segs += `<circle cx="${xa.toFixed(1)}" cy="${y.toFixed(1)}" r="2.6" class="${p.listed ? "rk-on" : "rk-off"}"><title>${p.d}: ${p.listed ? "" : "would rank "}#${p.rank} of ${p.total}</title></circle>`;
+    });
+    const listed = ranked.filter(p => p.listed);
+    const best = listed.length ? listed.reduce((a, b) => b.rank < a.rank ? b : a) : null;
+    const worst = listed.length ? listed.reduce((a, b) => b.rank > a.rank ? b : a) : null;
+    const now = points[points.length - 1];
+    const facts = kind === "nation" ? [
+      now.rank != null ? `now #${now.rank} of ${now.total}` : "unranked now",
+      best ? `best #${best.rank} · ${best.d}` : "",
+      worst && worst !== best ? `worst #${worst.rank} · ${worst.d}` : "",
+    ].filter(Boolean).map(f => `<span class="chip">${f}</span>`).join("") : [
+      now.rank != null ? `${now.listed ? "now" : "would rank"} #${now.rank} of ${now.total}` : "not rated now",
+      best ? `best #${best.rank} · ${best.d}` : "never listed",
+      worst && worst !== best ? `worst #${worst.rank} · ${worst.d}` : "",
+    ].filter(Boolean).map(f => `<span class="chip">${f}</span>`).join("");
+    return `<div class="rank-chart" data-kind="${kind}" data-pos="${esc(pos)}" data-points="${esc(JSON.stringify(points))}">
+      <div class="rank-chart-head"><span>${kind === "nation" ? "strength rank" : "ladder rank"}</span>${facts}</div>
+      <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Ladder rank over time">
+        <line x1="${L}" y1="${Y(1)}" x2="${W - R}" y2="${Y(1)}" class="rk-grid"/>
+        <line x1="${L}" y1="${Y(maxRank)}" x2="${W - R}" y2="${Y(maxRank)}" class="rk-grid"/>
+        <text x="${L - 6}" y="${Y(1) + 4}" text-anchor="end">#1</text>
+        <text x="${L - 6}" y="${Y(maxRank) + 4}" text-anchor="end">#${maxRank}</text>
+        <text x="${L}" y="${H - 4}">${points[0].d}</text>
+        <text x="${W - R}" y="${H - 4}" text-anchor="end">today</text>
+        ${segs}
+        <line class="rk-guide" x1="0" y1="${RC.T}" x2="0" y2="${H - RC.B}" visibility="hidden"/>
+        <circle class="rk-marker" r="4.5" cx="0" cy="0" visibility="hidden"/>
+      </svg>
+      <div class="rank-readout"></div>
+      ${kind === "nation" ? "" : `<div class="rank-legend"><span class="on"></span>in squad<span class="off"></span>not in a squad — where its pool rating would place it</div>`}
+    </div>`;
+  }
+
+  // Hover (or tap) anywhere on the chart to read the rank on that day.
+  function bindRankChart(container) {
+    const chart = container.querySelector(".rank-chart");
+    if (!chart) return;
+    const points = JSON.parse(chart.dataset.points);
+    const kind = chart.dataset.kind;
+    const { x0, x1, X, Y } = chartScale(points, chartH(kind));
+    const svg = chart.querySelector("svg");
+    const guide = svg.querySelector(".rk-guide"), marker = svg.querySelector(".rk-marker");
+    const out = chart.querySelector(".rank-readout");
+    const at = (t) => {
+      let hit = points[0];
+      for (const p of points) if (dayMs(p.d) <= t) hit = p;
+      return hit;
+    };
+    const show = (t, pinned) => {
+      const p = at(t);
+      const day = new Date(t).toISOString().slice(0, 10);
+      const x = X(day);
+      guide.setAttribute("x1", x); guide.setAttribute("x2", x);
+      guide.setAttribute("visibility", pinned ? "visible" : "hidden");
+      if (p.rank != null) {
+        marker.setAttribute("cx", x); marker.setAttribute("cy", Y(p.rank));
+        marker.setAttribute("class", `rk-marker ${p.listed ? "rk-on" : "rk-off"}`);
+      }
+      marker.setAttribute("visibility", pinned && p.rank != null ? "visible" : "hidden");
+      out.innerHTML = `<b>${pinned ? day : "today"}</b> ${rankText(p, chart.dataset.pos, kind)}`;
+    };
+    const fromEvent = (e) => {
+      const r = svg.getBoundingClientRect();
+      const vx = Math.min(RC.W - RC.R, Math.max(RC.L, (e.clientX - r.left) * RC.W / r.width));
+      return x0 + (vx - RC.L) / (RC.W - RC.L - RC.R) * (x1 - x0);
+    };
+    svg.addEventListener("pointermove", e => show(fromEvent(e), true));
+    svg.addEventListener("pointerdown", e => show(fromEvent(e), true));
+    svg.addEventListener("pointerleave", () => show(x1, false));
+    show(x1, false);
+  }
+
+  // Every nation's strength rank (average of first-squad starters) at each
+  // date any squad changed, rebuilt from the card history.
+  function nationRankSeries(h) {
+    const nations = Object.entries(h.countries).map(([id, players]) => ({
+      id, cards: Object.values(players).flatMap(byPos => Object.values(byPos)),
+    }));
+    const dates = [...new Set(nations.flatMap(n => n.cards.flatMap(snaps => snaps.map(x => x.d))))].sort();
+    const ptrs = nations.map(n => new Array(n.cards.length).fill(-1));
+    const series = Object.fromEntries(nations.map(n => [n.id, []]));
+    for (const d of dates) {
+      const avgs = nations.map((n, ni) => {
+        let sum = 0, count = 0;
+        n.cards.forEach((snaps, ci) => {
+          const ptr = ptrs[ni];
+          while (ptr[ci] + 1 < snaps.length && snaps[ptr[ci] + 1].d <= d) ptr[ci]++;
+          if (ptr[ci] < 0) return;
+          for (const a of snaps[ptr[ci]].a) if (a[0] === "first" && a[1] === "starters") { sum += a[4]; count++; }
+        });
+        return { id: n.id, avg: count ? sum / count : null };
+      });
+      const ranked = avgs.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
+      const rankOf = new Map(ranked.map((x, i) => [x.id, i + 1]));
+      for (const x of avgs) {
+        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: ranked.length, avg: x.avg, listed: true };
+        const pts = series[x.id], last = pts[pts.length - 1];
+        if (!last || last.rank !== point.rank || last.total !== point.total) pts.push(point);
+      }
+    }
+    for (const id in series) {
+      const pts = series[id];
+      while (pts.length && pts[0].rank == null) pts.shift();
+    }
+    return series;
+  }
+
+  // Ladder rank of every squad-listed card on a given day, keyed by card.
+  function ladderRanksOn(h, day) {
+    const byPos = {};
+    for (const [nid, players] of Object.entries(h.countries))
+      for (const [name, cards] of Object.entries(players))
+        for (const [pos, snaps] of Object.entries(cards)) {
+          let snap = null;
+          for (const x of snaps) { if (x.d <= day) snap = x; else break; }
+          if (!snap || !snap.a.length) continue;
+          (byPos[pos] = byPos[pos] || []).push({ key: `${nid}|${name}|${pos}`, rating: Math.max(...snap.a.map(a => a[4])) });
+        }
+    const ranks = new Map();
+    for (const list of Object.values(byPos))
+      for (const c of list) ranks.set(c.key, { rank: 1 + list.filter(o => o.rating > c.rating).length, total: list.length });
+    return ranks;
+  }
+
+  const MOVER_MAX = 4;
+  function moversHTML(h, countries, days) {
+    const today = new Date().toISOString().slice(0, 10);
+    const then = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+    const now = ladderRanksOn(h, today), before = ladderRanksOn(h, then);
+    const moves = [];
+    for (const [key, r] of now) {
+      const b = before.get(key);
+      if (b && b.rank !== r.rank) moves.push({ key, from: b.rank, to: r.rank, total: r.total, delta: b.rank - r.rank });
+    }
+    const byId = new Map(countries.map(c => [c.id, c]));
+    const spark = (key) => {
+      const [nid, name, pos] = key.split("|");
+      const pts = ladderSeries(h, pos, h.countries[nid][name][pos]).filter(p => p.listed && p.d >= then);
+      if (pts.length < 1) return "";
+      const W = 84, H = 24, t0 = dayMs(then), t1 = Date.now();
+      const ranks = pts.map(p => p.rank), lo = Math.min(...ranks), hi = Math.max(...ranks);
+      const x = (d) => (W * (Math.max(dayMs(d), t0) - t0) / (t1 - t0)).toFixed(1);
+      const y = (r) => (hi === lo ? H / 2 : 2 + (H - 4) * (r - lo) / (hi - lo)).toFixed(1);
+      let path = "";
+      pts.forEach((p, i) => {
+        const xa = x(p.d), xb = pts[i + 1] ? x(pts[i + 1].d) : W;
+        path += `${i ? "L" : "M"}${xa},${y(p.rank)} L${xb},${y(p.rank)} `;
+      });
+      return `<svg class="spark" viewBox="0 0 ${W} ${H}" aria-hidden="true"><path d="${path}"/></svg>`;
+    };
+    const row = (m) => {
+      const [nid, name, pos] = m.key.split("|");
+      const c = byId.get(nid);
+      if (!c) return "";
+      return `<a class="mover-row" href="#/player/${esc(nid)}/${esc(slug(name))}" title="${esc(`${name} (${pos}): #${m.from} → #${m.to} of ${m.total}`)}">
+        <span class="feed-who"><b>${esc(name)}</b><span>${c.flag||""} ${esc(c.name)} · ${esc(pos)}</span></span>
+        ${spark(m.key)}
+        <span class="mover-ranks">#${m.from} → #${m.to}</span>
+        <span class="mover-delta ${m.delta > 0 ? "up" : "down"}">${m.delta > 0 ? "▲" : "▼"}${Math.abs(m.delta)}</span>
+      </a>`;
+    };
+    const up = moves.filter(m => m.delta > 0).sort((a, b) => b.delta - a.delta).slice(0, MOVER_MAX);
+    const down = moves.filter(m => m.delta < 0).sort((a, b) => a.delta - b.delta).slice(0, MOVER_MAX);
+    return `<div class="mover-label">climbers</div>${up.map(row).join("") || `<div class="feed-more">No climbers.</div>`}
+      <div class="mover-label">fallers</div>${down.map(row).join("") || `<div class="feed-more">No fallers.</div>`}`;
+  }
+
+  // Current card first, then the rest by latest rating.
+  function cardOrder(cards, current) {
+    const latest = (snaps) => { const s = snaps[snaps.length - 1]; return s.p ? s.p[0] : (s.a[0] ? s.a[0][4] : 0); };
+    return Object.keys(cards).sort((a, b) => (b === current) - (a === current) || latest(cards[b]) - latest(cards[a]));
+  }
+
+  function fillHistory(entry) {
+    loadHistory().then(h => {
+      const box = document.getElementById("pl-history");
+      if (!box || box.dataset.key !== entry.key) return;
+      if (!h) {
+        box.innerHTML = panel("Card history", "unavailable", `<div class="feed-more">Couldn't load history.</div>`);
+        return;
+      }
+      const nation = (h.countries && h.countries[entry.c.id]) || {};
+      const name = Object.keys(nation).find(n => n === entry.p.name)
+        || Object.keys(nation).find(n => slug(n) === slug(entry.p.name));
+      const cards = name ? nation[name] : {};
+      const order = cardOrder(cards, entry.p.pos);
+      const show = (pos) => {
+        const tabs = order.length > 1 ? `<div class="card-tabs" role="tablist">${order.map(k =>
+          `<button role="tab" class="card-tab${k === pos ? " active" : ""}" data-pos="${esc(k)}" aria-selected="${k === pos}">${esc(k)}</button>`).join("")}</div>` : "";
+        const snaps = cards[pos];
+        box.innerHTML = panel(`Card history${pos ? ` · ${esc(pos)}` : ""}`,
+          `${order.length} card${order.length === 1 ? "" : "s"} · ${snaps ? snaps.length : 0} recorded change${snaps && snaps.length === 1 ? "" : "s"}`,
+          tabs + (snaps ? rankChartHTML(ladderSeries(h, pos, snaps), pos) : "") + cardHistoryHTML(snaps));
+        bindRankChart(box);
+        document.querySelectorAll(".card-pick").forEach(el => el.classList.toggle("active", el.dataset.pos === pos));
+      };
+      box.addEventListener("click", e => {
+        const tab = e.target.closest(".card-tab");
+        if (tab) show(tab.dataset.pos);
+      });
+      document.querySelectorAll(".card-pick").forEach(el => el.addEventListener("click", () => {
+        if (!cards[el.dataset.pos]) return;
+        show(el.dataset.pos);
+        box.scrollIntoView({ behavior: "smooth", block: "start" });
+      }));
+      show(order[0]);
+    });
+  }
+
+  function renderPlayer(entry, index) {
+    const { c, p, status } = entry;
+    const inSquad = status === "squad";
+    const squadAtPos = [...index.values()].filter(e => e.status === "squad" && e.p.pos === p.pos);
+    const ladderAll = [...squadAtPos, ...(inSquad ? [] : [entry])]
+      .sort((a, b) => b.p.rating - a.p.rating || a.p.name.localeCompare(b.p.name));
+    const at = ladderAll.indexOf(entry);
+    const posRank = at + 1;
+    const lo = Math.max(0, Math.min(at - 3, ladderAll.length - 7));
+    const maxR = ladderAll[0].p.rating, minR = ladderAll[ladderAll.length - 1].p.rating;
+    const w = (v) => maxR === minR ? 100 : 8 + 92 * (v - minR) / (maxR - minR);
+    const ladderRows = ladderAll.slice(lo, lo + 7).map((e, i) => {
+      const n = lo + i;
+      const shown = inSquad || n < at ? n + 1 : e === entry ? "→" : n;
+      return `<a class="rank-row${e === entry ? " me" : ""}" href="#/player/${esc(e.key)}">
+        <span class="rank-n">${typeof shown === "number" ? String(shown).padStart(2, "0") : shown}</span>
+        <span class="rank-nation"><span>${e.c.flag||""}</span><span class="nm">${esc(e.p.name)}</span></span>
+        <span class="bar"><i style="width:${w(e.p.rating).toFixed(1)}%"></i></span>
+        <span class="num">${e.p.rating.toFixed(0)}</span>
+      </a>`;
+    }).join("");
+
+    const nationAtPos = c.players.filter(x => x.pos === p.pos && !entry.apps.includes(x))
+      .sort((a, b) => b.rating - a.rating);
+    const weakest = nationAtPos[nationAtPos.length - 1];
+    const gapStat = weakest
+      ? statHTML(`${signed(p.rating - weakest.rating)}<small>vs ${esc(weakest.name)}</small>`, `Gap to weakest ${esc(p.pos)}`)
+      : statHTML(`—<small>no ${esc(p.pos)} in squad</small>`, `Gap to weakest ${esc(p.pos)}`);
+    const rankStat = inSquad
+      ? statHTML(`#${posRank}<small>of ${ladderAll.length} ${esc(p.pos)}s</small>`, "Position rank")
+      : statHTML(`#${posRank}<small>among ${squadAtPos.length} squad ${esc(p.pos)}s</small>`, "Would rank");
+
+    let chips, stats, sidePanel;
+    if (inSquad) {
+      const squadPlayers = c.players.filter(x => (x.squad || "first") === (p.squad || "first"));
+      const nationRank = [...squadPlayers].sort((a, b) => b.rating - a.rating).indexOf(p) + 1;
+      chips = `<span class="chip">#${p.number}</span><span class="chip">${squadLabel(p)}</span>`;
+      stats = statHTML(p.rating.toFixed(2), "Exact rating") + rankStat +
+        statHTML(`#${nationRank}<small>of ${squadPlayers.length} in squad</small>`, "Squad rank") +
+        statHTML(`${daysSince(joinedOf(p))}d<small>since ${esc(joinedOf(p))}</small>`, "In squad") +
+        statHTML(`${p.callups || 1}<small>${(p.callups || 1) === 1 ? "first stint" : "separate stints"}</small>`, "Call-ups") +
+        statHTML(ordinalMedal(p.tenureRank), "Tenure medal");
+      sidePanel = panel("Appearances", `${entry.apps.length} listing${entry.apps.length === 1 ? "" : "s"}`,
+        entry.apps.map(a => `<div class="appear"><div>${squadLabel(a)}${a.slot ? ` · ${esc(a.slot)} slot` : ""}</div>
+          <span>#${a.number} · this card since ${esc(a.since)}</span></div>`).join(""));
+    } else if (status === "dropped") {
+      const d = entry.drop;
+      chips = `<span class="chip">#${d.number}</span><span class="chip warn">dropped ${esc(d.dropped)}</span>`;
+      stats = statHTML(d.rating.toFixed(2), "Last rating") + rankStat + gapStat +
+        statHTML(`${daysSince(d.dropped)}d ago<small>${esc(d.dropped)}</small>`, "Dropped") +
+        statHTML(`${d.days}d<small>${esc(d.since)} → ${esc(d.dropped)}</small>`, "Last stint") +
+        statHTML(`${d.callups}<small>${d.callups === 1 ? "single stint" : "separate stints"}</small>`, "Call-ups");
+      sidePanel = panel("Last stint", "", `<div class="appear"><div>${squadLabel(d)}</div><span>#${d.number}</span></div>
+        <div class="appear"><div>Called up</div><span>${esc(d.since)}</span></div>
+        <div class="appear"><div>Dropped</div><span>${esc(d.dropped)}</span></div>`);
+    } else {
+      chips = `<span class="chip">not called up</span>`;
+      stats = statHTML(p.rating.toFixed(2), "Best rating") + rankStat + gapStat +
+        statHTML(entry.pool.rows.length, "Cards") +
+        statHTML(entry.pool.rows[0][5] ? "yes" : "no", "Recent card");
+    }
+    const listedPos = new Set(entry.apps.map(a => a.pos));
+    const posPanel = entry.pool ? panel("Cards", `${entry.pool.rows.length} card${entry.pool.rows.length === 1 ? "" : "s"} · pick one for its history`,
+      entry.pool.rows.map(([pos, rating, card, , , recent]) => `<button class="appear card-pick" data-pos="${esc(pos)}">
+        <div><span class="ef-pos" data-line="${lineOf(pos)}">${esc(pos)}</span> ${esc(card)}${listedPos.has(pos) ? ` <span class="chip in">in squad</span>` : ""}</div>
+        <span class="card-side">${recent ? `<span class="chip">recent</span>` : ""}<span class="card-rating">${rating.toFixed(2)}</span></span></button>`).join("")) : "";
+
+    root().innerHTML = `
+      <a class="pl-back" href="#${esc(c.id)}">← ${c.flag||""} ${esc(c.name)} squad</a>
+      <div class="pl-head ${ctClass(p.card_type)}">
+        <div class="pl-photo">${photoHTML(p)}</div>
+        <div>
+          <div class="pl-top">
+            <div>
+              <h2 class="pl-name">${esc(p.name)}</h2>
+              <div class="pl-sub"><a href="#${esc(c.id)}">${c.flag||""} ${esc(c.name)}</a>${tierLabel(c)}</div>
+            </div>
+            <div class="pl-rating"><span>${inSquad ? "rating" : status === "dropped" ? "last rating" : "best rating"}</span><b>${p.rating.toFixed(0)}</b></div>
+          </div>
+          <div class="pl-badges">
+            <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
+            <span class="chip ct">${esc(p.card_type || "Standard")}</span>
+            ${chips}
+          </div>
+          <div class="pl-stats">${stats}</div>
+          <div class="pl-links">
+            ${p.tm ? `<a href="${esc(p.tm)}" target="_blank" rel="noopener">transfermarkt ↗</a>` : ""}
+            <a href="#${esc(c.id)}">view squad</a>
+          </div>
+        </div>
+      </div>
+      <div class="pl-grid">
+        ${panel(`${esc(p.pos)} ladder`, inSquad ? `all ${ladderAll.length} squad ${esc(p.pos)}s by rating`
+                                                : `where they'd sit among ${squadAtPos.length} squad ${esc(p.pos)}s`, ladderRows)}
+        <div class="pl-stack">${sidePanel || ""}${posPanel}</div>
+      </div>
+      <div id="pl-history" class="pl-history" data-key="${esc(entry.key)}">${panel("Card history", "loading…", "")}</div>
+      ${nationAtPos.length ? gridSectionPlayers(`${inSquad ? "Other" : "Current"} ${esc(p.pos)}s in ${esc(c.name)}`, nationAtPos, c) : ""}`;
+    fillHistory(entry);
+  }
+
+  function gridSectionPlayers(title, players, c) {
+    return `<div class="ef-section">
+      <div class="ef-section-title">${title}<span class="count">${players.length}</span></div>
+      <div class="ef-grid">${players.map(x => card(x, c)).join("")}</div></div>`;
+  }
+
+  const VIEWS = {
+    overview: ["Overview", "Where all 100 squads stand today."],
+    nations: ["Nations", "Search or pick a nation to see its first and/or second squads."],
+    records: ["Records", "Position-by-position bests across every nation's first squad."],
+    player: ["Player", ""],
+  };
+
+  const bust = "?v=" + Date.now();
+  Promise.all([
+    fetch(DATA_URL + bust).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch(POOL_URL + bust).then(r => r.ok ? r.json() : null).catch(() => null),
+  ])
+    .then(([data, poolData]) => {
       const countries = data.countries || [];
+      const playerCount = countries.reduce((n, c) => n + c.players.length, 0);
+      const stat = statHTML;
       document.getElementById("ef-meta").innerHTML =
-        `Updated ${esc(data.updated || "")} · source: ` +
-        `<a href="${esc(data.source)}" target="_blank" rel="noopener">WKaiZ/efootball</a>`;
-      const ranked = countries.filter(c => c.group !== "backup");
-      const tabBtn = (c) => `<button class="ef-tab" data-i="${countries.indexOf(c)}">
-           <span class="flag">${c.flag||''}</span>${esc(c.name)}</button>`;
+        stat(countries.length, "Nations") +
+        stat(playerCount.toLocaleString(), "Players") +
+        stat(esc((data.updated || "—").split(" ")[0]) +
+             `<small>${esc((data.updated || "").split(" ").slice(1).join(" "))}</small>`, "Last updated") +
+        stat(`<a href="${esc(data.source)}" target="_blank" rel="noopener">github ↗</a>`, "Source");
+      if (!countries.length) {
+        root().innerHTML = `<div class="ef-error">No squads available.</div>`;
+        return;
+      }
+
+      const index = buildIndex(countries, poolData && poolData.countries);
+      bindPlayerSearch(index, countries);
+
       const known = GROUPS.map(([g]) => g);
       const groups = GROUPS
         .map(([g, label]) => [label, countries.filter(c => (c.group || "contender") === g)])
         .concat([["Other", countries.filter(c => c.group && !known.includes(c.group))]])
         .filter(([, list]) => list.length);
+      const ordered = groups.flatMap(([, list]) => list);
       const tabs = document.getElementById("ef-tabs");
-      tabs.innerHTML =
-        `<div class="ef-tab-group"><button class="ef-tab" data-view="veterans">Across the Squads</button></div>` +
-        groups.map(([label, list]) => `<div class="ef-tab-group">
-          <div class="ef-tab-label">${label} · ${list.length}</div>${list.map(tabBtn).join("")}</div>`).join("");
+      const list = document.getElementById("nation-list");
+      const scores = new Map(strength(countries).map(r => [r.c.id, r.avg]));
+      list.innerHTML = groups.map(([label, items]) => `<div class="nation-group">
+          <div class="nation-group-label"><span>${label}</span>${items.length}</div>${items.map(c => {
+            const sc = scores.get(c.id) || 0;
+            return `<a class="nation-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-name="${esc(c.name.toLowerCase())}"
+                 title="${esc(c.name)} · starters avg ${sc ? sc.toFixed(1) : "0"}">
+               <span class="flag">${c.flag||''}</span><span class="nm">${esc(c.name)}</span>
+               <span class="score">${sc ? sc.toFixed(1) : "0"}</span></a>`;
+          }).join("")}</div>`).join("") +
+        `<div class="no-match" hidden>no nation matches.</div>`;
 
-      const show = (tab) => {
-        tabs.querySelectorAll(".ef-tab").forEach(x => x.classList.toggle("active", x === tab));
-        if (tab.dataset.view === "veterans") renderVeterans(ranked.length ? ranked : countries);
-        else renderSquad(countries[+tab.dataset.i]);
-      };
-      const tabForHash = () => {
-        const id = decodeURIComponent(location.hash.slice(1));
-        const i = countries.findIndex(c => c.id === id);
-        return tabs.querySelector(i >= 0 ? `.ef-tab[data-i="${i}"]` : `.ef-tab[data-view="veterans"]`);
-      };
-
-      tabs.addEventListener("click", e => {
-        const t = e.target.closest(".ef-tab"); if (!t) return;
-        const id = t.dataset.view === "veterans" ? "" : countries[+t.dataset.i].id;
-        history.replaceState(null, "", id ? "#" + id : location.pathname + location.search);
-        show(t);
+      const filter = document.getElementById("nation-filter");
+      filter.addEventListener("input", () => {
+        const q = filter.value.trim().toLowerCase();
+        let any = false;
+        list.querySelectorAll(".nation-group").forEach(g => {
+          let shown = 0;
+          g.querySelectorAll(".nation-row").forEach(t => {
+            const hit = !q || t.dataset.name.includes(q) || t.dataset.id.includes(q);
+            t.hidden = !hit; shown += hit;
+          });
+          g.hidden = !shown; any = any || shown > 0;
+        });
+        list.querySelector(".no-match").hidden = any;
       });
-      window.addEventListener("hashchange", () => show(tabForHash()));
+      filter.addEventListener("keydown", e => {
+        if (e.key !== "Enter") return;
+        const first = list.querySelector(".nation-row:not([hidden])");
+        if (first) location.hash = first.dataset.id;
+      });
 
-      if (countries.length) show(tabForHash());
-      else document.getElementById("ef-squad").innerHTML = `<div class="ef-error">No squads available.</div>`;
+      let lastNation = ordered[0];
+      const nav = document.getElementById("site-nav");
+      const hero = document.getElementById("hero");
+      const route = () => {
+        const hash = decodeURIComponent(location.hash.slice(1));
+        const nation = countries.find(c => c.id === hash);
+        const key = hash.replace(/^\//, "");
+        const player = key.startsWith("player/") ? index.get(key.slice(7)) : null;
+        const view = nation ? "nations" : player ? "player" : (VIEWS[key] ? key : "overview");
+        nav.querySelectorAll("a[data-view]").forEach(a =>
+          a.classList.toggle("active", a.dataset.view === view));
+        document.querySelector(".view-head").hidden = view === "player" || view === "overview";
+        document.getElementById("view-title").textContent = VIEWS[view][0];
+        document.getElementById("view-desc").textContent = VIEWS[view][1];
+        document.title = (player ? `${player.p.name} · ` : "") + "The Call-Up · Wesley Zheng";
+        hero.hidden = view !== "overview";
+        tabs.hidden = view !== "nations";
+        document.getElementById("layout").classList.toggle("with-sidebar", view === "nations");
+        if (view === "nations") {
+          if (nation) lastNation = nation;
+          list.querySelectorAll(".nation-row").forEach(t =>
+            t.classList.toggle("active", t.dataset.id === lastNation.id));
+          const active = list.querySelector(".nation-row.active");
+          if (active) {
+            const top = active.offsetTop - list.offsetTop, h = list.clientHeight;
+            if (top < list.scrollTop + 30 || top > list.scrollTop + h - 40) list.scrollTop = top - h / 3;
+          }
+          renderSquad(lastNation);
+        } else if (view === "player") renderPlayer(player, index);
+        else if (view === "records") renderRecords(countries);
+        else renderOverview(countries);
+        if (nation || key) window.scrollTo({ top: 0 });
+      };
+      window.addEventListener("hashchange", route);
+      route();
     })
     .catch(err => {
-      document.getElementById("ef-squad").innerHTML =
-        `<div class="ef-error">Couldn't load squads (${esc(err.message)}).</div>`;
+      root().innerHTML = `<div class="ef-error">Couldn't load squads (${esc(err.message)}).</div>`;
     });
 })();
 </script>
