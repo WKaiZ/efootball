@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 05:34 UTC",
+ "updated": "2026-10-13 05:37 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -4266,7 +4266,7 @@
      "dropped": "2026-09-01",
      "days": 5,
      "callups": 1,
-     "img": null,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/381963-1790545630.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/381963"
     },
     {
@@ -31502,8 +31502,8 @@
      "rating": 98.59,
      "number": 8,
      "card_type": "BigTime",
-     "since": "2026-10-13",
-     "days": 0,
+     "since": "2026-10-12",
+     "days": 1,
      "tenureRank": 0,
      "callups": 1,
      "joined": "2026-03-21",
