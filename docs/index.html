@@ -1424,11 +1424,11 @@
   ])
     .then(([data, poolData]) => {
       const countries = data.countries || [];
-      const playerCount = countries.reduce((n, c) => n + c.players.length, 0);
+      const playerCount = new Set(countries.flatMap(c => c.players.map(p => playerKey(c, p)))).size;
       const stat = statHTML;
       document.getElementById("ef-meta").innerHTML =
         stat(countries.length, "Nations") +
-        stat(playerCount.toLocaleString(), "Players") +
+        stat(playerCount.toLocaleString(), "Squad players") +
         stat(esc((data.updated || "—").split(" ")[0]) +
              `<small>${esc((data.updated || "").split(" ").slice(1).join(" "))}</small>`, "Last updated") +
         stat(`<a href="${esc(data.source)}" target="_blank" rel="noopener">github ↗</a>`, "Source");
