@@ -228,7 +228,6 @@ def _scan_scoreboard_days(team_id, start_day, end_day, now_utc, event_times, tim
         except requests.HTTPError as exc:
             failed += 1
             status = getattr(exc.response, "status_code", None)
-            # 400 means bad date format / unsupported range — not worth retrying.
             if status not in (400, 404) and failed <= 3:
                 print(f"  Warning: ESPN scoreboard failed for {day.strftime('%Y%m%d')}: {exc}")
         except requests.RequestException as exc:
@@ -242,7 +241,7 @@ def _scan_scoreboard_days(team_id, start_day, end_day, now_utc, event_times, tim
 def resolve_latest_completed_espn_event_id_for_team(
     team_id, max_days_back=120, chunk_days=14, game_index=1
 ):
-    del chunk_days  # date-range scoreboard windows are no longer supported by ESPN
+    del chunk_days
     now = datetime.now(timezone.utc)
     event_times = {}
     latest_sched_dt = None
@@ -250,8 +249,6 @@ def resolve_latest_completed_espn_event_id_for_team(
     scoreboard_timeout = float(
         os.environ.get("ESPN_SCOREBOARD_TIMEOUT", os.environ.get("ESPN_REQUEST_TIMEOUT", "30"))
     )
-    # ESPN soccer/all/scoreboard rejects YYYYMMDD-YYYYMMDD ranges (HTTP 400).
-    # Only single-day queries work, so keep this window small.
     recent_scoreboard_days = max(
         1, int(os.environ.get("ESPN_SCOREBOARD_RECENT_DAYS", "14"))
     )
@@ -278,14 +275,12 @@ def resolve_latest_completed_espn_event_id_for_team(
         pass
 
     end_date = now.date()
-    # Prefer the team schedule; only day-scan recent boards to catch matches missing there.
     if latest_sched_dt is None:
         oldest = end_date - timedelta(days=min(max_days_back, max(recent_scoreboard_days * 2, 30)))
         _scan_scoreboard_days(
             team_id, oldest, end_date, now, event_times, scoreboard_timeout
         )
     else:
-        # Schedule already has history; only probe a short recent window for newer games.
         stale_vs_now = (end_date - latest_sched_dt.date()).days
         if stale_vs_now >= 3:
             oldest = end_date - timedelta(days=recent_scoreboard_days)

@@ -109,7 +109,6 @@ async def _transfermarkt_html_playwright(playwright, url: str):
     interactive = os.environ.get("TRANSFERMARKT_INTERACTIVE", "").lower() in {"1", "true", "yes"}
     browser = None
     if interactive:
-        # A dedicated profile retains verification cookies without touching personal Chrome data.
         profile = Path(os.environ.get(
             "TRANSFERMARKT_PROFILE_DIR", str(Path(__file__).resolve().parent.parent / ".transfermarkt-browser")
         )).expanduser().resolve()
@@ -157,7 +156,6 @@ async def _transfermarkt_html_playwright(playwright, url: str):
                 except PlaywrightError:
                     if page.is_closed():
                         raise
-                    # Completing the check can navigate while content is being read.
                     continue
         elif html_looks_like_waf_challenge(html):
             await page.reload(wait_until="domcontentloaded", timeout=90000)
@@ -165,7 +163,6 @@ async def _transfermarkt_html_playwright(playwright, url: str):
             html = await page.content()
         return html
     finally:
-        # Closing an already disconnected browser must not mask Ctrl-C or a fetch error.
         try:
             with suppress(PlaywrightError):
                 await context.close()

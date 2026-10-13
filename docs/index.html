@@ -26,7 +26,6 @@
     a:hover { text-decoration:underline; text-underline-offset:3px; }
     ::selection { background:rgba(56,189,248,.3); }
 
-    /* Navigation */
     .site-header { position:sticky; top:0; z-index:50; background:rgba(8,9,11,.82);
                    backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
     .site-header .inner { max-width:1320px; margin:0 auto; padding:0 1.5rem; display:flex; align-items:stretch;
@@ -43,7 +42,6 @@
     .site-nav a.active { color:var(--ink); border-bottom-color:var(--accent); }
     .site-nav .sep { width:1px; background:var(--line); margin:.9rem .4rem; }
 
-    /* Hero */
     .hero { border-bottom:1px solid var(--line); }
     .hero .inner { max-width:1320px; margin:0 auto; padding:1.75rem 1.5rem 1.5rem; display:grid;
                    grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:2rem; align-items:end; }
@@ -70,7 +68,6 @@
     .ef-wrap { --ef-muted:var(--muted); --ef-accent:var(--accent); color:var(--ink); }
 
 
-    /* Nation header + squad switch */
     .nation-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;
                    padding-bottom:.9rem; border-bottom:1px solid var(--line); }
     .nation-name { display:flex; align-items:center; gap:.7rem; font-size:1.5rem; font-weight:700; letter-spacing:-.01em; }
@@ -87,7 +84,6 @@
     .ef-squad-choice:hover { color:var(--ink); }
     .ef-squad-choice.active { background:var(--ink); color:var(--bg); }
 
-    /* Sections + cards */
     .ef-section-title { font-family:var(--mono); font-size:.72rem; font-weight:500; letter-spacing:.1em;
                         text-transform:uppercase; color:var(--muted); margin:1.6rem 0 .8rem;
                         display:flex; align-items:center; gap:.6rem; }
@@ -137,7 +133,6 @@
              letter-spacing:.06em; }
 
 
-    /* Overview */
     .ov-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; margin-bottom:1rem; }
     .panel { background:var(--panel); border:1px solid var(--line); min-width:0; }
     .panel-head { display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.7rem 1rem;
@@ -197,7 +192,6 @@
                    cursor:pointer; text-align:left; }
     .rank-toggle:hover { background:var(--panel-2); }
 
-    /* Nations sidebar */
     .layout.with-sidebar { display:grid; grid-template-columns:260px minmax(0,1fr); gap:1.5rem; align-items:start; }
     .content { min-width:0; }
     .sidebar[hidden] { display:none; }
@@ -238,7 +232,6 @@
     @media (max-width:520px) { .xi-node { width:70px; } .xi-photo { width:40px; height:40px; }
                                .rank-row { grid-template-columns:1.6rem minmax(0,1fr) 3rem; } .rank-row .bar { display:none; } }
 
-    /* Player search */
     .psearch { position:relative; flex:1; max-width:360px; display:flex; align-items:center; gap:.5rem; align-self:center;
                border:1px solid var(--line-2); background:var(--bg); padding:0 .6rem; margin:0 1.25rem; }
     .psearch:focus-within { border-color:var(--accent); }
@@ -266,7 +259,6 @@
     .ps-filters { display:flex; flex-wrap:wrap; gap:.35rem; padding:.5rem .7rem; border-bottom:1px solid var(--line); }
     .ps-empty { padding:.8rem; font-family:var(--mono); font-size:.75rem; color:var(--dim); }
 
-    /* Player page */
     .pl-back { display:inline-block; font-family:var(--mono); font-size:.75rem; color:var(--muted); margin-bottom:1rem; }
     .pl-head { --ct:var(--line-2); display:grid; grid-template-columns:200px minmax(0,1fr); gap:1.5rem;
                background:var(--panel); border:1px solid var(--line); border-top:2px solid var(--ct); padding:1.25rem; }
@@ -546,7 +538,6 @@
       <div class="panel-head"><span class="title">${title}</span>${aside ? `<span class="aside">${aside}</span>` : ""}</div>
       ${body}</div>`;
 
-  // Best XI, laid out as a 4-1-2-3 with the attack at the top of the pitch.
   const XI = [["LWF",18,13],["CF",50,9],["RWF",82,13],
               ["CMF",29,34],["AMF",71,34],["DMF",50,57],
               ["LB",13,68],["CB",37,74],["CB",63,74],["RB",87,68],["GK",50,91]];
@@ -577,7 +568,6 @@
   }
 
   const FEED_DAYS = 7, OV_PREVIEW = 10;
-  // Overview lists show the top OV_PREVIEW rows; the rest sit behind a toggle.
   const expandList = (rows) => `<div class="xlist">${rows.slice(0, OV_PREVIEW).join("")}` + (rows.length > OV_PREVIEW
     ? `<div class="xlist-more" hidden>${rows.slice(OV_PREVIEW).join("")}</div></div>
        <button class="rank-toggle xlist-toggle" type="button" data-total="${rows.length}">show all ${rows.length}</button>` : "</div>");
@@ -586,7 +576,6 @@
     if (!toggle) return;
     const more = toggle.previousElementSibling.querySelector(".xlist-more");
     const panel = toggle.closest(".panel");
-    // Side-by-side panels keep their paired height and scroll instead of growing.
     if (panel.closest(".ov-grid") && more.hidden) {
       panel.style.height = panel.offsetHeight + "px";
       panel.classList.add("locked");
@@ -754,9 +743,6 @@
   const SECTION_LABEL = { starters:"Starter", substitutes:"Substitute", wildcard:"Wildcard" };
   const ordinalMedal = (r) => r ? `${MEDAL[r]} ${["", "1st", "2nd", "3rd"][r]}` : "—";
 
-  // One entry per player per nation. Squad players keep every appearance (a
-  // player can be in both squads); drop-outs and pool-only players from
-  // players.json are folded in so every player in the files is searchable.
   const STATUS_ORDER = { squad: 0, dropped: 1, pool: 2 };
   function buildIndex(countries, pools) {
     const byKey = new Map();
@@ -809,8 +795,6 @@
     return { score: score - t.length * 0.1 - (pos[0] || 0) * 0.2, pos };
   }
 
-  // Every card a player holds, as [position, rating]: squad listings, the
-  // drop-out record and pool rows, best first.
   const cardsOf = (e) => [
     ...e.apps.map(a => [a.pos, a.rating]),
     ...(e.drop ? [[e.drop.pos, e.drop.rating]] : []),
@@ -820,9 +804,6 @@
   const POSITIONS = new Set(POSITION_ORDER.map(p => p.toLowerCase()));
   const words = (str) => fold(str).join("").replace(/[^a-z0-9]+/g, " ").trim();
 
-  // Splits a query into nation filters, position filters and the leftover
-  // name. Nation words need minLen+ letters (or an exact short name like
-  // "usa") so partial names such as "ser" for Sergio aren't read as Serbia.
   function parseQuery(query, countries, minLen) {
     let text = ` ${words(query)} `;
     const nations = new Set(), positions = new Set();
@@ -949,12 +930,9 @@
 
   const SQUAD_NAME = { first: "First squad", second: "Second squad" };
   const hc = (text, cls = "") => `<span class="hc ${cls}">${text}</span>`;
-  // Recalculations nudge ratings by ±0.01–0.02; those aren't real changes.
   const moved = (from, to) => Math.abs(to - from) > 0.025;
   const delta = (from, to) => hc(`rating ${from.toFixed(2)} → ${to.toFixed(2)}`, to > from ? "up" : "down");
 
-  // Turns two consecutive snapshots of one card ({a: squad listings, p: pool
-  // row [rating, card type, recent]}) into change chips.
   function describeChange(prev, cur) {
     const out = [];
     const bySquad = (snap) => Object.fromEntries(((snap && snap.a) || []).map(a => [a[0], a]));
@@ -1005,9 +983,6 @@
     return `<div class="hist-facts">${facts}</div>${rows}`;
   }
 
-  // Rank of one card among every squad-listed card at its position, at each
-  // date any of those cards changed. Off-squad stretches get the rank the
-  // card's pool rating would earn ("would rank").
   function ladderSeries(h, pos, target) {
     const cards = [];
     for (const nation of Object.values(h.countries))
@@ -1103,7 +1078,6 @@
     </div>`;
   }
 
-  // Hover (or tap) anywhere on the chart to read the rank on that day.
   function bindRankChart(container) {
     const chart = container.querySelector(".rank-chart");
     if (!chart) return;
@@ -1142,8 +1116,6 @@
     show(x1, false);
   }
 
-  // Every nation's strength rank (average of first-squad starters) at each
-  // date any squad changed, rebuilt from the card history.
   function nationRankSeries(h) {
     const nations = Object.entries(h.countries).map(([id, players]) => ({
       id, cards: Object.values(players).flatMap(byPos => Object.values(byPos)),
@@ -1177,7 +1149,6 @@
     return series;
   }
 
-  // Ladder rank of every squad-listed card on a given day, keyed by card.
   function ladderRanksOn(h, day) {
     const byPos = {};
     for (const [nid, players] of Object.entries(h.countries))
@@ -1237,7 +1208,6 @@
       <div class="mover-label">fallers</div>${down.map(row).join("") || `<div class="feed-more">No fallers.</div>`}`;
   }
 
-  // Current card first, then the rest by latest rating.
   function cardOrder(cards, current) {
     const latest = (snaps) => { const s = snaps[snaps.length - 1]; return s.p ? s.p[0] : (s.a[0] ? s.a[0][4] : 0); };
     return Object.keys(cards).sort((a, b) => (b === current) - (a === current) || latest(cards[b]) - latest(cards[a]));
@@ -1282,22 +1252,28 @@
   function renderPlayer(entry, index) {
     const { c, p, status } = entry;
     const inSquad = status === "squad";
-    const squadAtPos = [...index.values()].filter(e => e.status === "squad" && e.p.pos === p.pos);
-    const ladderAll = [...squadAtPos, ...(inSquad ? [] : [entry])]
-      .sort((a, b) => b.p.rating - a.p.rating || a.p.name.localeCompare(b.p.name));
-    const at = ladderAll.indexOf(entry);
+    const squadAtPos = [];
+    for (const e of index.values()) {
+      if (e.status !== "squad") continue;
+      const at = e.apps.filter(a => a.pos === p.pos);
+      if (at.length) squadAtPos.push({ e, r: Math.max(...at.map(a => a.rating)) });
+    }
+    if (!inSquad || !squadAtPos.some(x => x.e === entry)) squadAtPos.push({ e: entry, r: p.rating, extra: true });
+    const ladderAll = squadAtPos.sort((a, b) => b.r - a.r || a.e.p.name.localeCompare(b.e.p.name));
+    const listedAtPos = ladderAll.filter(x => !x.extra).length;
+    const at = ladderAll.findIndex(x => x.e === entry);
     const posRank = at + 1;
     const lo = Math.max(0, Math.min(at - 3, ladderAll.length - 7));
-    const maxR = ladderAll[0].p.rating, minR = ladderAll[ladderAll.length - 1].p.rating;
+    const maxR = ladderAll[0].r, minR = ladderAll[ladderAll.length - 1].r;
     const w = (v) => maxR === minR ? 100 : 8 + 92 * (v - minR) / (maxR - minR);
-    const ladderRows = ladderAll.slice(lo, lo + 7).map((e, i) => {
+    const ladderRows = ladderAll.slice(lo, lo + 7).map(({ e, r }, i) => {
       const n = lo + i;
       const shown = inSquad || n < at ? n + 1 : e === entry ? "→" : n;
       return `<a class="rank-row${e === entry ? " me" : ""}" href="#/player/${esc(e.key)}">
         <span class="rank-n">${typeof shown === "number" ? String(shown).padStart(2, "0") : shown}</span>
         <span class="rank-nation"><span>${e.c.flag||""}</span><span class="nm">${esc(e.p.name)}</span></span>
-        <span class="bar"><i style="width:${w(e.p.rating).toFixed(1)}%"></i></span>
-        <span class="num">${e.p.rating.toFixed(0)}</span>
+        <span class="bar"><i style="width:${w(r).toFixed(1)}%"></i></span>
+        <span class="num">${r.toFixed(0)}</span>
       </a>`;
     }).join("");
 
@@ -1309,7 +1285,7 @@
       : statHTML(`—<small>no ${esc(p.pos)} in squad</small>`, `Gap to weakest ${esc(p.pos)}`);
     const rankStat = inSquad
       ? statHTML(`#${posRank}<small>of ${ladderAll.length} ${esc(p.pos)}s</small>`, "Position rank")
-      : statHTML(`#${posRank}<small>among ${squadAtPos.length} squad ${esc(p.pos)}s</small>`, "Would rank");
+      : statHTML(`#${posRank}<small>among ${listedAtPos} squad ${esc(p.pos)}s</small>`, "Would rank");
 
     let chips, stats, sidePanel;
     if (inSquad) {
@@ -1372,7 +1348,7 @@
       </div>
       <div class="pl-grid">
         ${panel(`${esc(p.pos)} ladder`, inSquad ? `all ${ladderAll.length} squad ${esc(p.pos)}s by rating`
-                                                : `where they'd sit among ${squadAtPos.length} squad ${esc(p.pos)}s`, ladderRows)}
+                                                : `where they'd sit among ${listedAtPos} squad ${esc(p.pos)}s`, ladderRows)}
         <div class="pl-stack">${sidePanel || ""}${posPanel}</div>
       </div>
       <div id="pl-history" class="pl-history" data-key="${esc(entry.key)}">${panel("Card history", "loading…", "")}</div>

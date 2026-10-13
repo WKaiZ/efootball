@@ -47,17 +47,12 @@ UA = (
     "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 )
 
-# The header set the builders have always sent.
 BASIC = {
     "User-Agent": UA,
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
-# A fuller, more browser-shaped set: Sec-Fetch-*/Sec-CH-* and a Referer, the
-# headers a naive scraper omits. It does not get past the runner-IP block --
-# nothing header-shaped does -- but it costs nothing and covers the milder case
-# of a host that only objects to a bare request.
 BROWSER = dict(BASIC, **{
     "Accept-Encoding": "gzip, deflate",
     "Cache-Control": "no-cache",
@@ -97,25 +92,15 @@ STRATEGIES = [
      "headers": _reader_headers()},
 ]
 
-# A GitHub runner cannot read Transfermarkt at all: every one of its ~30
-# regional domains answers an Actions IP with HTTP 202 and an empty body, and
-# r.jina.ai refuses keyless requests from those IPs (probed 2026-08-03). The
-# only way through is to leave on a different network, so the workflows run
-# Cloudflare WARP as a local SOCKS proxy and point TM_SOCKS_PROXY at it. Where
-# it's set we try it first, since it's the one route known to work there.
 SOCKS_PROXY = os.environ.get("TM_SOCKS_PROXY")
 if SOCKS_PROXY:
     STRATEGIES.insert(0, {"name": "warp", "host": "https://www.transfermarkt.us",
                           "headers": BASIC, "proxy": SOCKS_PROXY})
 
 TIMEOUT = int(os.environ.get("TM_TIMEOUT", "30"))
-# Transfermarkt starts returning HTTP 403 after bursts; spacing requests avoids
-# a temporary IP ban that looks like "every strategy failed".
 _MIN_INTERVAL = float(os.environ.get("TM_MIN_INTERVAL", "2.0"))
 _last_fetch = 0.0
 
-# Index into STRATEGIES of the last one that returned a real page. Sticky for
-# the life of the process so we don't re-pay a failed strategy per player.
 _current = 0
 _used = None
 
@@ -204,11 +189,6 @@ def _attempt(path, classify):
     raise Blocked(", ".join(problems))
 
 
-# Portraits are keyed <id>-<timestamp>; accept jpg/jpeg/png in any case and any
-# of big/header/medium, ignore the ?lm= cache-buster, and normalize to the
-# canonical big/<id>-<ts>.<ext>. Older (often retired) players instead use a
-# legacy "s_<id>_..." filename. The image host is case-sensitive: a portrait
-# uploaded as .JPG 404s when requested as .jpg, so keep the extension verbatim.
 def _portrait(html, tid):
     m = re.search(rf"portrait/(?:big|header|medium)/{tid}-(\d+)\.(jpe?g|png)", html, re.I)
     if m:
@@ -222,13 +202,8 @@ def _portrait(html, tid):
 
 NO_PHOTO_RE = re.compile(r"portrait/(?:big|header|medium)/default\.jpg", re.I)
 
-# Every page on the site embeds the quick-search form, so this is a decent
-# "we really did reach Transfermarkt" test -- true of a profile, true of the
-# landing page an unknown id redirects to, false of a block page.
 SITE_MARKER = "schnellsuche"
 
-# Distinct object returned for "real page, genuinely no portrait", so _attempt
-# can tell it apart from "unreadable page" (both would otherwise be None).
 _NO_PHOTO = object()
 
 
@@ -245,13 +220,8 @@ def _portrait_classifier(tid):
             return url
         ours = f"spieler/{tid}" in html
         if ours:
-            # Our player's profile. Only a default portrait proves "no photo";
-            # a profile with neither means markup we don't recognize, which is
-            # worth retrying rather than blacklisting the id over.
             return _NO_PHOTO if NO_PHOTO_RE.search(html) else None
         if SITE_MARKER in html.lower():
-            # Transfermarkt's own page, but not this player's -- the id no
-            # longer resolves, so there is no photo to wait for.
             return _NO_PHOTO
         return None
     return classify
@@ -278,8 +248,6 @@ def search_player(name):
         m = re.search(r"profil/spieler/(\d+)", html)
         if m:
             return m.group(1)
-        # A real results page always echoes the quick-search form back, so its
-        # absence means we never reached the search at all.
         if SITE_MARKER in html.lower():
             return _MISS
         return None
@@ -305,8 +273,8 @@ def _probe_one(strategy, tid):
 def probe(argv=()):
     """Report, per strategy, whether it can read Transfermarkt from this host.
     Run in CI to find out which strategy the runners can actually use."""
-    has_photo = argv[0] if len(argv) > 0 else "2219"       # Philipp Lahm
-    no_photo = argv[1] if len(argv) > 1 else "1146046"     # profile, no portrait
+    has_photo = argv[0] if len(argv) > 0 else "2219"
+    no_photo = argv[1] if len(argv) > 1 else "1146046"
     print(f"probe: expecting PORTRAIT for #{has_photo}, NULL for #{no_photo}\n")
     width = max(len(s["name"]) for s in STRATEGIES)
     for s in STRATEGIES:

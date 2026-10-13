@@ -26,9 +26,6 @@ TM_LINK = tmfetch.TM_LINK
 TM_DAILY_LIMIT = int(os.environ.get("EFOOTBALL_TM_LIMIT") or "23")
 TM_NULL_LIMIT = int(os.environ.get("EFOOTBALL_TM_NULL_LIMIT", "3"))
 TM_ERROR_LIMIT = int(os.environ.get("EFOOTBALL_TM_ERROR_LIMIT", "5"))
-# Consecutive unreadable-page runs before we conclude Transfermarkt is not
-# talking to this host today and stop, rather than spend the daily budget on
-# requests that can only come back unreadable.
 TM_BLOCK_ABORT = int(os.environ.get("EFOOTBALL_TM_BLOCK_ABORT", "3"))
 TM_BLOCKED_WAIT = float(os.environ.get("TM_BLOCKED_WAIT", "45"))
 TM_BLOCKED_RETRIES = int(os.environ.get("TM_BLOCKED_RETRIES", "2"))
@@ -51,18 +48,11 @@ LINE_RE = re.compile(
     r"^\s*\[(?P<slot>[A-Z]+)\]\s+(?P<name>.+?)\s+\((?P<pos>[A-Z]+)\)\s+"
     r"rating\s+(?P<rating>[\d.]+)\s+#(?P<num>\d+)\s*$"
 )
-# Flags for the four UK home nations are subdivision flag sequences that can't
-# be derived from a two-letter code, so they're kept explicit.
 _SCOT = "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F"
 _WALES = "\U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F"
 _ENG = "\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
 SUBDIVISION_FLAGS = {"england": _ENG, "scotland": _SCOT, "wales": _WALES}
 
-# Map each squad directory id -> ISO 3166-1 alpha-2 code. The flag emoji is
-# generated from the code (see flag_for), so subbing a new nation in/out only
-# needs an entry here — no emoji to hand-pick. Ids match the folder names in
-# this repo (lowercase, hyphenated). Northern Ireland has no flag emoji of its
-# own, so it borrows the UK's.
 ISO2 = {
     "albania": "al", "algeria": "dz", "angola": "ao", "argentina": "ar",
     "australia": "au", "austria": "at", "azerbaijan": "az", "bahrain": "bh",
@@ -184,6 +174,35 @@ def canon_card(card):
 def clean_pool_text(text):
     return POOL_CARD_RE.sub(lambda m: m[1] + canon_card(m[2]), text)
 
+def backfill_card_fixes(pool_texts, pool_now):
+    """Carry card-type corrections back through older pool versions.
+
+    A card whose type changes while its rating stays put (within the ±0.02
+    recalculation noise) was recorded with the wrong type, e.g. Bruno Fernandes
+    AMF Highlight -> BigTime at 98.59. Older versions take the corrected type
+    so it neither shows as a change nor restarts the card's tenure.
+    """
+    def rows(text):
+        return {(norm(m["name"]), m["pos"]): (float(m["rating"]), m["card"])
+                for m in map(POOL_FULL_RE.match, (text or "").splitlines()) if m}
+
+    ref = rows(pool_now)
+    out, fixed = [], set()
+    for d, text in pool_texts:
+        lines = []
+        for ln in text.splitlines(keepends=True):
+            m = POOL_FULL_RE.match(ln)
+            if m:
+                newer = ref.get((norm(m["name"]), m["pos"]))
+                if newer and newer[1] != m["card"] and abs(newer[0] - float(m["rating"])) <= 0.025:
+                    ln = ln[:m.start("card")] + newer[1] + ln[m.end("card"):]
+                    fixed.add(f"{m['name'].strip()} {m['pos']}")
+            lines.append(ln)
+        text = "".join(lines)
+        ref.update(rows(text))
+        out.append((d, text))
+    return out, sorted(fixed)
+
 def _names_in(squad_text, pool_text):
     names = {p["name"] for p in _parse_players(squad_text or "")}
     names |= {m["name"].strip() for m in map(POOL_ROW_RE.match, (pool_text or "").splitlines()) if m}
@@ -274,8 +293,6 @@ def squad_members(text):
         members.setdefault(norm(p["name"]), p)
     return members
 
-# A card is one player at one position: a player can hold several cards
-# (Messi has CF, SS and RWF), and each card keeps its own history.
 def _squad_states(text):
     states = {}
     for p in _parse_players(text):
@@ -510,8 +527,6 @@ def build():
         except Exception:
             pass
 
-    # Tenure dates come from git history, so CI needs a full (non-shallow)
-    # checkout of this repo.
     game_data, card_types = load_game_data(os.path.join(ROOT, "pes.db"))
     today = datetime.now(timezone.utc).date()
 
@@ -539,6 +554,9 @@ def build():
                     + ", ".join(f"{o} -> {n}" for o, n in renames.items()))
                 texts = [(d, apply_renames(t, renames)) for d, t in texts]
                 pool_texts = [(d, apply_renames(t, renames)) for d, t in pool_texts]
+            pool_texts, fixed = backfill_card_fixes(pool_texts, pool_now)
+            if fixed:
+                log(f"  {c}: card-type corrections carried back: {', '.join(fixed)}")
             versions = history_versions(ROOT, rel, parse_squad_sigs, texts)
             pool_rows = parse_pool_rows(pool_now) if pool_now is not None else {}
             pool_versions = (history_versions(ROOT, pool_rel, parse_pool_sigs, pool_texts)
@@ -564,8 +582,6 @@ def build():
             callups, joined, dropouts = squad_history(texts, players, today)
             for p in players:
                 p["callups"] = callups.get(norm(p["name"]), 1)
-                # "since" restarts whenever the row changes (number, rating,
-                # slot); "joined" only restarts when the player leaves the squad.
                 p["joined"] = min(joined.get(norm(p["name"]), p["since"]), p["since"])
             for d in dropouts:
                 d["tm_id"] = find_tm_id(game_data.get(c, []), d, ov.get(norm(d["name"])))
@@ -606,7 +622,6 @@ def build():
             log("Nations unchanged.")
 
     _resolve_fotmob(all_players, cache)
-    # Drop-outs and pool-only players queue behind every current squad player.
     _backfill_transfermarkt(all_players + extras, cache)
 
     def photo(tm_id):
@@ -618,10 +633,6 @@ def build():
     for c in out_countries:
         for p in c["players"]:
             tm = tm_cache.get(p["tm_id"]) if p["tm_id"] else None
-            # When we have a Transfermarkt id, never fall back to FotMob: short
-            # legend names (Kaká, Cafu, Dida, …) collide with unrelated active
-            # players there. Prefer a blank/initials tile until the TM portrait
-            # is cached over showing the wrong face.
             if tm:
                 p["img"] = tm
             elif p["tm_id"]:
@@ -644,7 +655,6 @@ def build():
     json.dump(out, open(SQUADS_PATH, "w"), ensure_ascii=False, indent=1)
     json.dump({
         "updated": out["updated"],
-        # Rows are [position, rating, card type, proficient, semi-proficient].
         "countries": {c: [{"name": e["name"], "recent": e["recent"], "rows": e["rows"],
                            "img": photo(e["tm_id"]), "tm": tm_link(e["tm_id"])}
                           for e in pool] for c, pool in pools.items()},
@@ -660,9 +670,6 @@ def build():
 
 def _resolve_fotmob(all_players, cache):
     fm_cache = cache["fotmob"]
-    # Only ask FotMob when there is no Transfermarkt id at all. pes.db already
-    # gives every eFootball squad player a TM id; looking up FotMob for those
-    # just burns quota and sticks wrong mononym matches in the cache.
     todo = [(c, p) for c, p in all_players if not p["fm_id"] and not p["tm_id"]]
     if not todo:
         log("Fotmob: nothing to look up.")
@@ -689,8 +696,6 @@ def _backfill_transfermarkt(all_players, cache):
             continue
         if tm_null.get(tid, 0) >= TM_NULL_LIMIT or tm_err.get(tid, 0) >= TM_ERROR_LIMIT:
             continue
-        # Keep the longest-tenured appearance of each id — legends sitting on
-        # wrong/blank tiles for months should drain before day-1 squad churn.
         if tid not in pending or p["days"] > pending[tid][0]:
             pending[tid] = (p["days"], p["name"])
     queue = sorted(pending.items(), key=lambda kv: -kv[1][0])[:TM_DAILY_LIMIT]
