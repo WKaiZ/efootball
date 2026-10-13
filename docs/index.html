@@ -795,11 +795,14 @@
     return { score: score - t.length * 0.1 - (pos[0] || 0) * 0.2, pos };
   }
 
-  const cardsOf = (e) => [
-    ...e.apps.map(a => [a.pos, a.rating]),
-    ...(e.drop ? [[e.drop.pos, e.drop.rating]] : []),
-    ...(e.pool ? e.pool.rows.map(r => [r[0], r[1]]) : []),
-  ].sort((a, b) => b[1] - a[1]);
+  const cardsOf = (e) => {
+    const current = [
+      ...e.apps.map(a => [a.pos, a.rating]),
+      ...(e.pool ? e.pool.rows.map(r => [r[0], r[1]]) : []),
+    ];
+    return (current.length ? current : e.drop ? [[e.drop.pos, e.drop.rating]] : [])
+      .sort((a, b) => b[1] - a[1]);
+  };
 
   const POSITIONS = new Set(POSITION_ORDER.map(p => p.toLowerCase()));
   const words = (str) => fold(str).join("").replace(/[^a-z0-9]+/g, " ").trim();
@@ -1237,8 +1240,9 @@
       const name = Object.keys(nation).find(n => n === entry.p.name)
         || Object.keys(nation).find(n => slug(n) === slug(entry.p.name));
       const cards = name ? nation[name] : {};
-      const order = cardOrder(cards, null);
-      const show = cards[pos] ? pos : order[0];
+      const currentPositions = new Set(cardsOf(entry).map(([cardPos]) => cardPos));
+      const order = cardOrder(cards, null).filter(cardPos => currentPositions.has(cardPos));
+      const show = order.includes(pos) ? pos : order[0];
       const tabs = order.length > 1 ? `<div class="card-tabs" role="tablist">${order.map(k =>
         `<button role="tab" class="card-tab${k === show ? " active" : ""}" data-pos="${esc(k)}" aria-selected="${k === show}">${esc(k)}</button>`).join("")}</div>` : "";
       const snaps = cards[show];
@@ -1282,7 +1286,8 @@
     const { c, p, status } = entry;
     const inSquad = status === "squad";
     const positions = [...new Set(cardsOf(entry).map(([pos]) => pos))];
-    const pos = positions.includes(wantPos) ? wantPos : p.pos;
+    const pos = positions.includes(wantPos) ? wantPos :
+      positions.includes(p.pos) ? p.pos : positions[0];
     const cards = positions.map(k => {
       const info = cardInfo(entry, k);
       return { ...info, ladder: cardLadder(index, entry, info) };
