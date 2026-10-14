@@ -133,7 +133,15 @@
              letter-spacing:.06em; }
 
 
-    .ov-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; margin-bottom:1rem; }
+    .ov-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:1rem; align-items:start; margin-bottom:1rem; }
+    .overview-activity { align-items:stretch; }
+    .overview-activity > .panel, .overview-activity .tab-view:not([hidden]),
+    .overview-activity .xlist, .overview-activity #movers { display:flex; flex-direction:column; }
+    .overview-activity .tab-view:not([hidden]), .overview-activity .xlist,
+    .overview-activity #movers, .overview-activity .feed-row,
+    .overview-activity .mover-row { flex:1; }
+    .overview-activity .xlist-toggle { margin-top:auto; }
+    .overview-activity .panel.locked .xlist { display:block; }
     .panel { background:var(--panel); border:1px solid var(--line); min-width:0; }
     .panel-head { display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.7rem 1rem;
                   border-bottom:1px solid var(--line); font-family:var(--mono); font-size:.7rem; letter-spacing:.1em;
@@ -141,17 +149,18 @@
     .panel-head::before { content:"//"; color:var(--dim); margin-right:-.2rem; }
     .panel-head .title { flex:1; }
     .panel-head .aside { color:var(--dim); letter-spacing:.04em; text-transform:none; }
+    .panel-head .aside a { color:var(--ink); }
 
-    .panel:has(> .pitch) { display:flex; flex-direction:column; }
     .panel.locked { display:flex; flex-direction:column; }
     .panel.locked .xlist { flex:1; min-height:0; overflow-y:auto; }
-    .pitch { position:relative; flex:1; min-height:400px; margin:1rem; border:1px solid var(--line-2);
+    .pitch-scroll { min-width:0; overflow-x:auto; }
+    .pitch { position:relative; min-height:540px; margin:1rem; border:1px solid var(--line-2);
              background:repeating-linear-gradient(0deg, rgba(255,255,255,.012) 0 10%, transparent 10% 20%), #0b0d10; }
     .pitch .pm { position:absolute; border:1px solid var(--line-2); pointer-events:none; }
-    .pitch .pm.half { left:0; right:0; top:50%; height:0; border-width:1px 0 0; }
+    .pitch .pm.half { top:0; bottom:0; left:50%; width:0; border-width:0 0 0 1px; }
     .pitch .pm.circle { left:50%; top:50%; width:22%; aspect-ratio:1; border-radius:50%; transform:translate(-50%,-50%); }
-    .pitch .pm.box-top { left:25%; right:25%; top:0; height:15%; border-top:0; }
-    .pitch .pm.box-bot { left:25%; right:25%; bottom:0; height:15%; border-bottom:0; }
+    .pitch .pm.box-left { top:25%; bottom:25%; left:0; width:15%; border-left:0; }
+    .pitch .pm.box-right { top:25%; bottom:25%; right:0; width:15%; border-right:0; }
     .xi-node { position:absolute; width:92px; transform:translate(-50%,-50%); text-align:center; color:inherit; z-index:1; }
     a.xi-node:hover { text-decoration:none; }
     a.xi-node:hover .xi-name { color:var(--accent); }
@@ -225,10 +234,10 @@
 
     @media (max-width:900px) {
       .ov-grid { grid-template-columns:minmax(0,1fr); }
-      .pitch { flex:none; aspect-ratio:7/8; min-height:0; }
       .layout.with-sidebar { grid-template-columns:minmax(0,1fr); gap:1rem; }
       .sidebar { position:static; max-height:320px; }
     }
+    @media (max-width:700px) { .pitch { min-width:640px; } }
     @media (max-width:520px) { .xi-node { width:70px; } .xi-photo { width:40px; height:40px; }
                                .rank-row { grid-template-columns:1.6rem minmax(0,1fr) 3rem; } .rank-row .bar { display:none; } }
 
@@ -305,6 +314,23 @@
     .seg button { flex:1; font-family:var(--mono); font-size:.7rem; letter-spacing:.06em; padding:.45rem; border:0; cursor:pointer;
                   background:var(--panel); color:var(--muted); }
     .seg button.active { background:var(--panel-2); color:var(--accent); box-shadow:inset 0 -2px 0 var(--accent); }
+    .tab-view[hidden] { display:none; }
+    .record-grid { padding:1rem; }
+    .record-table-panel { max-width:840px; margin:1rem auto; }
+    .jersey-table-wrap { max-height:460px; overflow:auto; }
+    .jersey-table { width:100%; border-collapse:collapse; font-size:.84rem; }
+    .jersey-table th { position:sticky; top:0; z-index:1; background:var(--panel-2); color:var(--dim);
+                       font-family:var(--mono); font-size:.65rem; font-weight:500; letter-spacing:.08em;
+                       text-transform:uppercase; text-align:left; }
+    .jersey-table th, .jersey-table td { padding:.5rem .8rem; border-bottom:1px solid var(--line); white-space:nowrap; }
+    .jersey-table tbody tr:hover { background:var(--panel-2); }
+    .jersey-table .number, .jersey-table .metric { font-family:var(--mono); }
+    .jersey-table .number { color:var(--accent); font-weight:600; }
+    .jersey-table .metric { text-align:right; }
+    .jersey-table th.metric { text-align:right; }
+    .jersey-table .nation { color:var(--muted); }
+    .jersey-table a { color:var(--ink); font-weight:600; }
+    .jersey-table a:hover { color:var(--accent); }
     .mover-label { font-family:var(--mono); font-size:.64rem; letter-spacing:.1em; text-transform:uppercase; color:var(--dim);
                    padding:.45rem 1rem .25rem; border-bottom:1px solid var(--line); }
     .mover-row { display:grid; grid-template-columns:minmax(0,1fr) 84px 6.2rem 3rem; gap:.7rem; align-items:center;
@@ -315,8 +341,8 @@
     .mover-delta.up { color:#4ade80; } .mover-delta.down { color:#f87171; }
     .spark { width:84px; height:24px; overflow:visible; }
     .spark path { fill:none; stroke:var(--accent); stroke-width:1.5; vector-effect:non-scaling-stroke; }
-    .strength { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); }
-    .strength-list { border-right:1px solid var(--line); min-width:0; }
+    .strength { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); align-items:start; }
+    .strength-list { border-right:1px solid var(--line); min-width:0; max-height:330px; overflow-y:auto; }
     .strength-chart { min-width:0; position:sticky; top:64px; align-self:start; }
     .strength-chart-head { display:flex; align-items:center; gap:.5rem; padding:.75rem 1rem 0; font-size:.9rem; }
     .strength-chart-head a { margin-left:auto; font-family:var(--mono); font-size:.72rem; }
@@ -529,7 +555,7 @@
     a.player.since.localeCompare(b.player.since) ||
     a.player.name.localeCompare(b.player.name);
   const byTenure = (a, b) =>
-    a.player.since.localeCompare(b.player.since) ||
+    joinedOf(a.player).localeCompare(joinedOf(b.player)) ||
     b.player.rating - a.player.rating ||
     a.player.name.localeCompare(b.player.name);
   const root = () => document.getElementById("ef-squad");
@@ -541,42 +567,49 @@
       <div class="panel-head"><span class="title">${title}</span>${aside ? `<span class="aside">${aside}</span>` : ""}</div>
       ${body}</div>`;
 
-  const POSITION_SPOTS = [["LWF",14,13],["CF",38,13],["SS",62,13],["RWF",86,13],
-                          ["LMF",14,32],["AMF",50,32],["RMF",86,32],
-                          ["CMF",32,51],["DMF",68,51],
-                          ["LB",14,70],["CB",50,70],["RB",86,70],
-                          ["GK",50,89]];
-
-  function topOfEachPosition(countries) {
-    const all = countries.flatMap(country => country.players.map(player => ({ player, country }))).sort(byRating);
-    return POSITION_SPOTS.map(([pos, x, y]) => ({ pos, x, y, pick: all.find(e => e.player.pos === pos) }));
+  const PITCH_LINES = [
+    ["GK", 11, ["GK"]],
+    ["DEF", 31, ["LB", "LWB", "CB", "RB", "RWB"]],
+    ["MID", 57, ["LMF", "CMF", "DMF", "AMF", "RMF"]],
+    ["FWD", 84, ["LWF", "CF", "SS", "RWF"]],
+  ];
+  const firstStarters = (c) => c.players.filter(p => (p.squad || "first") === "first" && p.section === "starters");
+  const countryHash = (id) => [...id].reduce((h, ch) => (Math.imul(h, 31) + ch.charCodeAt(0)) >>> 0, 0);
+  function dailySquad(countries, day = Math.floor(Date.now() / 86400000)) {
+    const eligible = countries.filter(c => firstStarters(c).length);
+    if (!eligible.length) return null;
+    eligible.sort((a, b) => countryHash(a.id) - countryHash(b.id) || a.id.localeCompare(b.id));
+    return eligible[day % eligible.length];
   }
 
-  function pitchHTML(countries) {
-    const nodes = topOfEachPosition(countries).map(({ pos, x, y, pick }) => {
-      if (!pick) return "";
-      const { player: p, country: c } = pick;
+  function pitchHTML(c) {
+    const starters = firstStarters(c);
+    const nodes = PITCH_LINES.flatMap(([line, x, order]) => {
+      const players = starters.filter(p => lineOf(p.pos) === line)
+        .sort((a, b) => order.indexOf(a.pos) - order.indexOf(b.pos) || b.rating - a.rating || a.name.localeCompare(b.name));
+      return players.map((p, i) => ({ p, x, y: 100 * (i + 1) / (players.length + 1) }));
+    }).map(({ p, x, y }) => {
       const inner = `<div class="xi-photo ${ctClass(p.card_type)}">${photoHTML(p)}</div>
         <div class="xi-name">${esc(p.name)}</div>
-        <div class="xi-meta">${c.flag||""} ${esc(pos)} · <b>${p.rating.toFixed(0)}</b></div>`;
+        <div class="xi-meta">${esc(p.pos)} · <b>${p.rating.toFixed(0)}</b></div>`;
       const style = `left:${x}%;top:${y}%`;
       const tip = esc(`${p.name} · ${c.name} · ${p.pos} · rating ${p.rating.toFixed(0)}`);
       return `<a class="xi-node" style="${style}" href="${esc(playerHref(c, p))}" title="${tip}">${inner}</a>`;
     }).join("");
-    return `<div class="pitch"><div class="pm half"></div><div class="pm circle"></div>
-      <div class="pm box-top"></div><div class="pm box-bot"></div>${nodes}</div>`;
+    return `<div class="pitch-scroll"><div class="pitch"><div class="pm half"></div><div class="pm circle"></div>
+      <div class="pm box-left"></div><div class="pm box-right"></div>${nodes}</div></div>`;
   }
 
-  const FEED_DAYS = 7, OV_PREVIEW = 10;
-  const expandList = (rows) => `<div class="xlist">${rows.slice(0, OV_PREVIEW).join("")}` + (rows.length > OV_PREVIEW
-    ? `<div class="xlist-more" hidden>${rows.slice(OV_PREVIEW).join("")}</div></div>
-       <button class="rank-toggle xlist-toggle" type="button" data-total="${rows.length}">show all ${rows.length}</button>` : "</div>");
+  const FEED_DAYS = 7, OV_PREVIEW = 9;
+  const expandList = (rows, preview = OV_PREVIEW) => `<div class="xlist">${rows.slice(0, preview).join("")}` + (rows.length > preview
+    ? `<div class="xlist-more" hidden>${rows.slice(preview).join("")}</div></div>
+       <button class="rank-toggle xlist-toggle" type="button" data-total="${rows.length}" data-preview="${preview}">show all ${rows.length}</button>` : "</div>");
   document.addEventListener("click", e => {
     const toggle = e.target.closest(".xlist-toggle");
     if (!toggle) return;
     const more = toggle.previousElementSibling.querySelector(".xlist-more");
     const panel = toggle.closest(".panel");
-    if (panel.closest(".ov-grid") && more.hidden) {
+    if (panel.parentElement.classList.contains("ov-grid") && more.hidden) {
       panel.style.height = panel.offsetHeight + "px";
       panel.classList.add("locked");
     } else {
@@ -584,7 +617,7 @@
       panel.classList.remove("locked");
     }
     more.hidden = !more.hidden;
-    toggle.textContent = more.hidden ? `show all ${toggle.dataset.total}` : `show top ${OV_PREVIEW}`;
+    toggle.textContent = more.hidden ? `show all ${toggle.dataset.total}` : `show top ${toggle.dataset.preview}`;
   });
   function feedHTML(countries) {
     const recent = firstSquad(countries)
@@ -618,7 +651,7 @@
 
   const RECORDS_MAX = 12;
 
-  const RANK_PREVIEW = OV_PREVIEW;
+  const RANK_PREVIEW = 8;
   function strength(countries) {
     return countries.map(c => {
       const xi = c.players.filter(p => (p.squad || "first") === "first" && p.section === "starters");
@@ -637,19 +670,22 @@
         <span class="rank-nation"><span>${c.flag||""}</span><span class="nm">${esc(c.name)}</span>${tierLabel(c)}</span>
         <span class="bar"><i style="width:${width(avg).toFixed(1)}%"></i></span>
         <span class="num">${avg > 0 ? avg.toFixed(1) : "0"}</span>
-      </a>`));
+      </a>`), RANK_PREVIEW);
   }
 
   let moverDays = 7;
   function renderOverview(countries) {
     const rows = strength(countries);
+    const squad = dailySquad(countries);
     root().innerHTML = `
-      <div class="ov-grid">
-        ${panel("Top of each position", "highest-rated squad card at every position", pitchHTML(countries))}
-        ${panel("Latest call-ups", `last ${FEED_DAYS} days`, feedHTML(countries))}
-      </div>
-      <div class="ov-grid ov-even">
-        ${panel("Latest drop-outs", `last ${FEED_DAYS} days`, dropFeedHTML(countries))}
+      ${panel("Squad of the day", squad ? `<a href="#${esc(squad.id)}">${squad.flag||""} ${esc(squad.name)} ↗</a> · ${firstStarters(squad).length} first-squad starters` : "",
+        squad ? pitchHTML(squad) : `<div class="feed-more">No first-squad starters available.</div>`)}
+      <div class="ov-grid overview-activity">
+        ${panel("Squad activity", `last ${FEED_DAYS} days`, `<div class="seg" id="activity-tabs" role="tablist" aria-label="Squad activity">
+            <button type="button" role="tab" data-activity="callups" aria-selected="true" class="active">Call-ups</button>
+            <button type="button" role="tab" data-activity="dropouts" aria-selected="false">Drop-outs</button></div>
+            <div id="activity-callups" class="tab-view" role="tabpanel">${feedHTML(countries)}</div>
+            <div id="activity-dropouts" class="tab-view" role="tabpanel" hidden>${dropFeedHTML(countries)}</div>`)}
         ${panel("Rank movers", "ladder rank change by card", `<div class="seg" role="group" aria-label="Window">
             <button type="button" data-days="7">7 days</button><button type="button" data-days="30">30 days</button></div>
             <div id="movers"><div class="feed-more">loading history…</div></div>`)}
@@ -658,6 +694,25 @@
           <div class="strength-list" id="rankings">${rankingsHTML(rows)}</div>
           <div class="strength-chart" id="nation-chart"><div class="feed-more">loading history…</div></div>
         </div>`)}`;
+
+    document.getElementById("activity-tabs").addEventListener("click", e => {
+      const button = e.target.closest("button[data-activity]");
+      if (!button) return;
+      const active = button.dataset.activity;
+      const activityPanel = button.closest(".panel");
+      activityPanel.style.height = "";
+      activityPanel.classList.remove("locked");
+      activityPanel.querySelectorAll(".xlist-more").forEach(more => { more.hidden = true; });
+      activityPanel.querySelectorAll(".xlist-toggle").forEach(toggle => {
+        toggle.textContent = `show all ${toggle.dataset.total}`;
+      });
+      document.querySelectorAll("#activity-tabs button").forEach(b => {
+        b.classList.toggle("active", b === button);
+        b.setAttribute("aria-selected", String(b === button));
+      });
+      document.getElementById("activity-callups").hidden = active !== "callups";
+      document.getElementById("activity-dropouts").hidden = active !== "dropouts";
+    });
 
     let selected = rows.length ? rows[0].c.id : null;
     const list = document.getElementById("rankings");
@@ -704,10 +759,10 @@
     });
   }
 
-  function gridSection(title, countLabel, entries) {
-    return `<div class="ef-section">
-      <div class="ef-section-title">${title}<span class="count">${countLabel}</span></div>
-      <div class="ef-grid">${entries.map(x => card(x.player, x.country, true)).join("")}</div></div>`;
+  function recordCards(entries, squadTenure = false) {
+    return `<div class="ef-grid record-grid">${entries.map(x => card(
+      squadTenure ? { ...x.player, since: joinedOf(x.player), tenureRank: 0 } : x.player,
+      x.country, true)).join("")}</div>`;
   }
 
   function bestByPosition(countries, cmp) {
@@ -717,10 +772,48 @@
       .filter(Boolean);
   }
 
+  function jerseyRecords(countries, mode) {
+    const byNumber = new Map();
+    for (const country of countries) for (const player of country.players) {
+      if (!byNumber.has(player.number)) byNumber.set(player.number, []);
+      byNumber.get(player.number).push({ country, player });
+    }
+    const compare = mode === "rating" ? byRating : byTenure;
+    return [...byNumber].sort(([a], [b]) => a - b)
+      .map(([number, entries]) => ({ number, ...entries.sort(compare)[0] }));
+  }
+
+  function jerseyTableRows(countries, mode) {
+    return jerseyRecords(countries, mode).map(({ number, country: c, player: p }) => `
+      <tr>
+        <td class="number">#${number}</td>
+        <td><a href="${esc(playerHref(c, p))}">${esc(p.name)}</a></td>
+        <td class="nation">${c.flag||""} ${esc(c.name)}</td>
+        <td><span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span></td>
+        <td class="metric" title="${mode === "tenure" ? `In the squad since ${esc(joinedOf(p))}` : `Rated ${p.rating.toFixed(2)}`}">
+          ${mode === "tenure" ? `${daysSince(joinedOf(p))}d` : p.rating.toFixed(2)}</td>
+      </tr>`).join("");
+  }
+
   function renderRecords(countries) {
+    const numberCount = new Set(countries.flatMap(c => c.players.map(p => p.number))).size;
+    const rated = bestByPosition(countries, byRating);
+    const serving = bestByPosition(countries, byTenure);
     root().innerHTML =
-      gridSection("Highest-rated player by position", countries.length + " nations", bestByPosition(countries, byRating)) +
-      gridSection("Longest-serving player by position", countries.length + " nations", bestByPosition(countries, byTenure)) +
+      panel("Players by position", `${countries.length} nations · first squads`, `<div class="seg" id="position-tabs" role="tablist" aria-label="Player records by position">
+          <button type="button" role="tab" data-position-record="rating" aria-controls="position-rating" aria-selected="true" class="active">Highest rating</button>
+          <button type="button" role="tab" data-position-record="tenure" aria-controls="position-tenure" aria-selected="false">Longest serving</button></div>
+          <div id="position-rating" class="tab-view" role="tabpanel">${recordCards(rated)}</div>
+          <div id="position-tenure" class="tab-view" role="tabpanel" hidden>${recordCards(serving, true)}</div>`) +
+      `<div class="record-table-panel">
+        ${panel("By jersey number", `${numberCount} numbers worn`, `<div class="seg" id="jersey-tabs" role="tablist" aria-label="Jersey records">
+            <button type="button" role="tab" data-record="rating" aria-selected="true" class="active">Highest rating</button>
+            <button type="button" role="tab" data-record="tenure" aria-selected="false">Longest serving</button></div>
+            <div class="jersey-table-wrap"><table class="jersey-table">
+              <thead><tr><th scope="col">No.</th><th scope="col">Player</th><th scope="col">Nation</th><th scope="col">Pos</th><th scope="col" class="metric" id="jersey-metric">Rating</th></tr></thead>
+              <tbody id="jersey-rows"></tbody>
+            </table></div>`)}
+      </div>` +
       `<div class="ov-grid ov-even">
         ${panel("Longest stints ended", "drop-outs by days in squad",
           allDropouts(countries).sort((a, b) => b.d.days - a.d.days).slice(0, RECORDS_MAX).map(x => dropRow(x)).join(""))}
@@ -737,6 +830,30 @@
                 <span class="num">${p.rating.toFixed(0)}</span>
               </a>`).join("") || `<div class="feed-more">Nobody has been called up twice yet.</div>`)}
       </div>`;
+    document.getElementById("position-tabs").addEventListener("click", e => {
+      const button = e.target.closest("button[data-position-record]");
+      if (!button) return;
+      const active = button.dataset.positionRecord;
+      document.querySelectorAll("#position-tabs button").forEach(b => {
+        b.classList.toggle("active", b === button);
+        b.setAttribute("aria-selected", String(b === button));
+      });
+      document.getElementById("position-rating").hidden = active !== "rating";
+      document.getElementById("position-tenure").hidden = active !== "tenure";
+    });
+    const drawJerseys = (mode) => {
+      document.querySelectorAll("#jersey-tabs button").forEach(b => {
+        b.classList.toggle("active", b.dataset.record === mode);
+        b.setAttribute("aria-selected", String(b.dataset.record === mode));
+      });
+      document.getElementById("jersey-metric").textContent = mode === "rating" ? "Rating" : "Days";
+      document.getElementById("jersey-rows").innerHTML = jerseyTableRows(countries, mode);
+    };
+    document.getElementById("jersey-tabs").addEventListener("click", e => {
+      const button = e.target.closest("button[data-record]");
+      if (button) drawJerseys(button.dataset.record);
+    });
+    drawJerseys("rating");
   }
 
   const statHTML = (value, label) => `<div class="stat"><span>${label}</span><b>${value}</b></div>`;
@@ -1149,7 +1266,7 @@
       const ranked = avgs.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
       const rankOf = new Map(ranked.map((x, i) => [x.id, i + 1]));
       for (const x of avgs) {
-        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: ranked.length, avg: x.avg, listed: true };
+        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: nations.length, avg: x.avg, listed: true };
         const pts = series[x.id], last = pts[pts.length - 1];
         if (!last || last.rank !== point.rank || last.total !== point.total) pts.push(point);
       }
@@ -1413,7 +1530,7 @@
   const VIEWS = {
     overview: ["Overview", "Where all 100 squads stand today."],
     nations: ["Nations", "Search or pick a nation to see its first and/or second squads."],
-    records: ["Records", "Position-by-position bests across every nation's first squad."],
+    records: ["Records", "Player records by position, jersey number, and squad tenure."],
     player: ["Player", ""],
   };
 
