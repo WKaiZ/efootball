@@ -11,7 +11,7 @@ Starters:
   [CB] Vincent Kompany (CB) rating 99.12 #4
   [CB] Thomas Vermaelen (CB) rating 96.44 #3
   [RB] Timothy Castagne (RB) rating 94.09 #21
-  [GK] Thibaut Courtois (GK) rating 98.33 #1
+  [GK] Thibaut Courtois (GK) rating 99.18 #1
 
 Substitutes:
   [CF] Loïs Openda (CF) rating 78.28 #9

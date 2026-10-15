@@ -6,56 +6,57 @@ Starters:
   [RWF] Luís Figo (RWF) rating 100.74 #7
   [AMF] Bruno Fernandes (AMF) rating 98.59 #8
   [CMF] Vitinha (CMF) rating 98.42 #23
-  [DMF] Renato Veiga (CB) rating 94.29 #13
+  [DMF] João Neves (CMF) rating 95.72 #13
   [LB] Nuno Mendes (LB) rating 97.40 #19
-  [CB] Pepe (CB) rating 98.20 #5
+  [CB] Pepe (CB) rating 98.20 #15
   [CB] Rúben Dias (CB) rating 96.96 #3
-  [RB] João Neves (RB) rating 95.62 #15
+  [RB] Nélson Semedo (RB) rating 96.43 #2
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
   [CF] Fábio Silva (CF) rating 75.31 #18
-  [LMF] Diogo Dalot (LMF) rating 94.24 #2
+  [LMF] João Félix (LWF) rating 95.38 #11
   [RWF] Ricardo Quaresma (RWF) rating 98.09 #27
   [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] Rúben Neves (DMF) rating 79.70 #21
-  [LB] Nuno Tavares (LB) rating 93.98 #14
+  [LB] Nuno Tavares (LB) rating 93.98 #5
   [CB] Tomás Araújo (CB) rating 95.26 #4
   [CB] António Silva (CB) rating 94.47 #24
   [RB] João Cancelo (RB) rating 94.97 #20
   [GK] Rui Silva (GK) rating 94.31 #12
 
 Wildcard:
-  [WILD] Francisco Conceição (RWF) rating 96.86 #26
+  [WILD] Francisco Conceição (RWF) rating 96.86 #14
 
 Second Squad
 
 Starters:
   [CF] Gonçalo Guedes (LMF) rating 93.76 #19
-  [LWF] João Félix (LWF) rating 95.38 #11
+  [LWF] Pedro Neto (LWF) rating 94.91 #17
   [RMF] Luís Figo (RMF) rating 100.33 #7
-  [AMF] Pedro Neto (AMF) rating 94.01 #17
+  [AMF] Francisco Conceição (AMF) rating 93.50 #14
   [CMF] Bernardo Silva (CMF) rating 96.20 #10
   [DMF] Vitinha (DMF) rating 97.75 #23
   [LB] João Cancelo (LB) rating 94.50 #20
+  [CB] Renato Veiga (CB) rating 94.29 #13
   [CB] Gonçalo Inácio (CB) rating 93.99 #8
-  [CB] Danilo Pereira (CB) rating 93.22 #13
-  [RB] Diogo Dalot (RB) rating 94.01 #2
+  [RB] João Neves (RB) rating 95.62 #15
   [GK] José Sá (GK) rating 75.58 #12
 
 Substitutes:
-  [CF] Andre Silva (CF) rating 73.33 #18
-  [LWF] Pedro Gonçalves (LWF) rating 77.86 #9
-  [RMF] Francisco Conceição (RMF) rating 94.37 #14
+  [CF] Andre Silva (CF) rating 73.33 #9
+  [LWF] Matheus Nunes (LWF) rating 93.98 #6
+  [RMF] Rafa Silva (SS) rating 77.27 #18
   [AMF] Ricardo Horta (AMF) rating 76.85 #21
-  [CMF] João Neves (CMF) rating 95.72 #15
+  [CMF] Bruno Fernandes (CMF) rating 95.01 #11
   [DMF] João Palhinha (DMF) rating 78.20 #16
-  [LB] Nélson Semedo (RB) rating 76.12 #4
-  [CB] Toti (CB) rating 75.44 #5
+  [LB] VACANT
   [CB] Tiago Djaló (CB) rating 73.13 #3
-  [RB] Matheus Nunes (RB) rating 94.00 #6
+  [CB] Toti (CB) rating 75.44 #5
+  [RB] Diogo Dalot (RB) rating 94.01 #2
   [GK] Anthony Lopes (GK) rating 74.64 #22
 
 Wildcard:
   [WILD] Samú Costa (DMF) rating 76.18 #24
+  [WILD] Joao Moutinho (CMF) rating 75.05 #28

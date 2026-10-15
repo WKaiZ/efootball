@@ -38,11 +38,11 @@ Starters:
   [AMF] Zico (AMF) rating 98.94 #8
   [CMF] Joelinton (CMF) rating 94.78 #17
   [DMF] Edmílson (DMF) rating 96.70 #5
-  [LB] Wesley (LB) rating 95.00 #13
+  [LB] Wesley (LB) rating 97.41 #16
   [CB] Éder Militão (CB) rating 95.22 #3
   [CB] Léo Pereira (CB) rating 94.91 #15
   [RB] Juliano Belletti (RB) rating 97.04 #2
-  [GK] Cássio (GK) rating 95.25 #16
+  [GK] Cássio (GK) rating 95.25 #12
 
 Substitutes:
   [CF] João Pedro (CF) rating 98.24 #9
@@ -54,8 +54,8 @@ Substitutes:
   [LB] Alex Sandro (LB) rating 94.21 #6
   [CB] Fabrício Bruno (CB) rating 94.56 #14
   [CB] Roger Ibañez (CB) rating 94.31 #24
-  [RB] Danilo (RB) rating 94.04 #22
-  [GK] Bento (GK) rating 94.38 #12
+  [RB] Dodô (RB) rating 94.44 #13
+  [GK] Bento (GK) rating 94.38 #23
 
 Wildcard:
-  [WILD] Igor Thiago (CF) rating 95.90 #25
+  [WILD] Zé Roberto (LMF) rating 97.10 #22

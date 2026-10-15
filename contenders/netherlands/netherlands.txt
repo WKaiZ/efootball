@@ -9,20 +9,20 @@ Starters:
   [DMF] Edgar Davids (DMF) rating 99.63 #8
   [LB] Giovanni van Bronckhorst (LB) rating 97.69 #5
   [CB] Jaap Stam (CB) rating 99.09 #3
-  [CB] Virgil van Dijk (CB) rating 97.05 #4
+  [CB] Micky van de Ven (CB) rating 98.54 #15
   [RB] Jurriën Timber (RB) rating 95.61 #12
   [GK] Edwin van der Sar (GK) rating 100.01 #1
 
 Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9
   [LWF] Crysencio Summerville (LWF) rating 75.86 #24
-  [RWF] Xavi Simons (AMF) rating 95.67 #25
+  [RWF] Steven Berghuis (RWF) rating 93.93 #21
   [AMF] Wesley Sneijder (AMF) rating 97.36 #16
   [CMF] Mark van Bommel (CMF) rating 96.65 #18
   [DMF] Phillip Cocu (DMF) rating 96.93 #6
-  [LB] Micky van de Ven (LB) rating 96.06 #15
+  [LB] Jorrel Hato (LB) rating 94.31 #25
+  [CB] Virgil van Dijk (CB) rating 97.05 #4
   [CB] Frank Rijkaard (CB) rating 96.97 #17
-  [CB] Teun Koopmeiners (CB) rating 93.99 #21
   [RB] Jeremie Frimpong (RB) rating 95.11 #2
   [GK] Robin Roefs (GK) rating 94.78 #13
 
@@ -33,27 +33,27 @@ Second Squad
 
 Starters:
   [CF] Johan Cruyff (CF) rating 99.49 #14
-  [LWF] Justin Kluivert (AMF) rating 94.92 #17
+  [LWF] Xavi Simons (AMF) rating 95.67 #11
   [RMF] Denzel Dumfries (RMF) rating 90.75 #22
   [AMF] Ruud Gullit (AMF) rating 97.26 #7
   [CMF] Frenkie de Jong (CMF) rating 95.01 #21
   [DMF] Clarence Seedorf (DMF) rating 98.15 #10
-  [LB] Jorrel Hato (LB) rating 94.31 #3
+  [LB] Micky van de Ven (LB) rating 96.06 #15
   [CB] Ronald Koeman (CB) rating 96.01 #4
-  [CB] Micky van de Ven (CB) rating 96.00 #15
+  [CB] Matthijs de Ligt (CB) rating 95.98 #6
   [RB] Kenny Tete (RB) rating 94.22 #2
   [GK] Bart Verbruggen (GK) rating 93.92 #1
 
 Substitutes:
   [CF] Roy Makaay (CF) rating 98.62 #12
-  [LWF] Arnaut Danjuma (LWF) rating 75.32 #9
-  [RMF] Teun Koopmeiners (AMF) rating 94.35 #24
-  [AMF] Memphis Depay (AMF) rating 94.47 #11
-  [CMF] Donny van de Beek (CMF) rating 93.18 #20
-  [DMF] Frank Rijkaard (DMF) rating 95.70 #8
+  [LWF] Noa Lang (LWF) rating 76.26 #8
+  [RMF] Donyell Malen (RWF) rating 94.47 #9
+  [AMF] Justin Kluivert (AMF) rating 94.92 #17
+  [CMF] Donny van de Beek (CMF) rating 93.18 #16
+  [DMF] Frank Rijkaard (DMF) rating 95.70 #3
   [LB] Ian Maatsen (LB) rating 94.07 #5
-  [CB] Matthijs de Ligt (CB) rating 95.98 #13
-  [CB] Jan Paul van Hecke (CB) rating 94.54 #6
+  [CB] Joël Veltman (RB) rating 74.30 #13
+  [CB] Teun Koopmeiners (CB) rating 93.99 #20
   [RB] Devyne Rensch (RB) rating 93.01 #18
   [GK] Mark Flekken (GK) rating 77.48 #23
 

@@ -1,10 +1,10 @@
 Starters:
   [CF] Enes Ünal (CF) rating 73.48 #9
   [LWF] Kenan Yıldız (LWF) rating 97.02 #11
-  [RWF] İrfan Can Kahveci (RWF) rating 74.25 #17
+  [RWF] Yunus Akgün (RWF) rating 95.39 #19
   [AMF] Arda Güler (AMF) rating 95.99 #10
   [CMF] Orkun Kökçü (CMF) rating 97.21 #6
-  [DMF] Hakan Çalhanoğlu (DMF) rating 95.15 #5
+  [DMF] Salih Özcan (DMF) rating 95.28 #5
   [LB] Ferdi Kadıoğlu (LB) rating 93.90 #20
   [CB] Abdülkerim Bardakcı (CB) rating 75.11 #14
   [CB] Merih Demiral (CB) rating 76.48 #3
@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [CF] Semih Kılıçsoy (CF) rating 72.51 #24
   [LWF] Kerem Aktürkoğlu (LWF) rating 77.20 #7
-  [RWF] Yunus Akgün (RWF) rating 74.10 #19
+  [RWF] İrfan Can Kahveci (RWF) rating 74.25 #17
   [AMF] Can Uzun (AMF) rating 94.16 #26
   [CMF] Salih Uçan (CMF) rating 72.33 #8
   [DMF] İsmail Yüksek (DMF) rating 75.01 #16

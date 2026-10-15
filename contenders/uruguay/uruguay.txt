@@ -2,14 +2,14 @@ First Squad
 
 Starters:
   [CF] Luis Suárez (CF) rating 98.73 #9
-  [LWF] Darwin Núñez (CF) rating 97.19 #19
+  [LWF] Darwin Núñez (CF) rating 97.19 #11
   [RWF] Facundo Torres (RWF) rating 94.23 #21
   [AMF] Giorgian de Arrascaeta (AMF) rating 93.85 #10
   [CMF] Federico Valverde (CMF) rating 98.93 #8
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
-  [LB] Joaquín Piquerez (LB) rating 94.91 #22
+  [LB] Mathías Olivera (LB) rating 95.01 #16
   [CB] Ronald Araujo (CB) rating 96.80 #4
-  [CB] Leandro Cabrera (CB) rating 92.93 #16
+  [CB] Leandro Cabrera (CB) rating 92.93 #19
   [RB] Guillermo Varela (RB) rating 73.24 #13
   [GK] Fernando Muslera (GK) rating 94.30 #23
 
@@ -20,14 +20,14 @@ Substitutes:
   [AMF] Rodrigo Zalazar (AMF) rating 76.87 #17
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
-  [LB] Maximiliano Araujo (LB) rating 93.98 #20
+  [LB] Joaquín Piquerez (LB) rating 94.91 #22
   [CB] José María Giménez (CB) rating 78.24 #2
   [CB] Santiago Bueno (CB) rating 74.38 #24
   [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
   [GK] Thiago Cardozo (GK) rating 76.60 #12
 
 Wildcard:
-  [WILD] Sergio Rochet (GK) rating 75.67 #1
+  [WILD] Maximiliano Araujo (LB) rating 93.98 #20
 
 Second Squad
 
@@ -38,24 +38,24 @@ Starters:
   [AMF] Wiston Fernández (AMF) rating 69.19 #7
   [CMF] Nahitan Nández (CMF) rating 75.09 #15
   [DMF] Rodrigo Bentancur (DMF) rating 77.50 #6
-  [LB] Mathías Olivera (LB) rating 94.22 #16
+  [LB] Matías Viña (LB) rating 73.88 #17
   [CB] Santiago Mouriño (CB) rating 74.30 #19
   [CB] Sebastian Caceres (CB) rating 74.23 #3
   [RB] Federico Valverde (RB) rating 95.52 #8
-  [GK] Santiago Mele (GK) rating 74.55 #1
+  [GK] Sergio Rochet (GK) rating 75.67 #1
 
 Substitutes:
   [CF] Federico Viñas (CF) rating 74.11 #21
   [LWF] Diego Rossi (SS) rating 74.68 #9
   [RWF] Matías Abaldo (RWF) rating 73.49 #22
-  [AMF] Juan Manuel Sanabria (LB) rating 73.70 #25
+  [AMF] Christhian Stuani (CF) rating 73.16 #11
   [CMF] Gabriel Neves (CMF) rating 74.04 #18
   [DMF] Mauro Arambarri (DMF) rating 76.15 #5
-  [LB] Matías Viña (LB) rating 73.88 #17
+  [LB] Juan Manuel Sanabria (LB) rating 73.70 #25
   [CB] Sebastián Boselli (CB) rating 73.41 #29
   [CB] Federico Ricca (CB) rating 73.07 #2
   [RB] Giovanni González (RB) rating 73.17 #13
-  [GK] Cristopher Fiermarín (GK) rating 74.03 #23
+  [GK] Santiago Mele (GK) rating 74.55 #12
 
 Wildcard:
-  [WILD] Christhian Stuani (CF) rating 73.16 #11
+  [WILD] Cristopher Fiermarín (GK) rating 74.03 #23

@@ -6,7 +6,7 @@ Starters:
   [CMF] Ferjani Sassi (CMF) rating 72.64 #13
   [DMF] Ellyes Skhiri (DMF) rating 77.24 #17
   [LB] Ali Abdi (LB) rating 73.21 #2
+  [CB] Adem Arous (CB) rating 91.04 #6
   [CB] Montassar Talbi (CB) rating 73.72 #3
-  [CB] Yassine Meriah (CB) rating 71.71 #4
   [RB] Yan Valery (RB) rating 70.95 #20
   [GK] Aymen Dahmen (GK) rating 71.51 #16

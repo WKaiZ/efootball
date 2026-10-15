@@ -10,7 +10,7 @@ Starters:
   [LB] El Hadji Malick Diouf (LB) rating 75.23 #25
   [CB] Kalidou Koulibaly (CB) rating 94.48 #3
   [CB] Moussa Niakhaté (CB) rating 93.28 #19
-  [RB] Youssouf Sabaly (RB) rating 73.45 #21
+  [RB] Antoine Mendy (RB) rating 93.18 #24
   [GK] Edouard Mendy (GK) rating 95.14 #16
 
 Substitutes:
@@ -23,7 +23,7 @@ Substitutes:
   [LB] Ismail Jakobs (LB) rating 73.54 #14
   [CB] Mamadou Sarr (CB) rating 74.60 #2
   [CB] Arouna Sangante (CB) rating 73.64 #15
-  [RB] Antoine Mendy (RB) rating 70.46 #24
+  [RB] Youssouf Sabaly (RB) rating 73.45 #21
   [GK] Yehvann Diouf (GK) rating 75.61 #1
 
 Wildcard:
