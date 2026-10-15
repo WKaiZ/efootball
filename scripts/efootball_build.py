@@ -117,9 +117,6 @@ def git(repo, *args):
 def row_sig(line):
     return re.sub(r"\s+", " ", line.strip())
 
-def parse_sigs(text):
-    return {row_sig(ln) for ln in text.splitlines() if LINE_RE.match(ln)}
-
 def squad_row_sig(line):
     return re.sub(r"^\[[A-Z]+\]\s+", "", row_sig(line))
 
@@ -271,33 +268,50 @@ def parse_pool(text):
         entry["rows"].sort(key=lambda r: -r[1])
     return pool
 
-def history_texts(repo, rel_path):
+def history_texts(repo, rel_path, related_paths=()):
     """The last committed version of a file on each day, newest first, as (date, text).
 
     Edits made and undone within one day (a player added to a first draft and
     removed that evening) never existed as far as the history is concerned.
-    History follows renames but stops at copies: a nation file started from
-    another nation's file must not inherit that nation's past squads.
+    Related paths cover a nation's moves between ranking groups, including
+    moves whose files changed too much for Git's rename detection. History
+    follows other renames but stops at copies from a different nation.
     """
-    out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-status", "--", rel_path)
-    commits, h, d = [], None, None
-    for ln in out.splitlines():
-        if ln.startswith("C|"):
-            _, h, d = ln.split("|")
-        elif ln.strip():
-            status, *paths = ln.split("\t")
-            commits.append((h, d[:10], paths[-1]))
-            if status.startswith("C"):
-                break
+    paths_to_check = list(dict.fromkeys((rel_path, *related_paths)))
+    commits = []
+    for rel in paths_to_check:
+        out = git(repo, "log", "--follow", "--format=C|%H|%cI", "--name-status", "--", rel)
+        h = stamp = None
+        for ln in out.splitlines():
+            if ln.startswith("C|"):
+                _, h, stamp = ln.split("|", 2)
+            elif ln.strip():
+                status, *paths = ln.split("\t")
+                if status.startswith("D"):
+                    # A promotion can add the new group file in an earlier
+                    # commit, then delete the old one later that same day.
+                    # The nation still exists at the deletion commit.
+                    active = set(git(repo, "ls-tree", "-r", "--name-only", h,
+                                     "--", *paths_to_check).splitlines())
+                    path = next((candidate for candidate in paths_to_check
+                                 if candidate in active), None)
+                else:
+                    path = paths[-1]
+                commits.append((h, stamp, path, rel == rel_path))
+                if status.startswith("C"):
+                    break
     latest = {}
-    for h, d, path in commits:
-        latest.setdefault(d, (h, path))
-    return [(d, git(repo, "show", f"{h}:{path}")) for d, (h, path) in latest.items()]
+    for h, stamp, path, preferred in commits:
+        d = stamp[:10]
+        key = (datetime.fromisoformat(stamp), path is not None, preferred)
+        if d not in latest or key > latest[d][0]:
+            latest[d] = (key, h, path)
+    return [(d, git(repo, "show", f"{h}:{path}") if path else "")
+            for d, (_, h, path) in sorted(latest.items(), reverse=True)]
 
-def history_versions(repo, rel_path, parser=parse_sigs, texts=None):
-    if texts is None:
-        texts = history_texts(repo, rel_path)
-    return [(d, parser(t)) for d, t in texts]
+def nation_file_paths(country, suffix):
+    return ([f"{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
+            + [f"{country}/{country}{suffix}"])
 
 def squad_members(text):
     members = {}
@@ -434,7 +448,7 @@ def squad_history(texts, current, today):
             "days": (datetime.fromisoformat(dropped) - datetime.fromisoformat(since)).days,
             "callups": runs,
         })
-    dropouts.sort(key=lambda d: (d["dropped"], d["rating"]), reverse=True)
+    dropouts.sort(key=lambda d: (d["dropped"], d["rating"], d["name"], d["pos"]), reverse=True)
     return callups, joined, dropouts
 
 def compute_since(versions, sig):
@@ -578,6 +592,91 @@ def _assign_medals(players):
     for i, p in enumerate(ranked[:3]):
         p["tenureRank"] = i + 1
 
+def apply_player_history(country, players, texts, pool_texts, pool_now, today):
+    versions = [(d, parse_squad_sigs(t)) for d, t in texts]
+    pool_rows = parse_pool_rows(pool_now) if pool_now is not None else {}
+    pool_versions = ([(d, parse_pool_sigs(t)) for d, t in pool_texts]
+                     if pool_rows else [])
+    for p in players:
+        dates = [compute_since(versions, (p["squad"], squad_row_sig(p["row"])))]
+        pool_row = pool_rows.get((norm(p["name"]), p["pos"]))
+        if pool_row:
+            dates.append(compute_since(pool_versions, pool_row))
+        since = (today.isoformat() if any(d is None for d in dates)
+                 else max(dates))
+        p["since"] = since
+        p["days"] = (today - datetime.fromisoformat(since).date()).days
+    for squad in ("first", "second"):
+        _assign_medals([p for p in players if p["squad"] == squad])
+    callups, joined, dropouts = squad_history(texts, players, today)
+    for p in players:
+        p["callups"] = callups.get(norm(p["name"]), 1)
+        p["joined"] = min(joined.get(norm(p["name"]), p["since"]), p["since"])
+    if pool_now is not None:
+        current = set(parse_pool(pool_now)) | {norm(p["name"]) for p in players}
+        gone = {d["name"] for d in dropouts if norm(d["name"]) not in current}
+        dropouts = [d for d in dropouts if norm(d["name"]) in current]
+        if gone:
+            log(f"  {country}: hiding {len(gone)} player(s) no longer in the pool")
+    return dropouts
+
+def nation_history_inputs(country, group_dir, squad_now, pool_now, today):
+    rel = f"{group_dir}/{country}/{country}.txt"
+    texts = history_texts(ROOT, rel, nation_file_paths(country, ".txt"))
+    pool_rel = f"{group_dir}/{country}/{country}_players.txt"
+    pool_texts = ([(d, clean_pool_text(t)) for d, t in history_texts(
+        ROOT, pool_rel, nation_file_paths(country, "_players.txt"))]
+                  if pool_now is not None else [])
+    renames = detect_renames(texts, pool_texts, squad_now, pool_now, today)
+    if renames:
+        log(f"  {country}: treating renames as one player: "
+            + ", ".join(f"{o} -> {n}" for o, n in renames.items()))
+        texts = [(d, apply_renames(t, renames)) for d, t in texts]
+        pool_texts = [(d, apply_renames(t, renames)) for d, t in pool_texts]
+    pool_texts, fixed = backfill_card_fixes(pool_texts, pool_now)
+    if fixed:
+        log(f"  {country}: card-type corrections carried back: {', '.join(fixed)}")
+    return texts, pool_texts
+
+def refresh_history():
+    """Repair published history and tenure from local files and Git, without fetching."""
+    squads = json.load(open(SQUADS_PATH))
+    countries = squads["countries"]
+    pool_data = json.load(open(PLAYERS_PATH))["countries"]
+    group_dirs = {group: group_dir for group_dir, group in GROUPS}
+    today = datetime.fromisoformat(squads["updated"][:10]).date()
+    histories = {}
+    for country in countries:
+        c, group_dir = country["id"], group_dirs[country["group"]]
+        rel = f"{group_dir}/{c}/{c}.txt"
+        pool_rel = f"{group_dir}/{c}/{c}_players.txt"
+        squad_now = open(os.path.join(ROOT, rel)).read()
+        pool_path = os.path.join(ROOT, pool_rel)
+        pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
+        texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)
+        raw_players = _parse_players(squad_now)
+        published = country["players"]
+        identity = lambda p: (p["name"], p["pos"], p["squad"], p["section"],
+                              p["slot"], p["number"], p["rating"])
+        if [identity(p) for p in raw_players] != [identity(p) for p in published]:
+            raise ValueError(f"{c}: published squads differ from current local squad file")
+        dropouts = apply_player_history(c, raw_players, texts, pool_texts, pool_now, today)
+        for current, rebuilt in zip(published, raw_players):
+            for field in ("since", "days", "tenureRank", "callups", "joined"):
+                current[field] = rebuilt[field]
+        old_drops = {norm(d["name"]): d for d in country["dropouts"]}
+        pool_meta = {norm(p["name"]): p for p in pool_data.get(c, [])}
+        for drop in dropouts:
+            source = old_drops.get(norm(drop["name"])) or pool_meta.get(norm(drop["name"])) or {}
+            drop["img"], drop["tm"] = source.get("img"), source.get("tm")
+        country["dropouts"] = dropouts
+        histories[c] = card_history(texts, pool_texts, squad_now, pool_now, today)
+    json.dump(squads, open(SQUADS_PATH, "w"), ensure_ascii=False, indent=1)
+    json.dump({"updated": squads["updated"],
+               "countries": histories}, open(HISTORY_PATH, "w"),
+              ensure_ascii=False, separators=(",", ":"))
+    log(f"Refreshed squads.json and history.json: {len(histories)} nations.")
+
 def build():
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(os.path.dirname(SQUADS_PATH), exist_ok=True)
@@ -608,54 +707,18 @@ def build():
                 continue
             squad_now = open(path).read()
             players = _parse_players(squad_now)
-            texts = history_texts(ROOT, rel)
             pool_rel = f"{group_dir}/{c}/{c}_players.txt"
             pool_path = os.path.join(ROOT, pool_rel)
             pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
-            pool_texts = ([(d, clean_pool_text(t)) for d, t in history_texts(ROOT, pool_rel)]
-                          if pool_now is not None else [])
-            renames = detect_renames(texts, pool_texts, squad_now, pool_now, today)
-            if renames:
-                log(f"  {c}: treating renames as one player: "
-                    + ", ".join(f"{o} -> {n}" for o, n in renames.items()))
-                texts = [(d, apply_renames(t, renames)) for d, t in texts]
-                pool_texts = [(d, apply_renames(t, renames)) for d, t in pool_texts]
-            pool_texts, fixed = backfill_card_fixes(pool_texts, pool_now)
-            if fixed:
-                log(f"  {c}: card-type corrections carried back: {', '.join(fixed)}")
-            versions = history_versions(ROOT, rel, parse_squad_sigs, texts)
-            pool_rows = parse_pool_rows(pool_now) if pool_now is not None else {}
-            pool_versions = (history_versions(ROOT, pool_rel, parse_pool_sigs, pool_texts)
-                             if pool_rows else [])
+            texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)
             ov = {norm(k): v for k, v in (overrides.get(c) or {}).items()
                   if not str(k).startswith("_")}
             for p in players:
                 p["fm_id"] = fm_cache.get(f"{c}|{norm(p['name'])}")
                 p["tm_id"] = find_tm_id(game_data.get(c, []), p, ov.get(norm(p["name"])))
                 p["card_type"] = card_types.get((c, p["tm_id"], p["pos"])) or "Standard"
-                dates = [compute_since(
-                    versions, (p["squad"], squad_row_sig(p["row"]))
-                )]
-                pool_row = pool_rows.get((norm(p["name"]), p["pos"]))
-                if pool_row:
-                    dates.append(compute_since(pool_versions, pool_row))
-                since = (today.isoformat() if any(d is None for d in dates)
-                         else max(dates))
-                p["since"] = since
-                p["days"] = (today - datetime.fromisoformat(since).date()).days
-            for squad in ("first", "second"):
-                _assign_medals([p for p in players if p["squad"] == squad])
-            callups, joined, dropouts = squad_history(texts, players, today)
-            for p in players:
-                p["callups"] = callups.get(norm(p["name"]), 1)
-                p["joined"] = min(joined.get(norm(p["name"]), p["since"]), p["since"])
+            dropouts = apply_player_history(c, players, texts, pool_texts, pool_now, today)
             pool = parse_pool(pool_now) if pool_now is not None else {}
-            current = set(pool) | {norm(p["name"]) for p in players}
-            if pool_now is not None:
-                gone = {d["name"] for d in dropouts if norm(d["name"]) not in current}
-                dropouts = [d for d in dropouts if norm(d["name"]) in current]
-                if gone:
-                    log(f"  {c}: hiding {len(gone)} player(s) no longer in the pool")
             for d in dropouts:
                 d["tm_id"] = find_tm_id(game_data.get(c, []), d, ov.get(norm(d["name"])))
             for key, entry in pool.items():
@@ -666,8 +729,6 @@ def build():
             pools[c] = list(pool.values())
             histories[c] = card_history(
                 texts, pool_texts, squad_now, pool_now, today)
-            if pool_now is not None:
-                histories[c] = {n: v for n, v in histories[c].items() if norm(n) in current}
             flag = flag_for(c)
             if not flag:
                 log(f"  WARNING: no flag mapping for '{c}' — add it to "
@@ -832,4 +893,7 @@ def _backfill_transfermarkt(all_players, cache):
     save_cache(cache)
 
 if __name__ == "__main__":
-    build()
+    if sys.argv[1:] == ["--history-only"]:
+        refresh_history()
+    else:
+        build()
