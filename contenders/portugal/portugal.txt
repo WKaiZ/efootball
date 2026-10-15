@@ -10,13 +10,13 @@ Starters:
   [LB] Nuno Mendes (LB) rating 97.40 #19
   [CB] Pepe (CB) rating 98.20 #15
   [CB] Rúben Dias (CB) rating 96.96 #3
-  [RB] Nélson Semedo (RB) rating 96.43 #2
+  [RB] Nélson Semedo (RB) rating 96.17 #2
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
   [CF] Fábio Silva (CF) rating 75.31 #18
   [LMF] João Félix (LWF) rating 95.38 #11
-  [RWF] Ricardo Quaresma (RWF) rating 98.09 #27
+  [RWF] Ricardo Quaresma (RWF) rating 97.38 #27
   [AMF] Rui Costa (AMF) rating 98.11 #10
   [CMF] Deco (CMF) rating 96.53 #16
   [DMF] Rúben Neves (DMF) rating 79.70 #21

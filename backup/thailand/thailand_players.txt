@@ -1,5 +1,4 @@
 Kiatisuk Senamuang, CF, 94.36, False, Epic, [CF], [SS]
-Teerasak Poeiphimai, CF, 92.43, True, Highlight, [CF], [LWF, RWF, SS]
 Iklas Sanron, LMF, 95.35, False, Showtime, [LWF, LMF, CF], [SS]
 Nicholas Mickelson, LB, 93.42, False, Highlight, [LB, LMF, RMF, RB], []
 

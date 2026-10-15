@@ -9,7 +9,7 @@ Starters:
   [DMF] Edgar Davids (DMF) rating 99.63 #8
   [LB] Giovanni van Bronckhorst (LB) rating 97.69 #5
   [CB] Jaap Stam (CB) rating 99.09 #3
-  [CB] Micky van de Ven (CB) rating 98.54 #15
+  [CB] Micky van de Ven (CB) rating 98.32 #15
   [RB] Jurriën Timber (RB) rating 95.61 #12
   [GK] Edwin van der Sar (GK) rating 100.01 #1
 

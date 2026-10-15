@@ -1,4 +1,4 @@
-Mohamed Salah, AMF, 96.12, False, Showtime, [CF, SS, AMF RWF, RMF], [CMF]
+Mohamed Salah, AMF, 95.46, False, Showtime, [CF, SS, AMF RWF, RMF], [CMF]
 Omar Marmoush, LMF, 95.74, True, Showtime, [LMF, LWF, RWF, RMF, CF, SS, AMF], []
 Mohamed Salah, RMF, 97.93, False, BigTime, [RWF, RMF], [CF, SS, AMF]
 Hamdy Fathy, DMF, 94.20, False, Showtime, [CMF, DMF, CB], [AMF]
