@@ -17,6 +17,7 @@ import imgcache
 import tmfetch
 
 REPO_URL = "https://github.com/WKaiZ/efootball"
+NATIONS_DIR = "nations"
 GROUPS = [("contenders", "contender"), ("challengers", "challenger"),
           ("backup", "backup")]
 
@@ -310,7 +311,8 @@ def history_texts(repo, rel_path, related_paths=()):
             for d, (_, h, path) in sorted(latest.items(), reverse=True)]
 
 def nation_file_paths(country, suffix):
-    return ([f"{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
+    return ([f"{NATIONS_DIR}/{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
+            + [f"{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
             + [f"{country}/{country}{suffix}"])
 
 def squad_members(text):
@@ -621,9 +623,9 @@ def apply_player_history(country, players, texts, pool_texts, pool_now, today):
     return dropouts
 
 def nation_history_inputs(country, group_dir, squad_now, pool_now, today):
-    rel = f"{group_dir}/{country}/{country}.txt"
+    rel = f"{NATIONS_DIR}/{group_dir}/{country}/{country}.txt"
     texts = history_texts(ROOT, rel, nation_file_paths(country, ".txt"))
-    pool_rel = f"{group_dir}/{country}/{country}_players.txt"
+    pool_rel = f"{NATIONS_DIR}/{group_dir}/{country}/{country}_players.txt"
     pool_texts = ([(d, clean_pool_text(t)) for d, t in history_texts(
         ROOT, pool_rel, nation_file_paths(country, "_players.txt"))]
                   if pool_now is not None else [])
@@ -648,8 +650,8 @@ def refresh_history():
     histories = {}
     for country in countries:
         c, group_dir = country["id"], group_dirs[country["group"]]
-        rel = f"{group_dir}/{c}/{c}.txt"
-        pool_rel = f"{group_dir}/{c}/{c}_players.txt"
+        rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}.txt"
+        pool_rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}_players.txt"
         squad_now = open(os.path.join(ROOT, rel)).read()
         pool_path = os.path.join(ROOT, pool_rel)
         pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
@@ -697,17 +699,17 @@ def build():
 
     out_countries, all_players, extras, pools, histories = [], [], [], {}, {}
     for group_dir, group in GROUPS:
-        base = os.path.join(ROOT, group_dir)
+        base = os.path.join(ROOT, NATIONS_DIR, group_dir)
         if not os.path.isdir(base):
             continue
         for c in sorted(d for d in os.listdir(base) if os.path.isdir(os.path.join(base, d))):
-            rel = f"{group_dir}/{c}/{c}.txt"
+            rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}.txt"
             path = os.path.join(ROOT, rel)
             if not os.path.exists(path):
                 continue
             squad_now = open(path).read()
             players = _parse_players(squad_now)
-            pool_rel = f"{group_dir}/{c}/{c}_players.txt"
+            pool_rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}_players.txt"
             pool_path = os.path.join(ROOT, pool_rel)
             pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
             texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)

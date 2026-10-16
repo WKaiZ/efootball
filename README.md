@@ -2,7 +2,7 @@
 
 Tooling for drafting an eFootball "gameplan" (11 starters + 11 substitutes + 1 wildcard) for a national team. The pipeline scrapes shirt-number history from Transfermarkt, pulls the most recent ESPN match lineup to flag who is currently in the squad, then runs a deterministic builder that picks players for each formation slot and assigns each picked player a real jersey number they have actually worn.
 
-All persistent state lives in the SQLite file `pes.db` at the repo root. Nations are grouped by FIFA ranking: `contenders/` (top 20), `challengers/` (next 30), and `backup/` (next 50). Pass a bare name such as `france` to the scripts; `common/country_locator.py` finds its folder. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
+The SQLite database `pes.db` lives at the repo root. Nation files are grouped under `nations/`: `nations/contenders/` (top 20), `nations/challengers/` (next 30), and `nations/backup/` (next 50). Pass a bare name such as `france` to the scripts; `common/country_locator.py` finds its folder. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
 
 ---
 
@@ -59,7 +59,7 @@ rather than as missing jersey history. Ctrl-C stops the entrypoint cleanly.
 
 ## 2. Per-country inputs
 
-For each national team, create a folder named after the country in the appropriate group (for example, `contenders/belgium/` or `backup/iceland/`) containing:
+For each national team, create a folder named after the country in the appropriate group (for example, `nations/contenders/belgium/` or `nations/backup/iceland/`) containing:
 
 ### `<country>_players.txt` (required)
 
@@ -75,7 +75,7 @@ Name, MAIN_POS, RATING, RECENT, CARD_TYPE, [PROFICIENT_POSITIONS], [SEMIPROFICIE
 - `CARD_TYPE` — `Epic`, `BigTime`, `Showtime`, `Highlight`, or `Standard`. Anything other than those four "non-Standard" tiers is treated as Standard.
 - `[PROFICIENT_POSITIONS]` and `[SEMIPROFICIENT_POSITIONS]` — bracketed, comma-separated position lists (may be empty, e.g. `[]`).
 
-A player can appear on multiple lines if they have separate cards for different main positions (see `contenders/belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
+A player can appear on multiple lines if they have separate cards for different main positions (see `nations/contenders/belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
 
 ### `<country>_formation.txt` (optional)
 
@@ -89,7 +89,7 @@ For **contenders**, a second formation may be listed after a blank line. The fir
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass). Nations under `backup/` render only their starters. Full squads always include a Wildcard section, showing `[WILD] VACANT` when no card is available.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass). Nations under `nations/backup/` render only their starters. Full squads always include a Wildcard section, showing `[WILD] VACANT` when no card is available.
 
 ---
 
@@ -151,7 +151,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers `*_players.txt` across all three groups when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
+- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
 - `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
@@ -162,7 +162,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `requirements.txt` — Python dependencies.
 - `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
 - `.gitignore` — Ignores Python cache files, planning data, and the Transfermarkt browser profile.
-- `contenders/`, `challengers/`, and `backup/` — Per-country inputs and generated text output, grouped by ranking and output type.
+- `nations/` — Per-country inputs and generated text output, grouped into `contenders/`, `challengers/`, and `backup/` by ranking.
 
 ### `jersey_fetch/` — ESPN + Transfermarkt scraping
 

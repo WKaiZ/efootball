@@ -49,12 +49,10 @@ fi
 
 if [ "${#countries[@]}" -eq 0 ]; then
   countries=()
-  # Nation folders may sit directly under the repo root or one level down inside
-  # a group folder (e.g. contenders/france, challengers/wales). Match both.
-  # Discover by *_players.txt; formation is optional (draft_gameplan uses the
-  # default formation when *_formation.txt is missing).
+  # Discover nation files grouped under nations/<group>/<country>/.
+  # Formation files are optional; the drafter uses its default when missing.
   seen=()
-  for players_file in "$ROOT_DIR"/*/*_players.txt "$ROOT_DIR"/*/*/*_players.txt; do
+  for players_file in "$ROOT_DIR"/nations/*/*/*_players.txt; do
     if [ ! -f "$players_file" ]; then
       continue
     fi
