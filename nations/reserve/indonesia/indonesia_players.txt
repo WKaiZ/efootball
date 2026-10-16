@@ -1,0 +1,5 @@
+Mitchell Baker, CF, 95.34, False, Showtime, [CF], [SS]
+Kevin Diks, RMF, 94.46, False, Highlight, [RMF, RB, CB], [RWF, DMF, LB]
+Calvin Verdonk, DMF, 93.22, False, Highlight, [LMF, LB, DMF, CB], [LWF, CMF]
+Elkan Baggott, CB, 95.46, False, BigTime, [CB], []
+Jay Idzes, CB, 94.06, False, Highlight, [CB, DMF], [CMF]

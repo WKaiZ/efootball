@@ -3,7 +3,7 @@
     "commands": [
       {
         "match": "_players\\.txt$",
-        "cmd": "python3 sort_players.py"
+        "cmd": "python3 \"${workspaceFolder}/scripts/sort_players.py\" \"${file}\""
       }
     ]
   }

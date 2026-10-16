@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import glob
 import os
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -12,6 +13,7 @@ POSITION_RANK = {pos: i for i, pos in enumerate(POSITION_ORDER)}
 CANONICAL_TYPES = {
     "standard": "Standard",
     "standrd": "Standard",
+    "standad": "Standard",
     "highlight": "Highlight",
     "epic": "Epic",
     "showtime": "Showtime",
@@ -63,6 +65,9 @@ def sort_file(path):
         else:
             non_standard.append(parsed)
 
+    if not non_standard and not standard and not skipped:
+        return 0, 0, skipped
+
     non_standard.sort(key=sort_key)
     standard.sort(key=sort_key)
 
@@ -79,7 +84,9 @@ def sort_file(path):
 
 def main():
     repo_root = ROOT
-    files = sorted(glob.glob(os.path.join(repo_root, "**", "*_players.txt"), recursive=True))
+    files = [os.path.abspath(path) for path in sys.argv[1:]]
+    if not files:
+        files = sorted(glob.glob(os.path.join(repo_root, "**", "*_players.txt"), recursive=True))
     if not files:
         print("No *_players.txt files found.")
         return

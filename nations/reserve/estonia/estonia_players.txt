@@ -1,0 +1,1 @@
+Michael Schjönning-Larsen, LB, 70.30, True, Standard, [LB, RB, LMF, RMF], [LWF, RWF]

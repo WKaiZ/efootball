@@ -1,0 +1,1 @@
+João Pedro, LMF, 64.82, False, Standard, [LWF, CF, RWF, LMF, RMF], [SS, LB]

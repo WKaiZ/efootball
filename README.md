@@ -2,7 +2,9 @@
 
 Tooling for drafting an eFootball "gameplan" (11 starters + 11 substitutes + 1 wildcard) for a national team. The pipeline scrapes shirt-number history from Transfermarkt, pulls the most recent ESPN match lineup to flag who is currently in the squad, then runs a deterministic builder that picks players for each formation slot and assigns each picked player a real jersey number they have actually worn.
 
-The SQLite database `pes.db` lives at the repo root. Nation files are grouped under `nations/`: `nations/contenders/` (top 20), `nations/challengers/` (next 30), and `nations/backup/` (next 50). Pass a bare name such as `france` to the scripts; `common/country_locator.py` finds its folder. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
+The SQLite database `pes.db` lives at the repo root. Nation files are grouped under `nations/`: `contenders/` (FIFA ranks 1–20), `challengers/` (21–50), `backup/` (51–100), and `reserve/` (101 and lower). Folder and file slugs follow FIFA's team labels, such as `cabo-verde` and `korea-republic`; pass a bare slug such as `france` to the scripts. `common/country_locator.py` resolves it. Comment-only reserve player files are ignored by automatic workflow discovery until a player row is added. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
+
+Nation completion is available for zsh and bash. Add `autoload -Uz compinit && compinit` followed by `source "/Users/wkaiz/Desktop/efootball/completions/run_workflow.zsh"` to `~/.zshrc`, then restart the shell. For bash, add `source "/Users/wkaiz/Desktop/efootball/completions/run_workflow.bash"` to `~/.bashrc`. Completion reads the nation folder names directly, so new nations appear automatically.
 
 ---
 
@@ -59,7 +61,7 @@ rather than as missing jersey history. Ctrl-C stops the entrypoint cleanly.
 
 ## 2. Per-country inputs
 
-For each national team, create a folder named after the country in the appropriate group (for example, `nations/contenders/belgium/` or `nations/backup/iceland/`) containing:
+For each national team, use the FIFA-label slug in the appropriate group (for example, `nations/contenders/belgium/`, `nations/backup/iceland/`, or `nations/reserve/luxembourg/`) and include:
 
 ### `<country>_players.txt` (required)
 
@@ -89,7 +91,7 @@ For **contenders**, a second formation may be listed after a blank line. The fir
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single squad only (no second pass). Nations under `nations/backup/` render only their starters. Full squads always include a Wildcard section, showing `[WILD] VACANT` when no card is available.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single full squad. **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled.
 
 ---
 
@@ -101,6 +103,8 @@ The convenience wrapper:
 ./run_workflow.sh                           # run for every country folder that has *_players.txt
 ./run_workflow.sh france                    # run for one country
 ./run_workflow.sh belgium france germany    # run for several countries
+./run_workflow.sh backup                    # run all populated backup nations
+./run_workflow.sh --lineup-only challengers  # lineup-only for populated challengers
 ./run_workflow.sh --refetch france          # force-refresh ESPN + Transfermarkt cache for france
 ./run_workflow.sh --lineup-only france      # refresh ESPN "recent" flags + seed latest squad numbers; skip Transfermarkt
 ```
@@ -109,6 +113,7 @@ Flags:
 
 - `--refetch` (aliases: `--refresh`, `--no-cache`) — ignore cached jersey rows for this country and re-scrape Transfermarkt; also re-pulls ESPN.
 - `--lineup-only` (alias: `--espn-lineup`) — update the `recent` flags in `<country>_players.txt` from the latest ESPN match, and prepend each matched player's latest squad number at row 0 of the jersey DB (so the builder locks their current number). Skips all Transfermarkt traffic — only players whose Transfermarkt ID is already cached get their numbers seeded (run `--refetch` once first for new players).
+- A group name (`contender`/`contenders`, `challenger`/`challengers`, `backup`, or `reserve`) — apply the selected workflow to every nation in that group with at least one player row. Empty reserve templates are skipped until populated.
 - `--game-index <N>` — use the Nth most recent completed match instead of the latest (1 = latest, 2 = second latest, …). Useful when the most recent match has no public jersey numbers. Cannot be combined with `--gameid`.
 
 `--refetch` and `--lineup-only` are mutually exclusive.
@@ -143,7 +148,7 @@ Created and migrated automatically. Three tables:
 
 ## 5. Draft rules
 
-The full, authoritative description of starter/substitute/wildcard selection, jersey-number tiering, recent-flag locks, and vacancy-fill order lives in [`reference/draft_gameplan_rules.txt`](./reference/draft_gameplan_rules.txt). The implementation in `gameplan/` follows that document. A separate [backup-card analysis](./reference/backup_standard_analysis.txt) records the standard-card comparisons.
+The full, authoritative description of starter/substitute/wildcard selection, jersey-number tiering, recent-flag locks, and vacancy-fill order lives in [`reference/draft_gameplan_rules.txt`](./reference/draft_gameplan_rules.txt). The implementation in `gameplan/` follows that document.
 
 ---
 
@@ -156,13 +161,13 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `scripts/draft_gameplan.py` — Loads the formation(s) and `game_data`, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup nations show starters only.
+- `scripts/draft_gameplan.py` — Loads the formation(s) and `game_data`, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup and reserve nations show starters only.
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
-- `reference/` — Draft rules and backup-card analysis, moved out of the repo root.
+- `reference/` — Draft rules and other maintained reference material.
 - `requirements.txt` — Python dependencies.
 - `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
 - `.gitignore` — Ignores Python cache files, planning data, and the Transfermarkt browser profile.
-- `nations/` — Per-country inputs and generated text output, grouped into `contenders/`, `challengers/`, and `backup/` by ranking.
+- `nations/` — Per-country inputs and generated text output, grouped into `contenders/`, `challengers/`, `backup/`, and `reserve/` by the October 7, 2026 FIFA men's ranking. The complete 211-team snapshot and source link are in [`nations/ranking.json`](./nations/ranking.json); the reserve folder has one player-file template for each team ranked below 100.
 
 ### `jersey_fetch/` — ESPN + Transfermarkt scraping
 

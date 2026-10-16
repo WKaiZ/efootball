@@ -6,7 +6,7 @@ ENV_NAME="${ENV_NAME:-pes}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 usage() {
-  echo "Usage: ./run_workflow.sh [--refetch | --lineup-only] [--game-index <N>] [<country> ...]"
+  echo "Usage: ./run_workflow.sh [--refetch | --lineup-only] [--game-index <N>] [<country> | <group> ...]"
   echo
   echo "Examples:"
   echo "  ./run_workflow.sh"
@@ -16,12 +16,16 @@ usage() {
   echo "  ./run_workflow.sh --refetch france"
   echo "  ./run_workflow.sh --refetch --game-index 2 morocco"
   echo "  ./run_workflow.sh belgium france germany"
+  echo "  ./run_workflow.sh backup"
+  echo "  ./run_workflow.sh --lineup-only challengers"
 }
 
 REFETCH_FLAG=""
 LINEUP_ONLY_FLAG=""
 GAME_INDEX_FLAG=""
 countries=()
+groups=()
+selection_given=0
 args=("$@")
 i=0
 while [ $i -lt ${#args[@]} ]; do
@@ -37,7 +41,14 @@ while [ $i -lt ${#args[@]} ]; do
     fi
     GAME_INDEX_FLAG="--game-index ${args[$i]}"
   else
-    countries+=("$arg")
+    selection_given=1
+    case "$arg" in
+      contender|contenders) groups+=("contenders") ;;
+      challenger|challengers) groups+=("challengers") ;;
+      backup) groups+=("backup") ;;
+      reserve) groups+=("reserve") ;;
+      *) countries+=("$arg") ;;
+    esac
   fi
   i=$((i + 1))
 done
@@ -47,13 +58,32 @@ if [ -n "$REFETCH_FLAG" ] && [ -n "$LINEUP_ONLY_FLAG" ]; then
   exit 1
 fi
 
-if [ "${#countries[@]}" -eq 0 ]; then
-  countries=()
-  # Discover nation files grouped under nations/<group>/<country>/.
-  # Formation files are optional; the drafter uses its default when missing.
+for group in "${groups[@]:-}"; do
+  for players_file in "$ROOT_DIR"/nations/"$group"/*/*_players.txt; do
+    if [ ! -f "$players_file" ] || ! grep -Eq '^[[:space:]]*[^#[:space:]].*,' "$players_file"; then
+      continue
+    fi
+    country="$(basename "$(dirname "$players_file")")"
+    duplicate=0
+    for existing in "${countries[@]:-}"; do
+      if [ "$existing" = "$country" ]; then
+        duplicate=1
+        break
+      fi
+    done
+    if [ "$duplicate" -eq 0 ]; then
+      countries+=("$country")
+    fi
+  done
+done
+
+if [ "${#countries[@]}" -eq 0 ] && [ "$selection_given" -eq 0 ]; then
   seen=()
   for players_file in "$ROOT_DIR"/nations/*/*/*_players.txt; do
     if [ ! -f "$players_file" ]; then
+      continue
+    fi
+    if ! grep -Eq '^[[:space:]]*[^#[:space:]].*,' "$players_file"; then
       continue
     fi
     country="$(basename "$(dirname "$players_file")")"
@@ -75,12 +105,16 @@ if [ "${#countries[@]}" -eq 0 ]; then
   fi
 fi
 
+if [ "${#countries[@]}" -eq 0 ]; then
+  echo "Error: no nations with populated *_players.txt files matched the selection." >&2
+  exit 1
+fi
+
 if ! command -v conda >/dev/null 2>&1; then
   echo "Error: conda is not available in PATH." >&2
   exit 1
 fi
 
-# shellcheck disable=SC1091
 source "$(conda info --base)/etc/profile.d/conda.sh"
 conda activate "$ENV_NAME"
 

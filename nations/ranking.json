@@ -1,0 +1,1272 @@
+{
+  "source": "https://inside.fifa.com/fifa-rankings/world-ranking/men",
+  "ranking_date": "2026-10-07",
+  "countries": [
+    {
+      "rank": 1,
+      "id": "spain",
+      "name": "Spain",
+      "group": "contenders"
+    },
+    {
+      "rank": 2,
+      "id": "argentina",
+      "name": "Argentina",
+      "group": "contenders"
+    },
+    {
+      "rank": 3,
+      "id": "france",
+      "name": "France",
+      "group": "contenders"
+    },
+    {
+      "rank": 4,
+      "id": "england",
+      "name": "England",
+      "group": "contenders"
+    },
+    {
+      "rank": 5,
+      "id": "portugal",
+      "name": "Portugal",
+      "group": "contenders"
+    },
+    {
+      "rank": 6,
+      "id": "brazil",
+      "name": "Brazil",
+      "group": "contenders"
+    },
+    {
+      "rank": 7,
+      "id": "morocco",
+      "name": "Morocco",
+      "group": "contenders"
+    },
+    {
+      "rank": 8,
+      "id": "belgium",
+      "name": "Belgium",
+      "group": "contenders"
+    },
+    {
+      "rank": 9,
+      "id": "netherlands",
+      "name": "Netherlands",
+      "group": "contenders"
+    },
+    {
+      "rank": 10,
+      "id": "mexico",
+      "name": "Mexico",
+      "group": "contenders"
+    },
+    {
+      "rank": 11,
+      "id": "colombia",
+      "name": "Colombia",
+      "group": "contenders"
+    },
+    {
+      "rank": 12,
+      "id": "switzerland",
+      "name": "Switzerland",
+      "group": "contenders"
+    },
+    {
+      "rank": 13,
+      "id": "germany",
+      "name": "Germany",
+      "group": "contenders"
+    },
+    {
+      "rank": 14,
+      "id": "croatia",
+      "name": "Croatia",
+      "group": "contenders"
+    },
+    {
+      "rank": 15,
+      "id": "italy",
+      "name": "Italy",
+      "group": "contenders"
+    },
+    {
+      "rank": 16,
+      "id": "usa",
+      "name": "USA",
+      "group": "contenders"
+    },
+    {
+      "rank": 17,
+      "id": "japan",
+      "name": "Japan",
+      "group": "contenders"
+    },
+    {
+      "rank": 18,
+      "id": "senegal",
+      "name": "Senegal",
+      "group": "contenders"
+    },
+    {
+      "rank": 19,
+      "id": "norway",
+      "name": "Norway",
+      "group": "contenders"
+    },
+    {
+      "rank": 20,
+      "id": "uruguay",
+      "name": "Uruguay",
+      "group": "contenders"
+    },
+    {
+      "rank": 21,
+      "id": "denmark",
+      "name": "Denmark",
+      "group": "challengers"
+    },
+    {
+      "rank": 22,
+      "id": "austria",
+      "name": "Austria",
+      "group": "challengers"
+    },
+    {
+      "rank": 23,
+      "id": "ir-iran",
+      "name": "IR Iran",
+      "group": "challengers"
+    },
+    {
+      "rank": 24,
+      "id": "ecuador",
+      "name": "Ecuador",
+      "group": "challengers"
+    },
+    {
+      "rank": 25,
+      "id": "egypt",
+      "name": "Egypt",
+      "group": "challengers"
+    },
+    {
+      "rank": 26,
+      "id": "australia",
+      "name": "Australia",
+      "group": "challengers"
+    },
+    {
+      "rank": 27,
+      "id": "canada",
+      "name": "Canada",
+      "group": "challengers"
+    },
+    {
+      "rank": 28,
+      "id": "algeria",
+      "name": "Algeria",
+      "group": "challengers"
+    },
+    {
+      "rank": 29,
+      "id": "cote-divoire",
+      "name": "Côte d'Ivoire",
+      "group": "challengers"
+    },
+    {
+      "rank": 30,
+      "id": "nigeria",
+      "name": "Nigeria",
+      "group": "challengers"
+    },
+    {
+      "rank": 31,
+      "id": "turkiye",
+      "name": "Türkiye",
+      "group": "challengers"
+    },
+    {
+      "rank": 32,
+      "id": "korea-republic",
+      "name": "Korea Republic",
+      "group": "challengers"
+    },
+    {
+      "rank": 33,
+      "id": "paraguay",
+      "name": "Paraguay",
+      "group": "challengers"
+    },
+    {
+      "rank": 34,
+      "id": "sweden",
+      "name": "Sweden",
+      "group": "challengers"
+    },
+    {
+      "rank": 35,
+      "id": "russia",
+      "name": "Russia",
+      "group": "challengers"
+    },
+    {
+      "rank": 36,
+      "id": "ukraine",
+      "name": "Ukraine",
+      "group": "challengers"
+    },
+    {
+      "rank": 37,
+      "id": "poland",
+      "name": "Poland",
+      "group": "challengers"
+    },
+    {
+      "rank": 38,
+      "id": "hungary",
+      "name": "Hungary",
+      "group": "challengers"
+    },
+    {
+      "rank": 39,
+      "id": "wales",
+      "name": "Wales",
+      "group": "challengers"
+    },
+    {
+      "rank": 40,
+      "id": "congo-dr",
+      "name": "Congo DR",
+      "group": "challengers"
+    },
+    {
+      "rank": 41,
+      "id": "greece",
+      "name": "Greece",
+      "group": "challengers"
+    },
+    {
+      "rank": 42,
+      "id": "cameroon",
+      "name": "Cameroon",
+      "group": "challengers"
+    },
+    {
+      "rank": 43,
+      "id": "scotland",
+      "name": "Scotland",
+      "group": "challengers"
+    },
+    {
+      "rank": 44,
+      "id": "serbia",
+      "name": "Serbia",
+      "group": "challengers"
+    },
+    {
+      "rank": 45,
+      "id": "slovakia",
+      "name": "Slovakia",
+      "group": "challengers"
+    },
+    {
+      "rank": 46,
+      "id": "panama",
+      "name": "Panama",
+      "group": "challengers"
+    },
+    {
+      "rank": 47,
+      "id": "mali",
+      "name": "Mali",
+      "group": "challengers"
+    },
+    {
+      "rank": 48,
+      "id": "south-africa",
+      "name": "South Africa",
+      "group": "challengers"
+    },
+    {
+      "rank": 49,
+      "id": "venezuela",
+      "name": "Venezuela",
+      "group": "challengers"
+    },
+    {
+      "rank": 50,
+      "id": "chile",
+      "name": "Chile",
+      "group": "challengers"
+    },
+    {
+      "rank": 51,
+      "id": "czechia",
+      "name": "Czechia",
+      "group": "backup"
+    },
+    {
+      "rank": 52,
+      "id": "slovenia",
+      "name": "Slovenia",
+      "group": "backup"
+    },
+    {
+      "rank": 53,
+      "id": "peru",
+      "name": "Peru",
+      "group": "backup"
+    },
+    {
+      "rank": 54,
+      "id": "costa-rica",
+      "name": "Costa Rica",
+      "group": "backup"
+    },
+    {
+      "rank": 55,
+      "id": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "group": "backup"
+    },
+    {
+      "rank": 56,
+      "id": "republic-of-ireland",
+      "name": "Republic of Ireland",
+      "group": "backup"
+    },
+    {
+      "rank": 57,
+      "id": "bosnia-and-herzegovina",
+      "name": "Bosnia and Herzegovina",
+      "group": "backup"
+    },
+    {
+      "rank": 58,
+      "id": "romania",
+      "name": "Romania",
+      "group": "backup"
+    },
+    {
+      "rank": 59,
+      "id": "uzbekistan",
+      "name": "Uzbekistan",
+      "group": "backup"
+    },
+    {
+      "rank": 60,
+      "id": "qatar",
+      "name": "Qatar",
+      "group": "backup"
+    },
+    {
+      "rank": 61,
+      "id": "tunisia",
+      "name": "Tunisia",
+      "group": "backup"
+    },
+    {
+      "rank": 62,
+      "id": "burkina-faso",
+      "name": "Burkina Faso",
+      "group": "backup"
+    },
+    {
+      "rank": 63,
+      "id": "iraq",
+      "name": "Iraq",
+      "group": "backup"
+    },
+    {
+      "rank": 64,
+      "id": "northern-ireland",
+      "name": "Northern Ireland",
+      "group": "backup"
+    },
+    {
+      "rank": 65,
+      "id": "united-arab-emirates",
+      "name": "United Arab Emirates",
+      "group": "backup"
+    },
+    {
+      "rank": 66,
+      "id": "albania",
+      "name": "Albania",
+      "group": "backup"
+    },
+    {
+      "rank": 67,
+      "id": "honduras",
+      "name": "Honduras",
+      "group": "backup"
+    },
+    {
+      "rank": 68,
+      "id": "cabo-verde",
+      "name": "Cabo Verde",
+      "group": "backup"
+    },
+    {
+      "rank": 69,
+      "id": "jamaica",
+      "name": "Jamaica",
+      "group": "backup"
+    },
+    {
+      "rank": 70,
+      "id": "ghana",
+      "name": "Ghana",
+      "group": "backup"
+    },
+    {
+      "rank": 71,
+      "id": "north-macedonia",
+      "name": "North Macedonia",
+      "group": "backup"
+    },
+    {
+      "rank": 72,
+      "id": "jordan",
+      "name": "Jordan",
+      "group": "backup"
+    },
+    {
+      "rank": 73,
+      "id": "iceland",
+      "name": "Iceland",
+      "group": "backup"
+    },
+    {
+      "rank": 74,
+      "id": "georgia",
+      "name": "Georgia",
+      "group": "backup"
+    },
+    {
+      "rank": 75,
+      "id": "finland",
+      "name": "Finland",
+      "group": "backup"
+    },
+    {
+      "rank": 76,
+      "id": "kosovo",
+      "name": "Kosovo",
+      "group": "backup"
+    },
+    {
+      "rank": 77,
+      "id": "israel",
+      "name": "Israel",
+      "group": "backup"
+    },
+    {
+      "rank": 78,
+      "id": "bolivia",
+      "name": "Bolivia",
+      "group": "backup"
+    },
+    {
+      "rank": 79,
+      "id": "montenegro",
+      "name": "Montenegro",
+      "group": "backup"
+    },
+    {
+      "rank": 80,
+      "id": "curacao",
+      "name": "Curaçao",
+      "group": "backup"
+    },
+    {
+      "rank": 81,
+      "id": "oman",
+      "name": "Oman",
+      "group": "backup"
+    },
+    {
+      "rank": 82,
+      "id": "guinea",
+      "name": "Guinea",
+      "group": "backup"
+    },
+    {
+      "rank": 83,
+      "id": "angola",
+      "name": "Angola",
+      "group": "backup"
+    },
+    {
+      "rank": 84,
+      "id": "haiti",
+      "name": "Haiti",
+      "group": "backup"
+    },
+    {
+      "rank": 85,
+      "id": "gabon",
+      "name": "Gabon",
+      "group": "backup"
+    },
+    {
+      "rank": 86,
+      "id": "syria",
+      "name": "Syria",
+      "group": "backup"
+    },
+    {
+      "rank": 87,
+      "id": "uganda",
+      "name": "Uganda",
+      "group": "backup"
+    },
+    {
+      "rank": 88,
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "group": "backup"
+    },
+    {
+      "rank": 89,
+      "id": "benin",
+      "name": "Benin",
+      "group": "backup"
+    },
+    {
+      "rank": 90,
+      "id": "bulgaria",
+      "name": "Bulgaria",
+      "group": "backup"
+    },
+    {
+      "rank": 91,
+      "id": "zambia",
+      "name": "Zambia",
+      "group": "backup"
+    },
+    {
+      "rank": 92,
+      "id": "palestine",
+      "name": "Palestine",
+      "group": "backup"
+    },
+    {
+      "rank": 93,
+      "id": "thailand",
+      "name": "Thailand",
+      "group": "backup"
+    },
+    {
+      "rank": 94,
+      "id": "belarus",
+      "name": "Belarus",
+      "group": "backup"
+    },
+    {
+      "rank": 95,
+      "id": "guatemala",
+      "name": "Guatemala",
+      "group": "backup"
+    },
+    {
+      "rank": 96,
+      "id": "china-pr",
+      "name": "China PR",
+      "group": "backup"
+    },
+    {
+      "rank": 97,
+      "id": "bahrain",
+      "name": "Bahrain",
+      "group": "backup"
+    },
+    {
+      "rank": 98,
+      "id": "mozambique",
+      "name": "Mozambique",
+      "group": "backup"
+    },
+    {
+      "rank": 99,
+      "id": "vietnam",
+      "name": "Vietnam",
+      "group": "backup"
+    },
+    {
+      "rank": 100,
+      "id": "tajikistan",
+      "name": "Tajikistan",
+      "group": "backup"
+    },
+    {
+      "rank": 101,
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "group": "reserve"
+    },
+    {
+      "rank": 102,
+      "id": "el-salvador",
+      "name": "El Salvador",
+      "group": "reserve"
+    },
+    {
+      "rank": 103,
+      "id": "equatorial-guinea",
+      "name": "Equatorial Guinea",
+      "group": "reserve"
+    },
+    {
+      "rank": 104,
+      "id": "kyrgyz-republic",
+      "name": "Kyrgyz Republic",
+      "group": "reserve"
+    },
+    {
+      "rank": 105,
+      "id": "trinidad-and-tobago",
+      "name": "Trinidad And Tobago",
+      "group": "reserve"
+    },
+    {
+      "rank": 106,
+      "id": "madagascar",
+      "name": "Madagascar",
+      "group": "reserve"
+    },
+    {
+      "rank": 107,
+      "id": "comoros",
+      "name": "Comoros",
+      "group": "reserve"
+    },
+    {
+      "rank": 108,
+      "id": "armenia",
+      "name": "Armenia",
+      "group": "reserve"
+    },
+    {
+      "rank": 109,
+      "id": "gambia",
+      "name": "The Gambia",
+      "group": "reserve"
+    },
+    {
+      "rank": 110,
+      "id": "mauritania",
+      "name": "Mauritania",
+      "group": "reserve"
+    },
+    {
+      "rank": 111,
+      "id": "niger",
+      "name": "Niger",
+      "group": "reserve"
+    },
+    {
+      "rank": 112,
+      "id": "lebanon",
+      "name": "Lebanon",
+      "group": "reserve"
+    },
+    {
+      "rank": 113,
+      "id": "libya",
+      "name": "Libya",
+      "group": "reserve"
+    },
+    {
+      "rank": 114,
+      "id": "kenya",
+      "name": "Kenya",
+      "group": "reserve"
+    },
+    {
+      "rank": 115,
+      "id": "tanzania",
+      "name": "Tanzania",
+      "group": "reserve"
+    },
+    {
+      "rank": 116,
+      "id": "indonesia",
+      "name": "Indonesia",
+      "group": "reserve"
+    },
+    {
+      "rank": 117,
+      "id": "kazakhstan",
+      "name": "Kazakhstan",
+      "group": "reserve"
+    },
+    {
+      "rank": 118,
+      "id": "sudan",
+      "name": "Sudan",
+      "group": "reserve"
+    },
+    {
+      "rank": 119,
+      "id": "rwanda",
+      "name": "Rwanda",
+      "group": "reserve"
+    },
+    {
+      "rank": 120,
+      "id": "togo",
+      "name": "Togo",
+      "group": "reserve"
+    },
+    {
+      "rank": 121,
+      "id": "dpr-korea",
+      "name": "DPR Korea",
+      "group": "reserve"
+    },
+    {
+      "rank": 122,
+      "id": "estonia",
+      "name": "Estonia",
+      "group": "reserve"
+    },
+    {
+      "rank": 123,
+      "id": "namibia",
+      "name": "Namibia",
+      "group": "reserve"
+    },
+    {
+      "rank": 124,
+      "id": "guinea-bissau",
+      "name": "Guinea Bissau",
+      "group": "reserve"
+    },
+    {
+      "rank": 125,
+      "id": "cyprus",
+      "name": "Cyprus",
+      "group": "reserve"
+    },
+    {
+      "rank": 126,
+      "id": "faroe-islands",
+      "name": "Faroe Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 127,
+      "id": "azerbaijan",
+      "name": "Azerbaijan",
+      "group": "reserve"
+    },
+    {
+      "rank": 128,
+      "id": "suriname",
+      "name": "Suriname",
+      "group": "reserve"
+    },
+    {
+      "rank": 129,
+      "id": "zimbabwe",
+      "name": "Zimbabwe",
+      "group": "reserve"
+    },
+    {
+      "rank": 130,
+      "id": "sierra-leone",
+      "name": "Sierra Leone",
+      "group": "reserve"
+    },
+    {
+      "rank": 131,
+      "id": "malawi",
+      "name": "Malawi",
+      "group": "reserve"
+    },
+    {
+      "rank": 132,
+      "id": "congo",
+      "name": "Congo",
+      "group": "reserve"
+    },
+    {
+      "rank": 133,
+      "id": "malaysia",
+      "name": "Malaysia",
+      "group": "reserve"
+    },
+    {
+      "rank": 134,
+      "id": "kuwait",
+      "name": "Kuwait",
+      "group": "reserve"
+    },
+    {
+      "rank": 135,
+      "id": "dominican-republic",
+      "name": "Dominican Republic",
+      "group": "reserve"
+    },
+    {
+      "rank": 136,
+      "id": "philippines",
+      "name": "Philippines",
+      "group": "reserve"
+    },
+    {
+      "rank": 137,
+      "id": "nicaragua",
+      "name": "Nicaragua",
+      "group": "reserve"
+    },
+    {
+      "rank": 138,
+      "id": "india",
+      "name": "India",
+      "group": "reserve"
+    },
+    {
+      "rank": 139,
+      "id": "turkmenistan",
+      "name": "Turkmenistan",
+      "group": "reserve"
+    },
+    {
+      "rank": 140,
+      "id": "burundi",
+      "name": "Burundi",
+      "group": "reserve"
+    },
+    {
+      "rank": 141,
+      "id": "botswana",
+      "name": "Botswana",
+      "group": "reserve"
+    },
+    {
+      "rank": 142,
+      "id": "guyana",
+      "name": "Guyana",
+      "group": "reserve"
+    },
+    {
+      "rank": 143,
+      "id": "latvia",
+      "name": "Latvia",
+      "group": "reserve"
+    },
+    {
+      "rank": 144,
+      "id": "yemen",
+      "name": "Yemen",
+      "group": "reserve"
+    },
+    {
+      "rank": 145,
+      "id": "central-african-republic",
+      "name": "Central African Republic",
+      "group": "reserve"
+    },
+    {
+      "rank": 146,
+      "id": "liberia",
+      "name": "Liberia",
+      "group": "reserve"
+    },
+    {
+      "rank": 147,
+      "id": "ethiopia",
+      "name": "Ethiopia",
+      "group": "reserve"
+    },
+    {
+      "rank": 148,
+      "id": "lithuania",
+      "name": "Lithuania",
+      "group": "reserve"
+    },
+    {
+      "rank": 149,
+      "id": "singapore",
+      "name": "Singapore",
+      "group": "reserve"
+    },
+    {
+      "rank": 150,
+      "id": "lesotho",
+      "name": "Lesotho",
+      "group": "reserve"
+    },
+    {
+      "rank": 151,
+      "id": "st-kitts-and-nevis",
+      "name": "St. Kitts and Nevis",
+      "group": "reserve"
+    },
+    {
+      "rank": 152,
+      "id": "solomon-islands",
+      "name": "Solomon Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 153,
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "group": "reserve"
+    },
+    {
+      "rank": 154,
+      "id": "fiji",
+      "name": "Fiji",
+      "group": "reserve"
+    },
+    {
+      "rank": 155,
+      "id": "puerto-rico",
+      "name": "Puerto Rico",
+      "group": "reserve"
+    },
+    {
+      "rank": 156,
+      "id": "new-caledonia",
+      "name": "New Caledonia",
+      "group": "reserve"
+    },
+    {
+      "rank": 157,
+      "id": "tahiti",
+      "name": "Tahiti",
+      "group": "reserve"
+    },
+    {
+      "rank": 158,
+      "id": "moldova",
+      "name": "Moldova",
+      "group": "reserve"
+    },
+    {
+      "rank": 159,
+      "id": "myanmar",
+      "name": "Myanmar",
+      "group": "reserve"
+    },
+    {
+      "rank": 160,
+      "id": "malta",
+      "name": "Malta",
+      "group": "reserve"
+    },
+    {
+      "rank": 161,
+      "id": "vanuatu",
+      "name": "Vanuatu",
+      "group": "reserve"
+    },
+    {
+      "rank": 162,
+      "id": "antigua-and-barbuda",
+      "name": "Antigua And Barbuda",
+      "group": "reserve"
+    },
+    {
+      "rank": 163,
+      "id": "cuba",
+      "name": "Cuba",
+      "group": "reserve"
+    },
+    {
+      "rank": 164,
+      "id": "eswatini",
+      "name": "Eswatini",
+      "group": "reserve"
+    },
+    {
+      "rank": 165,
+      "id": "st-lucia",
+      "name": "St. Lucia",
+      "group": "reserve"
+    },
+    {
+      "rank": 166,
+      "id": "st-vincent-and-grenadines",
+      "name": "St. Vincent / Grenadines",
+      "group": "reserve"
+    },
+    {
+      "rank": 167,
+      "id": "papua-new-guinea",
+      "name": "Papua New Guinea",
+      "group": "reserve"
+    },
+    {
+      "rank": 168,
+      "id": "afghanistan",
+      "name": "Afghanistan",
+      "group": "reserve"
+    },
+    {
+      "rank": 169,
+      "id": "grenada",
+      "name": "Grenada",
+      "group": "reserve"
+    },
+    {
+      "rank": 170,
+      "id": "south-sudan",
+      "name": "South Sudan",
+      "group": "reserve"
+    },
+    {
+      "rank": 171,
+      "id": "bermuda",
+      "name": "Bermuda",
+      "group": "reserve"
+    },
+    {
+      "rank": 172,
+      "id": "montserrat",
+      "name": "Montserrat",
+      "group": "reserve"
+    },
+    {
+      "rank": 173,
+      "id": "maldives",
+      "name": "Maldives",
+      "group": "reserve"
+    },
+    {
+      "rank": 174,
+      "id": "barbados",
+      "name": "Barbados",
+      "group": "reserve"
+    },
+    {
+      "rank": 175,
+      "id": "andorra",
+      "name": "Andorra",
+      "group": "reserve"
+    },
+    {
+      "rank": 176,
+      "id": "chinese-taipei",
+      "name": "Chinese Taipei",
+      "group": "reserve"
+    },
+    {
+      "rank": 177,
+      "id": "cambodia",
+      "name": "Cambodia",
+      "group": "reserve"
+    },
+    {
+      "rank": 178,
+      "id": "nepal",
+      "name": "Nepal",
+      "group": "reserve"
+    },
+    {
+      "rank": 179,
+      "id": "mauritius",
+      "name": "Mauritius",
+      "group": "reserve"
+    },
+    {
+      "rank": 180,
+      "id": "belize",
+      "name": "Belize",
+      "group": "reserve"
+    },
+    {
+      "rank": 181,
+      "id": "chad",
+      "name": "Chad",
+      "group": "reserve"
+    },
+    {
+      "rank": 182,
+      "id": "bangladesh",
+      "name": "Bangladesh",
+      "group": "reserve"
+    },
+    {
+      "rank": 183,
+      "id": "eritrea",
+      "name": "Eritrea",
+      "group": "reserve"
+    },
+    {
+      "rank": 184,
+      "id": "sri-lanka",
+      "name": "Sri Lanka",
+      "group": "reserve"
+    },
+    {
+      "rank": 185,
+      "id": "aruba",
+      "name": "Aruba",
+      "group": "reserve"
+    },
+    {
+      "rank": 186,
+      "id": "dominica",
+      "name": "Dominica",
+      "group": "reserve"
+    },
+    {
+      "rank": 187,
+      "id": "cook-islands",
+      "name": "Cook Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 188,
+      "id": "laos",
+      "name": "Laos",
+      "group": "reserve"
+    },
+    {
+      "rank": 189,
+      "id": "samoa",
+      "name": "Samoa",
+      "group": "reserve"
+    },
+    {
+      "rank": 190,
+      "id": "mongolia",
+      "name": "Mongolia",
+      "group": "reserve"
+    },
+    {
+      "rank": 191,
+      "id": "american-samoa",
+      "name": "American Samoa",
+      "group": "reserve"
+    },
+    {
+      "rank": 192,
+      "id": "bhutan",
+      "name": "Bhutan",
+      "group": "reserve"
+    },
+    {
+      "rank": 193,
+      "id": "macau-china",
+      "name": "Macau, China",
+      "group": "reserve"
+    },
+    {
+      "rank": 194,
+      "id": "sao-tome-and-principe",
+      "name": "São Tomé and Príncipe",
+      "group": "reserve"
+    },
+    {
+      "rank": 195,
+      "id": "djibouti",
+      "name": "Djibouti",
+      "group": "reserve"
+    },
+    {
+      "rank": 196,
+      "id": "brunei",
+      "name": "Brunei",
+      "group": "reserve"
+    },
+    {
+      "rank": 197,
+      "id": "pakistan",
+      "name": "Pakistan",
+      "group": "reserve"
+    },
+    {
+      "rank": 198,
+      "id": "cayman-islands",
+      "name": "Cayman Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 199,
+      "id": "tonga",
+      "name": "Tonga",
+      "group": "reserve"
+    },
+    {
+      "rank": 200,
+      "id": "somalia",
+      "name": "Somalia",
+      "group": "reserve"
+    },
+    {
+      "rank": 201,
+      "id": "gibraltar",
+      "name": "Gibraltar",
+      "group": "reserve"
+    },
+    {
+      "rank": 202,
+      "id": "timor-leste",
+      "name": "Timor Leste",
+      "group": "reserve"
+    },
+    {
+      "rank": 203,
+      "id": "guam",
+      "name": "Guam",
+      "group": "reserve"
+    },
+    {
+      "rank": 204,
+      "id": "turks-and-caicos-islands",
+      "name": "Turks And Caicos Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 205,
+      "id": "seychelles",
+      "name": "Seychelles",
+      "group": "reserve"
+    },
+    {
+      "rank": 206,
+      "id": "us-virgin-islands",
+      "name": "US Virgin Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 207,
+      "id": "liechtenstein",
+      "name": "Liechtenstein",
+      "group": "reserve"
+    },
+    {
+      "rank": 208,
+      "id": "bahamas",
+      "name": "Bahamas",
+      "group": "reserve"
+    },
+    {
+      "rank": 209,
+      "id": "british-virgin-islands",
+      "name": "British Virgin Islands",
+      "group": "reserve"
+    },
+    {
+      "rank": 210,
+      "id": "anguilla",
+      "name": "Anguilla",
+      "group": "reserve"
+    },
+    {
+      "rank": 211,
+      "id": "san-marino",
+      "name": "San Marino",
+      "group": "reserve"
+    }
+  ]
+}

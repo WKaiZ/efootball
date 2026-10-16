@@ -12,12 +12,18 @@ from gameplan.constants import DB_PATH
 from gameplan.data import load_roles, load_formations, resolve_country_paths
 
 
-def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False):
+def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False, omit_vacant_starters=False, max_starters=None):
     lines = []
     lines.append("Starters:")
-    for slot, a in zip(slots, starter_asg):
+    starter_pairs = list(zip(slots, starter_asg))
+    if max_starters is not None:
+        starter_pairs = [(slot, assignment) for slot, assignment in starter_pairs if assignment]
+        starter_pairs.sort(key=lambda pair: pair[1].player.rating, reverse=True)
+        starter_pairs = starter_pairs[:max_starters]
+    for slot, a in starter_pairs:
         if a is None:
-            lines.append(f"  [{slot}] VACANT")
+            if not omit_vacant_starters:
+                lines.append(f"  [{slot}] VACANT")
         else:
             lines.append(
                 f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
@@ -123,7 +129,9 @@ def main():
         else:
             lines = format_squad(
                 starter_asg, sub_asg, wildcard_asgs, primary_formation,
-                starters_only=_country_group(out_path) == "backup",
+                starters_only=_country_group(out_path) in {"backup", "reserve"},
+                omit_vacant_starters=_country_group(out_path) == "reserve",
+                max_starters=1 if _country_group(out_path) == "reserve" else None,
             )
 
         text = "\n".join(lines) + "\n"

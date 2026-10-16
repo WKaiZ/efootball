@@ -62,7 +62,7 @@ MANUAL_ID_OVERRIDES = {
     "burkina-faso": {
         "lassina traore": {"player_id": "551695", "preserve_name": True},
     },
-    "cape-verde": {
+    "cabo-verde": {
         "david costa": {"player_id": "1160599", "preserve_name": True},
     },
     "portugal": {
@@ -95,7 +95,7 @@ MANUAL_ID_OVERRIDES = {
         "matias fernandez": {"player_id": "402519", "preserve_name": True},
         "diego sanchez": {"player_id": "179532", "preserve_name": True},
     },
-    "china": {
+    "china-pr": {
         "serginho": {"player_id": "329013", "preserve_name": True},
         "fernandinho": {"player_id": "230937", "preserve_name": True},
     },
@@ -172,7 +172,7 @@ MANUAL_ID_OVERRIDES = {
         "mohamed hamdi": {"player_id": "369901", "preserve_name": True},
         "trezeguet": {"player_id": "234189", "preserve_name": True},
     },
-    "emirates": {
+    "united-arab-emirates": {
         "fabio lima": {"player_id": "179054", "preserve_name": True},
     },
     "england": {
@@ -190,20 +190,23 @@ MANUAL_ID_OVERRIDES = {
         "antonio lopez": {"player_id": "599909", "preserve_name": True},
         "jose morales": {"player_id": "354673", "preserve_name": True},
     },
+    "guinea-bissau": {
+        "beto": {"player_id": "595809", "preserve_name": True},
+    },
     "luxembourg": {
         "diego duarte": {"player_id": "885845", "preserve_name": True},
     },
     "honduras": {
         "david ruiz": {"player_id": "914681", "preserve_name": True},
     },
-    "iran": {
+    "ir-iran": {
         "mehdi shiri": {"player_id": "280298", "preserve_name": True},
     },
     "iraq": {
         "hussein ali": {"player_id": "585325", "preserve_name": True},
         "ali jasim": {"player_id": "877672", "preserve_name": True},
     },
-    "korea": {
+    "korea-republic": {
         "tae-hwan kim": {"player_id": "156009", "preserve_name": True},
         "tae-hyeon kim": {
             "CB": {"player_id": "645847", "preserve_name": True},
@@ -233,6 +236,12 @@ MANUAL_ID_OVERRIDES = {
         "cristian martinez": {"player_id": "419247", "preserve_name": True},
         "jose luis rodriguez": {"player_id": "425028", "preserve_name": True},
     },
+    "st-vincent-and-grenadines": {
+        "andrew johnson": {"player_id": "1305202", "preserve_name": True},
+    },
+    "timor-leste": {
+        "joao pedro": {"player_id": "632164", "preserve_name": True},
+    },
     "paraguay": {
         "diego gomez": {"player_id": "996897", "preserve_name": True},
         "lucas romero": {"player_id": "1127335", "preserve_name": True},
@@ -253,15 +262,32 @@ EXCLUDE_FROM_ESPN_RECENT = frozenset(
 )
 
 ESPN_TEAM_NAME_ALIASES = {
-    "bosnia": ("Bosnia-Herzegovina", "Bosnia and Herzegovina"),
-    "congo": ("Democratic Republic of the Congo", "DR Congo", "Congo DR"),
+    "bosnia and herzegovina": ("Bosnia-Herzegovina",),
+    "cabo verde": ("Cape Verde",),
+    "china pr": ("China", "PR China"),
+    "congo dr": ("Democratic Republic of the Congo", "DR Congo"),
+    "cote d'ivoire": ("Ivory Coast",),
     "czechia": ("Czech Republic",),
-    "emirates": ("United Arab Emirates", "UAE"),
-    "ireland": ("Republic of Ireland",),
-    "korea": ("South Korea",),
+    "united arab emirates": ("UAE",),
+    "republic of ireland": ("Ireland",),
+    "ir iran": ("Iran",),
+    "korea republic": ("South Korea",),
+    "brunei darussalam": ("Brunei",),
+    "congo": ("Republic of the Congo", "Congo Republic"),
+    "dpr korea": ("North Korea", "Korea DPR"),
+    "the gambia": ("Gambia",),
+    "guinea-bissau": ("Guinea Bissau",),
+    "kyrgyz republic": ("Kyrgyzstan",),
     "north macedonia": ("Macedonia",),
     "serbia": ("Yugoslavia", "Serbia and Montenegro"),
-    "turkey": ("Türkiye", "Turkiye"),
+    "türkiye": ("Turkiye", "Turkey"),
+    "st. kitts and nevis": ("Saint Kitts and Nevis", "St Kitts And Nevis"),
+    "st. lucia": ("Saint Lucia", "St Lucia"),
+    "st. vincent and the grenadines": (
+        "Saint Vincent and the Grenadines",
+        "St Vincent And Grenadines",
+    ),
+    "timor-leste": ("Timor Leste",),
     "usa": ("United States",),
 }
 
@@ -270,7 +296,26 @@ ESPN_TEAM_ID_OVERRIDES = {
 }
 
 COUNTRY_DISPLAY_NAMES = {
-    "congo": "DR Congo",
+    "bosnia-and-herzegovina": "Bosnia and Herzegovina",
+    "cabo-verde": "Cabo Verde",
+    "china-pr": "China PR",
+    "congo-dr": "Congo DR",
+    "ir-iran": "IR Iran",
+    "republic-of-ireland": "Republic of Ireland",
+    "cote-divoire": "Côte d'Ivoire",
+    "korea-republic": "Korea Republic",
+    "turkiye": "Türkiye",
+    "united-arab-emirates": "United Arab Emirates",
+    "brunei": "Brunei Darussalam",
+    "congo": "Congo",
+    "dpr-korea": "DPR Korea",
+    "gambia": "The Gambia",
+    "guinea-bissau": "Guinea-Bissau",
+    "kyrgyz-republic": "Kyrgyz Republic",
+    "st-kitts-and-nevis": "St. Kitts and Nevis",
+    "st-lucia": "St. Lucia",
+    "st-vincent-and-grenadines": "St. Vincent and the Grenadines",
+    "timor-leste": "Timor-Leste",
 }
 
 PLAYER_NAME_ALIASES = {
@@ -307,7 +352,7 @@ PLAYER_NAME_ALIASES = {
     "wales": [
         ("Jay Dasilva", "Jay Da Silva"),
     ],
-    "iran": [
+    "ir-iran": [
         ("Seyed Hossein Hosseini", "Hossein Hosseini"),
         ("Seyed Mohammad Karimi", "Mohammad Karimi"),
         ("Dennis Eckert Ayensa", "Dennis Dargahi"),
@@ -321,7 +366,7 @@ PLAYER_NAME_ALIASES = {
     "ecuador": [
         ("José Andrés Hurtado", "José Hurtado"),
     ],
-    "china": [
+    "china-pr": [
         ("Tyias Browning", "Jiang Guangtai"),
     ],
     "benin": [

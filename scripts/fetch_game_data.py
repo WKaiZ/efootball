@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from common.country_locator import resolve_country_dir
+from jersey_fetch.names import nation_labels_equivalent
+from jersey_fetch.players_file import country_display_name
 
 DB_PATH = str(ROOT / "pes.db")
 
@@ -62,7 +64,7 @@ MANUAL_ID_OVERRIDES = {
     "burkina-faso": {
         "lassina traore": "551695",
     },
-    "cape-verde": {
+    "cabo-verde": {
         "david costa": "1160599",
     },
     "portugal": {
@@ -90,7 +92,7 @@ MANUAL_ID_OVERRIDES = {
         "carlos palacios": "571219",
         "marcelo morales": "841340",
     },
-    "china": {
+    "china-pr": {
         "serginho": "329013",
         "fernandinho": "230937",
     },
@@ -165,7 +167,7 @@ MANUAL_ID_OVERRIDES = {
         "mohamed hamdi": "369901",
         "trezeguet": "234189",
     },
-    "emirates": {
+    "united-arab-emirates": {
         "fabio lima": "179054",
     },
     "england": {
@@ -183,20 +185,23 @@ MANUAL_ID_OVERRIDES = {
         "antonio lopez": "599909",
         "jose morales": "354673",
     },
+    "guinea-bissau": {
+        "beto": "595809",
+    },
     "luxembourg": {
         "diego duarte": "885845",
     },
     "honduras": {
         "david ruiz": "914681",
     },
-    "iran": {
+    "ir-iran": {
         "mehdi shiri": "280298",
     },
     "iraq": {
         "hussein ali": "585325",
         "ali jasim": "877672",
     },
-    "korea": {
+    "korea-republic": {
         "tae-hwan kim": "156009",
         "tae-hyeon kim": {"CB": "645847", "RB": "508366"},
     },
@@ -230,6 +235,12 @@ MANUAL_ID_OVERRIDES = {
     },
     "scotland": {
         "liam kelly": "208772",
+    },
+    "st-vincent-and-grenadines": {
+        "andrew johnson": "1305202",
+    },
+    "timor-leste": {
+        "joao pedro": "632164",
     },
 }
 
@@ -321,6 +332,17 @@ def get_manual_override(country_name, player_name, position=None):
             return override.get(pos_key) or override.get("default")
         return None
     return override
+
+
+def jersey_history_matches_country(conn, player_id, country_label):
+    rows = conn.execute(
+        "SELECT DISTINCT country FROM jersey WHERE player_id = ? AND country IS NOT NULL",
+        (str(player_id),),
+    ).fetchall()
+    if not rows:
+        return True, []
+    countries = sorted({row[0] for row in rows})
+    return any(nation_labels_equivalent(country_label, item) for item in countries), countries
 
 
 def levenshtein(a, b):
@@ -426,6 +448,7 @@ def main():
     country_folder = sys.argv[1] if len(sys.argv) > 1 else "belgium"
     txt_path = resolve_players_file(country_folder)
     country_name = os.path.basename(os.path.normpath(country_folder.strip()))
+    country_label = country_display_name(country_name)
     if not os.path.exists(txt_path):
         print(f"Players file not found: {txt_path}")
         sys.exit(1)
@@ -481,6 +504,17 @@ def main():
                     continue
 
                 player_id = name_map[best_key]
+
+            if not manual_player_id:
+                nation_matches, stored_nations = jersey_history_matches_country(
+                    conn, player_id, country_label
+                )
+                if not nation_matches:
+                    skipped_no_id += 1
+                    weird_lines.append(
+                        f"Line {idx}: name '{data['name']}' matched player_id {player_id}, but its stored jersey history is only for {', '.join(stored_nations)}; refusing a cross-nation match for {country_label}"
+                    )
+                    continue
 
             cur.execute(
                 """

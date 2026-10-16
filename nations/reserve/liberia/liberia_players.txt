@@ -1,0 +1,1 @@
+Oscar, LB, 73.21, True, Standard, [LMF, LB, CMF], [SS, AMF, DMF, CB, RWF, RMF]

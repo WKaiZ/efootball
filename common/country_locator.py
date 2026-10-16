@@ -1,8 +1,4 @@
-import glob
 import os
-
-GROUP_DIRS = ("contenders", "challengers", "backup")
-
 
 def _repo_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,9 +16,12 @@ def resolve_country_dir(country_folder):
         if os.path.isdir(direct):
             return direct
     candidates = [os.path.join(root, "nations", name)]
-    for group in GROUP_DIRS:
-        candidates.append(os.path.join(root, "nations", group, name))
-    candidates.extend(sorted(glob.glob(os.path.join(root, "nations", "*", name))))
+    candidates.extend(
+        sorted(
+            os.path.join(root, "nations", group, name)
+            for group in os.listdir(os.path.join(root, "nations"))
+        )
+    )
     for cand in candidates:
         if os.path.isdir(cand):
             return cand

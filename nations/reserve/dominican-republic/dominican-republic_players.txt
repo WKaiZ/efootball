@@ -1,0 +1,2 @@
+Junior Firpo, LB, 93.03, False, Highlight, [LMF, LB], []
+Mariano Díaz, CF, 93.32, False, Highlight, [CF], [SS]

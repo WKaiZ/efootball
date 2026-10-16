@@ -1,0 +1,1 @@
+Eloy Nebreda, LWF, 61.99, False, Standard, [LWF, CMF], [LMF, AMF, DMF]

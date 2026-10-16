@@ -1,0 +1,3 @@
+Ioannis Pittas, CF, 72.66, True, Standard, [CF, SS, LWF, LMF], [RWF, RMF]
+Konstantinos Laifis, CB, 72.19, False, Standard, [CB], [LB, DMF]
+Pieros Sotiriou, CF, 72.07, False, Standard, [CF], [LWF, RWF, SS]

@@ -1,0 +1,2 @@
+Ruslan Mingazov, RWF, 70.32, False, Standard, [LWF, LMF, RWF, RMF], [AMF]
+Abdy Byashimov, CB, 70.52, False, Standard, [CB], [LB, RB]

@@ -459,7 +459,7 @@
 <script>
 (function () {
   const DATA_URL = "squads.json", POOL_URL = "players.json", HISTORY_URL = "history.json";
-  const GROUPS = [["contender", "Contenders"], ["challenger", "Challengers"], ["backup", "Backup"]];
+  const GROUPS = [["contender", "Contenders"], ["challenger", "Challengers"], ["backup", "Backup"], ["reserve", "Reserve"]];
   const LINE = { GK:["GK"], DEF:["CB","LB","RB","LWB","RWB"],
                  MID:["DMF","CMF","AMF","LMF","RMF"], FWD:["CF","SS","LWF","RWF"] };
   const lineOf = (p) => Object.keys(LINE).find(k => LINE[k].includes(p)) || "MID";
@@ -573,6 +573,7 @@
     ["FWD", 84, ["LWF", "CF", "SS", "RWF"]],
   ];
   const firstStarters = (c) => c.players.filter(p => (p.squad || "first") === "first" && p.section === "starters");
+  const hasCompleteStarterSquad = (c) => firstStarters(c).length === 11;
   const countryHash = (id) => [...id].reduce((h, ch) => (Math.imul(h, 31) + ch.charCodeAt(0)) >>> 0, 0);
   function dailySquad(countries, day = Math.floor(Date.now() / 86400000)) {
     const eligible = countries.filter(c => firstStarters(c).length);
@@ -674,6 +675,7 @@
 
   let moverDays = 7;
   function renderOverview(countries) {
+    countries = countries.filter(hasCompleteStarterSquad);
     const rows = strength(countries);
     const squad = dailySquad(countries);
     root().innerHTML = `
@@ -1517,8 +1519,8 @@
   }
 
   const VIEWS = {
-    overview: ["Overview", "Where all 100 squads stand today."],
-    nations: ["Nations", "Search or pick a nation to see its first and/or second squads."],
+    overview: ["Overview", "Where complete starter squads stand today."],
+    nations: ["Nations", "Search or pick a nation to see its squad."],
     records: ["Records", "Player records by position, jersey number, and squad tenure."],
     player: ["Player", ""],
   };

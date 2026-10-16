@@ -1,0 +1,2 @@
+Jefferson Tabinas, CB, 69.23, False, Standard, [CB, LB], [LMF]
+Neil Etheridge, GK, 69.29, False, Standard, [GK], []

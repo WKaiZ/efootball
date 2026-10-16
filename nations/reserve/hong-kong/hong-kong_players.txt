@@ -1,0 +1,1 @@
+Everton Camargo, RWF, 71.10, False, Standard, [CF, RWF, RMF], [LWF, LMF]

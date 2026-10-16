@@ -1,0 +1,3 @@
+Fergus Tierney, CF, 95.37, False, Showtime, [CF, LWF], [SS, RWF]
+Bérgson, CF, 95.16, False, BigTime, [CF], [LWF, RWF, SS]
+Safee Sali, CF, 92.35, False, Epic, [CF], [SS]

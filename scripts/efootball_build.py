@@ -19,7 +19,7 @@ import tmfetch
 REPO_URL = "https://github.com/WKaiZ/efootball"
 NATIONS_DIR = "nations"
 GROUPS = [("contenders", "contender"), ("challengers", "challenger"),
-          ("backup", "backup")]
+          ("backup", "backup"), ("reserve", "reserve")]
 
 FOTMOB_SUGGEST = "https://apigw.fotmob.com/searchapi/suggest"
 FOTMOB_IMG = "https://images.fotmob.com/image_resources/playerimages/{id}.png"
@@ -55,39 +55,225 @@ _ENG = "\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
 SUBDIVISION_FLAGS = {"england": _ENG, "scotland": _SCOT, "wales": _WALES}
 
 ISO2 = {
-    "albania": "al", "algeria": "dz", "angola": "ao", "argentina": "ar",
-    "australia": "au", "austria": "at", "azerbaijan": "az", "bahrain": "bh",
-    "belarus": "by", "belgium": "be", "benin": "bj", "bolivia": "bo",
-    "bosnia": "ba", "brazil": "br", "bulgaria": "bg", "burkina-faso": "bf",
-    "cameroon": "cm", "canada": "ca", "cape-verde": "cv", "chile": "cl",
-    "china": "cn", "colombia": "co", "congo": "cd", "costa-rica": "cr",
-    "croatia": "hr", "curacao": "cw", "czechia": "cz", "denmark": "dk",
-    "dr-congo": "cd", "ecuador": "ec", "egypt": "eg", "el-salvador": "sv",
-    "emirates": "ae", "finland": "fi", "france": "fr", "gabon": "ga",
-    "georgia": "ge", "germany": "de", "ghana": "gh", "greece": "gr",
-    "guatemala": "gt", "guinea": "gn", "haiti": "ht", "honduras": "hn",
-    "hungary": "hu", "iceland": "is", "india": "in", "indonesia": "id",
-    "iran": "ir", "iraq": "iq", "ireland": "ie", "israel": "il", "italy": "it",
-    "ivory-coast": "ci", "jamaica": "jm", "japan": "jp", "jordan": "jo",
-    "kazakhstan": "kz", "kenya": "ke", "korea": "kr", "kosovo": "xk",
-    "kuwait": "kw", "luxembourg": "lu", "mali": "ml", "mexico": "mx",
-    "montenegro": "me", "morocco": "ma", "mozambique": "mz",
-    "netherlands": "nl", "new-zealand": "nz", "nigeria": "ng",
-    "north-macedonia": "mk", "northern-ireland": "gb", "norway": "no",
-    "oman": "om", "palestine": "ps", "panama": "pa", "paraguay": "py",
-    "peru": "pe", "poland": "pl", "portugal": "pt", "qatar": "qa",
-    "romania": "ro", "russia": "ru", "saudi-arabia": "sa", "senegal": "sn",
-    "serbia": "rs", "slovakia": "sk", "slovenia": "si", "south-africa": "za",
-    "spain": "es", "sweden": "se", "switzerland": "ch", "syria": "sy",
-    "tajikistan": "tj", "thailand": "th", "tunisia": "tn", "turkey": "tr",
-    "uae": "ae", "uganda": "ug", "ukraine": "ua", "uruguay": "uy",
-    "usa": "us", "uzbekistan": "uz", "venezuela": "ve", "vietnam": "vn",
-    "zambia": "zm",
+    'afghanistan': 'af',
+    'albania': 'al',
+    'algeria': 'dz',
+    'american-samoa': 'as',
+    'andorra': 'ad',
+    'angola': 'ao',
+    'anguilla': 'ai',
+    'antigua-and-barbuda': 'ag',
+    'argentina': 'ar',
+    'armenia': 'am',
+    'aruba': 'aw',
+    'australia': 'au',
+    'austria': 'at',
+    'azerbaijan': 'az',
+    'bahamas': 'bs',
+    'bahrain': 'bh',
+    'bangladesh': 'bd',
+    'barbados': 'bb',
+    'belarus': 'by',
+    'belgium': 'be',
+    'belize': 'bz',
+    'benin': 'bj',
+    'bermuda': 'bm',
+    'bhutan': 'bt',
+    'bolivia': 'bo',
+    'bosnia-and-herzegovina': 'ba',
+    'botswana': 'bw',
+    'brazil': 'br',
+    'british-virgin-islands': 'vg',
+    'brunei': 'bn',
+    'bulgaria': 'bg',
+    'burkina-faso': 'bf',
+    'burundi': 'bi',
+    'cabo-verde': 'cv',
+    'cambodia': 'kh',
+    'cameroon': 'cm',
+    'canada': 'ca',
+    'cayman-islands': 'ky',
+    'central-african-republic': 'cf',
+    'chad': 'td',
+    'chile': 'cl',
+    'china-pr': 'cn',
+    'chinese-taipei': 'tw',
+    'colombia': 'co',
+    'comoros': 'km',
+    'congo': 'cg',
+    'congo-dr': 'cd',
+    'cook-islands': 'ck',
+    'costa-rica': 'cr',
+    'cote-divoire': 'ci',
+    'croatia': 'hr',
+    'cuba': 'cu',
+    'curacao': 'cw',
+    'cyprus': 'cy',
+    'czechia': 'cz',
+    'denmark': 'dk',
+    'djibouti': 'dj',
+    'dominica': 'dm',
+    'dominican-republic': 'do',
+    'dpr-korea': 'kp',
+    'ecuador': 'ec',
+    'egypt': 'eg',
+    'el-salvador': 'sv',
+    'equatorial-guinea': 'gq',
+    'eritrea': 'er',
+    'estonia': 'ee',
+    'eswatini': 'sz',
+    'ethiopia': 'et',
+    'faroe-islands': 'fo',
+    'fiji': 'fj',
+    'finland': 'fi',
+    'france': 'fr',
+    'gabon': 'ga',
+    'gambia': 'gm',
+    'georgia': 'ge',
+    'germany': 'de',
+    'ghana': 'gh',
+    'gibraltar': 'gi',
+    'greece': 'gr',
+    'grenada': 'gd',
+    'guam': 'gu',
+    'guatemala': 'gt',
+    'guinea': 'gn',
+    'guinea-bissau': 'gw',
+    'guyana': 'gy',
+    'haiti': 'ht',
+    'honduras': 'hn',
+    'hong-kong': 'hk',
+    'hungary': 'hu',
+    'iceland': 'is',
+    'india': 'in',
+    'indonesia': 'id',
+    'ir-iran': 'ir',
+    'iraq': 'iq',
+    'israel': 'il',
+    'italy': 'it',
+    'jamaica': 'jm',
+    'japan': 'jp',
+    'jordan': 'jo',
+    'kazakhstan': 'kz',
+    'kenya': 'ke',
+    'korea-republic': 'kr',
+    'kosovo': 'xk',
+    'kuwait': 'kw',
+    'kyrgyz-republic': 'kg',
+    'laos': 'la',
+    'latvia': 'lv',
+    'lebanon': 'lb',
+    'lesotho': 'ls',
+    'liberia': 'lr',
+    'libya': 'ly',
+    'liechtenstein': 'li',
+    'lithuania': 'lt',
+    'luxembourg': 'lu',
+    'macau-china': 'mo',
+    'madagascar': 'mg',
+    'malawi': 'mw',
+    'malaysia': 'my',
+    'maldives': 'mv',
+    'mali': 'ml',
+    'malta': 'mt',
+    'mauritania': 'mr',
+    'mauritius': 'mu',
+    'mexico': 'mx',
+    'moldova': 'md',
+    'mongolia': 'mn',
+    'montenegro': 'me',
+    'montserrat': 'ms',
+    'morocco': 'ma',
+    'mozambique': 'mz',
+    'myanmar': 'mm',
+    'namibia': 'na',
+    'nepal': 'np',
+    'netherlands': 'nl',
+    'new-caledonia': 'nc',
+    'new-zealand': 'nz',
+    'nicaragua': 'ni',
+    'niger': 'ne',
+    'nigeria': 'ng',
+    'north-macedonia': 'mk',
+    'northern-ireland': 'gb',
+    'norway': 'no',
+    'oman': 'om',
+    'pakistan': 'pk',
+    'palestine': 'ps',
+    'panama': 'pa',
+    'papua-new-guinea': 'pg',
+    'paraguay': 'py',
+    'peru': 'pe',
+    'philippines': 'ph',
+    'poland': 'pl',
+    'portugal': 'pt',
+    'puerto-rico': 'pr',
+    'qatar': 'qa',
+    'republic-of-ireland': 'ie',
+    'romania': 'ro',
+    'russia': 'ru',
+    'rwanda': 'rw',
+    'samoa': 'ws',
+    'san-marino': 'sm',
+    'sao-tome-and-principe': 'st',
+    'saudi-arabia': 'sa',
+    'senegal': 'sn',
+    'serbia': 'rs',
+    'seychelles': 'sc',
+    'sierra-leone': 'sl',
+    'singapore': 'sg',
+    'slovakia': 'sk',
+    'slovenia': 'si',
+    'solomon-islands': 'sb',
+    'somalia': 'so',
+    'south-africa': 'za',
+    'south-sudan': 'ss',
+    'spain': 'es',
+    'sri-lanka': 'lk',
+    'st-kitts-and-nevis': 'kn',
+    'st-lucia': 'lc',
+    'st-vincent-and-grenadines': 'vc',
+    'sudan': 'sd',
+    'suriname': 'sr',
+    'sweden': 'se',
+    'switzerland': 'ch',
+    'syria': 'sy',
+    'tahiti': 'pf',
+    'tajikistan': 'tj',
+    'tanzania': 'tz',
+    'thailand': 'th',
+    'timor-leste': 'tl',
+    'togo': 'tg',
+    'tonga': 'to',
+    'trinidad-and-tobago': 'tt',
+    'tunisia': 'tn',
+    'turkiye': 'tr',
+    'turkmenistan': 'tm',
+    'turks-and-caicos-islands': 'tc',
+    'uganda': 'ug',
+    'ukraine': 'ua',
+    'united-arab-emirates': 'ae',
+    'uruguay': 'uy',
+    'us-virgin-islands': 'vi',
+    'usa': 'us',
+    'uzbekistan': 'uz',
+    'vanuatu': 'vu',
+    'venezuela': 've',
+    'vietnam': 'vn',
+    'yemen': 'ye',
+    'zambia': 'zm',
+    'zimbabwe': 'zw',
 }
-DISPLAY = {"usa": "USA", "uae": "UAE", "emirates": "UAE", "korea": "South Korea",
-           "ivory-coast": "Ivory Coast", "congo": "DR Congo",
-           "dr-congo": "DR Congo", "bosnia": "Bosnia & Herzegovina",
-           "curacao": "Curaçao"}
+DISPLAY = {"usa": "USA", "china-pr": "China PR", "congo-dr": "Congo DR",
+           "ir-iran": "IR Iran", "republic-of-ireland": "Republic of Ireland",
+           "cote-divoire": "Côte d'Ivoire", "korea-republic": "Korea Republic",
+           "turkiye": "Türkiye", "united-arab-emirates": "United Arab Emirates",
+           "bosnia-and-herzegovina": "Bosnia and Herzegovina", "cabo-verde": "Cabo Verde",
+           "curacao": "Curaçao", "gambia": "The Gambia", "dpr-korea": "DPR Korea",
+           "congo": "Congo", "singapore": "Singapore", "st-kitts-and-nevis": "St. Kitts and Nevis",
+           "st-lucia": "St. Lucia", "st-vincent-and-grenadines": "St. Vincent / Grenadines",
+           "sao-tome-and-principe": "São Tomé and Príncipe", "macau-china": "Macau, China",
+           "chinese-taipei": "Chinese Taipei", "us-virgin-islands": "US Virgin Islands"}
 
 def flag_for(country):
     if country in SUBDIVISION_FLAGS:
@@ -289,9 +475,6 @@ def history_texts(repo, rel_path, related_paths=()):
             elif ln.strip():
                 status, *paths = ln.split("\t")
                 if status.startswith("D"):
-                    # A promotion can add the new group file in an earlier
-                    # commit, then delete the old one later that same day.
-                    # The nation still exists at the deletion commit.
                     active = set(git(repo, "ls-tree", "-r", "--name-only", h,
                                      "--", *paths_to_check).splitlines())
                     path = next((candidate for candidate in paths_to_check
@@ -311,9 +494,10 @@ def history_texts(repo, rel_path, related_paths=()):
             for d, (_, h, path) in sorted(latest.items(), reverse=True)]
 
 def nation_file_paths(country, suffix):
-    return ([f"{NATIONS_DIR}/{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
-            + [f"{group_dir}/{country}/{country}{suffix}" for group_dir, _ in GROUPS]
-            + [f"{country}/{country}{suffix}"])
+    return [
+        f"{NATIONS_DIR}/{group_dir}/{country}/{country}{suffix}"
+        for group_dir, _ in GROUPS
+    ]
 
 def squad_members(text):
     members = {}
@@ -365,7 +549,6 @@ def _join_position_changes(hist):
         remaining = [s for s in old_snaps if s["d"] > day]
         if not prior or not any(s["d"] == day and s["p"] for s in new_snaps):
             continue
-        # Two cards present at once cannot be the same card.
         target_before = [s for s in new_snaps if s["d"] < day]
         target_at_start = next(
             (s for s in reversed(target_before) if s["d"] <= prior[0]["d"]), None)
@@ -652,7 +835,8 @@ def refresh_history():
         c, group_dir = country["id"], group_dirs[country["group"]]
         rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}.txt"
         pool_rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}_players.txt"
-        squad_now = open(os.path.join(ROOT, rel)).read()
+        squad_path = os.path.join(ROOT, rel)
+        squad_now = open(squad_path).read() if os.path.exists(squad_path) else ""
         pool_path = os.path.join(ROOT, pool_rel)
         pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
         texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)
@@ -705,12 +889,12 @@ def build():
         for c in sorted(d for d in os.listdir(base) if os.path.isdir(os.path.join(base, d))):
             rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}.txt"
             path = os.path.join(ROOT, rel)
-            if not os.path.exists(path):
-                continue
-            squad_now = open(path).read()
-            players = _parse_players(squad_now)
             pool_rel = f"{NATIONS_DIR}/{group_dir}/{c}/{c}_players.txt"
             pool_path = os.path.join(ROOT, pool_rel)
+            if not os.path.exists(path) and not (group_dir == "reserve" and os.path.isfile(pool_path)):
+                continue
+            squad_now = open(path).read() if os.path.exists(path) else ""
+            players = _parse_players(squad_now)
             pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
             texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)
             ov = {norm(k): v for k, v in (overrides.get(c) or {}).items()
