@@ -654,7 +654,7 @@
   const RANK_PREVIEW = 8;
   function strength(countries) {
     return countries.map(c => {
-      const xi = c.players.filter(p => (p.squad || "first") === "first" && p.section === "starters");
+      const xi = firstStarters(c);
       const avg = xi.length ? xi.reduce((n, p) => n + p.rating, 0) / xi.length : 0;
       return { c, avg };
     }).sort((a, b) => b.avg - a.avg || a.c.name.localeCompare(b.c.name));
@@ -675,8 +675,9 @@
 
   let moverDays = 7;
   function renderOverview(countries) {
+    const allCountries = countries;
     countries = countries.filter(hasCompleteStarterSquad);
-    const rows = strength(countries);
+    const rows = strength(allCountries);
     const squad = dailySquad(countries);
     root().innerHTML = `
       ${panel("Squad of the day", squad ? `<a href="#${esc(squad.id)}">${squad.flag||""} ${esc(squad.name)} ↗</a> · ${firstStarters(squad).length} first-squad starters` : "",
