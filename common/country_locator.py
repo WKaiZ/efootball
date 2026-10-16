@@ -1,11 +1,11 @@
 import glob
 import os
 
-GROUP_DIRS = ("contenders", "challengers")
+GROUP_DIRS = ("contenders", "challengers", "backup")
 
 
 def _repo_root():
-    return os.path.dirname(os.path.abspath(__file__))
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def resolve_country_dir(country_folder):

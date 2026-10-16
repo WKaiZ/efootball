@@ -2,7 +2,7 @@
 
 Tooling for drafting an eFootball "gameplan" (11 starters + 11 substitutes + 1 wildcard) for a national team. The pipeline scrapes shirt-number history from Transfermarkt, pulls the most recent ESPN match lineup to flag who is currently in the squad, then runs a deterministic builder that picks players for each formation slot and assigns each picked player a real jersey number they have actually worn.
 
-All persistent state lives in the SQLite file `pes.db` at the repo root. Each national team lives in its own folder, grouped by FIFA ranking into two directories: `contenders/` (the top 20 nations from the last official FIFA ranking, e.g. `contenders/france/`, `contenders/argentina/`) and `challengers/` (the other 20, e.g. `challengers/wales/`). You still refer to a team by its bare name everywhere — `france`, not `contenders/france` — the scripts locate the folder for you (see `country_locator.py`).
+All persistent state lives in the SQLite file `pes.db` at the repo root. Nations are grouped by FIFA ranking: `contenders/` (top 20), `challengers/` (next 30), and `backup/` (next 50). Pass a bare name such as `france` to the scripts; `common/country_locator.py` finds its folder. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
 
 ---
 
@@ -59,7 +59,7 @@ rather than as missing jersey history. Ctrl-C stops the entrypoint cleanly.
 
 ## 2. Per-country inputs
 
-For each national team you want to draft, create a folder named after the country inside the appropriate group directory — `contenders/<country>/` for a current FIFA top-20 side, `challengers/<country>/` otherwise (e.g. `contenders/belgium/`) — containing:
+For each national team, create a folder named after the country in the appropriate group (for example, `contenders/belgium/` or `backup/iceland/`) containing:
 
 ### `<country>_players.txt` (required)
 
@@ -75,7 +75,7 @@ Name, MAIN_POS, RATING, RECENT, CARD_TYPE, [PROFICIENT_POSITIONS], [SEMIPROFICIE
 - `CARD_TYPE` — `Epic`, `BigTime`, `Showtime`, `Highlight`, or `Standard`. Anything other than those four "non-Standard" tiers is treated as Standard.
 - `[PROFICIENT_POSITIONS]` and `[SEMIPROFICIENT_POSITIONS]` — bracketed, comma-separated position lists (may be empty, e.g. `[]`).
 
-A player can appear on multiple lines if they have separate cards for different main positions (see `belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
+A player can appear on multiple lines if they have separate cards for different main positions (see `contenders/belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
 
 ### `<country>_formation.txt` (optional)
 
@@ -115,19 +115,17 @@ Flags:
 
 For each country the script runs three stages in order:
 
-1. `python fetch_number.py <country>` — ESPN recent-flag update + Transfermarkt jersey scrape into `pes.db`.
-2. `python fetch_game_data.py <country>` — Reads `<country>_players.txt`, resolves names to `player_id`s, and writes a `game_data` row per player+position into `pes.db`.
-3. `python draft_gameplan.py <country>` — Builds the gameplan from `pes.db` and writes `<country>/<country>.txt`.
+1. `python scripts/fetch_number.py <country>` — ESPN recent-flag update + Transfermarkt jersey scrape into `pes.db`.
+2. `python scripts/fetch_game_data.py <country>` — Reads `<country>_players.txt`, resolves names to `player_id`s, and writes a `game_data` row per player+position into `pes.db`.
+3. `python scripts/draft_gameplan.py <country>` — Builds the gameplan from `pes.db` and writes `<country>/<country>.txt`.
 
 You can also run any of those scripts directly if you only need that one stage.
 
-`fetch_numbers.py` is an alias of `fetch_number.py` (both just call `jersey_fetch.run.main`).
-
-Extra flags honored by `fetch_number.py` directly (not exposed by `run_workflow.sh`):
+Extra flags honored by `scripts/fetch_number.py` directly (not exposed by `run_workflow.sh`):
 
 - `--gameid <espnEventId>` — pin a specific ESPN match instead of auto-resolving the latest one.
 
-`--game-index` is available both in `run_workflow.sh` and in `fetch_number.py` directly.
+`--game-index` is available both in `run_workflow.sh` and in `scripts/fetch_number.py` directly.
 
 ---
 
@@ -139,13 +137,13 @@ Created and migrated automatically. Three tables:
 - `jersey(player_id, idx, season, country, number)` — Per-player jersey history, ordered newest-first by `idx`. `country` is the club or national team Transfermarkt label; the workflow filters to the relevant national team when assigning numbers.
 - `game_data(country, player_id, position, rating, recent, card_type, proficient_positions, semiproficient_positions)` — One row per player+position+country combo, populated from `<country>_players.txt`.
 
-`fetch_game_data.py` deletes the existing `game_data` rows for the target country before reinserting, so it is always safe to rerun.
+`scripts/fetch_game_data.py` deletes the existing `game_data` rows for the target country before reinserting, so it is always safe to rerun.
 
 ---
 
 ## 5. Draft rules
 
-The full, authoritative description of starter/substitute/wildcard selection, jersey-number tiering, recent-flag locks, and vacancy-fill order lives in [`draft_gameplan_rules.txt`](./draft_gameplan_rules.txt). The implementation in `gameplan/` follows that document.
+The full, authoritative description of starter/substitute/wildcard selection, jersey-number tiering, recent-flag locks, and vacancy-fill order lives in [`reference/draft_gameplan_rules.txt`](./reference/draft_gameplan_rules.txt). The implementation in `gameplan/` follows that document. A separate [backup-card analysis](./reference/backup_standard_analysis.txt) records the standard-card comparisons.
 
 ---
 
@@ -153,16 +151,18 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Cleans `__pycache__`, parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers countries by looking for any `*_players.txt` one or two levels down (so it finds both `contenders/*/` and `challengers/*/`) when no country is passed. Formation files are optional; missing ones fall back to the default in `gameplan/formation.py`.
-- `country_locator.py` — Shared `resolve_country_dir` helper. Maps a bare country name (or group-qualified path) to its folder under `contenders/` or `challengers/`, so every stage keeps accepting bare names after the ranking-based reorg.
-- `fetch_number.py` / `fetch_numbers.py` — Thin wrappers that `asyncio.run(jersey_fetch.run.main())`.
-- `fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `draft_gameplan.py` — Loads the formation(s), loads `game_data` rows for the country, calls `gameplan.builder.build_gameplan`, and writes the human-readable gameplan to both stdout and `<country>/<country>.txt`. For contenders only, runs a second pass excluding first-squad cards (`player_id` + main position), optionally on a second formation block, and writes First Squad / Second Squad.
-- `draft_gameplan_rules.txt` — Reference document describing the draft rules implemented in `gameplan/`.
+- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers `*_players.txt` across all three groups when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
+- `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
+- `scripts/` — Command-line entry points and site maintenance tools.
+- `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
+- `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
+- `scripts/draft_gameplan.py` — Loads the formation(s) and `game_data`, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup nations show starters only.
+- `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
+- `reference/` — Draft rules and backup-card analysis, moved out of the repo root.
 - `requirements.txt` — Python dependencies.
 - `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
-- `.gitignore` — Ignores `__pycache__/`.
-- `contenders/<country>/` and `challengers/<country>/` folders — Per-country inputs and the generated gameplan output, grouped by FIFA ranking (top 20 vs. the other 20).
+- `.gitignore` — Ignores Python cache files, planning data, and the Transfermarkt browser profile.
+- `contenders/`, `challengers/`, and `backup/` — Per-country inputs and generated text output, grouped by ranking and output type.
 
 ### `jersey_fetch/` — ESPN + Transfermarkt scraping
 
@@ -181,7 +181,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 ### `gameplan/` — Draft builder
 
 - `builder.py` — `build_gameplan` is the entry point. Picks an initial lineup, runs the jersey-assignment phases, and then iteratively replaces starters whose preferred numbers cannot be assigned, fills vacancies in the documented stage order (`main` non-Std → `main` Std → `proficient` non-Std → `proficient` Std → `semiproficient` …), upgrades subs, and tries swap-based fills. Finally chooses a wildcard from the remaining pool.
-- `lineup.py` — `choose_initial_lineup` performs Stages A–D from `draft_gameplan_rules.txt` for starters and the rating-driven first pass for substitutes (with a 4-tier `LWF`/`RWF` fallback for sub wings: non-Standard direct winger → non-Standard `SS` → Standard direct winger → Standard `SS` as last resort).
+- `lineup.py` — `choose_initial_lineup` performs Stages A–D from `reference/draft_gameplan_rules.txt` for starters and the rating-driven first pass for substitutes (with a 4-tier `LWF`/`RWF` fallback for sub wings: non-Standard direct winger → non-Standard `SS` → Standard direct winger → Standard `SS` as last resort).
 - `jerseys.py` — Jersey number assignment. `load_jersey_stats` and `jersey_prefs_for_player` derive each player's preference list from `jersey` rows (Epic uses most-worn; everyone else uses newest-unique-first). `assign_jerseys` assigns numbers in the documented group order: starter non-Std main → starter non-Std proficient → starter Std main → starter Std proficient → sub non-Std normal → sub non-Std `SS`-on-wing → sub Std → sub non-Std `SS`-on-wing via proficient. Within each group, recent-flag locks run first, then card-tier buckets (Epic/BigTime > Showtime > Highlight > Standard), then a tie-break that won't steal another player's first-choice number.
 - `candidates.py` — Helpers for the builder's replacement loop: pick the next-best player for a slot (`next_candidate_for_slot`, `next_candidate_for_sub_wing`), refill empty subs (`refill_empty_subs`), and `try_free_jersey_via_swap` to free a recent player's preferred number by re-numbering a non-recent holder. `next_candidate_for_sub_wing` applies the 4-tier wing priority (non-Standard direct → non-Standard `SS` → Standard direct → Standard `SS`).
 - `data.py` — Loads `game_data` rows for a country into `PlayerRole` objects, loads formation file block(s) (`load_formations` / `load_formation`), and resolves the per-country file paths.
@@ -194,8 +194,8 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ## 7. Typical recipes
 
-- **First-time draft for a new country**: create `contenders/<country>/<country>_players.txt` (or `challengers/<country>/…` if outside the FIFA top 20), optionally with `<country>_formation.txt`, then `./run_workflow.sh <country>`. The first run is slow because it has to scrape Transfermarkt for every player.
+- **First-time draft for a new country**: create `<group>/<country>/<country>_players.txt`, optionally with `<country>_formation.txt`, then `./run_workflow.sh <country>`. The first run can be slow because it scrapes Transfermarkt.
 - **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
 - **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --refetch <country>`.
 - **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.
-- **Drafting from existing data without scraping**: run only `python draft_gameplan.py <country>`. This requires `game_data` rows to already exist for that country in `pes.db`.
+- **Drafting from existing data without scraping**: run only `python scripts/draft_gameplan.py <country>`. This requires `game_data` rows to already exist for that country in `pes.db`.

@@ -1,6 +1,6 @@
 import os
 
-from country_locator import resolve_country_dir
+from common.country_locator import resolve_country_dir
 from gameplan.formation import DEFAULT_FORMATION
 from gameplan.models import PlayerRole
 

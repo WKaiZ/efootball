@@ -1,4 +1,6 @@
-DB_PATH = "pes.db"
+import os
+
+DB_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "pes.db")
 
 SUB_WING_SLOTS = frozenset({"LWF", "RWF"})
 NON_STANDARD = frozenset({"epic", "bigtime", "showtime", "highlight"})

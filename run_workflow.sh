@@ -18,8 +18,6 @@ usage() {
   echo "  ./run_workflow.sh belgium france germany"
 }
 
-find . -depth -type d -name "__pycache__" -exec rm -rf {} +
-
 REFETCH_FLAG=""
 LINEUP_ONLY_FLAG=""
 GAME_INDEX_FLAG=""
@@ -94,14 +92,14 @@ for country in "${countries[@]}"; do
   echo "==> Running workflow for $country"
 
   if [ -n "$LINEUP_ONLY_FLAG" ]; then
-    python fetch_number.py "$LINEUP_ONLY_FLAG" $GAME_INDEX_FLAG "$country"
+    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" $GAME_INDEX_FLAG "$country"
   elif [ -n "$REFETCH_FLAG" ]; then
-    python fetch_number.py "$REFETCH_FLAG" $GAME_INDEX_FLAG "$country"
+    python scripts/fetch_number.py "$REFETCH_FLAG" $GAME_INDEX_FLAG "$country"
   else
-    python fetch_number.py $GAME_INDEX_FLAG "$country"
+    python scripts/fetch_number.py $GAME_INDEX_FLAG "$country"
   fi
-  python fetch_game_data.py "$country"
-  python draft_gameplan.py "$country"
+  python scripts/fetch_game_data.py "$country"
+  python scripts/draft_gameplan.py "$country"
 
   echo "==> Finished $country"
   echo

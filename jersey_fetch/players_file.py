@@ -1,7 +1,7 @@
 import os
 import re
 
-from country_locator import resolve_country_dir
+from common.country_locator import resolve_country_dir
 from jersey_fetch.constants import COUNTRY_DISPLAY_NAMES, POSITION_SEARCH_PHRASES
 from jersey_fetch.names import normalize_name
 
@@ -31,7 +31,7 @@ def parse_args(argv):
                 i += 1
             else:
                 raise SystemExit(
-                    "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+                    "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
                 )
         elif arg == "--game-index":
             if i + 1 < len(argv):
@@ -44,14 +44,14 @@ def parse_args(argv):
                 i += 1
             else:
                 raise SystemExit(
-                    "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+                    "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
                 )
         else:
             positional.append(arg)
         i += 1
     if len(positional) > 1:
         raise SystemExit(
-            "Usage: python fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+            "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
         )
     if positional:
         country_folder = positional[0]

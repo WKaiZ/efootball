@@ -3,10 +3,14 @@ import re
 import sqlite3
 import sys
 import unicodedata
+from pathlib import Path
 
-from country_locator import resolve_country_dir
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 
-DB_PATH = "pes.db"
+from common.country_locator import resolve_country_dir
+
+DB_PATH = str(ROOT / "pes.db")
 
 MANUAL_ID_OVERRIDES = {
     "argentina": {
