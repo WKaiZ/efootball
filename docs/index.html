@@ -657,12 +657,13 @@
   const RECORDS_MAX = 12;
 
   const RANK_PREVIEW = 8;
-  const strengthLabel = "total rating points";
+  const STARTING_XI_SIZE = 11;
+  const strengthLabel = "first-squad starting XI score";
   function strength(countries) {
     return countries.map(c => {
-      const cards = c.players || [];
-      const sum = cards.reduce((n, p) => n + p.rating, 0);
-      return { c, avg: sum, count: cards.length };
+      const starters = firstStarters(c).sort((a, b) => b.rating - a.rating).slice(0, STARTING_XI_SIZE);
+      const sum = starters.reduce((n, p) => n + p.rating, 0);
+      return { c, avg: sum / STARTING_XI_SIZE, count: starters.length };
     }).sort((a, b) => b.avg - a.avg || a.c.name.localeCompare(b.c.name));
   }
 
@@ -671,7 +672,7 @@
     const max = rated.length ? rated[0].avg : 0, min = rated.length ? rated[rated.length - 1].avg : 0;
     const width = (v) => v <= 0 ? 0 : max === min ? 100 : 8 + 92 * (v - min) / (max - min);
     return expandList(rows.map(({ c, avg, count }, i) => `
-      <a class="rank-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-tier="${esc(c.group || "")}" title="${esc(`${c.name} · ${avg.toFixed(1)} ${strengthLabel} · ${count} cards across both squads`)}">
+      <a class="rank-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-tier="${esc(c.group || "")}" title="${esc(`${c.name} · ${avg.toFixed(1)} ${strengthLabel} · ${count}/${STARTING_XI_SIZE} starter slots filled; empty slots count as 0`)}">
         <span class="rank-n">${String(i + 1).padStart(2, "0")}</span>
         <span class="rank-nation"><span>${c.flag||""}</span><span class="nm">${esc(c.name)}</span>${tierLabel(c)}</span>
         <span class="bar"><i style="width:${width(avg).toFixed(1)}%"></i></span>
@@ -698,7 +699,7 @@
             <button type="button" data-days="7">7 days</button><button type="button" data-days="30">30 days</button></div>
             <div id="movers"><div class="feed-more">loading history…</div></div>`)}
       </div>
-      ${panel("Strength rankings", "total player-card rating points · full roster across both squads", `<div class="strength">
+      ${panel("Strength rankings", "average of 11 first-squad starter slots · empty slots count as 0", `<div class="strength">
           <div class="strength-list" id="rankings">${rankingsHTML(rows)}</div>
           <div class="strength-chart" id="nation-chart"><div class="feed-more">loading history…</div></div>
         </div>`)}`;
@@ -746,10 +747,10 @@
       });
       drawMovers();
 
+      const series = nationRankSeries(h);
       const drawChart = () => {
         const c = allCountries.find(x => x.id === selected);
         if (!c) return;
-        const series = nationRankSeries(h);
         chartBox.innerHTML = `<div class="strength-chart-head">${c.flag||""} <b>${esc(c.name)}</b>
             <a href="#${esc(c.id)}">open squad →</a></div>` +
           (rankChartHTML(series[c.id] || [], "", "nation") || `<div class="feed-more">No ranking history for ${esc(c.name)}.</div>`);
@@ -1252,19 +1253,20 @@
     const series = Object.fromEntries(nations.map(n => [n.id, []]));
     for (const d of dates) {
       const samples = nations.map((n, ni) => {
-        let sum = 0, count = 0;
+        const ratings = [];
         n.cards.forEach((snaps, ci) => {
           const ptr = ptrs[ni];
           while (ptr[ci] + 1 < snaps.length && snaps[ptr[ci] + 1].d <= d) ptr[ci]++;
           if (ptr[ci] < 0) return;
-          const assignment = snaps[ptr[ci]].a.find(a => a[0] === "first" || a[0] === "second");
-          if (assignment) { sum += assignment[4]; count++; }
+          const assignment = snaps[ptr[ci]].a.find(a => a[0] === "first" && a[1] === "starters");
+          if (assignment) ratings.push(assignment[4]);
         });
-        return { id: n.id, sum, count };
+        return { id: n.id, ratings };
       });
       const scores = samples.map(x => ({
         id: x.id,
-        avg: x.count ? x.sum : null,
+        avg: x.ratings.length ? x.ratings.sort((a, b) => b - a).slice(0, STARTING_XI_SIZE)
+          .reduce((sum, rating) => sum + rating, 0) / STARTING_XI_SIZE : null,
       }));
       const ranked = scores.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
       const rankOf = new Map(ranked.map((x, i) => [x.id, i + 1]));
@@ -1573,7 +1575,7 @@
           <div class="nation-group-label"><span>${label}</span>${items.length}</div>${items.map(c => {
             const sc = scores.get(c.id) || 0;
             return `<a class="nation-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-name="${esc(c.name.toLowerCase())}"
-                 title="${esc(c.name)} · total rating points ${sc ? sc.toFixed(1) : "0"}">
+                 title="${esc(c.name)} · first-squad starting XI score ${sc ? sc.toFixed(1) : "0"}">
                <span class="flag">${c.flag||''}</span><span class="nm">${esc(c.name)}</span>
                <span class="score">${sc ? sc.toFixed(1) : "0"}</span></a>`;
           }).join("")}</div>`).join("") +
