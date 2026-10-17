@@ -747,7 +747,7 @@
       });
       drawMovers();
 
-      const series = nationRankSeries(h);
+      const series = nationRankSeries(h, allCountries);
       const drawChart = () => {
         const c = allCountries.find(x => x.id === selected);
         if (!c) return;
@@ -1156,7 +1156,7 @@
     };
   };
   const rankText = (p, pos, kind) => p.rank == null ? (kind === "nation" ? "no squad cards recorded" : "not rated")
-    : kind === "nation" ? `#${p.rank} of ${p.total} nations · ${strengthLabel} ${p.avg.toFixed(2)}`
+    : kind === "nation" ? `#${p.rank} of ${p.total} nations · ${strengthLabel} ${p.avg.toFixed(2)}${p.listed ? "" : " · no first-squad starters"}`
     : p.listed ? `#${p.rank} of ${p.total} ${esc(p.pos || pos)}s · in squad`
     : `would rank #${p.rank} of ${p.total} · not in a squad, placed by its pool rating`;
 
@@ -1244,7 +1244,8 @@
     show(x1, false);
   }
 
-  function nationRankSeries(h) {
+  function nationRankSeries(h, countries = []) {
+    const nameOf = new Map(countries.map(c => [c.id, c.name]));
     const nations = Object.entries(h.countries).map(([id, players]) => ({
       id, cards: Object.values(players).flatMap(byPos => Object.values(byPos)),
     }));
@@ -1265,13 +1266,15 @@
       });
       const scores = samples.map(x => ({
         id: x.id,
-        avg: x.ratings.length ? x.ratings.sort((a, b) => b - a).slice(0, STARTING_XI_SIZE)
-          .reduce((sum, rating) => sum + rating, 0) / STARTING_XI_SIZE : null,
+        avg: x.ratings.sort((a, b) => b - a).slice(0, STARTING_XI_SIZE)
+          .reduce((sum, rating) => sum + rating, 0) / STARTING_XI_SIZE,
+        listed: x.ratings.length > 0,
       }));
-      const ranked = scores.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
+      const ranked = scores.sort((a, b) => b.avg - a.avg ||
+        (nameOf.get(a.id) || a.id).localeCompare(nameOf.get(b.id) || b.id));
       const rankOf = new Map(ranked.map((x, i) => [x.id, i + 1]));
       for (const x of scores) {
-        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: ranked.length, avg: x.avg, listed: true };
+        const point = { d, rank: rankOf.get(x.id), total: ranked.length, avg: x.avg, listed: x.listed };
         const pts = series[x.id], last = pts[pts.length - 1];
         if (!last || last.rank !== point.rank || last.total !== point.total || last.avg !== point.avg) pts.push(point);
       }
