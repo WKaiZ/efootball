@@ -657,11 +657,12 @@
   const RECORDS_MAX = 12;
 
   const RANK_PREVIEW = 8;
+  const strengthLabel = "total rating points";
   function strength(countries) {
     return countries.map(c => {
-      const xi = firstStarters(c);
-      const avg = xi.length ? xi.reduce((n, p) => n + p.rating, 0) / xi.length : 0;
-      return { c, avg };
+      const cards = c.players || [];
+      const sum = cards.reduce((n, p) => n + p.rating, 0);
+      return { c, avg: sum, count: cards.length };
     }).sort((a, b) => b.avg - a.avg || a.c.name.localeCompare(b.c.name));
   }
 
@@ -669,8 +670,8 @@
     const rated = rows.filter(r => r.avg > 0);
     const max = rated.length ? rated[0].avg : 0, min = rated.length ? rated[rated.length - 1].avg : 0;
     const width = (v) => v <= 0 ? 0 : max === min ? 100 : 8 + 92 * (v - min) / (max - min);
-    return expandList(rows.map(({ c, avg }, i) => `
-      <a class="rank-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-tier="${esc(c.group || "")}">
+    return expandList(rows.map(({ c, avg, count }, i) => `
+      <a class="rank-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-tier="${esc(c.group || "")}" title="${esc(`${c.name} · ${avg.toFixed(1)} ${strengthLabel} · ${count} cards across both squads`)}">
         <span class="rank-n">${String(i + 1).padStart(2, "0")}</span>
         <span class="rank-nation"><span>${c.flag||""}</span><span class="nm">${esc(c.name)}</span>${tierLabel(c)}</span>
         <span class="bar"><i style="width:${width(avg).toFixed(1)}%"></i></span>
@@ -697,7 +698,7 @@
             <button type="button" data-days="7">7 days</button><button type="button" data-days="30">30 days</button></div>
             <div id="movers"><div class="feed-more">loading history…</div></div>`)}
       </div>
-      ${panel("Strength rankings", "average rating of first-squad starters · pick a nation to chart its rank", `<div class="strength">
+      ${panel("Strength rankings", "total player-card rating points · full roster across both squads", `<div class="strength">
           <div class="strength-list" id="rankings">${rankingsHTML(rows)}</div>
           <div class="strength-chart" id="nation-chart"><div class="feed-more">loading history…</div></div>
         </div>`)}`;
@@ -745,10 +746,10 @@
       });
       drawMovers();
 
-      const series = nationRankSeries(h);
       const drawChart = () => {
         const c = allCountries.find(x => x.id === selected);
         if (!c) return;
+        const series = nationRankSeries(h);
         chartBox.innerHTML = `<div class="strength-chart-head">${c.flag||""} <b>${esc(c.name)}</b>
             <a href="#${esc(c.id)}">open squad →</a></div>` +
           (rankChartHTML(series[c.id] || [], "", "nation") || `<div class="feed-more">No ranking history for ${esc(c.name)}.</div>`);
@@ -1153,8 +1154,8 @@
       Y: (r) => T + (H - T - B) * (r - 1) / (maxRank - 1),
     };
   };
-  const rankText = (p, pos, kind) => p.rank == null ? (kind === "nation" ? "no first-squad starters" : "not rated")
-    : kind === "nation" ? `#${p.rank} of ${p.total} nations · starters avg ${p.avg.toFixed(2)}`
+  const rankText = (p, pos, kind) => p.rank == null ? (kind === "nation" ? "no squad cards recorded" : "not rated")
+    : kind === "nation" ? `#${p.rank} of ${p.total} nations · ${strengthLabel} ${p.avg.toFixed(2)}`
     : p.listed ? `#${p.rank} of ${p.total} ${esc(p.pos || pos)}s · in squad`
     : `would rank #${p.rank} of ${p.total} · not in a squad, placed by its pool rating`;
 
@@ -1250,22 +1251,27 @@
     const ptrs = nations.map(n => new Array(n.cards.length).fill(-1));
     const series = Object.fromEntries(nations.map(n => [n.id, []]));
     for (const d of dates) {
-      const avgs = nations.map((n, ni) => {
+      const samples = nations.map((n, ni) => {
         let sum = 0, count = 0;
         n.cards.forEach((snaps, ci) => {
           const ptr = ptrs[ni];
           while (ptr[ci] + 1 < snaps.length && snaps[ptr[ci] + 1].d <= d) ptr[ci]++;
           if (ptr[ci] < 0) return;
-          for (const a of snaps[ptr[ci]].a) if (a[0] === "first" && a[1] === "starters") { sum += a[4]; count++; }
+          const assignment = snaps[ptr[ci]].a.find(a => a[0] === "first" || a[0] === "second");
+          if (assignment) { sum += assignment[4]; count++; }
         });
-        return { id: n.id, avg: count ? sum / count : null };
+        return { id: n.id, sum, count };
       });
-      const ranked = avgs.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
+      const scores = samples.map(x => ({
+        id: x.id,
+        avg: x.count ? x.sum : null,
+      }));
+      const ranked = scores.filter(x => x.avg != null).sort((a, b) => b.avg - a.avg);
       const rankOf = new Map(ranked.map((x, i) => [x.id, i + 1]));
-      for (const x of avgs) {
-        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: nations.length, avg: x.avg, listed: true };
+      for (const x of scores) {
+        const point = x.avg == null ? { d, rank: null } : { d, rank: rankOf.get(x.id), total: ranked.length, avg: x.avg, listed: true };
         const pts = series[x.id], last = pts[pts.length - 1];
-        if (!last || last.rank !== point.rank || last.total !== point.total) pts.push(point);
+        if (!last || last.rank !== point.rank || last.total !== point.total || last.avg !== point.avg) pts.push(point);
       }
     }
     for (const id in series) {
@@ -1567,7 +1573,7 @@
           <div class="nation-group-label"><span>${label}</span>${items.length}</div>${items.map(c => {
             const sc = scores.get(c.id) || 0;
             return `<a class="nation-row" href="#${esc(c.id)}" data-id="${esc(c.id)}" data-name="${esc(c.name.toLowerCase())}"
-                 title="${esc(c.name)} · starters avg ${sc ? sc.toFixed(1) : "0"}">
+                 title="${esc(c.name)} · total rating points ${sc ? sc.toFixed(1) : "0"}">
                <span class="flag">${c.flag||''}</span><span class="nm">${esc(c.name)}</span>
                <span class="score">${sc ? sc.toFixed(1) : "0"}</span></a>`;
           }).join("")}</div>`).join("") +
