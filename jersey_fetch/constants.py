@@ -12,7 +12,6 @@ MANUAL_ID_OVERRIDES = {
     "argentina": {
         "nico gonzalez": {"player_id": "486031", "preserve_name": True},
         "emiliano martinez": {"player_id": "111873", "preserve_name": True},
-        "benjamin dominguez": {"player_id": "961022", "preserve_name": True},
         "flaco lopez": {"player_id": "844797", "preserve_name": True},
     },
     "australia": {
@@ -23,23 +22,19 @@ MANUAL_ID_OVERRIDES = {
     },
     "bolivia": {
         "roberto fernandez": {"player_id": "598101", "preserve_name": True},
+        "moises villarroel": {"player_id": "431863", "preserve_name": True},
     },
     "brazil": {
+        "joao pedro": {"player_id": "626724", "preserve_name": True},
         "gabriel": {"player_id": "435338", "preserve_name": True},
         "ederson": {"player_id": "607854", "preserve_name": True},
         "vitinho": {"player_id": "468249", "preserve_name": True},
         "pepe": {"player_id": "520662", "preserve_name": True},
         "pedro": {"player_id": "432895", "preserve_name": True},
         "allan": {"player_id": "126422", "preserve_name": True},
-        "oscar": {"player_id": "85314", "preserve_name": True},
         "leo pereira": {"player_id": "288431", "preserve_name": True},
         "igor thiago": {"player_id": "739443", "preserve_name": True},
-        "joao gomes": {"player_id": "735570", "preserve_name": True},
-        "gerson": {"player_id": "341705", "preserve_name": True},
-        "fred": {"player_id": "191614", "preserve_name": True},
         "douglas luiz": {"player_id": "447661", "preserve_name": True},
-        "dudu": {"player_id": "114937", "preserve_name": True},
-        "giuliano": {"player_id": "54375", "preserve_name": True},
         "carlos augusto": {"player_id": "585982", "preserve_name": True},
         "murillo": {"player_id": "1005649", "preserve_name": True},
         "zico": {"player_id": "117619", "preserve_name": True},
@@ -52,8 +47,6 @@ MANUAL_ID_OVERRIDES = {
         "alisson": {"player_id": "105470", "preserve_name": True},
         "paulinho": {"player_id": "428791", "preserve_name": True},
         "alex sandro": {"player_id": "79960", "preserve_name": True},
-        "william": {"player_id": "341710", "preserve_name": True},
-        "paulo henrique": {"player_id": "412594", "preserve_name": True},
         "rafael": {"player_id": "68097", "preserve_name": True},
         "otavio": {"player_id": "997947", "preserve_name": True},
         "danilo santos": {"player_id": "808509", "preserve_name": True},
@@ -64,21 +57,18 @@ MANUAL_ID_OVERRIDES = {
     },
     "cabo-verde": {
         "david costa": {"player_id": "1160599", "preserve_name": True},
+        "ivanildo fernandes": {"player_id": "340524", "preserve_name": True},
     },
     "portugal": {
         "pepe": {"player_id": "14132", "preserve_name": True},
         "andre silva": {"player_id": "198008", "preserve_name": True},
-        "joao mario": {"player_id": "537602", "preserve_name": True},
         "joao moutinho": {"player_id": "29364", "preserve_name": True},
-        "paulo henrique": {"player_id": "292365", "preserve_name": True},
-        "josue": {"player_id": "72772", "preserve_name": True},
     },
     "france": {
         "maxence lacroix": {"player_id": "434224", "preserve_name": True},
         "lucas hernandez": {"player_id": "281963", "preserve_name": True},
     },
     "spain": {
-        "pedro": {"player_id": "65278", "preserve_name": True},
         "adama traore": {"player_id": "204103", "preserve_name": True},
         "victor munoz": {"player_id": "935231", "preserve_name": True},
         "roberto fernandez": {"player_id": "720518", "preserve_name": True},
@@ -100,10 +90,11 @@ MANUAL_ID_OVERRIDES = {
         "fernandinho": {"player_id": "230937", "preserve_name": True},
     },
     "colombia": {
+        "jhon solis": {"player_id": "742521", "preserve_name": True},
+        "alvaro montero": {"player_id": "292985", "preserve_name": True},
         "david silva": {"player_id": "74071", "preserve_name": True},
         "richard rios": {"player_id": "735573", "preserve_name": True},
         "luis suarez": {"player_id": "424784", "preserve_name": True},
-        "dani torres": {"player_id": "93142", "preserve_name": True},
         "yeimar gomez andrade": {"player_id": "343359", "preserve_name": True},
         "juan mosquera": {"player_id": "659826", "preserve_name": True},
         "carlos cuesta": {"player_id": "474589", "preserve_name": True},
@@ -111,6 +102,7 @@ MANUAL_ID_OVERRIDES = {
         "sebastian gomez": {"player_id": "570522", "preserve_name": True},
     },
     "senegal": {
+        "pape fall": {"player_id": "1176295", "preserve_name": True},
         "idrissa gueye": {
             "CF": {"player_id": "1178488", "preserve_name": True},
             "DMF": {"player_id": "126665", "preserve_name": True},
@@ -120,14 +112,14 @@ MANUAL_ID_OVERRIDES = {
         "formose mendy": {"player_id": "649023", "preserve_name": True},
     },
     "mexico": {
+        "luis gabriel rey": {"player_id": "686445", "preserve_name": True},
         "henry martin": {"player_id": "286339", "preserve_name": True},
-        "guillermo martinez": {"player_id": "347932", "preserve_name": True},
         "erick sanchez": {"player_id": "370875", "preserve_name": True},
-        "osvaldo rodriguez": {"player_id": "295426", "preserve_name": True},
         "johan vasquez": {"player_id": "532937", "preserve_name": True},
-        "felipe rodriguez": {"player_id": "102699", "preserve_name": True},
-        "ivan lopez": {"player_id": "370861", "preserve_name": True},
         "german berterame": {"player_id": "401572", "preserve_name": True},
+    },
+    "romania": {
+        "nicolae stanciu": {"player_id": "148372", "preserve_name": True},
     },
     "mali": {
         "mamadou fofana": {"player_id": "402004", "preserve_name": True},
@@ -136,7 +128,6 @@ MANUAL_ID_OVERRIDES = {
             "RWF": {"player_id": "364405", "preserve_name": True},
             "AMF": {"player_id": "262608", "preserve_name": True},
         },
-        "brahima diarra": {"player_id": "723667", "preserve_name": True},
         "ousmane diallo": {"player_id": "1060545", "preserve_name": True},
         "mamadou doumbia": {"player_id": "1101539", "preserve_name": True},
     },
@@ -154,19 +145,13 @@ MANUAL_ID_OVERRIDES = {
         "fernando muslera": {"player_id": "58088", "preserve_name": True},
         "christhian stuani": {"player_id": "59323", "preserve_name": True},
         "maximiliano araujo": {"player_id": "572675", "preserve_name": True},
-        "thiago borbas": {"player_id": "743951", "preserve_name": True},
         "juan rodriguez vega": {"player_id": "1228231", "preserve_name": True},
     },
     "switzerland": {
-        "dominik schmid": {"player_id": "359409", "preserve_name": True},
         "joel monteiro": {"player_id": "410787", "preserve_name": True},
     },
     "denmark": {
         "filip jørgensen": {"player_id": "585323", "preserve_name": True},
-    },
-    "ecuador": {
-        "joao ortiz": {"player_id": "348630", "preserve_name": True},
-        "sebastian gonzalez": {"player_id": "903610", "preserve_name": True},
     },
     "egypt": {
         "mohamed hamdi": {"player_id": "369901", "preserve_name": True},
@@ -177,7 +162,6 @@ MANUAL_ID_OVERRIDES = {
     },
     "england": {
         "alex scott": {"player_id": "855256", "preserve_name": True},
-        "josh king": {"player_id": "1011131", "preserve_name": True},
     },
     "germany": {
         "jamie leweling": {"player_id": "518505", "preserve_name": True},
@@ -192,15 +176,6 @@ MANUAL_ID_OVERRIDES = {
     },
     "guinea-bissau": {
         "beto": {"player_id": "595809", "preserve_name": True},
-    },
-    "luxembourg": {
-        "diego duarte": {"player_id": "885845", "preserve_name": True},
-    },
-    "honduras": {
-        "david ruiz": {"player_id": "914681", "preserve_name": True},
-    },
-    "ir-iran": {
-        "mehdi shiri": {"player_id": "280298", "preserve_name": True},
     },
     "iraq": {
         "hussein ali": {"player_id": "585325", "preserve_name": True},
@@ -217,20 +192,16 @@ MANUAL_ID_OVERRIDES = {
         "ermal krasniqi": {"player_id": "606893", "preserve_name": True},
     },
     "usa": {
-        "patrick agyemang": {"player_id": "1089574", "preserve_name": True},
+        "mauricio pineda": {"player_id": "345621", "preserve_name": True},
     },
     "venezuela": {
         "david martinez": {"player_id": "988222", "preserve_name": True},
         "daniel pereira": {"player_id": "856498", "preserve_name": True},
         "alexander gonzalez": {"player_id": "147562", "preserve_name": True},
-        "leonardo flores": {"player_id": "377389", "preserve_name": True},
         "ruben ramirez": {"player_id": "308810", "preserve_name": True},
     },
     "norway": {
         "patrik berg": {"player_id": "308439", "preserve_name": True},
-    },
-    "canada": {
-        "cristiam gutierrez": {"player_id": "385104", "preserve_name": True},
     },
     "panama": {
         "cristian martinez": {"player_id": "419247", "preserve_name": True},
@@ -244,7 +215,6 @@ MANUAL_ID_OVERRIDES = {
     },
     "paraguay": {
         "diego gomez": {"player_id": "996897", "preserve_name": True},
-        "lucas romero": {"player_id": "1127335", "preserve_name": True},
         "juan caceres": {"player_id": "756494", "preserve_name": True},
     },
     "scotland": {

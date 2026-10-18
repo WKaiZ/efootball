@@ -14,8 +14,8 @@ Starters:
 Substitutes:
   [CF] Mika Biereth (CF) rating 92.94 #12
   [LWF] Mohamed Daramy (LWF) rating 71.39 #20
-  [RWF] Anders Dreyer (RWF) rating 76.97 #24
-  [AMF] Noah Nartey (AMF) rating 72.18 #19
+  [RWF] Anders Dreyer (RWF) rating 76.97 #19
+  [AMF] Carlo Holse (AMF) rating 72.80 #24
   [CMF] Mathias Jensen (CMF) rating 94.00 #7
   [DMF] Christian Nørgaard (DMF) rating 76.02 #15
   [LB] Joakim Maehle (LB) rating 75.98 #5

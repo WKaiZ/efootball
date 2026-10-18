@@ -2,7 +2,7 @@ Starters:
   [CF] Serhou Guirassy (CF) rating 95.97 #9
   [LWF] Aliou Baldé (LWF) rating 69.72 #10
   [RWF] Ousmane Camara (SS) rating 68.46 #25
-  [AMF] VACANT
+  [AMF] Yadaly Diaby (RWF) rating 68.30 #11
   [CMF] Ilaix Moriba (CMF) rating 94.33 #7
   [DMF] Abdoulaye Touré (DMF) rating 73.51 #23
   [LB] Sekou Sylla (LB) rating 68.04 #21

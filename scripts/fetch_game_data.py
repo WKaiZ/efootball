@@ -18,7 +18,6 @@ MANUAL_ID_OVERRIDES = {
     "argentina": {
         "nico gonzalez": "486031",
         "emiliano martinez": "111873",
-        "benjamin dominguez": "961022",
         "flaco lopez": "844797",
     },
     "australia": {
@@ -29,17 +28,16 @@ MANUAL_ID_OVERRIDES = {
     },
     "bolivia": {
         "roberto fernandez": "598101",
+        "moises villarroel": "431863",
     },
     "brazil": {
+        "joao pedro": "626724",
         "gabriel": "435338",
         "ederson": "607854",
         "vitinho": "468249",
         "pepe": "520662",
         "pedro": "432895",
         "allan": "126422",
-        "oscar": "85314",
-        "giuliano": "54375",
-        "dudu": "114937",
         "carlos augusto": "585982",
         "murillo": "1005649",
         "zico": "117619",
@@ -51,8 +49,6 @@ MANUAL_ID_OVERRIDES = {
         "cassio": "50144",
         "alisson": "105470",
         "alex sandro": "79960",
-        "william": "341710",
-        "paulo henrique": "412594",
         "rafael": "68097",
         "igor thiago": "739443",
         "paulinho": "428791",
@@ -66,17 +62,14 @@ MANUAL_ID_OVERRIDES = {
     },
     "cabo-verde": {
         "david costa": "1160599",
+        "ivanildo fernandes": "340524",
     },
     "portugal": {
         "pepe": "14132",
         "andre silva": "198008",
-        "joao mario": "537602",
         "joao moutinho": "29364",
-        "paulo henrique": "292365",
-        "josue": "72772",
     },
     "spain": {
-        "pedro": "65278",
         "adama traore": "204103",
         "victor munoz": "935231",
         "roberto fernandez": "720518",
@@ -101,10 +94,11 @@ MANUAL_ID_OVERRIDES = {
         "alessandro romano": "911224",
     },
     "colombia": {
+        "jhon solis": "742521",
+        "alvaro montero": "292985",
         "luis suarez": "424784",
         "david silva": "74071",
         "richard rios": "735573",
-        "dani torres": "93142",
         "yeimar gomez andrade": "343359",
         "juan mosquera": "659826",
         "carlos cuesta": "474589",
@@ -112,26 +106,26 @@ MANUAL_ID_OVERRIDES = {
         "sebastian gomez": "570522",
     },
     "senegal" : {
+        "pape fall": "1176295",
         "idrissa gueye": {"CF": "1178488", "DMF": "126665"},
         'souleymane basse': '1111045',
         'el hadji malick diouf': '1111589',
         'formose mendy': "649023",
     },
     "mexico": {
+        "luis gabriel rey": "686445",
         "henry martin": "286339",
-        "guillermo martinez": "347932",
         "erick sanchez": "370875",
-        "osvaldo rodriguez": "295426",
         "johan vasquez": "532937",
-        "felipe rodriguez": "102699",
-        "ivan lopez": "370861",
         "german berterame": "401572",
+    },
+    "romania": {
+        "nicolae stanciu": "148372",
     },
     "mali": {
         "mamadou fofana": "402004",
         "ousmane camara": "804711",
         "adama traore": {"RWF": "364405", "AMF": "262608"},
-        "brahima diarra": "723667",
         "ousmane diallo": "1060545",
         "mamadou doumbia": "1101539",
     },
@@ -149,19 +143,13 @@ MANUAL_ID_OVERRIDES = {
         "fernando muslera": "58088",
         "christhian stuani": "59323",
         "maximiliano araujo": "572675",
-        "thiago borbas": "743951",
         "juan rodriguez vega": "1228231",
     },
     "switzerland": {
-        "dominik schmid": "359409",
         "joel monteiro": "410787",
     },
     "denmark": {
         "filip jørgensen": "585323",
-    },
-    "ecuador": {
-        "joao ortiz": "348630",
-        "sebastian gonzalez": "903610",
     },
     "egypt": {
         "mohamed hamdi": "369901",
@@ -172,7 +160,6 @@ MANUAL_ID_OVERRIDES = {
     },
     "england": {
         "alex scott": "855256",
-        "josh king": "1011131",
     },
     "germany": {
         "jamie leweling": "518505",
@@ -188,15 +175,6 @@ MANUAL_ID_OVERRIDES = {
     "guinea-bissau": {
         "beto": "595809",
     },
-    "luxembourg": {
-        "diego duarte": "885845",
-    },
-    "honduras": {
-        "david ruiz": "914681",
-    },
-    "ir-iran": {
-        "mehdi shiri": "280298",
-    },
     "iraq": {
         "hussein ali": "585325",
         "ali jasim": "877672",
@@ -209,20 +187,16 @@ MANUAL_ID_OVERRIDES = {
         "ermal krasniqi": "606893",
     },
     "usa": {
-        "patrick agyemang": "1089574",
+        "mauricio pineda": "345621",
     },
     "venezuela": {
         "david martinez": "988222",
         "daniel pereira": "856498",
         "alexander gonzalez": "147562",
-        "leonardo flores": "377389",
         "ruben ramirez": "308810",
     },
     "norway": {
         "patrik berg": "308439",
-    },
-    "canada": {
-        "cristiam gutierrez": "385104",
     },
     "panama": {
         "cristian martinez": "419247",
@@ -230,7 +204,6 @@ MANUAL_ID_OVERRIDES = {
     },
     "paraguay": {
         "diego gomez": "996897",
-        "lucas romero": "1127335",
         "juan caceres": "756494",
     },
     "scotland": {

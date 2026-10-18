@@ -46,9 +46,9 @@ Starters:
 
 Substitutes:
   [CF] Federico Viñas (CF) rating 74.11 #21
-  [LWF] Diego Rossi (SS) rating 74.68 #9
+  [LWF] Christhian Stuani (CF) rating 73.16 #11
   [RWF] Matías Abaldo (RWF) rating 73.49 #22
-  [AMF] Christhian Stuani (CF) rating 73.16 #11
+  [AMF] VACANT
   [CMF] Gabriel Neves (CMF) rating 74.04 #18
   [DMF] Mauro Arambarri (DMF) rating 76.15 #5
   [LB] Juan Manuel Sanabria (LB) rating 73.70 #25
@@ -59,3 +59,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Cristopher Fiermarín (GK) rating 74.03 #23
+  [WILD] Agustin Alvarez (CF) rating 72.33 #9

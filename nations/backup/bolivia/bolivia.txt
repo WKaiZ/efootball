@@ -3,7 +3,7 @@ Starters:
   [LWF] Moisés Paniagua (LWF) rating 66.80 #13
   [RWF] Miguelito (AMF) rating 69.29 #7
   [AMF] Ramiro Vaca (AMF) rating 70.44 #10
-  [CMF] Moisés Villarroel (CMF) rating 69.51 #14
+  [CMF] Moisés Villarroel (CMF) rating 69.51 #8
   [DMF] Boris Céspedes (DMF) rating 69.01 #16
   [LB] Roberto Fernández (LB) rating 70.84 #17
   [CB] Efraín Morales (CB) rating 71.99 #5

@@ -27,8 +27,8 @@ Substitutes:
   [GK] Ørjan Nyland (GK) rating 72.52 #1
 
 Wildcard:
+  [WILD] Andreas Hanche-Olsen (CB) rating 72.64 #24
   [WILD] Birger Meling (LB) rating 72.28 #5
-  [WILD] Sondre Langås (CB) rating 71.50 #24
 
 Second Squad
 
@@ -41,21 +41,21 @@ Starters:
   [DMF] Fredrik Ulvestad (CMF) rating 70.99 #8
   [LB] Julian Ryerson (RMF) rating 93.98 #14
   [CB] Jakob Glesnes (CB) rating 73.84 #6
-  [CB] Henrik Falchener (CB) rating 71.06 #25
+  [CB] Sondre Langås (CB) rating 71.50 #15
   [RB] VACANT
   [GK] Sander Tangvik (GK) rating 71.31 #12
 
 Substitutes:
-  [CF] Aune Heggebø (CF) rating 71.23 #15
+  [CF] Aron Dønnum (RMF) rating 73.25 #20
   [LWF] Dennis Johnsen (LWF) rating 72.20 #18
   [RWF] Mohamed Elyounoussi (SS) rating 74.75 #13
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
   [CMF] Morten Thorsby (CMF) rating 72.13 #2
   [DMF] VACANT
   [LB] David Møller Wolfe (LB) rating 72.28 #5
-  [CB] Eivind Helland (CB) rating 67.52 #4
+  [CB] Henrik Falchener (CB) rating 71.06 #25
   [CB] Colin Rösler (CB) rating 69.34 #21
-  [RB] Aron Dønnum (RMF) rating 73.25 #20
+  [RB] Eivind Helland (CB) rating 67.52 #4
   [GK] Viljar Myhra (GK) rating 70.76 #1
 
 Wildcard:

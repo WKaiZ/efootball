@@ -1,5 +1,5 @@
 Starters:
-  [CF] Fernando Zampedri (CF) rating 73.39 #22
+  [CF] Alexis Sánchez (CF) rating 73.76 #10
   [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
   [RWF] Darío Osorio (RWF) rating 73.26 #11
   [AMF] Carlos Palacios (AMF) rating 75.05 #9
@@ -12,8 +12,8 @@ Starters:
   [GK] Gabriel Castellón (GK) rating 74.07 #1
 
 Substitutes:
-  [CF] Iván Morales (CF) rating 71.17 #7
-  [LWF] Jean Meneses (LWF) rating 73.25 #16
+  [CF] Felipe Mora (CF) rating 73.07 #16
+  [LWF] Ben Brereton Díaz (LWF) rating 73.34 #22
   [RWF] Joaquín Montecinos (RWF) rating 72.23 #8
   [AMF] Diego Valdés (AMF) rating 74.48 #15
   [CMF] Charles Aránguiz (CMF) rating 74.13 #20

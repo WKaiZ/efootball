@@ -18,6 +18,7 @@ Jacob Bruun Larsen, LWF, 72.58, False, Standard, [LWF, LMF, AMF, RWF, RMF], [CF,
 Mohamed Daramy, LWF, 71.39, True, Standard, [LWF, CF, RWF], [SS, LMF, RMF]
 Anders Dreyer, RWF, 76.97, False, Standard, [RWF, RMF], [LWF, LMF, CF, SS, AMF, CMF]
 Nicolai Vallys, AMF, 74.11, False, Standard, [AMF, SS, LWF, RWF, RMF, LMF], [CMF]
+Carlo Holse, AMF, 72.80, False, Standard, [LWF, RWF, AMF, LMF, RMF], [CF, SS, CMF]
 Noah Nartey, AMF, 72.18, False, Standard, [SS, AMF, CMF], [DMF]
 Matt O'Riley, CMF, 75.98, False, Standard, [CMF, DMF], [AMF]
 Christian Eriksen, CMF, 75.51, False, Standard, [AMF, CMF], [DMF]

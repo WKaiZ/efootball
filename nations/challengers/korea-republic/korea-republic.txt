@@ -1,6 +1,6 @@
 Starters:
   [CF] Heung-min Son (CF) rating 96.92 #7
-  [LWF] Dae-won Kim (LWF) rating 71.40 #17
+  [LWF] Min-su Kim (LWF) rating 70.88 #27
   [RWF] Kang-in Lee (RWF) rating 77.49 #19
   [AMF] Jae-sung Lee (AMF) rating 93.23 #10
   [CMF] In-beom Hwang (CMF) rating 73.86 #6
@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [CF] Se-hun Oh (CF) rating 94.20 #9
-  [LWF] Min-su Kim (LWF) rating 70.88 #27
+  [LWF] Jun-ho Bae (LWF) rating 70.80 #17
   [RWF] Hyun-jun Yang (RWF) rating 72.17 #26
   [AMF] Dong-gyeong Lee (AMF) rating 73.59 #14
   [CMF] Jin-kyu Kim (CMF) rating 71.76 #3
