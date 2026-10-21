@@ -141,10 +141,8 @@
     .overview-activity > .panel, .overview-activity .tab-view:not([hidden]),
     .overview-activity .xlist, .overview-activity #movers { display:flex; flex-direction:column; }
     .overview-activity .tab-view:not([hidden]), .overview-activity .xlist,
-    .overview-activity #movers, .overview-activity .feed-row,
-    .overview-activity .mover-row { flex:1; }
+    .overview-activity #movers, .overview-activity .mover-row { flex:1; }
     .overview-activity .xlist-toggle { margin-top:auto; }
-    .overview-activity .panel.locked .xlist { display:block; }
     .panel { background:var(--panel); border:1px solid var(--line); min-width:0; }
     .panel-head { display:flex; align-items:center; justify-content:space-between; gap:.6rem; padding:.7rem 1rem;
                   border-bottom:1px solid var(--line); font-family:var(--mono); font-size:.7rem; letter-spacing:.1em;
@@ -154,8 +152,6 @@
     .panel-head .aside { color:var(--dim); letter-spacing:.04em; text-transform:none; }
     .panel-head .aside a { color:var(--ink); }
 
-    .panel.locked { display:flex; flex-direction:column; }
-    .panel.locked .xlist { flex:1; min-height:0; overflow-y:auto; }
     .pitch-scroll { min-width:0; overflow-x:auto; }
     .pitch { position:relative; min-height:540px; margin:1rem; border:1px solid var(--line-2);
              background:repeating-linear-gradient(0deg, rgba(255,255,255,.012) 0 10%, transparent 10% 20%), #0b0d10; }
@@ -613,14 +609,6 @@
     const toggle = e.target.closest(".xlist-toggle");
     if (!toggle) return;
     const more = toggle.previousElementSibling.querySelector(".xlist-more");
-    const panel = toggle.closest(".panel");
-    if (panel.parentElement.classList.contains("ov-grid") && more.hidden) {
-      panel.style.height = panel.offsetHeight + "px";
-      panel.classList.add("locked");
-    } else {
-      panel.style.height = "";
-      panel.classList.remove("locked");
-    }
     more.hidden = !more.hidden;
     toggle.textContent = more.hidden ? `show all ${toggle.dataset.total}` : `show top ${toggle.dataset.preview}`;
   });
@@ -709,8 +697,6 @@
       if (!button) return;
       const active = button.dataset.activity;
       const activityPanel = button.closest(".panel");
-      activityPanel.style.height = "";
-      activityPanel.classList.remove("locked");
       activityPanel.querySelectorAll(".xlist-more").forEach(more => { more.hidden = true; });
       activityPanel.querySelectorAll(".xlist-toggle").forEach(toggle => {
         toggle.textContent = `show all ${toggle.dataset.total}`;
