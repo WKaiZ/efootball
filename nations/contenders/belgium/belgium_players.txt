@@ -2,7 +2,7 @@ Charles De Ketelaere, CF, 97.93, True, Showtime, [CF, SS, AMF], [LWF, RWF, LMF, 
 Loïs Openda, CF, 95.37, True, Highlight, [CF], [LWF, RWF, SS]
 Charles De Ketelaere, SS, 95.17, True, Highlight, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]
 Eden Hazard, LWF, 101.98, False, Epic, [LWF, LMF, AMF], [SS, RWF]
-Jérémy Doku, LWF, 99.39, False, Showtime, [LWF, RWF, LMF, RMF], []
+Jérémy Doku, LWF, 98.40, False, Showtime, [LWF, RWF, LMF, RMF], []
 Eden Hazard, AMF, 100.35, False, Epic, [LWF, LMF, AMF, SS], [RWF, CF, CMF]
 Kevin De Bruyne, AMF, 97.41, False, Showtime, [AMF, CMF], [SS, RWF, RMF]
 Charles De Ketelaere, AMF, 94.99, True, Highlight, [CF, SS, AMF], [LWF, RWF, LMF, RMF, CMF]

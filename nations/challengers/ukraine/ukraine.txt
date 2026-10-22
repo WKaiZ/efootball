@@ -6,7 +6,7 @@ Starters:
   [CMF] Ruslan Malinovskyi (CMF) rating 74.93 #8
   [DMF] Sergiy Sydorchuk (DMF) rating 71.46 #5
   [LB] Vitaliy Mykolenko (LB) rating 93.23 #16
-  [CB] Ilya Zabarnyi (CB) rating 94.98 #13
+  [CB] Ilya Zabarnyi (CB) rating 93.77 #13
   [CB] Mykola Matvienko (CB) rating 75.37 #22
   [RB] Yukhym Konoplya (RB) rating 73.20 #2
   [GK] Andriy Lunin (GK) rating 91.28 #1
