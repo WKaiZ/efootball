@@ -9,8 +9,8 @@ Starters:
   [DMF] Manuel Ugarte (DMF) rating 94.12 #5
   [LB] Mathías Olivera (LB) rating 95.01 #16
   [CB] Ronald Araujo (CB) rating 96.80 #4
-  [CB] Leandro Cabrera (CB) rating 92.93 #19
-  [RB] Guillermo Varela (RB) rating 73.24 #13
+  [CB] José María Giménez (CB) rating 78.24 #2
+  [RB] Santiago Mouriño (RB) rating 93.48 #19
   [GK] Fernando Muslera (GK) rating 94.30 #23
 
 Substitutes:
@@ -21,9 +21,9 @@ Substitutes:
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
-  [CB] José María Giménez (CB) rating 78.24 #2
+  [CB] Sebastian Caceres (CB) rating 74.23 #3
   [CB] Santiago Bueno (CB) rating 74.38 #24
-  [RB] Jose Luis Rodriguez (RB) rating 72.94 #15
+  [RB] Guillermo Varela (RB) rating 91.99 #13
   [GK] Thiago Cardozo (GK) rating 76.60 #12
 
 Wildcard:
@@ -39,8 +39,8 @@ Starters:
   [CMF] Nahitan Nández (CMF) rating 75.09 #15
   [DMF] Rodrigo Bentancur (DMF) rating 77.50 #6
   [LB] Matías Viña (LB) rating 73.88 #17
+  [CB] Leandro Cabrera (CB) rating 92.93 #16
   [CB] Santiago Mouriño (CB) rating 74.30 #19
-  [CB] Sebastian Caceres (CB) rating 74.23 #3
   [RB] Federico Valverde (RB) rating 95.52 #8
   [GK] Sergio Rochet (GK) rating 75.67 #1
 
@@ -53,10 +53,10 @@ Substitutes:
   [DMF] Mauro Arambarri (DMF) rating 76.15 #5
   [LB] Juan Manuel Sanabria (LB) rating 73.70 #25
   [CB] Sebastián Boselli (CB) rating 73.41 #29
-  [CB] Federico Ricca (CB) rating 73.07 #2
+  [CB] Federico Ricca (CB) rating 73.07 #3
   [RB] Giovanni González (RB) rating 73.17 #13
   [GK] Santiago Mele (GK) rating 74.55 #12
 
 Wildcard:
   [WILD] Cristopher Fiermarín (GK) rating 74.03 #23
-  [WILD] Agustin Alvarez (CF) rating 72.33 #9
+  [WILD] Jose Luis Rodriguez (RB) rating 72.94 #4

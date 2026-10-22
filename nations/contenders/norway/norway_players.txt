@@ -10,7 +10,7 @@ Julian Ryerson, RMF, 93.98, False, Highlight, [RMF, RB, LB], [LMF, RWF]
 Martin Ødegaard, CMF, 97.57, True, Showtime, [CMF, AMF, DMF, SS], []
 Fredrik Aursnes, CMF, 94.20, True, Highlight, [CMF, DMF, LMF, RMF, LB, RB], [AMF]
 Sander Berge, DMF, 94.44, True, Highlight, [CMF, DMF], []
-Julian Ryerson, RB, 94.43, False, Highlight, [RMF, RB, LB], [LMF]
+Julian Ryerson, RB, 95.20, False, Highlight, [RMF, RB, LB], [LMF]
 
 Aune Heggebø, CF, 71.23, False, Standard, [CF, SS], [AMF]
 Mohamed Elyounoussi, SS, 74.75, False, Standard, [LWF, LMF, RWF, RMF, SS, AMF], [CF, CMF]

@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Ao Tanaka (CMF) rating 74.11 #7
   [DMF] Shunta Tanaka (DMF) rating 93.85 #3
   [LB] Sota Miura (LB) rating 71.67 #24
-  [CB] Genta Miura (CB) rating 91.27 #2
   [CB] Tsukasa Shiotani (CB) rating 90.72 #16
+  [CB] Genta Miura (CB) rating 91.27 #2
   [RB] Miki Yamane (RB) rating 74.13 #21
   [GK] Seigo Narazaki (GK) rating 96.92 #18
 

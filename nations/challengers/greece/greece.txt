@@ -2,7 +2,7 @@ Starters:
   [CF] Vangelis Pavlidis (CF) rating 94.81 #14
   [LWF] Christos Tzolis (LWF) rating 94.42 #10
   [RWF] Marios Vrousai (RWF) rating 73.52 #7
-  [AMF] Charalampos Kostoulas (CF) rating 94.07 #11
+  [AMF] Konstantinos Karetsas (AMF) rating 94.23 #19
   [CMF] Christos Zafeiris (CMF) rating 71.73 #20
   [DMF] Nectarios Triantis (DMF) rating 73.31 #23
   [LB] Konstantinos Tsimikas (LB) rating 74.95 #21
@@ -12,10 +12,10 @@ Starters:
   [GK] Odysseas Vlachodimos (GK) rating 75.59 #1
 
 Substitutes:
-  [CF] Anastasios Douvikas (CF) rating 94.00 #9
+  [CF] Charalampos Kostoulas (CF) rating 94.07 #11
   [LWF] Alexandros Kyziridis (LWF) rating 72.19 #26
   [RWF] Georgios Giakoumakis (CF) rating 74.34 #8
-  [AMF] Konstantinos Karetsas (AMF) rating 73.43 #19
+  [AMF] Dimitrios Pelkas (AMF) rating 72.44 #9
   [CMF] Christos Mouzakitis (CMF) rating 70.57 #16
   [DMF] Dimitrios Kourbelis (DMF) rating 72.51 #6
   [LB] Dimitrios Giannoulis (LB) rating 73.18 #22

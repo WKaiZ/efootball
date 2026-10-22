@@ -14,7 +14,7 @@ Starters:
   [GK] Diogo Costa (GK) rating 95.05 #1
 
 Substitutes:
-  [CF] Fábio Silva (CF) rating 75.31 #18
+  [CF] Fábio Silva (CF) rating 93.96 #18
   [LMF] João Félix (LWF) rating 95.38 #11
   [RWF] Ricardo Quaresma (RWF) rating 97.38 #27
   [AMF] Rui Costa (AMF) rating 98.11 #10
@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] Andre Silva (CF) rating 73.33 #9
   [LWF] Matheus Nunes (LWF) rating 93.98 #6
-  [RMF] Rafa Silva (SS) rating 77.27 #18
+  [RMF] Rafa Silva (SS) rating 94.01 #18
   [AMF] Ricardo Horta (AMF) rating 76.85 #21
   [CMF] Bruno Fernandes (CMF) rating 95.01 #11
   [DMF] João Palhinha (DMF) rating 78.20 #16

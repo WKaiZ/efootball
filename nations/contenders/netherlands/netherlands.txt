@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Marco van Basten (CF) rating 98.73 #9
-  [LWF] Crysencio Summerville (LWF) rating 75.86 #24
+  [LWF] Arnaut Danjuma (LWF) rating 93.17 #22
   [RWF] Steven Berghuis (RWF) rating 93.93 #21
   [AMF] Wesley Sneijder (AMF) rating 97.36 #16
   [CMF] Mark van Bommel (CMF) rating 96.65 #18
@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Donny van de Beek (CMF) rating 93.18 #16
   [DMF] Frank Rijkaard (DMF) rating 95.70 #3
   [LB] Ian Maatsen (LB) rating 94.07 #5
-  [CB] Joël Veltman (RB) rating 74.30 #13
   [CB] Teun Koopmeiners (CB) rating 93.99 #20
+  [CB] Joël Veltman (RB) rating 74.30 #13
   [RB] Devyne Rensch (RB) rating 93.01 #18
   [GK] Mark Flekken (GK) rating 77.48 #23
 

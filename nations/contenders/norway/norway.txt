@@ -10,7 +10,7 @@ Starters:
   [LB] Fredrik Aursnes (CMF) rating 94.20 #7
   [CB] Leo Østigård (CB) rating 74.50 #4
   [CB] Kristoffer Ajer (CB) rating 75.93 #3
-  [RB] Julian Ryerson (RB) rating 94.43 #14
+  [RB] Julian Ryerson (RB) rating 95.20 #14
   [GK] Egil Selvik (GK) rating 72.64 #13
 
 Substitutes:

@@ -3,7 +3,7 @@ Aleksandar Stanković, DMF, 93.04, True, Highlight, [DMF, CB], [CMF]
 Nikola Milenković, CB, 95.00, False, Highlight, [CB], []
 Strahinja Pavlović, CB, 93.97, True, Highlight, [CB], []
 Mile Svilar, GK, 95.04, False, Highlight, [GK], []
-Filip Stanković, GK, 93.40, True, Highlight, [GK], []
+Filip Stanković, GK, 93.36, True, Highlight, [GK], []
 
 Dušan Vlahović, CF, 78.03, False, Standard, [CF], [SS]
 Dejan Joveljić, CF, 75.80, True, Standard, [CF], [SS]

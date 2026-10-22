@@ -5,7 +5,7 @@ Starters:
   [AMF] Mattias Svanberg (CMF) rating 93.18 #19
   [CMF] Lucas Bergvall (CMF) rating 93.99 #7
   [DMF] Jesper Karlström (DMF) rating 93.15 #16
-  [LB] Daniel Svensson (LB) rating 94.12 #8
+  [LB] Daniel Svensson (LB) rating 94.43 #8
   [CB] Isak Hien (CB) rating 93.44 #4
   [CB] Victor Lindelöf (CB) rating 91.56 #3
   [RB] Felix Beijmo (RB) rating 73.22 #2

@@ -22,7 +22,7 @@ Substitutes:
   [CB] Uros Spajic (CB) rating 72.48 #24
   [CB] Strahinja Erakovic (CB) rating 73.29 #16
   [RB] Jan-Carlo Simić (CB) rating 67.70 #5
-  [GK] Filip Stanković (GK) rating 93.40 #12
+  [GK] Filip Stanković (GK) rating 93.36 #12
 
 Wildcard:
   [WILD] Djordje Petrović (GK) rating 76.54 #1

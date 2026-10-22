@@ -31,6 +31,7 @@ MANUAL_ID_OVERRIDES = {
         "moises villarroel": "431863",
     },
     "brazil": {
+        "savio": "743591",
         "joao pedro": "626724",
         "gabriel": "435338",
         "ederson": "607854",

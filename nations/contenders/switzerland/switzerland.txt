@@ -7,7 +7,7 @@ Starters:
   [AMF] Johan Manzambi (AMF) rating 97.37 #9
   [CMF] Granit Xhaka (CMF) rating 94.99 #10
   [DMF] Ardon Jashari (DMF) rating 93.14 #14
-  [LB] Ulisses Garcia (LB) rating 73.25 #15
+  [LB] Ulisses Garcia (LB) rating 93.18 #15
   [CB] Manuel Akanji (CB) rating 95.17 #5
   [CB] Nico Elvedi (CB) rating 93.74 #4
   [RB] Denis Zakaria (RB) rating 93.96 #6

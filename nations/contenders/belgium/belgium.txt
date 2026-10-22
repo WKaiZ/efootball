@@ -3,7 +3,7 @@ First Squad
 Starters:
   [CF] Charles De Ketelaere (CF) rating 97.93 #17
   [LWF] Eden Hazard (LWF) rating 101.98 #10
-  [RWF] Jérémy Doku (LWF) rating 96.99 #11
+  [RWF] Jérémy Doku (LWF) rating 99.39 #11
   [AMF] Kevin De Bruyne (AMF) rating 97.41 #7
   [CMF] Roméo Lavia (DMF) rating 94.46 #6
   [DMF] Amadou Onana (DMF) rating 95.16 #24
@@ -14,7 +14,7 @@ Starters:
   [GK] Thibaut Courtois (GK) rating 98.91 #1
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 78.28 #9
+  [CF] Loïs Openda (CF) rating 95.37 #9
   [LWF] Mika Godts (LWF) rating 76.02 #22
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #20

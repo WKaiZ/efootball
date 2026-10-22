@@ -47,8 +47,8 @@ Starters:
 Substitutes:
   [CF] Marcus Thuram (CF) rating 98.11 #9
   [LMF] Robert Pirès (LMF) rating 96.89 #14
-  [RWF] Florian Thauvin (RWF) rating 94.33 #12
-  [SS] Désiré Doué (SS) rating 97.33 #20
+  [RWF] Désiré Doué (RWF) rating 99.76 #20
+  [SS] Florian Thauvin (SS) rating 93.97 #12
   [CMF] Eduardo Camavinga (CMF) rating 95.07 #25
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Mikaël Silvestre (LB) rating 93.78 #13
