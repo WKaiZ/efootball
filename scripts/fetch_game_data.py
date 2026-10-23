@@ -1,3 +1,4 @@
+import math
 import os
 import re
 import sqlite3
@@ -13,6 +14,10 @@ from jersey_fetch.names import nation_labels_equivalent
 from jersey_fetch.players_file import country_display_name
 
 DB_PATH = str(ROOT / "pes.db")
+VALID_POSITIONS = frozenset(
+    {"GK", "CB", "LB", "RB", "LWB", "RWB", "DMF", "CMF", "AMF",
+     "LMF", "RMF", "LWF", "RWF", "SS", "CF"}
+)
 
 MANUAL_ID_OVERRIDES = {
     "argentina": {
@@ -69,6 +74,7 @@ MANUAL_ID_OVERRIDES = {
         "pepe": "14132",
         "andre silva": "198008",
         "joao moutinho": "29364",
+        "otavio": "231289",
     },
     "spain": {
         "adama traore": "204103",
@@ -350,7 +356,7 @@ def parse_positions_list(raw):
     if not inside:
         return ""
     parts = [p.strip() for p in inside.split(",") if p.strip()]
-    return ",".join(parts)
+    return ",".join(position.upper() for position in parts)
 
 
 def parse_line(line, line_no):
@@ -361,11 +367,17 @@ def parse_line(line, line_no):
 
     name = parts[0]
     main_pos = parts[1]
+    if not name:
+        return False, {"error": f"Line {line_no}: player name is empty: {original}"}
+    if main_pos.upper() not in VALID_POSITIONS:
+        return False, {"error": f"Line {line_no}: invalid main position '{main_pos}': {original}"}
 
     try:
         rating = float(parts[2])
     except ValueError:
         return False, {"error": f"Line {line_no}: invalid rating '{parts[2]}': {original}"}
+    if not math.isfinite(rating) or rating < 0:
+        return False, {"error": f"Line {line_no}: rating must be a finite non-negative value: {original}"}
 
     tail = ",".join(parts[3:]).strip()
 
@@ -382,6 +394,12 @@ def parse_line(line, line_no):
 
     prof_positions = parse_positions_list(prof_raw)
     semi_positions = parse_positions_list(semi_raw)
+    for label, positions in (("proficient", prof_positions), ("semiproficient", semi_positions)):
+        invalid = [pos for pos in positions.split(",") if pos and pos not in VALID_POSITIONS]
+        if invalid:
+            return False, {
+                "error": f"Line {line_no}: invalid {label} position(s) {', '.join(invalid)}: {original}"
+            }
 
     flag_tokens = [t.strip() for t in flags_part.split(",") if t.strip()]
     recent = None
@@ -403,13 +421,35 @@ def parse_line(line, line_no):
 
     return True, {
         "name": name,
-        "position": main_pos,
+        "position": main_pos.upper(),
         "rating": rating,
         "recent": recent,
         "card_type": card_type,
         "proficient_positions": prof_positions,
         "semiproficient_positions": semi_positions,
     }
+
+
+def replace_country_game_data(conn, country_name, rows):
+    """Replace one country's rows atomically after its source data is validated."""
+    savepoint = "replace_country_game_data"
+    conn.execute(f"SAVEPOINT {savepoint}")
+    try:
+        conn.execute("DELETE FROM game_data WHERE country = ?", (country_name,))
+        conn.executemany(
+            """
+            INSERT OR REPLACE INTO game_data
+                (country, player_id, position, rating, recent, card_type,
+                 proficient_positions, semiproficient_positions)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            rows,
+        )
+        conn.execute(f"RELEASE SAVEPOINT {savepoint}")
+    except Exception:
+        conn.execute(f"ROLLBACK TO SAVEPOINT {savepoint}")
+        conn.execute(f"RELEASE SAVEPOINT {savepoint}")
+        raise
 
 
 def resolve_players_file(country_folder):
@@ -436,14 +476,12 @@ def main():
 
         weird_lines = []
         inserted = 0
-        updated = 0
         skipped_no_id = 0
 
         with open(txt_path, "r", encoding="utf-8") as f:
             lines = [ln.rstrip("\n") for ln in f]
 
-        cur = conn.cursor()
-        cur.execute("DELETE FROM game_data WHERE country = ?", (country_name,))
+        prepared_rows = []
 
         for idx, line in enumerate(lines, start=1):
             stripped = line.strip()
@@ -490,30 +528,25 @@ def main():
                     )
                     continue
 
-            cur.execute(
-                """
-                INSERT OR REPLACE INTO game_data
-                    (country, player_id, position, rating, recent, card_type,
-                     proficient_positions, semiproficient_positions)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-                """,
-                (
-                    country_name,
-                    player_id,
-                    data["position"],
-                    data["rating"],
-                    1 if data["recent"] else 0,
-                    data["card_type"],
-                    data["proficient_positions"],
-                    data["semiproficient_positions"],
-                ),
-            )
-            if cur.rowcount == 1:
-                inserted += 1
-            else:
-                updated += 1
+            prepared_rows.append((
+                country_name,
+                player_id,
+                data["position"],
+                data["rating"],
+                1 if data["recent"] else 0,
+                data["card_type"],
+                data["proficient_positions"],
+                data["semiproficient_positions"],
+            ))
 
-        conn.commit()
+        if not prepared_rows:
+            weird_lines.append("No valid player rows were found; refusing to replace existing database rows.")
+
+        if weird_lines:
+            print("\nInput validation failed; existing database rows were left unchanged.")
+        else:
+            replace_country_game_data(conn, country_name, prepared_rows)
+            inserted = len(prepared_rows)
 
         print(f"Done processing {txt_path}.")
         print(f"  Rows inserted/updated into game_data: {inserted}")
@@ -524,6 +557,7 @@ def main():
             print("\nPotentially weird lines or issues detected:")
             for msg in weird_lines:
                 print(" -", msg)
+            raise SystemExit(1)
         else:
             print("\nNo obvious issues detected in the txt file.")
 

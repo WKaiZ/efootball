@@ -43,7 +43,7 @@
     .site-nav a.active { color:var(--ink); border-bottom-color:var(--accent); }
     .site-nav .sep { width:1px; background:var(--line); margin:.9rem .4rem; }
 
-    .hero { border-bottom:1px solid var(--line); }
+    .hero { border-bottom:1px solid var(--line); background:radial-gradient(ellipse at 12% 0%,rgba(56,189,248,.09),transparent 48%); }
     .hero .inner { max-width:1320px; margin:0 auto; padding:1.75rem 1.5rem 1.5rem; display:grid;
                    grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:2rem; align-items:end; }
     .eyebrow { font-family:var(--mono); font-size:.72rem; color:var(--accent); letter-spacing:.08em; }
@@ -52,6 +52,13 @@
     .intro { color:var(--muted); margin:0; max-width:46rem; font-size:1rem; }
     .intro a { color:var(--ink); border-bottom:1px solid var(--accent); }
     .intro a:hover { text-decoration:none; color:var(--accent); }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.1rem; }
+    .hero-action { display:inline-flex; align-items:center; gap:.5rem; padding:.55rem .8rem; border:1px solid var(--line-2);
+                   color:var(--ink); background:rgba(14,16,19,.8); font-family:var(--mono); font-size:.7rem;
+                   letter-spacing:.05em; text-transform:uppercase; transition:all .15s; }
+    .hero-action.primary { color:var(--bg); background:var(--accent); border-color:var(--accent); font-weight:600; }
+    .hero-action:hover { border-color:var(--accent); color:var(--accent); text-decoration:none; transform:translateY(-1px); }
+    .hero-action.primary:hover { color:var(--bg); background:#7dd3fc; }
     .hero-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1px; margin-top:0;
                   border:1px solid var(--line); background:var(--line); max-width:860px; }
     .stat { padding:.8rem 1rem; background:var(--panel); min-width:0; }
@@ -232,6 +239,37 @@
     .nation-search:focus-within { border-color:var(--accent); }
     .no-match { font-family:var(--mono); font-size:.75rem; color:var(--dim); padding:.6rem .9rem; }
     .nation-head { margin-top:0; }
+    .nation-tools { display:flex; align-items:center; flex-wrap:wrap; gap:.45rem; margin:.8rem 0 1rem; }
+    .nation-tools label { display:flex; align-items:center; gap:.4rem; padding:.35rem .5rem; border:1px solid var(--line-2);
+                          background:var(--panel); color:var(--dim); font-family:var(--mono); font-size:.64rem;
+                          letter-spacing:.04em; text-transform:uppercase; }
+    .nation-tools select { max-width:9rem; border:0; outline:0; background:transparent; color:var(--ink);
+                          font-family:var(--mono); font-size:.72rem; }
+    .nation-tools select option, .compare-select option { background:var(--panel); color:var(--ink); }
+    .nation-tools button, .compare-select { cursor:pointer; border:1px solid var(--line-2); background:var(--panel);
+                          color:var(--muted); padding:.42rem .65rem; font-family:var(--mono); font-size:.68rem;
+                          letter-spacing:.04em; text-transform:uppercase; }
+    .nation-tools button:hover, .nation-tools button.active { border-color:var(--accent); color:var(--accent); }
+    .nation-tools .tool-count { margin-left:auto; color:var(--dim); font: .68rem var(--mono); }
+    .compare-controls { display:flex; flex-wrap:wrap; align-items:end; gap:.7rem; padding:1rem; border-bottom:1px solid var(--line); }
+    .compare-controls label { display:grid; gap:.3rem; font: .65rem var(--mono); color:var(--dim); letter-spacing:.08em; text-transform:uppercase; }
+    .compare-select { min-width:180px; text-transform:none; font-size:.82rem; padding:.6rem .7rem; }
+    .compare-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; background:var(--line); border-bottom:1px solid var(--line); }
+    .compare-stat { padding:.9rem 1rem; background:var(--panel); }
+    .compare-stat span { display:block; color:var(--dim); font: .64rem var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+    .compare-stat b { display:block; margin-top:.2rem; font:600 1.1rem var(--mono); }
+    .compare-table-wrap { overflow:auto; }
+    .compare-table { width:100%; border-collapse:collapse; min-width:600px; }
+    .compare-table th, .compare-table td { padding:.65rem .9rem; text-align:left; border-bottom:1px solid var(--line); }
+    .compare-table th { color:var(--dim); font:500 .64rem var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+    .compare-table td { font-size:.83rem; }
+    .compare-table td.pos { color:var(--accent); font:500 .7rem var(--mono); }
+    .compare-table td.rating { text-align:right; font: .78rem var(--mono); }
+    .compare-table td.winner { color:#4ade80; font-weight:700; }
+    .compare-table td.empty { color:var(--dim); }
+    .compare-nation { display:flex; align-items:center; gap:.5rem; font-weight:600; }
+    .compare-hint { padding:.8rem 1rem; color:var(--dim); font-size:.75rem; }
+    .ef-filter-hidden { display:none !important; }
 
     @media (max-width:900px) {
       .ov-grid { grid-template-columns:minmax(0,1fr); }
@@ -397,6 +435,130 @@
       .hero .inner { padding:1.5rem 1rem 1.2rem; }
       main { padding:1.5rem 1rem; }
       .ef-grid { grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); }
+      .compare-summary { grid-template-columns:1fr; }
+      .compare-controls { align-items:stretch; }
+      .compare-controls label, .compare-select { width:100%; }
+      .nation-tools .tool-count { flex-basis:100%; margin-left:0; }
+    }
+
+    /* Shared product foundations */
+    :root {
+      color-scheme:dark;
+      --bg:#090c10;
+      --panel:#10151b;
+      --panel-2:#171e26;
+      --line:#252d37;
+      --line-2:#394552;
+      --ink:#edf2f7;
+      --muted:#a5afbb;
+      --dim:#84909e;
+      --accent:#55c8f2;
+      --group-challenger:#55c8f2;
+      --radius-sm:6px;
+      --radius-md:10px;
+      --radius-lg:14px;
+      --shadow-soft:0 12px 32px rgba(0,0,0,.22);
+      --focus-ring:0 0 0 3px rgba(85,200,242,.24);
+    }
+    body {
+      background-image:linear-gradient(rgba(145,164,183,.025) 1px,transparent 1px),
+                       linear-gradient(90deg,rgba(145,164,183,.025) 1px,transparent 1px),
+                       radial-gradient(ellipse at 50% -18rem,rgba(85,200,242,.09),transparent 50%);
+      background-size:64px 64px,64px 64px,auto;
+    }
+    .site-header { background:rgba(9,12,16,.94); border-bottom-color:rgba(133,150,168,.18); }
+    .site-header .inner { min-height:60px; }
+    .site-title { min-height:48px; }
+    .site-title .dot { border-radius:50%; box-shadow:0 0 0 4px rgba(85,200,242,.12); }
+    .site-nav a { min-height:48px; border-radius:var(--radius-sm) var(--radius-sm) 0 0; }
+    .site-nav a.active { background:linear-gradient(180deg,rgba(85,200,242,.08),transparent); }
+    .psearch, .nation-search { border-radius:var(--radius-sm); transition:border-color .16s,box-shadow .16s; }
+    .psearch:focus-within, .nation-search:focus-within { border-color:var(--accent); box-shadow:var(--focus-ring); }
+    .hero .inner { padding-top:2rem; padding-bottom:1.85rem; }
+    .hero h1 { font-size:clamp(2.2rem,4.2vw,3rem); letter-spacing:-.035em; }
+    .hero-stats { border-radius:var(--radius-md); overflow:hidden; box-shadow:var(--shadow-soft); }
+    .stat { padding:1rem 1.1rem; }
+    .stat span { color:var(--muted); }
+    main { padding-top:1.75rem; padding-bottom:2rem; }
+    .view-head { margin-bottom:1.35rem; }
+    .view-title { font-size:1.55rem; letter-spacing:-.025em; }
+    .view-desc { max-width:60ch; line-height:1.55; }
+    .panel, .pl-head, .sidebar, .ef-loading, .ef-error {
+      border-radius:var(--radius-md);
+      box-shadow:var(--shadow-soft);
+    }
+    .panel { overflow:hidden; }
+    .panel-head { min-height:48px; padding:.8rem 1rem; color:var(--muted); }
+    .ef-card { border-radius:var(--radius-sm); padding:.6rem .6rem .7rem; box-shadow:0 2px 8px rgba(0,0,0,.12); }
+    .ef-card:hover { box-shadow:0 10px 22px rgba(0,0,0,.28); }
+    .ef-photo, .xi-photo, .pl-photo, .ps-thumb { border-radius:var(--radius-sm); }
+    .ef-section-title { margin-top:1.9rem; font-size:.74rem; }
+    .hero-action, .nation-tools button, .compare-select, .ef-squad-choice,
+    .card-tab, .seg button, .rank-toggle, button.card-pick {
+      border-radius:var(--radius-sm);
+      transition:color .16s,background-color .16s,border-color .16s,box-shadow .16s,transform .16s;
+    }
+    .hero-action { min-height:42px; padding:.62rem .9rem; }
+    .ef-squad-choice, .card-tab, .seg button { min-height:42px; }
+    .nation-tools { gap:.55rem; margin:1rem 0 1.1rem; }
+    .nation-tools label { min-height:42px; border-radius:var(--radius-sm); color:var(--muted); }
+    .nation-tools select { min-height:30px; }
+    .nation-tools button, .compare-select { min-height:42px; padding:.55rem .8rem; }
+    .nation-tools button.active, .nation-tools button:hover { background:rgba(85,200,242,.09); }
+    .compare-controls { gap:.9rem; padding:1.15rem; }
+    .compare-controls label { color:var(--muted); }
+    .compare-stat { padding:1rem 1.1rem; }
+    .compare-stat span { color:var(--muted); }
+    .compare-table th { color:var(--muted); }
+    .compare-table td, .jersey-table td { padding:.75rem .9rem; }
+    .compare-table tbody tr:hover, .jersey-table tbody tr:hover { background:rgba(255,255,255,.025); }
+    .rank-row, .feed-row { min-height:48px; }
+    .nation-row { min-height:40px; border-radius:0 var(--radius-sm) var(--radius-sm) 0; }
+    .tier, .chip, .hc { border-radius:999px; }
+    .pl-head { border-top-width:3px; padding:1.5rem; }
+    :where(a,button,input,select,[tabindex]):focus-visible {
+      outline:2px solid var(--accent);
+      outline-offset:3px;
+      box-shadow:var(--focus-ring);
+    }
+    button, select { font:inherit; }
+    button:not(:disabled), select { cursor:pointer; }
+    button:disabled { cursor:not-allowed; opacity:.55; }
+    @media (max-width:760px) {
+      .site-header .inner {
+        display:grid;
+        grid-template-columns:minmax(0,1fr);
+        grid-template-areas:"brand" "nav" "search";
+        align-items:center;
+        gap:.2rem;
+        padding:.35rem 1rem .55rem;
+      }
+      .site-title { grid-area:brand; min-height:42px; }
+      .site-nav { grid-area:nav; justify-content:space-between; overflow-x:auto; flex-wrap:nowrap; scrollbar-width:none; }
+      .site-nav::-webkit-scrollbar { display:none; }
+      .site-nav a { min-height:42px; flex:0 0 auto; padding:0 .5rem; font-size:.68rem; }
+      .site-nav .sep { display:none; }
+      .psearch { grid-area:search; width:100%; max-width:none; margin:0; }
+      .hero .inner { padding-top:1.55rem; }
+      main { padding-top:1.3rem; }
+      .sidebar { box-shadow:none; }
+    }
+    @media (max-width:480px) {
+      .site-nav a { padding:0 .42rem; font-size:.66rem; letter-spacing:.035em; }
+      .site-header .inner { column-gap:.45rem; }
+      .hero-actions { display:grid; grid-template-columns:1fr 1fr; }
+      .hero-action { justify-content:center; padding:.55rem .45rem; font-size:.62rem; }
+      .hero-stats .stat { padding:.75rem; }
+      .stat b { font-size:.9rem; }
+      .nation-name { font-size:1.3rem; }
+      .compare-controls { padding:.85rem; }
+      .compare-table { min-width:640px; }
+      .ef-grid { gap:.6rem; }
+      .record-grid { padding:.75rem; }
+      footer { padding:2rem 1rem; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      *, *::before, *::after { scroll-behavior:auto !important; transition-duration:.01ms !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; }
     }
   </style>
 </head>
@@ -415,6 +577,7 @@
         <a href="#/" data-view="overview">Overview</a>
         <a href="#/nations" data-view="nations">Nations</a>
         <a href="#/records" data-view="records">Records</a>
+        <a href="#/compare" data-view="compare">Compare</a>
         <span class="sep" aria-hidden="true"></span>
         <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">GitHub</a>
       </nav>
@@ -427,11 +590,15 @@
       <div class="eyebrow">national-team squads, rebuilt daily</div>
       <h1>The Call-Up</h1>
       <p class="intro">
-        My national-team squads for top 100 FIFA Men’s World Ranking nations.
-        Squads are generated by my
+        Explore eFootball national-team squads across the FIFA men’s rankings. Compare lineups,
+        follow call-ups, and inspect each player’s card history. Squads are generated by my
         <a href="https://github.com/WKaiZ/efootball" target="_blank" rel="noopener">eFootball</a>
-        project and this page refreshes automatically every day.
+        project and updated daily.
       </p>
+      <div class="hero-actions">
+        <a class="hero-action primary" href="#/nations">Browse nations <span aria-hidden="true">↗</span></a>
+        <a class="hero-action" href="#/compare">Compare squads <span aria-hidden="true">↗</span></a>
+      </div>
       </div>
       <div class="hero-stats" id="ef-meta"></div>
     </div>
@@ -498,17 +665,17 @@
         <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
         <span class="ef-days">${p.since ? `${medal}${daysSince(p.since)}d` : esc(p.note || "pool")}</span>
       </div>`;
-    return `<a class="${cls}" href="${esc(playerHref(c, p))}" title="${esc(tip)}">${inner}</a>`;
+    return `<a class="${cls}" data-pos="${esc(p.pos)}" data-card="${esc(p.card_type || "Standard")}" data-rating="${p.rating}" href="${esc(playerHref(c, p))}" title="${esc(tip)}">${inner}</a>`;
   }
 
   function section(title, players, c, extra) {
     if (!players.length) return "";
-    return `<div class="ef-section ${extra||''}">
+    return `<div class="ef-section ${extra||''}" data-squad-section>
       <div class="ef-section-title">${title}<span class="count">${players.length}</span></div>
       <div class="ef-grid">${players.map(p => card(p, c)).join("")}</div></div>`;
   }
 
-  function renderSquad(c, selectedSquad) {
+  function renderSquad(c, selectedSquad, selectedView = "cards") {
     const hasSecond = c.players.some(p => p.squad === "second");
     const squad = hasSecond && selectedSquad === "second" ? "second" : "first";
     const players = c.players.filter(p => (p.squad || "first") === squad);
@@ -527,12 +694,53 @@
       root.innerHTML = head + `<div class="ef-error">No players available for ${esc(c.name)}.</div>` + dropSection(c);
       return;
     }
-    root.innerHTML = head +
+    const positions = POSITION_ORDER.map(pos => `<option value="${pos}">${pos}</option>`).join("");
+    const tools = `<div class="nation-tools" role="group" aria-label="Filter squad players">
+      <label>Position <select data-filter="position"><option value="">All</option>${positions}</select></label>
+      <label>Card <select data-filter="card"><option value="">All</option><option>Epic</option><option>BigTime</option><option>Showtime</option><option>Highlight</option><option>Standard</option></select></label>
+      <label>Min rating <select data-filter="rating"><option value="0">Any</option><option value="70">70+</option><option value="75">75+</option><option value="80">80+</option><option value="85">85+</option></select></label>
+      <button type="button" class="${selectedView === "formation" ? "active" : ""}" aria-pressed="${selectedView === "formation"}" data-view-toggle="formation">Formation</button>
+      <button type="button" class="${selectedView === "cards" ? "active" : ""}" aria-pressed="${selectedView === "cards"}" data-view-toggle="cards">Cards</button>
+      <span class="tool-count" aria-live="polite"></span>
+    </div>`;
+    root.innerHTML = head + tools +
+      `<div data-formation-view ${selectedView === "formation" ? "" : "hidden"}>${pitchHTML({ ...c, players: players.filter(p => p.section === "starters") })}</div>` +
+      `<div data-cards-view ${selectedView === "cards" ? "" : "hidden"}>` +
       section("Starters", byS("starters"), c) +
       section("Substitutes", byS("substitutes"), c) +
-      section("Wildcard", byS("wildcard"), c, "ef-wild") + dropSection(c);
+      section("Wildcard", byS("wildcard"), c, "ef-wild") + `</div>` + dropSection(c);
+    let activeView = selectedView;
+    const applyFilters = () => {
+      const pos = root.querySelector('[data-filter="position"]').value;
+      const cardType = root.querySelector('[data-filter="card"]').value;
+      const rating = Number(root.querySelector('[data-filter="rating"]').value || 0);
+      let visible = 0;
+      root.querySelectorAll(".ef-card[data-pos], .xi-node[data-pos]").forEach(item => {
+        const show = (!pos || item.dataset.pos === pos) && (!cardType || item.dataset.card === cardType) && Number(item.dataset.rating) >= rating;
+        item.classList.toggle("ef-filter-hidden", !show);
+        if (show && item.matches(".ef-card")) visible++;
+      });
+      root.querySelectorAll("[data-squad-section]").forEach(section => {
+        section.hidden = !section.querySelector(".ef-card[data-pos]:not(.ef-filter-hidden)");
+      });
+      const count = root.querySelector(".tool-count");
+      count.textContent = `${visible} player${visible === 1 ? "" : "s"}`;
+    };
+    root.querySelectorAll(".nation-tools select").forEach(select => select.addEventListener("change", applyFilters));
+    root.querySelectorAll("[data-view-toggle]").forEach(button => button.addEventListener("click", () => {
+      const view = button.dataset.viewToggle;
+      activeView = view;
+      root.querySelector("[data-formation-view]").hidden = view !== "formation";
+      root.querySelector("[data-cards-view]").hidden = view !== "cards";
+      root.querySelectorAll("[data-view-toggle]").forEach(item => {
+        const active = item === button;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-pressed", String(active));
+      });
+    }));
     root.querySelectorAll(".ef-squad-choice").forEach(button =>
-      button.addEventListener("click", () => renderSquad(c, button.dataset.squad)));
+      button.addEventListener("click", () => renderSquad(c, button.dataset.squad, activeView)));
+    applyFilters();
   }
 
   function dropSection(c) {
@@ -595,7 +803,7 @@
         <div class="xi-meta">${esc(p.pos)} · <b>${p.rating.toFixed(0)}</b></div>`;
       const style = `left:${x}%;top:${y}%`;
       const tip = esc(`${p.name} · ${c.name} · ${p.pos} · rating ${p.rating.toFixed(0)}`);
-      return `<a class="xi-node" style="${style}" href="${esc(playerHref(c, p))}" title="${tip}">${inner}</a>`;
+      return `<a class="xi-node" data-pos="${esc(p.pos)}" data-card="${esc(p.card_type || "Standard")}" data-rating="${p.rating}" style="${style}" href="${esc(playerHref(c, p))}" title="${tip}">${inner}</a>`;
     }).join("");
     return `<div class="pitch-scroll"><div class="pitch"><div class="pm half"></div><div class="pm circle"></div>
       <div class="pm box-left"></div><div class="pm box-right"></div>${nodes}</div></div>`;
@@ -752,6 +960,79 @@
       });
       drawChart();
     });
+  }
+
+  const COMPARE_SLOT_ORDER = ["GK", "LB", "LWB", "CB", "RB", "RWB", "DMF", "CMF", "AMF", "LMF", "RMF", "LWF", "CF", "SS", "RWF"];
+  function compareStarters(c) {
+    const byPos = new Map();
+    firstStarters(c).forEach(p => {
+      const slot = p.slot || p.pos;
+      if (!byPos.has(slot)) byPos.set(slot, []);
+      byPos.get(slot).push(p);
+    });
+    return byPos;
+  }
+
+  function renderCompare(countries) {
+    const eligible = countries.filter(c => firstStarters(c).length);
+    if (!eligible.length) {
+      root().innerHTML = panel("Squad comparison", "", `<div class="compare-hint">No starter squads are available to compare yet.</div>`);
+      return;
+    }
+    const optionHTML = (selected) => eligible.map(c =>
+      `<option value="${esc(c.id)}" ${c.id === selected ? "selected" : ""}>${esc(c.name)}</option>`).join("");
+    const complete = eligible.filter(hasCompleteStarterSquad);
+    const defaults = complete.length > 1 ? complete : eligible;
+    let leftId = defaults[0].id;
+    let rightId = (defaults.find(c => c.id !== leftId) || defaults[0]).id;
+    root().innerHTML = panel("Compare starting XIs", "first squad · ratings out of 100", `
+      <div class="compare-controls">
+        <label>Nation A<select class="compare-select" id="compare-left">${optionHTML(leftId)}</select></label>
+        <span aria-hidden="true">vs</span>
+        <label>Nation B<select class="compare-select" id="compare-right">${optionHTML(rightId)}</select></label>
+      </div>
+      <div id="compare-result" aria-live="polite"></div>`);
+    const left = root().querySelector("#compare-left"), right = root().querySelector("#compare-right");
+    const draw = () => {
+      leftId = left.value;
+      rightId = right.value;
+      const a = eligible.find(c => c.id === leftId), b = eligible.find(c => c.id === rightId);
+      const aBySlot = compareStarters(a), bBySlot = compareStarters(b);
+      const slots = COMPARE_SLOT_ORDER.flatMap(pos => Array.from({
+        length: Math.max((aBySlot.get(pos) || []).length, (bBySlot.get(pos) || []).length),
+      }, () => pos));
+      const aa = slots.map(pos => (aBySlot.get(pos) || []).shift() || null);
+      const bb = slots.map(pos => (bBySlot.get(pos) || []).shift() || null);
+      const score = rows => rows.reduce((sum, p) => sum + (p ? p.rating : 0), 0) / 11;
+      const avgA = score(aa), avgB = score(bb), filledA = aa.filter(Boolean).length, filledB = bb.filter(Boolean).length;
+      const diff = avgA - avgB;
+      const posOccurrences = {};
+      const table = slots.map((pos, i) => {
+        posOccurrences[pos] = (posOccurrences[pos] || 0) + 1;
+        const label = `${pos}${slots.filter((x, n) => x === pos && n <= i).length > 1 ? ` ${posOccurrences[pos]}` : ""}`;
+        const x = aa[i], y = bb[i];
+        const stateA = !x ? "empty" : x.rating > (y?.rating ?? -1) ? "winner" : "";
+        const stateB = !y ? "empty" : y.rating > (x?.rating ?? -1) ? "winner" : "";
+        const person = (p, state) => p
+          ? `<td class="${state}"><a href="${esc(playerHref(p === x ? a : b, p))}">${esc(p.name)}</a></td><td class="rating ${state}">${p.rating.toFixed(1)} <span class="muted">#${p.number ?? "—"}</span></td>`
+          : `<td class="empty">Vacant</td><td class="rating empty">—</td>`;
+        return `<tr><td class="pos">${label}</td>${person(x, stateA)}${person(y, stateB)}</tr>`;
+      }).join("");
+      document.getElementById("compare-result").innerHTML = `
+        <div class="compare-summary">
+          <div class="compare-stat"><span>Average XI rating</span><b>${avgA.toFixed(1)} <small>vs ${avgB.toFixed(1)}</small></b></div>
+          <div class="compare-stat"><span>Filled starter slots</span><b>${filledA}/11 <small>vs ${filledB}/11</small></b></div>
+          <div class="compare-stat"><span>Rating edge</span><b>${diff === 0 ? "Even" : `${esc(diff > 0 ? a.name : b.name)} +${Math.abs(diff).toFixed(1)}`}</b></div>
+        </div>
+        <div class="compare-table-wrap"><table class="compare-table">
+          <thead><tr><th>Slot</th><th colspan="2"><span class="compare-nation">${a.flag || ""} ${esc(a.name)}</span></th><th colspan="2"><span class="compare-nation">${b.flag || ""} ${esc(b.name)}</span></th></tr>
+          <tr><th></th><th>Player</th><th>Rating / no.</th><th>Player</th><th>Rating / no.</th></tr></thead><tbody>${table}</tbody>
+        </table></div>
+        <div class="compare-hint">Green ratings indicate the higher-rated player in that slot. Select a player to open their profile.</div>`;
+    };
+    left.addEventListener("change", draw);
+    right.addEventListener("change", draw);
+    draw();
   }
 
   function recordCards(entries, squadTenure = false) {
@@ -1525,6 +1806,7 @@
     overview: ["Overview", "Where complete starter squads stand today."],
     nations: ["Nations", "Search or pick a nation to see its squad."],
     records: ["Records", "Player records by position, jersey number, and squad tenure."],
+    compare: ["Compare", "Compare starting lineups, ratings, and position coverage."],
     player: ["Player", ""],
   };
 
@@ -1621,6 +1903,7 @@
           renderSquad(lastNation);
         } else if (view === "player") renderPlayer(player, index, cardPos);
         else if (view === "records") renderRecords(countries);
+        else if (view === "compare") renderCompare(countries);
         else renderOverview(countries);
         const samePlayer = player && player === lastPlayer;
         lastPlayer = player;

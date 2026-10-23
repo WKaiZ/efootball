@@ -241,7 +241,7 @@ ESPN_TEAM_NAME_ALIASES = {
     "united arab emirates": ("UAE",),
     "republic of ireland": ("Ireland",),
     "ir iran": ("Iran",),
-    "korea republic": ("South Korea",),
+    "korea republic": ("South Korea", "Korea"),
     "brunei darussalam": ("Brunei",),
     "congo": ("Republic of the Congo", "Congo Republic"),
     "dpr korea": ("North Korea", "Korea DPR"),
