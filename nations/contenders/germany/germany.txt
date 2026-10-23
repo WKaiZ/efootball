@@ -36,7 +36,7 @@ Starters:
   [LWF] Serge Gnabry (LWF) rating 95.13 #20
   [RWF] Leroy Sané (RWF) rating 94.89 #19
   [AMF] Jamal Musiala (AMF) rating 97.02 #14
-  [CMF] Felix Nmecha (CMF) rating 97.20 #8
+  [CMF] Felix Nmecha (CMF) rating 96.78 #8
   [DMF] Lothar Matthäus (DMF) rating 96.95 #10
   [LB] David Raum (LMF) rating 93.96 #22
   [CB] Joshua Kimmich (CB) rating 95.94 #6
