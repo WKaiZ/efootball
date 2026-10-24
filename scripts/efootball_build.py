@@ -317,6 +317,9 @@ def parse_squad_sigs(text):
         if low == "second squad":
             squad = "second"
             continue
+        if low == "third squad":
+            squad = "third"
+            continue
         if LINE_RE.match(line):
             sigs.add((squad, squad_row_sig(line)))
     return sigs
@@ -348,7 +351,6 @@ POOL_CARD_RE = re.compile(
     r"(?m)^(\s*[^,\[\]]+?,\s*[A-Z]+,\s*[\d.]+,\s*(?:(?:True|False),\s*)?)([A-Za-z]+)(?=,\s*\[)")
 
 def canon_card(card):
-    """Fix card-type typos in the pool files ("Bigtime", "Standrd")."""
     for name in CARD_TYPES:
         if card.lower() == name.lower():
             return name
@@ -359,13 +361,6 @@ def clean_pool_text(text):
     return POOL_CARD_RE.sub(lambda m: m[1] + canon_card(m[2]), text)
 
 def backfill_card_fixes(pool_texts, pool_now):
-    """Carry card-type corrections back through older pool versions.
-
-    A card whose type changes while its rating stays put (within the ±0.02
-    recalculation noise) was recorded with the wrong type, e.g. Bruno Fernandes
-    AMF Highlight -> BigTime at 98.59. Older versions take the corrected type
-    so it neither shows as a change nor restarts the card's tenure.
-    """
     def rows(text):
         return {(norm(m["name"]), m["pos"]): (float(m["rating"]), m["card"])
                 for m in map(POOL_FULL_RE.match, (text or "").splitlines()) if m}
@@ -393,14 +388,6 @@ def _names_in(squad_text, pool_text):
     return names
 
 def detect_renames(squad_texts, pool_texts, squad_now, pool_now, today):
-    """Spelling fixes to player names, as {old name: current name}.
-
-    A rename is a name that vanishes from both files on the day a near-identical
-    name first appears in the same nation: 80%+ similar overall and 85%+ on the
-    surname, so "Cristhian Stuani" -> "Christhian Stuani" counts but teammates
-    who only share a first name ("Matías Vecino", "Matías Viña") don't. Without
-    this, a fix reads as a drop-out plus a call-up.
-    """
     def similar(a, b):
         a, b = norm(a), norm(b)
         whole = difflib.SequenceMatcher(None, a, b).ratio()
@@ -440,7 +427,6 @@ def apply_renames(text, renames):
     return text
 
 def parse_pool(text):
-    """Group a nation's *_players.txt rows by player, best position first."""
     pool = {}
     for ln in text.splitlines():
         m = POOL_FULL_RE.match(ln)
@@ -456,14 +442,6 @@ def parse_pool(text):
     return pool
 
 def history_texts(repo, rel_path, related_paths=()):
-    """The last committed version of a file on each day, newest first, as (date, text).
-
-    Edits made and undone within one day (a player added to a first draft and
-    removed that evening) never existed as far as the history is concerned.
-    Related paths cover a nation's moves between ranking groups, including
-    moves whose files changed too much for Git's rename detection. History
-    follows other renames but stops at copies from a different nation.
-    """
     paths_to_check = list(dict.fromkeys((rel_path, *related_paths)))
     commits = []
     for rel in paths_to_check:
@@ -517,12 +495,6 @@ def _pool_states(text):
             for key, e in parse_pool(text).items() for row in e["rows"]}
 
 def _join_position_changes(hist):
-    """Carry a card's history across a same-day change of main position.
-
-    A one-for-one removal and addition of the same card type is a position
-    change. Keep simultaneous cards separate, even when they share a type.
-    Work from the original events so an old position can later hold a new card.
-    """
     events = {}
     for (name, pos), snaps in hist.items():
         for i, snap in enumerate(snaps):
@@ -568,14 +540,6 @@ def _join_position_changes(hist):
             del hist[old_key]
 
 def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
-    """Per-card snapshots, recorded only on days that card changed.
-
-    Output is {player name: {position: [snapshot, ...]}}, where a snapshot is
-    {"d": date, "a": [[squad, section, slot, number, rating], ...],
-    "p": [rating, card type, recent] or null, and an optional "pos" for
-    cards whose main position changed}. Several commits on one day collapse
-    to that day's last version.
-    """
     def by_day(texts, now, parser):
         days = {d: parser(t) for d, t in reversed(texts)}
         if now is not None:
@@ -603,12 +567,6 @@ def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
     return out
 
 def squad_history(texts, current, today):
-    """Call-up counts and unbroken-stint start dates for current players, plus
-    the drop-outs from past versions.
-
-    A drop-out is anyone listed in an earlier version of the squad file who is
-    in neither squad now; a stint is an unbroken run of versions listing them.
-    """
     chrono = [(d, squad_members(t)) for d, t in reversed(texts)]
     chrono.append((today.isoformat(), {norm(p["name"]): p for p in current}))
     names = {n for _, members in chrono for n in members}
@@ -739,10 +697,6 @@ def save_cache(cache):
     imgcache.save(cache)
 
 def _parse_players(text):
-    """Parse a squad .txt, retaining both First and Second Squad blocks.
-
-    Files without explicit squad headers are treated as a first squad.
-    """
     players, section, squad = [], None, "first"
     for line in text.splitlines():
         low = line.strip().lower()
@@ -752,6 +706,10 @@ def _parse_players(text):
             continue
         if low == "second squad":
             squad = "second"
+            section = None
+            continue
+        if low == "third squad":
+            squad = "third"
             section = None
             continue
         if low.startswith("starters"):
@@ -791,7 +749,7 @@ def apply_player_history(country, players, texts, pool_texts, pool_now, today):
                  else max(dates))
         p["since"] = since
         p["days"] = (today - datetime.fromisoformat(since).date()).days
-    for squad in ("first", "second"):
+    for squad in ("first", "second", "third"):
         _assign_medals([p for p in players if p["squad"] == squad])
     callups, joined, dropouts = squad_history(texts, players, today)
     for p in players:
@@ -824,7 +782,6 @@ def nation_history_inputs(country, group_dir, squad_now, pool_now, today):
     return texts, pool_texts
 
 def refresh_history():
-    """Repair published history and tenure from local files and Git, without fetching."""
     squads = json.load(open(SQUADS_PATH))
     countries = squads["countries"]
     pool_data = json.load(open(PLAYERS_PATH))["countries"]

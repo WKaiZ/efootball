@@ -24,6 +24,8 @@ MANUAL_ID_OVERRIDES = {
         "nico gonzalez": "486031",
         "emiliano martinez": "111873",
         "flaco lopez": "844797",
+        "franco vazquez": "76163",
+        "lisandro lopez": "125019",
     },
     "australia": {
         "mohamed toure": "742770",
@@ -49,6 +51,7 @@ MANUAL_ID_OVERRIDES = {
         "zico": "117619",
         "estevao": "1056993",
         "wesley": "964580",
+        "wendell": "228433",
         "dodo": "401529",
         "ze roberto": "89",
         "denilson": "7660",
@@ -431,7 +434,6 @@ def parse_line(line, line_no):
 
 
 def replace_country_game_data(conn, country_name, rows):
-    """Replace one country's rows atomically after its source data is validated."""
     savepoint = "replace_country_game_data"
     conn.execute(f"SAVEPOINT {savepoint}")
     try:

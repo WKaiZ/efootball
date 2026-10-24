@@ -59,9 +59,9 @@ def _parse_formation_block(lines):
     return slots
 
 
-def load_formations(formation_file):
+def load_all_formations(formation_file):
     if not os.path.exists(formation_file):
-        return DEFAULT_FORMATION[:], None
+        return [DEFAULT_FORMATION[:]]
 
     with open(formation_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
@@ -84,11 +84,12 @@ def load_formations(formation_file):
         if slots:
             formations.append(slots)
 
-    if not formations:
-        return DEFAULT_FORMATION[:], None
-    if len(formations) == 1:
-        return formations[0], None
-    return formations[0], formations[1]
+    return formations or [DEFAULT_FORMATION[:]]
+
+
+def load_formations(formation_file):
+    formations = load_all_formations(formation_file)
+    return formations[0], (formations[1] if len(formations) > 1 else None)
 
 
 def load_formation(formation_file):

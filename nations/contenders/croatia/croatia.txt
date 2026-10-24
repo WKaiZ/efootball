@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] VACANT
+
+Third Squad
+
+Starters:
+  [CF] Matija Frigan (CF) rating 71.20 #20
+  [LWF] VACANT
+  [RWF] Ivan Perisic (RWF) rating 93.94 #14
+  [AMF] Martin Baturina (AMF) rating 93.99 #16
+  [CMF] Petar Sučić (CMF) rating 93.96 #17
+  [DMF] Toma Bašić (CMF) rating 72.49 #11
+  [LB] VACANT
+  [CB] Toni Datkovic (CB) rating 69.75 #4
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Ivo Grbic (GK) rating 71.60 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

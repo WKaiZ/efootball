@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Shunsuke Nakamura (AMF) rating 96.64 #14
+
+Third Squad
+
+Starters:
+  [CF] Yoichiro Kakitani (CF) rating 93.97 #11
+  [LMF] Ryunosuke Sato (LMF) rating 93.07 #27
+  [RWF] Junya Ito (AMF) rating 96.50 #14
+  [AMF] Takefusa Kubo (AMF) rating 96.71 #20
+  [CMF] Jun Amano (AMF) rating 91.21 #18
+  [DMF] Ao Tanaka (DMF) rating 92.85 #17
+  [LB] Ryo Hatsuse (LB) rating 92.08 #19
+  [CB] Wataru Endo (CB) rating 93.56 #6
+  [CB] Yugo Tatsuta (CB) rating 91.98 #22
+  [RB] Takehiro Tomiyasu (RB) rating 75.26 #16
+  [GK] Tomoki Hayakawa (GK) rating 96.23 #23
+
+Substitutes:
+  [CF] Kyogo Furuhashi (CF) rating 74.27 #9
+  [LMF] Kaoru Mitoma (LMF) rating 78.32 #7
+  [RWF] Ritsu Doan (RWF) rating 76.45 #10
+  [AMF] Yuito Suzuki (AMF) rating 94.23 #8
+  [CMF] Kodai Sano (CMF) rating 73.25 #28
+  [DMF] Ayumu Seko (DMF) rating 91.46 #3
+  [LB] Kashif Bangnagande (LB) rating 70.25 #5
+  [CB] Koki Machida (CB) rating 74.39 #4
+  [CB] Taiyo Koga (CB) rating 72.75 #21
+  [RB] Shuto Nakano (RB) rating 71.40 #2
+  [GK] Keisuke Osako (GK) rating 94.37 #12
+
+Wildcard:
+  [WILD] Yuki Soma (AMF) rating 93.60 #15

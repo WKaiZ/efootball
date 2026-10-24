@@ -1,33 +1,4 @@
 #!/usr/bin/env python3
-"""Shared Transfermarkt fetch layer for the eFootball, WC26 and league builders.
-
-Transfermarkt refuses datacenter IPs -- GitHub Actions runners in particular --
-without ever saying so: a 2.4KB challenge page under HTTP 200, or a 202 with no
-body at all, depending on the client. The builders used to read that as "this
-player has no portrait": they bumped tm_null and, after three strikes,
-blacklisted the id forever. Through late July 2026 that quietly burned 239 ids
-whose photos exist and froze the shared cache at 909 entries while every daily
-run reported 23/23 "null".
-
-So resolution here is three-way, never two-way:
-
-    a URL   -- portrait found
-    None    -- the page really is a player profile and says there's no portrait
-    Blocked -- anything else; retry later, do NOT record a verdict about the id
-
-"Is a real page" is a positive test (the page has to mention the id we asked
-for, or the search form we submitted), because a block page can plausibly carry
-a default portrait of its own and must never be mistaken for a null.
-
-Requests walk an ordered list of STRATEGIES: the plain hosts, r.jina.ai, and --
-where the workflow provides one via TM_SOCKS_PROXY -- a Cloudflare WARP proxy,
-which is the only route a GitHub runner has (see SOCKS_PROXY below). The first
-strategy to return a real page wins and is remembered for the rest of the
-process, so a blocked host pays the failover cost once rather than on every
-player. Run this file directly to print which strategies work from here:
-
-    python3 scripts/tmfetch.py
-"""
 
 import gzip
 import os
@@ -74,9 +45,6 @@ SEARCH_PATH = "/schnellsuche/ergebnis/schnellsuche?query={q}"
 
 
 def _reader_headers():
-    """r.jina.ai is free but rate-limits hard by client IP. A key (set the
-    JINA_API_KEY secret) lifts that; without one this strategy is best treated
-    as a last resort that may answer 403 under any real load."""
     h = {"User-Agent": UA, "Accept": "text/plain"}
     key = os.environ.get("JINA_API_KEY")
     if key:
@@ -106,11 +74,10 @@ _used = None
 
 
 class Blocked(Exception):
-    """No strategy returned a page we can read. Says nothing about the player."""
+    pass
 
 
 def strategy_used():
-    """Name of the strategy that last answered, for the builders' logs."""
     return _used
 
 
@@ -123,12 +90,6 @@ def _throttle():
 
 
 def _fetch_via_proxy(url, strategy):
-    """Fetch through a SOCKS proxy. urllib can't speak SOCKS, and curl ships on
-    every runner and on macOS, so shell out rather than add a dependency.
-
-    -L matters: Transfermarkt 301s /x/profil/spieler/<id> to the canonical slug
-    URL, so without it every response is an empty redirect body.
-    """
     cmd = ["curl", "-sSL", "--max-time", str(TIMEOUT),
            "--proxy", f"socks5h://{strategy['proxy']}"]
     for k, v in strategy["headers"].items():
@@ -159,14 +120,6 @@ def _fetch(strategy, path):
 
 
 def _attempt(path, classify):
-    """Walk the strategies from the sticky winner onward, handing each response
-    to classify(). classify returns None to mean "this page is not a readable
-    Transfermarkt page, try the next strategy"; anything else it returns
-    (including the sentinel for a genuine negative) is the answer.
-
-    An HTTP error is never read as an answer about the player, 404 included: a
-    host that is fending us off can reply with whatever status it likes, so the
-    only thing an error tells us is that this strategy didn't work."""
     global _current, _used
     order = list(range(_current, len(STRATEGIES))) + list(range(0, _current))
     problems = []
@@ -208,12 +161,6 @@ _NO_PHOTO = object()
 
 
 def _portrait_classifier(tid):
-    """Sort a response into portrait / genuinely-no-portrait / can't-tell.
-
-    Verified against live Transfermarkt (2026-08): a profile echoes
-    "spieler/<id>" back in its canonical link and tabs, an unknown id lands on
-    a generic page that does not, and both carry the site chrome.
-    """
     def classify(html):
         url = _portrait(html, tid)
         if url:
@@ -228,9 +175,6 @@ def _portrait_classifier(tid):
 
 
 def resolve_portrait(tid):
-    """Portrait URL for a Transfermarkt player id, or None if there is no photo
-    to be had -- either the profile says so, or the id no longer resolves.
-    Raises Blocked if no strategy managed to read a Transfermarkt page."""
     tid = str(tid)
     got = _attempt(PROFILE_PATH.format(id=tid), _portrait_classifier(tid))
     return None if got is _NO_PHOTO else got
@@ -240,8 +184,6 @@ _MISS = object()
 
 
 def search_player(name):
-    """Transfermarkt id for a player name, or None if the search genuinely
-    found nobody. Raises Blocked if no strategy returned a search page."""
     path = SEARCH_PATH.format(q=urllib.parse.quote_plus(name))
 
     def classify(html):
@@ -257,7 +199,6 @@ def search_player(name):
 
 
 def _probe_one(strategy, tid):
-    """Test a single strategy in isolation, bypassing the failover in _attempt."""
     try:
         html = _fetch(strategy, PROFILE_PATH.format(id=tid))
     except urllib.error.HTTPError as e:
@@ -271,8 +212,6 @@ def _probe_one(strategy, tid):
 
 
 def probe(argv=()):
-    """Report, per strategy, whether it can read Transfermarkt from this host.
-    Run in CI to find out which strategy the runners can actually use."""
     has_photo = argv[0] if len(argv) > 0 else "2219"
     no_photo = argv[1] if len(argv) > 1 else "1146046"
     print(f"probe: expecting PORTRAIT for #{has_photo}, NULL for #{no_photo}\n")

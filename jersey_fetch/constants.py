@@ -13,6 +13,8 @@ MANUAL_ID_OVERRIDES = {
         "nico gonzalez": {"player_id": "486031", "preserve_name": True},
         "emiliano martinez": {"player_id": "111873", "preserve_name": True},
         "flaco lopez": {"player_id": "844797", "preserve_name": True},
+        "franco vazquez": {"player_id": "76163", "preserve_name": True},
+        "lisandro lopez": {"player_id": "125019", "preserve_name": True},
     },
     "australia": {
         "mohamed toure": {"player_id": "742770", "preserve_name": True},
@@ -38,6 +40,7 @@ MANUAL_ID_OVERRIDES = {
         "carlos augusto": {"player_id": "585982", "preserve_name": True},
         "murillo": {"player_id": "1005649", "preserve_name": True},
         "zico": {"player_id": "117619", "preserve_name": True},
+        "wendell": {"player_id": "228433", "preserve_name": True},
         "estevao": {"player_id": "1056993", "preserve_name": True},
         "wesley": {"player_id": "964580", "preserve_name": True},
         "dodo": {"player_id": "401529", "preserve_name": True},

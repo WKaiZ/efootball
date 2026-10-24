@@ -87,11 +87,11 @@ Either one position per line or a single comma-separated line of 11 positions. I
 CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
 ```
 
-For **contenders**, a second formation may be listed after a blank line. The first block is used for the First Squad; the second block (when present) is used for the Second Squad. If no second block is given, the Second Squad reuses the first formation.
+For **contenders**, up to three formations may be listed, separated by blank lines, used in order for the First, Second, and Third Squad. **Challengers** may list a second block for their starters-only Second Squad. Any squad without its own block reuses the first formation (with no formation file, all use the default).
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. The second squad excludes every *card* picked in the first (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single full squad. **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad**, and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier squads (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a full First Squad plus a Second Squad of 11 starters only (no substitutes or wildcard). **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled.
 
 ---
 

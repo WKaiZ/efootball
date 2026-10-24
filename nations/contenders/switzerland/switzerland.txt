@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Yvon Mvogo (GK) rating 73.80 #12
+
+Third Squad
+
+Starters:
+  [CF] Dan Ndoye (RMF) rating 93.40 #11
+  [LWF] Christian Witzig (LMF) rating 69.43 #6
+  [RWF] VACANT
+  [AMF] Alvyn Sanches (AMF) rating 71.47 #23
+  [CMF] Filip Ugrinic (CMF) rating 74.25 #15
+  [DMF] Anto Grgic (DMF) rating 72.56 #14
+  [LB] VACANT
+  [CB] Adrian Bajrami (CB) rating 72.25 #3
+  [CB] VACANT
+  [RB] Sascha Britschgi (RB) rating 71.15 #2
+  [GK] Anthony Racioppi (GK) rating 73.49 #1
+
+Substitutes:
+  [CF] Andi Zeqiri (CF) rating 72.30 #9
+  [LWF] Joel Monteiro (RMF) rating 71.06 #19
+  [RWF] Albian Ajeti (CF) rating 68.84 #17
+  [AMF] VACANT
+  [CMF] Simon Sohm (CMF) rating 71.72 #7
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Zachary Athekame (RB) rating 70.89 #16
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT
