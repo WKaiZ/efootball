@@ -10,3 +10,12 @@ Starters:
   [CB] Chenjie Zhu (CB) rating 71.58 #5
   [RB] Tian Ming (RB) rating 70.98 #16
   [GK] Junling Yan (GK) rating 71.68 #1
+
+Substitutes:
+  [CF] Yuning Zhang (CF) rating 70.39 #9
+  [AMF] Xizhe Zhang (AMF) rating 71.05 #10
+  [CB] Pengfei Han (CB) rating 71.54 #18
+  [GK] Dianzuo Liu (GK) rating 71.26 #12
+
+Wildcard:
+  [WILD] Dalei Wang (GK) rating 71.22 #14

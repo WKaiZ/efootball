@@ -10,3 +10,13 @@ Starters:
   [CB] Dinh Trong Tran (CB) rating 66.90 #6
   [RB] Van Thanh Vu (RB) rating 67.63 #17
   [GK] Filip Nguyen (GK) rating 70.34 #1
+
+Substitutes:
+  [FW] VACANT
+  [LMF] Van Khang Khuat (LMF) rating 68.12 #11
+  [LB] Van Hau Doan (LB) rating 68.06 #5
+  [GK] Van Viet Nguyen (GK) rating 64.48 #23
+
+Wildcard:
+  [WILD] Tuan Tai Phan (LB) rating 66.87 #24
+  [WILD] Van Nam Dao (CB) rating 66.18 #4

@@ -10,3 +10,12 @@ Starters:
   [CB] Adamo Nagalo (CB) rating 73.46 #4
   [RB] Issa Kaboré (RB) rating 74.08 #9
   [GK] Hervé Koffi (GK) rating 75.66 #16
+
+Substitutes:
+  [RWF] Bertrand Traoré (RWF) rating 72.36 #10
+  [DMF] Gustavo Sangaré (DMF) rating 69.05 #17
+  [CB] Nasser Djiga (CB) rating 72.97 #5
+  [GK] Hillel Konaté (GK) rating 70.50 #1
+
+Wildcard:
+  [WILD] Issoufou Dayo (CB) rating 72.56 #14

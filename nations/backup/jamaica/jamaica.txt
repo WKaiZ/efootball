@@ -10,3 +10,15 @@ Starters:
   [CB] Amari'i Bell (CB) rating 73.18 #4
   [RB] Tayvon Gray (RB) rating 72.46 #19
   [GK] Andre Blake (GK) rating 74.69 #1
+
+Substitutes:
+  [CF] Rumarn Burrell (CF) rating 69.61 #21
+  [MF] VACANT
+  [RB] Kyle Duncan (RB) rating 71.57 #16
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Joel Latibeaudiere (CB) rating 70.76 #15
+  [WILD] Tyreece Campbell (LWF) rating 69.58 #11
+  [WILD] Richard King (CB) rating 69.57 #6
+  [WILD] Trivante Stewart (CF) rating 65.83 #14

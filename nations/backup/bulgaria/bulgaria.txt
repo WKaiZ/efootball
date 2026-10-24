@@ -10,3 +10,12 @@ Starters:
   [CB] Simeon Petrov (CB) rating 70.61 #15
   [RB] Viktor Popov (RB) rating 68.50 #2
   [GK] Dimitar Mitov (GK) rating 71.10 #12
+
+Substitutes:
+  [RWF] Stanislav Ivanov (RWF) rating 70.06 #21
+  [DMF] Georgi Kostadinov (DMF) rating 72.54 #14
+  [CB] Kristian Dimitrov (CB) rating 69.83 #3
+  [GK] Plamen Iliev (GK) rating 69.72 #23
+
+Wildcard:
+  [WILD] Filip Krastev (AMF) rating 71.00 #20

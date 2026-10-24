@@ -10,3 +10,12 @@ Starters:
   [CB] Michael Boxall (CB) rating 71.36 #5
   [RB] Tim Payne (RB) rating 70.54 #2
   [GK] Max Crocombe (GK) rating 71.63 #1
+
+Substitutes:
+  [CF] Kosta Barbarouses (CF) rating 70.68 #17
+  [AMF] Callum McCowatt (AMF) rating 71.86 #20
+  [LB] Ben Old (LB) rating 71.08 #19
+  [GK] Alex Paulsen (GK) rating 71.07 #12
+
+Wildcard:
+  [WILD] Marko Stamenić (DMF) rating 71.68 #8

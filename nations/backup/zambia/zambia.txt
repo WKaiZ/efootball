@@ -10,3 +10,12 @@ Starters:
   [CB] Kabaso Chongo (CB) rating 69.30 #14
   [RB] Mathews Banda (RB) rating 63.97 #15
   [GK] Lawrence Mulenga (GK) rating 66.54 #16
+
+Substitutes:
+  [CF] Jack Lahne (CF) rating 68.12 #7
+  [CMF] Miguel Chaiwa (CMF) rating 68.32 #5
+  [CB] Dominic Chanda (CB) rating 67.89 #21
+  [GK] Willard Mwanza (GK) rating 64.26 #1
+
+Wildcard:
+  [WILD] Frankie Musonda (CB) rating 67.17 #4

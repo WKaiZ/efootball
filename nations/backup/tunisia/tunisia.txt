@@ -10,3 +10,12 @@ Starters:
   [CB] Yassine Meriah (CB) rating 71.71 #4
   [RB] Yan Valery (RB) rating 70.95 #20
   [GK] Aymen Dahmen (GK) rating 71.51 #16
+
+Substitutes:
+  [LWF] Elias Achouri (LWF) rating 72.18 #7
+  [CMF] Mohamed Ali Ben Romdhane (CMF) rating 71.79 #5
+  [LB] Ali Maâloul (LB) rating 72.47 #12
+  [GK] Bechir Ben Said (GK) rating 70.60 #22
+
+Wildcard:
+  [WILD] Sebastian Tounekti (LWF) rating 72.07 #26

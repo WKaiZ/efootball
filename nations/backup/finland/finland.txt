@@ -10,3 +10,12 @@ Starters:
   [CB] Arttu Hoskonen (CB) rating 69.81 #5
   [RB] Nikolai Alho (RB) rating 69.43 #17
   [GK] Lukas Hradecky (GK) rating 78.46 #1
+
+Substitutes:
+  [CF] Marcus Forss (CF) rating 71.18 #19
+  [AMF] Fredrik Jensen (AMF) rating 72.55 #9
+  [CB] Miro Tenho (CB) rating 69.48 #15
+  [GK] Jesse Joronen (GK) rating 73.49 #12
+
+Wildcard:
+  [WILD] Roman Eremenko (AMF) rating 72.18 #32

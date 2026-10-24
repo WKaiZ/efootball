@@ -10,3 +10,12 @@ Starters:
   [CB] David Carmo (CB) rating 76.03 #16
   [RB] Eddie Afonso (RB) rating 64.71 #21
   [GK] Neblú (GK) rating 71.63 #22
+
+Substitutes:
+  [CF] Fabio Abreu (CF) rating 73.73 #20
+  [CMF] Beni Mukendi (CMF) rating 71.71 #15
+  [CB] Gaspar (CB) rating 74.10 #6
+  [GK] Signori Antonio (GK) rating 70.04 #12
+
+Wildcard:
+  [WILD] Buatu (CB) rating 72.46 #3

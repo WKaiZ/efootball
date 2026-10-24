@@ -10,3 +10,12 @@ Starters:
   [CB] Deveron Fonville (CB) rating 69.40 #24
   [RB] Livano Comenencia (RB) rating 70.06 #8
   [GK] VACANT
+
+Substitutes:
+  [CF] Gervane Kastaneer (CF) rating 69.31 #19
+  [MF] VACANT
+  [RB] Shurandy Sambo (RB) rating 69.75 #2
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Ar'jany Martha (RWF) rating 68.31 #15

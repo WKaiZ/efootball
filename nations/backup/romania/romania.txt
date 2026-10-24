@@ -10,3 +10,12 @@ Starters:
   [CB] Andrei Burcă (CB) rating 71.85 #15
   [RB] Andrei Rațiu (RB) rating 76.33 #2
   [GK] Ionuț Radu (GK) rating 92.89 #1
+
+Substitutes:
+  [CF] Denis Drăguș (CF) rating 72.30 #17
+  [AMF] Ianis Hagi (AMF) rating 73.32 #14
+  [RB] Cristian Manea (RB) rating 72.85 #4
+  [GK] Ștefan Târnovanu (GK) rating 71.63 #12
+
+Wildcard:
+  [WILD] Olimpiu Moruțan (RWF) rating 71.59 #21

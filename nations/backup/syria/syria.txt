@@ -10,3 +10,12 @@ Starters:
   [CB] Aiham Ousou (CB) rating 72.47 #4
   [RB] Facundo Mater (RB) rating 70.70 #18
   [GK] VACANT
+
+Substitutes:
+  [CF] Pablo Sabbag (CF) rating 72.23 #9
+  [MF] VACANT
+  [CB] Belal Halbouni (CB) rating 70.95 #12
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

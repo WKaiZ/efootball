@@ -10,3 +10,12 @@ Starters:
   [CB] Alidu Seidu (CB) rating 74.22 #2
   [RB] Tariq Lamptey (RB) rating 73.52 #3
   [GK] Lawrence Ati Zigi (GK) rating 72.59 #1
+
+Substitutes:
+  [LWF] Joseph Paintsil (LWF) rating 76.12 #15
+  [LMF] Christopher Bonsu Baah (LMF) rating 72.90 #7
+  [CB] Jerome Opoku (CB) rating 73.14 #18
+  [GK] Benjamin Asare (GK) rating 68.73 #16
+
+Wildcard:
+  [WILD] Abdul Mumin (CB) rating 73.11 #4

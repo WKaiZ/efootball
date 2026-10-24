@@ -10,3 +10,12 @@ Starters:
   [CB] Rebin Sulaka (CB) rating 69.00 #2
   [RB] Mustafa Saadoon (RB) rating 65.62 #25
   [GK] Jalal Hassan (GK) rating 69.57 #12
+
+Substitutes:
+  [CF] Mohanad Ali (CF) rating 70.69 #10
+  [CMF] Kevin Yakob (CMF) rating 68.84 #19
+  [CB] Zaid Tahseen (CB) rating 68.93 #6
+  [GK] Mohammed Salih (GK) rating 66.30 #1
+
+Wildcard:
+  [WILD] Mohammed Jawad (CF) rating 70.58 #9

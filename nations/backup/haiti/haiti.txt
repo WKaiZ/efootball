@@ -10,3 +10,12 @@ Starters:
   [CB] Wilguens Paugain (RB) rating 65.38 #24
   [RB] Carlens Arcus (RB) rating 71.56 #2
   [GK] Alexandre Pierre (GK) rating 66.83 #1
+
+Substitutes:
+  [LWF] Fafà Picault (LWF) rating 71.73 #11
+  [MF] VACANT
+  [DF] VACANT
+  [GK] Grant Leveille (GK) rating 61.31 #23
+
+Wildcard:
+  [WILD] Louicius Deedson (RWF) rating 70.03 #16

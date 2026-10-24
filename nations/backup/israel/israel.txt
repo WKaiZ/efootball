@@ -7,6 +7,15 @@ Starters:
   [DMF] Dor Peretz (DMF) rating 71.81 #8
   [LB] Roy Revivo (LB) rating 71.28 #3
   [CB] Raz Shlomo (CB) rating 73.35 #4
-  [CB] Idan Nachmias (CB) rating 71.08 #5
+  [CB] Or Blorian (CB) rating 72.32 #21
   [RB] Ilay Feingold (RB) rating 72.36 #17
   [GK] Daniel Peretz (GK) rating 72.59 #1
+
+Substitutes:
+  [CF] Tai Baribo (CF) rating 74.42 #9
+  [RMF] Anan Khalaili (RMF) rating 73.20 #13
+  [RB] Eli Dasa (RB) rating 71.18 #2
+  [GK] Omri Glazer (GK) rating 71.00 #18
+
+Wildcard:
+  [WILD] Idan Toklomati (CF) rating 73.31 #7

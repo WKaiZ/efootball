@@ -10,3 +10,12 @@ Starters:
   [CB] Visar Musliu (CB) rating 72.35 #6
   [RB] Bojan Ilievski (RB) rating 69.18 #2
   [GK] Stole Dimitrievski (GK) rating 75.49 #23
+
+Substitutes:
+  [CF] Bojan Miovski (CF) rating 73.33 #9
+  [AMF] Enis Bardhi (AMF) rating 73.22 #10
+  [CB] Gjoko Zajkov (CB) rating 71.33 #5
+  [GK] Damjan Siskovski (GK) rating 71.63 #12
+
+Wildcard:
+  [WILD] Dejan Iliev (GK) rating 71.50 #1

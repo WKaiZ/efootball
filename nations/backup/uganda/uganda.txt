@@ -10,3 +10,13 @@ Starters:
   [CB] Toby Sibbick (CB) rating 70.19 #5
   [RB] VACANT
   [GK] Denis Onyango (GK) rating 68.61 #18
+
+Substitutes:
+  [LWF] Rogers Mato (LWF) rating 67.92 #7
+  [DMF] Kenneth Semakula (DMF) rating 65.73 #4
+  [CB] Rogers Torach (CB) rating 67.83 #3
+  [GK] Salim Magoola (GK) rating 68.09 #19
+
+Wildcard:
+  [WILD] Jude Ssemugabi (CF) rating 67.61 #22
+  [WILD] Ivan Ahimbisibwe (CF) rating 67.29 #28

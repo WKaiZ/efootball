@@ -10,3 +10,12 @@ Starters:
   [CB] Dara O'Shea (CB) rating 74.02 #5
   [RB] Matt Doherty (RB) rating 75.02 #2
   [GK] Caoimhín Kelleher (GK) rating 94.38 #1
+
+Substitutes:
+  [LWF] Mikey Johnston (LWF) rating 73.43 #14
+  [DMF] Josh Cullen (DMF) rating 74.65 #6
+  [CB] Jake O'Brien (CB) rating 73.88 #12
+  [GK] Mark Travers (GK) rating 73.88 #23
+
+Wildcard:
+  [WILD] Gavin Bazunu (GK) rating 73.60 #16

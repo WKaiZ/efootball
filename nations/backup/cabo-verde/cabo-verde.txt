@@ -10,3 +10,12 @@ Starters:
   [CB] Ivanildo Fernandes (CB) rating 69.18 #14
   [RB] Steven Moreira (RB) rating 73.46 #22
   [GK] Vozinha (GK) rating 96.99 #1
+
+Substitutes:
+  [RWF] Fabrício Garcia (RWF) rating 69.26 #17
+  [RMF] Telmo Arcanjo (RMF) rating 71.91 #18
+  [RB] Wagner Pina (RB) rating 71.64 #2
+  [GK] CJ dos Santos (GK) rating 72.14 #23
+
+Wildcard:
+  [WILD] Sidny Lopes Cabral (RB) rating 71.26 #13

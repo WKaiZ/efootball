@@ -10,3 +10,12 @@ Starters:
   [CB] Brynjar Ingi Bjarnason (CB) rating 68.73 #19
   [RB] Dagur Dan Thórhallsson (RB) rating 71.19 #15
   [GK] Elías Ólafsson (GK) rating 73.34 #1
+
+Substitutes:
+  [CF] Orri Óskarsson (CF) rating 73.32 #9
+  [LMF] Bjarki Bjarkason (LMF) rating 68.86 #17
+  [RB] Victor Pálsson (RB) rating 69.55 #4
+  [GK] Hákon Valdimarsson (GK) rating 71.94 #12
+
+Wildcard:
+  [WILD] Rúnar Alex Rúnarsson (GK) rating 71.36 #13

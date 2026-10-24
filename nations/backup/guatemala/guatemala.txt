@@ -2,11 +2,20 @@ Starters:
   [CF] Rubio Rubín (CF) rating 71.29 #9
   [LWF] Antonio López (AMF) rating 66.79 #18
   [RWF] Nathaniel Méndez-Laing (RWF) rating 69.64 #11
-  [AMF] Olger Escobar (AMF) rating 67.47 #10
+  [AMF] Olger Escobar (AMF) rating 69.01 #10
   [CMF] Stheven Robles (CMF) rating 65.77 #13
   [DMF] Jonathan Franco (DMF) rating 64.25 #22
   [LB] José Morales (LB) rating 65.55 #16
   [CB] José Carlos Pinto (CB) rating 68.32 #4
   [CB] Nicolás Samayoa (CB) rating 68.18 #3
-  [RB] Aarón Herrera (RB) rating 72.60 #7
+  [RB] Aarón Herrera (RB) rating 70.98 #7
   [GK] Nicholas Hagen (GK) rating 70.54 #1
+
+Substitutes:
+  [CF] Darwin Lom (CF) rating 68.07 #14
+  [AMF] Pedro Altán (AMF) rating 65.86 #5
+  [RB] Allen Yanes (RB) rating 65.99 #15
+  [GK] Luis Morán (GK) rating 66.26 #21
+
+Wildcard:
+  [WILD] Arquímides Ordóñez (CF) rating 66.93 #19

@@ -10,3 +10,12 @@ Starters:
   [CB] VACANT
   [RB] VACANT
   [GK] VACANT
+
+Substitutes:
+  [FW] VACANT
+  [MF] VACANT
+  [DF] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

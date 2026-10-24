@@ -10,3 +10,14 @@ Starters:
   [CB] Anel Ahmedhodzic (CB) rating 74.36 #16
   [RB] Amar Dedic (RB) rating 74.78 #7
   [GK] Vladan Kovacevic (GK) rating 73.61 #1
+
+Substitutes:
+  [LWF] Luka Menalo (LWF) rating 71.05 #10
+  [LMF] Miroslav Stevanovic (LMF) rating 72.84 #13
+  [CB] Adrian Barisic (CB) rating 72.66 #3
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Tarik Muharemović (CB) rating 72.39 #4
+  [WILD] Nihad Mujakic (CB) rating 71.00 #2
+  [WILD] Vladan Danilović (DMF) rating 70.24 #9

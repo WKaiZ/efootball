@@ -10,3 +10,12 @@ Starters:
   [CB] Tomas Holes (CB) rating 75.36 #3
   [RB] Vladimír Coufal (RB) rating 92.96 #5
   [GK] Petr Cech (GK) rating 99.70 #1
+
+Substitutes:
+  [CF] Patrik Schick (CF) rating 94.47 #19
+  [AMF] Pavel Sulc (AMF) rating 94.39 #15
+  [CB] David Zima (CB) rating 72.52 #2
+  [GK] Lukas Hornicek (GK) rating 74.81 #16
+
+Wildcard:
+  [WILD] Lukas Provod (AMF) rating 75.92 #12

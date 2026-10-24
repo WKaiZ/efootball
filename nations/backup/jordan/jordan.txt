@@ -10,3 +10,12 @@ Starters:
   [CB] Husam Abu Dahab (CB) rating 70.68 #4
   [RB] Ehsan Haddad (RB) rating 68.15 #23
   [GK] Yazeed Abulaila (GK) rating 69.04 #1
+
+Substitutes:
+  [LWF] Aref Al-Haj (LWF) rating 70.02 #10
+  [RMF] Mousa Al-Tamari (RMF) rating 74.23 #18
+  [CB] Saleem Obaid (CB) rating 70.32 #17
+  [GK] Noor Bane Ataya (GK) rating 67.46 #12
+
+Wildcard:
+  [WILD] Ali Olwan (CF) rating 69.64 #9

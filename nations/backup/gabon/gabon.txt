@@ -10,3 +10,12 @@ Starters:
   [CB] Aaron Appindangoyé (CB) rating 70.66 #2
   [RB] Anthony Oyono (RB) rating 70.23 #3
   [GK] Loyce Mbaba (GK) rating 68.82 #23
+
+Substitutes:
+  [RWF] Shavy Babicka (RWF) rating 70.58 #10
+  [RMF] David Sambissa (RMF) rating 71.24 #7
+  [CB] Michel Mboula (CB) rating 70.24 #6
+  [GK] François Bekale (GK) rating 65.98 #16
+
+Wildcard:
+  [WILD] André Poko (DMF) rating 70.41 #17

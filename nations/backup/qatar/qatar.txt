@@ -10,3 +10,12 @@ Starters:
   [CB] Boualem Khoukhi (CB) rating 72.44 #16
   [RB] Pedro Miguel (RB) rating 72.27 #2
   [GK] Meshaal Barsham (GK) rating 71.78 #22
+
+Substitutes:
+  [CF] Ahmed Alaaeldin (CF) rating 69.71 #7
+  [AMF] Ali Asad (AMF) rating 71.13 #8
+  [LB] Mohammed Waad (LB) rating 71.33 #4
+  [GK] Mahmoud Abunada (GK) rating 70.19 #1
+
+Wildcard:
+  [WILD] Bassam Al-Rawi (CB) rating 70.78 #15

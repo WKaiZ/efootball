@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Deep-merge a conflicted JSON file during git rebase/merge.
-
-During a conflict, stage 2 is "ours" and stage 3 is "theirs". In a rebase,
-ours is the branch being rebased onto (upstream) and theirs is the commit
-being replayed. We keep upstream as the base and overlay the replayed
-commit's keys so photo-cache entries from both sides survive.
-"""
 
 from __future__ import annotations
 

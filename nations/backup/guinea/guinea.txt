@@ -1,7 +1,7 @@
 Starters:
   [CF] Serhou Guirassy (CF) rating 95.97 #9
   [LWF] Aliou Baldé (LWF) rating 69.72 #10
-  [RWF] Ousmane Camara (SS) rating 68.46 #25
+  [RWF] Kandet Diawara (LWF) rating 68.30 #20
   [AMF] Yadaly Diaby (RWF) rating 68.30 #11
   [CMF] Ilaix Moriba (CMF) rating 94.33 #7
   [DMF] Abdoulaye Touré (DMF) rating 73.51 #23
@@ -10,3 +10,13 @@ Starters:
   [CB] Saïdou Sow (CB) rating 70.98 #4
   [RB] Ibrahim Diakité (RB) rating 68.43 #2
   [GK] Ibrahim Koné (GK) rating 66.60 #22
+
+Substitutes:
+  [CF] Ousmane Camara (CF) rating 69.91 #25
+  [DMF] Amadou Diawara (DMF) rating 72.59 #6
+  [RB] Dembo Sylla (RB) rating 67.94 #17
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Ibrahima Sory Bangoura (DMF) rating 67.56 #3
+  [WILD] Abdoul Traoré (CF) rating 65.40 #8

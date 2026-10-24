@@ -10,3 +10,12 @@ Starters:
   [CB] Igor Vujacic (CB) rating 73.04 #5
   [RB] Marko Vukcevic (RB) rating 70.61 #4
   [GK] Lazar Carević (GK) rating 72.51 #12
+
+Substitutes:
+  [SS] Stevan Jovetić (SS) rating 73.50 #10
+  [CMF] Nebojsa Kosovic (CMF) rating 71.28 #18
+  [CB] Slobodan Rubežić (CB) rating 71.77 #6
+  [GK] Danijel Petkovic (GK) rating 71.00 #1
+
+Wildcard:
+  [WILD] Stefan Mugosa (CF) rating 72.72 #19

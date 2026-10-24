@@ -10,3 +10,12 @@ Starters:
   [CB] Carlos Zambrano (CB) rating 72.69 #5
   [RB] Luis Advíncula (RB) rating 74.38 #17
   [GK] Pedro Gallese (GK) rating 74.43 #1
+
+Substitutes:
+  [CF] Paolo Guerrero (CF) rating 71.68 #9
+  [RMF] Andy Polo (RMF) rating 73.18 #7
+  [CB] Miguel Araujo (CB) rating 71.56 #15
+  [GK] Diego Enríquez (GK) rating 71.10 #21
+
+Wildcard:
+  [WILD] Wilder Cartagena (DMF) rating 71.75 #16

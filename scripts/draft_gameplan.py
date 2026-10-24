@@ -9,10 +9,55 @@ sys.path.insert(0, str(ROOT))
 import gameplan.formation as formation
 from gameplan.builder import build_gameplan
 from gameplan.constants import DB_PATH
+from gameplan.models import Assignment
+from gameplan.jerseys import jersey_prefs_for_player
 from gameplan.data import load_roles, load_formations, resolve_country_paths
 
 
-def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False, omit_vacant_starters=False, max_starters=None):
+BENCH_GROUPS = (
+    ("FW", frozenset({"LWF", "RWF", "CF", "SS"})),
+    ("MF", frozenset({"AMF", "CMF", "DMF", "LMF", "RMF"})),
+    ("DF", frozenset({"LB", "CB", "RB"})),
+    ("GK", frozenset({"GK"})),
+)
+
+
+def compact_backup(conn, roles_by_pos, starter_asg):
+    starters = [a for a in starter_asg if a is not None]
+    used_ids = {a.player.player_id for a in starters}
+    used_numbers = {a.jersey for a in starters}
+    cards = sorted(
+        (r for roles in roles_by_pos.values() for r in roles),
+        key=lambda r: r.rating, reverse=True,
+    )
+
+    def pick(slot_for, eligible):
+        for r in cards:
+            if r.player_id in used_ids or not eligible(r):
+                continue
+            most_recent, prefs = jersey_prefs_for_player(conn, r)
+            num = most_recent if r.recent and most_recent not in used_numbers else None
+            if num is None:
+                num = next((n for n in prefs if n not in used_numbers), None)
+            if num is None:
+                continue
+            used_ids.add(r.player_id)
+            used_numbers.add(num)
+            return Assignment(slot=slot_for(r), player=r, jersey=num)
+        return None
+
+    bench = [pick(lambda r: r.position, lambda r, g=group: r.position in g) for _, group in BENCH_GROUPS]
+    vacant = sum(1 for a in starter_asg + bench if a is None)
+    wildcards = []
+    for _ in range(1 + vacant):
+        wildcard = pick(lambda r: "WILD", lambda r: True)
+        if wildcard is None:
+            break
+        wildcards.append(wildcard)
+    return bench, wildcards
+
+
+def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False, omit_vacant_starters=False, max_starters=None, compact_bench=False):
     lines = []
     lines.append("Starters:")
     starter_pairs = list(zip(slots, starter_asg))
@@ -32,8 +77,23 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     if starters_only:
         return lines
 
-    lines.append("")
-    lines.append("Substitutes:")
+    if compact_bench:
+        lines.append("")
+        lines.append("Substitutes:")
+        for label, group in BENCH_GROUPS:
+            a = sub_asg[BENCH_GROUPS.index((label, group))]
+            if a is None:
+                lines.append(f"  [{label}] VACANT")
+                continue
+            lines.append(
+                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
+            )
+        sub_asg = []
+        slots = []
+
+    if not compact_bench:
+        lines.append("")
+        lines.append("Substitutes:")
     for slot, a in zip(slots, sub_asg):
         if a is None:
             lines.append(f"  [{slot}] VACANT")
@@ -127,11 +187,13 @@ def main():
             lines.append("")
             lines.extend(format_squad(starter_asg2, sub_asg2, wildcard_asgs2, second_slots))
         else:
+            if _country_group(out_path) == "backup":
+                sub_asg, wildcard_asgs = compact_backup(conn, roles_by_pos, starter_asg)
             lines = format_squad(
                 starter_asg, sub_asg, wildcard_asgs, primary_formation,
-                starters_only=_country_group(out_path) in {"backup", "reserve"},
+                starters_only=_country_group(out_path) == "reserve",
                 omit_vacant_starters=_country_group(out_path) == "reserve",
-                max_starters=1 if _country_group(out_path) == "reserve" else None,
+                compact_bench=_country_group(out_path) == "backup",
             )
 
         text = "\n".join(lines) + "\n"

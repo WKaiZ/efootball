@@ -10,3 +10,12 @@ Starters:
   [CB] Saba Sazonov (CB) rating 70.46 #20
   [RB] Giorgi Gocholeishvili (RB) rating 70.36 #26
   [GK] Giorgi Mamardashvili (GK) rating 95.25 #1
+
+Substitutes:
+  [LWF] Zuriko Davitashvili (LWF) rating 73.22 #9
+  [AMF] Gabriel Sigua (AMF) rating 68.32 #19
+  [CB] Saba Goglichidze (CB) rating 69.72 #5
+  [GK] Luka Gugeshashvili (GK) rating 70.67 #23
+
+Wildcard:
+  [WILD] Giorgi Tsitaishvili (LWF) rating 72.16 #21

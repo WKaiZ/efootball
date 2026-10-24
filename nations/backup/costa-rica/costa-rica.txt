@@ -10,3 +10,12 @@ Starters:
   [CB] Francisco Calvo (CB) rating 71.99 #15
   [RB] Haxzel Quirós (RB) rating 68.78 #20
   [GK] Keylor Navas (GK) rating 77.66 #1
+
+Substitutes:
+  [CF] Warren Madrigal (CF) rating 70.96 #17
+  [RMF] Carlos Mora (RMF) rating 70.89 #22
+  [CB] Kendall Waston (CB) rating 71.13 #19
+  [GK] Patrick Sequeira (GK) rating 71.55 #23
+
+Wildcard:
+  [WILD] Julio Cascante (CB) rating 70.74 #6

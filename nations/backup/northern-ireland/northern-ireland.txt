@@ -10,3 +10,15 @@ Starters:
   [CB] Paddy McNair (CB) rating 73.28 #17
   [RB] Conor Bradley (RB) rating 94.36 #2
   [GK] Pierce Charles (GK) rating 69.36 #1
+
+Substitutes:
+  [FW] VACANT
+  [CMF] Ethan Galbraith (CMF) rating 73.12 #20
+  [RB] Trai Hume (RB) rating 93.05 #5
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Ali McCann (CMF) rating 71.03 #16
+  [WILD] Eoin Toal (CB) rating 70.65 #3
+  [WILD] Justin Devenny (CMF) rating 70.60 #15
+  [WILD] Paul Smyth (RMF) rating 70.17 #8

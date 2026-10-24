@@ -63,12 +63,26 @@ MANUAL_ID_OVERRIDES = {
         "danilo santos": "808509",
         "serginho": "5819",
     },
+    "bulgaria": {
+        "stanislav ivanov": "412537",
+    },
     "burkina-faso": {
         "lassina traore": "551695",
+        "mohamed konate": "457743",
     },
     "cabo-verde": {
         "david costa": "1160599",
         "ivanildo fernandes": "340524",
+    },
+    "finland": {
+        "fredrik jensen": "249157",
+    },
+    "honduras": {
+        "david ruiz": "914681",
+        "luis lopez": "314941",
+    },
+    "jamaica": {
+        "richard king": "909017",
     },
     "portugal": {
         "pepe": "14132",
@@ -95,6 +109,7 @@ MANUAL_ID_OVERRIDES = {
     "china-pr": {
         "serginho": "329013",
         "fernandinho": "230937",
+        "alan": "73460",
     },
     "italy": {
         "luca pellegrini": "346567",
@@ -178,6 +193,7 @@ MANUAL_ID_OVERRIDES = {
     "guatemala": {
         "antonio lopez": "599909",
         "jose morales": "354673",
+        "luis moran": "690420",
     },
     "guinea-bissau": {
         "beto": "595809",
@@ -431,7 +447,6 @@ def parse_line(line, line_no):
 
 
 def replace_country_game_data(conn, country_name, rows):
-    """Replace one country's rows atomically after its source data is validated."""
     savepoint = "replace_country_game_data"
     conn.execute(f"SAVEPOINT {savepoint}")
     try:

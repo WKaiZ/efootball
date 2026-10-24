@@ -10,3 +10,12 @@ Starters:
   [CB] Mohamed Tijani (CB) rating 69.23 #13
   [RB] Tamimou Ouorou (RB) rating 66.33 #3
   [GK] Marcel Dandjinou (GK) rating 67.81 #1
+
+Substitutes:
+  [CF] Aiyegun Tosin (CF) rating 71.83 #10
+  [RMF] Jodel Dossou (RMF) rating 70.58 #20
+  [CB] Moïse Adilehou (CB) rating 66.96 #4
+  [GK] Saturnin Allagbé (GK) rating 67.71 #16
+
+Wildcard:
+  [WILD] Andréas Hountondji (CF) rating 69.82 #17

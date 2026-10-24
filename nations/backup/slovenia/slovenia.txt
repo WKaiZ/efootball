@@ -10,3 +10,12 @@ Starters:
   [CB] David Brekalo (CB) rating 72.57 #23
   [RB] Petar Stojanović (RB) rating 71.23 #20
   [GK] Jan Oblak (GK) rating 95.94 #1
+
+Substitutes:
+  [CF] Zan Vipotnik (CF) rating 74.46 #17
+  [CMF] Adam Gnezda Cerin (CMF) rating 71.94 #22
+  [CB] Vanja Drkusic (CB) rating 72.09 #21
+  [GK] Igor Vekic (GK) rating 69.36 #16
+
+Wildcard:
+  [WILD] Andraz Sporar (CF) rating 73.78 #9
