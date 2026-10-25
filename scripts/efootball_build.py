@@ -554,7 +554,7 @@ def card_history(squad_texts, pool_texts, squad_now, pool_now, today):
             if sq or pl:
                 names[k[0]] = (sq or pl)[0]
             snap = {"a": sq[1] if sq else [], "p": pl[1] if pl else None}
-            if snap != last.get(k):
+            if not snaps_close(snap, last.get(k)):
                 hist.setdefault(k, []).append({"d": d, **snap})
                 last[k] = snap
     _join_position_changes(hist)
@@ -591,10 +591,48 @@ def squad_history(texts, current, today):
     dropouts.sort(key=lambda d: (d["dropped"], d["rating"], d["name"], d["pos"]), reverse=True)
     return callups, joined, dropouts
 
+RATING_TOLERANCE = 1.0
+_SIG_RATING_RES = (re.compile(r"^(.*? rating )(\d+(?:\.\d+)?)(.*)$"),
+                   re.compile(r"^([^,\[\]]+,\s*[A-Z]+,\s*)(\d+(?:\.\d+)?)(.*)$"))
+
+def _split_rating(sig):
+    text = sig[1] if isinstance(sig, tuple) else sig
+    for rx in _SIG_RATING_RES:
+        m = rx.match(text)
+        if m:
+            base = m[1] + "#" + m[3]
+            return ((sig[0], base) if isinstance(sig, tuple) else base), float(m[2])
+    return sig, None
+
+def sig_in(sig, sigs):
+    if sig in sigs:
+        return True
+    base, rating = _split_rating(sig)
+    if rating is None:
+        return False
+    for other in sigs:
+        ob, orating = _split_rating(other)
+        if orating is not None and ob == base and abs(orating - rating) <= RATING_TOLERANCE:
+            return True
+    return False
+
+def snaps_close(a, b):
+    if a is None or b is None:
+        return a == b
+    if len(a["a"]) != len(b["a"]) or (a["p"] is None) != (b["p"] is None):
+        return False
+    for x, y in zip(a["a"], b["a"]):
+        if x[:4] != y[:4] or abs(x[4] - y[4]) > RATING_TOLERANCE:
+            return False
+    if a["p"] is not None:
+        if a["p"][1:] != b["p"][1:] or abs(a["p"][0] - b["p"][0]) > RATING_TOLERANCE:
+            return False
+    return True
+
 def compute_since(versions, sig):
     since = None
     for date, sigs in versions:
-        if sig in sigs:
+        if sig_in(sig, sigs):
             since = date
         else:
             break
