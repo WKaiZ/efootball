@@ -12,9 +12,9 @@ Starters:
   [GK] VACANT
 
 Substitutes:
-  [CF] Pablo Sabbag (CF) rating 72.23 #9
+  [FW] Pablo Sabbag (CF) rating 72.23 #9
   [MF] VACANT
-  [CB] Belal Halbouni (CB) rating 70.95 #12
+  [DF] Belal Halbouni (CB) rating 70.95 #12
   [GK] VACANT
 
 Wildcard:

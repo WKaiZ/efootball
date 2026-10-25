@@ -12,9 +12,9 @@ Starters:
   [GK] Vozinha (GK) rating 96.99 #1
 
 Substitutes:
-  [RWF] Fabrício Garcia (RWF) rating 69.26 #17
-  [RMF] Telmo Arcanjo (RMF) rating 71.91 #18
-  [RB] Wagner Pina (RB) rating 71.64 #2
+  [FW] Fabrício Garcia (RWF) rating 69.26 #17
+  [MF] Telmo Arcanjo (RMF) rating 71.91 #18
+  [DF] Wagner Pina (RB) rating 71.64 #2
   [GK] CJ dos Santos (GK) rating 72.14 #23
 
 Wildcard:

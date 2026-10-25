@@ -12,9 +12,9 @@ Starters:
   [GK] Dimitar Mitov (GK) rating 71.10 #12
 
 Substitutes:
-  [RWF] Stanislav Ivanov (RWF) rating 70.06 #21
-  [DMF] Georgi Kostadinov (DMF) rating 72.54 #14
-  [CB] Kristian Dimitrov (CB) rating 69.83 #3
+  [FW] Stanislav Ivanov (RWF) rating 70.06 #21
+  [MF] Georgi Kostadinov (DMF) rating 72.54 #14
+  [DF] Kristian Dimitrov (CB) rating 69.83 #3
   [GK] Plamen Iliev (GK) rating 69.72 #23
 
 Wildcard:

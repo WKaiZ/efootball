@@ -12,9 +12,9 @@ Starters:
   [GK] Aymen Dahmen (GK) rating 71.51 #16
 
 Substitutes:
-  [LWF] Elias Achouri (LWF) rating 72.18 #7
-  [CMF] Mohamed Ali Ben Romdhane (CMF) rating 71.79 #5
-  [LB] Ali Maâloul (LB) rating 72.47 #12
+  [FW] Elias Achouri (LWF) rating 72.18 #7
+  [MF] Mohamed Ali Ben Romdhane (CMF) rating 71.79 #5
+  [DF] Ali Maâloul (LB) rating 72.47 #12
   [GK] Bechir Ben Said (GK) rating 70.60 #22
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Elías Ólafsson (GK) rating 73.34 #1
 
 Substitutes:
-  [CF] Orri Óskarsson (CF) rating 73.32 #9
-  [LMF] Bjarki Bjarkason (LMF) rating 68.86 #17
-  [RB] Victor Pálsson (RB) rating 69.55 #4
+  [FW] Orri Óskarsson (CF) rating 73.32 #9
+  [MF] Bjarki Bjarkason (LMF) rating 68.86 #17
+  [DF] Victor Pálsson (RB) rating 69.55 #4
   [GK] Hákon Valdimarsson (GK) rating 71.94 #12
 
 Wildcard:

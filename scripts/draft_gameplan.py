@@ -31,26 +31,41 @@ def compact_backup(conn, roles_by_pos, starter_asg):
         key=lambda r: r.rating, reverse=True,
     )
 
-    def pick(slot_for, eligible):
-        for r in cards:
-            if r.player_id in used_ids or not eligible(r):
-                continue
-            most_recent, prefs = jersey_prefs_for_player(conn, r)
-            num = most_recent if r.recent and most_recent not in used_numbers else None
-            if num is None:
-                num = next((n for n in prefs if n not in used_numbers), None)
-            if num is None:
-                continue
-            used_ids.add(r.player_id)
-            used_numbers.add(num)
-            return Assignment(slot=slot_for(r), player=r, jersey=num)
+    def pick(slot_for, tiers):
+        for eligible in tiers:
+            for r in cards:
+                if r.player_id in used_ids:
+                    continue
+                matched = eligible(r)
+                if not matched:
+                    continue
+                most_recent, prefs = jersey_prefs_for_player(conn, r)
+                num = most_recent if r.recent and most_recent not in used_numbers else None
+                if num is None:
+                    num = next((n for n in prefs if n not in used_numbers), None)
+                if num is None:
+                    continue
+                used_ids.add(r.player_id)
+                used_numbers.add(num)
+                return Assignment(slot=slot_for(r, matched), player=r, jersey=num)
         return None
 
-    bench = [pick(lambda r: r.position, lambda r, g=group: r.position in g) for _, group in BENCH_GROUPS]
+    def tier(group, attr):
+        def eligible(r):
+            if attr is None:
+                return r.position if r.position in group else None
+            return next((p for p in getattr(r, attr) or [] if p in group), None)
+        return eligible
+
+    bench = [None] * len(BENCH_GROUPS)
+    for attr in (None, "proficient_positions", "semiproficient_positions"):
+        for i, (label, group) in enumerate(BENCH_GROUPS):
+            if bench[i] is None:
+                bench[i] = pick(lambda r, m, label=label: label, [tier(group, attr)])
     vacant = sum(1 for a in starter_asg + bench if a is None)
     wildcards = []
     for _ in range(1 + vacant):
-        wildcard = pick(lambda r: "WILD", lambda r: True)
+        wildcard = pick(lambda r, m: "WILD", [lambda r: True])
         if wildcard is None:
             break
         wildcards.append(wildcard)

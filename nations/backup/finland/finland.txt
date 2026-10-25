@@ -12,9 +12,9 @@ Starters:
   [GK] Lukas Hradecky (GK) rating 78.46 #1
 
 Substitutes:
-  [CF] Marcus Forss (CF) rating 71.18 #19
-  [AMF] Fredrik Jensen (AMF) rating 72.55 #9
-  [CB] Miro Tenho (CB) rating 69.48 #15
+  [FW] Marcus Forss (CF) rating 71.18 #19
+  [MF] Fredrik Jensen (AMF) rating 72.55 #9
+  [DF] Miro Tenho (CB) rating 69.48 #15
   [GK] Jesse Joronen (GK) rating 73.49 #12
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Ibrahim Al-Mukhaini (GK) rating 69.08 #1
 
 Substitutes:
-  [CF] Muhsen Al-Ghassani (CF) rating 67.44 #11
-  [RMF] Jameel Al-Yahmadi (RMF) rating 70.08 #10
-  [LB] Ali Al-Busaidi (LB) rating 67.74 #17
+  [FW] Muhsen Al-Ghassani (CF) rating 67.44 #11
+  [MF] Jameel Al-Yahmadi (RMF) rating 70.08 #10
+  [DF] Ali Al-Busaidi (LB) rating 67.74 #17
   [GK] Faiyz Al-Rusheidi (GK) rating 68.05 #18
 
 Wildcard:

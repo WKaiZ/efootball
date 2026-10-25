@@ -12,13 +12,12 @@ Starters:
   [GK] Andre Blake (GK) rating 74.69 #1
 
 Substitutes:
-  [CF] Rumarn Burrell (CF) rating 69.61 #21
-  [MF] VACANT
-  [RB] Kyle Duncan (RB) rating 71.57 #16
+  [FW] Rumarn Burrell (CF) rating 69.61 #21
+  [MF] Tyreece Campbell (LWF) rating 69.58 #11
+  [DF] Kyle Duncan (RB) rating 71.57 #16
   [GK] VACANT
 
 Wildcard:
   [WILD] Joel Latibeaudiere (CB) rating 70.76 #15
-  [WILD] Tyreece Campbell (LWF) rating 69.58 #11
   [WILD] Richard King (CB) rating 69.57 #6
   [WILD] Trivante Stewart (CF) rating 65.83 #14

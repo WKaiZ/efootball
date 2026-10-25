@@ -12,9 +12,9 @@ Starters:
   [GK] Nicholas Hagen (GK) rating 70.54 #1
 
 Substitutes:
-  [CF] Darwin Lom (CF) rating 68.07 #14
-  [AMF] Pedro Altán (AMF) rating 65.86 #5
-  [RB] Allen Yanes (RB) rating 65.99 #15
+  [FW] Darwin Lom (CF) rating 68.07 #14
+  [MF] Pedro Altán (AMF) rating 65.86 #5
+  [DF] Allen Yanes (RB) rating 65.99 #15
   [GK] Luis Morán (GK) rating 66.26 #21
 
 Wildcard:

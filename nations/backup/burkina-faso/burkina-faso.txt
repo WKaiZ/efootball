@@ -12,9 +12,9 @@ Starters:
   [GK] Hervé Koffi (GK) rating 75.66 #16
 
 Substitutes:
-  [RWF] Bertrand Traoré (RWF) rating 72.36 #10
-  [DMF] Gustavo Sangaré (DMF) rating 69.05 #17
-  [CB] Nasser Djiga (CB) rating 72.97 #5
+  [FW] Bertrand Traoré (RWF) rating 72.36 #10
+  [MF] Gustavo Sangaré (DMF) rating 69.05 #17
+  [DF] Nasser Djiga (CB) rating 72.97 #5
   [GK] Hillel Konaté (GK) rating 70.50 #1
 
 Wildcard:

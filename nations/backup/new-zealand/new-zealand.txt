@@ -12,9 +12,9 @@ Starters:
   [GK] Max Crocombe (GK) rating 71.63 #1
 
 Substitutes:
-  [CF] Kosta Barbarouses (CF) rating 70.68 #17
-  [AMF] Callum McCowatt (AMF) rating 71.86 #20
-  [LB] Ben Old (LB) rating 71.08 #19
+  [FW] Kosta Barbarouses (CF) rating 70.68 #17
+  [MF] Callum McCowatt (AMF) rating 71.86 #20
+  [DF] Ben Old (LB) rating 71.08 #19
   [GK] Alex Paulsen (GK) rating 71.07 #12
 
 Wildcard:

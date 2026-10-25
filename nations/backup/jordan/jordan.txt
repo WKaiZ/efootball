@@ -12,9 +12,9 @@ Starters:
   [GK] Yazeed Abulaila (GK) rating 69.04 #1
 
 Substitutes:
-  [LWF] Aref Al-Haj (LWF) rating 70.02 #10
-  [RMF] Mousa Al-Tamari (RMF) rating 74.23 #18
-  [CB] Saleem Obaid (CB) rating 70.32 #17
+  [FW] Aref Al-Haj (LWF) rating 70.02 #10
+  [MF] Mousa Al-Tamari (RMF) rating 74.23 #18
+  [DF] Saleem Obaid (CB) rating 70.32 #17
   [GK] Noor Bane Ataya (GK) rating 67.46 #12
 
 Wildcard:

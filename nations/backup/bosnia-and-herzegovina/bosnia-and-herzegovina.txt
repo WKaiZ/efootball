@@ -12,9 +12,9 @@ Starters:
   [GK] Vladan Kovacevic (GK) rating 73.61 #1
 
 Substitutes:
-  [LWF] Luka Menalo (LWF) rating 71.05 #10
-  [LMF] Miroslav Stevanovic (LMF) rating 72.84 #13
-  [CB] Adrian Barisic (CB) rating 72.66 #3
+  [FW] Luka Menalo (LWF) rating 71.05 #10
+  [MF] Miroslav Stevanovic (LMF) rating 72.84 #13
+  [DF] Adrian Barisic (CB) rating 72.66 #3
   [GK] VACANT
 
 Wildcard:

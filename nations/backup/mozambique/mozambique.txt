@@ -12,9 +12,9 @@ Starters:
   [GK] Ernan Siluane (GK) rating 69.81 #1
 
 Substitutes:
-  [RWF] Gildo Vilanculos (RWF) rating 69.33 #18
-  [LMF] Witi (LMF) rating 71.21 #19
-  [LB] Bruno Langa (LB) rating 72.21 #5
+  [FW] Gildo Vilanculos (RWF) rating 69.33 #18
+  [MF] Witi (LMF) rating 71.21 #19
+  [DF] Bruno Langa (LB) rating 72.21 #5
   [GK] Ivane Urrubal (GK) rating 67.82 #22
 
 Wildcard:

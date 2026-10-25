@@ -12,9 +12,9 @@ Starters:
   [GK] Nawaf Al-Aqidi (GK) rating 70.66 #1
 
 Substitutes:
-  [CF] Saleh Al-Shehri (CF) rating 71.30 #11
-  [LMF] Abdulrahman Ghareeb (LMF) rating 70.36 #18
-  [RB] Saud Abdulhamid (RB) rating 73.85 #12
+  [FW] Saleh Al-Shehri (CF) rating 71.30 #11
+  [MF] Abdulrahman Ghareeb (LMF) rating 70.36 #18
+  [DF] Saud Abdulhamid (RB) rating 73.85 #12
   [GK] Mohammed Al-Owais (GK) rating 70.17 #21
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Denis Onyango (GK) rating 68.61 #18
 
 Substitutes:
-  [LWF] Rogers Mato (LWF) rating 67.92 #7
-  [DMF] Kenneth Semakula (DMF) rating 65.73 #4
-  [CB] Rogers Torach (CB) rating 67.83 #3
+  [FW] Rogers Mato (LWF) rating 67.92 #7
+  [MF] Kenneth Semakula (DMF) rating 65.73 #4
+  [DF] Rogers Torach (CB) rating 67.83 #3
   [GK] Salim Magoola (GK) rating 68.09 #19
 
 Wildcard:

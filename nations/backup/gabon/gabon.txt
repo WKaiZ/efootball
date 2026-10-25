@@ -12,9 +12,9 @@ Starters:
   [GK] Loyce Mbaba (GK) rating 68.82 #23
 
 Substitutes:
-  [RWF] Shavy Babicka (RWF) rating 70.58 #10
-  [RMF] David Sambissa (RMF) rating 71.24 #7
-  [CB] Michel Mboula (CB) rating 70.24 #6
+  [FW] Shavy Babicka (RWF) rating 70.58 #10
+  [MF] David Sambissa (RMF) rating 71.24 #7
+  [DF] Michel Mboula (CB) rating 70.24 #6
   [GK] François Bekale (GK) rating 65.98 #16
 
 Wildcard:

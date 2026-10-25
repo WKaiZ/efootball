@@ -12,9 +12,9 @@ Starters:
   [GK] Utkir Yusupov (GK) rating 70.50 #1
 
 Substitutes:
-  [LWF] Oston Urunov (LWF) rating 70.46 #11
-  [CMF] Akmal Mozgovoy (CMF) rating 70.52 #6
-  [LB] Farrukh Sayfiev (LB) rating 69.37 #4
+  [FW] Oston Urunov (LWF) rating 70.46 #11
+  [MF] Akmal Mozgovoy (CMF) rating 70.52 #6
+  [DF] Farrukh Sayfiev (LB) rating 69.37 #4
   [GK] Sandzhar Kuvvatov (GK) rating 69.46 #12
 
 Wildcard:

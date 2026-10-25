@@ -12,10 +12,10 @@ Starters:
   [GK] VACANT
 
 Substitutes:
-  [CF] Gervane Kastaneer (CF) rating 69.31 #19
-  [MF] VACANT
-  [RB] Shurandy Sambo (RB) rating 69.75 #2
+  [FW] Gervane Kastaneer (CF) rating 69.31 #19
+  [MF] Ar'jany Martha (RWF) rating 68.31 #15
+  [DF] Shurandy Sambo (RB) rating 69.75 #2
   [GK] VACANT
 
 Wildcard:
-  [WILD] Ar'jany Martha (RWF) rating 68.31 #15
+  [WILD] VACANT

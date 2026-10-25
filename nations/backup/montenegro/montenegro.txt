@@ -12,9 +12,9 @@ Starters:
   [GK] Lazar Carević (GK) rating 72.51 #12
 
 Substitutes:
-  [SS] Stevan Jovetić (SS) rating 73.50 #10
-  [CMF] Nebojsa Kosovic (CMF) rating 71.28 #18
-  [CB] Slobodan Rubežić (CB) rating 71.77 #6
+  [FW] Stevan Jovetić (SS) rating 73.50 #10
+  [MF] Nebojsa Kosovic (CMF) rating 71.28 #18
+  [DF] Slobodan Rubežić (CB) rating 71.77 #6
   [GK] Danijel Petkovic (GK) rating 71.00 #1
 
 Wildcard:

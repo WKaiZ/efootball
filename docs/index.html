@@ -1127,6 +1127,7 @@
   }
 
   const statHTML = (value, label) => `<div class="stat"><span>${label}</span><b>${value}</b></div>`;
+  const BENCH_LABELS = new Set(["FW", "MF", "DF", "GK"]);
   const SECTION_LABEL = { starters:"Starter", substitutes:"Substitute", wildcard:"Wildcard" };
   const ordinalMedal = (r) => r ? `${MEDAL[r]} ${["", "1st", "2nd", "3rd"][r]}` : "—";
 
@@ -1341,7 +1342,7 @@
         out.push(hc(`left ${SQUAD_NAME[squad]}`, "out"));
       } else if (was && now) {
         if (was[1] !== now[1]) out.push(tag(`${SECTION_LABEL[was[1]] || "—"} → ${SECTION_LABEL[now[1]] || "—"}`));
-        if (was[2] !== now[2]) out.push(tag(`slot ${esc(was[2])} → ${esc(now[2])}`));
+        if (was[2] !== now[2] && !(now[1] === "substitutes" && BENCH_LABELS.has(was[2]) !== BENCH_LABELS.has(now[2]))) out.push(tag(`slot ${esc(was[2])} → ${esc(now[2])}`));
         if (was[3] !== now[3]) out.push(tag(`#${was[3]} → #${now[3]}`));
         if (moved(was[4], now[4])) out.push(delta(was[4], now[4]));
       }

@@ -12,9 +12,9 @@ Starters:
   [GK] Ionuț Radu (GK) rating 92.89 #1
 
 Substitutes:
-  [CF] Denis Drăguș (CF) rating 72.30 #17
-  [AMF] Ianis Hagi (AMF) rating 73.32 #14
-  [RB] Cristian Manea (RB) rating 72.85 #4
+  [FW] Denis Drăguș (CF) rating 72.30 #17
+  [MF] Ianis Hagi (AMF) rating 73.32 #14
+  [DF] Cristian Manea (RB) rating 72.85 #4
   [GK] Ștefan Târnovanu (GK) rating 71.63 #12
 
 Wildcard:

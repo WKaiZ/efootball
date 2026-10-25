@@ -12,9 +12,9 @@ Starters:
   [GK] Caoimhín Kelleher (GK) rating 94.38 #1
 
 Substitutes:
-  [LWF] Mikey Johnston (LWF) rating 73.43 #14
-  [DMF] Josh Cullen (DMF) rating 74.65 #6
-  [CB] Jake O'Brien (CB) rating 73.88 #12
+  [FW] Mikey Johnston (LWF) rating 73.43 #14
+  [MF] Josh Cullen (DMF) rating 74.65 #6
+  [DF] Jake O'Brien (CB) rating 73.88 #12
   [GK] Mark Travers (GK) rating 73.88 #23
 
 Wildcard:

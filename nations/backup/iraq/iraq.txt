@@ -12,9 +12,9 @@ Starters:
   [GK] Jalal Hassan (GK) rating 69.57 #12
 
 Substitutes:
-  [CF] Mohanad Ali (CF) rating 70.69 #10
-  [CMF] Kevin Yakob (CMF) rating 68.84 #19
-  [CB] Zaid Tahseen (CB) rating 68.93 #6
+  [FW] Mohanad Ali (CF) rating 70.69 #10
+  [MF] Kevin Yakob (CMF) rating 68.84 #19
+  [DF] Zaid Tahseen (CB) rating 68.93 #6
   [GK] Mohammed Salih (GK) rating 66.30 #1
 
 Wildcard:

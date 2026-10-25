@@ -12,9 +12,9 @@ Starters:
   [GK] Saranon Anuin (GK) rating 68.89 #20
 
 Substitutes:
-  [SS] Supachai Chaided (SS) rating 70.01 #9
-  [LMF] Supachok Sarachat (LMF) rating 70.02 #7
-  [LB] Kevin Deeromram (LB) rating 71.27 #2
+  [FW] Supachai Chaided (SS) rating 70.01 #9
+  [MF] Supachok Sarachat (LMF) rating 70.02 #7
+  [DF] Kevin Deeromram (LB) rating 71.27 #2
   [GK] Patiwat Khammai (GK) rating 68.69 #1
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Jan Oblak (GK) rating 95.94 #1
 
 Substitutes:
-  [CF] Zan Vipotnik (CF) rating 74.46 #17
-  [CMF] Adam Gnezda Cerin (CMF) rating 71.94 #22
-  [CB] Vanja Drkusic (CB) rating 72.09 #21
+  [FW] Zan Vipotnik (CF) rating 74.46 #17
+  [MF] Adam Gnezda Cerin (CMF) rating 71.94 #22
+  [DF] Vanja Drkusic (CB) rating 72.09 #21
   [GK] Igor Vekic (GK) rating 69.36 #16
 
 Wildcard:

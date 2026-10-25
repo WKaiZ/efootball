@@ -12,9 +12,9 @@ Starters:
   [GK] Alen Sherri (GK) rating 70.67 #12
 
 Substitutes:
-  [CF] Myrto Uzuni (CF) rating 74.49 #11
-  [AMF] Nedim Bajrami (AMF) rating 72.09 #8
-  [CB] Marash Kumbulla (CB) rating 71.44 #15
+  [FW] Myrto Uzuni (CF) rating 74.49 #11
+  [MF] Nedim Bajrami (AMF) rating 72.09 #8
+  [DF] Marash Kumbulla (CB) rating 71.44 #15
   [GK] Simon Simoni (GK) rating 64.74 #1
 
 Wildcard:

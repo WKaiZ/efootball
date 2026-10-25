@@ -12,9 +12,9 @@ Starters:
   [GK] Filip Nguyen (GK) rating 70.34 #1
 
 Substitutes:
-  [FW] VACANT
-  [LMF] Van Khang Khuat (LMF) rating 68.12 #11
-  [LB] Van Hau Doan (LB) rating 68.06 #5
+  [FW] Van Do Le (LMF) rating 63.02 #26
+  [MF] Van Khang Khuat (LMF) rating 68.12 #11
+  [DF] Van Hau Doan (LB) rating 68.06 #5
   [GK] Van Viet Nguyen (GK) rating 64.48 #23
 
 Wildcard:

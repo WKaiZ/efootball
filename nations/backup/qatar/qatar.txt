@@ -12,9 +12,9 @@ Starters:
   [GK] Meshaal Barsham (GK) rating 71.78 #22
 
 Substitutes:
-  [CF] Ahmed Alaaeldin (CF) rating 69.71 #7
-  [AMF] Ali Asad (AMF) rating 71.13 #8
-  [LB] Mohammed Waad (LB) rating 71.33 #4
+  [FW] Ahmed Alaaeldin (CF) rating 69.71 #7
+  [MF] Ali Asad (AMF) rating 71.13 #8
+  [DF] Mohammed Waad (LB) rating 71.33 #4
   [GK] Mahmoud Abunada (GK) rating 70.19 #1
 
 Wildcard:

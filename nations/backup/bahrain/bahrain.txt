@@ -12,9 +12,9 @@ Starters:
   [GK] Ebrahim Lutfalla (GK) rating 67.43 #22
 
 Substitutes:
-  [LWF] Mohamed Marhoon (LWF) rating 68.19 #8
-  [DMF] Moses Atede (DMF) rating 67.40 #13
-  [CB] Sayed Mahdi Baqer (CB) rating 66.79 #16
+  [FW] Mohamed Marhoon (LWF) rating 68.19 #8
+  [MF] Moses Atede (DMF) rating 67.40 #13
+  [DF] Sayed Mahdi Baqer (CB) rating 66.79 #16
   [GK] Sayed Ahmed Jaafar (GK) rating 66.78 #1
 
 Wildcard:

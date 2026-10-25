@@ -12,9 +12,9 @@ Starters:
   [GK] Daniel Peretz (GK) rating 72.59 #1
 
 Substitutes:
-  [CF] Tai Baribo (CF) rating 74.42 #9
-  [RMF] Anan Khalaili (RMF) rating 73.20 #13
-  [RB] Eli Dasa (RB) rating 71.18 #2
+  [FW] Tai Baribo (CF) rating 74.42 #9
+  [MF] Anan Khalaili (RMF) rating 73.20 #13
+  [DF] Eli Dasa (RB) rating 71.18 #2
   [GK] Omri Glazer (GK) rating 71.00 #18
 
 Wildcard:

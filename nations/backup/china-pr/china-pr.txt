@@ -12,9 +12,9 @@ Starters:
   [GK] Junling Yan (GK) rating 71.68 #1
 
 Substitutes:
-  [CF] Yuning Zhang (CF) rating 70.39 #9
-  [AMF] Xizhe Zhang (AMF) rating 71.05 #10
-  [CB] Pengfei Han (CB) rating 71.54 #18
+  [FW] Yuning Zhang (CF) rating 70.39 #9
+  [MF] Xizhe Zhang (AMF) rating 71.05 #10
+  [DF] Pengfei Han (CB) rating 71.54 #18
   [GK] Dianzuo Liu (GK) rating 71.26 #12
 
 Wildcard:

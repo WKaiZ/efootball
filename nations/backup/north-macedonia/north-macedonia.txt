@@ -12,9 +12,9 @@ Starters:
   [GK] Stole Dimitrievski (GK) rating 75.49 #23
 
 Substitutes:
-  [CF] Bojan Miovski (CF) rating 73.33 #9
-  [AMF] Enis Bardhi (AMF) rating 73.22 #10
-  [CB] Gjoko Zajkov (CB) rating 71.33 #5
+  [FW] Bojan Miovski (CF) rating 73.33 #9
+  [MF] Enis Bardhi (AMF) rating 73.22 #10
+  [DF] Gjoko Zajkov (CB) rating 71.33 #5
   [GK] Damjan Siskovski (GK) rating 71.63 #12
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Ibrahim Koné (GK) rating 66.60 #22
 
 Substitutes:
-  [CF] Ousmane Camara (CF) rating 69.91 #25
-  [DMF] Amadou Diawara (DMF) rating 72.59 #6
-  [RB] Dembo Sylla (RB) rating 67.94 #17
+  [FW] Ousmane Camara (CF) rating 69.91 #25
+  [MF] Amadou Diawara (DMF) rating 72.59 #6
+  [DF] Dembo Sylla (RB) rating 67.94 #17
   [GK] VACANT
 
 Wildcard:

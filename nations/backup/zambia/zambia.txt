@@ -12,9 +12,9 @@ Starters:
   [GK] Lawrence Mulenga (GK) rating 66.54 #16
 
 Substitutes:
-  [CF] Jack Lahne (CF) rating 68.12 #7
-  [CMF] Miguel Chaiwa (CMF) rating 68.32 #5
-  [CB] Dominic Chanda (CB) rating 67.89 #21
+  [FW] Jack Lahne (CF) rating 68.12 #7
+  [MF] Miguel Chaiwa (CMF) rating 68.32 #5
+  [DF] Dominic Chanda (CB) rating 67.89 #21
   [GK] Willard Mwanza (GK) rating 64.26 #1
 
 Wildcard:

@@ -12,9 +12,9 @@ Starters:
   [GK] Neblú (GK) rating 71.63 #22
 
 Substitutes:
-  [CF] Fabio Abreu (CF) rating 73.73 #20
-  [CMF] Beni Mukendi (CMF) rating 71.71 #15
-  [CB] Gaspar (CB) rating 74.10 #6
+  [FW] Fabio Abreu (CF) rating 73.73 #20
+  [MF] Beni Mukendi (CMF) rating 71.71 #15
+  [DF] Gaspar (CB) rating 74.10 #6
   [GK] Signori Antonio (GK) rating 70.04 #12
 
 Wildcard:

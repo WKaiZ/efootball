@@ -12,9 +12,9 @@ Starters:
   [GK] Lawrence Ati Zigi (GK) rating 72.59 #1
 
 Substitutes:
-  [LWF] Joseph Paintsil (LWF) rating 76.12 #15
-  [LMF] Christopher Bonsu Baah (LMF) rating 72.90 #7
-  [CB] Jerome Opoku (CB) rating 73.14 #18
+  [FW] Joseph Paintsil (LWF) rating 76.12 #15
+  [MF] Christopher Bonsu Baah (LMF) rating 72.90 #7
+  [DF] Jerome Opoku (CB) rating 73.14 #18
   [GK] Benjamin Asare (GK) rating 68.73 #16
 
 Wildcard:

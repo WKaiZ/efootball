@@ -12,9 +12,9 @@ Starters:
   [GK] Edrick Menjívar (GK) rating 69.01 #1
 
 Substitutes:
-  [CF] Romell Quioto (CF) rating 71.59 #12
-  [CMF] David Ruíz (CMF) rating 71.19 #11
-  [CB] Luis Vega (CB) rating 68.14 #4
+  [FW] Romell Quioto (CF) rating 71.59 #12
+  [MF] David Ruíz (CMF) rating 71.19 #11
+  [DF] Luis Vega (CB) rating 68.14 #4
   [GK] Luis López (GK) rating 68.16 #22
 
 Wildcard:

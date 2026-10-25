@@ -12,9 +12,9 @@ Starters:
   [GK] Carlos Lampe (GK) rating 72.58 #1
 
 Substitutes:
-  [CF] Enzo Monteiro (CF) rating 69.25 #9
-  [AMF] Carlos Melgar (AMF) rating 70.10 #20
-  [CB] Luis Haquín (CB) rating 69.90 #4
+  [FW] Enzo Monteiro (CF) rating 69.25 #9
+  [MF] Carlos Melgar (AMF) rating 70.10 #20
+  [DF] Luis Haquín (CB) rating 69.90 #4
   [GK] Guillermo Viscarra (GK) rating 72.26 #23
 
 Wildcard:

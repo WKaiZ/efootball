@@ -12,9 +12,9 @@ Starters:
   [GK] Rami Hamadeh (GK) rating 67.92 #22
 
 Substitutes:
-  [CF] Wessam Abou Ali (CF) rating 71.48 #19
-  [CMF] Ataa Jaber (CMF) rating 67.59 #8
-  [LB] Samer Jondi (LB) rating 65.65 #14
+  [FW] Wessam Abou Ali (CF) rating 71.48 #19
+  [MF] Ataa Jaber (CMF) rating 67.59 #8
+  [DF] Samer Jondi (LB) rating 65.65 #14
   [GK] Tawfiq Ali (GK) rating 65.91 #1
 
 Wildcard:
