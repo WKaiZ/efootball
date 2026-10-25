@@ -1,1 +1,8 @@
+Dawda Camara, CF, 67.71, True, Standard, [CF], [SS]
+Beyatt Lekoueiry, SS, 70.14, False, Standard, [SS, AMF, CMF], [CF, DMF, LWF, LMF]
+Djeidi Gassama, LWF, 71.96, True, Standard, [LWF, LMF, RWF, RMF], [CF]
+Oumar Ngom, CMF, 69.40, True, Standard, [CMF, DMF], [AMF]
+Moctar El Hacen, DMF, 69.71, False, Standard, [CMF, DMF], []
 Jordan Lefort, CB, 72.45, True, Standard, [LB, CB], [LMF]
+Babacar Niasse, GK, 70.57, True, Standard, [GK], []
+Mamadou Diop, GK, 70.48, True, Standard, [GK], []

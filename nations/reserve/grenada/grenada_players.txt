@@ -1,1 +1,2 @@
-Regan Charles-Cook, LWF, 68.96, False, Highlight, [LWF, LMF, RWF, RMF], [CF, SS, AMF]
+Regan Charles-Cook, LWF, 68.96, False, Standard, [LWF, LMF, RWF, RMF], [CF, SS, AMF]
+Darius Johnson, LWF, 67.24, True, Standard, [LWF, RWF], [AMF, LMF]

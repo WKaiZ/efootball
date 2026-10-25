@@ -1,2 +1,12 @@
 Starters:
   [CF] Fergus Tierney (CF) rating 95.37 #13
+  [LWF] Imanol Machuca (LWF) rating 73.20 #11
+  [RWF] Manuel Hidalgo (RWF) rating 69.29 #4
+  [AMF] Endrick (AMF) rating 69.41 #10
+  [CMF] Stuart Wilkin (CMF) rating 71.10 #12
+  [DMF] Syamer Kutty (DMF) rating 69.44 #14
+  [LB] La'Vere Corbin-Ong (LB) rating 70.16 #22
+  [CB] Facundo Garcés (CB) rating 73.28 #3
+  [CB] Jon Irazábal (CB) rating 71.85 #5
+  [RB] Dion Cools (RB) rating 71.38 #21
+  [GK] Syihan Hazmi (GK) rating 70.95 #16

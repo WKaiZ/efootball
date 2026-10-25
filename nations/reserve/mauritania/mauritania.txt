@@ -1,2 +1,12 @@
 Starters:
+  [CF] Dawda Camara (CF) rating 67.71 #18
+  [LWF] Djeidi Gassama (LWF) rating 71.96 #11
+  [RWF] VACANT
+  [AMF] Beyatt Lekoueiry (SS) rating 70.14 #9
+  [CMF] Oumar Ngom (CMF) rating 69.40 #6
+  [DMF] Moctar El Hacen (DMF) rating 69.71 #8
+  [LB] VACANT
   [CB] Jordan Lefort (CB) rating 72.45 #21
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Babacar Niasse (GK) rating 70.57 #16

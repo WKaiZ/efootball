@@ -1,2 +1,12 @@
 Starters:
+  [CF] Alexander Satariano (CF) rating 65.96 #23
+  [LWF] Paul Mbong (LWF) rating 65.46 #8
+  [RWF] Irvin Cardona (RWF) rating 70.56 #11
+  [AMF] Ilyas Chouaref (AMF) rating 72.66 #20
   [CMF] Teddy Teuma (CMF) rating 73.18 #10
+  [DMF] Matthew Guillaumier (DMF) rating 66.42 #6
+  [LB] Myles Beerman (LB) rating 65.83 #15
+  [CB] Zach Muscat (CB) rating 72.33 #22
+  [CB] James Carragher (CB) rating 67.07 #4
+  [RB] Juan Corbalan (RB) rating 66.09 #21
+  [GK] Henry Bonello (GK) rating 66.64 #1

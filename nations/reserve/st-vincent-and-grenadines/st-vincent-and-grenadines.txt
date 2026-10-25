@@ -1,2 +1,12 @@
 Starters:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
   [CB] Andrew Johnson (CB) rating 64.76 #21
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

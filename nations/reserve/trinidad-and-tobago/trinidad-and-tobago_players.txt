@@ -1,1 +1,8 @@
+Justin Obikwu, SS, 64.95, False, Standard, [CF, SS, AMF], [CMF]
+Tyrese Spicer, LWF, 71.92, False, Standard, [LWF, LMF], [CF]
 Dante Sealy, RWF, 72.51, False, Standard, [LWF, RWF, LMF, RMF], []
+Wayne Frederick, CMF, 69.35, True, Standard, [CMF], [AMF, DMF]
+Ajani Fortune, CMF, 69.12, False, Standard, [CMF, DMF], [AMF]
+Kobi Henry, CB, 68.45, True, Standard, [CB], []
+Rio Cardines, LB, 65.42, False, Standard, [LB, RB], [LMF, RMF]
+Greg Ranjitsingh, GK, 68.55, False, Standard, [GK], []

@@ -1,2 +1,12 @@
 Starters:
+  [CF] Tumisang Orebonye (CF) rating 67.28 #11
+  [LWF] Kabelo Seakanyeng (LWF) rating 66.24 #7
+  [RWF] Segolame Boy (RWF) rating 65.04 #13
+  [AMF] Gilbert Baruti (AMF) rating 65.10 #22
+  [CMF] Olebogeng Ramotse (CMF) rating 64.71 #8
+  [DMF] Gape Edwin Mohutsiwa (DMF) rating 65.64 #6
+  [LB] Mothusi Johnson (LB) rating 65.55 #12
   [CB] Thatayaone Ditlhokwe (CB) rating 69.39 #3
+  [CB] Mosha Gaolaolwe (CB) rating 66.42 #4
+  [RB] Alford Velaphi (RB) rating 65.87 #5
+  [GK] Goitseone Phoko (GK) rating 65.69 #23

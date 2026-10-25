@@ -1,2 +1,12 @@
 Starters:
   [CF] Kwang-song Han (CF) rating 71.08 #10
+  [LWF] Ju-song Choe (LWF) rating 66.95 #12
+  [RWF] Chung-song Paek (RWF) rating 64.27 #20
+  [AMF] Hun Ri (AMF) rating 61.78 #7
+  [CMF] Un-chol Ri (CMF) rating 67.73 #28
+  [DMF] Yong-jik Ri (DMF) rating 65.67 #5
+  [LB] Pom-hyok Kim (LB) rating 64.54 #24
+  [CB] Kuk-chol Jang (CB) rating 68.27 #3
+  [CB] Yu-song Kim (CB) rating 64.86 #16
+  [RB] Ok-chol Choe (RB) rating 65.72 #27
+  [GK] Ju-hyok Kang (GK) rating 65.17 #1

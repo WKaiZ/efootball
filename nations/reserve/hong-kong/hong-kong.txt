@@ -1,2 +1,12 @@
 Starters:
+  [CF] Matt Orr (CF) rating 70.40 #9
+  [LWF] Juninho (LWF) rating 70.71 #7
   [RWF] Everton Camargo (RWF) rating 71.10 #11
+  [AMF] Siu-Kwan Philip Chan (AMF) rating 70.31 #16
+  [CMF] Fernando (CMF) rating 68.24 #12
+  [DMF] Chun-Lok Tan (DMF) rating 69.64 #6
+  [LB] Shinichi Chan (LB) rating 69.70 #17
+  [CB] Dudu (CB) rating 70.60 #5
+  [CB] Chi-Kin Jason Kam (CB) rating 63.05 #13
+  [RB] Tze-Nam Yue (RB) rating 70.43 #21
+  [GK] Ka-Wing Tse (GK) rating 68.69 #18

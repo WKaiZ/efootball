@@ -1,1 +1,2 @@
+Petrus Shitembi, CMF, 67.80, False, Standard, [CMF, AMF], [DMF, SS, LMF]
 Ryan Nyambe, RB, 68.77, False, Standard, [RB], [RMF, CB]

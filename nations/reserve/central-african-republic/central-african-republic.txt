@@ -1,2 +1,12 @@
 Starters:
+  [CF] Louis Mafouta (CF) rating 71.23 #9
+  [LWF] VACANT
+  [RWF] Goduine Koyalipou (CF) rating 69.84 #10
+  [AMF] VACANT
+  [CMF] VACANT
   [DMF] Geoffrey Kondogbia (DMF) rating 94.24 #19
+  [LB] VACANT
+  [CB] Hugo Gambor (CB) rating 69.17 #23
+  [CB] VACANT
+  [RB] Junior Sambia (RB) rating 67.92 #17
+  [GK] Geoffrey Lembet (GK) rating 67.56 #1

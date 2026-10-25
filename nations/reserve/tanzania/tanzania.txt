@@ -1,2 +1,12 @@
 Starters:
   [CF] Mbwana Samatta (CF) rating 72.13 #10
+  [LWF] Iddy Seleman Nado (LWF) rating 67.29 #7
+  [RWF] Denis Kibu (RWF) rating 67.97 #11
+  [AMF] Feisal Salum (AMF) rating 67.01 #6
+  [CMF] Alphonce Msanga (CMF) rating 65.37 #17
+  [DMF] Yusuph Kagoma (DMF) rating 65.70 #21
+  [LB] Novatus Miroshi (LB) rating 69.99 #20
+  [CB] Bakari Mwamnyeto (CB) rating 67.96 #14
+  [CB] Ibrahim Hamad (CB) rating 66.52 #4
+  [RB] Lusajo Mwaikenda (RB) rating 67.31 #16
+  [GK] Yakoub Suleiman Ali (GK) rating 66.96 #13

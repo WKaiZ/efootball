@@ -1,2 +1,9 @@
 Yankuba Minteh, RWF, 93.96, False, Highlight, [RWF, RMF], []
 Yankuba Minteh, RMF, 94.41, False, Highlight, [RWF, RMF], []
+
+Ali Sowe, CF, 72.40, False, Standard, [CF, LWF], [SS, AMF, RWF]
+Alieu Fadera, LWF, 71.06, True, Standard, [LWF, RWF, AMF], [CF, SS, LMF, RMF]
+Ebou Adams, CMF, 70.71, False, Standard, [CMF, DMF], [AMF]
+Abubacarr Sedi Kinteh, CB, 69.63, False, Standard, [CB], [LB]
+Noah Sonko Sundberg, CB, 69.03, False, Standard, [CB], []
+Saidy Janko, RB, 72.68, False, Standard, [RB, RMF], [DMF, CB, LMF]

@@ -1,2 +1,12 @@
 Starters:
   [CF] Mo Eisa (CF) rating 68.22 #20
+  [LWF] Musa Ali Hussein (LWF) rating 60.22 #14
+  [RWF] Aamir Abdallah (RWF) rating 63.59 #10
+  [AMF] Abdelrazig Omer (AMF) rating 62.77 #8
+  [CMF] Walieldin Khidir (CMF) rating 64.80 #5
+  [DMF] Salaheldin Adil (DMF) rating 66.01 #15
+  [LB] Mazin Mohamedein (LB) rating 64.50 #17
+  [CB] Mustafa Karshom (CB) rating 65.21 #6
+  [CB] Mohamed Saeed Ahmed (CB) rating 65.17 #3
+  [RB] Sheddy Barglan (RB) rating 64.73 #25
+  [GK] Monged Elneel (GK) rating 64.78 #21

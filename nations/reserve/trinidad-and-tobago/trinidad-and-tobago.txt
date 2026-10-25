@@ -1,2 +1,12 @@
 Starters:
+  [CF] VACANT
+  [LWF] Tyrese Spicer (LWF) rating 71.92 #16
   [RWF] Dante Sealy (RWF) rating 72.51 #15
+  [AMF] VACANT
+  [CMF] Wayne Frederick (CMF) rating 69.35 #14
+  [DMF] Ajani Fortune (CMF) rating 69.12 #20
+  [LB] Rio Cardines (LB) rating 65.42 #19
+  [CB] Kobi Henry (CB) rating 68.45 #3
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Greg Ranjitsingh (GK) rating 68.55 #21

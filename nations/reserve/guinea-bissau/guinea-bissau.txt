@@ -1,2 +1,12 @@
 Starters:
   [CF] Beto (CF) rating 75.32 #9
+  [LWF] Mama Baldé (CF) rating 72.50 #17
+  [RWF] Jefferson Encada (RB) rating 67.46 #15
+  [AMF] VACANT
+  [CMF] Panutche Camara (CMF) rating 70.16 #8
+  [DMF] Opa Sangante (CB) rating 69.63 #22
+  [LB] VACANT
+  [CB] Fali Candé (CB) rating 71.46 #2
+  [CB] Gilberto Batista (CB) rating 69.66 #18
+  [RB] Houboulang Mendes (RB) rating 70.14 #5
+  [GK] Celton Biai (GK) rating 70.01 #23

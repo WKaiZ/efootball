@@ -1,1 +1,2 @@
 Osaze De Rosario, CF, 71.94, True, Standard, [CF], [SS]
+Morgan Ferrier, CF, 68.75, False, Standard, [LWF, LMF, CF], [SS, RWF, RMF]

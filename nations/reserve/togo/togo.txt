@@ -1,2 +1,12 @@
 Starters:
   [CF] Kévin Denkey (CF) rating 76.97 #10
+  [LWF] VACANT
+  [RWF] David Henen (RWF) rating 68.79 #19
+  [AMF] VACANT
+  [CMF] Dermane Karim (CMF) rating 69.53 #17
+  [DMF] Sadik Fofana (DMF) rating 68.81 #20
+  [LB] VACANT
+  [CB] Dakonam Djené (CB) rating 74.21 #21
+  [CB] Josué Homawoo (CB) rating 70.01 #13
+  [RB] VACANT
+  [GK] Malcolm Barcola (GK) rating 65.61 #16

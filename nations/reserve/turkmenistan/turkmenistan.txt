@@ -1,2 +1,12 @@
 Starters:
+  [CF] Altymurad Annadurdyev (CF) rating 69.48 #7
+  [LWF] Yazgylych Gurbanov (LWF) rating 69.30 #9
+  [RWF] Ruslan Mingazov (RWF) rating 70.32 #8
+  [AMF] Bayram Atayev (AMF) rating 64.63 #15
+  [CMF] Mirza Beknazarov (CMF) rating 69.80 #17
+  [DMF] Resul Khozhaev (DMF) rating 69.53 #21
+  [LB] Yhlas Saparmammedov (LB) rating 67.43 #18
   [CB] Abdy Byashimov (CB) rating 70.52 #5
+  [CB] Guychmyrat Annagulyyev (CB) rating 69.81 #2
+  [RB] Ibrayym Mammedov (RB) rating 69.49 #12
+  [GK] Rustem Ahallyyev (GK) rating 65.94 #1

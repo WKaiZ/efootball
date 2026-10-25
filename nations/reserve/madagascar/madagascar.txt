@@ -1,2 +1,12 @@
 Starters:
+  [CF] Warren Caddy (CF) rating 69.39 #9
+  [LWF] Njiva Rakotoharimalala (LWF) rating 68.74 #10
+  [RWF] Ylan El Hadary (RWF) rating 61.97 #11
+  [AMF] VACANT
+  [CMF] Rayan Raveloson (DMF) rating 69.93 #7
   [DMF] Marco Ilaimaharitra (DMF) rating 71.93 #6
+  [LB] Kenji-Van Boto (LB) rating 66.94 #3
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

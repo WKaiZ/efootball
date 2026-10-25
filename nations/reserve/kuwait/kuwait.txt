@@ -1,2 +1,12 @@
 Starters:
+  [CF] Yousef Nasser (CF) rating 67.69 #20
+  [LWF] Mohammad Daham (LWF) rating 67.95 #7
+  [RWF] Ali Khalaf (RWF) rating 67.18 #17
+  [AMF] Eid Al-Rasheedi (AMF) rating 66.44 #11
+  [CMF] Ahmad Al-Dhefiri (CMF) rating 67.76 #8
+  [DMF] Sultan Al-Enezi (DMF) rating 66.97 #6
+  [LB] Meshari Al-Enezi (LB) rating 66.97 #3
+  [CB] Hamad Al-Harbi (CB) rating 67.38 #12
+  [CB] Khaled Ebrahim (CB) rating 67.28 #4
+  [RB] Sami Al-Sanea (RB) rating 65.54 #2
   [GK] Khaled Al-Rashidi (GK) rating 68.05 #1

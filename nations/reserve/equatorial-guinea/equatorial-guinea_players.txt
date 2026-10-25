@@ -1,1 +1,13 @@
 Saúl Coco, CB, 94.98, True, Highlight, [CB, DMF], [CMF]
+
+Luis Asué, CF, 72.50, False, Standard, [CF], [SS, AMF]
+Emilio Nsue, CF, 71.05, False, Standard, [CF, SS, RWF, RMF], [RB, LWF, LMF, AMF]
+Josete Miranda, LWF, 67.39, False, Standard, [LWF, LMF], []
+Iban Salvador, AMF, 68.50, False, Standard, [AMF, LWF, RWF], [CF, SS, CMF, LMF, RMF]
+Pepín Machín, CMF, 72.28, False, Standard, [AMF, CMF], [SS, DMF]
+Pedro Obiang, CMF, 72.10, False, Standard, [CMF, DMF], [AMF, RMF]
+Omar Mascarell, DMF, 73.31, False, Standard, [DMF, CMF, CB], [AMF, LB]
+Marvin Anieboh, CB, 67.11, True, Standard, [CB, RB], [LB]
+Basilio Ndong, LB, 67.70, False, Standard, [LB], [LMF]
+Carlos Akapo, RB, 70.77, False, Standard, [RB], [LB, RMF]
+Jesús Owono, GK, 68.97, True, Standard, [GK], []

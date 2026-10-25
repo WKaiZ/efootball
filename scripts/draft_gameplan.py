@@ -192,7 +192,6 @@ def main():
             lines = format_squad(
                 starter_asg, sub_asg, wildcard_asgs, primary_formation,
                 starters_only=_country_group(out_path) == "reserve",
-                omit_vacant_starters=_country_group(out_path) == "reserve",
                 compact_bench=_country_group(out_path) == "backup",
             )
 

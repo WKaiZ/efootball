@@ -176,6 +176,9 @@
     .xi-photo .ef-initials { font-family:var(--mono); font-size:.9rem; color:var(--dim); }
     .xi-photo.ef-ct-standard { --ct:#6b7280; } .xi-photo.ef-ct-highlight { --ct:#e5e7eb; }
     .xi-photo.ef-ct-showtime { --ct:#f472b6; } .xi-photo.ef-ct-epic { --ct:#f59e0b; } .xi-photo.ef-ct-bigtime { --ct:#22d3ee; }
+    .xi-node.vacant { opacity:.55; }
+    .xi-node.vacant .xi-photo { border-style:dashed; --ct:var(--line-2); }
+    .xi-node.vacant .xi-name { color:var(--dim); font-weight:500; }
     .xi-name { font-size:.74rem; font-weight:600; line-height:1.2; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
                transition:color .12s; }
     .xi-meta { font-family:var(--mono); font-size:.62rem; color:var(--muted); white-space:nowrap; }
@@ -792,12 +795,13 @@
   }
 
   function pitchHTML(c) {
-    const starters = firstStarters(c);
+    const starters = firstStarters(c).concat((c.vacant || []).map(pos => ({ pos, vacant: true, rating: 0, name: "" })));
     const nodes = PITCH_LINES.flatMap(([line, x, order]) => {
       const players = starters.filter(p => lineOf(p.pos) === line)
         .sort((a, b) => order.indexOf(a.pos) - order.indexOf(b.pos) || b.rating - a.rating || a.name.localeCompare(b.name));
       return players.map((p, i) => ({ p, x, y: 100 * (i + 1) / (players.length + 1) }));
     }).map(({ p, x, y }) => {
+      if (p.vacant) return `<div class="xi-node vacant" style="left:${x}%;top:${y}%" title="${esc(c.name)} · ${esc(p.pos)} · vacant"><div class="xi-photo"><span class="ef-initials">?</span></div><div class="xi-name">Vacant</div><div class="xi-meta">${esc(p.pos)}</div></div>`;
       const inner = `<div class="xi-photo ${ctClass(p.card_type)}">${photoHTML(p)}</div>
         <div class="xi-name">${esc(p.name)}</div>
         <div class="xi-meta">${esc(p.pos)} · <b>${p.rating.toFixed(0)}</b></div>`;

@@ -1,1 +1,6 @@
+Warren Caddy, CF, 69.39, True, Standard, [CF], [LWF, RWF, SS]
+Njiva Rakotoharimalala, LWF, 68.74, False, Standard, [LWF, CF], [RWF, RMF, LMF]
+Ylan El Hadary, RWF, 61.97, False, Standard, [LWF, RWF, AMF], [LMF, RMF]
 Marco Ilaimaharitra, DMF, 71.93, True, Standard, [CMF, DMF], [AMF]
+Rayan Raveloson, DMF, 69.93, True, Standard, [CMF, DMF, CB, RMF, RB], [RWF, AMF, LMF]
+Kenji-Van Boto, LB, 66.94, False, Standard, [LB], [CB, RB, LMF]

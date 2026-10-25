@@ -1,1 +1,3 @@
+Augustus Kargbo, CF, 68.83, False, Standard, [LWF, CF, SS], [LMF, AMF]
+Amadou Bakayoko, CF, 68.36, False, Standard, [CF], [LWF, SS, RWF]
 Alex Bangura, LB, 70.18, True, Standard, [LMF, LB], [LWF, RWF]

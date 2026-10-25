@@ -1,1 +1,4 @@
+Gytis Paulauskas, CF, 68.32, False, Standard, [CF], [SS]
+Adrian Lickūnas, RMF, 61.99, True, Standard, [RWF, RMF], []
 Gvidas Gineitis, CMF, 70.29, True, Standard, [CMF], [AMF, DMF]
+Edvinas Gertmonas, GK, 68.54, False, Standard, [GK], []

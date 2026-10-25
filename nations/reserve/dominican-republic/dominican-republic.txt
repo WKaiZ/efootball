@@ -1,2 +1,12 @@
 Starters:
   [CF] Mariano Díaz (CF) rating 93.32 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Pablo Rosario (DMF) rating 72.97 #6
+  [LB] Junior Firpo (LB) rating 93.03 #3
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Xavier Valdez (GK) rating 65.72 #1

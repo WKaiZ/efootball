@@ -1,1 +1,4 @@
+Nariman Akhundzada, CF, 70.35, False, Standard, [CF, RWF, RMF], [LWF, LMF, SS]
+Taşkın İlter, DMF, 68.10, False, Standard, [DMF], [CMF]
 Eddy Israfilov, CB, 71.57, False, Standard, [CMF, DMF, CB], [AMF]
+Anton Kryvotsiuk, CB, 70.68, True, Standard, [LB, CB], [LMF]

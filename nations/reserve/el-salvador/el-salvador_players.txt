@@ -1,1 +1,4 @@
+Nathan Ordaz, CF, 71.75, True, Standard, [CF, LWF], [SS, AMF, RWF, LMF]
+Mayer Gil, LWF, 69.29, True, Standard, [LWF, LMF, RWF], [CF, SS]
 Álex Roldán, RB, 72.73, False, Standard, [RMF, RB], [RWF, CB]
+Tomás Romero, GK, 69.62, False, Standard, [GK], []

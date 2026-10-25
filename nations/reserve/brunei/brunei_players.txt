@@ -1,1 +1,8 @@
+Hakeme Yazid Said, LWF, 64.21, False, Standard, [LWF, CF, SS], [RWF, LMF]
+Azwan Ali Rahman, AMF, 64.97, False, Standard, [AMF, CMF], [SS, DMF]
+Abdul Hariz, CMF, 61.61, False, Standard, [CMF, DMF], [AMF]
+Yura Indera Putera, CB, 63.92, False, Standard, [CB, RB], []
+Hanif Hamir, CB, 63.58, False, Standard, [CB], []
+Nazry Aiman, RB, 61.92, False, Standard, [RB, CB], [RMF]
+Syafiq Safiuddin Shariff, RB, 61.23, False, Standard, [RB], [AMF, CMF, DMF, RMF]
 Haimie Nyaring, GK, 65.75, False, Standard, [GK], []

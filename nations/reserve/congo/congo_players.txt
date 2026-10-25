@@ -1,1 +1,8 @@
+Mons Bassouamina, CF, 70.87, True, Standard, [CF, RWF], [SS, AMF, LWF, LMF, RMF]
+Silvere Ganvoula, CF, 70.62, False, Standard, [CF], [LWF, SS, RWF]
+Merveil Ndockyt, RWF, 68.49, True, Standard, [RWF, RMF, AMF, LWF, LMF], [CMF, SS]
+Gaius Makouta, CMF, 71.54, True, Standard, [CMF], [SS, AMF, DMF]
 Antoine Makoumbou, DMF, 73.31, True, Standard, [CMF, DMF], []
+Christ Makosso, CB, 68.87, True, Standard, [CB], []
+Bradley Mazikou, LB, 70.23, True, Standard, [LB], [LMF, CMF, DMF]
+Yhoan Andzouana, RB, 70.24, True, Standard, [RB, RMF, RWF, LWF, LMF, LB], []

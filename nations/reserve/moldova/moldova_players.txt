@@ -1,1 +1,5 @@
+Nicky Clescenco, LWF, 68.01, True, Standard, [LWF, LMF], [CF, RWF, RMF]
+Artur Ioniță, CMF, 70.07, False, Standard, [CMF, DMF], [AMF, LMF, RMF]
+Sergiu Perciun, CMF, 63.15, True, Standard, [SS, AMF, CMF], [DMF]
+Iurie Iovu, CB, 70.84, True, Standard, [CB], []
 Oleg Reabciuk, LB, 72.45, True, Standard, [LB], [LWF, LMF]

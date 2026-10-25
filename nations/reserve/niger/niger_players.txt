@@ -1,1 +1,4 @@
+Hassane Adamou, CMF, 63.83, True, Standard, [CMF], [AMF, DMF]
+Abdoul Madjid Moumouni, DMF, 66.67, False, Standard, [DMF], [CMF, AMF, RWF, RMF]
+Mohamed Abdouramane, CB, 67.32, True, Standard, [CB], []
 Rahim Alhassane, LB, 71.00, True, Standard, [LB], [LMF]

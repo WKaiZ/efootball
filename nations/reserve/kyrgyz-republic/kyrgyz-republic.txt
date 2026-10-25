@@ -1,2 +1,12 @@
 Starters:
+  [CF] Joel Kojo (CF) rating 66.46 #7
+  [LWF] Gulzhigit Alykulov (LWF) rating 68.19 #10
+  [RWF] VACANT
+  [AMF] Murolimzhon Akhmedov (AMF) rating 64.56 #15
+  [CMF] Alimardon Shukurov (CMF) rating 66.09 #22
+  [DMF] Eldiyar Zarypbekov (DMF) rating 64.82 #8
+  [LB] Suyuntbek Mamyraliev (LB) rating 65.79 #14
   [CB] Tamirlan Kozubaev (CB) rating 71.42 #3
+  [CB] Valeriy Kichin (CB) rating 69.50 #2
+  [RB] Kayrat Zhyrgalbek uulu (RB) rating 66.70 #18
+  [GK] Erzhan Tokotaev (GK) rating 65.87 #1

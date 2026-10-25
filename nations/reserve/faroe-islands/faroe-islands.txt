@@ -1,2 +1,12 @@
 Starters:
+  [CF] Adrian Justinussen (CF) rating 69.91 #17
+  [LWF] VACANT
+  [RWF] Aron Benjaminsen (RWF) rating 64.28 #18
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
   [CB] Andrias Edmundsson (CB) rating 71.67 #5
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

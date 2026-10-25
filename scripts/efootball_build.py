@@ -721,6 +721,24 @@ def _parse_players(text):
             })
     return players
 
+VACANT_RE = re.compile(r"^\s*\[(?P<slot>[A-Z]+)\]\s+VACANT\s*$")
+
+def _parse_vacant(text):
+    vacant, squad, section = [], "first", None
+    for line in text.splitlines():
+        low = line.strip().lower()
+        if low in ("first squad", "second squad"):
+            squad, section = low.split()[0], None
+        elif low.startswith("starters"):
+            section = "starters"
+        elif low.startswith(("substitutes", "wildcard")):
+            section = None
+        elif squad == "first" and section == "starters":
+            m = VACANT_RE.match(line)
+            if m:
+                vacant.append(m["slot"])
+    return vacant
+
 def _assign_medals(players):
     for p in players:
         p["tenureRank"] = 0
@@ -872,6 +890,7 @@ def build():
             out_countries.append({
         "id": c, "name": display_name(c), "flag": flag, "group": group,
                 "players": players, "dropouts": dropouts,
+                "vacant": _parse_vacant(squad_now),
             })
             all_players.extend((c, p) for p in players)
             extras.extend((c, {**d, "days": -1}) for d in dropouts)

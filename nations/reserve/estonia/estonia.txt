@@ -1,2 +1,12 @@
 Starters:
+  [CF] Marten-Chris Paalberg (CF) rating 66.03 #13
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Patrik Kristal (AMF) rating 61.00 #14
+  [CMF] Rocco Shein (CMF) rating 68.55 #5
+  [DMF] Mattias Käit (CMF) rating 67.32 #4
   [LB] Michael Schjönning-Larsen (LB) rating 70.30 #19
+  [CB] Maksim Paskotsi (CB) rating 69.49 #3
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

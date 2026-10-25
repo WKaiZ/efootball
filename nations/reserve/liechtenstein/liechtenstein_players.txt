@@ -1,1 +1,2 @@
+Nicolas Hasler, CMF, 67.79, False, Standard, [CMF, RMF], [RB, SS, AMF, DMF, LMF]
 Benjamin Büchel, GK, 68.81, False, Standard, [GK], []

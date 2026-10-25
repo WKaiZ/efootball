@@ -1,2 +1,12 @@
 Starters:
+  [CF] Roberts Uldrikis (CF) rating 69.96 #20
+  [LWF] Andrejs Ciganiks (LB) rating 68.86 #14
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
   [LB] Denniss Cirkins (LB) rating 70.87 #3
+  [CB] Deniss Melniks (CB) rating 69.73 #21
+  [CB] Kristers Tobers (CB) rating 68.56 #6
+  [RB] VACANT
+  [GK] VACANT

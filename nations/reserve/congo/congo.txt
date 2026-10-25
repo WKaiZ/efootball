@@ -1,2 +1,12 @@
 Starters:
+  [CF] Mons Bassouamina (CF) rating 70.87 #11
+  [LWF] VACANT
+  [RWF] Merveil Ndockyt (RWF) rating 68.49 #10
+  [AMF] VACANT
+  [CMF] Gaius Makouta (CMF) rating 71.54 #7
   [DMF] Antoine Makoumbou (DMF) rating 73.31 #12
+  [LB] Bradley Mazikou (LB) rating 70.23 #14
+  [CB] Christ Makosso (CB) rating 68.87 #4
+  [CB] VACANT
+  [RB] Yhoan Andzouana (RB) rating 70.24 #17
+  [GK] VACANT

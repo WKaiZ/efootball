@@ -1,2 +1,12 @@
 Starters:
+  [CF] Gytis Paulauskas (CF) rating 68.32 #9
+  [LWF] VACANT
+  [RWF] Adrian Lickūnas (RMF) rating 61.99 #21
+  [AMF] VACANT
   [CMF] Gvidas Gineitis (CMF) rating 70.29 #15
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Edvinas Gertmonas (GK) rating 68.54 #1

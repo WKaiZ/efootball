@@ -1,2 +1,12 @@
 Starters:
+  [CF] Rahim Ali (CF) rating 65.49 #11
+  [LWF] Brandon Fernandes (LWF) rating 68.91 #10
   [RWF] Lallianzuala Chhangte (RWF) rating 70.24 #7
+  [AMF] Raynier Fernandes (AMF) rating 66.26 #16
+  [CMF] Suresh Singh (CMF) rating 66.66 #8
+  [DMF] Jeakson Singh (DMF) rating 68.55 #15
+  [LB] Naorem Roshan Singh (LB) rating 68.46 #3
+  [CB] Anwar Ali (CB) rating 69.43 #4
+  [CB] Sandesh Jhingan (CB) rating 69.11 #5
+  [RB] Rahul Bheke (RB) rating 67.75 #2
+  [GK] Gurpreet Singh Sandhu (GK) rating 69.65 #1

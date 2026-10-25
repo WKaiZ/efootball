@@ -1,2 +1,12 @@
 Starters:
+  [CF] Grant-Leon Ranos (CF) rating 67.57 #17
+  [LWF] Norberto Briasco (LWF) rating 70.74 #14
+  [RWF] VACANT
+  [AMF] Lucas Zelarayán (AMF) rating 76.10 #10
   [CMF] Henrikh Mkhitaryan (CMF) rating 93.78 #18
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Jordy Monroy (RB) rating 70.31 #2
+  [GK] VACANT

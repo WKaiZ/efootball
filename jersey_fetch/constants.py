@@ -20,6 +20,29 @@ MANUAL_ID_OVERRIDES = {
     "austria": {
         "hannes wolf": {"player_id": "321070", "preserve_name": True},
     },
+    "myanmar": {
+        "wai lin aung": {"player_id": "735947", "preserve_name": True},
+    },
+    "malaysia": {
+        "endrick": {"player_id": "452164", "preserve_name": True},
+    },
+    "luxembourg": {
+        "diego duarte": {"player_id": "885845", "preserve_name": True},
+    },
+    "hong-kong": {
+        "dudu": {"player_id": "447999", "preserve_name": True},
+        "juninho": {"player_id": "451232", "preserve_name": True},
+        "fernando": {"player_id": "254761", "preserve_name": True},
+    },
+    "dpr-korea": {
+        "hun ri": {"player_id": "551941", "preserve_name": True},
+    },
+    "brunei": {
+        "abdul hariz": {"player_id": "577168", "preserve_name": True},
+    },
+    "chad": {
+        "franky tchaouna": {"player_id": "1571727", "preserve_name": True},
+    },
     "bolivia": {
         "roberto fernandez": {"player_id": "598101", "preserve_name": True},
         "moises villarroel": {"player_id": "431863", "preserve_name": True},

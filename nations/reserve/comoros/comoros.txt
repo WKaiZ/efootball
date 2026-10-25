@@ -1,2 +1,12 @@
 Starters:
+  [CF] El Fardou Ben (CF) rating 69.41 #21
+  [LWF] Rafiki Saïd (LWF) rating 72.30 #11
+  [RWF] Myziane Maolida (LWF) rating 71.49 #17
+  [AMF] Faïz Selemani (AMF) rating 72.70 #7
   [CMF] Zaydou Youssouf (CMF) rating 75.11 #28
+  [DMF] Yacine Bourhane (DMF) rating 68.84 #18
+  [LB] Ismaël Boura (LB) rating 69.83 #2
+  [CB] Ahmed Soilihi (CB) rating 67.57 #5
+  [CB] Kassim M'Dahoma (CB) rating 67.31 #12
+  [RB] Saïd Bakari (RB) rating 70.68 #22
+  [GK] Yannick Pandor (GK) rating 67.24 #16

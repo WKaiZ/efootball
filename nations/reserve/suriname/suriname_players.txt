@@ -1,1 +1,8 @@
 Joël Piroe, CF, 73.30, False, Standard, [CF, SS, AMF], []
+Jay-Roy Grot, LWF, 68.56, False, Standard, [CF, SS, LWF], [RWF]
+Gyrano Kerk, RWF, 71.88, False, Standard, [RWF, CF, RMF], [SS, AMF, CMF, DMF, LWF, LMF]
+Tjaronn Chery, AMF, 72.31, False, Standard, [AMF, CMF, SS, LWF, LMF, RWF, RMF], [CF, DMF]
+Myenty Abena, CB, 69.74, False, Standard, [CB], [RB]
+Ridgeciano Haps, LB, 71.29, False, Standard, [LWF, LMF, LB], [CMF]
+Anfernee Dijksteel, RB, 70.52, False, Standard, [RB, CB], [RMF, LB]
+Etienne Vaessen, GK, 72.89, False, Standard, [GK], []

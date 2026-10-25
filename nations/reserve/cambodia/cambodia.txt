@@ -1,2 +1,12 @@
 Starters:
+  [CF] Abdel Kader Coulibaly (CF) rating 65.51 #20
   [LWF] Nick Taylor (LWF) rating 66.32 #11
+  [RWF] Chanthea Sieng (RWF) rating 64.19 #9
+  [AMF] Ratanak Min (AMF) rating 64.27 #15
+  [CMF] Dimong Sophal (CMF) rating 65.75 #3
+  [DMF] Chanpolin Orn (DMF) rating 62.93 #8
+  [LB] Baraing Seut (LB) rating 61.84 #18
+  [CB] Visal Soeuy (CB) rating 64.84 #5
+  [CB] Pisa Choum (CB) rating 62.32 #4
+  [RB] Krya Saret (RB) rating 65.88 #13
+  [GK] Dara Vireak (GK) rating 65.86 #21

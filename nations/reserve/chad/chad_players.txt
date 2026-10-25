@@ -1,1 +1,2 @@
 Franck Tchaouna, CF, 63.25, False, Standard, [CF], [SS]
+Franky Tchaouna, CMF, 63.12, False, Standard, [CMF, DMF], [AMF]

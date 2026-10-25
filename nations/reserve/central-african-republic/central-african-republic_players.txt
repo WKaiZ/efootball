@@ -1,1 +1,7 @@
 Geoffrey Kondogbia, DMF, 94.24, False, Highlight, [CMF, DMF, CB], []
+
+Louis Mafouta, CF, 71.23, False, Standard, [CF], [LWF, SS, RWF, LMF]
+Goduine Koyalipou, CF, 69.84, True, Standard, [CF, RWF, RMF, LMF], [LWF, SS, AMF]
+Hugo Gambor, CB, 69.17, True, Standard, [CB], [CMF, DMF, RMF, RB]
+Junior Sambia, RB, 67.92, True, Standard, [RB, RMF], [RWF, LWF, LMF, LB, AMF, CMF, DMF]
+Geoffrey Lembet, GK, 67.56, False, Standard, [GK], []

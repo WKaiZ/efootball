@@ -1,2 +1,12 @@
 Starters:
+  [CF] Donavan Phillip (CF) rating 64.46 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
   [CB] Chris Forino (CB) rating 70.36 #3
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

@@ -1,1 +1,6 @@
+Marten-Chris Paalberg, CF, 66.03, False, Standard, [CF], [SS, AMF]
+Patrik Kristal, AMF, 61.00, True, Standard, [AMF, CMF], [SS, DMF]
+Rocco Shein, CMF, 68.55, False, Standard, [CMF], [AMF, DMF]
+Mattias Käit, CMF, 67.32, True, Standard, [AMF, CMF, DMF], [CF, SS, LMF, RMF]
+Maksim Paskotsi, CB, 69.49, True, Standard, [CB], [LB, RB]
 Michael Schjönning-Larsen, LB, 70.30, True, Standard, [LB, RB, LMF, RMF], [LWF, RWF]

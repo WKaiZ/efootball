@@ -1,1 +1,3 @@
-Youssouf Ndayishimiye, DMF, 94.35, True, Standard, [CMF, DMF, CB], [AMF, RMF, RB]
+Youssouf Ndayishimiye, DMF, 94.35, True, Highlight, [CMF, DMF, CB], [AMF, RMF, RB]
+
+Elvis Kamsoba, LWF, 67.89, False, Standard, [LWF, LMF, RWF, RMF], [CF]

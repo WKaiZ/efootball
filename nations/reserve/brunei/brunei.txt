@@ -1,2 +1,12 @@
 Starters:
+  [CF] VACANT
+  [LWF] Hakeme Yazid Said (LWF) rating 64.21 #10
+  [RWF] VACANT
+  [AMF] Azwan Ali Rahman (AMF) rating 64.97 #7
+  [CMF] Abdul Hariz (CMF) rating 61.61 #16
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Yura Indera Putera (CB) rating 63.92 #23
+  [CB] Hanif Hamir (CB) rating 63.58 #21
+  [RB] Nazry Aiman (RB) rating 61.92 #22
   [GK] Haimie Nyaring (GK) rating 65.75 #1

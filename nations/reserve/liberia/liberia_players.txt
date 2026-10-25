@@ -1,1 +1,3 @@
+Kpah Sherman, CF, 66.75, False, Standard, [CF], [SS]
+Prince Martor Jr., LWF, 60.35, False, Standard, [LWF], [CF, RWF, LMF]
 Oscar, LB, 73.21, True, Standard, [LMF, LB, CMF], [SS, AMF, DMF, CB, RWF, RMF]

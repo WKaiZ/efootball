@@ -1,1 +1,8 @@
 Kévin Denkey, CF, 76.97, True, Standard, [CF, SS], []
+David Henen, RWF, 68.79, False, Standard, [LWF, CF, RWF], [SS, AMF, LMF, RMF]
+Dermane Karim, CMF, 69.53, True, Standard, [CMF], [AMF, DMF, LMF, SS]
+Jean Claude, CMF, 69.50, False, Standard, [CMF, DMF], [AMF, CB, RB]
+Sadik Fofana, DMF, 68.81, True, Standard, [DMF, CB], [CMF]
+Dakonam Djené, CB, 74.21, False, Standard, [CMF, DMF, CB, RB], [RMF, LB]
+Josué Homawoo, CB, 70.01, False, Standard, [CB], []
+Malcolm Barcola, GK, 65.61, True, Standard, [GK], []

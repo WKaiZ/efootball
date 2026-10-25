@@ -31,6 +31,29 @@ MANUAL_ID_OVERRIDES = {
     "austria": {
         "hannes wolf": "321070",
     },
+    "myanmar": {
+        "wai lin aung": "735947",
+    },
+    "malaysia": {
+        "endrick": "452164",
+    },
+    "luxembourg": {
+        "diego duarte": "885845",
+    },
+    "hong-kong": {
+        "dudu": "447999",
+        "juninho": "451232",
+        "fernando": "254761",
+    },
+    "dpr-korea": {
+        "hun ri": "551941",
+    },
+    "brunei": {
+        "abdul hariz": "577168",
+    },
+    "chad": {
+        "franky tchaouna": "1571727",
+    },
     "bolivia": {
         "roberto fernandez": "598101",
         "moises villarroel": "431863",
@@ -554,7 +577,8 @@ def main():
                 data["semiproficient_positions"],
             ))
 
-        if not prepared_rows:
+        has_player_lines = any(ln.strip() and not ln.strip().startswith("#") for ln in lines)
+        if not prepared_rows and has_player_lines:
             weird_lines.append("No valid player rows were found; refusing to replace existing database rows.")
 
         if weird_lines:

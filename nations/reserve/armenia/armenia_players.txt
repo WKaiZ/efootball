@@ -1,2 +1,7 @@
-Henrikh Mkhitaryan, AMF, 93.17, False, Standard, [LWF, SS, RWF, LMF, RMF, AMF, CMF], []
-Henrikh Mkhitaryan, CMF, 93.78, False, Standard, [LWF, SS, RWF, LMF, RMF, AMF, CMF], [DMF]
+Henrikh Mkhitaryan, AMF, 93.17, False, Highlight, [LWF, SS, RWF, LMF, RMF, AMF, CMF], []
+Henrikh Mkhitaryan, CMF, 93.78, False, Highlight, [LWF, SS, RWF, LMF, RMF, AMF, CMF], [DMF]
+
+Grant-Leon Ranos, CF, 67.57, False, Standard, [CF], [LWF, SS, RWF]
+Norberto Briasco, LWF, 70.74, False, Standard, [LWF, CF, RWF], [SS, AMF, LMF, RMF]
+Lucas Zelarayán, AMF, 76.10, False, Standard, [AMF, CMF, LMF, RMF], [DMF, SS, CF, LWF, RWF]
+Jordy Monroy, RB, 70.31, False, Standard, [RB], [CB, RMF]

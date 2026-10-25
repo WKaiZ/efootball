@@ -1,2 +1,12 @@
 Starters:
+  [CF] VACANT
+  [LWF] Nicky Clescenco (LWF) rating 68.01 #20
+  [RWF] VACANT
+  [AMF] Sergiu Perciun (CMF) rating 63.15 #9
+  [CMF] Artur Ioniță (CMF) rating 70.07 #7
+  [DMF] VACANT
   [LB] Oleg Reabciuk (LB) rating 72.45 #2
+  [CB] Iurie Iovu (CB) rating 70.84 #18
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

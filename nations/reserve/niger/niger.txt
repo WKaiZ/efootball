@@ -1,2 +1,12 @@
 Starters:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Hassane Adamou (CMF) rating 63.83 #19
+  [DMF] Abdoul Madjid Moumouni (DMF) rating 66.67 #23
   [LB] Rahim Alhassane (LB) rating 71.00 #2
+  [CB] Mohamed Abdouramane (CB) rating 67.32 #13
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT

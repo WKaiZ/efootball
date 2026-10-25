@@ -1,2 +1,12 @@
 Starters:
+  [CF] Luis Asué (CF) rating 72.50 #19
+  [LWF] Josete Miranda (LWF) rating 67.39 #17
+  [RWF] Emilio Nsue (CF) rating 71.05 #10
+  [AMF] Iban Salvador (AMF) rating 68.50 #6
+  [CMF] Pepín Machín (CMF) rating 72.28 #7
+  [DMF] Omar Mascarell (DMF) rating 73.31 #5
+  [LB] Basilio Ndong (LB) rating 67.70 #11
   [CB] Saúl Coco (CB) rating 94.98 #16
+  [CB] Marvin Anieboh (CB) rating 67.11 #3
+  [RB] Carlos Akapo (RB) rating 70.77 #15
+  [GK] Jesús Owono (GK) rating 68.97 #1

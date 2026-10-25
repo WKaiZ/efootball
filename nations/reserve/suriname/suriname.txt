@@ -1,2 +1,12 @@
 Starters:
   [CF] Joël Piroe (CF) rating 73.30 #9
+  [LWF] Jay-Roy Grot (LWF) rating 68.56 #21
+  [RWF] Gyrano Kerk (RWF) rating 71.88 #7
+  [AMF] Tjaronn Chery (AMF) rating 72.31 #10
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] Ridgeciano Haps (LB) rating 71.29 #5
+  [CB] Myenty Abena (CB) rating 69.74 #12
+  [CB] VACANT
+  [RB] Anfernee Dijksteel (RB) rating 70.52 #2
+  [GK] Etienne Vaessen (GK) rating 72.89 #23

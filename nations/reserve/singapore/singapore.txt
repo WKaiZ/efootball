@@ -1,2 +1,12 @@
 Starters:
+  [CF] Shawal Anuar (CF) rating 68.81 #20
+  [LWF] Faris Ramli (LWF) rating 67.32 #10
+  [RWF] Glenn Kweh (RMF) rating 65.85 #11
+  [AMF] Ui-young Song (AMF) rating 65.88 #7
+  [CMF] Kyoga Nakamura (CMF) rating 68.44 #6
+  [DMF] Jacob Mahler (DMF) rating 67.30 #18
+  [LB] Nur Adam Abdullah (LB) rating 67.53 #4
   [CB] Hariss Harun (CB) rating 69.19 #14
+  [CB] Lionel Tan (CB) rating 68.12 #15
+  [RB] Ryhan Stewart (RB) rating 66.66 #3
+  [GK] Zharfan Rohaizad (GK) rating 66.54 #12

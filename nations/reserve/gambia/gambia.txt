@@ -1,2 +1,12 @@
 Starters:
+  [CF] Ali Sowe (CF) rating 72.40 #26
+  [LWF] Alieu Fadera (LWF) rating 71.06 #7
   [RWF] Yankuba Minteh (RWF) rating 93.96 #20
+  [AMF] VACANT
+  [CMF] Ebou Adams (CMF) rating 70.71 #8
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Abubacarr Sedi Kinteh (CB) rating 69.63 #16
+  [CB] Noah Sonko Sundberg (CB) rating 69.03 #14
+  [RB] Saidy Janko (RB) rating 72.68 #17
+  [GK] VACANT
