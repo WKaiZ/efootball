@@ -165,16 +165,40 @@ def store_jersey_entries(conn, player_id, official_name, entries, cache_country_
         "INSERT OR REPLACE INTO players (player_id, name) VALUES (?, ?)",
         (str(player_id), official_name),
     )
+    entries_to_store = list(entries)
     if cache_country_filter:
         country_names = nation_country_names_for_filter(cache_country_filter)
         placeholders = ", ".join("?" * len(country_names))
         cur.execute(
+            f"""
+            SELECT season, country, number
+            FROM jersey
+            WHERE player_id = ? AND (country IS NULL OR country NOT IN ({placeholders}))
+            ORDER BY idx ASC
+            """,
+            [str(player_id), *country_names],
+        )
+        retained_entries = [
+            {"season": season, "country": country, "number": int(number)}
+            for season, country, number in cur.fetchall()
+        ]
+        cur.execute(
             f"DELETE FROM jersey WHERE player_id = ? AND country IN ({placeholders})",
             [str(player_id), *country_names],
         )
+        seen = {
+            ((entry.get("season") or "").strip(), entry.get("country"), int(entry["number"]))
+            for entry in entries_to_store
+        }
+        for entry in retained_entries:
+            key = ((entry.get("season") or "").strip(), entry.get("country"), int(entry["number"]))
+            if key not in seen:
+                entries_to_store.append(entry)
+                seen.add(key)
+        cur.execute("DELETE FROM jersey WHERE player_id = ?", (str(player_id),))
     else:
         cur.execute("DELETE FROM jersey WHERE player_id = ?", (str(player_id),))
-    for idx, entry in enumerate(entries):
+    for idx, entry in enumerate(entries_to_store):
         cur.execute(
             "INSERT OR REPLACE INTO jersey (player_id, idx, season, country, number) VALUES (?, ?, ?, ?, ?)",
             (str(player_id), idx, entry["season"], entry["country"], int(entry["number"])),

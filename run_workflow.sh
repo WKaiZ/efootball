@@ -22,7 +22,7 @@ usage() {
 
 REFETCH_FLAG=""
 LINEUP_ONLY_FLAG=""
-GAME_INDEX_FLAG=""
+GAME_INDEX_VALUE=""
 countries=()
 groups=()
 selection_given=0
@@ -39,7 +39,11 @@ while [ $i -lt ${#args[@]} ]; do
     if [ $i -ge ${#args[@]} ]; then
       echo "Error: --game-index requires a value." >&2; exit 1
     fi
-    GAME_INDEX_FLAG="--game-index ${args[$i]}"
+    game_index="${args[$i]}"
+    if [[ ! "$game_index" =~ ^[1-9][0-9]*$ ]]; then
+      echo "Error: --game-index must be a positive integer." >&2; exit 1
+    fi
+    GAME_INDEX_VALUE="$game_index"
   else
     selection_given=1
     case "$arg" in
@@ -123,12 +127,18 @@ cd "$ROOT_DIR"
 for country in "${countries[@]}"; do
   echo "==> Running workflow for $country"
 
-  if [ -n "$LINEUP_ONLY_FLAG" ]; then
-    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" $GAME_INDEX_FLAG "$country"
+  if [ -n "$LINEUP_ONLY_FLAG" ] && [ -n "$GAME_INDEX_VALUE" ]; then
+    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" --game-index "$GAME_INDEX_VALUE" "$country"
+  elif [ -n "$LINEUP_ONLY_FLAG" ]; then
+    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" "$country"
+  elif [ -n "$REFETCH_FLAG" ] && [ -n "$GAME_INDEX_VALUE" ]; then
+    python scripts/fetch_number.py "$REFETCH_FLAG" --game-index "$GAME_INDEX_VALUE" "$country"
   elif [ -n "$REFETCH_FLAG" ]; then
-    python scripts/fetch_number.py "$REFETCH_FLAG" $GAME_INDEX_FLAG "$country"
+    python scripts/fetch_number.py "$REFETCH_FLAG" "$country"
+  elif [ -n "$GAME_INDEX_VALUE" ]; then
+    python scripts/fetch_number.py --game-index "$GAME_INDEX_VALUE" "$country"
   else
-    python scripts/fetch_number.py $GAME_INDEX_FLAG "$country"
+    python scripts/fetch_number.py "$country"
   fi
   python scripts/fetch_game_data.py "$country"
   python scripts/draft_gameplan.py "$country"

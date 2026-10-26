@@ -649,8 +649,17 @@
   const daysSince = (iso) => Math.max(0, Math.floor((Date.now() - new Date(iso+"T00:00:00Z"))/86400000));
   const photoHTML = (p) => p.img
     ? `<img loading="lazy" src="${esc(p.img)}" alt="${esc(p.name)}"
-         onerror="this.outerHTML='<span class=&quot;ef-initials&quot;>${esc(initials(p.name))}</span>'">`
+         data-fallback="${esc(initials(p.name))}">`
     : `<span class="ef-initials">${esc(initials(p.name))}</span>`;
+
+  document.addEventListener("error", e => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement) || !img.hasAttribute("data-fallback")) return;
+    const fallback = document.createElement("span");
+    fallback.className = "ef-initials";
+    fallback.textContent = img.dataset.fallback || "?";
+    img.replaceWith(fallback);
+  }, true);
 
   function card(p, c, showCountry) {
     const medal = p.tenureRank ? `<span class="ef-medal">${MEDAL[p.tenureRank]}</span>` : "";
