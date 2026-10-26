@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] João Pedro (CF) rating 98.24 #9
   [LWF] Denilson (LWF) rating 95.65 #19
-  [RWF] Luiz Henrique (RWF) rating 95.39 #20
+  [RWF] Savinho (RWF) rating 95.45 #20
   [AMF] Ronaldinho (AMF) rating 98.60 #21
   [CMF] Douglas Luiz (CMF) rating 94.12 #18
   [DMF] Pablo Maia (DMF) rating 72.89 #26

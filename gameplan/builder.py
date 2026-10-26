@@ -4,6 +4,7 @@ from gameplan.candidates import (
     next_candidate_for_sub_wing,
     player_max_rating,
     preferred_card_for_slot,
+    report_candidates,
     refill_empty_subs,
     try_free_jersey_via_swap,
 )
@@ -27,8 +28,8 @@ def _recent_soft_reserved_numbers(conn, starters, subs):
                 out.add(mr)
     return out
 
-def build_gameplan(conn, roles_by_pos):
-    starters, subs = choose_initial_lineup(roles_by_pos)
+def build_gameplan(conn, roles_by_pos, candidate_observer=None):
+    starters, subs = choose_initial_lineup(roles_by_pos, candidate_observer=candidate_observer)
     if not all_unique(starters + subs):
         raise RuntimeError("Internal error: duplicate player_id selected.")
 
@@ -60,6 +61,9 @@ def build_gameplan(conn, roles_by_pos):
                     continue
                 candidates.append(r)
             if candidates:
+                report_candidates(
+                    candidate_observer, candidates, slot, f"starter_replacement_{pos_set_name}"
+                )
                 return max(candidates, key=lambda r: r.rating)
         return None
 
@@ -113,10 +117,22 @@ def build_gameplan(conn, roles_by_pos):
                 slot = FORMATION[i]
                 if slot in SUB_WING_SLOTS:
                     repl = next_candidate_for_sub_wing(
-                        slot, roles_by_pos, used_ids - {p.player_id}, excluded, subs
+                        slot,
+                        roles_by_pos,
+                        used_ids - {p.player_id},
+                        excluded,
+                        subs,
+                        candidate_observer=candidate_observer,
                     )
                 else:
-                    repl = next_candidate_for_slot(slot, roles_by_pos, used_ids - {p.player_id}, excluded, subs)
+                    repl = next_candidate_for_slot(
+                        slot,
+                        roles_by_pos,
+                        used_ids - {p.player_id},
+                        excluded,
+                        subs,
+                        candidate_observer=candidate_observer,
+                    )
                 if repl is not None and repl.player_id in (used_ids - {p.player_id}):
                     existing_idx = find_player_index(subs, repl.player_id)
                     if existing_idx is not None:
@@ -134,11 +150,15 @@ def build_gameplan(conn, roles_by_pos):
                 break
 
             used_ids = {p.player_id for p in (starters + subs) if p is not None}
-            refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos)
+            refill_empty_subs(
+                subs, used_ids, sub_excluded, roles_by_pos, candidate_observer=candidate_observer
+            )
 
         if replaced:
             used_ids = {p.player_id for p in (starters + subs) if p is not None}
-            refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos)
+            refill_empty_subs(
+                subs, used_ids, sub_excluded, roles_by_pos, candidate_observer=candidate_observer
+            )
 
     assignments, used_numbers = assign_jerseys(conn, starters, subs)
     used_ids = {p.player_id for p in (starters + subs) if p is not None}
@@ -226,6 +246,13 @@ def build_gameplan(conn, roles_by_pos):
                         if main_card is not None:
                             continue
 
+                    report_candidates(
+                        candidate_observer,
+                        [r],
+                        slot,
+                        f"{'starter' if target_list is starters else 'sub'}_vacancy_{pos_set_name}",
+                    )
+
                     num = choose_jersey_for_player(
                         conn,
                         r,
@@ -297,6 +324,9 @@ def build_gameplan(conn, roles_by_pos):
                     continue
                 if not role_matches_stage(slot, r, pos_set_name, want_standard):
                     continue
+                report_candidates(
+                    candidate_observer, [r], slot, f"sub_replacement_{pos_set_name}"
+                )
                 num = choose_jersey_for_player(conn, r, temp_used_numbers, temp_assignments, None)
                 if num is None:
                     continue
@@ -327,6 +357,7 @@ def build_gameplan(conn, roles_by_pos):
                     and c.rating > p.rating
                 ]
                 candidates.sort(key=lambda r: r.rating, reverse=True)
+                report_candidates(candidate_observer, candidates, slot, "sub_upgrade")
                 for candidate in candidates:
                     old_num = assignments.get(p.player_id)
                     num = choose_jersey_for_player(
@@ -363,6 +394,13 @@ def build_gameplan(conn, roles_by_pos):
                             continue
                         if not role_matches_stage(vacant_slot, candidate, pos_set_name, want_standard):
                             continue
+
+                        report_candidates(
+                            candidate_observer,
+                            [candidate],
+                            vacant_slot,
+                            f"sub_swap_{pos_set_name}",
+                        )
 
                         insert_card = preferred_card_for_slot(
                             all_roles, candidate.player_id, vacant_slot, candidate
@@ -594,6 +632,7 @@ def build_gameplan(conn, roles_by_pos):
             break
         if candidate.player_id in wildcard_used_ids:
             continue
+        report_candidates(candidate_observer, [candidate], "WILD", "wildcard")
         most_recent_wc, prefs = jersey_prefs_for_player(conn, candidate)
         num = None
 

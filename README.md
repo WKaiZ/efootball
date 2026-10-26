@@ -118,11 +118,12 @@ Flags:
 
 `--refetch` and `--lineup-only` are mutually exclusive.
 
-For each country the script runs three stages in order:
+For each country the script runs these stages in order:
 
 1. `python scripts/fetch_number.py <country>` — ESPN recent-flag update + Transfermarkt jersey scrape into `pes.db`.
 2. `python scripts/fetch_game_data.py <country>` — Reads `<country>_players.txt`, resolves names to `player_id`s, and writes a `game_data` row per player+position into `pes.db`.
-3. `python scripts/draft_gameplan.py <country>` — Builds the gameplan from `pes.db` and writes `<country>/<country>.txt`.
+3. `python scripts/prune_unconsidered_standard.py <country>` — Individually probes Standard rows that weren’t considered by temporarily raising each rating to the next whole number. Rows that still never enter a position or wildcard selector are removed; `Recent=True` contenders are preserved. If any rows are removed, `game_data` is refreshed from the edited file.
+4. `python scripts/draft_gameplan.py <country>` — Builds the final gameplan from `pes.db` and writes `<country>/<country>.txt`.
 
 You can also run any of those scripts directly if you only need that one stage.
 
@@ -156,12 +157,13 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the three Python stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
+- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
 - `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
 - `scripts/draft_gameplan.py` — Loads the formation(s) and `game_data`, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup and reserve nations show starters only.
+- `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
 - `reference/` — Draft rules and other maintained reference material.
 - `requirements.txt` — Python dependencies.

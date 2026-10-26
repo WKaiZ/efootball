@@ -141,6 +141,7 @@ for country in "${countries[@]}"; do
     python scripts/fetch_number.py "$country"
   fi
   python scripts/fetch_game_data.py "$country"
+  python scripts/prune_unconsidered_standard.py "$country"
   python scripts/draft_gameplan.py "$country"
 
   echo "==> Finished $country"

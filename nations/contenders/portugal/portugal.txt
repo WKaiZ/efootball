@@ -59,4 +59,4 @@ Substitutes:
 
 Wildcard:
   [WILD] Samú Costa (DMF) rating 76.18 #24
-  [WILD] Joao Moutinho (CMF) rating 75.05 #28
+  [WILD] Otávio (CMF) rating 75.33 #25

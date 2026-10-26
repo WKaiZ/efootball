@@ -2,6 +2,14 @@ from gameplan.constants import SUB_WING_SLOTS, is_standard
 from gameplan.formation import FORMATION
 from gameplan.jerseys import jersey_prefs_for_player
 
+
+def report_candidates(observer, candidates, slot, stage):
+    if observer is None:
+        return
+    for candidate in candidates:
+        observer(candidate, slot, stage)
+
+
 def _player_usable_for_slot_candidate(r, used_ids, subs):
     if r.player_id not in used_ids:
         return True
@@ -21,12 +29,15 @@ def preferred_card_for_slot(all_roles, player_id, slot, fallback=None):
         return max(main_cards, key=lambda r: r.rating)
     return fallback
 
-def next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded_ids, subs=None):
+def next_candidate_for_slot(
+    slot, roles_by_pos, used_ids, excluded_ids, subs=None, candidate_observer=None
+):
     candidates = [
         r
         for r in roles_by_pos.get(slot, [])
         if r.player_id not in excluded_ids and _player_usable_for_slot_candidate(r, used_ids, subs)
     ]
+    report_candidates(candidate_observer, candidates, slot, "jersey_replacement")
     if not candidates:
         return None
     return max(candidates, key=lambda r: r.rating)
@@ -45,6 +56,7 @@ def next_candidate_for_sub_wing(
     used_ids,
     excluded_ids,
     subs=None,
+    candidate_observer=None,
 ):
 
     nonstd_direct = [
@@ -54,6 +66,7 @@ def next_candidate_for_sub_wing(
         and _player_usable_for_slot_candidate(r, used_ids, subs)
         and not is_standard(r)
     ]
+    report_candidates(candidate_observer, nonstd_direct, slot, "wing_sub_nonstandard_direct")
     if nonstd_direct:
         return max(nonstd_direct, key=lambda r: r.rating)
 
@@ -64,6 +77,7 @@ def next_candidate_for_sub_wing(
         and _player_usable_for_slot_candidate(r, used_ids, subs)
         and is_standard(r)
     ]
+    report_candidates(candidate_observer, std_direct, slot, "wing_sub_standard_direct")
     if std_direct:
         return max(std_direct, key=lambda r: r.rating)
 
@@ -74,6 +88,7 @@ def next_candidate_for_sub_wing(
         and _player_usable_for_slot_candidate(r, used_ids, subs)
         and not is_standard(r)
     ]
+    report_candidates(candidate_observer, nonstd_ss, slot, "wing_sub_nonstandard_ss")
     if nonstd_ss:
         return max(nonstd_ss, key=lambda r: r.rating)
 
@@ -84,6 +99,7 @@ def next_candidate_for_sub_wing(
         and _player_usable_for_slot_candidate(r, used_ids, subs)
         and is_standard(r)
     ]
+    report_candidates(candidate_observer, std_ss, slot, "wing_sub_standard_ss")
     if std_ss:
         return max(std_ss, key=lambda r: r.rating)
 
@@ -117,18 +133,24 @@ def try_free_jersey_via_swap(conn, candidate, used_numbers, assignments, lineup_
             return num
     return None
 
-def _pick_replacement_sub(slot, roles_by_pos, used_ids, excluded):
+def _pick_replacement_sub(slot, roles_by_pos, used_ids, excluded, candidate_observer=None):
     if slot in SUB_WING_SLOTS:
-        return next_candidate_for_sub_wing(slot, roles_by_pos, used_ids, excluded)
-    return next_candidate_for_slot(slot, roles_by_pos, used_ids, excluded)
+        return next_candidate_for_sub_wing(
+            slot, roles_by_pos, used_ids, excluded, candidate_observer=candidate_observer
+        )
+    return next_candidate_for_slot(
+        slot, roles_by_pos, used_ids, excluded, candidate_observer=candidate_observer
+    )
 
-def refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos):
+def refill_empty_subs(subs, used_ids, sub_excluded, roles_by_pos, candidate_observer=None):
     for j, sp in enumerate(subs):
         if sp is not None:
             continue
         excluded = sub_excluded.setdefault(j, set())
         slot = FORMATION[j]
-        repl = _pick_replacement_sub(slot, roles_by_pos, used_ids, excluded)
+        repl = _pick_replacement_sub(
+            slot, roles_by_pos, used_ids, excluded, candidate_observer=candidate_observer
+        )
         subs[j] = repl
         if repl is not None:
             used_ids.add(repl.player_id)

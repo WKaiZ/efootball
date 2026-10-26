@@ -11,6 +11,7 @@ from gameplan.builder import build_gameplan
 from gameplan.constants import DB_PATH
 from gameplan.models import Assignment
 from gameplan.jerseys import jersey_prefs_for_player
+from gameplan.candidates import report_candidates
 from gameplan.data import load_roles, load_formations, resolve_country_paths
 
 
@@ -22,7 +23,7 @@ BENCH_GROUPS = (
 )
 
 
-def compact_backup(conn, roles_by_pos, starter_asg):
+def compact_backup(conn, roles_by_pos, starter_asg, candidate_observer=None):
     starters = [a for a in starter_asg if a is not None]
     used_ids = {a.player.player_id for a in starters}
     used_numbers = {a.jersey for a in starters}
@@ -39,6 +40,8 @@ def compact_backup(conn, roles_by_pos, starter_asg):
                 matched = eligible(r)
                 if not matched:
                     continue
+                slot = matched if isinstance(matched, str) else "WILD"
+                report_candidates(candidate_observer, [r], slot, "backup_selection")
                 most_recent, prefs = jersey_prefs_for_player(conn, r)
                 num = most_recent if r.recent and most_recent not in used_numbers else None
                 if num is None:
