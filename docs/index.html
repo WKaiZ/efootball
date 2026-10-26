@@ -1597,7 +1597,12 @@
     const byId = new Map(countries.map(c => [c.id, c]));
     const spark = (key) => {
       const [nid, name, pos] = key.split("|");
-      const pts = ladderSeries(h, pos, h.countries[nid][name][pos]).filter(p => p.listed && p.d >= then);
+      const series = ladderSeries(h, pos, h.countries[nid][name][pos]);
+      const baseline = [...series].reverse().find(p => p.d <= then);
+      const pts = [
+        ...(baseline && baseline.listed ? [{ ...baseline, d: then }] : []),
+        ...series.filter(p => p.listed && p.d > then),
+      ];
       if (pts.length < 1) return "";
       const W = 84, H = 24, t0 = dayMs(then), t1 = Date.now();
       const ranks = pts.map(p => p.rank), lo = Math.min(...ranks), hi = Math.max(...ranks);
