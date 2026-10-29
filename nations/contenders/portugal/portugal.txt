@@ -36,7 +36,7 @@ Starters:
   [LWF] Pedro Neto (LWF) rating 94.91 #17
   [RMF] Luís Figo (RMF) rating 100.33 #7
   [AMF] Francisco Conceição (AMF) rating 93.50 #14
-  [CMF] Bernardo Silva (CMF) rating 96.20 #10
+  [CMF] Bernardo Silva (CMF) rating 95.64 #10
   [DMF] Vitinha (DMF) rating 97.75 #23
   [LB] João Cancelo (LB) rating 94.50 #20
   [CB] Renato Veiga (CB) rating 94.29 #13

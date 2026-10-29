@@ -32,25 +32,25 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Harry Kane (CF) rating 97.43 #9
+  [CF] Ivan Toney (CF) rating 95.13 #22
   [LWF] Anthony Gordon (LWF) rating 96.00 #11
   [RMF] Steve McManaman (RMF) rating 97.78 #16
-  [SS] Wayne Rooney (SS) rating 99.36 #10
+  [SS] Harry Kane (SS) rating 101.38 #9
   [CMF] Steven Gerrard (CMF) rating 98.58 #4
   [DMF] Declan Rice (DMF) rating 96.87 #7
   [LB] Djed Spence (LB) rating 95.41 #25
   [CB] Tony Adams (CB) rating 95.62 #5
   [CB] Marc Guéhi (CB) rating 95.45 #6
   [RB] Kyle Walker (RB) rating 94.92 #2
-  [GK] Nick Pope (GK) rating 94.44 #22
+  [GK] Nick Pope (GK) rating 94.44 #1
 
 Substitutes:
-  [CF] Ivan Toney (CF) rating 95.13 #19
+  [CF] Dominic Calvert-Lewin (CF) rating 94.97 #19
   [LWF] Harvey Barnes (LWF) rating 93.94 #17
   [RMF] Ray Parlour (RMF) rating 96.89 #14
-  [SS] Phil Foden (RMF) rating 96.81 #20
-  [CMF] Jude Bellingham (CMF) rating 98.27 #8
-  [DMF] James Garner (DMF) rating 94.94 #18
+  [SS] Wayne Rooney (SS) rating 99.36 #18
+  [CMF] Jude Bellingham (CMF) rating 98.27 #10
+  [DMF] Jordan Henderson (DMF) rating 96.28 #8
   [LB] Tyrick Mitchell (LB) rating 94.43 #23
   [CB] Fikayo Tomori (CB) rating 94.99 #3
   [CB] Lewis Dunk (CB) rating 95.00 #15

@@ -25,4 +25,4 @@ Substitutes:
   [GK] Yahia Fofana (GK) rating 74.47 #1
 
 Wildcard:
-  [WILD] Evann Guessand (RWF) rating 75.40 #22
+  [WILD] Sébastien Haller (CF) rating 92.22 #22

@@ -51,11 +51,11 @@ Substitutes:
   [SS] Marco Asensio (AMF) rating 95.97 #20
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xabi Alonso (DMF) rating 96.19 #16
-  [LB] Alejandro Grimaldo (LB) rating 95.43 #17
+  [LB] José Gayà (LB) rating 94.99 #18
   [CB] Yeray Álvarez (CB) rating 95.10 #26
   [CB] Dani Vivian (CB) rating 95.07 #4
   [RB] Lucas Vázquez (RB) rating 93.81 #11
   [GK] Iker Casillas (GK) rating 98.59 #1
 
 Wildcard:
-  [WILD] Martín Zubimendi (DMF) rating 95.98 #18
+  [WILD] Pep Guardiola (DMF) rating 96.05 #17
