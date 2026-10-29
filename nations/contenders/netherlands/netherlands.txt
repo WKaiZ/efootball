@@ -49,12 +49,12 @@ Substitutes:
   [LWF] Noa Lang (LWF) rating 76.26 #8
   [RMF] Donyell Malen (RWF) rating 94.47 #9
   [AMF] Justin Kluivert (AMF) rating 94.92 #17
-  [CMF] Donny van de Beek (CMF) rating 93.18 #16
+  [CMF] Joey Veerman (CMF) rating 93.82 #18
   [DMF] Frank Rijkaard (DMF) rating 95.70 #3
   [LB] Ian Maatsen (LB) rating 94.07 #5
   [CB] Teun Koopmeiners (CB) rating 93.99 #20
-  [CB] Joël Veltman (RB) rating 74.30 #13
-  [RB] Devyne Rensch (RB) rating 93.01 #18
+  [CB] Nathan Aké (CB) rating 79.42 #16
+  [RB] Joël Veltman (RB) rating 74.30 #13
   [GK] Mark Flekken (GK) rating 77.48 #23
 
 Wildcard:
