@@ -15,9 +15,9 @@ Starters:
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
-  [LMF] Bryan Robson (CMF) rating 97.84 #6
+  [LMF] Jesse Lingard (LMF) rating 95.36 #19
   [RMF] Cole Palmer (RMF) rating 98.93 #20
-  [AMF] Eberechi Eze (AMF) rating 96.12 #19
+  [AMF] James Maddison (AMF) rating 95.20 #25
   [CMF] Frank Lampard (CMF) rating 98.11 #17
   [DMF] Myles Lewis-Skelly (DMF) rating 95.44 #16
   [LB] Luke Shaw (LB) rating 95.99 #23

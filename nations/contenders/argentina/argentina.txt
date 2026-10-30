@@ -7,14 +7,14 @@ Starters:
   [AMF] Nico Paz (AMF) rating 98.59 #18
   [CMF] Enzo Fernández (CMF) rating 98.78 #8
   [DMF] Alan Varela (DMF) rating 94.32 #21
-  [LB] Javier Zanetti (LB) rating 99.02 #4
+  [LB] Javier Zanetti (LB) rating 99.02 #22
   [CB] Cristian Romero (CB) rating 97.80 #13
   [CB] Lisandro Martínez (CB) rating 96.93 #6
-  [RB] Juan Foyth (RB) rating 93.31 #2
+  [RB] Agustín Giay (RB) rating 95.26 #4
   [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:
-  [CF] Julián Alvarez (CF) rating 98.11 #27
+  [CF] Julián Alvarez (CF) rating 98.11 #15
   [LWF] Alejandro Garnacho (LWF) rating 77.15 #17
   [RWF] Matías Soulé (RWF) rating 95.32 #28
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #11
@@ -22,7 +22,7 @@ Substitutes:
   [DMF] Leandro Paredes (DMF) rating 93.63 #5
   [LB] Nicolás Tagliafico (LB) rating 94.06 #3
   [CB] Nicolás Otamendi (CB) rating 95.26 #19
-  [CB] Martín Demichelis (CB) rating 94.84 #15
+  [CB] Martín Demichelis (CB) rating 94.84 #2
   [RB] Nahuel Molina (RB) rating 76.96 #26
   [GK] Juan Musso (GK) rating 93.93 #1
 
@@ -54,7 +54,7 @@ Substitutes:
   [LB] Milton Casco (LB) rating 74.03 #13
   [CB] Rodrigo Battaglia (CB) rating 76.31 #16
   [CB] Facundo Medina (CB) rating 76.78 #25
-  [RB] Gonzalo Montiel (RB) rating 93.00 #4
+  [RB] Juan Foyth (RB) rating 93.31 #4
   [GK] Gerónimo Rulli (GK) rating 78.58 #12
 
 Wildcard:

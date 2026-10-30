@@ -24,6 +24,7 @@ Emile Smith Rowe, AMF, 94.21, False, Highlight, [AMF, LWF, LMF, CMF], [SS, RWF, 
 Mason Mount, AMF, 94.00, False, Highlight, [AMF, CMF], [SS, LWF, RMF, LMF, RWF, DMF]
 Eddie Nketiah, AMF, 93.10, False, Highlight, [AMF, SS, CF], [CMF]
 Paul Scholes, LMF, 97.16, False, Epic, [CMF, AMF, DMF, RMF, LMF], [LWF, SS]
+Jesse Lingard, LMF, 95.36, False, Showtime, [LMF, LWF, RWF, AMF], [CF, SS, CMF, RMF]
 Jack Grealish, LMF, 93.95, False, Highlight, [LMF, LWF, AMF], [SS, RMF, RWF]
 Callum Hudson-Odoi, LMF, 93.60, False, Highlight, [LMF, RMF, LWF, RWF], [AMF, SS]
 Harvey Barnes, LMF, 93.14, False, Highlight, [LWF, LMF], [AMF]

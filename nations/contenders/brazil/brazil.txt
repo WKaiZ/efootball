@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Andrey Santos (CMF) rating 94.21 #21
   [DMF] Casemiro (DMF) rating 97.38 #5
   [LB] Marcelo (LB) rating 97.92 #12
+  [CB] Thiago Silva (CB) rating 96.57 #14
   [CB] Bremer (CB) rating 94.92 #15
-  [CB] Murillo (CB) rating 94.98 #14
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23
 
@@ -40,7 +40,7 @@ Starters:
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Wesley (LB) rating 97.39 #16
   [CB] Éder Militão (CB) rating 95.22 #3
-  [CB] Léo Pereira (CB) rating 94.91 #15
+  [CB] Murillo (CB) rating 94.98 #14
   [RB] Juliano Belletti (RB) rating 97.04 #2
   [GK] Cássio (GK) rating 95.25 #12
 
@@ -50,9 +50,9 @@ Substitutes:
   [RWF] Savinho (RWF) rating 95.45 #20
   [AMF] Ronaldinho (AMF) rating 98.60 #21
   [CMF] Douglas Luiz (CMF) rating 94.12 #18
-  [DMF] Pablo Maia (DMF) rating 72.89 #26
+  [DMF] Pablo Maia (DMF) rating 93.04 #26
   [LB] Alex Sandro (LB) rating 94.21 #6
-  [CB] Fabrício Bruno (CB) rating 94.56 #14
+  [CB] Léo Pereira (CB) rating 94.91 #15
   [CB] Roger Ibañez (CB) rating 94.31 #24
   [RB] Dodô (RB) rating 94.44 #13
   [GK] Bento (GK) rating 94.38 #23

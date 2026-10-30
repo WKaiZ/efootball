@@ -37,10 +37,11 @@ def next_candidate_for_slot(
         for r in roles_by_pos.get(slot, [])
         if r.player_id not in excluded_ids and _player_usable_for_slot_candidate(r, used_ids, subs)
     ]
-    report_candidates(candidate_observer, candidates, slot, "jersey_replacement")
     if not candidates:
         return None
-    return max(candidates, key=lambda r: r.rating)
+    selected = max(candidates, key=lambda r: r.rating)
+    report_candidates(candidate_observer, [selected], slot, "jersey_replacement")
+    return selected
 
 def find_player_index(players, player_id):
     for i, p in enumerate(players):
