@@ -851,7 +851,7 @@
     return expandList(recent.map(({ player: p, country: c }) => `
       <a class="feed-row" href="${esc(playerHref(c, p))}" title="${esc(`${p.name} joined ${c.name} on ${joinedOf(p)}`)}">
         <span class="feed-date">${esc(joinedOf(p).slice(5))}</span>
-        <span class="feed-who"><b>${esc(p.name)}</b><span>${c.flag||""} ${esc(c.name)} · ${esc(p.section || "")}</span></span>
+        <span class="feed-who"><b>${esc(p.name)}</b><span>${c.flag||""} ${esc(c.name)} · ${squadLabel(p)}</span></span>
         <span class="ef-pos" data-line="${lineOf(p.pos)}">${esc(p.pos)}</span>
         <span class="num">${p.rating.toFixed(0)}</span>
       </a>`));
