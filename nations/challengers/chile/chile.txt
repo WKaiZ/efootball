@@ -4,7 +4,7 @@ Starters:
   [RWF] Darío Osorio (RWF) rating 73.26 #11
   [AMF] Carlos Palacios (AMF) rating 75.05 #9
   [CMF] Williams Alarcón (CMF) rating 74.15 #2
-  [DMF] Erick Pulgar (DMF) rating 93.93 #13
+  [DMF] Erick Pulgar (DMF) rating 96.38 #13
   [LB] Gabriel Suazo (LB) rating 93.22 #17
   [CB] Guillermo Maripán (CB) rating 75.81 #3
   [CB] Matías Catalán (CB) rating 73.39 #21

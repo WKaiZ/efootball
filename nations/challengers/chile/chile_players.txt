@@ -1,4 +1,4 @@
-Erick Pulgar, DMF, 93.93, False, Highlight, [CMF, DMF], [AMF, CB]
+Erick Pulgar, DMF, 96.38, False, Showtime, [CMF, DMF], [AMF, CB]
 Gabriel Suazo, LB, 93.22, True, Highlight, [LMF, LB, CMF, DMF], [LWF, AMF, CB]
 
 Alexis Sánchez, CF, 73.76, False, Standard, [CF, LWF, RWF, SS], [LMF, AMF]
