@@ -834,7 +834,17 @@
     toggle.textContent = more.hidden ? `show all ${toggle.dataset.total}` : `show top ${toggle.dataset.preview}`;
   });
   function feedHTML(countries) {
-    const recent = firstSquad(countries)
+    const byPlayer = new Map();
+    for (const country of countries) {
+      for (const player of country.players) {
+        const key = `${country.id}/${slug(player.name)}`;
+        const existing = byPlayer.get(key);
+        if (!existing || (existing.player.squad === "second" && player.squad !== "second")) {
+          byPlayer.set(key, { player, country });
+        }
+      }
+    }
+    const recent = [...byPlayer.values()]
       .filter(e => daysSince(joinedOf(e.player)) < FEED_DAYS)
       .sort((a, b) => joinedOf(b.player).localeCompare(joinedOf(a.player)) || byRating(a, b));
     if (!recent.length) return `<div class="feed-more">No new call-ups in the last ${FEED_DAYS} days.</div>`;
