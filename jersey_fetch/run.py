@@ -11,7 +11,12 @@ from playwright.async_api import async_playwright
 from jersey_fetch.constants import DEBUG_HTML_DIR
 from jersey_fetch.discovery import get_transfermarkt_id
 from jersey_fetch.espn import fetch_latest_espn_roster, map_recent_players_to_roster
-from jersey_fetch.names import invalid_transfermarkt_title, normalize_name, nation_country_names_for_filter
+from jersey_fetch.names import (
+    invalid_transfermarkt_title,
+    nation_country_names_for_filter,
+    nation_labels_equivalent,
+    normalize_name,
+)
 from jersey_fetch.players_file import (
     build_local_player_profiles,
     build_local_player_search_hints,
@@ -79,7 +84,7 @@ async def fetch_numbers_for_player(
     expected_nation_label=None,
 ):
     nums = load_cached_numbers_from_db(
-        conn, player_id, country_filter=cache_country_filter, display_name=name
+        conn, player_id, country_filter=cache_lookup_country, display_name=name
     )
     if nums:
         warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label)
@@ -117,10 +122,18 @@ async def fetch_numbers_for_player(
     if db_name_override:
         official_name = db_name_override
     _, senior_entries = extract_national_numbers_from_html(html)
-    if shirt_history_grid_present(html) and not senior_entries:
+    has_expected_nation_entry = (
+        any(
+            nation_labels_equivalent(entry.get("country"), expected_nation_label)
+            for entry in senior_entries
+        )
+        if expected_nation_label
+        else bool(senior_entries)
+    )
+    if shirt_history_grid_present(html) and not has_expected_nation_entry:
         profile_entry = await _profile_shirt_fallback(player_id, expected_nation_label)
         if profile_entry:
-            senior_entries = [profile_entry]
+            senior_entries = merge_jersey_entries(profile_entry, senior_entries)
     if not senior_entries:
         os.makedirs(DEBUG_HTML_DIR, exist_ok=True)
         debug_path = os.path.join(DEBUG_HTML_DIR, f"debug_playwright_{player_id}.html")
