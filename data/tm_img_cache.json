@@ -4633,7 +4633,21 @@
   "607269": "https://img.a.transfermarkt.technology/portrait/big/607269-1663310572.png",
   "1157616": "https://img.a.transfermarkt.technology/portrait/big/1157616-1696185314.png",
   "678119": "https://img.a.transfermarkt.technology/portrait/big/678119-1690288727.jpg",
-  "744511": "https://img.a.transfermarkt.technology/portrait/big/744511-1720006820.png"
+  "744511": "https://img.a.transfermarkt.technology/portrait/big/744511-1720006820.png",
+  "358041": "https://img.a.transfermarkt.technology/portrait/big/358041-1720005904.png",
+  "632138": "https://img.a.transfermarkt.technology/portrait/big/632138-1720006399.png",
+  "945362": "https://img.a.transfermarkt.technology/portrait/big/945362-1720006891.png",
+  "461790": "https://img.a.transfermarkt.technology/portrait/big/461790-1669738255.jpg",
+  "775403": "https://img.a.transfermarkt.technology/portrait/big/775403-1705098029.jpg",
+  "335147": "https://img.a.transfermarkt.technology/portrait/big/335147-1730124803.jpg",
+  "72414": "https://img.a.transfermarkt.technology/portrait/big/72414-1666525120.jpg",
+  "1571727": "https://img.a.transfermarkt.technology/portrait/big/1571727-1793344098.jpg",
+  "69838": "https://img.a.transfermarkt.technology/portrait/big/69838-1694865317.jpg",
+  "780147": "https://img.a.transfermarkt.technology/portrait/big/780147-1790543974.jpg",
+  "371142": "https://img.a.transfermarkt.technology/portrait/big/371142-1657098964.jpg",
+  "352017": "https://img.a.transfermarkt.technology/portrait/big/352017-1664349519.jpg",
+  "525131": "https://img.a.transfermarkt.technology/portrait/big/525131-1788886751.png",
+  "770895": "https://img.a.transfermarkt.technology/portrait/big/770895-1598255270.jpg"
  },
  "tm_null": {
   "1146046": 3,
@@ -4680,11 +4694,15 @@
   "879321": 3,
   "879358": 3,
   "989898": 3,
-  "734438": 2,
-  "855738": 2,
-  "1146960": 1,
-  "577168": 1,
-  "1004585": 1
+  "734438": 3,
+  "855738": 3,
+  "1146960": 2,
+  "577168": 2,
+  "1004585": 2,
+  "1063745": 1,
+  "538521": 1,
+  "678120": 1,
+  "518344": 1
  },
  "tm_err": {}
 }
