@@ -4647,7 +4647,23 @@
   "371142": "https://img.a.transfermarkt.technology/portrait/big/371142-1657098964.jpg",
   "352017": "https://img.a.transfermarkt.technology/portrait/big/352017-1664349519.jpg",
   "525131": "https://img.a.transfermarkt.technology/portrait/big/525131-1788886751.png",
-  "770895": "https://img.a.transfermarkt.technology/portrait/big/770895-1598255270.jpg"
+  "770895": "https://img.a.transfermarkt.technology/portrait/big/770895-1598255270.jpg",
+  "491844": "https://img.a.transfermarkt.technology/portrait/big/491844-1610046780.png",
+  "468512": "https://img.a.transfermarkt.technology/portrait/big/468512-1656068741.jpg",
+  "524687": "https://img.a.transfermarkt.technology/portrait/big/524687-1723809305.jpg",
+  "804829": "https://img.a.transfermarkt.technology/portrait/big/804829-1765370767.png",
+  "391377": "https://img.a.transfermarkt.technology/portrait/big/391377-1758221869.jpg",
+  "398886": "https://img.a.transfermarkt.technology/portrait/big/398886-1697567792.JPG",
+  "450173": "https://img.a.transfermarkt.technology/portrait/big/450173-1789477048.jpg",
+  "358507": "https://img.a.transfermarkt.technology/portrait/big/358507-1624290687.png",
+  "1113528": "https://img.a.transfermarkt.technology/portrait/big/1113528-1709886612.jpg",
+  "342218": "https://img.a.transfermarkt.technology/portrait/big/342218-1789737658.jpg",
+  "511885": "https://img.a.transfermarkt.technology/portrait/big/511885-1752219879.png",
+  "615033": "https://img.a.transfermarkt.technology/portrait/big/615033-1732288745.jpg",
+  "613961": "https://img.a.transfermarkt.technology/portrait/big/613961-1762899866.png",
+  "298635": "https://img.a.transfermarkt.technology/portrait/big/298635-1725530400.jpg",
+  "125054": "https://img.a.transfermarkt.technology/portrait/big/125054-1463662430.jpg",
+  "152093": "https://img.a.transfermarkt.technology/portrait/big/152093-1762899732.png"
  },
  "tm_null": {
   "1146046": 3,
@@ -4696,13 +4712,13 @@
   "989898": 3,
   "734438": 3,
   "855738": 3,
-  "1146960": 2,
-  "577168": 2,
-  "1004585": 2,
-  "1063745": 1,
-  "538521": 1,
-  "678120": 1,
-  "518344": 1
+  "1146960": 3,
+  "577168": 3,
+  "1004585": 3,
+  "1063745": 2,
+  "538521": 2,
+  "678120": 2,
+  "518344": 2
  },
  "tm_err": {}
 }
