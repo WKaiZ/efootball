@@ -4663,7 +4663,21 @@
   "613961": "https://img.a.transfermarkt.technology/portrait/big/613961-1762899866.png",
   "298635": "https://img.a.transfermarkt.technology/portrait/big/298635-1725530400.jpg",
   "125054": "https://img.a.transfermarkt.technology/portrait/big/125054-1463662430.jpg",
-  "152093": "https://img.a.transfermarkt.technology/portrait/big/152093-1762899732.png"
+  "152093": "https://img.a.transfermarkt.technology/portrait/big/152093-1762899732.png",
+  "121570": "https://img.a.transfermarkt.technology/portrait/big/121570-1704982636.jpg",
+  "203966": "https://img.a.transfermarkt.technology/portrait/big/203966-1753431283.png",
+  "168389": "https://img.a.transfermarkt.technology/portrait/big/168389-1694291214.jpg",
+  "989980": "https://img.a.transfermarkt.technology/portrait/big/989980-1771709701.jpg",
+  "655532": "https://img.a.transfermarkt.technology/portrait/big/655532-1696263771.jpg",
+  "257152": "https://img.a.transfermarkt.technology/portrait/big/257152-1605604654.jpg",
+  "543338": "https://img.a.transfermarkt.technology/portrait/big/543338-1696262341.jpg",
+  "193968": "https://img.a.transfermarkt.technology/portrait/big/193968-1696262214.jpg",
+  "551935": "https://img.a.transfermarkt.technology/portrait/big/551935-1696261565.jpg",
+  "994598": "https://img.a.transfermarkt.technology/portrait/big/994598-1784467805.jpg",
+  "827285": "https://img.a.transfermarkt.technology/portrait/big/827285-1682475933.JPG",
+  "465105": "https://img.a.transfermarkt.technology/portrait/big/465105-1771711383.jpg",
+  "702911": "https://img.a.transfermarkt.technology/portrait/big/702911-1729962665.jpg",
+  "355336": "https://img.a.transfermarkt.technology/portrait/big/355336-1792590333.jpg"
  },
  "tm_null": {
   "1146046": 3,
@@ -4715,10 +4729,15 @@
   "1146960": 3,
   "577168": 3,
   "1004585": 3,
-  "1063745": 2,
-  "538521": 2,
-  "678120": 2,
-  "518344": 2
+  "1063745": 3,
+  "538521": 3,
+  "678120": 3,
+  "518344": 3,
+  "375968": 1,
+  "551941": 1,
+  "375964": 1,
+  "193975": 1,
+  "674221": 1
  },
  "tm_err": {}
 }
