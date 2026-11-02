@@ -12,7 +12,8 @@ from gameplan.constants import DB_PATH
 from gameplan.models import Assignment
 from gameplan.jerseys import jersey_prefs_for_player
 from gameplan.candidates import report_candidates
-from gameplan.data import load_roles, load_formations, resolve_country_paths
+from gameplan.data import load_roles, resolve_country_paths
+from gameplan.formation_selection import choose_formation
 
 
 BENCH_GROUPS = (
@@ -170,16 +171,7 @@ def main():
     try:
         country_folder = sys.argv[1] if len(sys.argv) > 1 else "belgium"
         country_name = os.path.basename(os.path.normpath(country_folder.strip()))
-        formation_file, out_path = resolve_country_paths(country_folder)
-
-        primary_formation, secondary_formation = load_formations(formation_file)
-        if not os.path.exists(formation_file):
-            default = ", ".join(primary_formation)
-            print(
-                f"No {country_name}_formation.txt found; using default formation: {default}",
-                file=sys.stderr,
-            )
-        formation.FORMATION[:] = primary_formation
+        _formation_file, out_path = resolve_country_paths(country_folder)
 
         roles_by_pos = load_roles(conn, country_name)
         if not roles_by_pos:
@@ -188,13 +180,15 @@ def main():
                 file=sys.stderr,
             )
 
+        primary_formation = choose_formation(conn, roles_by_pos)
+        formation.FORMATION[:] = primary_formation
         starter_asg, sub_asg, wildcard_asgs = _plan(conn, roles_by_pos, primary_formation)
 
         if _is_contender(out_path):
             used_cards = _squad_card_keys(starter_asg, sub_asg, wildcard_asgs)
             remaining = _exclude_cards(roles_by_pos, used_cards)
 
-            second_slots = secondary_formation if secondary_formation is not None else primary_formation
+            second_slots = choose_formation(conn, remaining)
             formation.FORMATION[:] = second_slots
             starter_asg2, sub_asg2, wildcard_asgs2 = _plan(conn, remaining, second_slots)
 

@@ -79,15 +79,21 @@ Name, MAIN_POS, RATING, RECENT, CARD_TYPE, [PROFICIENT_POSITIONS], [SEMIPROFICIE
 
 A player can appear on multiple lines if they have separate cards for different main positions (see `nations/contenders/belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
 
-### `<country>_formation.txt` (optional)
+### Formation selection
 
-Either one position per line or a single comma-separated line of 11 positions. If missing, the default formation from `gameplan/formation.py` is used:
+Every nation starts from the default formation in `gameplan/formation.py`:
 
 ```
 CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
 ```
 
-For **contenders**, a second formation may be listed after a blank line. The first block is used for the First Squad; the second block (when present) is used for the Second Squad. If no second block is given, the Second Squad reuses the first formation.
+The workflow compares the rendered starter and substitute at each eligible slot and
+switches only when the alternate renders a higher special-card tier in its
+main-position card. The allowed switches are LWF→LMF, RWF→RMF, CF→SS, and AMF→SS.
+Epic and BigTime share the top tier, above Showtime; equal tiers leave the
+default slot unchanged. For contenders, this decision is made independently for
+the First and Second Squads after excluding the First Squad's cards.
+Existing `<country>_formation.txt` files do not affect workflow drafts.
 
 ### `<country>.txt` (output, generated)
 
@@ -162,7 +168,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `scripts/draft_gameplan.py` — Loads the formation(s) and `game_data`, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup and reserve nations show starters only.
+- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive a second pass; backup and reserve nations show starters only.
 - `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
 - `reference/` — Draft rules and other maintained reference material.
@@ -192,7 +198,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `jerseys.py` — Jersey number assignment. `load_jersey_stats` and `jersey_prefs_for_player` derive each player's preference list from `jersey` rows (Epic uses most-worn; everyone else uses newest-unique-first). `assign_jerseys` assigns numbers in the documented group order: starter non-Std main → starter non-Std proficient → starter Std main → starter Std proficient → sub non-Std normal → sub non-Std `SS`-on-wing → sub Std → sub non-Std `SS`-on-wing via proficient. Within each group, recent-flag locks run first, then card-tier buckets (Epic/BigTime > Showtime > Highlight > Standard), then a tie-break that won't steal another player's first-choice number.
 - `candidates.py` — Helpers for the builder's replacement loop: pick the next-best player for a slot (`next_candidate_for_slot`, `next_candidate_for_sub_wing`), refill empty subs (`refill_empty_subs`), and `try_free_jersey_via_swap` to free a recent player's preferred number by re-numbering a non-recent holder. `next_candidate_for_sub_wing` applies the 4-tier wing priority (non-Standard direct → non-Standard `SS` → Standard direct → Standard `SS`).
 - `data.py` — Loads `game_data` rows for a country into `PlayerRole` objects, loads formation file block(s) (`load_formations` / `load_formation`), and resolves the per-country file paths.
-- `formation.py` — `DEFAULT_FORMATION` and the mutable `FORMATION` list that the builder reads. `draft_gameplan.py` overwrites `FORMATION[:]` from the country's formation file before building.
+- `formation.py` — `DEFAULT_FORMATION` and the mutable `FORMATION` list that the builder reads. `formation_selection.py` starts from `DEFAULT_FORMATION` and chooses eligible alternatives based on the rendered Epic/Showtime tier.
 - `models.py` — Plain-data classes: `PlayerRole` (one row of `game_data`) and `Assignment` (slot + player + jersey).
 - `constants.py` — `DB_PATH`, the set of non-Standard card types, the wing slot set used for the `SS` fallback, the `MATCH_STAGES` ordering used during sub vacancy fill, and `is_standard()`.
 - `__init__.py` — Marks the package; empty.
@@ -201,7 +207,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ## 7. Typical recipes
 
-- **First-time draft for a new country**: create `<group>/<country>/<country>_players.txt`, optionally with `<country>_formation.txt`, then `./run_workflow.sh <country>`. The first run can be slow because it scrapes Transfermarkt.
+- **First-time draft for a new country**: create `<group>/<country>/<country>_players.txt`, then `./run_workflow.sh <country>`. The first run can be slow because it scrapes Transfermarkt.
 - **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
 - **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --refetch <country>`.
 - **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.

@@ -13,7 +13,8 @@ sys.path.insert(0, str(ROOT))
 import gameplan.formation as formation
 from gameplan.builder import build_gameplan
 from gameplan.constants import DB_PATH, is_standard
-from gameplan.data import load_formations, load_roles, resolve_country_paths
+from gameplan.data import load_roles
+from gameplan.formation_selection import choose_formation
 from scripts import fetch_game_data
 from scripts.draft_gameplan import compact_backup, _exclude_cards, _squad_card_keys
 from scripts.fetch_game_data import (
@@ -94,21 +95,21 @@ def _input_standard_cards(conn, players_path, country, group):
 
 
 def _run_country_selection(conn, country, group, candidate_observer=None, roles_by_pos=None):
-    formation_path, _output_path = resolve_country_paths(country)
-    first_formation, second_formation = load_formations(formation_path)
-    formation.FORMATION[:] = first_formation
     if roles_by_pos is None:
         roles_by_pos = load_roles(conn, country)
     if not roles_by_pos:
         return
 
+    first_formation = choose_formation(conn, roles_by_pos)
+    formation.FORMATION[:] = first_formation
     starters, subs, wildcards = build_gameplan(
         conn, roles_by_pos, candidate_observer=candidate_observer
     )
     if group == "contenders":
         used_cards = _squad_card_keys(starters, subs, wildcards)
         remaining = _exclude_cards(roles_by_pos, used_cards)
-        formation.FORMATION[:] = second_formation or first_formation
+        second_formation = choose_formation(conn, remaining)
+        formation.FORMATION[:] = second_formation
         build_gameplan(conn, remaining, candidate_observer=candidate_observer)
     elif group == "backup":
         compact_backup(conn, roles_by_pos, starters, candidate_observer=candidate_observer)

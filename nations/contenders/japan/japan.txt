@@ -32,30 +32,30 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] Koki Ogawa (CF) rating 95.34 #19
+  [SS] Takashi Usami (SS) rating 97.40 #11
   [LMF] Keito Nakamura (LMF) rating 97.08 #13
   [RMF] Takefusa Kubo (RMF) rating 98.14 #20
-  [SS] Takashi Usami (SS) rating 97.40 #11
+  [AMF] Shunsuke Nakamura (AMF) rating 96.64 #10
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
   [DMF] Wataru Endo (DMF) rating 95.06 #6
-  [LB] Yuto Nagatomo (LMF) rating 92.33 #5
+  [LB] Ryo Hatsuse (LB) rating 92.08 #19
   [CB] Makoto Hasebe (CB) rating 97.10 #17
   [CB] Maya Yoshida (CB) rating 93.28 #22
-  [RB] Ritsu Doan (RMF) rating 97.70 #10
+  [RB] Ritsu Doan (RMF) rating 97.70 #8
   [GK] Eiji Kawashima (GK) rating 97.19 #1
 
 Substitutes:
-  [CF] Kento Shiogai (CF) rating 94.40 #26
-  [LMF] Takumi Minamino (LMF) rating 93.98 #8
-  [RMF] Shunsuke Saito (RMF) rating 65.44 #29
   [SS] Shinji Okazaki (SS) rating 94.21 #9
+  [LMF] Ryunosuke Sato (LMF) rating 93.07 #27
+  [RMF] Shuto Nakano (RMF) rating 70.33 #2
+  [AMF] Junya Ito (AMF) rating 96.50 #14
   [CMF] Ao Tanaka (CMF) rating 74.11 #7
   [DMF] Shunta Tanaka (DMF) rating 93.85 #3
   [LB] Sota Miura (LB) rating 71.67 #24
   [CB] Tsukasa Shiotani (CB) rating 90.72 #16
-  [CB] Genta Miura (CB) rating 91.27 #2
+  [CB] Genta Miura (CB) rating 91.27 #5
   [RB] Miki Yamane (RB) rating 74.13 #21
   [GK] Seigo Narazaki (GK) rating 96.92 #18
 
 Wildcard:
-  [WILD] Shunsuke Nakamura (AMF) rating 96.64 #14
+  [WILD] Tomoki Hayakawa (GK) rating 96.23 #23
