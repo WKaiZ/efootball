@@ -84,7 +84,7 @@ async def fetch_numbers_for_player(
     expected_nation_label=None,
 ):
     nums = load_cached_numbers_from_db(
-        conn, player_id, country_filter=cache_lookup_country, display_name=name
+        conn, player_id, country_filter=cache_country_filter, display_name=name
     )
     if nums:
         warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label)
