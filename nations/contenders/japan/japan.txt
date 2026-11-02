@@ -32,7 +32,7 @@ Wildcard:
 Second Squad
 
 Starters:
-  [SS] Takashi Usami (SS) rating 97.40 #11
+  [CF] Yu Kobayashi (CF) rating 95.93 #11
   [LMF] Keito Nakamura (LMF) rating 97.08 #13
   [RMF] Takefusa Kubo (RMF) rating 98.14 #20
   [AMF] Shunsuke Nakamura (AMF) rating 96.64 #10
@@ -45,8 +45,8 @@ Starters:
   [GK] Eiji Kawashima (GK) rating 97.19 #1
 
 Substitutes:
-  [SS] Shinji Okazaki (SS) rating 94.21 #9
-  [LMF] Ryunosuke Sato (LMF) rating 93.07 #27
+  [CF] Kento Shiogai (CF) rating 94.40 #26
+  [LMF] Takumi Minamino (LMF) rating 93.98 #9
   [RMF] Shuto Nakano (RMF) rating 70.33 #2
   [AMF] Junya Ito (AMF) rating 96.50 #14
   [CMF] Ao Tanaka (CMF) rating 74.11 #7

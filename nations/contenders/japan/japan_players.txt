@@ -1,5 +1,6 @@
 Ayase Ueda, CF, 97.66, True, Showtime, [CF], [SS, AMF]
 Keisuke Honda, CF, 97.31, False, BigTime, [CF, SS, AMF, LWF, RWF], [LMF, RMF, CMF]
+Yu Kobayashi, CF, 95.93, False, BigTime, [CF, RWF], [LWF, SS, AMF, RMF]
 Koki Ogawa, CF, 95.34, False, Showtime, [CF], [SS, AMF]
 Kento Shiogai, CF, 94.40, False, Highlight, [CF, SS, AMF], []
 Yoichiro Kakitani, CF, 93.97, False, Epic, [CF, SS, AMF], []
