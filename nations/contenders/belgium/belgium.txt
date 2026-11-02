@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Loïs Openda (CF) rating 95.37 #9
-  [LWF] Mika Godts (LWF) rating 76.02 #22
+  [LWF] Mika Godts (LWF) rating 94.34 #22
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #20
   [CMF] Nicolas Raskin (CMF) rating 75.30 #23

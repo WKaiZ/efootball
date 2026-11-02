@@ -38,7 +38,7 @@ Starters:
   [SS] Antoine Griezmann (SS) rating 97.99 #11
   [CMF] Warren Zaïre-Emery (CMF) rating 96.13 #18
   [DMF] Claude Makélélé (DMF) rating 99.11 #6
-  [LB] Lucas Hernández (LB) rating 94.06 #21
+  [LB] Lucas Digne (LB) rating 94.44 #3
   [CB] Raphaël Varane (CB) rating 98.56 #4
   [CB] William Saliba (CB) rating 96.99 #17
   [RB] Lilian Thuram (RB) rating 100.09 #15
@@ -51,10 +51,10 @@ Substitutes:
   [SS] Florian Thauvin (SS) rating 93.97 #12
   [CMF] Eduardo Camavinga (CMF) rating 95.07 #25
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
-  [LB] Mikaël Silvestre (LB) rating 93.78 #13
+  [LB] Lucas Hernández (LB) rating 94.06 #21
+  [CB] Dayot Upamecano (CB) rating 95.62 #13
   [CB] Jules Koundé (CB) rating 95.26 #5
-  [CB] Benjamin Pavard (CB) rating 94.56 #2
-  [RB] Jonathan Clauss (RB) rating 93.04 #3
+  [RB] Jonathan Clauss (RB) rating 93.04 #2
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:

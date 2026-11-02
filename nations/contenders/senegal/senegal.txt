@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] Habib Diallo (CF) rating 74.11 #7
   [LWF] Issa Soumaré (LWF) rating 73.23 #12
-  [RWF] Krépin Diatta (RMF) rating 74.84 #15
+  [RWF] Krépin Diatta (RMF) rating 74.16 #15
   [AMF] Samba Diba (CMF) rating 66.50 #8
   [CMF] Rassoul Ndiaye (CMF) rating 70.64 #24
   [DMF] Cheikh Niasse (DMF) rating 72.95 #19
