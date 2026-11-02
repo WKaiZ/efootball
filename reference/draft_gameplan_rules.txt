@@ -10,9 +10,9 @@ Goal
 Formation (default)
 - Slot order (each exactly one player):
   CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
-- Every squad starts from the default above; `{country}_formation.txt` does not affect workflow drafts.
-- After rendering, compare the selected starter and substitute main-position cards at each eligible slot. Switch only if the alternate slot renders a strictly higher special-card tier: LWF→LMF, RWF→RMF, CF→SS, AMF→SS. Epic and BigTime share the top tier, above Showtime; equal tiers keep the default position. Other card types do not trigger a switch.
-- Contender First and Second Squads make this decision independently; the Second Squad uses the remaining cards after First Squad exclusions.
+- Each squad starts from the default above; no formation file is required.
+- For each eligible slot, compare the rendered starter and substitute main-position cards. Switch only if the alternate slot has a strictly higher special-card tier: LWF→LMF, RWF→RMF, CF→SS, AMF→SS. Epic and BigTime share the top tier, above Showtime; equal tiers keep the current position. Other card types do not trigger a switch.
+- Contender formations are selected independently using the remaining cards after prior squad exclusions.
 
 Player selection
 - Choose STARTERS first, then choose SUBSTITUTES.

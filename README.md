@@ -81,19 +81,19 @@ A player can appear on multiple lines if they have separate cards for different 
 
 ### Formation selection
 
-Every nation starts from the default formation in `gameplan/formation.py`:
+The default formation in `gameplan/formation.py` is:
 
 ```
 CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
 ```
 
-The workflow compares the rendered starter and substitute at each eligible slot and
-switches only when the alternate renders a higher special-card tier in its
-main-position card. The allowed switches are LWF→LMF, RWF→RMF, CF→SS, and AMF→SS.
-Epic and BigTime share the top tier, above Showtime; equal tiers leave the
-default slot unchanged. For contenders, this decision is made independently for
-the First and Second Squads after excluding the First Squad's cards.
-Existing `<country>_formation.txt` files do not affect workflow drafts.
+The draft starts from the default formation and selects eligible alternatives
+while rendering each squad. It switches only when an alternate slot has a
+higher-tier Epic, BigTime, or Showtime main-position card among rendered starters
+and substitutes. Epic and BigTime share the top tier, above Showtime; equal tiers
+keep the current position. Allowed switches are LWF→LMF, RWF→RMF, CF→SS, and
+AMF→SS. Contender formations are calculated independently for each squad after
+excluding cards used in earlier squads. No formation files are needed.
 
 ### `<country>.txt` (output, generated)
 
@@ -129,7 +129,7 @@ For each country the script runs these stages in order:
 1. `python scripts/fetch_number.py <country>` — ESPN recent-flag update + Transfermarkt jersey scrape into `pes.db`.
 2. `python scripts/fetch_game_data.py <country>` — Reads `<country>_players.txt`, resolves names to `player_id`s, and writes a `game_data` row per player+position into `pes.db`.
 3. `python scripts/prune_unconsidered_standard.py <country>` — Individually probes Standard rows that weren’t considered by temporarily raising each rating to the next whole number. Rows that still never enter a position or wildcard selector are removed; `Recent=True` contenders are preserved. If any rows are removed, `game_data` is refreshed from the edited file.
-4. `python scripts/draft_gameplan.py <country>` — Builds the final gameplan from `pes.db` and writes `<country>/<country>.txt`.
+4. `python scripts/draft_gameplan.py <country>` — Selects eligible formation positions while rendering, then writes the final gameplan to `<country>/<country>.txt`.
 
 You can also run any of those scripts directly if you only need that one stage.
 
@@ -163,7 +163,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed. Formation files are optional; missing ones use the default in `gameplan/formation.py`.
+- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed.
 - `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
