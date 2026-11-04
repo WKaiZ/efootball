@@ -4694,7 +4694,24 @@
   "229817": "https://img.a.transfermarkt.technology/portrait/big/229817-1789572175.jpg",
   "323652": "https://img.a.transfermarkt.technology/portrait/big/323652-1644930417.jpg",
   "1385275": "https://img.a.transfermarkt.technology/portrait/big/1385275-1744108235.jpg",
-  "249121": "https://img.a.transfermarkt.technology/portrait/big/249121-1787134156.png"
+  "249121": "https://img.a.transfermarkt.technology/portrait/big/249121-1787134156.png",
+  "672100": "https://img.a.transfermarkt.technology/portrait/big/672100-1792762558.jpg",
+  "448468": "https://img.a.transfermarkt.technology/portrait/big/448468-1792067745.png",
+  "512916": "https://img.a.transfermarkt.technology/portrait/big/512916-1642416297.png",
+  "352448": "https://img.a.transfermarkt.technology/portrait/big/352448-1778861455.jpg",
+  "520530": "https://img.a.transfermarkt.technology/portrait/big/520530-1697463489.png",
+  "816572": "https://img.a.transfermarkt.technology/portrait/big/816572-1705663008.png",
+  "442552": "https://img.a.transfermarkt.technology/portrait/big/442552-1764158887.png",
+  "461963": "https://img.a.transfermarkt.technology/portrait/big/461963-1789133117.jpg",
+  "284736": "https://img.a.transfermarkt.technology/portrait/big/284736-1669105378.png",
+  "605150": "https://img.a.transfermarkt.technology/portrait/big/605150-1625029488.jpg",
+  "451232": "https://img.a.transfermarkt.technology/portrait/big/451232-1759129629.jpg",
+  "201801": "https://img.a.transfermarkt.technology/portrait/big/201801-1711733364.jpg",
+  "254761": "https://img.a.transfermarkt.technology/portrait/big/254761-1634577084.jpg",
+  "278983": "https://img.a.transfermarkt.technology/portrait/big/278983-1759129488.jpg",
+  "648028": "https://img.a.transfermarkt.technology/portrait/big/648028-1625029813.jpg",
+  "447999": "https://img.a.transfermarkt.technology/portrait/big/447999-1726871708.jpg",
+  "855844": "https://img.a.transfermarkt.technology/portrait/big/855844-1759129792.jpg"
  },
  "tm_null": {
   "1146046": 3,
@@ -4750,12 +4767,12 @@
   "538521": 3,
   "678120": 3,
   "518344": 3,
-  "375968": 2,
-  "551941": 2,
-  "375964": 2,
-  "193975": 2,
-  "674221": 2,
-  "1010729": 1
+  "375968": 3,
+  "551941": 3,
+  "375964": 3,
+  "193975": 3,
+  "674221": 3,
+  "1010729": 2
  },
  "tm_err": {}
 }
