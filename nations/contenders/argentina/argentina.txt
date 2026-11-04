@@ -10,7 +10,7 @@ Starters:
   [LB] Javier Zanetti (LB) rating 99.02 #22
   [CB] Cristian Romero (CB) rating 97.80 #13
   [CB] Lisandro Martínez (CB) rating 96.93 #6
-  [RB] Agustín Giay (RB) rating 95.26 #4
+  [RB] Agustín Giay (RB) rating 94.21 #4
   [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:

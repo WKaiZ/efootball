@@ -21,7 +21,7 @@ Substitutes:
   [CMF] Andrey Santos (CMF) rating 94.21 #21
   [DMF] Casemiro (DMF) rating 97.38 #5
   [LB] Marcelo (LB) rating 97.92 #12
-  [CB] Thiago Silva (CB) rating 96.57 #14
+  [CB] Thiago Silva (CB) rating 95.80 #14
   [CB] Bremer (CB) rating 94.92 #15
   [RB] Maicon (RB) rating 98.30 #13
   [GK] Alisson (GK) rating 95.99 #23

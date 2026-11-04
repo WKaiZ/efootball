@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
-  [LMF] Jesse Lingard (LMF) rating 95.36 #19
+  [LMF] Jesse Lingard (LMF) rating 95.07 #19
   [RMF] Cole Palmer (RMF) rating 98.93 #20
   [AMF] James Maddison (AMF) rating 95.20 #25
   [CMF] Frank Lampard (CMF) rating 98.11 #17
