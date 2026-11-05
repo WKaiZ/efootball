@@ -49,7 +49,7 @@ Substitutes:
   [LMF] Robert Pirès (LMF) rating 96.89 #14
   [RWF] Désiré Doué (RWF) rating 99.22 #20
   [SS] Florian Thauvin (SS) rating 93.97 #12
-  [CMF] Eduardo Camavinga (CMF) rating 95.07 #25
+  [CMF] Youssouf Fofana (CMF) rating 95.17 #19
   [DMF] Aurélien Tchouaméni (DMF) rating 96.00 #8
   [LB] Lucas Hernández (LB) rating 94.06 #21
   [CB] Dayot Upamecano (CB) rating 95.62 #13
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Robin Risser (GK) rating 94.39 #23
 
 Wildcard:
-  [WILD] Boubacar Kamara (DMF) rating 95.46 #19
+  [WILD] Maghnes Akliouche (RMF) rating 95.45 #25

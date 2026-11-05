@@ -1,4 +1,5 @@
 Kerim Alajbegovic, LWF, 93.35, False, Highlight, [LWF, LMF, AMF], [CF, SS, RWF, RMF]
+Kerim Alajbegovic, LMF, 93.26, False, Highlight, [LWF, LMF, AMF, SS], [CF, RWF, RMF]
 
 Milan Djuric, CF, 72.68, False, Standard, [CF], [SS, AMF]
 Luka Menalo, LWF, 71.05, False, Standard, [LWF], [CF, RWF, RMF, LMF]

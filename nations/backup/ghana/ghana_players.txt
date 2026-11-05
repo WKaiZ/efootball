@@ -1,3 +1,4 @@
+Iñaki Williams, CF, 95.32, False, Highlight, [RWF, RMF, LWF, LMF, CF, SS], [AMF]
 Antoine Semenyo, RWF, 95.82, False, Highlight, [LWF, LMF, RWF, RMF], [CF, SS]
 Mohammed Kudus, RWF, 95.00, False, Highlight, [RWF, RMF, AMF], [LWF, LMF, CF, SS]
 Iñaki Williams, RWF, 94.93, False, Highlight, [RWF, RMF, LWF, LMF, CF, SS], [AMF]
