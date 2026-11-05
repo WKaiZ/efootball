@@ -50,7 +50,6 @@ Fayçal Fajr, CMF, 74.28, False, Standard, [CMF, AMF, RMF], [LWF, RWF, SS, LMF, 
 Neil El Aynaoui, CMF, 73.76, True, Standard, [CMF, DMF], [LMF, AMF]
 Oussama Targhalline, CMF, 72.51, True, Standard, [CMF, DMF], [AMF]
 Samir El Mourabet, CMF, 72.22, True, Standard, [CMF, LMF], [LWF, AMF, DMF]
-Yassine Kechta, CMF, 72.03, False, Standard, [AMF, CMF, DMF], [SS, LWF, LMF, RWF, RMF]
 Sofyan Amrabat, DMF, 77.03, False, Standard, [DMF, CMF], [AMF, LMF, RMF, LB]
 Oussama El Azzouzi, DMF, 70.78, False, Standard, [CMF, DMF], [CB, AMF]
 Youssef Aït Bennasser, DMF, 70.48, False, Standard, [CMF, DMF], [CB]

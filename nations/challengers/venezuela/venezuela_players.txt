@@ -8,7 +8,6 @@ Jhon Murillo, LWF, 73.41, False, Standard, [LWF, LMF, SS, RWF, RMF], [CF, AMF, C
 David Martínez, RWF, 74.14, False, Standard, [LWF, RWF, LMF, RMF], [SS, AMF]
 Jefferson Savarino, AMF, 75.55, False, Standard, [LWF, LMF, AMF, RWF, RMF], [SS, CMF]
 Kervin Andrade, AMF, 71.77, False, Standard, [AMF], [SS, CMF, LWF, RWF]
-Wikelman Carmona, AMF, 69.87, True, Standard, [AMF], [LWF, SS, RWF, LMF, CMF]
 Eduard Bello, RMF, 73.07, False, Standard, [LWF, RWF, RMF, RB, AMF], [LMF, SS, CMF]
 Yangel Herrera, CMF, 76.07, False, Standard, [CMF, DMF], [AMF, RMF]
 Daniel Pereira, CMF, 74.17, True, Standard, [CMF, AMF], [SS, DMF]

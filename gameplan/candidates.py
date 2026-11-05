@@ -1,13 +1,17 @@
+import math
+
 from gameplan.constants import SUB_WING_SLOTS, is_standard
 from gameplan.formation import FORMATION
 from gameplan.jerseys import jersey_prefs_for_player
 
 
 def report_candidates(observer, candidates, slot, stage):
-    if observer is None:
+    if observer is None or not candidates:
         return
+    top = max(math.floor(c.rating) for c in candidates)
     for candidate in candidates:
-        observer(candidate, slot, stage)
+        if math.floor(candidate.rating) >= top:
+            observer(candidate, slot, stage)
 
 
 def _player_usable_for_slot_candidate(r, used_ids, subs):
