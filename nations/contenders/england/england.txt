@@ -33,7 +33,7 @@ Second Squad
 
 Starters:
   [CF] Ivan Toney (CF) rating 95.13 #22
-  [LWF] Anthony Gordon (LWF) rating 96.00 #11
+  [LWF] Anthony Gordon (LWF) rating 94.95 #11
   [RMF] Steve McManaman (RMF) rating 97.78 #16
   [SS] Harry Kane (SS) rating 100.55 #9
   [CMF] Steven Gerrard (CMF) rating 98.58 #4
