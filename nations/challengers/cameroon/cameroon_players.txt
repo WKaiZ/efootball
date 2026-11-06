@@ -16,6 +16,7 @@ Nicolas Moumi Ngamaleu, LWF, 73.85, False, Standard, [LWF, LMF, RWF, RMF], [CF, 
 Georges-Kevin N'Koudou, LWF, 73.43, False, Standard, [LWF, RWF, LMF, RMF], [CF, SS, AMF]
 Christian Bassogog, RWF, 73.25, False, Standard, [RWF, RMF], [LWF, LMF, CF]
 Clinton N'Jie, RWF, 70.58, False, Standard, [LWF, RWF], [CF, SS, AMF, LMF, RMF]
+Clinton N'Jie, RWF, 70.58, False, Standard, [LWF, RWF], [LMF, RMF, CF, SS, AMF]
 Jackson Tchatchoua, RMF, 73.60, True, Standard, [RWF, RMF, RB], [LWF, LMF, LB]
 Olivier Ntcham, CMF, 73.00, False, Standard, [AMF, CMF], [DMF]
 Arthur Avom, CMF, 72.48, True, Standard, [AMF, CMF, RMF, RWF], [LMF, SS, DMF]

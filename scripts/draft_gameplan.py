@@ -134,7 +134,8 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     return lines
 
 
-CONTENDER_SQUADS = 3
+SQUADS_PER_GROUP = {"contenders": 3, "challengers": 2}
+CONTENDER_SQUADS = SQUADS_PER_GROUP["contenders"]
 SQUAD_NAMES = ["First", "Second", "Third"]
 
 
@@ -166,8 +167,8 @@ def _country_group(out_path):
     return os.path.basename(os.path.dirname(country_dir))
 
 
-def _is_contender(out_path):
-    return _country_group(out_path) == "contenders"
+def _squad_count(out_path):
+    return SQUADS_PER_GROUP.get(_country_group(out_path), 1)
 
 
 def main():
@@ -188,10 +189,10 @@ def main():
         formation.FORMATION[:] = primary_formation
         starter_asg, sub_asg, wildcard_asgs = _plan(conn, roles_by_pos, primary_formation)
 
-        if _is_contender(out_path):
+        if _squad_count(out_path) > 1:
             squads = [(primary_formation, starter_asg, sub_asg, wildcard_asgs)]
             remaining = roles_by_pos
-            while len(squads) < CONTENDER_SQUADS:
+            while len(squads) < _squad_count(out_path):
                 _slots, _st, _sb, _wc = squads[-1]
                 remaining = _exclude_cards(remaining, _squad_card_keys(_st, _sb, _wc))
                 slots = choose_formation(conn, remaining)

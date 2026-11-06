@@ -97,7 +97,7 @@ excluding cards used in earlier squads. No formation files are needed.
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad** and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single full squad. **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows all three squads for contenders.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad** and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get two full squads (First and Second, with the same card exclusion). **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows up to three squads: three for contenders, two for challengers.
 
 ---
 
@@ -111,18 +111,20 @@ The convenience wrapper:
 ./run_workflow.sh belgium france germany    # run for several countries
 ./run_workflow.sh backup                    # run all populated backup nations
 ./run_workflow.sh --lineup-only challengers  # lineup-only for populated challengers
-./run_workflow.sh --refetch france          # force-refresh ESPN + Transfermarkt cache for france
+./run_workflow.sh --refetch france          # refresh ESPN lineup + reset/re-seed recent numbers; scrape only uncached players
+./run_workflow.sh --rescrape france         # force a full Transfermarkt re-scrape of every player (slow)
 ./run_workflow.sh --lineup-only france      # refresh ESPN "recent" flags + seed latest squad numbers; skip Transfermarkt
 ```
 
 Flags:
 
-- `--refetch` (aliases: `--refresh`, `--no-cache`) — ignore cached jersey rows for this country and re-scrape Transfermarkt; also re-pulls ESPN.
+- `--refetch` (aliases: `--refresh`, `--no-cache`) — light refresh, no per-player Transfermarkt refetch. Re-pulls the latest ESPN lineup (updating `recent` flags), then for every player in that lineup deletes the stale ESPN-seeded rows at the top of their jersey history (rows with a calendar-year season such as `2026`; Transfermarkt rows like `26/27` are never touched) and re-seeds their current squad number at row 0, i.e. the `--lineup-only` logic with a reset. Players with no cached numbers yet (new additions) are still scraped from Transfermarkt once.
+- `--rescrape` — the old full refetch: ignore cached jersey rows for this country and re-scrape every player from Transfermarkt; also re-pulls ESPN. Only needed if Transfermarkt's shirt history itself has changed.
 - `--lineup-only` (alias: `--espn-lineup`) — update the `recent` flags in `<country>_players.txt` from the latest ESPN match, and prepend each matched player's latest squad number at row 0 of the jersey DB (so the builder locks their current number). Skips all Transfermarkt traffic — only players whose Transfermarkt ID is already cached get their numbers seeded (run `--refetch` once first for new players).
 - A group name (`contender`/`contenders`, `challenger`/`challengers`, `backup`, or `reserve`) — apply the selected workflow to every nation in that group with at least one player row. Empty reserve templates are skipped until populated.
 - `--game-index <N>` — use the Nth most recent completed match instead of the latest (1 = latest, 2 = second latest, …). Useful when the most recent match has no public jersey numbers. Cannot be combined with `--gameid`.
 
-`--refetch` and `--lineup-only` are mutually exclusive.
+Combining any two of `--refetch`, `--rescrape` and `--lineup-only` is an error. Unlike `--refetch`, `--lineup-only` does not reset stale seed rows, and it skips players without a cached Transfermarkt ID.
 
 For each country the script runs these stages in order:
 
@@ -163,12 +165,12 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ### Repo root
 
-- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed.
+- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--rescrape` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed.
 - `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive two further passes (three squads); backup and reserve nations show starters only.
+- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive two further passes (three squads) and challengers one (two squads); backup and reserve nations show starters only.
 - `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
 - `reference/` — Draft rules and other maintained reference material.
@@ -209,6 +211,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 - **First-time draft for a new country**: create `<group>/<country>/<country>_players.txt`, then `./run_workflow.sh <country>`. The first run can be slow because it scrapes Transfermarkt.
 - **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
-- **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --refetch <country>`.
+- **After a new international match**: `./run_workflow.sh --refetch <country>` refreshes lineup flags and current numbers in seconds, without touching Transfermarkt for players already cached.
+- **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --rescrape <country>`.
 - **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.
 - **Drafting from existing data without scraping**: run only `python scripts/draft_gameplan.py <country>`. This requires `game_data` rows to already exist for that country in `pes.db`.
