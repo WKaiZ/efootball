@@ -680,6 +680,9 @@
     return `<a class="${cls}" data-pos="${esc(p.pos)}" data-card="${esc(p.card_type || "Standard")}" data-rating="${p.rating}" href="${esc(playerHref(c, p))}" title="${esc(tip)}">${inner}</a>`;
   }
 
+  const SQUAD_NAME = { first: "First squad", second: "Second squad", third: "Third squad" };
+  const SQUAD_ORDER = Object.keys(SQUAD_NAME);
+
   function section(title, players, c, extra) {
     if (!players.length) return "";
     return `<div class="ef-section ${extra||''}" data-squad-section>
@@ -688,13 +691,13 @@
   }
 
   function renderSquad(c, selectedSquad, selectedView = "cards") {
-    const hasSecond = c.players.some(p => p.squad === "second");
-    const squad = hasSecond && selectedSquad === "second" ? "second" : "first";
+    const squadKeys = Object.keys(SQUAD_NAME).filter(k => k === "first" || c.players.some(p => p.squad === k));
+    const hasSecond = squadKeys.length > 1;
+    const squad = squadKeys.includes(selectedSquad) ? selectedSquad : "first";
     const players = c.players.filter(p => (p.squad || "first") === squad);
     const byS = (s) => players.filter(p => p.section === s);
     const picker = hasSecond ? `<div class="ef-squad-switch" role="group" aria-label="Choose squad">
-      <button class="ef-squad-choice${squad === "first" ? " active" : ""}" data-squad="first">First Squad</button>
-      <button class="ef-squad-choice${squad === "second" ? " active" : ""}" data-squad="second">Second Squad</button>
+      ${squadKeys.map(k => `<button class="ef-squad-choice${squad === k ? " active" : ""}" data-squad="${k}">${SQUAD_NAME[k].replace(/ s/, " S")}</button>`).join("")}
     </div>` : "";
     const root = document.getElementById("ef-squad");
     const tier = GROUPS.find(([g]) => g === c.group);
@@ -839,7 +842,7 @@
       for (const player of country.players) {
         const key = `${country.id}/${slug(player.name)}`;
         const existing = byPlayer.get(key);
-        if (!existing || (existing.player.squad === "second" && player.squad !== "second")) {
+        if (!existing || ((existing.player.squad || "first") !== "first" && (player.squad || "first") === "first")) {
           byPlayer.set(key, { player, country });
         }
       }
@@ -1121,7 +1124,7 @@
           allDropouts(countries).sort((a, b) => b.d.days - a.d.days).slice(0, RECORDS_MAX).map(x => dropRow(x)).join(""))}
         ${panel("Most call-ups", "current players with the most separate stints",
           firstSquad(countries).concat(countries.flatMap(country => country.players
-              .filter(p => p.squad === "second").map(player => ({ player, country }))))
+              .filter(p => (p.squad || "first") !== "first").map(player => ({ player, country }))))
             .filter(x => (x.player.callups || 1) > 1)
             .sort((a, b) => b.player.callups - a.player.callups || byRating(a, b)).slice(0, RECORDS_MAX)
             .map(({ player: p, country: c }) => `
@@ -1169,7 +1172,7 @@
     for (const e of byKey.values()) {
       const best = e.pool && e.pool.rows[0];
       if (e.status === "squad") {
-        e.apps.sort((a, b) => (a.squad === "second") - (b.squad === "second"));
+        e.apps.sort((a, b) => SQUAD_ORDER.indexOf(a.squad || "first") - SQUAD_ORDER.indexOf(b.squad || "first"));
         e.p = e.apps[0];
       } else if (e.status === "dropped") {
         const row = e.pool && e.pool.rows.find(r => r[0] === e.drop.pos);
@@ -1331,14 +1334,13 @@
     });
   }
 
-  const squadLabel = (p) => `${p.squad === "second" ? "Second" : "First"} squad · ${SECTION_LABEL[p.section] || "—"}`;
+  const squadLabel = (p) => `${(SQUAD_NAME[p.squad || "first"] || "First squad")} · ${SECTION_LABEL[p.section] || "—"}`;
   const signed = (v) => (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(2);
 
   let historyLoad = null;
   const loadHistory = () => historyLoad || (historyLoad =
     fetch(HISTORY_URL + "?v=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null));
 
-  const SQUAD_NAME = { first: "First squad", second: "Second squad" };
   const hc = (text, cls = "") => `<span class="hc ${cls}">${text}</span>`;
   const moved = (from, to) => Math.abs(to - from) > 1;
   const delta = (from, to) => hc(`rating ${from.toFixed(2)} → ${to.toFixed(2)}`, to > from ? "up" : "down");
@@ -1351,7 +1353,7 @@
     const bySquad = (snap) => Object.fromEntries(((snap && snap.a) || []).map(a => [a[0], a]));
     const before = bySquad(prev), after = bySquad(cur);
     const both = Object.keys(after).length > 1;
-    for (const squad of ["first", "second"]) {
+    for (const squad of SQUAD_ORDER) {
       const was = before[squad], now = after[squad];
       const tag = (text, cls) => hc(`${both ? SQUAD_NAME[squad] + " · " : ""}${text}`, cls);
       if (now && !was) {

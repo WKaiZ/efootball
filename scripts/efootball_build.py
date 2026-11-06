@@ -298,14 +298,8 @@ def deaccent(s):
 def display_name(country):
     return DISPLAY.get(country, country.replace("-", " ").replace("_", " ").title())
 
-def website_squads_text(text):
-    """The site shows two squads for now: drop any "Third Squad" section."""
-    out = []
-    for line in text.splitlines(keepends=True):
-        if line.strip().lower() == "third squad":
-            break
-        out.append(line)
-    return "".join(out)
+SQUAD_KEYS = ("first", "second", "third")
+SQUAD_HEADERS = {f"{k} squad": k for k in SQUAD_KEYS}
 
 def git(repo, *args):
     return subprocess.run(["git", "-C", repo, *args], capture_output=True, text=True).stdout
@@ -318,13 +312,10 @@ def squad_row_sig(line):
 
 def parse_squad_sigs(text):
     sigs, squad = set(), "first"
-    for line in website_squads_text(text).splitlines():
+    for line in text.splitlines():
         low = line.strip().lower()
-        if low == "first squad":
-            squad = "first"
-            continue
-        if low == "second squad":
-            squad = "second"
+        if low in SQUAD_HEADERS:
+            squad = SQUAD_HEADERS[low]
             continue
         if LINE_RE.match(line):
             sigs.add((squad, squad_row_sig(line)))
@@ -742,14 +733,10 @@ def save_cache(cache):
 
 def _parse_players(text):
     players, section, squad = [], None, "first"
-    for line in website_squads_text(text).splitlines():
+    for line in text.splitlines():
         low = line.strip().lower()
-        if low == "first squad":
-            squad = "first"
-            section = None
-            continue
-        if low == "second squad":
-            squad = "second"
+        if low in SQUAD_HEADERS:
+            squad = SQUAD_HEADERS[low]
             section = None
             continue
         if low.startswith("starters"):
@@ -772,10 +759,10 @@ VACANT_RE = re.compile(r"^\s*\[(?P<slot>[A-Z]+)\]\s+VACANT\s*$")
 
 def _parse_vacant(text):
     vacant, squad, section = [], "first", None
-    for line in website_squads_text(text).splitlines():
+    for line in text.splitlines():
         low = line.strip().lower()
-        if low in ("first squad", "second squad"):
-            squad, section = low.split()[0], None
+        if low in SQUAD_HEADERS:
+            squad, section = SQUAD_HEADERS[low], None
         elif low.startswith("starters"):
             section = "starters"
         elif low.startswith(("substitutes", "wildcard")):
@@ -807,7 +794,7 @@ def apply_player_history(country, players, texts, pool_texts, pool_now, today):
                  else max(dates))
         p["since"] = since
         p["days"] = (today - datetime.fromisoformat(since).date()).days
-    for squad in ("first", "second"):
+    for squad in SQUAD_KEYS:
         _assign_medals([p for p in players if p["squad"] == squad])
     callups, joined, dropouts = squad_history(texts, players, today)
     for p in players:
