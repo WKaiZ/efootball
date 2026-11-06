@@ -97,7 +97,7 @@ excluding cards used in earlier squads. No formation files are needed.
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad** and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single full squad. **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled. The website currently ignores the Third Squad section and shows two squads (`website_squads_text` in `scripts/efootball_build.py`).
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad** and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get a single full squad. **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows all three squads for contenders.
 
 ---
 
