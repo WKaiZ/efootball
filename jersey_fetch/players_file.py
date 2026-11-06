@@ -17,6 +17,7 @@ def parse_args(argv):
     game_id = None
     game_index = 1
     lineup_only = False
+    rescrape = False
     positional = []
     i = 1
     while i < len(argv):
@@ -25,13 +26,16 @@ def parse_args(argv):
             force_refetch = True
         elif arg in ("--lineup-only", "--espn-lineup"):
             lineup_only = True
+        elif arg == "--rescrape":
+            rescrape = True
+            force_refetch = True
         elif arg == "--gameid":
             if i + 1 < len(argv):
                 game_id = argv[i + 1]
                 i += 1
             else:
                 raise SystemExit(
-                    "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+                    "Usage: python scripts/fetch_number.py [--refetch | --rescrape | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
                 )
         elif arg == "--game-index":
             if i + 1 < len(argv):
@@ -44,26 +48,27 @@ def parse_args(argv):
                 i += 1
             else:
                 raise SystemExit(
-                    "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+                    "Usage: python scripts/fetch_number.py [--refetch | --rescrape | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
                 )
         else:
             positional.append(arg)
         i += 1
     if len(positional) > 1:
         raise SystemExit(
-            "Usage: python scripts/fetch_number.py [--refetch | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
+            "Usage: python scripts/fetch_number.py [--refetch | --rescrape | --lineup-only] [--gameid <id>] [--game-index <N>] [country_folder]"
         )
     if positional:
         country_folder = positional[0]
     if lineup_only and force_refetch:
         raise SystemExit(
-            "Cannot combine --lineup-only with --refetch. "
-            "Use --lineup-only to refresh ESPN recent flags only (no Transfermarkt). "
-            "Use --refetch for a full jersey refetch including ESPN."
+            "Cannot combine --lineup-only with --refetch/--rescrape. "
+            "Use --lineup-only to refresh ESPN recent flags and seed numbers for players already cached. "
+            "Use --refetch to also fetch Transfermarkt for players that have no cached numbers yet. "
+            "Use --rescrape only to force a Transfermarkt re-scrape of every player."
         )
     if game_id and game_index != 1:
         raise SystemExit("Cannot combine --gameid with --game-index. Use one or the other.")
-    return (country_folder, force_refetch, game_id, game_index, lineup_only)
+    return (country_folder, force_refetch, game_id, game_index, lineup_only, rescrape)
 
 def rewrite_players_txt(raw_lines, name_changes=None, recent_flags=None):
     name_changes = name_changes or {}

@@ -17,7 +17,7 @@ from gameplan.data import load_roles
 from gameplan.formation_selection import choose_formation
 from scripts import fetch_game_data
 from scripts.draft_gameplan import (
-    CONTENDER_SQUADS, compact_backup, _exclude_cards, _squad_card_keys,
+    SQUADS_PER_GROUP, compact_backup, _exclude_cards, _squad_card_keys,
 )
 from scripts.fetch_game_data import (
     get_manual_override,
@@ -107,9 +107,9 @@ def _run_country_selection(conn, country, group, candidate_observer=None, roles_
     starters, subs, wildcards = build_gameplan(
         conn, roles_by_pos, candidate_observer=candidate_observer
     )
-    if group == "contenders":
+    if SQUADS_PER_GROUP.get(group, 1) > 1:
         remaining = roles_by_pos
-        for _ in range(CONTENDER_SQUADS - 1):
+        for _ in range(SQUADS_PER_GROUP[group] - 1):
             remaining = _exclude_cards(remaining, _squad_card_keys(starters, subs, wildcards))
             formation.FORMATION[:] = choose_formation(conn, remaining)
             starters, subs, wildcards = build_gameplan(

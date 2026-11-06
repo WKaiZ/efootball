@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Adam Taggart (CF) rating 71.88 #9
   [LWF] Craig Goodwin (LWF) rating 72.22 #23
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Kye Rowles (CB) rating 72.72 #4
+
+Second Squad
+
+Starters:
+  [CF] Martin Boyle (CF) rating 73.27 #9
+  [LWF] Mathew Leckie (LWF) rating 72.18 #7
+  [RWF] Nishan Velupillay (LWF) rating 70.26 #10
+  [AMF] Anthony Cáceres (AMF) rating 70.53 #5
+  [CMF] Connor Metcalfe (CMF) rating 73.02 #8
+  [DMF] Massimo Luongo (DMF) rating 71.48 #21
+  [LB] Callum Elder (LB) rating 69.55 #3
+  [CB] Milos Degenek (CB) rating 72.48 #2
+  [CB] Jason Geria (CB) rating 72.31 #6
+  [RB] Jacob Italiano (RMF) rating 69.40 #4
+  [GK] Joe Gauci (GK) rating 71.98 #12
+
+Substitutes:
+  [CF] Ante Suto (CF) rating 70.19 #25
+  [LWF] Chris Ikonomidis (LWF) rating 70.22 #17
+  [RWF] Mitchell Duke (CF) rating 69.45 #15
+  [AMF] Cristian Volpato (AMF) rating 70.35 #20
+  [CMF] Ajdin Hrustic (CMF) rating 70.72 #19
+  [DMF] Paul Okon-Engstler (DMF) rating 69.73 #24
+  [LB] Jason Davidson (LB) rating 68.87 #14
+  [CB] Kenny Dougall (DMF) rating 69.62 #13
+  [CB] Curtis Good (CB) rating 70.85 #23
+  [RB] Keanu Baccus (CMF) rating 70.19 #26
+  [GK] Paul Izzo (GK) rating 70.66 #1
+
+Wildcard:
+  [WILD] Tom Glover (GK) rating 69.95 #18

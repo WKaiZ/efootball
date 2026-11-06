@@ -1,3 +1,4 @@
+import re
 import sqlite3
 
 from jersey_fetch.constants import DB_PATH, MANUAL_ID_OVERRIDES
@@ -87,6 +88,19 @@ def get_manual_override(country_name, player_name, position=None):
         pos_key = position.strip().upper()
         return override.get(pos_key) or override.get("default")
     return None
+
+
+def strip_seeded_head_entries(entries, nation_label):
+    """Drop the leading ESPN-seeded rows (calendar-year season such as "2026", not the
+    Transfermarkt "26/27" form) for this nation; seeds are always prepended at row 0."""
+    i = 0
+    while (
+        i < len(entries)
+        and re.fullmatch(r"\d{4}", (entries[i].get("season") or "").strip())
+        and nation_labels_equivalent(entries[i].get("country"), nation_label)
+    ):
+        i += 1
+    return entries[i:]
 
 
 def merge_jersey_entries(espn_entry, transfermarkt_entries):

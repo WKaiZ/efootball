@@ -38,6 +38,7 @@ from jersey_fetch.storage import (
     merge_jersey_entries,
     shared_player_id_for_name,
     store_jersey_entries,
+    strip_seeded_head_entries,
     warn_cached_jersey_nation_mismatch,
     warn_jersey_entries_nation_mismatch,
 )
@@ -158,7 +159,9 @@ async def fetch_numbers_for_player(
         print(f"{name} {player_id} national jersey numbers: {'BLOCKED by human verification; retry with TRANSFERMARKT_INTERACTIVE=1' if html_looks_like_waf_challenge(html) else 'NONE FOUND'}")
     return (nums, False)
 
-def seed_recent_numbers_into_db(conn, country_name, country_label, player_rows, recent_numbers):
+def seed_recent_numbers_into_db(
+    conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=False
+):
     if not recent_numbers:
         return
     id_map = load_player_id_map(conn)
@@ -183,14 +186,20 @@ def seed_recent_numbers_into_db(conn, country_name, country_label, player_rows, 
         if not pid_str and key in ambiguous_names:
             pid_str = shared_player_id_for_name(game_data_map, player_rows, key)
         if not pid_str:
-            print(f"  Skipping DB number seed for {name} ({player_position}): no cached Transfermarkt ID (run --refetch first).")
+            print(f"  Skipping DB number seed for {name} ({player_position}): no cached Transfermarkt ID (--refetch fetches new players).")
             continue
         existing = load_jersey_entries_for_player(conn, pid_str)
-        merged = merge_jersey_entries(seed_entry, existing)
-        if len(merged) == len(existing):
+        base = strip_seeded_head_entries(existing, country_label) if reset_seeded else existing
+        merged = merge_jersey_entries(seed_entry, base)
+        as_key = lambda rows: [
+            ((e.get("season") or "").strip(), e.get("country"), int(e["number"])) for e in rows
+        ]
+        if as_key(merged) == as_key(existing):
             continue
         official = get_official_name(conn, pid_str) or name
         store_jersey_entries(conn, pid_str, official, merged)
+        if reset_seeded and len(base) != len(existing):
+            print(f"  Reset {len(existing) - len(base)} stale seed row(s) for {official} ({pid_str}).")
         print(f"  Seeded latest squad #{seed_entry['number']} at row 0 for {official} ({pid_str}).")
         updated += 1
     if updated:
@@ -198,7 +207,7 @@ def seed_recent_numbers_into_db(conn, country_name, country_label, player_rows, 
 
 
 async def main():
-    country_folder, force_refetch, game_id, game_index, lineup_only = parse_args(sys.argv)
+    country_folder, force_refetch, game_id, game_index, lineup_only, rescrape = parse_args(sys.argv)
     players_file = resolve_players_file(country_folder)
     if not os.path.exists(players_file):
         print(f"No {players_file} found; nothing to do.")
@@ -246,6 +255,12 @@ async def main():
             conn.close()
         return
     conn = init_db()
+    if force_refetch and not rescrape:
+        # Light refresh: no per-player Transfermarkt refetch. Reset stale ESPN seed rows for
+        # players in the latest lineup and re-seed their current number (same as --lineup-only).
+        seed_recent_numbers_into_db(
+            conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=True
+        )
     async with async_playwright() as p:
         id_map = load_player_id_map(conn)
         game_data_map = load_game_data_player_map(conn, country_name)
@@ -291,13 +306,13 @@ async def main():
             if norm_name not in ambiguous_names:
                 id_map[norm_name] = str(pid_str)
             pid = int(pid_str)
-            if pid in fetched_player_ids and not force_refetch:
+            if pid in fetched_player_ids and not rescrape:
                 load_cached_numbers_from_db(conn, pid, display_name=name)
                 official = get_official_name(conn, pid)
                 if not override and official and (official.strip() != name.strip()):
                     name_changes[norm_name] = official
                 continue
-            should_clear_country_cache = force_refetch and pid not in refreshed_player_ids
+            should_clear_country_cache = rescrape and pid not in refreshed_player_ids
             if should_clear_country_cache:
                 cur = conn.cursor()
                 country_names = nation_country_names_for_filter(country_label)
@@ -311,7 +326,7 @@ async def main():
                 )
                 conn.commit()
             db_name_override = name if override and override.get("preserve_name") else None
-            cache_country_filter = country_label if force_refetch else None
+            cache_country_filter = country_label if rescrape else None
             espn_seed_entry = recent_numbers.get(normalize_name(name)) if force_refetch else None
             nums, used_cache = await fetch_numbers_for_player(
                 p,

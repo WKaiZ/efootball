@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Alexis Sánchez (CF) rating 73.76 #10
   [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Felipe Loyola (CMF) rating 73.83 #14
+
+Second Squad
+
+Starters:
+  [CF] Fernando Zampedri (CF) rating 73.39 #22
+  [LWF] Jean Meneses (LWF) rating 73.25 #16
+  [RWF] Alexander Aravena (RWF) rating 72.94 #9
+  [AMF] César Pérez (CMF) rating 73.39 #17
+  [CMF] Marcelino Núñez (CMF) rating 73.79 #10
+  [DMF] Claudio Baeza (DMF) rating 73.53 #2
+  [LB] Eugenio Mena (LB) rating 71.60 #15
+  [CB] Ian Garguez (RB) rating 70.15 #4
+  [CB] Rodrigo Echeverría (DMF) rating 73.06 #18
+  [RB] Guillermo Soto (RB) rating 71.62 #20
+  [GK] Gabriel Arias (GK) rating 73.56 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] Maximiliano Gutiérrez (RWF) rating 72.06 #19
+  [AMF] VACANT
+  [CMF] Álvaro Madrid (CMF) rating 73.01 #24
+  [DMF] VACANT
+  [LB] Marcelo Morales (LB) rating 70.35 #3
+  [CB] VACANT
+  [CB] VACANT
+  [RB] Francisco Salinas (RB) rating 70.66 #25
+  [GK] Brayan Cortés (GK) rating 73.46 #23
+
+Wildcard:
+  [WILD] Yonathan Andía (RB) rating 70.30 #6
+  [WILD] Nicolás Fernández (RB) rating 70.13 #21

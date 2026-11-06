@@ -4,7 +4,7 @@ _efootball_run_workflow_complete() {
   local current nation nation_dir
   local -a candidates
   current="${COMP_WORDS[COMP_CWORD]}"
-  candidates=(--refetch --lineup-only --game-index contender contenders challenger challengers backup reserve)
+  candidates=(--refetch --rescrape --lineup-only --game-index contender contenders challenger challengers backup reserve)
   for nation_dir in "$_efootball_completion_root"/nations/*/*; do
     [ -d "$nation_dir" ] || continue
     nation="${nation_dir##*/}"

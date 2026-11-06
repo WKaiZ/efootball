@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Samuel Eto'o (CF) rating 99.80 #9
   [LWF] Nicolas Moumi Ngamaleu (LWF) rating 73.85 #13
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Malcom Bokele (CB) rating 72.44 #19
+
+Second Squad
+
+Starters:
+  [CF] Bryan Mbeumo (CF) rating 95.20 #10
+  [LWF] Ignatius Ganago (CF) rating 72.34 #12
+  [RMF] Samuel Eto'o (RMF) rating 96.09 #9
+  [AMF] VACANT
+  [CMF] Arthur Avom (CMF) rating 72.48 #15
+  [DMF] Boris Enow (DMF) rating 72.58 #14
+  [LB] Darlin Yongwa (LB) rating 71.53 #13
+  [CB] Michael Ngadeu (CB) rating 74.20 #5
+  [CB] Oumar Gonzalez (CB) rating 73.07 #21
+  [RB] Junior Tchamadeu (RB) rating 69.90 #22
+  [GK] Simon Omossola (GK) rating 70.43 #1
+
+Substitutes:
+  [CF] Eric-Maxim Choupo-Moting (CF) rating 75.43 #11
+  [LWF] Nathan Ngoumou (RWF) rating 71.62 #7
+  [RMF] Jackson Tchatchoua (RMF) rating 73.60 #2
+  [AMF] Junior Dina Ebimbe (RMF) rating 72.98 #25
+  [CMF] Pierre Kunde (CMF) rating 70.30 #20
+  [DMF] Petrus Boumal (DMF) rating 72.43 #17
+  [LB] Mahamadou Nagida (LB) rating 68.54 #18
+  [CB] Harold Moukoudi (CB) rating 73.02 #4
+  [CB] Guy-Marcelin Kilama (CB) rating 71.59 #3
+  [RB] Che Malone (CB) rating 71.44 #6
+  [GK] Simon Ngapandouetnbu (GK) rating 69.92 #23
+
+Wildcard:
+  [WILD] Faris Moumbagna (CF) rating 70.84 #19
+  [WILD] Christian Kofane (CF) rating 70.55 #26

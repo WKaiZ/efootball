@@ -6,14 +6,15 @@ ENV_NAME="${ENV_NAME:-pes}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 usage() {
-  echo "Usage: ./run_workflow.sh [--refetch | --lineup-only] [--game-index <N>] [<country> | <group> ...]"
+  echo "Usage: ./run_workflow.sh [--refetch | --rescrape | --lineup-only] [--game-index <N>] [<country> | <group> ...]"
   echo
   echo "Examples:"
   echo "  ./run_workflow.sh"
   echo "  ./run_workflow.sh --refetch"
   echo "  ./run_workflow.sh --lineup-only france"
   echo "  ./run_workflow.sh france"
-  echo "  ./run_workflow.sh --refetch france"
+  echo "  ./run_workflow.sh --refetch france       # refresh lineup + fetch only uncached players"
+  echo "  ./run_workflow.sh --rescrape france      # force a Transfermarkt re-scrape of every player"
   echo "  ./run_workflow.sh --refetch --game-index 2 morocco"
   echo "  ./run_workflow.sh belgium france germany"
   echo "  ./run_workflow.sh backup"
@@ -21,6 +22,7 @@ usage() {
 }
 
 REFETCH_FLAG=""
+RESCRAPE_FLAG=""
 LINEUP_ONLY_FLAG=""
 GAME_INDEX_VALUE=""
 countries=()
@@ -32,6 +34,8 @@ while [ $i -lt ${#args[@]} ]; do
   arg="${args[$i]}"
   if [ "$arg" = "--refetch" ] || [ "$arg" = "--refresh" ] || [ "$arg" = "--no-cache" ]; then
     REFETCH_FLAG="--refetch"
+  elif [ "$arg" = "--rescrape" ]; then
+    RESCRAPE_FLAG="--rescrape"
   elif [ "$arg" = "--lineup-only" ] || [ "$arg" = "--espn-lineup" ]; then
     LINEUP_ONLY_FLAG="--lineup-only"
   elif [ "$arg" = "--game-index" ]; then
@@ -57,10 +61,20 @@ while [ $i -lt ${#args[@]} ]; do
   i=$((i + 1))
 done
 
-if [ -n "$REFETCH_FLAG" ] && [ -n "$LINEUP_ONLY_FLAG" ]; then
-  echo "Error: use either --refetch or --lineup-only, not both." >&2
+if { [ -n "$REFETCH_FLAG" ] || [ -n "$RESCRAPE_FLAG" ]; } && [ -n "$LINEUP_ONLY_FLAG" ]; then
+  echo "Error: use either --refetch/--rescrape or --lineup-only, not both." >&2
   exit 1
 fi
+if [ -n "$REFETCH_FLAG" ] && [ -n "$RESCRAPE_FLAG" ]; then
+  echo "Error: use either --refetch or --rescrape, not both." >&2
+  exit 1
+fi
+
+fetch_args=()
+[ -n "$REFETCH_FLAG" ] && fetch_args+=("$REFETCH_FLAG")
+[ -n "$RESCRAPE_FLAG" ] && fetch_args+=("$RESCRAPE_FLAG")
+[ -n "$LINEUP_ONLY_FLAG" ] && fetch_args+=("$LINEUP_ONLY_FLAG")
+[ -n "$GAME_INDEX_VALUE" ] && fetch_args+=(--game-index "$GAME_INDEX_VALUE")
 
 for group in "${groups[@]:-}"; do
   for players_file in "$ROOT_DIR"/nations/"$group"/*/*_players.txt; do
@@ -127,19 +141,7 @@ cd "$ROOT_DIR"
 for country in "${countries[@]}"; do
   echo "==> Running workflow for $country"
 
-  if [ -n "$LINEUP_ONLY_FLAG" ] && [ -n "$GAME_INDEX_VALUE" ]; then
-    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" --game-index "$GAME_INDEX_VALUE" "$country"
-  elif [ -n "$LINEUP_ONLY_FLAG" ]; then
-    python scripts/fetch_number.py "$LINEUP_ONLY_FLAG" "$country"
-  elif [ -n "$REFETCH_FLAG" ] && [ -n "$GAME_INDEX_VALUE" ]; then
-    python scripts/fetch_number.py "$REFETCH_FLAG" --game-index "$GAME_INDEX_VALUE" "$country"
-  elif [ -n "$REFETCH_FLAG" ]; then
-    python scripts/fetch_number.py "$REFETCH_FLAG" "$country"
-  elif [ -n "$GAME_INDEX_VALUE" ]; then
-    python scripts/fetch_number.py --game-index "$GAME_INDEX_VALUE" "$country"
-  else
-    python scripts/fetch_number.py "$country"
-  fi
+  python scripts/fetch_number.py ${fetch_args[@]+"${fetch_args[@]}"} "$country"
   python scripts/fetch_game_data.py "$country"
   python scripts/prune_unconsidered_standard.py "$country"
   python scripts/draft_gameplan.py "$country"

@@ -120,6 +120,10 @@ MANUAL_ID_OVERRIDES = {
         "luca pellegrini": {"player_id": "346567", "preserve_name": True},
         "alessandro romano": {"player_id": "911224", "preserve_name": True},
     },
+    "canada": {
+        "cristian gutierrez": {"player_id": "385104", "preserve_name": True},
+        "cristhian gutierrez": {"player_id": "385104", "preserve_name": True},
+    },
     "chile": {
         "carlos palacios": {"player_id": "571219", "preserve_name": True},
         "marcelo morales": {"player_id": "841340", "preserve_name": True},
