@@ -60,3 +60,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Kristoffer Velde (LMF) rating 73.41 #7
+
+Third Squad
+
+Starters:
+  [CF] Aune Heggebø (CF) rating 71.23 #15
+  [LWF] Kristian Arnstad (LWF) rating 72.15 #19
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Sverre Nypan (CMF) rating 71.48 #16
+  [DMF] Lasse Berg Johnsen (DMF) rating 69.05 #23
+  [LB] VACANT
+  [CB] Ulrik Yttergård Jenssen (CB) rating 70.08 #2
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Mads Hedenstad (GK) rating 69.78 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] Tokmac Chol Nguen (LWF) rating 69.52 #14
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Markus Solbakken (CMF) rating 68.51 #18
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT
