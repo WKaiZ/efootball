@@ -34,7 +34,7 @@ Second Squad
 Starters:
   [CF] Habib Diallo (CF) rating 74.11 #20
   [LWF] Assane Diao (LWF) rating 74.32 #7
-  [RWF] Malick Mbaye (RWF) rating 68.02 #11
+  [RWF] Papa Amadou Diallo (RWF) rating 68.62 #10
   [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
   [CMF] Pape Gueye (CMF) rating 93.99 #26
   [DMF] Pathé Ciss (DMF) rating 72.97 #6
@@ -47,7 +47,7 @@ Starters:
 Substitutes:
   [CF] Mbaye Diagne (CF) rating 73.53 #9
   [LWF] Issa Soumaré (LWF) rating 73.23 #12
-  [RWF] Krépin Diatta (RMF) rating 74.16 #15
+  [RWF] Malick Mbaye (RWF) rating 68.02 #11
   [AMF] Rassoul Ndiaye (CMF) rating 70.64 #24
   [CMF] Habib Diarra (CMF) rating 74.24 #21
   [DMF] Cheikh Niasse (DMF) rating 72.95 #19
@@ -58,5 +58,5 @@ Substitutes:
   [GK] Bingourou Kamara (GK) rating 71.75 #1
 
 Wildcard:
+  [WILD] Krépin Diatta (RMF) rating 74.16 #15
   [WILD] Dion Lopy (DMF) rating 72.22 #8
-  [WILD] Abdoulaye Ndiaye (CB) rating 70.83 #10

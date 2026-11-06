@@ -24,6 +24,8 @@ MANUAL_ID_OVERRIDES = {
         "nico gonzalez": "486031",
         "emiliano martinez": "111873",
         "flaco lopez": "844797",
+        "lisandro lopez": "125019",
+        "nacho fernandez": "50669",
     },
     "australia": {
         "mohamed toure": "742770",
@@ -116,6 +118,7 @@ MANUAL_ID_OVERRIDES = {
         "joao mario": "537602",
     },
     "spain": {
+        "nacho fernandez": "58884",
         "adama traore": "204103",
         "victor munoz": "935231",
         "roberto fernandez": "720518",
@@ -141,6 +144,7 @@ MANUAL_ID_OVERRIDES = {
         "alessandro romano": "911224",
     },
     "colombia": {
+        "juan quintero": "323838",
         "jhon solis": "742521",
         "alvaro montero": "292985",
         "luis suarez": "424784",
