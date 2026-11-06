@@ -208,9 +208,11 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
             best_player = None
             best_number = None
             best_rating = -1e18
+            number_failed = []
 
             for i in open_slots:
                 slot = FORMATION[i]
+                eligible = []
                 for r in candidate_roles:
                     sub_idx_for_r = find_player_index(subs, r.player_id)
                     if r.player_id in used_ids and (not allow_from_subs or sub_idx_for_r is None):
@@ -245,14 +247,16 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
                         main_card = preferred_card_for_slot(all_roles, r.player_id, slot, None)
                         if main_card is not None:
                             continue
+                    eligible.append(r)
 
-                    report_candidates(
-                        candidate_observer,
-                        [r],
-                        slot,
-                        f"{'starter' if target_list is starters else 'sub'}_vacancy_{pos_set_name}",
-                    )
+                report_candidates(
+                    candidate_observer,
+                    eligible,
+                    slot,
+                    f"{'starter' if target_list is starters else 'sub'}_vacancy_{pos_set_name}",
+                )
 
+                for r in eligible:
                     num = choose_jersey_for_player(
                         conn,
                         r,
@@ -271,6 +275,7 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
                             starter_ids=swap_protected_player_ids,
                         )
                     if num is None:
+                        number_failed.append((r, slot))
                         continue
 
                     if r.rating > best_rating:
@@ -279,8 +284,28 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
                         best_number = num
                         best_rating = r.rating
 
+            # Cards that were evaluated but rejected on their number (and not simply outranked
+            # by the eventual pick) still count as considered.
+            for failed_role, failed_slot in number_failed:
+                if failed_role.rating >= best_rating:
+                    report_candidates(
+                        candidate_observer,
+                        [failed_role],
+                        failed_slot,
+                        f"{'starter' if target_list is starters else 'sub'}_vacancy_{pos_set_name}_number_conflict",
+                    )
+
             if best_player is None:
                 break
+
+            # The pick is the best-rated card that can get a number, which need not be in the
+            # top rating tier reported above, so always report what was actually chosen.
+            report_candidates(
+                candidate_observer,
+                [best_player],
+                FORMATION[best_slot],
+                f"{'starter' if target_list is starters else 'sub'}_vacancy_{pos_set_name}_selected",
+            )
 
             moved_from_sub_idx = find_player_index(subs, best_player.player_id)
             if moved_from_sub_idx is not None and allow_from_subs:
@@ -319,14 +344,17 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
             best_player = None
             best_number = None
             best_rating = -1e18
-            for r in all_roles:
-                if r.player_id in temp_used_ids or r.player_id in exclude_ids:
-                    continue
-                if not role_matches_stage(slot, r, pos_set_name, want_standard):
-                    continue
-                report_candidates(
-                    candidate_observer, [r], slot, f"sub_replacement_{pos_set_name}"
-                )
+            eligible = [
+                r
+                for r in all_roles
+                if r.player_id not in temp_used_ids
+                and r.player_id not in exclude_ids
+                and role_matches_stage(slot, r, pos_set_name, want_standard)
+            ]
+            report_candidates(
+                candidate_observer, eligible, slot, f"sub_replacement_{pos_set_name}"
+            )
+            for r in eligible:
                 num = choose_jersey_for_player(conn, r, temp_used_numbers, temp_assignments, None)
                 if num is None:
                     continue
@@ -365,6 +393,7 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
                     )
                     if num is None or num == old_num:
                         continue
+                    report_candidates(candidate_observer, [candidate], slot, "sub_upgrade_selected")
                     assignments.pop(p.player_id, None)
                     if old_num is not None:
                         used_numbers.discard(old_num)
@@ -389,19 +418,19 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
             for vacant_idx in vacant_indices:
                 vacant_slot = FORMATION[vacant_idx]
                 for pos_set_name, want_standard in MATCH_STAGES:
-                    for candidate in all_roles:
-                        if candidate.player_id in used_ids:
-                            continue
-                        if not role_matches_stage(vacant_slot, candidate, pos_set_name, want_standard):
-                            continue
-
-                        report_candidates(
-                            candidate_observer,
-                            [candidate],
-                            vacant_slot,
-                            f"sub_swap_{pos_set_name}",
-                        )
-
+                    eligible = [
+                        c
+                        for c in all_roles
+                        if c.player_id not in used_ids
+                        and role_matches_stage(vacant_slot, c, pos_set_name, want_standard)
+                    ]
+                    report_candidates(
+                        candidate_observer,
+                        eligible,
+                        vacant_slot,
+                        f"sub_swap_{pos_set_name}",
+                    )
+                    for candidate in eligible:
                         insert_card = preferred_card_for_slot(
                             all_roles, candidate.player_id, vacant_slot, candidate
                         )
@@ -467,6 +496,12 @@ def build_gameplan(conn, roles_by_pos, candidate_observer=None):
                 break
 
             vacant_idx, candidate, num, holder_idx, holder, replacement, replacement_num = best_swap
+            report_candidates(
+                candidate_observer, [candidate], FORMATION[vacant_idx], "sub_swap_selected"
+            )
+            report_candidates(
+                candidate_observer, [replacement], FORMATION[holder_idx], "sub_swap_replacement_selected"
+            )
             subs[vacant_idx] = candidate
             subs[holder_idx] = replacement
             used_ids.discard(holder.player_id)

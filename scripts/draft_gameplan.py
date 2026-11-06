@@ -134,6 +134,10 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     return lines
 
 
+CONTENDER_SQUADS = 3
+SQUAD_NAMES = ["First", "Second", "Third"]
+
+
 def _squad_card_keys(starter_asg, sub_asg, wildcard_asgs):
     return {
         (a.player.player_id, a.player.position)
@@ -185,19 +189,22 @@ def main():
         starter_asg, sub_asg, wildcard_asgs = _plan(conn, roles_by_pos, primary_formation)
 
         if _is_contender(out_path):
-            used_cards = _squad_card_keys(starter_asg, sub_asg, wildcard_asgs)
-            remaining = _exclude_cards(roles_by_pos, used_cards)
+            squads = [(primary_formation, starter_asg, sub_asg, wildcard_asgs)]
+            remaining = roles_by_pos
+            while len(squads) < CONTENDER_SQUADS:
+                _slots, _st, _sb, _wc = squads[-1]
+                remaining = _exclude_cards(remaining, _squad_card_keys(_st, _sb, _wc))
+                slots = choose_formation(conn, remaining)
+                formation.FORMATION[:] = slots
+                st, sb, wc = _plan(conn, remaining, slots)
+                squads.append((slots, st, sb, wc))
 
-            second_slots = choose_formation(conn, remaining)
-            formation.FORMATION[:] = second_slots
-            starter_asg2, sub_asg2, wildcard_asgs2 = _plan(conn, remaining, second_slots)
-
-            lines = ["First Squad", ""]
-            lines.extend(format_squad(starter_asg, sub_asg, wildcard_asgs, primary_formation))
-            lines.append("")
-            lines.append("Second Squad")
-            lines.append("")
-            lines.extend(format_squad(starter_asg2, sub_asg2, wildcard_asgs2, second_slots))
+            lines = []
+            for i, (slots, st, sb, wc) in enumerate(squads):
+                if i:
+                    lines.append("")
+                lines.extend([f"{SQUAD_NAMES[i]} Squad", ""])
+                lines.extend(format_squad(st, sb, wc, slots))
         else:
             if _country_group(out_path) == "backup":
                 sub_asg, wildcard_asgs = compact_backup(conn, roles_by_pos, starter_asg)

@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Alexandre Pato (CF) rating 97.70 #21
+
+Third Squad
+
+Starters:
+  [SS] Pelé (SS) rating 101.49 #10
+  [LWF] Denilson (LWF) rating 95.65 #17
+  [RWF] Savinho (RWF) rating 95.45 #20
+  [AMF] Raphinha (AMF) rating 97.23 #11
+  [CMF] Andreas Pereira (CMF) rating 93.34 #24
+  [DMF] Danilo Santos (DMF) rating 94.01 #5
+  [LB] Carlos Augusto (LB) rating 93.88 #25
+  [CB] Fabrício Bruno (CB) rating 94.56 #3
+  [CB] Alexsandro (CB) rating 94.26 #15
+  [RB] Dodô (RB) rating 94.44 #13
+  [GK] Gabriel Brazão (GK) rating 94.33 #22
+
+Substitutes:
+  [SS] Paulinho (SS) rating 93.99 #19
+  [LWF] Gabriel Martinelli (LWF) rating 77.27 #7
+  [RWF] Luiz Henrique (RWF) rating 95.39 #21
+  [AMF] Matheus Cunha (AMF) rating 96.23 #9
+  [CMF] Bruno Guimarães (CMF) rating 81.19 #8
+  [DMF] Fabinho (DMF) rating 78.56 #2
+  [LB] Alex Telles (LB) rating 93.43 #6
+  [CB] David Luiz (CB) rating 74.69 #4
+  [CB] Léo Ortiz (CB) rating 93.14 #14
+  [RB] Wesley (RB) rating 94.11 #16
+  [GK] Rafael (GK) rating 91.99 #23
+
+Wildcard:
+  [WILD] Vinicius Junior (LMF) rating 97.46 #18

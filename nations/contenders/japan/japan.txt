@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Tomoki Hayakawa (GK) rating 96.23 #23
+
+Third Squad
+
+Starters:
+  [CF] Koki Ogawa (CF) rating 95.34 #19
+  [LMF] Ryunosuke Sato (LMF) rating 93.07 #27
+  [RWF] Takefusa Kubo (AMF) rating 96.71 #20
+  [SS] Takashi Usami (SS) rating 97.40 #11
+  [CMF] Yasuto Wakizaka (AMF) rating 92.24 #14
+  [DMF] Ao Tanaka (DMF) rating 92.85 #17
+  [LB] Ryoya Ogawa (LB) rating 70.73 #16
+  [CB] Wataru Endo (CB) rating 93.56 #6
+  [CB] Yugo Tatsuta (CB) rating 91.98 #22
+  [RB] Yuto Nagatomo (LMF) rating 92.33 #5
+  [GK] Keisuke Osako (GK) rating 94.37 #12
+
+Substitutes:
+  [CF] Yoichiro Kakitani (CF) rating 93.97 #30
+  [LMF] Daiki Suga (LMF) rating 71.00 #2
+  [RWF] Ritsu Doan (RWF) rating 76.45 #10
+  [SS] Shinji Okazaki (SS) rating 94.21 #9
+  [CMF] Kodai Sano (CMF) rating 73.25 #28
+  [DMF] Ayumu Seko (DMF) rating 91.46 #3
+  [LB] Daiki Sugioka (LB) rating 69.23 #13
+  [CB] Junnosuke Suzuki (CB) rating 71.83 #25
+  [CB] Koki Machida (CB) rating 74.39 #4
+  [RB] Ryoya Morishita (RB) rating 72.33 #24
+  [GK] Daniel Schmidt (GK) rating 92.13 #23
+
+Wildcard:
+  [WILD] Yuito Suzuki (AMF) rating 94.23 #8

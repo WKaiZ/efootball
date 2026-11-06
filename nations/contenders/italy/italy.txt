@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Gianluca Scamacca (CF) rating 95.43 #7
+
+Third Squad
+
+Starters:
+  [CF] Roberto Baggio (CF) rating 96.94 #10
+  [LWF] Mattia Zaccagni (LWF) rating 95.99 #20
+  [RWF] Riccardo Orsolini (RMF) rating 95.01 #7
+  [AMF] Nicolò Zaniolo (AMF) rating 95.92 #18
+  [CMF] Tommaso Pobega (CMF) rating 93.26 #4
+  [DMF] Sandro Tonali (DMF) rating 96.44 #8
+  [LB] Federico Dimarco (LB) rating 94.23 #13
+  [CB] Giorgio Chiellini (CB) rating 96.79 #3
+  [CB] Riccardo Calafiori (CB) rating 96.40 #5
+  [RB] Giuseppe Bergomi (RB) rating 96.45 #2
+  [GK] Marco Carnesecchi (GK) rating 96.73 #12
+
+Substitutes:
+  [CF] Pio Esposito (CF) rating 95.22 #9
+  [LWF] Stephan El Shaarawy (LWF) rating 75.00 #11
+  [RWF] Seydou Fini (RWF) rating 63.57 #17
+  [AMF] Lorenzo Pellegrini (AMF) rating 93.99 #16
+  [CMF] Fabio Miretti (CMF) rating 73.92 #24
+  [DMF] Demetrio Albertini (DMF) rating 96.16 #14
+  [LB] Destiny Udogie (LB) rating 94.21 #19
+  [CB] Alessandro Buongiorno (CB) rating 95.28 #23
+  [CB] Alessandro Bastoni (CB) rating 95.00 #6
+  [RB] Giovanni Di Lorenzo (RB) rating 95.14 #22
+  [GK] Guglielmo Vicario (GK) rating 95.28 #21
+
+Wildcard:
+  [WILD] Lorenzo Lucca (CF) rating 94.35 #15

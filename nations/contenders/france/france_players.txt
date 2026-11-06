@@ -82,5 +82,8 @@ Jean Butez, GK, 93.37, True, Highlight, [GK], []
 
 Estéban Lepaul, CF, 75.76, True, Standard, [CF], [SS, AMF]
 Bradley Barcola, LWF, 79.97, True, Standard, [LWF], [SS, LMF, RMF, CF, RWF, AMF]
+Jonathan Ikoné, RWF, 74.15, False, Standard, [LWF, AMF, RWF], [CF, SS, CMF, LMF, RMF]
+Thomas Lemar, CMF, 74.54, False, Standard, [CMF, AMF, LMF, LWF], [SS, DMF, RMF, RWF]
 Andy Diouf, CMF, 72.79, True, Standard, [CMF], [LWF, RWF, SS, AMF, DMF, LMF, RMF]
+Steven Nzonzi, DMF, 72.39, False, Standard, [DMF], [CMF, CB]
 Guillaume Restes, GK, 75.51, True, Standard, [GK], []

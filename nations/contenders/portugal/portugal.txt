@@ -60,3 +60,35 @@ Substitutes:
 Wildcard:
   [WILD] Samú Costa (DMF) rating 76.18 #24
   [WILD] Otávio (CMF) rating 75.33 #25
+
+Third Squad
+
+Starters:
+  [CF] Cristiano Ronaldo (CF) rating 99.07 #7
+  [LWF] Rafael Leão (LWF) rating 79.15 #15
+  [RWF] Pedro Neto (RWF) rating 95.93 #17
+  [AMF] Bernardo Silva (AMF) rating 81.00 #10
+  [CMF] Joao Moutinho (CMF) rating 75.05 #8
+  [DMF] André Gomes (CMF) rating 73.08 #21
+  [LB] Diogo Dalot (LMF) rating 94.24 #2
+  [CB] Danilo Pereira (CB) rating 93.22 #13
+  [CB] Diogo Leite (CB) rating 75.40 #5
+  [RB] Matheus Nunes (RB) rating 94.00 #6
+  [GK] Samuel Soares (GK) rating 73.13 #22
+
+Substitutes:
+  [CF] Gonçalo Paciência (CF) rating 72.22 #14
+  [LWF] Pedro Gonçalves (LWF) rating 77.86 #9
+  [RWF] Francisco Trincão (RWF) rating 78.17 #16
+  [AMF] Rodrigo Mora (AMF) rating 74.29 #24
+  [CMF] Josué (AMF) rating 74.01 #20
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] João Mário (RB) rating 75.26 #19
+  [GK] Cláudio Ramos (GK) rating 72.58 #12
+
+Wildcard:
+  [WILD] Francisco Conceição (RMF) rating 94.37 #26
+  [WILD] João Félix (SS) rating 79.17 #11

@@ -16,7 +16,9 @@ from gameplan.constants import DB_PATH, is_standard
 from gameplan.data import load_roles
 from gameplan.formation_selection import choose_formation
 from scripts import fetch_game_data
-from scripts.draft_gameplan import compact_backup, _exclude_cards, _squad_card_keys
+from scripts.draft_gameplan import (
+    CONTENDER_SQUADS, compact_backup, _exclude_cards, _squad_card_keys,
+)
 from scripts.fetch_game_data import (
     get_manual_override,
     jersey_history_matches_country,
@@ -106,11 +108,13 @@ def _run_country_selection(conn, country, group, candidate_observer=None, roles_
         conn, roles_by_pos, candidate_observer=candidate_observer
     )
     if group == "contenders":
-        used_cards = _squad_card_keys(starters, subs, wildcards)
-        remaining = _exclude_cards(roles_by_pos, used_cards)
-        second_formation = choose_formation(conn, remaining)
-        formation.FORMATION[:] = second_formation
-        build_gameplan(conn, remaining, candidate_observer=candidate_observer)
+        remaining = roles_by_pos
+        for _ in range(CONTENDER_SQUADS - 1):
+            remaining = _exclude_cards(remaining, _squad_card_keys(starters, subs, wildcards))
+            formation.FORMATION[:] = choose_formation(conn, remaining)
+            starters, subs, wildcards = build_gameplan(
+                conn, remaining, candidate_observer=candidate_observer
+            )
     elif group == "backup":
         compact_backup(conn, roles_by_pos, starters, candidate_observer=candidate_observer)
 

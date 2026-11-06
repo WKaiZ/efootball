@@ -298,6 +298,15 @@ def deaccent(s):
 def display_name(country):
     return DISPLAY.get(country, country.replace("-", " ").replace("_", " ").title())
 
+def website_squads_text(text):
+    """The site shows two squads for now: drop any "Third Squad" section."""
+    out = []
+    for line in text.splitlines(keepends=True):
+        if line.strip().lower() == "third squad":
+            break
+        out.append(line)
+    return "".join(out)
+
 def git(repo, *args):
     return subprocess.run(["git", "-C", repo, *args], capture_output=True, text=True).stdout
 
@@ -309,7 +318,7 @@ def squad_row_sig(line):
 
 def parse_squad_sigs(text):
     sigs, squad = set(), "first"
-    for line in text.splitlines():
+    for line in website_squads_text(text).splitlines():
         low = line.strip().lower()
         if low == "first squad":
             squad = "first"
@@ -733,7 +742,7 @@ def save_cache(cache):
 
 def _parse_players(text):
     players, section, squad = [], None, "first"
-    for line in text.splitlines():
+    for line in website_squads_text(text).splitlines():
         low = line.strip().lower()
         if low == "first squad":
             squad = "first"
@@ -763,7 +772,7 @@ VACANT_RE = re.compile(r"^\s*\[(?P<slot>[A-Z]+)\]\s+VACANT\s*$")
 
 def _parse_vacant(text):
     vacant, squad, section = [], "first", None
-    for line in text.splitlines():
+    for line in website_squads_text(text).splitlines():
         low = line.strip().lower()
         if low in ("first squad", "second squad"):
             squad, section = low.split()[0], None

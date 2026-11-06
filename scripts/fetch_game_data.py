@@ -113,6 +113,7 @@ MANUAL_ID_OVERRIDES = {
         "andre silva": "198008",
         "joao moutinho": "29364",
         "otavio": "231289",
+        "joao mario": "537602",
     },
     "spain": {
         "adama traore": "204103",

@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Martín Zubimendi (DMF) rating 95.98 #18
+
+Third Squad
+
+Starters:
+  [CF] Diego Costa (CF) rating 98.81 #19
+  [LWF] Nico Williams (LWF) rating 95.76 #17
+  [RWF] Ferran Torres (CF) rating 96.88 #11
+  [SS] Raúl (SS) rating 95.50 #7
+  [CMF] Guti (CMF) rating 97.40 #14
+  [DMF] Pep Guardiola (DMF) rating 96.05 #4
+  [LB] José Gayà (LB) rating 94.99 #18
+  [CB] Pau Torres (CB) rating 94.84 #2
+  [CB] Robin Le Normand (CB) rating 94.98 #3
+  [RB] Pedro Porro (RB) rating 94.61 #12
+  [GK] Josep Martínez (GK) rating 95.15 #13
+
+Substitutes:
+  [CF] Gerard Moreno (CF) rating 95.17 #9
+  [LWF] Andrés Iniesta (LWF) rating 93.71 #6
+  [RWF] Adama Traore (RWF) rating 74.91 #20
+  [SS] Mikel Merino (AMF) rating 95.53 #22
+  [CMF] Fabián Ruiz (CMF) rating 95.95 #8
+  [DMF] Pepelu (DMF) rating 95.34 #5
+  [LB] Alejandro Grimaldo (LB) rating 94.98 #15
+  [CB] Marc Bartra (CB) rating 93.94 #21
+  [CB] Aymeric Laporte (CB) rating 94.54 #10
+  [RB] Óscar Mingueza (RB) rating 76.14 #16
+  [GK] David de Gea (GK) rating 93.04 #1
+
+Wildcard:
+  [WILD] Samu Aghehowa (CF) rating 94.38 #26
