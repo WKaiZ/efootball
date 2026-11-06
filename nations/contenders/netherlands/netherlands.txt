@@ -89,4 +89,4 @@ Substitutes:
   [GK] Marco Bizot (GK) rating 74.87 #23
 
 Wildcard:
-  [WILD] Brian Brobbey (CF) rating 93.50 #19
+  [WILD] Wout Weghorst (CF) rating 93.99 #19

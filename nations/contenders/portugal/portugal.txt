@@ -92,3 +92,4 @@ Substitutes:
 Wildcard:
   [WILD] Francisco Conceição (RMF) rating 94.37 #26
   [WILD] João Félix (SS) rating 79.17 #11
+  [WILD] Geovany Quenda (RWF) rating 73.36 #23

@@ -59,3 +59,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Duván Zapata (CF) rating 76.29 #19
+
+Third Squad
+
+Starters:
+  [CF] Alfredo Morelos (CF) rating 74.60 #20
+  [LWF] Luis Sinisterra (LWF) rating 74.35 #9
+  [RWF] Marino Hinestroza (RWF) rating 71.92 #14
+  [AMF] James Rodríguez (AMF) rating 74.75 #10
+  [CMF] Víctor Cantillo (CMF) rating 72.10 #8
+  [DMF] Matheus Uribe (DMF) rating 73.99 #15
+  [LB] Deiver Machado (LB) rating 72.88 #4
+  [CB] Yeimar Gomez Andrade (CB) rating 73.45 #3
+  [CB] Andrés Llinás (CB) rating 73.43 #2
+  [RB] Édier Ocampo (RB) rating 72.88 #18
+  [GK] Devis Vásquez (GK) rating 73.65 #22
+
+Substitutes:
+  [CF] Hugo Rodallega (CF) rating 74.34 #11
+  [LWF] Marlos Moreno (LWF) rating 72.13 #21
+  [RWF] Andrés Gómez (RWF) rating 70.20 #26
+  [AMF] Edwin Cardona (AMF) rating 73.31 #7
+  [CMF] Nelson Palacio (CMF) rating 71.96 #25
+  [DMF] Didier Moreno (DMF) rating 72.97 #6
+  [LB] Samuel Velásquez (LB) rating 69.05 #17
+  [CB] Willer Ditta (CB) rating 73.30 #13
+  [CB] Francisco Meza (CB) rating 71.68 #16
+  [RB] VACANT
+  [GK] Iván Arboleda (GK) rating 73.17 #1
+
+Wildcard:
+  [WILD] Luis Muriel (CF) rating 74.32 #19
+  [WILD] Miguel Borja (CF) rating 73.26 #23

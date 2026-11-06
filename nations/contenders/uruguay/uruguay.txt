@@ -60,3 +60,39 @@ Substitutes:
 Wildcard:
   [WILD] Cristopher Fiermarín (GK) rating 74.03 #23
   [WILD] Jose Luis Rodriguez (RB) rating 72.94 #4
+
+Third Squad
+
+Starters:
+  [CF] Miguel Merentiel (CF) rating 76.23 #19
+  [LWF] Joaquín Lavega (LWF) rating 69.29 #17
+  [RWF] Federico Valverde (RMF) rating 96.02 #8
+  [AMF] VACANT
+  [CMF] Fabricio Díaz (CMF) rating 70.08 #22
+  [DMF] Emiliano Martinez (DMF) rating 73.32 #15
+  [LB] Marcelo Saracchi (LB) rating 72.30 #3
+  [CB] Facundo González (CB) rating 70.65 #26
+  [CB] Juan Rodríguez Vega (CB) rating 71.19 #24
+  [RB] Agustín Sant'Anna (RB) rating 73.13 #14
+  [GK] Mauro Silveira (GK) rating 72.88 #1
+
+Substitutes:
+  [CF] Michael Santos (CF) rating 73.00 #20
+  [LWF] Nicolás López (SS) rating 73.06 #7
+  [RWF] Agustín Canobbio (RWF) rating 74.00 #18
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Facundo Bernal (DMF) rating 70.37 #5
+  [LB] VACANT
+  [CB] VACANT
+  [CB] Hugo Magallanes (CB) rating 70.04 #2
+  [RB] Mateo Ponte (RB) rating 71.83 #28
+  [GK] Franco Israel (GK) rating 72.47 #12
+
+Wildcard:
+  [WILD] Rodrigo Aguirre (CF) rating 72.87 #21
+  [WILD] Agustin Alvarez (CF) rating 72.33 #9
+  [WILD] Facundo Pellistri (RWF) rating 71.48 #11
+  [WILD] Gastón Guruceaga (GK) rating 71.01 #23
+  [WILD] Luciano Rodríguez (CF) rating 70.69 #25
+  [WILD] Kevin Amaro (RB) rating 68.07 #4

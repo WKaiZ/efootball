@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Hamza Igamane (CF) rating 74.23 #20
+
+Third Squad
+
+Starters:
+  [CF] Brahim Díaz (CF) rating 93.21 #10
+  [LWF] Osame Sahraoui (LMF) rating 92.95 #24
+  [RWF] Gessime Yassine (RWF) rating 71.36 #16
+  [AMF] Amine Harit (AMF) rating 73.85 #18
+  [CMF] Ayyoub Bouaddi (CMF) rating 75.26 #6
+  [DMF] Larbi Naji (DMF) rating 70.20 #9
+  [LB] Youssef Belammari (LB) rating 71.11 #19
+  [CB] Marwane Saadane (CB) rating 72.27 #4
+  [CB] Abdel Abqar (CB) rating 72.06 #15
+  [RB] Zakaria El Ouahdi (RB) rating 73.53 #13
+  [GK] Salaheddine Chihab (GK) rating 71.54 #1
+
+Substitutes:
+  [CF] Walid Cheddira (CF) rating 72.30 #21
+  [LWF] Abde Ezzalzouli (LWF) rating 76.50 #17
+  [RWF] Nordin Amrabat (RWF) rating 69.57 #8
+  [AMF] Rayane Bounida (AMF) rating 67.10 #29
+  [CMF] Fayçal Fajr (CMF) rating 74.28 #11
+  [DMF] Yahya Jabrane (DMF) rating 69.92 #26
+  [LB] Abdelkarim Baadi (LB) rating 70.81 #3
+  [CB] Abdelhamid Ait Boudlal (CB) rating 71.92 #27
+  [CB] Redouane Halhal (CB) rating 71.72 #25
+  [RB] Mohamed Moufid (RB) rating 69.58 #2
+  [GK] Ahmed Reda Tagnaouti (GK) rating 70.99 #22
+
+Wildcard:
+  [WILD] Oussama Targhalline (CMF) rating 72.51 #14

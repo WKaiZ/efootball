@@ -59,3 +59,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Álex Zendejas (RMF) rating 75.10 #26
+
+Third Squad
+
+Starters:
+  [CF] Christian Pulisic (CF) rating 96.09 #10
+  [LWF] Diego Luna (LMF) rating 76.32 #14
+  [RWF] Taylor Booth (RWF) rating 69.61 #22
+  [AMF] Matko Miljevic (AMF) rating 75.18 #11
+  [CMF] Johnny Cardoso (CMF) rating 77.57 #15
+  [DMF] Wil Trapp (DMF) rating 73.02 #6
+  [LB] Daniel Lovitz (LB) rating 71.44 #5
+  [CB] Aaron Long (CB) rating 72.54 #3
+  [CB] Matt Miazga (CB) rating 73.07 #4
+  [RB] Nathan Harriel (RB) rating 72.25 #20
+  [GK] Roman Celentano (GK) rating 73.73 #24
+
+Substitutes:
+  [CF] Brandon Vazquez (CF) rating 74.84 #19
+  [LWF] Jesús Ferreira (SS) rating 73.71 #9
+  [RWF] Max Arfsten (LMF) rating 73.67 #27
+  [AMF] Giovanni Reyna (AMF) rating 72.82 #7
+  [CMF] Jack McGlynn (CMF) rating 74.18 #12
+  [DMF] James Sands (DMF) rating 72.63 #8
+  [LB] Sam Vines (LB) rating 70.70 #13
+  [CB] George Campbell (CB) rating 71.58 #18
+  [CB] Reggie Cannon (RB) rating 70.96 #2
+  [RB] Shaq Moore (RB) rating 71.93 #16
+  [GK] Gabriel Slonina (GK) rating 73.63 #21
+
+Wildcard:
+  [WILD] Sean Johnson (GK) rating 73.47 #25
