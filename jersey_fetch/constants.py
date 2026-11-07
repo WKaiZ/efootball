@@ -131,6 +131,9 @@ MANUAL_ID_OVERRIDES = {
     "ecuador": {
         "joao ortiz": {"player_id": "348630", "preserve_name": True},
     },
+    "ir-iran": {
+        "mehdi shiri": {"player_id": "280298", "preserve_name": True},
+    },
     "chile": {
         "sebastian perez": {"player_id": "103253", "preserve_name": True},
         "carlos palacios": {"player_id": "571219", "preserve_name": True},
@@ -239,6 +242,7 @@ MANUAL_ID_OVERRIDES = {
         "ali jasim": {"player_id": "877672", "preserve_name": True},
     },
     "korea-republic": {
+        "bong-soo kim": {"player_id": "782763", "preserve_name": True},
         "tae-hwan kim": {"player_id": "156009", "preserve_name": True},
         "tae-hyeon kim": {
             "CB": {"player_id": "645847", "preserve_name": True},

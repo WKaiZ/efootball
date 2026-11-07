@@ -138,6 +138,9 @@ MANUAL_ID_OVERRIDES = {
     "ecuador": {
         "joao ortiz": "348630",
     },
+    "ir-iran": {
+        "mehdi shiri": "280298",
+    },
     "chile": {
         "sebastian perez": "103253",
         "diego sanchez": "179532",
@@ -244,6 +247,7 @@ MANUAL_ID_OVERRIDES = {
         "ali jasim": "877672",
     },
     "korea-republic": {
+        "bong-soo kim": "782763",
         "tae-hwan kim": "156009",
         "tae-hyeon kim": {"CB": "645847", "RB": "508366"},
     },

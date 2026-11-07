@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Ferenc Puskás (CF) rating 97.11 #14
   [LWF] Dániel Sallói (LWF) rating 74.19 #7
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Márton Dárdai (CB) rating 69.44 #24
+
+Second Squad
+
+Starters:
+  [CF] Barnabás Varga (CF) rating 71.70 #19
+  [LWF] Zsolt Nagy (LMF) rating 69.15 #18
+  [RWF] VACANT
+  [AMF] Dániel Gazdag (AMF) rating 73.24 #16
+  [CMF] Milán Vitális (CMF) rating 69.02 #8
+  [DMF] Tamás Nikitscher (CMF) rating 68.99 #14
+  [LB] Ákos Markgráf (LB) rating 67.54 #5
+  [CB] Gábor Szalai (CB) rating 68.57 #6
+  [CB] Márk Csinger (CB) rating 68.11 #3
+  [RB] Dominik Szoboszlai (RB) rating 95.92 #10
+  [GK] Balázs Tóth (GK) rating 70.49 #1
+
+Substitutes:
+  [CF] Donát Bárány (CF) rating 66.52 #9
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] VACANT
+  [CMF] Tamás Szűcs (CMF) rating 64.30 #7
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Áron Yaakobishvili (GK) rating 70.23 #12
+
+Wildcard:
+  [WILD] Péter Szappanos (GK) rating 69.09 #22

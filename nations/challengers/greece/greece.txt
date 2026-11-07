@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Vangelis Pavlidis (CF) rating 94.81 #14
   [LWF] Christos Tzolis (LWF) rating 94.42 #10
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Christos Mandas (GK) rating 73.54 #24
+
+Second Squad
+
+Starters:
+  [CF] Anastasios Douvikas (CF) rating 94.00 #9
+  [LWF] Georgios Masouras (LWF) rating 74.02 #7
+  [RWF] VACANT
+  [AMF] Anastasios Bakasetas (AMF) rating 74.16 #11
+  [CMF] Giannis Konstantelias (LWF) rating 72.52 #18
+  [DMF] Manolis Siopis (DMF) rating 71.41 #23
+  [LB] VACANT
+  [CB] Konstantinos Koulierakis (CB) rating 72.08 #3
+  [CB] Andreas Ntoi (CB) rating 69.49 #25
+  [RB] VACANT
+  [GK] Andreas Gianniotis (GK) rating 71.92 #12
+
+Substitutes:
+  [CF] VACANT
+  [LWF] VACANT
+  [RWF] VACANT
+  [AMF] Petros Mantalos (AMF) rating 72.17 #20
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

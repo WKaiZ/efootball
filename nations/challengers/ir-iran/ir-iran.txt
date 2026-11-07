@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Mehdi Taremi (CF) rating 76.16 #9
   [LWF] Mehdi Ghayedi (LWF) rating 72.15 #10
@@ -25,4 +27,35 @@ Substitutes:
   [GK] Payam Niazmand (GK) rating 70.36 #12
 
 Wildcard:
-  [WILD] Alireza Jahanbakhsh (RMF) rating 75.09 #18
+  [WILD] Alireza Jahanbakhsh (RMF) rating 70.42 #18
+
+Second Squad
+
+Starters:
+  [CF] Dennis Eckert Ayensa (CF) rating 72.00 #24
+  [LWF] Allahyar Sayyadmanesh (LWF) rating 71.39 #8
+  [RWF] Mehdi Hashemnejad (RWF) rating 68.55 #16
+  [AMF] VACANT
+  [CMF] Mehran Ahmadi (CMF) rating 68.46 #17
+  [DMF] Alireza Alizadeh (DMF) rating 68.37 #4
+  [LB] Milad Zakipour (LB) rating 68.96 #25
+  [CB] Aref Aghasi (CB) rating 69.83 #33
+  [CB] Saman Fallah (CB) rating 69.20 #18
+  [RB] Danial Esmaeilifar (RB) rating 69.75 #26
+  [GK] Seyed Hossein Hosseini (GK) rating 70.13 #22
+
+Substitutes:
+  [CF] Shahriar Moghanlou (CF) rating 69.71 #20
+  [LWF] Alireza Koushki (LWF) rating 68.31 #2
+  [RWF] Arya Yousefi (RB) rating 66.78 #23
+  [AMF] Amirhossein Hosseinzadeh (CF) rating 69.50 #10
+  [CMF] Ahmadreza Zendehrouh (DMF) rating 65.80 #13
+  [DMF] Mohammad Ghorbani (DMF) rating 67.97 #21
+  [LB] Abolfazl Jalali (LB) rating 68.92 #28
+  [CB] Mohammadamin Hazbavi (CB) rating 68.02 #19
+  [CB] Farshad Faraji (CB) rating 67.53 #14
+  [RB] Mojtaba Najjarian (RB) rating 68.31 #15
+  [GK] Mohammadreza Akhbari (GK) rating 70.02 #30
+
+Wildcard:
+  [WILD] Saeed Saharkhizan (CF) rating 69.65 #7
