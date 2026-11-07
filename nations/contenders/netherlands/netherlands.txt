@@ -59,34 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Ryan Gravenberch (DMF) rating 95.68 #26
-
-Third Squad
-
-Starters:
-  [CF] Dennis Bergkamp (CF) rating 97.55 #8
-  [LWF] Memphis Depay (CF) rating 94.60 #17
-  [RWF] Donyell Malen (CF) rating 93.55 #18
-  [SS] Ruud Gullit (SS) rating 98.08 #10
-  [CMF] Gjivai Zechiël (CMF) rating 93.99 #21
-  [DMF] Frenkie de Jong (DMF) rating 95.88 #7
-  [LB] Quilindschy Hartman (LB) rating 74.86 #12
-  [CB] Sven Botman (CB) rating 94.99 #14
-  [CB] Jan Paul van Hecke (CB) rating 94.97 #6
-  [RB] Devyne Rensch (RB) rating 93.01 #15
-  [GK] Nick Olij (GK) rating 75.46 #13
-
-Substitutes:
-  [CF] Ruud van Nistelrooy (CF) rating 95.78 #9
-  [LWF] Crysencio Summerville (LWF) rating 75.86 #24
-  [RWF] Calvin Stengs (RWF) rating 72.96 #11
-  [SS] Steven Bergwijn (AMF) rating 73.34 #25
-  [CMF] Donny van de Beek (CMF) rating 93.18 #20
-  [DMF] Jerdy Schouten (DMF) rating 94.44 #16
-  [LB] Tyrell Malacia (LB) rating 72.39 #5
-  [CB] Wesley Hoedt (CB) rating 72.71 #4
-  [CB] Youri Baas (CB) rating 74.45 #22
-  [RB] Jordan Teze (RB) rating 92.13 #3
-  [GK] Marco Bizot (GK) rating 74.87 #23
-
-Wildcard:
-  [WILD] Wout Weghorst (CF) rating 93.99 #19

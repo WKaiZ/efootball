@@ -1,5 +1,3 @@
-First Squad
-
 Starters:
   [CF] Ibrahim Maza (AMF) rating 94.08 #30
   [LWF] Adil Boulbina (LWF) rating 64.72 #18
@@ -28,36 +26,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Mohamed Amoura (CF) rating 74.65 #26
-
-Second Squad
-
-Starters:
-  [CF] Baghdad Bounedjah (CF) rating 74.72 #9
-  [LWF] Farès Chaïbi (LMF) rating 94.37 #10
-  [RWF] Ilan Kebbal (RWF) rating 74.29 #24
-  [AMF] Himad Abdelli (AMF) rating 74.17 #17
-  [CMF] Ismaël Bennacer (CMF) rating 76.15 #22
-  [DMF] Ahmed Kashi (DMF) rating 70.34 #5
-  [LB] Yasser Larouci (LB) rating 70.40 #12
-  [CB] Samir Chergui (CB) rating 69.53 #2
-  [CB] Sohaib Naïr (CB) rating 69.52 #25
-  [RB] Mohamed Farsi (RB) rating 71.57 #3
-  [GK] Mehdi Jeannin (GK) rating 67.58 #1
-
-Substitutes:
-  [CF] Ibrahim Maza (CF) rating 71.51 #30
-  [LWF] Billal Brahimi (LWF) rating 71.11 #15
-  [RWF] Badredine Bouanani (RWF) rating 72.45 #13
-  [AMF] Abdelkahar Kadri (AMF) rating 72.69 #16
-  [CMF] Haris Belkebla (CMF) rating 73.23 #14
-  [DMF] Yacine Titraoui (CMF) rating 71.66 #6
-  [LB] VACANT
-  [CB] Mohamed Amine Tougai (CB) rating 65.77 #4
-  [CB] Ramiz Zerrouki (CMF) rating 71.34 #8
-  [RB] Kevin Van Den Kerkhof (RB) rating 71.30 #23
-  [GK] VACANT
-
-Wildcard:
-  [WILD] Mohamed Belloumi (RWF) rating 71.38 #20
-  [WILD] Mounsef Bakrar (CF) rating 70.79 #19
-  [WILD] Redouane Berkane (CF) rating 70.25 #18

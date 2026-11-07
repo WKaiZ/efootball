@@ -59,34 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Bukayo Saka (RWF) rating 97.41 #21
-
-Third Squad
-
-Starters:
-  [CF] Harry Kane (CF) rating 97.43 #9
-  [LWF] Rio Ngumoha (LWF) rating 93.39 #14
-  [RWF] Phil Foden (RWF) rating 96.16 #10
-  [AMF] Cole Palmer (AMF) rating 96.78 #20
-  [CMF] Bryan Robson (CMF) rating 97.84 #7
-  [DMF] Marc Guéhi (DMF) rating 95.41 #6
-  [LB] Lewis Hall (LB) rating 94.08 #3
-  [CB] Levi Colwill (CB) rating 95.45 #15
-  [CB] Jarell Quansah (CB) rating 94.03 #4
-  [RB] Tino Livramento (RB) rating 93.40 #12
-  [GK] James Trafford (GK) rating 76.13 #13
-
-Substitutes:
-  [CF] Eddie Nketiah (CF) rating 93.07 #25
-  [LWF] Marcus Rashford (LWF) rating 78.13 #11
-  [RWF] Noni Madueke (RWF) rating 95.95 #19
-  [AMF] Eberechi Eze (AMF) rating 96.12 #21
-  [CMF] Paul Scholes (CMF) rating 97.33 #8
-  [DMF] James Garner (DMF) rating 94.94 #18
-  [LB] Myles Lewis-Skelly (LB) rating 92.94 #16
-  [CB] Tyrone Mings (CB) rating 93.98 #17
-  [CB] Eric Dier (CB) rating 94.00 #5
-  [RB] Kieran Trippier (RB) rating 74.68 #2
-  [GK] Jason Steele (GK) rating 75.57 #23
-
-Wildcard:
-  [WILD] Conor Gallagher (CMF) rating 95.39 #24

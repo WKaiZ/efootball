@@ -59,34 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Paulo Dybala (AMF) rating 95.00 #19
-
-Third Squad
-
-Starters:
-  [CF] Lionel Messi (CF) rating 99.24 #10
-  [LWF] Nico González (RWF) rating 77.05 #24
-  [RWF] Franco Mastantuono (RMF) rating 94.43 #30
-  [AMF] Matías Soulé (AMF) rating 95.00 #28
-  [CMF] Giovani Lo Celso (AMF) rating 92.93 #11
-  [DMF] Santiago Ascacíbar (DMF) rating 76.14 #15
-  [LB] Julio Soler (LB) rating 74.35 #21
-  [CB] Marcos Senesi (CB) rating 77.24 #25
-  [CB] Leonardo Balerdi (CB) rating 76.01 #2
-  [RB] Gonzalo Montiel (RB) rating 93.00 #4
-  [GK] Agustín Marchesín (GK) rating 77.67 #1
-
-Substitutes:
-  [CF] Gabriel Batistuta (CF) rating 96.48 #9
-  [LWF] Paulo Dybala (SS) rating 94.37 #7
-  [RWF] Gianluca Prestianni (RWF) rating 73.62 #16
-  [AMF] Manuel Lanzini (AMF) rating 74.59 #20
-  [CMF] Nicolás Domínguez (CMF) rating 76.01 #13
-  [DMF] Aníbal Moreno (DMF) rating 75.13 #14
-  [LB] Gabriel Rojas (LMF) rating 77.04 #3
-  [CB] Walter Kannemann (CB) rating 74.76 #6
-  [CB] Tomás Palacios (CB) rating 75.46 #32
-  [RB] Damián Martínez (RB) rating 71.47 #23
-  [GK] Walter Benítez (GK) rating 76.19 #12
-
-Wildcard:
-  [WILD] Lautaro Martínez (CF) rating 96.19 #22

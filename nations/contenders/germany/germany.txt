@@ -59,37 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Angelo Stiller (DMF) rating 95.29 #16
-
-Third Squad
-
-Starters:
-  [CF] Mario Götze (CF) rating 97.60 #11
-  [LWF] Serge Gnabry (AMF) rating 94.13 #8
-  [RWF] Jamal Musiala (RWF) rating 96.48 #10
-  [AMF] Kai Havertz (AMF) rating 95.17 #7
-  [CMF] Nadiem Amiri (CMF) rating 93.48 #20
-  [DMF] Joshua Kimmich (DMF) rating 95.19 #6
-  [LB] VACANT
-  [CB] Emre Can (CB) rating 93.98 #23
-  [CB] Robin Koch (CB) rating 93.57 #2
-  [RB] Jonas Hofmann (AMF) rating 94.03 #18
-  [GK] Alexander Nübel (GK) rating 78.63 #21
-
-Substitutes:
-  [CF] Deniz Undav (CF) rating 94.96 #26
-  [LWF] Timo Werner (LWF) rating 75.06 #9
-  [RWF] Thomas Müller (SS) rating 76.97 #25
-  [AMF] Julian Brandt (AMF) rating 78.15 #14
-  [CMF] Leon Goretzka (CMF) rating 78.14 #19
-  [DMF] Aleksandar Pavlovic (DMF) rating 94.00 #5
-  [LB] VACANT
-  [CB] Nnamdi Collins (CB) rating 93.35 #13
-  [CB] Yann Bisseck (CB) rating 91.99 #17
-  [RB] VACANT
-  [GK] Marc ter Stegen (GK) rating 78.50 #1
-
-Wildcard:
-  [WILD] Florian Wirtz (LMF) rating 96.96 #24
-  [WILD] Anton Stach (DMF) rating 93.14 #16
-  [WILD] Bernd Leno (GK) rating 77.23 #22
-  [WILD] Julian Weigl (DMF) rating 76.35 #15

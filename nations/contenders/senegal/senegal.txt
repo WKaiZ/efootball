@@ -60,36 +60,3 @@ Substitutes:
 Wildcard:
   [WILD] Krépin Diatta (RMF) rating 74.16 #15
   [WILD] Dion Lopy (DMF) rating 72.22 #8
-
-Third Squad
-
-Starters:
-  [CF] Cherif Ndiaye (CF) rating 72.39 #12
-  [LWF] Cheikh Sabaly (LWF) rating 72.41 #21
-  [RWF] Ismaïla Sarr (RMF) rating 93.52 #18
-  [AMF] VACANT
-  [CMF] Pape Demba Diop (CMF) rating 71.55 #17
-  [DMF] Nampalys Mendy (DMF) rating 72.33 #6
-  [LB] Souleymane Basse (LB) rating 66.08 #13
-  [CB] Abdoulaye Ndiaye (CB) rating 70.83 #10
-  [CB] Formose Mendy (CB) rating 70.39 #2
-  [RB] Bouna Sarr (RB) rating 70.37 #20
-  [GK] Demba Thiam (GK) rating 70.68 #30
-
-Substitutes:
-  [CF] Mame Thiam (CF) rating 72.32 #27
-  [LWF] Ousseynou Niang (LWF) rating 71.76 #22
-  [RWF] Keita Baldé (CF) rating 72.03 #7
-  [AMF] VACANT
-  [CMF] Samba Diba (CMF) rating 66.50 #8
-  [DMF] Mamadou Loum (DMF) rating 68.75 #14
-  [LB] Assane Dioussé (DMF) rating 68.44 #24
-  [CB] Sadibou Sané (CB) rating 68.73 #4
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Mamour Ndiaye (GK) rating 68.65 #16
-
-Wildcard:
-  [WILD] M'Baye Niang (CF) rating 71.40 #9
-  [WILD] Pape Sy (GK) rating 68.63 #23
-  [WILD] Pape Fall (CF) rating 68.04 #29

@@ -134,7 +134,7 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     return lines
 
 
-SQUADS_PER_GROUP = {"contenders": 3, "challengers": 2}
+SQUADS_PER_GROUP = {"contenders": 2}
 CONTENDER_SQUADS = SQUADS_PER_GROUP["contenders"]
 SQUAD_NAMES = ["First", "Second", "Third"]
 

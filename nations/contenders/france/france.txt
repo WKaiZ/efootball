@@ -59,35 +59,3 @@ Substitutes:
 
 Wildcard:
   [WILD] Maghnes Akliouche (RMF) rating 95.45 #25
-
-Third Squad
-
-Starters:
-  [CF] Antoine Griezmann (CF) rating 97.44 #7
-  [LWF] Lucas Da Cunha (LWF) rating 93.32 #21
-  [RWF] Florian Thauvin (RWF) rating 94.33 #8
-  [AMF] Michael Olise (AMF) rating 98.26 #11
-  [CMF] Eduardo Camavinga (CMF) rating 95.07 #6
-  [DMF] Boubacar Kamara (DMF) rating 95.46 #14
-  [LB] Mikaël Silvestre (LB) rating 93.78 #13
-  [CB] Leny Yoro (CB) rating 95.55 #15
-  [CB] Loïc Badé (CB) rating 95.32 #4
-  [RB] Warren Zaïre-Emery (RB) rating 96.51 #18
-  [GK] Lucas Chevalier (GK) rating 94.29 #23
-
-Substitutes:
-  [CF] Randal Kolo Muani (CF) rating 95.38 #12
-  [LWF] Bradley Barcola (LWF) rating 79.97 #25
-  [RWF] Désiré Doué (SS) rating 97.33 #20
-  [AMF] Rayan Cherki (AMF) rating 95.18 #9
-  [CMF] Mattéo Guendouzi (CMF) rating 94.98 #19
-  [DMF] VACANT
-  [LB] Ferland Mendy (LB) rating 93.67 #3
-  [CB] Benjamin Pavard (CB) rating 94.56 #2
-  [CB] Jérémy Jacquet (CB) rating 94.53 #22
-  [RB] Nordi Mukiele (RB) rating 93.98 #5
-  [GK] Guillaume Restes (GK) rating 75.51 #1
-
-Wildcard:
-  [WILD] Wesley Fofana (CB) rating 93.99 #17
-  [WILD] Maxence Lacroix (CB) rating 93.57 #26

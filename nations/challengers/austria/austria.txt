@@ -1,5 +1,3 @@
-First Squad
-
 Starters:
   [CF] Marko Arnautovic (CF) rating 75.30 #7
   [LWF] Romano Schmid (LWF) rating 76.03 #10
@@ -29,34 +27,3 @@ Substitutes:
 Wildcard:
   [WILD] Felix Bacher (CB) rating 74.49 #18
   [WILD] Sasa Kalajdzic (CF) rating 73.40 #25
-
-Second Squad
-
-Starters:
-  [CF] Adrian Grbic (CF) rating 69.31 #7
-  [LWF] Thierno Ballo (LWF) rating 70.38 #22
-  [RWF] Alessandro Schöpf (CMF) rating 71.99 #26
-  [AMF] Marcel Sabitzer (LMF) rating 95.33 #9
-  [CMF] Carney Chukwuemeka (CMF) rating 73.77 #17
-  [DMF] Florian Grillitsch (DMF) rating 72.75 #10
-  [LB] Maximilian Ullmann (LB) rating 71.18 #2
-  [CB] Samson Baidoo (CB) rating 75.00 #3
-  [CB] Marco Friedl (CB) rating 73.40 #23
-  [RB] Valentino Lazaro (RMF) rating 73.98 #8
-  [GK] Tobias Lawal (GK) rating 72.04 #12
-
-Substitutes:
-  [CF] Arnel Jakupovic (CF) rating 67.48 #4
-  [LWF] Alexander Prass (LMF) rating 72.19 #18
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Flavius Daniliuc (CB) rating 72.48 #21
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Nicolas Schmid (GK) rating 71.76 #13
-
-Wildcard:
-  [WILD] Heinz Lindner (GK) rating 71.55 #1
