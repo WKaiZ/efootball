@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Rasmus Højlund (CF) rating 95.99 #9
   [LWF] Jacob Bruun Larsen (LWF) rating 72.58 #11
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Matt O'Riley (CMF) rating 75.98 #10
+
+Second Squad
+
+Starters:
+  [CF] William Osula (CF) rating 93.18 #11
+  [LWF] Mikkel Damsgaard (LWF) rating 93.39 #14
+  [RWF] Gustav Isaksen (RMF) rating 93.04 #8
+  [AMF] Noah Nartey (AMF) rating 72.18 #19
+  [CMF] Christian Eriksen (CMF) rating 75.51 #10
+  [DMF] Thomas Delaney (DMF) rating 74.36 #13
+  [LB] Patrick Dorgu (LMF) rating 93.41 #17
+  [CB] Mads Bech Sørensen (CB) rating 73.59 #2
+  [CB] Lucas Høgsberg (CB) rating 72.76 #4
+  [RB] Mads Roerslev (RB) rating 72.94 #5
+  [GK] Kasper Schmeichel (GK) rating 75.19 #1
+
+Substitutes:
+  [CF] Kasper Dolberg (CF) rating 75.09 #12
+  [LWF] Mathias Kvistgaarden (CF) rating 74.11 #20
+  [RWF] Martin Braithwaite (CF) rating 74.29 #9
+  [AMF] Lucas Andersen (AMF) rating 70.83 #23
+  [CMF] Philip Billing (CMF) rating 75.17 #21
+  [DMF] Jens Jønsson (DMF) rating 72.01 #7
+  [LB] Victor Bak (LB) rating 71.07 #15
+  [CB] Oliver Provstgaard (CB) rating 71.19 #3
+  [CB] Peter Ankersen (RB) rating 70.35 #6
+  [RB] Anton Gaaei (RB) rating 72.38 #18
+  [GK] Mads Hermansen (GK) rating 74.38 #16
+
+Wildcard:
+  [WILD] Daniel Iversen (GK) rating 72.54 #22

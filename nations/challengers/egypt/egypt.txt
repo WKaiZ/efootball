@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Mostafa Mohamed (CF) rating 73.34 #11
   [LMF] Omar Marmoush (LMF) rating 95.74 #22
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Mohanad Lasheen (DMF) rating 73.21 #17
+
+Second Squad
+
+Starters:
+  [CF] Omar Marmoush (CF) rating 79.36 #22
+  [LWF] Trezeguet (LWF) rating 74.42 #7
+  [RWF] Haissem Hassan (RWF) rating 71.34 #12
+  [AMF] Mohamed Salah (AMF) rating 95.46 #10
+  [CMF] Nabil Dunga (DMF) rating 71.53 #18
+  [DMF] Sam Morsy (DMF) rating 73.19 #6
+  [LB] Karim Hafez (LB) rating 70.56 #15
+  [CB] Mohamed Ismail (CB) rating 70.64 #28
+  [CB] Khaled Sobhi (CB) rating 70.51 #2
+  [RB] Ahmed Eid (RB) rating 69.68 #3
+  [GK] Mohamed Alaa (GK) rating 71.48 #26
+
+Substitutes:
+  [CF] Hamza Abdelkarim (CF) rating 69.48 #9
+  [LWF] Mostafa Ziko (LWF) rating 72.11 #11
+  [RWF] Salah Mohsen (CF) rating 69.26 #19
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] VACANT
+  [CB] VACANT
+  [RB] VACANT
+  [GK] Mohamed Sobhy (GK) rating 70.34 #16
+
+Wildcard:
+  [WILD] Gabaski (GK) rating 70.33 #23
+  [WILD] El Mahdi Soliman (GK) rating 68.99 #21

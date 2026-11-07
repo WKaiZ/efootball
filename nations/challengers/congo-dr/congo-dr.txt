@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Yoane Wissa (CF) rating 94.87 #20
   [LWF] Michel-Ange Balikwisha (LWF) rating 72.16 #27
@@ -26,3 +28,34 @@ Substitutes:
 
 Wildcard:
   [WILD] Cédric Bakambu (CF) rating 72.86 #17
+
+Second Squad
+
+Starters:
+  [CF] Samuel Essende (CF) rating 74.38 #9
+  [LWF] Chadrac Akolo (CF) rating 72.42 #7
+  [RWF] Jackson Muleka (CF) rating 72.37 #23
+  [AMF] Mario Stroeykens (AMF) rating 71.26 #10
+  [CMF] Samuel Moutoussamy (CMF) rating 72.14 #8
+  [DMF] Boaz Ngalamulume (DMF) rating 64.78 #11
+  [LB] Vital Nsimba (LB) rating 67.85 #3
+  [CB] Rocky Bushiri (CB) rating 71.74 #15
+  [CB] Dylan Batubinsika (CB) rating 70.41 #5
+  [RB] Axel Tuanzebe (RB) rating 73.44 #4
+  [GK] Timothy Fayulu (GK) rating 71.35 #16
+
+Substitutes:
+  [CF] Fiston Mayele (CF) rating 72.02 #19
+  [LWF] Nathanaël Mbuku (RMF) rating 71.05 #20
+  [RWF] Oscar Kabwit (RMF) rating 67.27 #14
+  [AMF] VACANT
+  [CMF] Aaron Tshibola (CMF) rating 68.94 #6
+  [DMF] VACANT
+  [LB] VACANT
+  [CB] Arsène Zola (CB) rating 67.13 #2
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] VACANT

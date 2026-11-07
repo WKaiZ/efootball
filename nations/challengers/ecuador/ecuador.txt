@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] John Yeboah (SS) rating 93.07 #10
   [LWF] Nilson Angulo (LMF) rating 92.84 #20
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Gonzalo Valle (GK) rating 73.40 #22
+
+Second Squad
+
+Starters:
+  [CF] Anderson Julio (CF) rating 74.43 #11
+  [LWF] Bryan Ramírez (LMF) rating 72.88 #20
+  [RWF] Gonzalo Plata (RWF) rating 74.51 #19
+  [AMF] Kevin Rodríguez (CF) rating 71.31 #26
+  [CMF] Patrickson Delgado (CMF) rating 72.33 #21
+  [DMF] Joao Ortiz (DMF) rating 70.61 #18
+  [LB] Pervis Estupiñán (LMF) rating 94.18 #7
+  [CB] Piero Hincapié (CB) rating 95.55 #3
+  [CB] Félix Torres (CB) rating 72.52 #2
+  [RB] Moisés Caicedo (RB) rating 95.25 #23
+  [GK] Moisés Ramírez (GK) rating 71.43 #12
+
+Substitutes:
+  [CF] Leonardo Campana (CF) rating 73.61 #9
+  [LWF] Enner Valencia (CF) rating 72.53 #13
+  [RWF] Anthony Valencia (RWF) rating 70.44 #8
+  [AMF] VACANT
+  [CMF] VACANT
+  [DMF] Óscar Zambrano (DMF) rating 70.24 #5
+  [LB] Jhoanner Chávez (LB) rating 71.58 #4
+  [CB] Léo Realpe (CB) rating 69.90 #24
+  [CB] VACANT
+  [RB] VACANT
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Yaimar Medina (LB) rating 71.03 #14
+  [WILD] Allen Obando (CF) rating 68.55 #25

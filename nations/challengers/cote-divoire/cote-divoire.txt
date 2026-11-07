@@ -1,3 +1,5 @@
+First Squad
+
 Starters:
   [CF] Didier Drogba (CF) rating 98.73 #11
   [LWF] Simon Adingra (LWF) rating 76.28 #24
@@ -26,3 +28,35 @@ Substitutes:
 
 Wildcard:
   [WILD] Sébastien Haller (CF) rating 92.22 #22
+
+Second Squad
+
+Starters:
+  [CF] Elye Wahi (CF) rating 75.27 #12
+  [LWF] Yan Diomande (LWF) rating 78.09 #10
+  [RWF] Amad Diallo (RWF) rating 93.08 #15
+  [AMF] Lazare Amani (AMF) rating 70.65 #27
+  [CMF] Christ Inao Oulaï (CMF) rating 74.23 #4
+  [DMF] Mory Gbane (DMF) rating 70.40 #24
+  [LB] Ghislain Konan (LB) rating 72.48 #3
+  [CB] Ousmane Diomande (CB) rating 76.04 #2
+  [CB] Willy Boly (CB) rating 73.79 #6
+  [RB] Luck Zogbé (RB) rating 69.57 #17
+  [GK] Mohamed Koné (GK) rating 70.45 #16
+
+Substitutes:
+  [CF] Jean-Philippe Krasso (CF) rating 73.31 #11
+  [LWF] Jonathan Bamba (LWF) rating 74.63 #9
+  [RWF] Evann Guessand (RWF) rating 75.41 #22
+  [AMF] Jérémie Boga (LWF) rating 74.14 #13
+  [CMF] Mohamed Diomandé (CMF) rating 74.06 #19
+  [DMF] Jean Michaël Seri (CMF) rating 73.80 #8
+  [LB] Mario Dorgeles (CMF) rating 67.53 #7
+  [CB] Eric Bailly (CB) rating 71.38 #21
+  [CB] Abakar Sylla (CB) rating 72.17 #18
+  [RB] Armel Zohouri (RB) rating 69.30 #5
+  [GK] VACANT
+
+Wildcard:
+  [WILD] Parfait Guiagon (LMF) rating 72.99 #25
+  [WILD] Oumar Diakité (CF) rating 72.24 #14
