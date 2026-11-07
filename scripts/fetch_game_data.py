@@ -131,7 +131,15 @@ MANUAL_ID_OVERRIDES = {
         "cristian gutierrez": "385104",
         "cristhian gutierrez": "385104",
     },
+    "cote-divoire": {
+        "mohamed kone": "911985",
+        "junior diaz": "1009596",
+    },
+    "ecuador": {
+        "joao ortiz": "348630",
+    },
     "chile": {
+        "sebastian perez": "103253",
         "diego sanchez": "179532",
         "matias fernandez": "402519",
         "nicolas fernandez": "549597",

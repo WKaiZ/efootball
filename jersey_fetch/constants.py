@@ -124,7 +124,15 @@ MANUAL_ID_OVERRIDES = {
         "cristian gutierrez": {"player_id": "385104", "preserve_name": True},
         "cristhian gutierrez": {"player_id": "385104", "preserve_name": True},
     },
+    "cote-divoire": {
+        "mohamed kone": {"player_id": "911985", "preserve_name": True},
+        "junior diaz": {"player_id": "1009596", "preserve_name": True},
+    },
+    "ecuador": {
+        "joao ortiz": {"player_id": "348630", "preserve_name": True},
+    },
     "chile": {
+        "sebastian perez": {"player_id": "103253", "preserve_name": True},
         "carlos palacios": {"player_id": "571219", "preserve_name": True},
         "marcelo morales": {"player_id": "841340", "preserve_name": True},
         "nicolas fernandez": {"player_id": "549597", "preserve_name": True},
