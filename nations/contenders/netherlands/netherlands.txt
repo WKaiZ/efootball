@@ -71,7 +71,7 @@ Starters:
   [DMF] Frenkie de Jong (DMF) rating 95.88 #7
   [LB] Quilindschy Hartman (LB) rating 74.86 #12
   [CB] Sven Botman (CB) rating 94.99 #14
-  [CB] Jan Paul van Hecke (CB) rating 94.54 #6
+  [CB] Jan Paul van Hecke (CB) rating 94.97 #6
   [RB] Devyne Rensch (RB) rating 93.01 #15
   [GK] Nick Olij (GK) rating 75.46 #13
 
