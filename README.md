@@ -97,7 +97,7 @@ excluding cards used in earlier squads. No formation files are needed.
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains three sections — **First Squad**, **Second Squad** and **Third Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers** get two full squads (First and Second, with the same card exclusion). **Backup** and **reserve** nations render starters only. The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows up to three squads: three for contenders, two for challengers.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers**, **backup** and **reserve** nations render a single squad (starters only for backup and reserve). The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows two squads for contenders and one for everyone else.
 
 ---
 
@@ -170,7 +170,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `scripts/` — Command-line entry points and site maintenance tools.
 - `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive two further passes (three squads) and challengers one (two squads); backup and reserve nations show starters only.
+- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive one further pass (two squads); challengers draft a single squad, and backup and reserve nations show starters only.
 - `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
 - `reference/` — Draft rules and other maintained reference material.
