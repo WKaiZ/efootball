@@ -61,7 +61,7 @@ Devyne Rensch, RB, 93.01, False, Highlight, [CB, RB], [LB, RMF, DMF]
 Jordan Teze, RB, 92.13, False, Highlight, [CB, RB], [RMF]
 Edwin van der Sar, GK, 100.01, False, Epic, [GK], []
 Robin Roefs, GK, 94.78, True, Highlight, [GK], []
-Bart Verbruggen, GK, 93.92, True, Highlight, [GK], []
+Bart Verbruggen, GK, 94.37, True, Highlight, [GK], []
 
 Mexx Meerdink, CF, 72.07, True, Standard, [CF], [SS]
 Joshua Zirkzee, SS, 73.59, True, Standard, [CF, SS], [AMF, RWF]

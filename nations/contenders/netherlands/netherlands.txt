@@ -42,7 +42,7 @@ Starters:
   [CB] Ronald Koeman (CB) rating 96.01 #4
   [CB] Matthijs de Ligt (CB) rating 95.98 #6
   [RB] Kenny Tete (RB) rating 94.22 #2
-  [GK] Bart Verbruggen (GK) rating 93.92 #1
+  [GK] Bart Verbruggen (GK) rating 94.37 #1
 
 Substitutes:
   [CF] Roy Makaay (CF) rating 98.62 #12
