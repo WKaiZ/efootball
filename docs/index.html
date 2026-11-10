@@ -903,6 +903,15 @@
   }
 
   let moverDays = 7;
+  const readTabState = (key, fallback) => {
+    try { return sessionStorage.getItem(`callup-tab:${key}`) || fallback; }
+    catch (_) { return fallback; }
+  };
+  const writeTabState = (key, value) => {
+    try { sessionStorage.setItem(`callup-tab:${key}`, value); }
+    catch (_) { /* Keep the current page usable when storage is unavailable. */ }
+  };
+  let overviewActivity = readTabState("overview-activity", "callups");
   function renderOverview(countries) {
     const allCountries = countries;
     countries = countries.filter(hasCompleteStarterSquad);
@@ -913,10 +922,10 @@
         squad ? pitchHTML(squad) : `<div class="feed-more">No first-squad starters available.</div>`)}
       <div class="ov-grid overview-activity">
         ${panel("Squad activity", `last ${FEED_DAYS} days`, `<div class="seg" id="activity-tabs" role="tablist" aria-label="Squad activity">
-            <button type="button" role="tab" data-activity="callups" aria-selected="true" class="active">Call-ups</button>
-            <button type="button" role="tab" data-activity="dropouts" aria-selected="false">Drop-outs</button></div>
-            <div id="activity-callups" class="tab-view" role="tabpanel">${feedHTML(allCountries)}</div>
-            <div id="activity-dropouts" class="tab-view" role="tabpanel" hidden>${dropFeedHTML(allCountries)}</div>`)}
+            <button type="button" role="tab" data-activity="callups" aria-selected="${overviewActivity === "callups"}" class="${overviewActivity === "callups" ? "active" : ""}">Call-ups</button>
+            <button type="button" role="tab" data-activity="dropouts" aria-selected="${overviewActivity === "dropouts"}" class="${overviewActivity === "dropouts" ? "active" : ""}">Drop-outs</button></div>
+            <div id="activity-callups" class="tab-view" role="tabpanel" ${overviewActivity === "dropouts" ? "hidden" : ""}>${feedHTML(allCountries)}</div>
+            <div id="activity-dropouts" class="tab-view" role="tabpanel" ${overviewActivity === "callups" ? "hidden" : ""}>${dropFeedHTML(allCountries)}</div>`)}
         ${panel("Rank movers", "ladder rank change by card", `<div class="seg" role="group" aria-label="Window">
             <button type="button" data-days="7">7 days</button><button type="button" data-days="30">30 days</button></div>
             <div id="movers"><div class="feed-more">loading history…</div></div>`)}
@@ -930,6 +939,8 @@
       const button = e.target.closest("button[data-activity]");
       if (!button) return;
       const active = button.dataset.activity;
+      overviewActivity = active;
+      writeTabState("overview-activity", active);
       const activityPanel = button.closest(".panel");
       activityPanel.querySelectorAll(".xlist-more").forEach(more => { more.hidden = true; });
       activityPanel.querySelectorAll(".xlist-toggle").forEach(toggle => {
