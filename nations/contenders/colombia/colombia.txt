@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Jhon Solís (CMF) rating 72.24 #14
   [DMF] Kevin Castaño (DMF) rating 72.04 #5
   [LB] Junior Hernández (LB) rating 73.22 #13
-  [CB] Kevin Balanta (CB) rating 71.31 #24
   [CB] Brayan Vera (CB) rating 72.18 #16
+  [CB] Kevin Balanta (CB) rating 71.31 #24
   [RB] Helibelton Palacios (RB) rating 71.80 #17
   [GK] Alejandro Rodríguez (GK) rating 68.73 #12
 

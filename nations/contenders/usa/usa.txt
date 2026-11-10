@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Cristian Roldán (CMF) rating 74.62 #7
   [DMF] Tyler Adams (DMF) rating 76.37 #4
   [LB] Peyton Miller (LB) rating 71.47 #13
-  [CB] Miles Robinson (CB) rating 74.55 #12
   [CB] Tim Ream (CB) rating 74.59 #6
+  [CB] Miles Robinson (CB) rating 74.55 #12
   [RB] Joe Scally (RB) rating 73.74 #26
   [GK] Matt Turner (GK) rating 74.74 #1
 

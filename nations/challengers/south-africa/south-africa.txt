@@ -19,8 +19,8 @@ Substitutes:
   [CMF] Yaya Sithole (CMF) rating 68.33 #13
   [DMF] Thalente Mbatha (DMF) rating 66.45 #5
   [LB] Samukele Kabini (LB) rating 68.75 #18
-  [CB] Khulumani Ndamane (CB) rating 68.87 #3
   [CB] Ime Okon (CB) rating 70.18 #21
+  [CB] Khulumani Ndamane (CB) rating 68.87 #3
   [RB] Kamogelo Sebelebele (RB) rating 67.51 #25
   [GK] Sipho Chaine (GK) rating 70.54 #16
 

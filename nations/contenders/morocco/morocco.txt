@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
   [DMF] Sofyan Amrabat (DMF) rating 77.03 #16
   [LB] Yahia Attiyat Allah (LB) rating 72.80 #25
-  [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [CB] Issa Diop (CB) rating 75.97 #14
+  [CB] Jawad El Yamiq (CB) rating 74.27 #18
   [RB] Omar El Hilali (RB) rating 94.08 #15
   [GK] El Mehdi Benabid (GK) rating 92.34 #12
 

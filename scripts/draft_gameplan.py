@@ -76,6 +76,18 @@ def compact_backup(conn, roles_by_pos, starter_asg, candidate_observer=None):
     return bench, wildcards
 
 
+def order_cb_pairs_by_rating(pairs):
+    cb_indices = [i for i, (slot, _assignment) in enumerate(pairs) if slot == "CB"]
+    ordered = sorted(
+        (pairs[i][1] for i in cb_indices),
+        key=lambda assignment: assignment.player.rating if assignment is not None else float("-inf"),
+        reverse=True,
+    )
+    for i, assignment in zip(cb_indices, ordered):
+        pairs[i] = (pairs[i][0], assignment)
+    return pairs
+
+
 def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False, omit_vacant_starters=False, max_starters=None, compact_bench=False):
     lines = []
     lines.append("Starters:")
@@ -84,6 +96,7 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
         starter_pairs = [(slot, assignment) for slot, assignment in starter_pairs if assignment]
         starter_pairs.sort(key=lambda pair: pair[1].player.rating, reverse=True)
         starter_pairs = starter_pairs[:max_starters]
+    order_cb_pairs_by_rating(starter_pairs)
     for slot, a in starter_pairs:
         if a is None:
             if not omit_vacant_starters:
@@ -113,7 +126,8 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     if not compact_bench:
         lines.append("")
         lines.append("Substitutes:")
-    for slot, a in zip(slots, sub_asg):
+    sub_pairs = order_cb_pairs_by_rating(list(zip(slots, sub_asg)))
+    for slot, a in sub_pairs:
         if a is None:
             lines.append(f"  [{slot}] VACANT")
         else:

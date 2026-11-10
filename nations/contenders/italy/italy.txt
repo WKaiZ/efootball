@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Niccolò Pisilli (CMF) rating 92.12 #14
   [DMF] Massimo Ambrosini (DMF) rating 97.01 #8
   [LB] Matteo Ruggeri (LB) rating 75.66 #17
-  [CB] Gianluca Mancini (CB) rating 94.01 #23
   [CB] Giorgio Scalvini (CB) rating 94.78 #15
+  [CB] Gianluca Mancini (CB) rating 94.01 #23
   [RB] Christian Panucci (RB) rating 96.96 #2
   [GK] Alex Meret (GK) rating 95.11 #22
 

@@ -52,8 +52,8 @@ Substitutes:
   [CMF] Bruno Fernandes (CMF) rating 95.01 #11
   [DMF] João Palhinha (DMF) rating 78.20 #16
   [LB] VACANT
-  [CB] Tiago Djaló (CB) rating 73.13 #3
   [CB] Toti (CB) rating 75.44 #5
+  [CB] Tiago Djaló (CB) rating 73.13 #3
   [RB] Diogo Dalot (RB) rating 94.01 #2
   [GK] Anthony Lopes (GK) rating 74.64 #22
 

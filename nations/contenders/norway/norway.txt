@@ -8,8 +8,8 @@ Starters:
   [CMF] Martin Ødegaard (CMF) rating 97.57 #10
   [DMF] Sander Berge (DMF) rating 94.44 #8
   [LB] Fredrik Aursnes (CMF) rating 94.20 #7
-  [CB] Leo Østigård (CB) rating 74.50 #4
   [CB] Kristoffer Ajer (CB) rating 75.93 #3
+  [CB] Leo Østigård (CB) rating 74.50 #4
   [RB] Julian Ryerson (RB) rating 95.20 #14
   [GK] Egil Selvik (GK) rating 72.64 #13
 
@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Felix Horn Myhre (CMF) rating 71.15 #11
   [DMF] Patrik Berg (DMF) rating 74.74 #6
   [LB] Fredrik Bjørkan (LB) rating 73.17 #15
-  [CB] Torbjørn Heggem (CB) rating 73.09 #17
   [CB] Stian Gregersen (CB) rating 73.53 #2
+  [CB] Torbjørn Heggem (CB) rating 73.09 #17
   [RB] Marcus Pedersen (RB) rating 74.11 #16
   [GK] Ørjan Nyland (GK) rating 72.52 #1
 

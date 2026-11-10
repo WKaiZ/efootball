@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Nicolás de la Cruz (CMF) rating 95.32 #7
   [DMF] Lucas Torreira (DMF) rating 78.11 #14
   [LB] Joaquín Piquerez (LB) rating 94.91 #22
-  [CB] Sebastian Caceres (CB) rating 74.23 #3
   [CB] Santiago Bueno (CB) rating 74.38 #24
+  [CB] Sebastian Caceres (CB) rating 74.23 #3
   [RB] Guillermo Varela (RB) rating 91.99 #13
   [GK] Thiago Cardozo (GK) rating 76.60 #12
 
