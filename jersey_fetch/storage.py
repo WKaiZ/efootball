@@ -233,12 +233,8 @@ def load_jersey_entries_for_player(conn, player_id):
     ]
 
 
-def load_cached_numbers_from_db(conn, player_id, country_filter=None, display_name=None):
+def load_cached_numbers_from_db(conn, player_id, country_filter=None):
     cur = conn.cursor()
-    cur.execute("SELECT name FROM players WHERE player_id = ?", (str(player_id),))
-    name_row = cur.fetchone()
-    db_name = name_row[0] if name_row else str(player_id)
-    label = display_name if display_name else db_name
     if country_filter:
         country_names = nation_country_names_for_filter(country_filter)
         placeholders = ", ".join("?" * len(country_names))
@@ -262,11 +258,4 @@ def load_cached_numbers_from_db(conn, player_id, country_filter=None, display_na
     nums_by_country = {}
     for num, country in rows:
         nums_by_country.setdefault(str(num), set()).add(country)
-    if country_filter:
-        print(f"{label} {player_id} national jersey numbers (cached for {country_filter}):")
-    else:
-        print(f"{label} {player_id} national jersey numbers (cached):")
-    for n in sorted(nums_by_country.keys(), key=int):
-        countries = ", ".join(sorted(nums_by_country[n]))
-        print(f"  {n}: {countries}")
     return sorted(nums_by_country.keys(), key=int)

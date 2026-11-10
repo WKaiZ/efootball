@@ -85,7 +85,7 @@ async def fetch_numbers_for_player(
     expected_nation_label=None,
 ):
     nums = load_cached_numbers_from_db(
-        conn, player_id, country_filter=cache_country_filter, display_name=name
+        conn, player_id, country_filter=cache_country_filter
     )
     if nums:
         warn_cached_jersey_nation_mismatch(conn, player_id, expected_nation_label)
@@ -307,7 +307,7 @@ async def main():
                 id_map[norm_name] = str(pid_str)
             pid = int(pid_str)
             if pid in fetched_player_ids and not rescrape:
-                load_cached_numbers_from_db(conn, pid, display_name=name)
+                load_cached_numbers_from_db(conn, pid)
                 official = get_official_name(conn, pid)
                 if not override and official and (official.strip() != name.strip()):
                     name_changes[norm_name] = official
