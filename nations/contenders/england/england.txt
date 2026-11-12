@@ -8,10 +8,10 @@ Starters:
   [CMF] Declan Rice (CMF) rating 98.93 #4
   [DMF] Elliot Anderson (DMF) rating 97.99 #8
   [LB] Nico O'Reilly (LB) rating 96.40 #3
-  [CB] Sol Campbell (CB) rating 100.45 #6
+  [CB] Sol Campbell (CB) rating 99.07 #6
   [CB] Gary Cahill (CB) rating 97.73 #5
   [RB] Ben White (RB) rating 96.22 #21
-  [GK] David Seaman (GK) rating 99.34 #1
+  [GK] David Seaman (GK) rating 99.06 #1
 
 Substitutes:
   [CF] Andy Cole (CF) rating 97.79 #9
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Dean Henderson (GK) rating 93.08 #13
 
 Wildcard:
-  [WILD] Bukayo Saka (RWF) rating 97.46 #21
+  [WILD] Bukayo Saka (RWF) rating 96.91 #21

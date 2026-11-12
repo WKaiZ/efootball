@@ -5,7 +5,7 @@ Starters:
   [LWF] Franck Ribéry (LWF) rating 98.32 #7
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
-  [CMF] Emmanuel Petit (CMF) rating 99.12 #17
+  [CMF] Emmanuel Petit (CMF) rating 98.39 #17
   [DMF] Patrick Vieira (DMF) rating 100.12 #4
   [LB] Theo Hernández (LB) rating 95.41 #19
   [CB] Lilian Thuram (CB) rating 100.24 #15

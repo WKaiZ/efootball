@@ -18,8 +18,8 @@ Substitutes:
   [LWF] Mika Godts (LWF) rating 94.34 #22
   [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
   [AMF] Hans Vanaken (AMF) rating 93.99 #20
-  [CMF] Nicolas Raskin (CMF) rating 75.30 #23
-  [DMF] Mandela Keita (DMF) rating 71.60 #8
+  [CMF] Youri Tielemans (CMF) rating 77.66 #8
+  [DMF] Nicolas Raskin (CMF) rating 75.30 #23
   [LB] Maxim De Cuyper (LB) rating 74.31 #5
   [CB] Arthur Theate (CB) rating 95.49 #2
   [CB] Koni De Winter (CB) rating 94.33 #16
@@ -36,7 +36,7 @@ Starters:
   [LMF] Leandro Trossard (LMF) rating 97.34 #10
   [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
   [AMF] Eden Hazard (AMF) rating 100.35 #7
-  [CMF] Youri Tielemans (CMF) rating 77.66 #8
+  [CMF] Arthur Vermeeren (CMF) rating 74.86 #23
   [DMF] Axel Witsel (DMF) rating 73.93 #6
   [LB] Diego Moreira (LMF) rating 74.58 #19
   [CB] Brandon Mechele (CB) rating 94.19 #4
@@ -49,14 +49,15 @@ Substitutes:
   [LMF] Thorgan Hazard (LWF) rating 74.26 #11
   [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
   [AMF] Dennis Praet (AMF) rating 72.26 #14
-  [CMF] Arthur Vermeeren (CMF) rating 74.86 #23
-  [DMF] Arne Engels (CMF) rating 74.03 #20
-  [LB] Siebe Van der Heyden (CB) rating 72.53 #25
-  [CB] Christian Kabasele (CB) rating 74.10 #18
+  [CMF] Orel Mangala (CMF) rating 74.33 #18
+  [DMF] Mandela Keita (DMF) rating 71.60 #8
+  [LB] VACANT
   [CB] Nathan Ngoy (CB) rating 74.06 #15
+  [CB] Siebe Van der Heyden (CB) rating 72.53 #25
   [RB] VACANT
   [GK] Koen Casteels (GK) rating 77.63 #12
 
 Wildcard:
   [WILD] Mike Penders (GK) rating 75.63 #13
+  [WILD] Christian Benteke (CF) rating 74.26 #20
   [WILD] Benito Raman (CF) rating 72.22 #21

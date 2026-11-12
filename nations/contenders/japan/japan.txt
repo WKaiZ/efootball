@@ -50,11 +50,11 @@ Substitutes:
   [RMF] Ritsu Doan (RMF) rating 97.70 #10
   [AMF] Hidetoshi Nakata (AMF) rating 97.21 #7
   [CMF] Reo Hatate (CMF) rating 75.03 #21
-  [DMF] Koki Kumasaka (DMF) rating 67.79 #30
+  [DMF] Takahiro Ogihara (DMF) rating 71.57 #31
   [LB] Sota Miura (LB) rating 71.67 #24
   [CB] Maya Yoshida (CB) rating 93.28 #22
   [CB] Genta Miura (CB) rating 91.27 #5
-  [RB] Ryunosuke Sato (LMF) rating 93.07 #27
+  [RB] Ryuta Koike (RB) rating 71.33 #25
   [GK] Seigo Narazaki (GK) rating 96.92 #18
 
 Wildcard:

@@ -355,6 +355,9 @@ PLAYER_NAME_ALIASES = {
         ("Flaco López", "José Manuel López"),
         ("Equi Fernández", "Ezequiel Fernández"),
     ],
+    "belgium": [
+        ("Josué Kongolo", "Josué Ndenge Kongolo", "Josué Ndenge"),
+    ],
     "brazil": [
         ("Jair Cunha", "Jair Paula"),
         ("Pedro Morisco", "Pedro Luccas"),
