@@ -5099,7 +5099,25 @@
   "375744": "https://img.a.transfermarkt.technology/portrait/big/375744-1737911632.png",
   "561027": "https://img.a.transfermarkt.technology/portrait/big/561027-1743945050.jpg",
   "51227": "https://img.a.transfermarkt.technology/portrait/big/51227-1738110464.jpg",
-  "437874": "https://img.a.transfermarkt.technology/portrait/big/437874-1771711190.jpg"
+  "437874": "https://img.a.transfermarkt.technology/portrait/big/437874-1771711190.jpg",
+  "68390": "https://img.a.transfermarkt.technology/portrait/big/68390-1774469102.jpg",
+  "441515": "https://img.a.transfermarkt.technology/portrait/big/441515-1692881633.jpg",
+  "433979": "https://img.a.transfermarkt.technology/portrait/big/433979-1792532714.png",
+  "64126": "https://img.a.transfermarkt.technology/portrait/big/64126-1732108770.png",
+  "525438": "https://img.a.transfermarkt.technology/portrait/big/525438-1789896970.jpg",
+  "434672": "https://img.a.transfermarkt.technology/portrait/big/434672-1685035526.PNG",
+  "270377": "https://img.a.transfermarkt.technology/portrait/big/270377-1716230143.png",
+  "68626": "https://img.a.transfermarkt.technology/portrait/big/68626-1697051244.png",
+  "735815": "https://img.a.transfermarkt.technology/portrait/big/735815-1685034359.PNG",
+  "264888": "https://img.a.transfermarkt.technology/portrait/big/264888-1685658275.jpg",
+  "258911": "https://img.a.transfermarkt.technology/portrait/big/258911-1716741938.png",
+  "229879": "https://img.a.transfermarkt.technology/portrait/big/229879-1703279532.png",
+  "660545": "https://img.a.transfermarkt.technology/portrait/big/660545-1716317212.jpg",
+  "320854": "https://img.a.transfermarkt.technology/portrait/big/320854-1725632044.JPG",
+  "469686": "https://img.a.transfermarkt.technology/portrait/big/469686-1771529346.jpg",
+  "321612": "https://img.a.transfermarkt.technology/portrait/big/321612-1724873132.jpg",
+  "299882": "https://img.a.transfermarkt.technology/portrait/big/299882-1758465968.jpg",
+  "261518": "https://img.a.transfermarkt.technology/portrait/big/261518-1646146641.jpg"
  },
  "tm_null": {
   "1146046": 3,
@@ -5175,7 +5193,9 @@
   "264233": 3,
   "1067836": 3,
   "280378": 1,
-  "615701": 1
+  "615701": 2,
+  "922536": 1,
+  "380205": 1
  },
  "tm_err": {}
 }
