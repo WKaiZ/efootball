@@ -33,7 +33,7 @@ Second Squad
 
 Starters:
   [CF] Francesco Totti (CF) rating 99.49 #20
-  [LMF] Federico Dimarco (LMF) rating 98.01 #13
+  [LMF] Federico Dimarco (LMF) rating 98.01 #11
   [RWF] Federico Bernardeschi (RWF) rating 93.35 #21
   [SS] Roberto Baggio (SS) rating 99.61 #10
   [CMF] Davide Frattesi (CMF) rating 94.09 #16
@@ -47,15 +47,15 @@ Starters:
 Substitutes:
   [CF] Christian Vieri (CF) rating 98.01 #9
   [LMF] Andrea Cambiaso (LMF) rating 94.42 #24
-  [RWF] Domenico Berardi (RWF) rating 93.34 #11
+  [RWF] Domenico Berardi (RWF) rating 93.34 #7
   [SS] Giacomo Raspadori (SS) rating 94.07 #18
   [CMF] Niccolò Pisilli (CMF) rating 92.12 #14
   [DMF] Massimo Ambrosini (DMF) rating 97.01 #8
   [LB] Matteo Ruggeri (LB) rating 75.66 #17
+  [CB] Riccardo Calafiori (CB) rating 96.40 #13
   [CB] Giorgio Scalvini (CB) rating 94.78 #15
-  [CB] Gianluca Mancini (CB) rating 94.01 #23
   [RB] Christian Panucci (RB) rating 96.96 #2
-  [GK] Alex Meret (GK) rating 95.11 #22
+  [GK] Marco Carnesecchi (GK) rating 96.73 #23
 
 Wildcard:
-  [WILD] Gianluca Scamacca (CF) rating 95.43 #7
+  [WILD] Nicolò Zaniolo (AMF) rating 95.92 #22

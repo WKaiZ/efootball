@@ -19,15 +19,15 @@ Substitutes:
   [RWF] Yéremy Pino (SS) rating 95.33 #15
   [AMF] Fermín López (AMF) rating 95.97 #9
   [CMF] Pedri (CMF) rating 97.43 #20
-  [DMF] Sergio Busquets (DMF) rating 98.11 #13
+  [DMF] Xabi Alonso (DMF) rating 96.19 #14
   [LB] Sergi Barjuan (LB) rating 98.36 #11
-  [CB] Dean Huijsen (CB) rating 96.56 #14
-  [CB] Eric García (CB) rating 95.96 #4
-  [RB] Marc Pubill (RB) rating 95.06 #12
-  [GK] David Raya (GK) rating 98.82 #1
+  [CB] Dean Huijsen (CB) rating 96.56 #4
+  [CB] Yeray Álvarez (CB) rating 95.10 #26
+  [RB] Pedro Porro (RB) rating 94.61 #12
+  [GK] Joan García (GK) rating 99.09 #13
 
 Wildcard:
-  [WILD] Jordi Alba (LB) rating 97.74 #18
+  [WILD] David Raya (GK) rating 98.82 #1
 
 Second Squad
 
@@ -37,12 +37,12 @@ Starters:
   [RMF] Lamine Yamal (RMF) rating 98.94 #19
   [AMF] Raúl (AMF) rating 96.98 #7
   [CMF] Andrés Iniesta (CMF) rating 97.70 #6
-  [DMF] Xavi (DMF) rating 97.06 #8
-  [LB] Alejandro Balde (LB) rating 95.80 #3
+  [DMF] Sergio Busquets (DMF) rating 98.11 #5
+  [LB] Jordi Alba (LB) rating 97.74 #18
   [CB] Cristhian Mosquera (CB) rating 96.49 #2
-  [CB] Carles Puyol (CB) rating 95.87 #5
+  [CB] Eric García (CB) rating 95.96 #4
   [RB] Marcos Llorente (RB) rating 96.97 #14
-  [GK] Joan García (GK) rating 99.09 #13
+  [GK] Iker Casillas (GK) rating 98.59 #1
 
 Substitutes:
   [CF] Fernando Morientes (CF) rating 97.96 #10
@@ -50,12 +50,12 @@ Substitutes:
   [RMF] Pedro Porro (RMF) rating 95.01 #12
   [AMF] Marco Asensio (AMF) rating 95.97 #11
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
-  [DMF] Xabi Alonso (DMF) rating 96.19 #16
-  [LB] Fran García (LB) rating 95.38 #17
-  [CB] Yeray Álvarez (CB) rating 95.10 #26
-  [CB] Dani Vivian (CB) rating 95.07 #4
-  [RB] Daniel Carvajal (RB) rating 75.87 #20
-  [GK] Iker Casillas (GK) rating 98.59 #1
+  [DMF] Xavi (DMF) rating 97.06 #8
+  [LB] Alejandro Balde (LB) rating 95.80 #3
+  [CB] Marcos Alonso (CB) rating 94.91 #17
+  [CB] Aymeric Laporte (CB) rating 94.54 #24
+  [RB] Óscar Mingueza (RB) rating 76.14 #16
+  [GK] Josep Martínez (GK) rating 95.15 #13
 
 Wildcard:
-  [WILD] Martín Zubimendi (DMF) rating 95.98 #18
+  [WILD] Nico Williams (LWF) rating 95.76 #20

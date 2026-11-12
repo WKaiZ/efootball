@@ -7,7 +7,7 @@ Starters:
   [DMF] Carlos Baleba (DMF) rating 77.07 #17
   [LB] Nouhou (LB) rating 74.67 #5
   [CB] Enzo Boyomo (CB) rating 94.56 #22
-  [CB] Enzo Ebosse (CB) rating 74.47 #2
+  [CB] Enzo Ebosse (CB) rating 74.47 #24
   [RB] Olivier Mbaizo (RB) rating 70.68 #15
   [GK] André Onana (GK) rating 77.26 #23
 
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Devis Epassy (GK) rating 71.54 #1
 
 Wildcard:
-  [WILD] Malcom Bokele (CB) rating 72.44 #19
+  [WILD] Jackson Tchatchoua (RMF) rating 73.60 #2
