@@ -1,10 +1,11 @@
+Ernest Muci, AMF, 95.22, True, Showtime, [LWF, LMF, AMF, SS], [CMF, RWF, RMF]
+
 Armando Broja, CF, 74.56, False, Standard, [CF], [SS]
 Myrto Uzuni, CF, 74.49, True, Standard, [LWF, CF, SS], [LMF, AMF, RMF, RWF]
 Cristian Shpendi, CF, 70.29, True, Standard, [CF], [SS]
 Anis Mehmeti, LWF, 71.56, True, Standard, [LWF, LMF, RWF, AMF], [SS, CMF, RMF]
 Arbnor Muja, RWF, 72.26, False, Standard, [RWF, RMF], [LWF, LMF, AMF]
 Jasir Asani, RWF, 72.13, False, Standard, [RWF], [LWF, LMF, RMF]
-Ernest Muci, AMF, 73.79, True, Standard, [LWF, LMF, AMF, SS], [CMF, RWF, RMF]
 Nedim Bajrami, AMF, 72.09, False, Standard, [LWF, LMF, AMF], [SS, CMF, RWF, RMF]
 Luis Hasa, AMF, 70.09, True, Standard, [AMF, CMF], [SS, DMF, LMF, RMF]
 Qazim Laci, CMF, 73.27, False, Standard, [AMF, CMF, DMF], []

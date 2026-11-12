@@ -5,7 +5,7 @@ Starters:
   [AMF] John McGinn (LMF) rating 94.02 #8
   [CMF] Lewis Ferguson (CMF) rating 94.37 #19
   [DMF] Darren Fletcher (DMF) rating 96.61 #7
-  [LB] Andrew Robertson (LB) rating 77.21 #3
+  [LB] Kieran Tierney (LB) rating 94.43 #6
   [CB] Scott McKenna (CB) rating 74.69 #16
   [CB] John Souttar (CB) rating 74.22 #15
   [RB] Aaron Hickey (RB) rating 73.64 #2
@@ -18,7 +18,7 @@ Substitutes:
   [AMF] Ryan Gauld (AMF) rating 74.84 #20
   [CMF] Tom Cairney (CMF) rating 74.42 #22
   [DMF] Scott McTominay (DMF) rating 94.99 #4
-  [LB] Kieran Tierney (LB) rating 75.76 #6
+  [LB] Andrew Robertson (LB) rating 77.21 #3
   [CB] Ryan Porteous (CB) rating 73.69 #14
   [CB] Jack Hendry (CB) rating 73.63 #13
   [RB] Anthony Ralston (RB) rating 72.15 #24

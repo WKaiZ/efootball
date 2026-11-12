@@ -6,8 +6,8 @@ Starters:
   [CMF] Mamadou Sangaré (CMF) rating 76.72 #8
   [DMF] Lassana Coulibaly (DMF) rating 93.00 #11
   [LB] Massadio Haïdara (LB) rating 71.24 #6
+  [CB] Modibo Sagnan (CB) rating 92.39 #13
   [CB] Ousmane Camara (CB) rating 73.16 #19
-  [CB] Mamadou Fofana (CB) rating 72.55 #15
   [RB] Hamari Traoré (RB) rating 94.15 #2
   [GK] Ismael Diawara (GK) rating 71.51 #1
 
@@ -18,11 +18,11 @@ Substitutes:
   [AMF] Martial Tia (AMF) rating 67.58 #12
   [CMF] Amadou Haidara (CMF) rating 73.96 #4
   [DMF] Yves Bissouma (DMF) rating 76.06 #20
-  [LB] Amadou Dante (LB) rating 69.56 #3
-  [CB] Modibo Sagnan (CB) rating 72.27 #13
-  [CB] Cheick Keita (CB) rating 70.61 #5
+  [LB] Daouda Guindo (LB) rating 70.90 #15
+  [CB] Mamadou Fofana (CB) rating 72.55 #23
+  [CB] Sikou Niakaté (CB) rating 71.28 #3
   [RB] Woyo Coulibaly (RB) rating 71.56 #26
   [GK] Djigui Diarra (GK) rating 71.51 #16
 
 Wildcard:
-  [WILD] Aliou Dieng (DMF) rating 74.23 #23
+  [WILD] Ibrahima Sissoko (DMF) rating 72.94 #24

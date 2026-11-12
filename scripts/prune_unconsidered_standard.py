@@ -204,7 +204,7 @@ def prune_country(country_arg, dry_run=False):
                     f"Non-finite rating for {probe_role.name} ({probe_role.position}); "
                     "refusing to prune from an invalid probe."
                 )
-            probe_rating = float(math.floor(original_rating) + 1)
+            probe_rating = float(math.floor(original_rating) + 0.99)
             probe_role.rating = probe_rating
             probe_considered = set()
 

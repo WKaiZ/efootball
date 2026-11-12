@@ -6,7 +6,7 @@ Starters:
   [CMF] Armin Gigovic (CMF) rating 71.24 #8
   [DMF] Benjamin Tahirović (DMF) rating 71.34 #6
   [LB] VACANT
-  [CB] Sead Kolasinac (CB) rating 76.27 #5
+  [CB] Sead Kolasinac (CB) rating 94.44 #5
   [CB] Anel Ahmedhodzic (CB) rating 74.36 #16
   [RB] Amar Dedic (RB) rating 74.78 #7
   [GK] Vladan Kovacevic (GK) rating 73.61 #1

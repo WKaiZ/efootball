@@ -1,6 +1,6 @@
 Starters:
   [CF] Vangelis Pavlidis (CF) rating 94.81 #14
-  [LWF] Christos Tzolis (LWF) rating 94.42 #10
+  [LWF] Christos Tzolis (LWF) rating 94.46 #10
   [RWF] Marios Vrousai (RWF) rating 73.52 #7
   [AMF] Konstantinos Karetsas (AMF) rating 94.23 #19
   [CMF] Christos Zafeiris (CMF) rating 71.73 #20

@@ -36,7 +36,7 @@ Starters:
   [LWF] Neymar (LWF) rating 99.19 #11
   [RMF] Cafu (RMF) rating 97.18 #2
   [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Joelinton (CMF) rating 94.78 #17
+  [CMF] Júnior (CMF) rating 98.21 #6
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Wesley (LB) rating 97.39 #16
   [CB] Éder Militão (CB) rating 95.22 #3
@@ -49,9 +49,9 @@ Substitutes:
   [LWF] Raphinha (LWF) rating 96.69 #19
   [RMF] Estêvão (RMF) rating 95.01 #20
   [AMF] Ronaldinho (AMF) rating 98.60 #7
-  [CMF] Douglas Luiz (CMF) rating 94.12 #18
-  [DMF] Pablo Maia (DMF) rating 93.04 #26
-  [LB] Alex Sandro (LB) rating 94.21 #6
+  [CMF] Joelinton (CMF) rating 94.78 #17
+  [DMF] Danilo Santos (DMF) rating 94.01 #18
+  [LB] Carlos Augusto (LB) rating 93.88 #25
   [CB] Léo Pereira (CB) rating 94.91 #15
   [CB] Roger Ibañez (CB) rating 94.31 #24
   [RB] Danilo (RB) rating 94.04 #22

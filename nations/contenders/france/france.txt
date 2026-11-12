@@ -1,11 +1,11 @@
 First Squad
 
 Starters:
-  [CF] Éric Cantona (CF) rating 99.67 #18
+  [CF] Thierry Henry (CF) rating 101.13 #12
   [LWF] Franck Ribéry (LWF) rating 98.32 #7
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
-  [CMF] Emmanuel Petit (CMF) rating 96.13 #17
+  [CMF] Emmanuel Petit (CMF) rating 99.12 #17
   [DMF] Patrick Vieira (DMF) rating 100.12 #4
   [LB] Theo Hernández (LB) rating 95.41 #19
   [CB] Lilian Thuram (CB) rating 100.24 #15
@@ -14,7 +14,7 @@ Starters:
   [GK] Hugo Lloris (GK) rating 98.08 #1
 
 Substitutes:
-  [CF] Ousmane Dembélé (CF) rating 99.48 #12
+  [CF] Éric Cantona (CF) rating 99.67 #18
   [LWF] Désiré Doué (LWF) rating 95.99 #20
   [RMF] Christian Karembeu (RMF) rating 96.12 #13
   [AMF] Eduardo Camavinga (AMF) rating 95.33 #6

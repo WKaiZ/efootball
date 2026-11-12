@@ -2,7 +2,7 @@ Starters:
   [CF] Armando Broja (CF) rating 74.56 #22
   [LWF] Anis Mehmeti (LWF) rating 71.56 #9
   [RWF] Arbnor Muja (RWF) rating 72.26 #16
-  [AMF] Ernest Muci (AMF) rating 73.79 #10
+  [AMF] Ernest Muci (AMF) rating 95.22 #10
   [CMF] Qazim Laci (CMF) rating 73.27 #14
   [DMF] Ylber Ramadani (DMF) rating 70.83 #20
   [LB] Mario Mitaj (LB) rating 70.76 #3

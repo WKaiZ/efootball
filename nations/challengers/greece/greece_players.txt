@@ -1,7 +1,7 @@
 Vangelis Pavlidis, CF, 94.81, True, Highlight, [LWF, CF], [SS, AMF, LMF]
 Charalampos Kostoulas, CF, 94.07, True, Highlight, [CF, SS, AMF], []
 Anastasios Douvikas, CF, 94.00, False, Highlight, [CF], [SS, RWF]
-Christos Tzolis, LWF, 94.42, False, Highlight, [LWF, CF, RWF], [SS, AMF, RMF, LMF]
+Christos Tzolis, LWF, 94.46, False, Highlight, [LWF, LMF], [CF, RMF, RWF]
 Konstantinos Karetsas, AMF, 94.23, True, Highlight, [AMF, RMF], [SS, CMF, DMF, RWF]
 Konstantinos Mavropanos, CB, 95.39, True, Highlight, [CB], []
 
