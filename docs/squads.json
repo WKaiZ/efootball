@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 10:31 UTC",
+ "updated": "2026-11-12 15:33 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -21487,7 +21487,7 @@
      "dropped": "2026-10-25",
      "days": 1,
      "callups": 1,
-     "img": null,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/646108-1771674994.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/646108"
     }
    ],
@@ -22724,7 +22724,7 @@
      "dropped": "2026-10-11",
      "days": 34,
      "callups": 1,
-     "img": null,
+     "img": "https://img.a.transfermarkt.technology/portrait/big/332530-1785853696.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/332530"
     }
    ],
