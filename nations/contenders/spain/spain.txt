@@ -17,7 +17,7 @@ Substitutes:
   [CF] David Villa (CF) rating 98.57 #21
   [LMF] Nico Williams (LMF) rating 96.40 #17
   [RWF] Yéremy Pino (SS) rating 95.33 #15
-  [AMF] Fermín López (AMF) rating 95.98 #9
+  [AMF] Fermín López (AMF) rating 95.97 #9
   [CMF] Pedri (CMF) rating 97.43 #20
   [DMF] Sergio Busquets (DMF) rating 98.11 #13
   [LB] Sergi Barjuan (LB) rating 98.36 #11

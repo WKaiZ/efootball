@@ -1,4 +1,4 @@
-Thierry Henry, CF, 101.13, False, Epic, [CF, LWF], [SS]
+Thierry Henry, CF, 100.03, False, Epic, [CF, LWF], [SS]
 Éric Cantona, CF, 99.67, False, Epic, [CF, SS, AMF], []
 Ousmane Dembélé, CF, 99.48, True, BigTime, [LWF, RWF, LMF, RMF, CF], [SS]
 Hugo Ekitiké, CF, 99.29, False, Highlight, [CF], [SS, RWF]

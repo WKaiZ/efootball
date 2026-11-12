@@ -1,7 +1,7 @@
 First Squad
 
 Starters:
-  [CF] Thierry Henry (CF) rating 101.13 #12
+  [CF] Thierry Henry (CF) rating 100.03 #12
   [LWF] Franck Ribéry (LWF) rating 98.32 #7
   [RMF] Michael Olise (RMF) rating 98.71 #11
   [AMF] Michel Platini (AMF) rating 99.09 #10
