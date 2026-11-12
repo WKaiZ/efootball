@@ -13,6 +13,7 @@ Taisei Miyashiro, SS, 93.33, False, Highlight, [CF, SS, LWF], [RWF, AMF, CMF, LM
 Ryunosuke Sato, SS, 91.22, True, Highlight, [LMF, SS, RWF, RMF, LMF], [RB, CF, AMF, CMF]
 Takashi Inui, LWF, 97.07, False, BigTime, [LWF, LMF, RWF, RMF, SS, AMF], [CMF]
 Kensuke Nagai, RWF, 96.72, False, BigTime, [LWF, CF, SS, RWF], [LMF, RMF]
+Daisuke Matsui, RWF, 95.76, False, Epic, [RWF, RMF, CMF], [LWF, LMF, SS]
 Junya Ito, RWF, 94.46, True, Highlight, [RWF, RMF, LMF, LWF, SS, AMF], [CF, CMF]
 Daichi Kamada, AMF, 97.41, True, Showtime, [CMF, SS, AMF], [LWF, CF, LMF, DMF]
 Hidetoshi Nakata, AMF, 97.21, False, Epic, [AMF, SS, CMF], [LMF, RMF]
