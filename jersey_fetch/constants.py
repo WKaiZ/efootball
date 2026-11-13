@@ -398,6 +398,9 @@ PLAYER_NAME_ALIASES = {
     "luxembourg": [
         ("Tiago Pereira Cardoso", "Tiago Pereira"),
     ],
+    "morocco": [
+        ("Munir Mohamedi", "Munir El Kajoui"),
+    ],
     "ecuador": [
         ("José Andrés Hurtado", "José Hurtado"),
     ],

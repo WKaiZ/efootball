@@ -38,7 +38,7 @@ Starters:
   [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
   [CMF] Ismael Saibari (AMF) rating 93.24 #11
   [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
-  [LB] Souffian El Karouani (LB) rating 73.47 #21
+  [LB] Souffian El Karouani (LB) rating 73.47 #4
   [CB] Medhi Benatia (CB) rating 94.38 #5
   [CB] Romain Saïss (CB) rating 76.55 #6
   [RB] Anas Bach (RB) rating 92.44 #3
@@ -46,7 +46,7 @@ Starters:
 
 Substitutes:
   [CF] Youssef En-Nesyri (CF) rating 77.34 #19
-  [LWF] Ilias Chair (LWF) rating 74.23 #13
+  [LWF] Amine Adli (LWF) rating 74.79 #21
   [RWF] Ilias Akhomach (RWF) rating 73.46 #7
   [AMF] Khalid Aït Ouarkhane (AMF) rating 67.90 #8
   [CMF] Neil El Aynaoui (CMF) rating 73.76 #24

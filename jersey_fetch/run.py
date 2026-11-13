@@ -160,9 +160,11 @@ async def fetch_numbers_for_player(
     return (nums, False)
 
 def seed_recent_numbers_into_db(
-    conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=False
+    conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=False,
+    recent_flags=None,
 ):
-    if not recent_numbers:
+    recent_flags = recent_flags or {}
+    if not recent_numbers and not (reset_seeded and recent_flags):
         return
     id_map = load_player_id_map(conn)
     game_data_map = load_game_data_player_map(conn, country_name)
@@ -175,7 +177,9 @@ def seed_recent_numbers_into_db(
         player_position = row["position"]
         key = normalize_name(name)
         seed_entry = recent_numbers.get(key)
-        if not seed_entry:
+        is_recent = recent_flags.get(key)
+        remove_stale_seed = reset_seeded and is_recent is False
+        if not seed_entry and not remove_stale_seed:
             continue
         override = get_manual_override(country_name, name, position=player_position)
         pid_str = override["player_id"] if override else None
@@ -189,7 +193,22 @@ def seed_recent_numbers_into_db(
             print(f"  Skipping DB number seed for {name} ({player_position}): no cached Transfermarkt ID (--refetch fetches new players).")
             continue
         existing = load_jersey_entries_for_player(conn, pid_str)
-        base = strip_seeded_head_entries(existing, country_label) if reset_seeded else existing
+        base = (
+            strip_seeded_head_entries(existing, country_label)
+            if reset_seeded and (seed_entry or remove_stale_seed)
+            else existing
+        )
+        if remove_stale_seed:
+            if len(base) == len(existing):
+                continue
+            official = get_official_name(conn, pid_str) or name
+            store_jersey_entries(conn, pid_str, official, base)
+            print(
+                f"  Removed {len(existing) - len(base)} stale ESPN seed row(s) for "
+                f"{official} ({pid_str}); Transfermarkt history will be fetched if empty."
+            )
+            updated += 1
+            continue
         merged = merge_jersey_entries(seed_entry, base)
         as_key = lambda rows: [
             ((e.get("season") or "").strip(), e.get("country"), int(e["number"])) for e in rows
@@ -256,10 +275,11 @@ async def main():
         return
     conn = init_db()
     if force_refetch and not rescrape:
-        # Light refresh: no per-player Transfermarkt refetch. Reset stale ESPN seed rows for
-        # players in the latest lineup and re-seed their current number (same as --lineup-only).
+        # Refresh ESPN seeds for current players and remove seeds for players no longer in
+        # the lineup. The normal loop below fetches Transfermarkt history if that empties cache.
         seed_recent_numbers_into_db(
-            conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=True
+            conn, country_name, country_label, player_rows, recent_numbers,
+            reset_seeded=True, recent_flags=recent_flags,
         )
     async with async_playwright() as p:
         id_map = load_player_id_map(conn)
