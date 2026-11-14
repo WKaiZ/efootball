@@ -14,7 +14,7 @@ Starters:
   [GK] Agustín Rossi (GK) rating 93.95 #23
 
 Substitutes:
-  [CF] Julián Alvarez (CF) rating 98.11 #15
+  [CF] Julián Álvarez (CF) rating 98.11 #15
   [LWF] Paulo Dybala (SS) rating 94.37 #22
   [RWF] Matías Soulé (RWF) rating 95.32 #28
   [AMF] Juan Sebastián Verón (AMF) rating 98.38 #11

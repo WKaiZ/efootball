@@ -12,11 +12,11 @@ Starters:
   [GK] Mathew Ryan (GK) rating 93.92 #1
 
 Substitutes:
-  [CF] John Iredale (CF) rating 69.36 #26
-  [LWF] Awer Mabil (LWF) rating 71.49 #11
+  [CF] Kusini Yengi (CF) rating 70.33 #11
+  [LWF] Mathew Leckie (LWF) rating 72.18 #7
   [RWF] Nestory Irankunda (RWF) rating 72.42 #10
   [AMF] Riley McGree (LMF) rating 72.08 #21
-  [CMF] Patrick Yazbek (CMF) rating 73.15 #7
+  [CMF] Patrick Yazbek (CMF) rating 73.15 #17
   [DMF] Aiden O'Neill (DMF) rating 71.59 #13
   [LB] Aziz Behich (LB) rating 70.55 #16
   [CB] Lucas Herrington (CB) rating 73.20 #25

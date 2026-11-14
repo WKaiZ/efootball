@@ -1,7 +1,7 @@
 Lionel Messi, CF, 99.24, False, BigTime, [RWF, CF, SS, AMF], [RMF]
 Sergio Agüero, CF, 98.86, False, Epic, [CF, SS], []
 Carlos Tévez, CF, 98.22, False, Epic, [CF, LWF, RWF, SS], [AMF]
-Julián Alvarez, CF, 98.11, True, Showtime, [CF, SS, AMF], [RWF, RMF]
+Julián Álvarez, CF, 98.11, True, Showtime, [CF, SS, AMF], [RWF, RMF]
 Javier Saviola, CF, 98.07, False, Epic, [CF, SS], [RWF, LWF, AMF]
 Gabriel Batistuta, CF, 96.48, False, Epic, [CF], [SS]
 Lautaro Martínez, CF, 96.19, False, Showtime, [CF, SS], []

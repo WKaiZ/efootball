@@ -5,7 +5,7 @@ Starters:
   [LWF] Luis Díaz (LWF) rating 97.29 #7
   [RWF] James Rodríguez (RWF) rating 98.81 #10
   [AMF] Jhon Arias (RWF) rating 94.34 #11
-  [CMF] Eduard Atuesta (CMF) rating 73.25 #20
+  [CMF] Nelson Deossa (CMF) rating 75.04 #15
   [DMF] Jefferson Lerma (DMF) rating 75.99 #16
   [LB] Frank Fabra (LB) rating 74.28 #18
   [CB] Jhon Lucumí (CB) rating 94.54 #3
@@ -17,9 +17,9 @@ Substitutes:
   [CF] Cucho Hernández (CF) rating 76.34 #19
   [LWF] Sebastián Villa (LWF) rating 77.18 #21
   [RWF] Luis Quiñónes (RWF) rating 74.15 #22
-  [AMF] Jorge Carrascal (AMF) rating 73.89 #8
+  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #20
   [CMF] Sebastián Gómez (CMF) rating 72.97 #5
-  [DMF] Juan Portilla (DMF) rating 74.30 #15
+  [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
   [LB] Johan Mojica (LB) rating 73.41 #17
   [CB] Davinson Sánchez (CB) rating 78.43 #23
   [CB] William Tesillo (CB) rating 74.06 #6
@@ -35,27 +35,27 @@ Starters:
   [CF] Luis Díaz (LMF) rating 95.17 #7
   [LWF] Jhon Arias (LWF) rating 75.27 #10
   [RWF] Diego Valoyes (RWF) rating 73.10 #9
-  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #20
-  [CMF] Richard Rios (CMF) rating 72.80 #6
-  [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
+  [AMF] James Rodríguez (AMF) rating 74.75 #5
+  [CMF] Eduard Atuesta (CMF) rating 73.25 #20
+  [DMF] Juan Portilla (DMF) rating 74.30 #15
   [LB] Cristián Borja (LB) rating 73.27 #18
   [CB] Carlos Cuesta (CB) rating 74.04 #2
   [CB] Yerson Mosquera (CB) rating 73.57 #3
-  [RB] Andrés Felipe Román (RB) rating 73.37 #15
+  [RB] Andrés Felipe Román (RB) rating 73.37 #21
   [GK] David Ospina (GK) rating 74.26 #1
 
 Substitutes:
   [CF] Jhon Córdoba (CF) rating 77.21 #4
-  [LWF] Jáminton Campaz (LWF) rating 74.84 #21
+  [LWF] Jáminton Campaz (LWF) rating 74.84 #23
   [RWF] Felipe Pardo (RWF) rating 71.53 #11
-  [AMF] Yáser Asprilla (AMF) rating 72.97 #22
+  [AMF] Jorge Carrascal (AMF) rating 73.89 #8
   [CMF] Jhon Solís (CMF) rating 72.24 #14
-  [DMF] Kevin Castaño (DMF) rating 72.04 #5
+  [DMF] Didier Moreno (DMF) rating 72.97 #6
   [LB] Junior Hernández (LB) rating 73.22 #13
   [CB] Brayan Vera (CB) rating 72.18 #16
-  [CB] Kevin Balanta (CB) rating 71.31 #24
+  [CB] Jeison Murillo (CB) rating 71.62 #22
   [RB] Helibelton Palacios (RB) rating 71.80 #17
-  [GK] Alejandro Rodríguez (GK) rating 68.73 #12
+  [GK] Devis Vásquez (GK) rating 73.65 #24
 
 Wildcard:
   [WILD] Duván Zapata (CF) rating 76.29 #19

@@ -308,6 +308,7 @@ ESPN_TEAM_NAME_ALIASES = {
     "congo": ("Republic of the Congo", "Congo Republic"),
     "dpr korea": ("North Korea", "Korea DPR"),
     "the gambia": ("Gambia",),
+    "germany": ("West Germany", "Western Germany"),
     "guinea-bissau": ("Guinea Bissau",),
     "kyrgyz republic": ("Kyrgyzstan",),
     "north macedonia": ("Macedonia",),
