@@ -5133,7 +5133,24 @@
   "269649": "https://img.a.transfermarkt.technology/portrait/big/269649-1760359223.jpg",
   "630160": "https://img.a.transfermarkt.technology/portrait/big/630160-1706544434.jpg",
   "555471": "https://img.a.transfermarkt.technology/portrait/big/555471-1706544339.jpg",
-  "630017": "https://img.a.transfermarkt.technology/portrait/big/630017-1745324652.png"
+  "630017": "https://img.a.transfermarkt.technology/portrait/big/630017-1745324652.png",
+  "907559": "https://img.a.transfermarkt.technology/portrait/big/907559-1693600752.JPG",
+  "508366": "https://img.a.transfermarkt.technology/portrait/big/508366-1585393160.JPG",
+  "1118347": "https://img.a.transfermarkt.technology/portrait/big/1118347-1777961114.jpg",
+  "692368": "https://img.a.transfermarkt.technology/portrait/big/692368-1787910402.jpg",
+  "74857": "https://img.a.transfermarkt.technology/portrait/big/74857-1674465246.jpg",
+  "1078350": "https://img.a.transfermarkt.technology/portrait/big/1078350-1753439011.jpg",
+  "1371793": "https://img.a.transfermarkt.technology/portrait/big/1371793-1757603190.jpg",
+  "309977": "https://img.a.transfermarkt.technology/portrait/big/309977-1789549689.png",
+  "367651": "https://img.a.transfermarkt.technology/portrait/big/367651-1692977383.jpg",
+  "60889": "https://img.a.transfermarkt.technology/portrait/big/60889-1630574292.jpg",
+  "340018": "https://img.a.transfermarkt.technology/portrait/big/340018-1767552378.jpg",
+  "1003814": "https://img.a.transfermarkt.technology/portrait/big/1003814-1722332281.png",
+  "607380": "https://img.a.transfermarkt.technology/portrait/big/607380-1758465953.jpg",
+  "805835": "https://img.a.transfermarkt.technology/portrait/big/805835-1630599334.jpg",
+  "312819": "https://img.a.transfermarkt.technology/portrait/big/312819-1657284209.jpg",
+  "182392": "https://img.a.transfermarkt.technology/portrait/big/182392-1622913647.png",
+  "562665": "https://img.a.transfermarkt.technology/portrait/big/562665-1762902659.png"
  },
  "tm_null": {
   "1146046": 3,
@@ -5210,9 +5227,9 @@
   "1067836": 3,
   "280378": 1,
   "615701": 3,
-  "922536": 2,
-  "380205": 2,
-  "753626": 1
+  "922536": 3,
+  "380205": 3,
+  "753626": 2
  },
  "tm_err": {}
 }
