@@ -10,7 +10,7 @@ Starters:
   [LB] Yuto Nagatomo (LB) rating 98.33 #5
   [CB] Masato Morishige (CB) rating 97.57 #6
   [CB] Hiroki Ito (CB) rating 97.10 #21
-  [RB] Gotoku Sakai (RB) rating 97.12 #3
+  [RB] Gotoku Sakai (RB) rating 97.01 #3
   [GK] Zion Suzuki (GK) rating 99.29 #1
 
 Substitutes:
