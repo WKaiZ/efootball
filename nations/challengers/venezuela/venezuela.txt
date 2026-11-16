@@ -7,7 +7,7 @@ Starters:
   [DMF] Tomás Rincón (DMF) rating 73.24 #8
   [LB] Miguel Navarro (LB) rating 73.94 #15
   [CB] Nahuel Ferraresi (CB) rating 74.80 #2
-  [CB] Yordan Osorio (CB) rating 72.17 #24
+  [CB] Yordan Osorio (CB) rating 72.17 #3
   [RB] Jon Aramburu (RB) rating 93.32 #4
   [GK] Wuilker Fariñez (GK) rating 72.64 #1
 
