@@ -2,8 +2,8 @@ Starters:
   [CF] Kieffer Moore (CF) rating 72.92 #13
   [LWF] Nathan Broadhead (LWF) rating 71.83 #23
   [RWF] Gareth Bale (RWF) rating 100.80 #11
-  [AMF] Rubin Colwill (AMF) rating 70.54 #8
-  [CMF] Jordan James (CMF) rating 71.56 #17
+  [AMF] Rubin Colwill (AMF) rating 70.54 #17
+  [CMF] Josh Sheehan (CMF) rating 70.51 #22
   [DMF] Ethan Ampadu (DMF) rating 74.04 #5
   [LB] Neco Williams (LB) rating 94.05 #3
   [CB] Joe Rodon (CB) rating 93.30 #6
@@ -15,8 +15,8 @@ Substitutes:
   [CF] Isaak Davies (LWF) rating 67.40 #24
   [LWF] Lewis Koumas (LWF) rating 69.31 #9
   [RWF] David Brooks (RWF) rating 75.39 #7
-  [AMF] Harry Wilson (RMF) rating 78.17 #10
-  [CMF] Josh Sheehan (CMF) rating 70.51 #22
+  [AMF] Harry Wilson (RMF) rating 78.17 #8
+  [CMF] Dylan Levitt (CMF) rating 69.92 #10
   [DMF] VACANT
   [LB] Ben Davies (LB) rating 73.25 #4
   [CB] Ben Cabango (CB) rating 72.13 #16

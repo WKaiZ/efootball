@@ -16,11 +16,11 @@ Starters:
 Substitutes:
   [CF] Alexander Sørloth (CF) rating 96.18 #19
   [LWF] Andreas Schjelderup (LWF) rating 94.39 #21
-  [RWF] Sindre Walle Egeli (RWF) rating 69.42 #23
-  [AMF] VACANT
-  [CMF] Felix Horn Myhre (CMF) rating 71.15 #11
+  [RWF] Ola Solbakken (RWF) rating 72.38 #11
+  [AMF] Thelo Aasgaard (AMF) rating 70.64 #23
+  [CMF] Hugo Vetlesen (CMF) rating 72.21 #15
   [DMF] Patrik Berg (DMF) rating 74.74 #6
-  [LB] Fredrik Bjørkan (LB) rating 73.17 #15
+  [LB] Fredrik Bjørkan (LB) rating 73.17 #25
   [CB] Stian Gregersen (CB) rating 73.53 #2
   [CB] Torbjørn Heggem (CB) rating 73.09 #17
   [RB] Marcus Pedersen (RB) rating 74.11 #16
@@ -28,31 +28,30 @@ Substitutes:
 
 Wildcard:
   [WILD] Andreas Hanche-Olsen (CB) rating 72.64 #24
-  [WILD] Birger Meling (LB) rating 72.28 #5
 
 Second Squad
 
 Starters:
   [CF] Jørgen Strand Larsen (CF) rating 94.28 #11
   [LWF] Jens Petter Hauge (LWF) rating 72.39 #23
-  [RWF] Ola Solbakken (RWF) rating 72.38 #9
+  [RWF] Mohamed Elyounoussi (SS) rating 74.75 #13
   [AMF] Martin Ødegaard (AMF) rating 95.99 #10
-  [CMF] Hugo Vetlesen (CMF) rating 72.21 #16
-  [DMF] Fredrik Ulvestad (CMF) rating 70.99 #8
+  [CMF] Morten Thorsby (CMF) rating 72.13 #2
+  [DMF] Felix Horn Myhre (CMF) rating 71.15 #18
   [LB] Julian Ryerson (RMF) rating 93.98 #14
   [CB] Jakob Glesnes (CB) rating 73.84 #6
-  [CB] Sondre Langås (CB) rating 71.50 #15
+  [CB] Sondre Langås (CB) rating 71.50 #24
   [RB] VACANT
   [GK] Sander Tangvik (GK) rating 71.31 #12
 
 Substitutes:
-  [CF] Aron Dønnum (RMF) rating 73.25 #20
-  [LWF] Dennis Johnsen (LWF) rating 72.20 #18
-  [RWF] Mohamed Elyounoussi (SS) rating 74.75 #13
-  [AMF] Thelo Aasgaard (AMF) rating 70.64 #19
-  [CMF] Morten Thorsby (CMF) rating 72.13 #2
+  [CF] Aune Heggebø (CF) rating 71.23 #15
+  [LWF] Kristian Arnstad (LWF) rating 72.15 #19
+  [RWF] Aron Dønnum (RMF) rating 73.25 #20
+  [AMF] Fredrik Ulvestad (CMF) rating 70.99 #8
+  [CMF] Sverre Nypan (CMF) rating 71.48 #16
   [DMF] VACANT
-  [LB] David Møller Wolfe (LB) rating 72.28 #5
+  [LB] Birger Meling (LB) rating 72.28 #5
   [CB] Henrik Falchener (CB) rating 71.06 #25
   [CB] Colin Rösler (CB) rating 69.34 #21
   [RB] Eivind Helland (CB) rating 67.52 #4

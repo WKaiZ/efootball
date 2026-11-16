@@ -71,7 +71,10 @@ MANUAL_ID_OVERRIDES = {
         "ze roberto": {"player_id": "89", "preserve_name": True},
         "denilson": {"player_id": "7660", "preserve_name": True},
         "cassio": {"player_id": "50144", "preserve_name": True},
-        "alisson": {"player_id": "105470", "preserve_name": True},
+        "alisson": {
+            "GK": {"player_id": "105470", "preserve_name": True},
+            "RWF": {"player_id": "1083070", "preserve_name": True},
+        },
         "paulinho": {"player_id": "428791", "preserve_name": True},
         "alex sandro": {"player_id": "79960", "preserve_name": True},
         "rafael": {"player_id": "68097", "preserve_name": True},
@@ -101,6 +104,7 @@ MANUAL_ID_OVERRIDES = {
         "richard king": {"player_id": "909017", "preserve_name": True},
     },
     "portugal": {
+        "alberto costa": {"player_id": "877139", "preserve_name": True},
         "pepe": {"player_id": "14132", "preserve_name": True},
         "andre silva": {"player_id": "198008", "preserve_name": True},
         "joao moutinho": {"player_id": "29364", "preserve_name": True},
@@ -368,6 +372,9 @@ PLAYER_NAME_ALIASES = {
     ],
     "egypt": [
         ("Oufa Shobeir", "Mostafa Shoubir", "Mostafa Shobeir"),
+    ],
+    "france": [
+        ("Junior Kroupi", "Eli Junior Kroupi", "Elie Junior Kroupi"),
     ],
     "greece": [
         ("Konstantinos Tsimikas", "Kostas Tsimikas"),

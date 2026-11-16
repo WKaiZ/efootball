@@ -3,7 +3,7 @@ First Squad
 Starters:
   [CF] Raúl Jiménez (CF) rating 93.90 #9
   [LWF] Hirving Lozano (LWF) rating 73.22 #13
-  [RWF] Roberto Alvarado (RWF) rating 75.06 #25
+  [RWF] Roberto Alvarado (RWF) rating 75.06 #18
   [AMF] Jordán Carrillo (AMF) rating 72.26 #27
   [CMF] Álvaro Fidalgo (CMF) rating 76.08 #8
   [DMF] Edson Álvarez (DMF) rating 76.14 #21
@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Julián Quiñones (CF) rating 79.01 #16
-  [LWF] Efraín Álvarez (RMF) rating 73.40 #18
+  [LWF] Isaías Violante (LMF) rating 69.08 #26
   [RWF] Ángel Sepúlveda (CF) rating 73.33 #22
   [AMF] Santiago Sandoval (AMF) rating 60.09 #28
   [CMF] Erick Sanchez (CMF) rating 75.04 #14
@@ -32,8 +32,8 @@ Wildcard:
 Second Squad
 
 Starters:
-  [CF] German Berterame (CF) rating 76.29 #9
-  [LWF] VACANT
+  [CF] German Berterame (CF) rating 76.29 #19
+  [LWF] Efraín Álvarez (RMF) rating 73.40 #20
   [RWF] Hugo Camberos (RWF) rating 69.41 #21
   [AMF] Omar Govea (CMF) rating 72.37 #8
   [CMF] Brian Gutiérrez (CMF) rating 74.43 #26
@@ -45,7 +45,7 @@ Starters:
   [GK] Rodolfo Cota (GK) rating 72.54 #12
 
 Substitutes:
-  [CF] Henry Martin (CF) rating 75.14 #20
+  [CF] Henry Martin (CF) rating 75.14 #9
   [LWF] Rogelio Funes Mori (CF) rating 72.30 #11
   [RWF] VACANT
   [AMF] Héctor Herrera (CMF) rating 72.63 #7

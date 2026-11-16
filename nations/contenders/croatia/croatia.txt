@@ -41,7 +41,7 @@ Starters:
   [LB] Ivan Perisic (LB) rating 93.99 #14
   [CB] Josko Gvardiol (CB) rating 95.36 #4
   [CB] Matej Mitrovic (CB) rating 72.88 #5
-  [RB] Ivan Smolcic (RB) rating 70.37 #2
+  [RB] Ivan Smolcic (RB) rating 70.37 #13
   [GK] Karlo Letica (GK) rating 72.47 #23
 
 Substitutes:
@@ -53,7 +53,7 @@ Substitutes:
   [DMF] Marcelo Brozovic (DMF) rating 77.30 #11
   [LB] VACANT
   [CB] Duje Caleta-Car (CB) rating 72.45 #3
-  [CB] VACANT
+  [CB] Filip Uremovic (CB) rating 71.97 #2
   [RB] VACANT
   [GK] Ivor Pandur (GK) rating 71.72 #12
 

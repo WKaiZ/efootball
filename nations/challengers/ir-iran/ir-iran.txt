@@ -13,15 +13,15 @@ Starters:
 
 Substitutes:
   [CF] Sardar Azmoun (CF) rating 73.05 #20
-  [LWF] Mehdi Torabi (LWF) rating 71.26 #16
+  [LWF] Mehdi Torabi (LWF) rating 71.26 #27
   [RWF] Omid Alishah (RWF) rating 70.16 #7
   [AMF] Amirhossein Mahmoudi (AMF) rating 61.85 #25
-  [CMF] Amirmohammad Razzaghinia (CMF) rating 69.19 #26
-  [DMF] Roozbeh Cheshmi (DMF) rating 69.65 #15
+  [CMF] Amirmohammad Razzaghinia (CMF) rating 69.19 #15
+  [DMF] Mohammad Ghorbani (DMF) rating 67.97 #16
   [LB] Omid Noorafkan (LB) rating 70.20 #21
   [CB] Shoja Khalilzadeh (CB) rating 70.24 #4
   [CB] Mohammad Daneshgar (CB) rating 69.85 #24
-  [RB] Saleh Hardani (RB) rating 69.94 #27
+  [RB] Saleh Hardani (RB) rating 69.94 #3
   [GK] Payam Niazmand (GK) rating 70.36 #12
 
 Wildcard:

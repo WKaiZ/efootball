@@ -111,6 +111,7 @@ MANUAL_ID_OVERRIDES = {
         "richard king": "909017",
     },
     "portugal": {
+        "alberto costa": "877139",
         "pepe": "14132",
         "andre silva": "198008",
         "joao moutinho": "29364",
