@@ -16,7 +16,7 @@ Starters:
 Substitutes:
   [CF] Keisuke Honda (CF) rating 97.31 #4
   [LWF] Kaoru Mitoma (LWF) rating 79.16 #19
-  [RWF] Daisuke Matsui (RWF) rating 95.76 #8
+  [RWF] Daisuke Matsui (RWF) rating 95.17 #8
   [SS] Shinji Okazaki (SS) rating 94.21 #13
   [CMF] Daichi Kamada (CMF) rating 95.00 #15
   [DMF] Kaishu Sano (DMF) rating 97.44 #24
