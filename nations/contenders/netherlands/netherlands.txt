@@ -39,8 +39,8 @@ Starters:
   [CMF] Mark van Bommel (CMF) rating 96.65 #6
   [DMF] Clarence Seedorf (DMF) rating 98.15 #10
   [LB] Micky van de Ven (LB) rating 96.06 #15
-  [CB] Nathan Aké (CB) rating 96.45 #5
   [CB] Ronald Koeman (CB) rating 96.01 #4
+  [CB] Matthijs de Ligt (CB) rating 95.98 #3
   [RB] Kenny Tete (RB) rating 94.22 #2
   [GK] Bart Verbruggen (GK) rating 94.37 #1
 
@@ -51,8 +51,8 @@ Substitutes:
   [AMF] Justin Kluivert (AMF) rating 94.92 #19
   [CMF] Gjivai Zechiël (CMF) rating 93.99 #21
   [DMF] Frank Rijkaard (DMF) rating 95.70 #17
-  [LB] Ian Maatsen (LB) rating 94.07 #3
-  [CB] Matthijs de Ligt (CB) rating 95.98 #13
+  [LB] Ian Maatsen (LB) rating 94.07 #20
+  [CB] Nathan Aké (CB) rating 95.23 #5
   [CB] Jan Paul van Hecke (CB) rating 94.97 #12
   [RB] Devyne Rensch (RB) rating 93.01 #18
   [GK] Mark Flekken (GK) rating 77.48 #23

@@ -1,5 +1,5 @@
 Starters:
-  [CF] Dušan Vlahović (CF) rating 96.29 #23
+  [CF] Dušan Vlahović (CF) rating 95.81 #23
   [LWF] Filip Kostic (LMF) rating 74.58 #11
   [RWF] Darko Lazović (LMF) rating 73.74 #22
   [AMF] Dragan Stojkovic (AMF) rating 98.47 #10

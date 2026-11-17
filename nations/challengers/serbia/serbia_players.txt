@@ -1,4 +1,4 @@
-Dušan Vlahović, CF, 96.29, False, Showtime, [CF], [SS]
+Dušan Vlahović, CF, 95.81, False, Showtime, [CF], [SS]
 Dragan Stojkovic, AMF, 98.47, False, Epic, [SS, AMF], [CMF]
 Aleksandar Stanković, DMF, 93.04, False, Highlight, [DMF, CB], [CMF]
 Nikola Milenković, CB, 95.00, True, Highlight, [CB], []

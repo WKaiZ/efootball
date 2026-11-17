@@ -36,7 +36,7 @@ Starters:
   [LWF] Neymar (LWF) rating 99.19 #11
   [RMF] Cafu (RMF) rating 97.18 #14
   [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Júnior (CMF) rating 98.21 #6
+  [CMF] Júnior (CMF) rating 96.98 #6
   [DMF] Edmílson (DMF) rating 96.70 #5
   [LB] Wesley (LB) rating 97.39 #2
   [CB] Éder Militão (CB) rating 95.22 #3

@@ -12,7 +12,7 @@ Hakan Çalhanoğlu, CMF, 97.17, True, Highlight, [CMF, AMF, DMF, LMF, LWF, RWF, 
 Hakan Çalhanoğlu, DMF, 95.15, True, Highlight, [CMF, AMF, DMF, LMF, LWF, RWF, RMF], [SS]
 Salih Özcan, DMF, 94.43, True, Showtime, [CMF, DMF], []
 Ferdi Kadıoğlu, LB, 93.90, True, Highlight, [LB, LMF, RB, RMF, LWF, RWF], []
-Barış Alper Yılmaz, RB, 95.41, True, Showtime, [LWF, LMF, CF, RWF, RMF, RB], [SS, LB]
+Barış Alper Yılmaz, RB, 94.69, True, Showtime, [LWF, LMF, CF, RWF, RMF, RB], [SS, LB]
 Zeki Çelik, RB, 94.23, False, Highlight, [RB, RMF], [LB, CB]
 Berke Özer, GK, 91.99, True, Highlight, [GK], []
 

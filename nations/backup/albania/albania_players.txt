@@ -1,4 +1,4 @@
-Ernest Muci, AMF, 95.22, True, Showtime, [LWF, LMF, AMF, SS], [CMF, RWF, RMF]
+Ernest Muci, AMF, 94.79, True, Showtime, [LWF, LMF, AMF, SS], [CMF, RWF, RMF]
 
 Armando Broja, CF, 74.56, False, Standard, [CF], [SS]
 Myrto Uzuni, CF, 74.49, True, Standard, [LWF, CF, SS], [LMF, AMF, RMF, RWF]
