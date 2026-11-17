@@ -20,7 +20,7 @@ Substitutes:
   [DMF] Seko Fofana (CMF) rating 75.45 #6
   [LB] Christopher Operi (LB) rating 73.12 #13
   [CB] Emmanuel Agbadou (CB) rating 94.67 #20
-  [CB] Wilfried Singo (CB) rating 77.38 #5
+  [CB] Oumar Solet (CB) rating 93.17 #5
   [RB] Jean-Philippe Gbamin (CB) rating 72.22 #4
   [GK] Yahia Fofana (GK) rating 74.47 #1
 

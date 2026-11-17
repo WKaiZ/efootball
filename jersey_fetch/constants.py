@@ -50,6 +50,7 @@ MANUAL_ID_OVERRIDES = {
         "moises villarroel": {"player_id": "431863", "preserve_name": True},
     },
     "brazil": {
+        "lucas perri": {"player_id": "352041", "preserve_name": True},
         # The 2026 Tottenham player Sávio (formerly Savinho), not Sávio Bortolini (TM 7976).
         "savio": {"player_id": "743591", "preserve_name": True},
         "junior": {"player_id": "117623", "preserve_name": True},
