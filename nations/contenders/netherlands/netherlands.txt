@@ -45,12 +45,12 @@ Starters:
   [GK] Bart Verbruggen (GK) rating 94.37 #1
 
 Substitutes:
-  [CF] Dennis Bergkamp (CF) rating 97.55 #9
+  [CF] Dennis Bergkamp (CF) rating 97.55 #8
   [LWF] Crysencio Summerville (LWF) rating 75.86 #24
-  [RMF] Donyell Malen (CF) rating 93.55 #20
-  [AMF] Justin Kluivert (AMF) rating 94.92 #17
-  [CMF] Joey Veerman (CMF) rating 93.82 #8
-  [DMF] Frenkie de Jong (DMF) rating 95.88 #21
+  [RMF] Donyell Malen (CF) rating 93.55 #9
+  [AMF] Justin Kluivert (AMF) rating 94.92 #19
+  [CMF] Gjivai Zechiël (CMF) rating 93.99 #21
+  [DMF] Frank Rijkaard (DMF) rating 95.70 #17
   [LB] Ian Maatsen (LB) rating 94.07 #3
   [CB] Matthijs de Ligt (CB) rating 95.98 #13
   [CB] Jan Paul van Hecke (CB) rating 94.97 #12

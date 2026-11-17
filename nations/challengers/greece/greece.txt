@@ -12,17 +12,17 @@ Starters:
   [GK] Odysseas Vlachodimos (GK) rating 75.59 #1
 
 Substitutes:
-  [CF] Charalampos Kostoulas (CF) rating 94.07 #11
+  [CF] Charalampos Kostoulas (CF) rating 94.07 #18
   [LWF] Alexandros Kyziridis (LWF) rating 72.19 #26
-  [RWF] Georgios Giakoumakis (CF) rating 74.34 #8
-  [AMF] Dimitrios Pelkas (AMF) rating 72.44 #9
+  [RWF] Dimitrios Pelkas (AMF) rating 72.44 #9
+  [AMF] Anastasios Bakasetas (AMF) rating 74.16 #11
   [CMF] Christos Mouzakitis (CMF) rating 70.57 #16
   [DMF] Dimitrios Kourbelis (DMF) rating 72.51 #6
   [LB] Dimitrios Giannoulis (LB) rating 73.18 #22
   [CB] Pantelis Hatzidiakos (CB) rating 73.41 #17
-  [CB] Dimitrios Goutas (CB) rating 72.71 #18
+  [CB] Konstantinos Koulierakis (CB) rating 72.08 #3
   [RB] Lazaros Rota (RB) rating 69.99 #15
   [GK] Vasilios Barkas (GK) rating 74.62 #13
 
 Wildcard:
-  [WILD] Christos Mandas (GK) rating 73.54 #24
+  [WILD] Georgios Giakoumakis (CF) rating 74.34 #8

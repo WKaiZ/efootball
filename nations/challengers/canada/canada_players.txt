@@ -1,6 +1,6 @@
 Jonathan David, CF, 97.91, True, Showtime, [CF, SS, AMF], [LWF, RWF, CMF, RMF]
 Tajon Buchanan, RMF, 92.07, True, Highlight, [LMF, RWF, RMF, RB], [LWF, LB]
-Alphonso Davies, LB, 95.43, True, Highlight, [LB, LMF, LWF], [RWF, AMF]
+Alphonso Davies, LB, 95.43, False, Highlight, [LB, LMF, LWF], [RWF, AMF]
 
 Promise David, CF, 75.21, True, Standard, [CF], [SS]
 Cyle Larin, CF, 74.61, False, Standard, [LWF, CF], [SS, LMF, RWF, RMF]
