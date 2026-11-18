@@ -7,6 +7,6 @@ Starters:
   [DMF] Opa Sangante (CB) rating 69.63 #22
   [LB] VACANT
   [CB] Fali Candé (CB) rating 71.46 #2
-  [CB] Gilberto Batista (CB) rating 69.66 #18
+  [CB] Gilberto Batista (CB) rating 69.66 #13
   [RB] Houboulang Mendes (RB) rating 70.14 #5
   [GK] Celton Biai (GK) rating 70.01 #23

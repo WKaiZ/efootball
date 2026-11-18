@@ -1,4 +1,4 @@
-Michael Olunga, CF, 75.29, False, Standard, [CF], [SS]
+Michael Olunga, CF, 75.29, True, Standard, [CF], [SS]
 Eric Omondi, LWF, 70.98, False, Standard, [LWF, LMF, CF, RWF, RMF], [SS]
 Boniface Muchiri, RWF, 64.94, False, Standard, [RWF, LWF], [LMF, RMF]
 Kenneth Muguna, AMF, 69.20, False, Standard, [AMF, CMF], [SS]

@@ -1,8 +1,8 @@
 Starters:
   [CF] Mitchell Baker (CF) rating 95.34 #9
   [LWF] Ragnar Oratmangoen (LWF) rating 68.16 #11
-  [RWF] Egy Maulana Vikri (RWF) rating 67.06 #10
-  [AMF] Adam Alis (AMF) rating 67.27 #18
+  [RWF] Egy Maulana Vikri (RWF) rating 67.06 #7
+  [AMF] Adam Alis (AMF) rating 67.27 #10
   [CMF] Marc Klok (CMF) rating 69.23 #23
   [DMF] Calvin Verdonk (DMF) rating 93.22 #17
   [LB] Nathan Tjoe-A-On (LB) rating 67.57 #22

@@ -1,5 +1,5 @@
-Mariano Díaz, CF, 93.32, False, Highlight, [CF], [SS]
+Mariano Díaz, CF, 93.32, True, Highlight, [CF], [SS]
 Junior Firpo, LB, 93.03, False, Highlight, [LMF, LB], []
 
-Pablo Rosario, DMF, 72.97, False, Standard, [CMF, DMF, CB], [RB]
-Xavier Valdez, GK, 65.72, False, Standard, [GK], []
+Pablo Rosario, DMF, 72.97, True, Standard, [CMF, DMF, CB], [RB]
+Xavier Valdez, GK, 65.72, True, Standard, [GK], []

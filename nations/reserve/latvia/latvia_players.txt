@@ -1,5 +1,5 @@
 Roberts Uldrikis, CF, 69.96, True, Standard, [CF], [SS]
-Deniss Melniks, CB, 69.73, True, Standard, [DMF, CB], [CMF]
+Deniss Melniks, CB, 69.73, False, Standard, [DMF, CB], [CMF]
 Kristers Tobers, CB, 68.56, False, Standard, [CB], [DMF]
-Denniss Cirkins, LB, 70.87, False, Standard, [LB], [LMF, CB]
+Denniss Cirkins, LB, 70.87, True, Standard, [LB], [LMF, CB]
 Andrejs Ciganiks, LB, 68.86, True, Standard, [LWF, LMF, LB], [CMF, RWF, RMF]

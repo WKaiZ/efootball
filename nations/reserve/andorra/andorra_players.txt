@@ -1,1 +1,1 @@
-Iker Álvarez, GK, 71.56, True, Standard, [GK], []
+Iker Álvarez, GK, 71.56, False, Standard, [GK], []

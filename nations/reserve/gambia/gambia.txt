@@ -1,7 +1,7 @@
 Starters:
   [CF] Ali Sowe (CF) rating 72.40 #26
-  [LWF] Alieu Fadera (LWF) rating 71.06 #7
-  [RWF] Yankuba Minteh (RWF) rating 93.96 #20
+  [LWF] Alieu Fadera (LWF) rating 71.06 #21
+  [RWF] Yankuba Minteh (RWF) rating 93.96 #7
   [AMF] VACANT
   [CMF] Ebou Adams (CMF) rating 70.71 #8
   [DMF] VACANT

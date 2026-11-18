@@ -1,3 +1,3 @@
-Adrian Justinussen, CF, 69.91, False, Standard, [CF, LWF], [SS, RWF, LMF]
+Adrian Justinussen, CF, 69.91, True, Standard, [CF, LWF], [SS, RWF, LMF]
 Aron Benjaminsen, RWF, 64.28, True, Standard, [RWF, RMF], []
-Andrias Edmundsson, CB, 71.67, False, Standard, [CB], []
+Andrias Edmundsson, CB, 71.67, True, Standard, [CB], []
