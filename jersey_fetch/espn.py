@@ -8,6 +8,7 @@ import requests
 
 from jersey_fetch.constants import (
     EXCLUDE_FROM_ESPN_RECENT,
+    ESPN_EVENT_PLAYER_NAME_OVERRIDES,
     ESPN_TEAM_ID_OVERRIDES,
     ESPN_TEAM_NAME_ALIASES,
     HEADERS,
@@ -387,6 +388,9 @@ def map_recent_players_to_roster(player_profiles, latest_match):
     recent_flags = {key: False for key in player_profiles.keys()}
     recent_numbers = {}
     taken = set()
+    event_name_overrides = ESPN_EVENT_PLAYER_NAME_OVERRIDES.get(
+        str(latest_match.get("event_id", "")), {}
+    )
 
     def local_match_names(key):
         return player_name_alias_variants(country_label, key) or {key}
@@ -395,29 +399,46 @@ def map_recent_players_to_roster(player_profiles, latest_match):
         matched_key = None
         aliases = espn_player["aliases"]
         espn_role = espn_player.get("role")
-        candidates = []
-        for key, profile in roster_names:
-            if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
-                continue
-            if espn_skip_mononym_role_mismatch(key, profile["roles"], espn_role):
-                continue
-            names = local_match_names(key)
-            if not any(
-                compatible_name_tokens(nm, alias) for nm in names for alias in aliases
+        for alias in aliases:
+            override_key = normalize_name(event_name_overrides.get(alias, ""))
+            if (
+                not override_key
+                or override_key not in roster_by_key
+                or override_key in taken
+                or override_key in EXCLUDE_FROM_ESPN_RECENT
             ):
                 continue
-            if not any(espn_local_matches_full_aliases(nm, aliases) for nm in names):
+            profile = roster_by_key[override_key]
+            if espn_skip_mononym_role_mismatch(override_key, profile["roles"], espn_role):
                 continue
-            candidates.append(key)
-        if candidates:
-            matched_key = max(
-                candidates,
-                key=lambda k: (
-                    max(espn_local_name_match_score(nm, aliases) for nm in local_match_names(k)),
-                    espn_local_name_match_tiebreak(k, aliases),
-                    1 if espn_roster_role_compatible(roster_by_key[k]["roles"], espn_role) else 0,
-                ),
-            )
+            if not espn_roster_role_compatible(profile["roles"], espn_role):
+                continue
+            matched_key = override_key
+            break
+        candidates = []
+        if matched_key is None:
+            for key, profile in roster_names:
+                if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:
+                    continue
+                if espn_skip_mononym_role_mismatch(key, profile["roles"], espn_role):
+                    continue
+                names = local_match_names(key)
+                if not any(
+                    compatible_name_tokens(nm, alias) for nm in names for alias in aliases
+                ):
+                    continue
+                if not any(espn_local_matches_full_aliases(nm, aliases) for nm in names):
+                    continue
+                candidates.append(key)
+            if candidates:
+                matched_key = max(
+                    candidates,
+                    key=lambda k: (
+                        max(espn_local_name_match_score(nm, aliases) for nm in local_match_names(k)),
+                        espn_local_name_match_tiebreak(k, aliases),
+                        1 if espn_roster_role_compatible(roster_by_key[k]["roles"], espn_role) else 0,
+                    ),
+                )
         if matched_key is None:
             for key, profile in roster_names:
                 if key in taken or key in EXCLUDE_FROM_ESPN_RECENT:

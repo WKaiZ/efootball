@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [FW] Patrik Schick (CF) rating 94.47 #19
   [MF] Pavel Sulc (AMF) rating 94.39 #15
-  [DF] David Zima (CB) rating 72.52 #2
+  [DF] David Zima (CB) rating 72.52 #6
   [GK] Lukas Hornicek (GK) rating 74.81 #16
 
 Wildcard:

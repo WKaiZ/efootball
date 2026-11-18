@@ -3,8 +3,8 @@ Starters:
   [LWF] André Vidigal (LWF) rating 69.96 #7
   [RWF] Zito Luvumbo (RWF) rating 73.25 #18
   [AMF] Fredy (AMF) rating 71.30 #9
-  [CMF] Maestro (CMF) rating 71.83 #8
-  [DMF] Show (DMF) rating 69.86 #23
+  [CMF] Maestro (CMF) rating 71.83 #23
+  [DMF] Kelliano (DMF) rating 68.10 #20
   [LB] Núrio Fortuna (LB) rating 71.55 #2
   [CB] Clinton Mata (CB) rating 93.28 #4
   [CB] David Carmo (CB) rating 76.03 #16
@@ -12,7 +12,7 @@ Starters:
   [GK] Neblú (GK) rating 71.63 #22
 
 Substitutes:
-  [FW] Fabio Abreu (CF) rating 73.73 #20
+  [FW] Randy Nteka (CF) rating 72.32 #25
   [MF] Beni Mukendi (CMF) rating 71.71 #15
   [DF] Gaspar (CB) rating 74.10 #6
   [GK] Signori Antonio (GK) rating 70.04 #12

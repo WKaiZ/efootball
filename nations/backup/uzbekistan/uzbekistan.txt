@@ -14,7 +14,7 @@ Starters:
 Substitutes:
   [FW] Oston Urunov (LWF) rating 70.46 #11
   [MF] Akmal Mozgovoy (CMF) rating 70.52 #6
-  [DF] Farrukh Sayfiev (LB) rating 69.37 #4
+  [DF] Rustam Ashurmatov (CB) rating 69.76 #5
   [GK] Sandzhar Kuvvatov (GK) rating 69.46 #12
 
 Wildcard:

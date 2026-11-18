@@ -4,18 +4,18 @@ Starters:
   [RWF] Milot Rashica (RWF) rating 74.18 #7
   [AMF] Edon Zhegrova (AMF) rating 93.10 #10
   [CMF] Valon Berisha (CMF) rating 71.18 #14
-  [DMF] Betim Fazliji (DMF) rating 67.44 #5
+  [DMF] Betim Fazliji (DMF) rating 67.44 #8
   [LB] Donat Rrudhani (LMF) rating 69.16 #21
   [CB] Amir Rrahmani (CB) rating 93.05 #13
-  [CB] Kreshnik Hajrizi (CB) rating 71.41 #2
+  [CB] Kreshnik Hajrizi (CB) rating 71.41 #3
   [RB] Mërgim Vojvoda (RB) rating 74.38 #15
   [GK] Arijanet Murić (GK) rating 92.28 #1
 
 Substitutes:
   [FW] Albion Rrahmani (CF) rating 68.69 #9
-  [MF] Benjamin Kololli (LMF) rating 67.18 #3
-  [DF] Fidan Aliti (CB) rating 71.40 #22
+  [MF] Benjamin Kololli (LMF) rating 67.18 #20
+  [DF] Florent Hadergjonaj (RB) rating 73.00 #2
   [GK] Amir Saipi (GK) rating 72.13 #16
 
 Wildcard:
-  [WILD] Ibrahim Dresevic (CB) rating 70.92 #20
+  [WILD] Fidan Aliti (CB) rating 71.40 #5

@@ -1,6 +1,6 @@
 Starters:
   [CF] Lassina Traoré (CF) rating 73.08 #2
-  [LWF] Dango Ouattara (LWF) rating 94.09 #19
+  [LWF] Dango Ouattara (LWF) rating 94.09 #7
   [RWF] Ousseni Bouda (RWF) rating 72.86 #11
   [AMF] Cedric Badolo (AMF) rating 69.35 #8
   [CMF] Ibrahim Blati Touré (CMF) rating 69.58 #22
@@ -13,9 +13,9 @@ Starters:
 
 Substitutes:
   [FW] Bertrand Traoré (RWF) rating 72.36 #10
-  [MF] Gustavo Sangaré (DMF) rating 69.05 #17
+  [MF] Rachid Kouda (CMF) rating 69.26 #20
   [DF] Nasser Djiga (CB) rating 72.97 #5
-  [GK] Hillel Konaté (GK) rating 70.50 #1
+  [GK] Hillel Konaté (GK) rating 70.50 #23
 
 Wildcard:
   [WILD] Issoufou Dayo (CB) rating 72.56 #14

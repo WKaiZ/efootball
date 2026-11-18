@@ -6,8 +6,8 @@ Starters:
   [CMF] Giorgi Kochorashvili (CMF) rating 70.27 #6
   [DMF] Anzor Mekvabishvili (DMF) rating 69.12 #14
   [LB] Saba Kharebashvili (LB) rating 69.80 #16
-  [CB] Giorgi Gvelesiani (CB) rating 70.64 #15
-  [CB] Saba Sazonov (CB) rating 70.46 #20
+  [CB] Giorgi Gvelesiani (CB) rating 70.64 #3
+  [CB] Saba Sazonov (CB) rating 70.46 #15
   [RB] Giorgi Gocholeishvili (RB) rating 70.36 #26
   [GK] Giorgi Mamardashvili (GK) rating 95.25 #1
 

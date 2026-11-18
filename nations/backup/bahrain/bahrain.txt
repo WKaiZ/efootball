@@ -4,7 +4,7 @@ Starters:
   [RWF] Ali Madan (RWF) rating 69.08 #7
   [AMF] Komail Al-Aswad (AMF) rating 67.97 #10
   [CMF] Jassim Al-Shaikh (CMF) rating 67.61 #15
-  [DMF] Ali Haram (DMF) rating 68.78 #14
+  [DMF] Ali Haram (DMF) rating 68.78 #19
   [LB] Sayed Dhiya Saeed (LB) rating 68.55 #4
   [CB] Amine Benaddi (CB) rating 68.75 #2
   [CB] Waleed Al-Hayyam (CB) rating 68.15 #3

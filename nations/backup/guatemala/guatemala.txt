@@ -1,6 +1,6 @@
 Starters:
   [CF] Rubio Rubín (CF) rating 71.29 #9
-  [LWF] Antonio López (AMF) rating 66.79 #18
+  [LWF] Antonio López (AMF) rating 66.79 #20
   [RWF] Nathaniel Méndez-Laing (RWF) rating 69.64 #11
   [AMF] Olger Escobar (AMF) rating 69.01 #10
   [CMF] Stheven Robles (CMF) rating 65.77 #13
@@ -13,7 +13,7 @@ Starters:
 
 Substitutes:
   [FW] Darwin Lom (CF) rating 68.07 #14
-  [MF] Pedro Altán (AMF) rating 65.86 #5
+  [MF] Óscar Santis (RMF) rating 67.60 #18
   [DF] Allen Yanes (RB) rating 65.99 #15
   [GK] Luis Morán (GK) rating 66.26 #21
 

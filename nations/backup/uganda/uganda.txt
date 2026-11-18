@@ -3,9 +3,9 @@ Starters:
   [LWF] Melvyn Lorenzen (LWF) rating 69.80 #27
   [RWF] Shafik Nana Kwikiriza (RWF) rating 65.28 #25
   [AMF] Allan Okello (AMF) rating 68.46 #21
-  [CMF] Bobosi Byaruhanga (CMF) rating 67.43 #16
-  [DMF] Baba Alhassan (DMF) rating 67.77 #6
-  [LB] Jordan Obita (LB) rating 70.47 #15
+  [CMF] Bobosi Byaruhanga (CMF) rating 67.43 #6
+  [DMF] Baba Alhassan (DMF) rating 67.77 #15
+  [LB] VACANT
   [CB] Elio Capradossi (CB) rating 70.62 #13
   [CB] Toby Sibbick (CB) rating 70.19 #5
   [RB] VACANT
@@ -20,3 +20,4 @@ Substitutes:
 Wildcard:
   [WILD] Jude Ssemugabi (CF) rating 67.61 #22
   [WILD] Ivan Ahimbisibwe (CF) rating 67.29 #28
+  [WILD] Khalid Aucho (DMF) rating 65.49 #8

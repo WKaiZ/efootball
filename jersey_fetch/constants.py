@@ -333,6 +333,7 @@ ESPN_TEAM_NAME_ALIASES = {
 
 ESPN_TEAM_ID_OVERRIDES = {
     "jordan": "2917",
+    "mozambique": "8939",
 }
 
 COUNTRY_DISPLAY_NAMES = {
@@ -392,6 +393,9 @@ PLAYER_NAME_ALIASES = {
     "uruguay": [
         ("Juan Rodríguez Vega", "Juan Rodríguez"),
     ],
+    "vietnam": [
+        ("Kyle Colonna", "Lương Chí Khải", "Luong Chi Khai"),
+    ],
     "venezuela": [
         ("Cristian Cásseres", "Cristian Cásseres Jr."),
     ],
@@ -438,6 +442,12 @@ PLAYER_NAME_ALIASES = {
     "israel": [
         ("Gabi Kanichowsky", "Gavriel Kanichowsky"),
     ],
+}
+
+ESPN_EVENT_PLAYER_NAME_OVERRIDES = {
+    "401930242": {
+        "tuan khai nguyen luong": "kyle colonna",
+    },
 }
 
 POSITION_SEARCH_PHRASES = {
