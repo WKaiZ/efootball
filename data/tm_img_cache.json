@@ -5179,7 +5179,24 @@
   "1002520": "https://img.a.transfermarkt.technology/portrait/big/1002520-1789917134.jpg",
   "464190": "https://img.a.transfermarkt.technology/portrait/big/464190-1787841464.jpg",
   "1119948": "https://img.a.transfermarkt.technology/portrait/big/1119948-1679761508.jpg",
-  "613964": "https://img.a.transfermarkt.technology/portrait/big/613964-1770209171.jpg"
+  "613964": "https://img.a.transfermarkt.technology/portrait/big/613964-1770209171.jpg",
+  "428745": "https://img.a.transfermarkt.technology/portrait/big/428745-1792681072.jpg",
+  "485506": "https://img.a.transfermarkt.technology/portrait/big/485506-1689154276.JPG",
+  "191407": "https://img.a.transfermarkt.technology/portrait/big/191407-1688649752.jpg",
+  "101213": "https://img.a.transfermarkt.technology/portrait/big/101213-1596011672.jpg",
+  "1396595": "https://img.a.transfermarkt.technology/portrait/big/1396595-1770285319.png",
+  "421051": "https://img.a.transfermarkt.technology/portrait/big/421051-1712158150.png",
+  "875219": "https://img.a.transfermarkt.technology/portrait/big/875219-1692895052.jpg",
+  "409335": "https://img.a.transfermarkt.technology/portrait/big/409335-1706869174.jpg",
+  "338284": "https://img.a.transfermarkt.technology/portrait/big/338284-1696864758.jpg",
+  "297079": "https://img.a.transfermarkt.technology/portrait/big/297079-1696864477.jpg",
+  "135061": "https://img.a.transfermarkt.technology/portrait/big/135061-1554733318.jpg",
+  "676744": "https://img.a.transfermarkt.technology/portrait/big/676744-1680051220.jpg",
+  "488883": "https://img.a.transfermarkt.technology/portrait/big/488883-1790980879.jpg",
+  "309353": "https://img.a.transfermarkt.technology/portrait/big/309353-1704401239.jpg",
+  "191723": "https://img.a.transfermarkt.technology/portrait/big/191723-1704400852.jpg",
+  "917147": "https://img.a.transfermarkt.technology/portrait/big/917147-1741879989.jpg",
+  "320408": "https://img.a.transfermarkt.technology/portrait/big/320408-1773225023.jpg"
  },
  "tm_null": {
   "1146046": 3,
@@ -5259,9 +5276,12 @@
   "922536": 3,
   "380205": 3,
   "753626": 3,
-  "560306": 1,
-  "560532": 1,
-  "573459": 1
+  "560306": 2,
+  "560532": 2,
+  "573459": 2,
+  "896851": 1,
+  "69310": 1,
+  "264368": 1
  },
  "tm_err": {}
 }
