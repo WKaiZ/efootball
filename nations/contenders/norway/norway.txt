@@ -2,7 +2,7 @@ First Squad
 
 Starters:
   [CF] Erling Haaland (CF) rating 99.85 #9
-  [LWF] Antonio Nusa (LWF) rating 94.97 #20
+  [LWF] Andreas Schjelderup (LWF) rating 94.39 #21
   [RWF] Oscar Bobb (RWF) rating 94.31 #22
   [AMF] Kristian Thorstvedt (AMF) rating 93.18 #18
   [CMF] Martin Ødegaard (CMF) rating 97.57 #10
@@ -15,7 +15,7 @@ Starters:
 
 Substitutes:
   [CF] Alexander Sørloth (CF) rating 96.18 #19
-  [LWF] Andreas Schjelderup (LWF) rating 94.39 #21
+  [LWF] Antonio Nusa (LWF) rating 93.96 #20
   [RWF] Ola Solbakken (RWF) rating 72.38 #11
   [AMF] Thelo Aasgaard (AMF) rating 70.64 #23
   [CMF] Hugo Vetlesen (CMF) rating 72.21 #15

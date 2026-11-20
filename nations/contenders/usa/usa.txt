@@ -9,7 +9,7 @@ Starters:
   [DMF] Johnny Cardoso (DMF) rating 93.98 #15
   [LB] Antonee Robinson (LB) rating 95.01 #5
   [CB] Alex Freeman (CB) rating 93.99 #16
-  [CB] Chris Richards (CB) rating 77.02 #3
+  [CB] Auston Trusty (CB) rating 93.77 #6
   [RB] Sergiño Dest (RB) rating 75.31 #2
   [GK] Zack Steffen (GK) rating 74.77 #22
 
@@ -21,8 +21,8 @@ Substitutes:
   [CMF] Cristian Roldán (CMF) rating 74.62 #7
   [DMF] Tyler Adams (DMF) rating 76.37 #4
   [LB] Max Arfsten (LMF) rating 73.67 #18
+  [CB] Chris Richards (CB) rating 77.02 #3
   [CB] Tim Ream (CB) rating 74.59 #13
-  [CB] Miles Robinson (CB) rating 74.55 #12
   [RB] Joe Scally (RB) rating 73.74 #26
   [GK] Matt Turner (GK) rating 74.74 #1
 
@@ -40,17 +40,17 @@ Starters:
   [DMF] Tanner Tessmann (DMF) rating 74.46 #11
   [LB] DeJuan Jones (LB) rating 73.86 #15
   [CB] Cameron Carter-Vickers (CB) rating 75.44 #2
-  [CB] Auston Trusty (CB) rating 74.47 #6
+  [CB] Miles Robinson (CB) rating 74.55 #12
   [RB] DeAndre Yedlin (RB) rating 74.31 #22
   [GK] Matt Freese (GK) rating 74.12 #1
 
 Substitutes:
   [CF] Brandon Vazquez (CF) rating 74.84 #20
-  [LWF] Álex Zendejas (RMF) rating 75.10 #26
+  [LWF] Diego Luna (LMF) rating 76.32 #14
   [RWF] Bernard Kamungo (RWF) rating 71.22 #17
   [AMF] Paxten Aaronson (AMF) rating 72.92 #21
   [CMF] Yunus Musah (CMF) rating 74.52 #18
-  [DMF] Emeka Eneli (DMF) rating 72.52 #14
+  [DMF] Wil Trapp (DMF) rating 73.02 #6
   [LB] Peyton Miller (LB) rating 71.47 #13
   [CB] Walker Zimmerman (CB) rating 73.93 #5
   [CB] Mark McKenzie (CB) rating 73.73 #4
@@ -58,4 +58,4 @@ Substitutes:
   [GK] Chris Brady (GK) rating 73.84 #25
 
 Wildcard:
-  [WILD] Jack McGlynn (CMF) rating 74.18 #12
+  [WILD] Álex Zendejas (RMF) rating 75.10 #26

@@ -39,8 +39,8 @@ Starters:
   [CMF] Andrés Iniesta (CMF) rating 97.70 #6
   [DMF] Sergio Busquets (DMF) rating 98.11 #5
   [LB] Jordi Alba (LB) rating 97.74 #18
-  [CB] Cristhian Mosquera (CB) rating 96.49 #2
   [CB] Eric García (CB) rating 95.96 #4
+  [CB] Robin Le Normand (CB) rating 94.98 #3
   [RB] Marcos Llorente (RB) rating 96.97 #14
   [GK] Iker Casillas (GK) rating 98.59 #1
 
@@ -51,10 +51,10 @@ Substitutes:
   [AMF] Marco Asensio (AMF) rating 95.97 #11
   [CMF] Thiago Alcántara (CMF) rating 95.98 #22
   [DMF] Xavi (DMF) rating 97.06 #8
-  [LB] Alejandro Balde (LB) rating 95.80 #3
+  [LB] Rodrigo Riquelme (LMF) rating 94.29 #16
   [CB] Marcos Alonso (CB) rating 94.91 #17
   [CB] Aymeric Laporte (CB) rating 94.54 #24
-  [RB] Óscar Mingueza (RB) rating 76.14 #16
+  [RB] Marc Pubill (RB) rating 95.06 #2
   [GK] Josep Martínez (GK) rating 95.15 #13
 
 Wildcard:
