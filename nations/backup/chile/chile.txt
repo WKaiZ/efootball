@@ -12,17 +12,10 @@ Starters:
   [GK] Gabriel Castellón (GK) rating 74.07 #1
 
 Substitutes:
-  [CF] Felipe Mora (CF) rating 73.07 #16
-  [LWF] Ben Brereton Díaz (LWF) rating 73.34 #22
-  [RWF] Alexander Aravena (RWF) rating 72.94 #26
-  [AMF] Diego Valdés (AMF) rating 74.48 #15
-  [CMF] Charles Aránguiz (CMF) rating 74.13 #20
-  [DMF] Vicente Pizarro (DMF) rating 73.63 #6
-  [LB] Diego Ulloa (LB) rating 69.04 #24
-  [CB] Benjamín Kuscevic (CB) rating 73.29 #19
-  [CB] Igor Lichnovsky (CB) rating 72.50 #4
-  [RB] Óscar Opazo (RB) rating 70.77 #18
+  [FW] Fernando Zampedri (CF) rating 73.39 #22
+  [MF] Diego Valdés (AMF) rating 74.48 #15
+  [DF] Benjamín Kuscevic (CB) rating 73.29 #4
   [GK] Lawrence Vigouroux (GK) rating 73.57 #12
 
 Wildcard:
-  [WILD] Felipe Loyola (CMF) rating 73.83 #8
+  [WILD] Charles Aránguiz (CMF) rating 74.13 #20
