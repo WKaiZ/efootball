@@ -13,11 +13,11 @@ Starters:
 
 Substitutes:
   [CF] Lassine Sinayoko (CF) rating 73.82 #17
-  [LWF] Fousseni Diabaté (RWF) rating 70.32 #19
+  [LWF] Moussa Yeo (LWF) rating 68.60 #20
   [RWF] Adama Traoré (RWF) rating 71.11 #14
   [AMF] Martial Tia (AMF) rating 67.58 #12
   [CMF] Amadou Haidara (CMF) rating 73.96 #4
-  [DMF] Yves Bissouma (DMF) rating 76.06 #20
+  [DMF] Cheick Doucouré (DMF) rating 75.45 #18
   [LB] Daouda Guindo (LB) rating 70.90 #15
   [CB] Mamadou Fofana (CB) rating 72.55 #23
   [CB] Sikou Niakaté (CB) rating 71.28 #3
@@ -25,4 +25,4 @@ Substitutes:
   [GK] Djigui Diarra (GK) rating 71.51 #16
 
 Wildcard:
-  [WILD] Cheick Doucouré (DMF) rating 75.45 #18
+  [WILD] Ibrahima Sissoko (DMF) rating 72.94 #24
