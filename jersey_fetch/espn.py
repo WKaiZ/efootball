@@ -363,7 +363,7 @@ def fetch_latest_espn_roster(country_label, game_id=None, game_index=1):
             date_str = match_date[:10]
     else:
         date_str = "Unknown"
-    print(f"Latest ESPN match for {country_label}: {match_name} ({date_str}) [{lineup_url}]")
+    print(f"  {'lineup':<10} {match_name} · {date_str} · {lineup_url}")
     if roster and missing_jersey_count == len(roster):
         print(
             f"  Warning: ESPN roster has no jersey numbers for this match "

@@ -103,10 +103,7 @@ async def fetch_numbers_for_player(
             nums, by_number = store_jersey_entries(
                 conn, player_id, official_name, [espn_seed_entry], cache_country_filter=cache_country_filter
             )
-            print(f"{official_name} {player_id} national jersey numbers (ESPN fallback):")
-            for n in nums:
-                countries = ", ".join(sorted(by_number[n]))
-                print(f"  {n}: {countries}")
+            print(f"  {'numbers':<10} {official_name} [{player_id}] (ESPN fallback)  {_format_numbers(nums, by_number)}")
             return (nums, False)
         return ([], False)
     maybe_note_transfermarkt_waf_once(html)
@@ -151,13 +148,14 @@ async def fetch_numbers_for_player(
         conn, player_id, official_name, entries, cache_country_filter=cache_country_filter
     )
     if by_number:
-        print(f"{official_name} {player_id} national jersey numbers:")
-        for n in nums:
-            countries = ", ".join(sorted(by_number[n]))
-            print(f"  {n}: {countries}")
+        print(f"  {'numbers':<10} {official_name} [{player_id}]  {_format_numbers(nums, by_number)}")
     else:
-        print(f"{name} {player_id} national jersey numbers: {'BLOCKED by human verification; retry with TRANSFERMARKT_INTERACTIVE=1' if html_looks_like_waf_challenge(html) else 'NONE FOUND'}")
+        print(f"  {'numbers':<10} {name} [{player_id}]  {'BLOCKED by human verification; retry with TRANSFERMARKT_INTERACTIVE=1' if html_looks_like_waf_challenge(html) else 'NONE FOUND'}")
     return (nums, False)
+
+def _format_numbers(nums, by_number):
+    return " · ".join(f"#{n} {', '.join(sorted(by_number[n]))}" for n in nums)
+
 
 def seed_recent_numbers_into_db(
     conn, country_name, country_label, player_rows, recent_numbers, reset_seeded=False,
@@ -190,7 +188,7 @@ def seed_recent_numbers_into_db(
         if not pid_str and key in ambiguous_names:
             pid_str = shared_player_id_for_name(game_data_map, player_rows, key)
         if not pid_str:
-            print(f"  Skipping DB number seed for {name} ({player_position}): no cached Transfermarkt ID (--refetch fetches new players).")
+            print(f"  {'seed':<10} skipped {name} ({player_position}): no cached Transfermarkt ID (--refetch fetches new players)")
             continue
         existing = load_jersey_entries_for_player(conn, pid_str)
         base = (
@@ -203,10 +201,7 @@ def seed_recent_numbers_into_db(
                 continue
             official = get_official_name(conn, pid_str) or name
             store_jersey_entries(conn, pid_str, official, base)
-            print(
-                f"  Removed {len(existing) - len(base)} stale ESPN seed row(s) for "
-                f"{official} ({pid_str}); Transfermarkt history will be fetched if empty."
-            )
+            print(f"  {'seed':<10} {official}: removed {len(existing) - len(base)} stale ESPN seed row(s)")
             updated += 1
             continue
         merged = merge_jersey_entries(seed_entry, base)
@@ -217,12 +212,9 @@ def seed_recent_numbers_into_db(
             continue
         official = get_official_name(conn, pid_str) or name
         store_jersey_entries(conn, pid_str, official, merged)
-        if reset_seeded and len(base) != len(existing):
-            print(f"  Reset {len(existing) - len(base)} stale seed row(s) for {official} ({pid_str}).")
-        print(f"  Seeded latest squad #{seed_entry['number']} at row 0 for {official} ({pid_str}).")
+        reset_note = f" (reset {len(existing) - len(base)} stale)" if reset_seeded and len(base) != len(existing) else ""
+        print(f"  {'seed':<10} {official} #{seed_entry['number']}{reset_note}")
         updated += 1
-    if updated:
-        print(f"Seeded latest squad numbers into DB for {updated} player(s).")
 
 
 async def main():
@@ -262,9 +254,9 @@ async def main():
                 with open(players_file, "w", encoding="utf-8") as f:
                     for ln in raw_lines:
                         f.write(ln + "\n")
-                print(f"Updated recent flags in {players_file} from ESPN latest match.")
+                print(f"  {'lineup':<10} recent flags updated")
     if lineup_only:
-        print("Skipping Transfermarkt jersey fetch (--lineup-only).")
+        print(f"  {'fetch':<10} Transfermarkt skipped (--lineup-only)")
         conn = init_db()
         try:
             seed_recent_numbers_into_db(
@@ -288,6 +280,7 @@ async def main():
         name_changes = {}
         refreshed_player_ids = set()
         fetched_player_ids = set()
+        scraped_count = 0
         resolved_row_ids = {}
         browser = await launch_chromium(p)
         page = await browser.new_page()
@@ -319,7 +312,7 @@ async def main():
                 )
                 await asyncio.sleep(5)
             if not pid_str:
-                print(f"Skipping {name} ({player_position}): could not resolve Transfermarkt ID.")
+                print(f"  {'fetch':<10} ! could not resolve Transfermarkt ID for {name} ({player_position})")
                 had_error = True
                 continue
             resolved_row_ids[row_key] = str(pid_str)
@@ -366,15 +359,17 @@ async def main():
             if not override and official and (official.strip() != name.strip()):
                 name_changes[normalize_name(name)] = official
             if not used_cache:
+                scraped_count += 1
                 await asyncio.sleep(5)
         await browser.close()
+        print(f"  {'fetch':<10} {len(fetched_player_ids)} players · {scraped_count} scraped")
         if name_changes:
             new_lines, changed = rewrite_players_txt(raw_lines, name_changes=name_changes)
             if changed:
                 with open(players_file, "w", encoding="utf-8") as f:
                     for ln in new_lines:
                         f.write(ln + "\n")
-                print(f"Updated names in {players_file} to match Transfermarkt.")
+                print(f"  {'fetch':<10} names updated to match Transfermarkt")
         if not had_error and os.path.isdir(DEBUG_HTML_DIR):
             try:
                 shutil.rmtree(DEBUG_HTML_DIR)

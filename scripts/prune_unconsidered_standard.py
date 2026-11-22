@@ -177,6 +177,7 @@ def prune_country(country_arg, dry_run=False):
                 candidates_to_probe.setdefault(key, role)
 
         remove_keys = set()
+        removed_labels = []
         for key, baseline_role in candidates_to_probe.items():
             source_rows = file_cards.get(key, [])
             if not source_rows:
@@ -229,15 +230,10 @@ def prune_country(country_arg, dry_run=False):
             probe_role.rating = original_rating
             if key not in probe_considered:
                 remove_keys.add(key)
-                verb = "Would remove" if dry_run else "Removing"
-                print(
-                    f"{verb} {baseline_role.name} ({baseline_role.position}, "
-                    f"{original_rating:.2f} -> {probe_rating:.2f} probe): "
-                    "not evaluated by any position or wildcard selector."
-                )
+                removed_labels.append(f"{baseline_role.name} ({baseline_role.position} {original_rating:.2f})")
 
         if not remove_keys:
-            print(f"No Standard player cards to remove for {country}.")
+            print(f"  {'prune':<10} no Standard cards removed")
             return 0
 
         line_numbers_to_remove = {
@@ -249,7 +245,10 @@ def prune_country(country_arg, dry_run=False):
             line for line_number, line in enumerate(lines, start=1)
             if line_number not in line_numbers_to_remove
         )
-        print(f"{len(line_numbers_to_remove)} Standard row(s) will be removed from {players_path}.")
+        verb = "would remove" if dry_run else "removed"
+        print(f"  {'prune':<10} {verb} {len(line_numbers_to_remove)} Standard row(s)")
+        for label in removed_labels:
+            print(f"  {'':<10} - {label}")
         if dry_run:
             return len(line_numbers_to_remove)
 

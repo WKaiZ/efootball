@@ -536,7 +536,6 @@ def main():
             print("Warning: 'players' table is empty; cannot map names to player_ids.")
 
         weird_lines = []
-        inserted = 0
         skipped_no_id = 0
 
         with open(txt_path, "r", encoding="utf-8") as f:
@@ -605,23 +604,16 @@ def main():
             weird_lines.append("No valid player rows were found; refusing to replace existing database rows.")
 
         if weird_lines:
-            print("\nInput validation failed; existing database rows were left unchanged.")
-        else:
-            replace_country_game_data(conn, country_name, prepared_rows)
-            inserted = len(prepared_rows)
-
-        print(f"Done processing {txt_path}.")
-        print(f"  Rows inserted/updated into game_data: {inserted}")
-        if skipped_no_id:
-            print(f"  Rows skipped due to missing player_id: {skipped_no_id}")
-
-        if weird_lines:
-            print("\nPotentially weird lines or issues detected:")
+            print(f"  {'game data':<10} validation failed; existing rows left unchanged")
             for msg in weird_lines:
-                print(" -", msg)
+                print(f"  {'':<10} ! {msg}")
             raise SystemExit(1)
-        else:
-            print("\nNo obvious issues detected in the txt file.")
+
+        replace_country_game_data(conn, country_name, prepared_rows)
+        summary = f"{len(prepared_rows)} rows"
+        if skipped_no_id:
+            summary += f" · {skipped_no_id} skipped (no player_id)"
+        print(f"  {'game data':<10} {summary}")
 
     finally:
         conn.close()

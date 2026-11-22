@@ -1,4 +1,5 @@
 import os
+import re
 import sqlite3
 import sys
 from pathlib import Path
@@ -185,6 +186,29 @@ def _squad_count(out_path):
     return SQUADS_PER_GROUP.get(_country_group(out_path), 1)
 
 
+_ROW = re.compile(r"^\s+\[(\w+)\] (.+) \((\w+)\) rating ([\d.]+) #(\d+)$")
+_VACANT = re.compile(r"^\s+\[(\w+)\] VACANT$")
+
+
+def _pretty(text):
+    lines = text.splitlines()
+    width = max((len(m.group(2)) for m in map(_ROW.match, lines) if m), default=0)
+    out = []
+    for line in lines:
+        row = _ROW.match(line)
+        vacant = _VACANT.match(line)
+        if row:
+            slot, name, pos, rating, number = row.groups()
+            out.append(f"    {slot:<6}{name:<{width + 2}}{pos:<5}{float(rating):>6.2f}  #{number}")
+        elif vacant:
+            out.append(f"    {vacant.group(1):<6}VACANT")
+        elif line.endswith(":") or line.endswith("Squad"):
+            out.append(f"  {line}")
+        else:
+            out.append(line)
+    return "\n".join(out)
+
+
 def main():
     conn = sqlite3.connect(DB_PATH)
     try:
@@ -230,7 +254,8 @@ def main():
             )
 
         text = "\n".join(lines) + "\n"
-        print(text, end="")
+        print(f"  {'squad':<10} {os.path.relpath(out_path, ROOT)}")
+        print(_pretty(text.rstrip("\n")))
 
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(text)

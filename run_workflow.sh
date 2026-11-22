@@ -3,6 +3,7 @@
 set -euo pipefail
 
 ENV_NAME="${ENV_NAME:-pes}"
+export PYTHONUNBUFFERED=1
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 usage() {
@@ -139,13 +140,15 @@ conda activate "$ENV_NAME"
 cd "$ROOT_DIR"
 
 for country in "${countries[@]}"; do
-  echo "==> Running workflow for $country"
+  group="$(find "$ROOT_DIR/nations" -mindepth 2 -maxdepth 2 -type d -name "$country" 2>/dev/null | head -n 1 | xargs -n 1 dirname | xargs -n 1 basename)" || group=""
+  echo
+  printf '%s · %s\n' "$country" "${group:-unknown}"
+  printf '%s\n' "$(printf '─%.0s' $(seq 1 56))"
 
   python scripts/fetch_number.py ${fetch_args[@]+"${fetch_args[@]}"} "$country"
   python scripts/fetch_game_data.py "$country"
   python scripts/prune_unconsidered_standard.py "$country"
   python scripts/draft_gameplan.py "$country"
 
-  echo "==> Finished $country"
-  echo
+  python scripts/prune_db.py
 done
