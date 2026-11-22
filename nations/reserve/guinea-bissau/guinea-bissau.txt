@@ -1,7 +1,7 @@
 Starters:
   [CF] Beto (CF) rating 75.32 #9
   [LWF] Mama Baldé (CF) rating 72.50 #17
-  [RWF] Jefferson Encada (RB) rating 67.46 #15
+  [RWF] Álvaro Djaló (RWF) rating 75.32 #20
   [AMF] VACANT
   [CMF] Panutche Camara (CMF) rating 70.16 #8
   [DMF] Opa Sangante (CB) rating 69.63 #22
