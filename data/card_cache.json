@@ -9,6 +9,14 @@
    "t": "2026-11-23",
    "type": "Showtime"
   },
+  "algeria|aissa mandi|CB|Standard|75": {
+   "id": "46466",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "algeria|amine gouiri|CF|Standard|76": {
    "id": "118110",
    "type": "Standard",
@@ -641,6 +649,14 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "australia|aiden o'neill|DMF|Standard|71": {
+   "id": "114155",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "australia|aziz behich|LB|Standard|70": {
    "id": "16882147",
    "type": "Standard",
@@ -654,6 +670,14 @@
    "type": "Standard",
    "ovr": 71,
    "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "australia|connor metcalfe|AMF|Standard|72": {
+   "id": "50476903",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -699,6 +723,22 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "australia|lewis miller|RB|Standard|70": {
+   "id": "156916",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "australia|lucas herrington|CB|Standard|73": {
+   "id": "181990",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "australia|martin boyle|RWF|Standard|73": {
    "id": "50453172",
    "type": "Standard",
@@ -715,6 +755,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "australia|patrick beach|GK|Standard|72": {
+   "id": "165176",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "austria|christoph baumgartner|AMF|Highlight|94": {
    "asof": "2026-06-13",
@@ -733,6 +781,22 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Showtime"
+  },
+  "austria|dejan ljubicic|DMF|Standard|73": {
+   "id": "146998",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|konrad laimer|RB|Standard|78": {
+   "id": "117766",
+   "type": "Standard",
+   "ovr": 78,
+   "max": 78,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "austria|marcel sabitzer|CMF|Highlight|94": {
    "asof": "2026-06-13",
@@ -758,6 +822,22 @@
    "type": "Standard",
    "ovr": 75,
    "max": 87,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|michael gregoritsch|CF|Standard|73": {
+   "id": "116355",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|nicolas seiwald|DMF|Standard|76": {
+   "id": "144436",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -791,6 +871,30 @@
    "type": "Standard",
    "ovr": 74,
    "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|sasa kalajdzic|CF|Standard|73": {
+   "id": "142078",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|stefan posch|CB|Standard|75": {
+   "id": "130357",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 88,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "austria|xaver schlager|CMF|Standard|77": {
+   "id": "123131",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -2317,6 +2421,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "cameroon|christopher wooh|CB|Standard|74": {
+   "id": "84013576",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "cameroon|danny namaso|CF|Standard|73": {
    "id": "84004361",
    "type": "Standard",
@@ -2334,6 +2446,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "cameroon|enzo tchato|RB|Standard|69": {
+   "id": "152492",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "cameroon|frank anguissa|CMF|Highlight|93": {
    "asof": "2026-07-03",
    "id": "52890643310450",
@@ -2345,6 +2465,14 @@
   },
   "cameroon|georges-kevin n'koudou|LWF|Standard|73": {
    "id": "83946988",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "cameroon|gerzino nyamsi|CB|Standard|73": {
+   "id": "84004672",
    "type": "Standard",
    "ovr": 73,
    "max": 73,
@@ -2364,6 +2492,14 @@
    "type": "Standard",
    "ovr": 74,
    "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "cameroon|olivier kemen|CMF|Standard|72": {
+   "id": "107679",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -2434,6 +2570,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "canada|jayden nelson|LWF|Standard|71": {
+   "id": "143055",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "canada|joel waterman|CB|Standard|73": {
    "id": "143008",
    "type": "Standard",
@@ -2475,11 +2619,35 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "canada|moise bombito|CB|Standard|73": {
+   "id": "160284",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "canada|sam adekugbe|LB|Standard|71": {
    "id": "114168",
    "type": "Standard",
    "ovr": 71,
    "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "canada|samuel piette|DMF|Standard|71": {
+   "id": "143012",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "canada|stephen eustaquio|CMF|Standard|73": {
+   "id": "121950",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -2491,6 +2659,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "canada|theo corbeanu|RMF|Standard|73": {
+   "id": "142281",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "canada|victor loturi|DMF|Standard|72": {
    "id": "156834",
@@ -2509,6 +2685,46 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "chile|bruno barticciotto|LWF|Standard|74": {
+   "id": "135217",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "chile|carlos palacios|AMF|Standard|75": {
+   "id": "118699",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "chile|charles aranguiz|CMF|Standard|74": {
+   "id": "41451",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "chile|dario osorio|RWF|Standard|73": {
+   "id": "143687",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "chile|diego valdes|AMF|Standard|74": {
+   "id": "59196",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "chile|erick pulgar|DMF|Showtime|": {
    "asof": "2026-11-03",
    "id": "106794093438763",
@@ -2526,6 +2742,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "chile|guillermo maripan|CB|Standard|75": {
+   "id": "61012",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "colombia|alvaro montero|GK|Standard|74": {
    "id": "108893",
@@ -2902,6 +3126,118 @@
    "t": "2026-11-23",
    "type": "Standard"
   },
+  "congo-dr|aaron wan-bissaka|RB|Standard|75": {
+   "id": "114876",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 88,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|arthur masuaku|LB|Standard|74": {
+   "id": "83946531",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|axel tuanzebe|CB|Standard|73": {
+   "id": "110555",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|brian cipenga|LWF|Standard|71": {
+   "id": "84050554",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|chancel mbemba|CB|Standard|74": {
+   "id": "83945886",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|charles pickel|DMF|Standard|70": {
+   "id": "112585",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|edo kayembe|CMF|Standard|72": {
+   "id": "84005947",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|gael kakuta|AMF|Standard|71": {
+   "id": "38937",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|gedeon kalulu|RB|Standard|71": {
+   "id": "84019096",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|joris kayembe|LB|Standard|73": {
+   "id": "83990834",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|lionel mpasi-nzau|GK|Standard|72": {
+   "id": "104385",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|matthieu epolo|GK|Standard|72": {
+   "id": "84031677",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|meschack elia|SS|Standard|71": {
+   "id": "135953",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|michel-ange balikwisha|LWF|Standard|72": {
+   "id": "84024539",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "congo-dr|noah sadiki|CMF|Highlight|94": {
    "asof": "2026-07-04",
    "id": "105855995501867",
@@ -2919,6 +3255,30 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "congo-dr|steve kapuadi|CB|Standard|74": {
+   "id": "181400",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|theo bongonda|RWF|Standard|75": {
+   "id": "83993929",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "congo-dr|william balikwisha|AMF|Standard|69": {
+   "id": "126544",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "congo-dr|yoane wissa|CF|Highlight|94": {
    "asof": "2026-07-04",
@@ -3562,6 +3922,22 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "denmark|christian nørgaard|DMF|Standard|76": {
+   "id": "120439",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "denmark|filip jørgensen|GK|Standard|75": {
+   "id": "141421",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "denmark|gustav isaksen|RMF|Highlight|93": {
    "approx": true,
    "asof": "2026-04-14",
@@ -3738,6 +4114,30 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "ecuador|alan franco|CMF|Standard|73": {
+   "id": "137993",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "ecuador|angelo preciado|RB|Standard|72": {
+   "id": "130366",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "ecuador|hernan galindez|GK|Standard|74": {
+   "id": "103822",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "ecuador|javier burrai|GK|Standard|74": {
    "id": "45581",
    "type": "Standard",
@@ -3763,6 +4163,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "ecuador|jordy alcivar|DMF|Standard|72": {
+   "id": "144856",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "ecuador|keny arroyo|RWF|Highlight|93": {
    "asof": "2026-10-30",
@@ -3800,6 +4208,14 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "ecuador|pedro vite|CMF|Standard|72": {
+   "id": "147185",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "ecuador|pervis estupinan|LB|Highlight|94": {
    "asof": "2026-06-13",
    "id": "105782628691248",
@@ -3836,6 +4252,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "ecuador|robert arboleda|CB|Standard|76": {
+   "id": "65134",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "ecuador|willian pacho|CB|Highlight|95": {
    "asof": "2026-06-13",
    "id": "55072486740874",
@@ -3853,6 +4277,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "egypt|emam ashour|CMF|Standard|73": {
+   "id": "160195",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "egypt|hamdy fathy|DMF|Showtime|": {
    "asof": "2026-06-13",
    "id": "106764917945800",
@@ -3867,6 +4299,14 @@
    "type": "Standard",
    "ovr": 72,
    "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "egypt|mahmoud saber|CMF|Standard|70": {
+   "id": "178944",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -6420,6 +6860,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "greece|alexandros kyziridis|LWF|Standard|72": {
+   "id": "177258",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "greece|anastasios douvikas|CF|Highlight|94": {
    "approx": true,
    "asof": "2026-07-04",
@@ -6448,6 +6896,38 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "greece|christos zafeiris|CMF|Standard|71": {
+   "id": "160181",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|dimitrios giannoulis|LB|Standard|73": {
+   "id": "128309",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|dimitrios kourbelis|DMF|Standard|72": {
+   "id": "59646",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|georgios vagiannidis|RB|Standard|70": {
+   "id": "133242",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "greece|konstantinos karetsas|AMF|Highlight|94": {
    "asof": "2026-10-22",
    "id": "105891076665540",
@@ -6466,6 +6946,62 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "greece|konstantinos tsimikas|LB|Standard|74": {
+   "id": "108225",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|lazaros rota|RB|Standard|69": {
+   "id": "135535",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|marios vrousai|RWF|Standard|73": {
+   "id": "118689",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|nectarios triantis|DMF|Standard|73": {
+   "id": "164269",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|odysseas vlachodimos|GK|Standard|75": {
+   "id": "111172",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 88,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|panagiotis retsos|CB|Standard|73": {
+   "id": "111052",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "greece|pantelis hatzidiakos|CB|Standard|73": {
+   "id": "110761",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "greece|vangelis pavlidis|CF|Highlight|94": {
    "asof": "2026-08-20",
    "id": "52901917619222",
@@ -6474,6 +7010,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "greece|vasilios barkas|GK|Standard|74": {
+   "id": "117476",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "guinea|ilaix moriba|CMF|Highlight|94": {
    "asof": "2026-09-07",
@@ -6547,6 +7091,14 @@
    "type": "Standard",
    "ovr": 71,
    "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "hungary|daniel salloi|LWF|Standard|74": {
+   "id": "142585",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -6697,6 +7249,14 @@
    "type": "Standard",
    "ovr": 71,
    "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "ir-iran|alireza beiranvand|GK|Standard|72": {
+   "id": "16838915",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -8354,6 +8914,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "korea-republic|kang-in lee|RWF|Standard|77": {
+   "id": "126425",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 91,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "korea-republic|ki-je lee|LB|Standard|72": {
    "id": "16680",
    "type": "Standard",
@@ -8388,6 +8956,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "korea-republic|sung-yueng ki|DMF|Standard|70": {
+   "id": "16816403",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "korea-republic|tae-hyeon kim|CB|Standard|72": {
    "id": "16906991",
    "type": "Standard",
@@ -8396,11 +8972,27 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "korea-republic|tae-seok lee|LB|Standard|71": {
+   "id": "166319",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "korea-republic|yong-woo park|DMF|Standard|70": {
    "id": "106001",
    "type": "Standard",
    "ovr": 70,
    "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "korea-republic|young-woo seol|RB|Standard|72": {
+   "id": "135744",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -8925,6 +9517,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "morocco|chadi riad|CB|Standard|74": {
+   "id": "140789",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "morocco|el mehdi benabid|GK|Highlight|92": {
    "asof": "2026-08-13",
@@ -9980,6 +10580,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "norway|jakob glesnes|CB|Standard|73": {
+   "id": "142660",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "norway|julian ryerson|RB|Highlight|95": {
    "asof": "2026-10-22",
    "id": "105891076647836",
@@ -10032,6 +10640,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "norway|marcus pedersen|RB|Standard|74": {
+   "id": "146905",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "norway|martin ødegaard|AMF|Highlight|95": {
    "asof": "2026-06-23",
    "id": "56163408385004",
@@ -10059,6 +10675,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "norway|patrik berg|DMF|Standard|74": {
+   "id": "144871",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "norway|sander berge|DMF|Highlight|94": {
    "asof": "2026-06-18",
    "id": "105800613872994",
@@ -10068,8 +10692,40 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "norway|torbjørn heggem|CB|Standard|73": {
+   "id": "170504",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "norway|ørjan nyland|GK|Standard|72": {
+   "id": "100133",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "panama|adalberto carrasquilla|CMF|Standard|73": {
    "id": "136514",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "panama|amir murillo|RB|Standard|74": {
+   "id": "116224",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "panama|andres andrade|CB|Standard|73": {
+   "id": "144864",
    "type": "Standard",
    "ovr": 73,
    "max": 73,
@@ -10092,6 +10748,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "panama|cesar blackman|RB|Standard|69": {
+   "id": "130433",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "panama|cesar yanis|RWF|Standard|70": {
    "id": "144867",
    "type": "Standard",
@@ -10100,11 +10764,27 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "panama|cristian martinez|CMF|Standard|69": {
+   "id": "112172",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "panama|edward cedeno|CMF|Standard|65": {
    "id": "177953",
    "type": "Standard",
    "ovr": 65,
    "max": 65,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "panama|fidel escobar|CB|Standard|69": {
+   "id": "116223",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -10132,6 +10812,30 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "panama|yoel barcenas|AMF|Standard|71": {
+   "id": "116222",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|alex arce|CF|Standard|74": {
+   "id": "108519",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|andres cubas|DMF|Standard|74": {
+   "id": "103038",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "paraguay|diego gomez|CMF|Highlight|93": {
    "asof": "2026-07-03",
    "id": "105765448873424",
@@ -10140,6 +10844,22 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "paraguay|gabriel avalos|CF|Standard|74": {
+   "id": "105218",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|gaston olveira|GK|Standard|74": {
+   "id": "65268",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "paraguay|gustavo gomez|CB|Highlight|94": {
    "asof": "2026-08-13",
@@ -10150,6 +10870,46 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "paraguay|gustavo velazquez|CB|Standard|73": {
+   "id": "109791",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|jose canale|CB|Standard|74": {
+   "id": "109805",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|jose florentin|CMF|Standard|75": {
+   "id": "106322",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|juan caceres|RB|Standard|73": {
+   "id": "135144",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|miguel almiron|RWF|Standard|76": {
+   "id": "103424",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "paraguay|omar alderete|CB|Highlight|94": {
    "asof": "2026-07-12",
    "id": "105858864369073",
@@ -10159,6 +10919,22 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "paraguay|orlando gill|GK|Standard|74": {
+   "id": "173008",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "paraguay|oscar romero|AMF|Standard|72": {
+   "id": "43668",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "paraguay|ramon sosa|CF|Highlight|92": {
    "asof": "2026-08-27",
    "id": "53990691853358",
@@ -10167,6 +10943,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "paraguay|santiago arzamendia|LB|Standard|75": {
+   "id": "130359",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "poland|arkadiusz milik|CF|Highlight|93": {
    "asof": "2026-09-03",
@@ -10774,6 +11558,38 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "scotland|aaron hickey|RB|Standard|73": {
+   "id": "127597",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "scotland|andrew robertson|LB|Standard|77": {
+   "id": "101028",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 88,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "scotland|angus gunn|GK|Standard|71": {
+   "id": "113863",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "scotland|anthony ralston|RB|Standard|72": {
+   "id": "121426",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "scotland|ben gannon-doak|RWF|Highlight|91": {
    "asof": "2026-07-12",
    "id": "105863159370166",
@@ -10820,6 +11636,14 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "scotland|john souttar|CB|Standard|74": {
+   "id": "121589",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "scotland|kieran tierney|LB|Highlight|94": {
    "asof": "2026-11-12",
    "id": "105897519068613",
@@ -10865,6 +11689,14 @@
    "t": "2026-11-23",
    "asof": "2026-07-03"
   },
+  "scotland|tom cairney|CMF|Standard|74": {
+   "id": "41120",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "senegal|antoine mendy|RB|Highlight|93": {
    "asof": "2026-10-15",
    "id": "105895640052973",
@@ -10891,6 +11723,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Epic"
+  },
+  "senegal|idrissa gueye|DMF|Standard|75": {
+   "id": "83928655",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "senegal|ismail jakobs|LB|Standard|73": {
    "id": "84028302",
@@ -10999,6 +11839,14 @@
    "t": "2026-11-23",
    "type": "BigTime"
   },
+  "senegal|yehvann diouf|GK|Standard|75": {
+   "id": "113999",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "serbia|aleksandar stankovic|DMF|Highlight|93": {
    "asof": "2026-09-01",
    "id": "105894566325156",
@@ -11007,6 +11855,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "serbia|darko lazovic|LMF|Standard|73": {
+   "id": "16817420",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "serbia|dragan stojkovic|AMF|EpicBigTime|": {
    "asof": "2026-07-03",
@@ -11054,6 +11910,14 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "serbia|sergej milinkovic-savic|CMF|Standard|78": {
+   "id": "16886591",
+   "type": "Standard",
+   "ovr": 78,
+   "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "serbia|strahinja pavlovic|CB|Highlight|93": {
    "asof": "2026-08-06",
    "id": "52898696404120",
@@ -11062,6 +11926,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "serbia|uros spajic|CB|Standard|72": {
+   "id": "16837063",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "slovakia|david hancko|CB|Highlight|94": {
    "asof": "2026-07-04",
@@ -11081,6 +11953,22 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "slovakia|milan skriniar|CB|Standard|78": {
+   "id": "111174",
+   "type": "Standard",
+   "ovr": 78,
+   "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "slovakia|robert bozenik|CF|Standard|73": {
+   "id": "135410",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "slovakia|stanislav lobotka|DMF|Highlight|93": {
    "asof": "2026-08-06",
    "id": "52897085769246",
@@ -11089,6 +11977,22 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "slovakia|tomas rigo|CMF|Standard|69": {
+   "id": "141538",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "slovakia|tomas suslov|AMF|Standard|72": {
+   "id": "135076",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "slovenia|benjamin sesko|CF|Showtime|": {
    "asof": "2026-09-06",
@@ -12349,6 +13253,14 @@
    "t": "2026-11-23",
    "type": "Showtime"
   },
+  "switzerland|johan manzambi|CMF|Standard|76": {
+   "id": "174191",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "switzerland|manuel akanji|CB|Showtime|": {
    "asof": "2026-06-23",
    "id": "106780671715908",
@@ -12384,6 +13296,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Trending"
+  },
+  "switzerland|renato steffen|RWF|Standard|71": {
+   "id": "111032",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "switzerland|ruben vargas|LMF|Highlight|93": {
    "asof": "2026-09-10",
@@ -12522,6 +13442,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "turkiye|enes unal|CF|Standard|73": {
+   "id": "107854",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 86,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "turkiye|eren elmalı|LB|Standard|73": {
    "id": "130817",
    "type": "Standard",
@@ -12653,6 +13581,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Epic"
+  },
+  "ukraine|artem dovbyk|CF|Standard|77": {
+   "id": "124029",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "ukraine|dmytro riznyk|GK|Standard|73": {
    "id": "144743",
@@ -12818,6 +13754,14 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "uruguay|federico vinas|CF|Standard|74": {
+   "id": "145758",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "uruguay|fernando muslera|GK|Highlight|94": {
    "asof": "2026-07-12",
    "id": "105858864287607",
@@ -12827,6 +13771,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "uruguay|gabriel neves|CMF|Standard|74": {
+   "id": "144802",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "uruguay|giorgian de arrascaeta|AMF|EpicBigTime|": {
    "asof": "2026-04-12",
    "id": "89136946016341",
@@ -12835,6 +13787,14 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "BigTime"
+  },
+  "uruguay|giovanni gonzalez|RB|Standard|73": {
+   "id": "104585",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "uruguay|guillermo varela|RB|Highlight|91": {
    "asof": "2026-10-22",
@@ -12979,6 +13939,22 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
+  "usa|cameron carter-vickers|CB|Standard|75": {
+   "id": "110774",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "usa|chris richards|CB|Standard|77": {
+   "id": "134867",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "usa|christian pulisic|AMF|Highlight|96": {
    "asof": "2026-04-12",
    "id": "105803835094504",
@@ -13024,6 +14000,38 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "usa|cristian roldan|CMF|Standard|74": {
+   "id": "123306",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "usa|deandre yedlin|RB|Standard|74": {
+   "id": "61693",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "usa|dejuan jones|LB|Standard|73": {
+   "id": "142622",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "usa|djordje mihailovic|AMF|Standard|75": {
+   "id": "142472",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "usa|folarin balogun|CF|Highlight|93": {
    "asof": "2026-06-20",
    "id": "56168508688815",
@@ -13059,11 +14067,27 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "usa|paul arriola|RWF|Standard|72": {
+   "id": "116321",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "usa|sergino dest|RB|Standard|75": {
    "id": "132153",
    "type": "Standard",
    "ovr": 75,
    "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "usa|tanner tessmann|DMF|Standard|74": {
+   "id": "142524",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -13110,6 +14134,14 @@
    "t": "2026-11-23",
    "type": "Highlight"
   },
+  "venezuela|alexander gonzalez|RB|Standard|70": {
+   "id": "41975",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "venezuela|jon aramburu|RB|Highlight|93": {
    "asof": "2026-07-04",
    "id": "105765448874797",
@@ -13118,6 +14150,86 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "type": "Highlight"
+  },
+  "venezuela|jose martinez|DMF|Standard|72": {
+   "id": "142669",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|miguel navarro|LB|Standard|73": {
+   "id": "142462",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|nahuel ferraresi|CB|Standard|74": {
+   "id": "130258",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|rafael romo|GK|Standard|72": {
+   "id": "39813",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|salomon rondon|CF|Standard|74": {
+   "id": "39719",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|tomas rincon|DMF|Standard|73": {
+   "id": "37901",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|wilker angel|CB|Standard|71": {
+   "id": "43731",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|wuilker farinez|GK|Standard|72": {
+   "id": "112153",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|yangel herrera|CMF|Standard|76": {
+   "id": "116134",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "venezuela|yeferson soteldo|LWF|Standard|73": {
+   "id": "61643",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "status": "confirmed",
+   "t": "2026-11-23"
   },
   "wales|chris mepham|CB|Standard|73": {
    "id": "114948",
@@ -13191,6 +14303,14 @@
    "type": "Standard",
    "ovr": 72,
    "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "wales|lewis koumas|LWF|Standard|69": {
+   "id": "164705",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
    "status": "confirmed",
    "t": "2026-11-23"
   },
