@@ -5,7 +5,6 @@ Iñaki Williams, RWF, 94.93, False, Highlight, [RWF, RMF, LWF, LMF, CF, SS], [AM
 Antoine Semenyo, LMF, 97.50, False, BigTime, [LWF, LMF, RWF, RMF], [CF, SS]
 Mohammed Kudus, LMF, 94.24, True, Highlight, [LWF, LMF, RWF, RMF, CF, SS, AMF], []
 Mohammed Kudus, RMF, 95.03, True, Highlight, [LWF, LMF, RWF, RMF, CF, SS, AMF], []
-Joseph Anang, GK, 68.28, True, Stadnard, [GK], []
 
 Joseph Paintsil, LWF, 76.12, False, Standard, [LWF, LMF, RWF, RMF], [CF]
 Amankwah Forson, AMF, 70.79, False, Standard, [AMF, CMF, RMF], [LWF, LMF, SS, RWF]
@@ -20,3 +19,4 @@ Gideon Mensah, LB, 72.29, True, Standard, [LMF, LB], [CB]
 Tariq Lamptey, RB, 73.52, False, Standard, [RMF, RB], [RWF, LB]
 Lawrence Ati Zigi, GK, 72.59, True, Standard, [GK], []
 Benjamin Asare, GK, 68.73, True, Standard, [GK], []
+Joseph Anang, GK, 68.28, True, Standard, [GK], []

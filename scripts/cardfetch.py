@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+
+import html
+import re
+import sys
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
+
+SEARCH_URL = "https://pesdb.net/efootball/players/"
+CARD_IMG = "https://efimg.com/efootballhub22/images/player_cards/{id}_l.png"
+UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+)
+POSITIONS = ["GK", "CB", "LB", "RB", "DMF", "CMF", "LMF", "RMF", "AMF", "LWF", "RWF", "SS", "CF"]
+MAX_PAGES = 6
+RATE_LIMIT_RETRIES = 3
+RATE_LIMIT_MAX_WAIT = 180
+
+TYPE_LABELS = {
+    "standard": "Standard",
+    "epic": "Epic",
+    "big time": "BigTime",
+    "show time": "Showtime",
+    "highlight": "Highlight",
+    "trending": "Trending",
+    "legendary": "Legendary",
+    "strike arena": "StrikeArena",
+}
+
+WANTED = {
+    "Standard": {"Standard"},
+    "Epic": {"Epic", "BigTime"},
+    "BigTime": {"Epic", "BigTime"},
+    "Showtime": {"Showtime"},
+    "Highlight": {"Highlight", "Trending"},
+}
+RATED = {"Standard", "Highlight"}
+
+_CARD_RE = re.compile(r'<article class="efootball-result-card">(.*?)</article>', re.S)
+_ID_RE = re.compile(r'href="/efootball/players/[^"]*?-(\d+)"')
+_TYPE_RE = re.compile(r'class="card-type">([^<]*)<')
+_ALT_RE = re.compile(r'alt="(?P<name>[^"]*?) — (?P<pos>[A-Z]+), OVR (?P<ovr>\d+), MAX (?P<max>\d+)"')
+
+
+class Unavailable(Exception):
+    pass
+
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"[^\w\s]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def card_group(card_type):
+    return "EpicBigTime" if card_type in ("Epic", "BigTime") else card_type
+
+
+def card_image(card_id):
+    return CARD_IMG.format(id=card_id)
+
+
+def base_id(card_id):
+    return int(card_id) & 0xFFFFFF
+
+
+def _fetch(url, timeout=30):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"})
+    for attempt in range(RATE_LIMIT_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == RATE_LIMIT_RETRIES:
+                raise Unavailable(f"HTTP {e.code}") from e
+            try:
+                wait = float(e.headers.get("Retry-After") or 60)
+            except ValueError:
+                wait = 60
+            time.sleep(min(wait, RATE_LIMIT_MAX_WAIT) + 1)
+        except Exception as e:
+            raise Unavailable(f"{type(e).__name__}: {e}") from e
+
+
+def parse_results(page):
+    cards = []
+    for block in _CARD_RE.findall(page):
+        cid, ctype, alt = _ID_RE.search(block), _TYPE_RE.search(block), _ALT_RE.search(block)
+        if not (cid and ctype and alt):
+            continue
+        label = html.unescape(ctype[1]).strip()
+        cards.append({
+            "id": cid[1],
+            "name": html.unescape(alt["name"]).strip(),
+            "type": TYPE_LABELS.get(label.lower(), label),
+            "pos": alt["pos"],
+            "ovr": int(alt["ovr"]),
+            "max": int(alt["max"]),
+        })
+    return cards
+
+
+def search(name, pos, page=1, as_of=None):
+    params = [("name", name), ("pos[]", str(POSITIONS.index(pos))),
+              ("sort", "time_added"), ("order", "desc")]
+    if as_of:
+        params.append(("time_added[max]", as_of))
+    if page > 1:
+        params.append(("page", str(page)))
+    text = _fetch(f"{SEARCH_URL}?{urllib.parse.urlencode(params)}")
+    if "efootball-result-grid" not in text and "efootball-result-card" not in text:
+        raise Unavailable("unexpected page layout")
+    has_next = 'rel="next"' in text
+    return parse_results(text), has_next
+
+
+def _edit_distance(a, b):
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def _token_match(a, b):
+    if a == b:
+        return True
+    if len(a) == 1 or len(b) == 1:
+        return a[0] == b[0]
+    short, long = sorted((a, b), key=len)
+    if len(short) >= 3 and long.startswith(short):
+        return True
+    limit = 2 if len(short) >= 8 else 1 if len(short) >= 4 else 0
+    return limit > 0 and _edit_distance(a, b) <= limit
+
+
+def _tokens_match(short, long):
+    used = set()
+    for tok in short:
+        hit = next((i for i, t in enumerate(long) if i not in used and _token_match(tok, t)), None)
+        if hit is None:
+            return False
+        used.add(hit)
+    return True
+
+
+def name_score(want, got):
+    a, b = norm(want).split(), norm(got).split()
+    if not a or not b:
+        return 0
+    if a == b:
+        return 2
+    short, long = (a, b) if len(a) <= len(b) else (b, a)
+    return 1 if _tokens_match(short, long) else 0
+
+
+def _rating_value(card):
+    return card["max"] if card["type"] == "Highlight" else card["ovr"]
+
+
+def _rating_gap(card, rating):
+    gap = abs(_rating_value(card) - rating)
+    if card["type"] == "Trending":
+        gap = min(gap, abs(card["max"] - rating))
+    return gap
+
+
+def _pick_card(cards, card_type, rating, strict):
+    if card_type not in RATED:
+        return cards[0] if cards else None
+    level = int(float(rating))
+    exact = [c for c in cards if _rating_value(c) == level]
+    if exact or strict == "exact":
+        return exact[0] if exact else None
+    near = [c for c in cards if abs(_rating_value(c) - level) <= 1]
+    if strict == "near" and not near:
+        return None
+    best = min(near or cards, key=lambda c: (_rating_gap(c, level), cards.index(c)), default=None)
+    return best and {**best, "approx": True}
+
+
+def pick(cards, name, pos, card_type, rating, strict="exact"):
+    wanted = WANTED.get(card_type, {card_type})
+    people = {}
+    for c in cards:
+        if c["pos"] == pos and c["type"] in wanted:
+            people.setdefault(base_id(c["id"]), []).append(c)
+    for score in (2, 1):
+        hits = []
+        for person_cards in people.values():
+            if max(name_score(name, c["name"]) for c in person_cards) != score:
+                continue
+            card = _pick_card(person_cards, card_type, rating, strict)
+            if card:
+                hits.append(card)
+        if len(hits) == 1:
+            return hits[0]
+        if hits:
+            return None
+    return None
+
+
+def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of):
+    seen = []
+    for page in range(1, MAX_PAGES + 1):
+        if requests and delay:
+            time.sleep(delay)
+        cards, has_next = search(query, pos, page, as_of)
+        requests += 1
+        seen.extend(c for c in cards if c["id"] not in exclude)
+        if not has_next or pick(seen, name, pos, card_type, rating):
+            break
+    return seen, requests
+
+
+def search_terms(name):
+    tokens = norm(name).split()
+    terms = [name]
+    if len(tokens) > 1:
+        terms += [t for t in [tokens[-1]] + tokens[:-1] if len(t) >= 4]
+    return list(dict.fromkeys(terms))
+
+
+def resolve(name, pos, card_type, rating, delay=0.0, exclude=frozenset(), as_of=None):
+    if pos not in POSITIONS:
+        return None, 0
+    requests, seen = 0, []
+    for query in search_terms(name):
+        found_now, requests = _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of)
+        seen += [c for c in found_now if c["id"] not in {s["id"] for s in seen}]
+        found = pick(seen, name, pos, card_type, rating) or \
+            pick(seen, name, pos, card_type, rating, strict="near")
+        if found:
+            return found, requests
+    return pick(seen, name, pos, card_type, rating, strict="any"), requests
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        sys.exit("usage: cardfetch.py NAME POS CARD_TYPE RATING")
+    card, n = resolve(*sys.argv[1:5], delay=3)
+    print(card, card_image(card["id"]) if card else None, f"({n} request(s))")

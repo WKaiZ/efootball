@@ -171,6 +171,39 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 
 ---
 
+## 5a. Card images
+
+The site shows each player's eFootball card art from [efHUB](https://efhub.com/) (`https://efimg.com/efootballhub22/images/player_cards/<card id>_l.png`), falling back to the Transfermarkt photo and then to initials. `scripts/cardfetch.py` finds the card id with pesdb.net's public player search (efHUB's own search API refuses outside requests; both sites use Konami's card ids). It filters by name and main position, sorted newest first.
+
+For special cards, "newest" means newest **as of the date the row's current rating first appeared** in the nation's `_players.txt` git history (pesdb's `time_added[max]` filter), because the row describes the card you had when you rated it. Rows unchanged since history began use that first date. Each row is matched like this:
+
+| Your `CARD_TYPE` | Card picked |
+|---|---|
+| `Standard` | The Standard card whose OVR equals the whole-number part of `RATING` |
+| `Epic` / `BigTime` | The newest Epic **or** Big Time card as of the row's date (the two labels are interchangeable) |
+| `Showtime` | The newest Show Time card as of the row's date |
+| `Highlight` | The newest Highlight card whose MAX equals the whole-number part of `RATING`, or Trending card whose unboosted OVR equals it, as of the row's date |
+
+Names match exactly, by subset ("Gabriel" → "Gabriel Magalhães"), by initials ("Karl-Heinz Rummenigge" → "K. Heinz Rummenigge"), by short form ("Rafa" → "Rafael"), or with one or two letters different ("Lamlioui" → "Lamlaoui", "Yahia Attiyat Allah" → "Yahya Attiat-Allah"). If the full name finds nothing, the surname and then the other name parts are searched. A match must point to exactly one person. Every row is assumed to have a card. For Standard and Highlight rows with no exact rating match, the closest card is used (within ±1 if possible, otherwise the nearest; Trending cards are compared by OVR or MAX) and marked `"approx": true`.
+
+Results live in `data/card_cache.json`: `cards` holds matches and `miss` holds lookups that found nothing. Each match has a `status`:
+
+- `likely`: an automatic special-card pick that hasn't been confirmed.
+- `confirmed`: a card you approved or chose, or any Standard card.
+
+A special card is looked up again only when its row's rating changes. It comes back `likely` unless the same card is found. Banned cards (`"bad"` ids) are never picked again, and misses are retried weekly. Each run of `scripts/efootball_build.py` spends its request budget on new special cards first, then on new Standard cards.
+
+Tunables:
+
+- `EFOOTBALL_CARD_LIMIT`: requests per run, default 150.
+- `EFOOTBALL_CARD_DELAY`: seconds between requests, default 6. A 429 response is retried after its `Retry-After` wait.
+- `EFOOTBALL_CARD_TTL_DAYS`: days between retries of a miss, default 7.
+- `EFOOTBALL_CARD_TYPES`: `all` (default), `special` or `standard`.
+
+Try one lookup by hand with `python3 scripts/cardfetch.py "Thierry Henry" CF Epic 100.03`.
+
+---
+
 ## 6. File-by-file reference
 
 ### Repo root
@@ -182,6 +215,7 @@ The full, authoritative description of starter/substitute/wildcard selection, je
 - `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
 - `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive one further pass (two squads); challengers draft a single squad, and backup and reserve nations show starters only.
 - `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
+- `scripts/cardfetch.py` — Card id lookup and selection for the site's card images (see 5a).
 - `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
 - `reference/` — Draft rules and other maintained reference material.
 - `requirements.txt` — Python dependencies.

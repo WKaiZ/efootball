@@ -13,6 +13,7 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
+import cardfetch
 import imgcache
 import tmfetch
 
@@ -39,6 +40,12 @@ PLAYERS_PATH = os.path.join(ROOT, "docs", "players.json")
 HISTORY_PATH = os.path.join(ROOT, "docs", "history.json")
 CACHE_PATH = os.path.join(DATA_DIR, "img_cache.json")
 OVERRIDES_PATH = os.path.join(DATA_DIR, "overrides.json")
+CARD_CACHE_PATH = os.path.join(DATA_DIR, "card_cache.json")
+CARD_LIMIT = int(os.environ.get("EFOOTBALL_CARD_LIMIT") or "150")
+CARD_DELAY = float(os.environ.get("EFOOTBALL_CARD_DELAY", "6"))
+CARD_TTL_DAYS = int(os.environ.get("EFOOTBALL_CARD_TTL_DAYS", "7"))
+CARD_TYPE_FILTER = os.environ.get("EFOOTBALL_CARD_TYPES", "all")
+CARD_BLOCK_ABORT = int(os.environ.get("EFOOTBALL_CARD_BLOCK_ABORT", "3"))
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -900,7 +907,7 @@ def build():
     game_data, card_types = load_game_data(os.path.join(ROOT, "pes.db"))
     today = datetime.now(timezone.utc).date()
 
-    out_countries, all_players, extras, pools, histories = [], [], [], {}, {}
+    out_countries, all_players, extras, pools, histories, card_since = [], [], [], {}, {}, {}
     for group_dir, group in GROUPS:
         base = os.path.join(ROOT, NATIONS_DIR, group_dir)
         if not os.path.isdir(base):
@@ -916,6 +923,7 @@ def build():
             players = _parse_players(squad_now)
             pool_now = clean_pool_text(open(pool_path).read()) if os.path.exists(pool_path) else None
             texts, pool_texts = nation_history_inputs(c, group_dir, squad_now, pool_now, today)
+            card_since[c] = card_rows_since(pool_texts, today)
             ov = {norm(k): v for k, v in (overrides.get(c) or {}).items()
                   if not str(k).startswith("_")}
             for p in players:
@@ -965,6 +973,18 @@ def build():
     _resolve_fotmob(all_players, cache)
     _backfill_transfermarkt(all_players + extras, cache)
 
+    card_cache = load_card_cache()
+    card_wants = [(c, p["name"], p["pos"], p["card_type"], p["rating"])
+                  for c, p in all_players]
+    card_wants += [(c, e["name"], r[0], r[2], r[1]) for c, pool in pools.items()
+                   for e in pool for r in e["rows"]]
+    card_wants = [(*w, card_since[w[0]](*w[1:])) for w in card_wants]
+    _backfill_cards(card_wants, card_cache, today)
+
+    def card_img(c, name, pos, card_type, rating):
+        hit = card_cache["cards"].get(card_key(c, name, pos, card_type, rating))
+        return cardfetch.card_image(hit["id"]) if hit else None
+
     def photo(tm_id):
         return tm_cache.get(tm_id) if tm_id else None
 
@@ -984,6 +1004,7 @@ def build():
                 p["img"] = None
             if p["tm_id"]:
                 p["tm"] = TM_LINK.format(id=p["tm_id"])
+            p["card"] = card_img(c["id"], p["name"], p["pos"], p["card_type"], p["rating"])
             p.pop("fm_id", None); p.pop("tm_id", None); p.pop("row", None)
         for d in c["dropouts"]:
             d["img"], d["tm"] = photo(d["tm_id"]), tm_link(d.pop("tm_id"))
@@ -996,7 +1017,8 @@ def build():
     json.dump(out, open(SQUADS_PATH, "w"), ensure_ascii=False, indent=1)
     json.dump({
         "updated": out["updated"],
-        "countries": {c: [{"name": e["name"], "recent": e["recent"], "rows": e["rows"],
+        "countries": {c: [{"name": e["name"], "recent": e["recent"],
+                           "rows": [r + [card_img(c, e["name"], r[0], r[2], r[1])] for r in e["rows"]],
                            "img": photo(e["tm_id"]), "tm": tm_link(e["tm_id"])}
                           for e in pool] for c, pool in pools.items()},
     }, open(PLAYERS_PATH, "w"), ensure_ascii=False, separators=(",", ":"))
@@ -1004,10 +1026,141 @@ def build():
               open(HISTORY_PATH, "w"), ensure_ascii=False, separators=(",", ":"))
     save_cache(cache)
 
+    cards = sum(1 for c in out_countries for p in c["players"] if p["card"])
     have = sum(1 for c in out_countries for p in c["players"] if p["img"])
     tot = sum(len(c["players"]) for c in out_countries)
     log(f"Wrote squads.json: {len(out_countries)} nations, {have}/{tot} photos "
-        f"({sum(1 for v in tm_cache.values() if v)} via Transfermarkt backfill).")
+        f"({sum(1 for v in tm_cache.values() if v)} via Transfermarkt backfill), "
+        f"{cards}/{tot} card images.")
+
+def card_key(country, name, pos, card_type, rating):
+    group = cardfetch.card_group(card_type)
+    level = str(int(float(rating))) if group in cardfetch.RATED else ""
+    return f"{country}|{norm(name)}|{pos}|{group}|{level}"
+
+def card_rows_since(pool_texts, today):
+    since, alive = {}, None
+    for d, text in pool_texts:
+        rows = set()
+        for m in map(POOL_FULL_RE.match, text.splitlines()):
+            if m:
+                rows.add((norm(m["name"]), m["pos"], cardfetch.card_group(canon_card(m["card"])),
+                          f"{float(m['rating']):.2f}"))
+        alive = rows if alive is None else alive & rows
+        for row in alive:
+            since[row] = d
+    return lambda name, pos, card_type, rating: since.get(
+        (norm(name), pos, cardfetch.card_group(card_type), f"{float(rating):.2f}"), today.isoformat())
+
+def load_card_cache():
+    data = json.load(open(CARD_CACHE_PATH)) if os.path.exists(CARD_CACHE_PATH) else {}
+    data.setdefault("cards", {})
+    data.setdefault("miss", {})
+    return data
+
+def save_card_cache(data):
+    os.makedirs(os.path.dirname(CARD_CACHE_PATH), exist_ok=True)
+    json.dump({"cards": dict(sorted(data["cards"].items())), "miss": dict(sorted(data["miss"].items()))},
+              open(CARD_CACHE_PATH, "w"), ensure_ascii=False, indent=1)
+
+def _card_due(entry, today, ttl_days):
+    if not entry:
+        return True
+    return (today - datetime.fromisoformat(entry["t"]).date()).days >= ttl_days
+
+def _wanted_type(card_type):
+    if CARD_TYPE_FILTER == "special":
+        return card_type != "Standard"
+    if CARD_TYPE_FILTER == "standard":
+        return card_type == "Standard"
+    return True
+
+def _backfill_cards(wants, cache, today):
+    cards, miss = cache["cards"], cache["miss"]
+    queue, seen = [], set()
+    for c, name, pos, card_type, rating, since in wants:
+        key = card_key(c, name, pos, card_type, rating)
+        if key in seen:
+            continue
+        seen.add(key)
+        standard = card_type == "Standard"
+        as_of = None if standard else since
+        hit = cards.get(key)
+        if card_type not in cardfetch.WANTED or not _wanted_type(card_type):
+            continue
+        if hit:
+            if hit.get("status") == "confirmed" and not standard and "asof" not in hit:
+                hit["asof"] = as_of
+            elif not standard and hit.get("asof") != as_of:
+                queue.append((1, key, name, pos, card_type, rating, as_of))
+        elif miss.get(key) and miss[key].get("asof") != as_of:
+            queue.append((0 if not standard else 2, key, name, pos, card_type, rating, as_of))
+        elif _card_due(miss.get(key), today, CARD_TTL_DAYS):
+            queue.append((0 if not standard else 2, key, name, pos, card_type, rating, as_of))
+    for store in (cards, miss):
+        for key in [k for k in store if k not in seen]:
+            del store[key]
+    queue.sort(key=lambda q: q[0])
+    if not queue:
+        save_card_cache(cache)
+        log("Cards: nothing to look up.")
+        return
+    log(f"Cards: {len(queue)} card(s) due, request budget {CARD_LIMIT}.")
+    used = blocked = found = missed = done = 0
+    for _prio, key, name, pos, card_type, rating, as_of in queue:
+        prev = cards.get(key) or miss.get(key) or {}
+        bad = prev.get("bad", [])
+        if used >= CARD_LIMIT:
+            break
+        if used:
+            time.sleep(CARD_DELAY)
+        try:
+            card, n = cardfetch.resolve(name, pos, card_type, rating, delay=CARD_DELAY,
+                                        exclude=frozenset(bad), as_of=as_of)
+            used += n
+            blocked = 0
+        except cardfetch.Unavailable as e:
+            used += 1
+            blocked += 1
+            log(f"  unavailable {name} {pos}: {e}")
+            if blocked >= CARD_BLOCK_ABORT:
+                log("Cards: search unavailable — stopping early.")
+                break
+            continue
+        stamp = today.isoformat()
+        if card:
+            if card_type == "Standard":
+                status = "confirmed"
+            elif prev.get("status") == "confirmed" and prev.get("id") == card["id"]:
+                status = "confirmed"
+            else:
+                status = "likely"
+            entry = {"id": card["id"], "type": card["type"], "ovr": card["ovr"],
+                     "max": card["max"], "status": status, "t": stamp}
+            if as_of:
+                entry["asof"] = as_of
+            if card.get("approx"):
+                entry["approx"] = True
+            if bad:
+                entry["bad"] = bad
+            cards[key] = entry
+            miss.pop(key, None)
+            found += 1
+        else:
+            entry = {"n": (miss.get(key) or {}).get("n", 0) + 1, "t": stamp}
+            if as_of:
+                entry["asof"] = as_of
+            if bad:
+                entry["bad"] = bad
+            cards.pop(key, None)
+            miss[key] = entry
+            missed += 1
+        done += 1
+        if done % 25 == 0:
+            save_card_cache(cache)
+            log(f"  ... {done} looked up ({found} found, {missed} missing)")
+    save_card_cache(cache)
+    log(f"Cards: {found} found, {missed} missing, {used} request(s).")
 
 def _resolve_fotmob(all_players, cache):
     fm_cache = cache["fotmob"]

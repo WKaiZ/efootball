@@ -1,7 +1,7 @@
 Thierry Henry, CF, 100.03, False, Epic, [CF, LWF], [SS]
 Éric Cantona, CF, 99.67, False, Epic, [CF, SS, AMF], []
 Ousmane Dembélé, CF, 99.48, False, BigTime, [LWF, RWF, LMF, RMF, CF], [SS]
-Hugo Ekitiké, CF, 99.29, False, Highlight, [CF], [SS, RWF]
+Hugo Ekitiké, CF, 99.29, False, Showtime, [CF], [SS, RWF]
 Kylian Mbappé, CF, 99.17, True, BigTime, [CF, LWF, RWF, LMF, RMF], [SS, AMF]
 Marcus Thuram, CF, 98.11, False, Showtime, [CF, LWF], [SS, RWF, LMF, RMF]
 Antoine Griezmann, CF, 97.44, False, Showtime, [LWF, CF, RWF, AMF, SS], [LMF, RMF]

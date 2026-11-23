@@ -1,0 +1,5939 @@
+{
+ "cards": {
+  "argentina|agustin giay|RB|Showtime|": {
+   "id": "106794093523226",
+   "type": "Showtime",
+   "ovr": 82,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-03"
+  },
+  "argentina|agustin rossi|GK|Highlight|93": {
+   "id": "53979149081432",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20",
+   "bad": [
+    "105816451554136"
+   ]
+  },
+  "argentina|alan varela|DMF|Highlight|94": {
+   "id": "105727599453203",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|alejandro garnacho|LWF|Standard|77": {
+   "id": "154863",
+   "type": "Standard",
+   "ovr": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|alexis mac allister|CMF|Showtime|": {
+   "id": "106773960836927",
+   "type": "Showtime",
+   "ovr": 84,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-26"
+  },
+  "argentina|angel correa|RWF|Standard|78": {
+   "id": "60168",
+   "type": "Standard",
+   "ovr": 78,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|angel di maria|RWF|Highlight|94": {
+   "id": "105826920468722",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|carlos tevez|CF|EpicBigTime|": {
+   "id": "88038776508032",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20",
+   "bad": [
+    "88040387120768"
+   ]
+  },
+  "argentina|cristian romero|CB|Showtime|": {
+   "id": "106787919475376",
+   "type": "Showtime",
+   "ovr": 87,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-23"
+  },
+  "argentina|diego maradona|SS|EpicBigTime|": {
+   "id": "88029918268911",
+   "type": "Epic",
+   "ovr": 83,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|emiliano buendia|LWF|Highlight|95": {
+   "id": "105895371580975",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-11"
+  },
+  "argentina|emiliano martinez|GK|Standard|81": {
+   "id": "101076",
+   "type": "Standard",
+   "ovr": 81,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|enzo fernandez|CMF|Showtime|": {
+   "id": "106788456363289",
+   "type": "Showtime",
+   "ovr": 87,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "argentina|exequiel palacios|CMF|Standard|77": {
+   "id": "110608",
+   "type": "Standard",
+   "ovr": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|facundo medina|CB|Standard|76": {
+   "id": "114719",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|geronimo rulli|GK|Standard|78": {
+   "id": "60059",
+   "type": "Standard",
+   "ovr": 78,
+   "max": 91,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|giuliano simeone|RMF|Highlight|96": {
+   "id": "52902991380314",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "argentina|giuliano simeone|RWF|Highlight|94": {
+   "id": "105765717294938",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|guido rodriguez|DMF|Standard|75": {
+   "id": "104324",
+   "type": "Standard",
+   "ovr": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|javier saviola|CF|EpicBigTime|": {
+   "id": "88040387251683",
+   "type": "Epic",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-16"
+  },
+  "argentina|javier zanetti|LB|EpicBigTime|": {
+   "id": "88039045074389",
+   "type": "Epic",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-02"
+  },
+  "argentina|javier zanetti|RB|EpicBigTime|": {
+   "id": "88045755960789",
+   "type": "Epic",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-13"
+  },
+  "argentina|jonathan silva|LB|Standard|71": {
+   "id": "60061",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|juan foyth|RB|Highlight|93": {
+   "id": "105831752384205",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-26"
+  },
+  "argentina|juan musso|GK|Highlight|93": {
+   "id": "52896011971406",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "argentina|juan sebastian veron|AMF|EpicBigTime|": {
+   "id": "88039044941514",
+   "type": "Epic",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|julian alvarez|CF|Showtime|": {
+   "id": "106770739621536",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20",
+   "bad": [
+    "106782819217056"
+   ]
+  },
+  "argentina|lautaro martinez|CF|Showtime|": {
+   "id": "106801878116465",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-10"
+  },
+  "argentina|leandro paredes|DMF|Highlight|93": {
+   "id": "105852690280748",
+   "type": "Highlight",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "argentina|leonardo balerdi|CB|Standard|76": {
+   "id": "122697",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|lionel messi|RWF|EpicBigTime|": {
+   "id": "89136409091415",
+   "type": "BigTime",
+   "ovr": 89,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|lionel messi|SS|EpicBigTime|": {
+   "id": "89138556575063",
+   "type": "BigTime",
+   "ovr": 90,
+   "max": 105,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-26",
+   "bad": [
+    "88046829575511"
+   ]
+  },
+  "argentina|lisandro martinez|CB|Showtime|": {
+   "id": "106782282337313",
+   "type": "Showtime",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-04"
+  },
+  "argentina|marcos acuna|LB|Highlight|92": {
+   "id": "105692434371477",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|martin demichelis|CB|EpicBigTime|": {
+   "id": "88035823848953",
+   "type": "Epic",
+   "ovr": 84,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|matias soule|RWF|Highlight|95": {
+   "id": "105845979496941",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "argentina|maximo perrone|DMF|Highlight|93": {
+   "id": "105852690376604",
+   "type": "Highlight",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-05"
+  },
+  "argentina|nahuel molina|RB|Standard|76": {
+   "id": "111096",
+   "type": "Standard",
+   "ovr": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "argentina|nehuen perez|CB|Highlight|94": {
+   "id": "105819404357987",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|nico paz|AMF|Showtime|": {
+   "id": "106777182101070",
+   "type": "Showtime",
+   "ovr": 86,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "argentina|nicolas otamendi|CB|Highlight|95": {
+   "id": "105859401162517",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 96,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "argentina|nicolas tagliafico|LB|Highlight|94": {
+   "id": "105865038307964",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "argentina|paulo dybala|SS|Highlight|94": {
+   "id": "105779675838539",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20",
+   "bad": [
+    "105830678575179"
+   ]
+  },
+  "argentina|rodrigo de paul|CMF|Highlight|95": {
+   "id": "105802492865361",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-20"
+  },
+  "argentina|sergio aguero|CF|EpicBigTime|": {
+   "id": "88046292730790",
+   "type": "Epic",
+   "ovr": 87,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-11"
+  },
+  "argentina|valentin gomez|CB|Highlight|94": {
+   "id": "105827994326194",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-30"
+  },
+  "belgium|alexis saelemaekers|RMF|Highlight|94": {
+   "id": "105840879197592",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-07"
+  },
+  "belgium|amadou onana|DMF|Highlight|95": {
+   "id": "105802492952578",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-29"
+  },
+  "belgium|arthur theate|CB|Highlight|95": {
+   "id": "105874433645929",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "belgium|arthur vermeeren|CMF|Standard|74": {
+   "id": "157314",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|axel witsel|DMF|Standard|73": {
+   "id": "37827",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|benito raman|CF|Standard|72": {
+   "id": "106772",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|brandon mechele|CB|Highlight|94": {
+   "id": "105868259605081",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "belgium|charles de ketelaere|CF|Showtime|": {
+   "id": "106782550788446",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-09"
+  },
+  "belgium|charles de ketelaere|SS|Highlight|95": {
+   "id": "105846516353374",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "belgium|christian benteke|CF|Standard|74": {
+   "id": "16816061",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|dennis praet|AMF|Standard|72": {
+   "id": "46642",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|diego moreira|LMF|Standard|74": {
+   "id": "153143",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|diego moreira|RMF|Highlight|94": {
+   "id": "52904870434359",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-10"
+  },
+  "belgium|dodi lukebakio|RWF|Standard|76": {
+   "id": "114457",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 89,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|eden hazard|AMF|EpicBigTime|": {
+   "id": "89137214427270",
+   "type": "BigTime",
+   "ovr": 88,
+   "max": 104,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-09"
+  },
+  "belgium|eden hazard|LWF|EpicBigTime|": {
+   "id": "88045755863174",
+   "type": "Epic",
+   "ovr": 89,
+   "max": 104,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "belgium|hans vanaken|AMF|Highlight|93": {
+   "id": "56166898055772",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-07"
+  },
+  "belgium|jeremy doku|LWF|Showtime|": {
+   "id": "106800804393500",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "belgium|joaquin seys|LB|Highlight|93": {
+   "id": "105855106317534",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-30",
+   "approx": true
+  },
+  "belgium|kevin de bruyne|AMF|Showtime|": {
+   "id": "106788187843931",
+   "type": "Showtime",
+   "ovr": 87,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "belgium|koen casteels|GK|Standard|77": {
+   "id": "16840993",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|koni de winter|CB|Highlight|94": {
+   "id": "105803835123870",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "belgium|kyriani sabbe|RB|Standard|70": {
+   "id": "158713",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|leandro trossard|LMF|Showtime|": {
+   "id": "106782013903764",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-28"
+  },
+  "belgium|lois openda|CF|Highlight|95": {
+   "id": "105896176904634",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "belgium|mandela keita|DMF|Standard|71": {
+   "id": "143949",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|matias fernandez-pardo|LWF|Standard|74": {
+   "id": "164843",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|matz sels|GK|Highlight|95": {
+   "id": "105792023929090",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "belgium|maxim de cuyper|LB|Standard|74": {
+   "id": "134932",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|mika godts|LWF|Highlight|94": {
+   "id": "105877654892004",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-01"
+  },
+  "belgium|mike penders|GK|Standard|75": {
+   "id": "151751",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|nathan ngoy|CB|Standard|74": {
+   "id": "144540",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|nicolas raskin|CMF|Standard|75": {
+   "id": "117993",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|orel mangala|CMF|Standard|74": {
+   "id": "113695",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|romelu lukaku|CF|Standard|77": {
+   "id": "40122",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 89,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|romeo lavia|DMF|Highlight|94": {
+   "id": "105764375118332",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "belgium|senne lammens|GK|Highlight|93": {
+   "id": "105866917449491",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "belgium|siebe van der heyden|CB|Standard|72": {
+   "id": "119708",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|thibaut courtois|GK|Showtime|": {
+   "id": "106800535874911",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-15"
+  },
+  "belgium|thomas meunier|RB|Standard|74": {
+   "id": "46647",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 87,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|thomas vermaelen|CB|EpicBigTime|": {
+   "id": "88040655558775",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "belgium|thorgan hazard|LWF|Standard|74": {
+   "id": "63916",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|timothy castagne|RB|Highlight|94": {
+   "id": "105857790626942",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-29"
+  },
+  "belgium|vincent kompany|CB|EpicBigTime|": {
+   "id": "88042803041930",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-22"
+  },
+  "belgium|youri tielemans|CMF|Standard|77": {
+   "id": "59801",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 90,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "belgium|zeno debast|CB|Highlight|93": {
+   "id": "52899770150952",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-02"
+  },
+  "brazil|adriano|CF|EpicBigTime|": {
+   "id": "88045755960841",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-03"
+  },
+  "brazil|alex sandro|LB|Highlight|94": {
+   "id": "105859401165777",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "brazil|alisson|GK|Highlight|95": {
+   "id": "52894669797362",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|andrey santos|CMF|Highlight|94": {
+   "id": "105873091473615",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "brazil|bebeto|CF|EpicBigTime|": {
+   "id": "88040387251702",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|bento|GK|Highlight|94": {
+   "id": "105850811316710",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-07"
+  },
+  "brazil|bremer|CB|Highlight|94": {
+   "id": "52902186041249",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-27"
+  },
+  "brazil|bruno guimaraes|DMF|Showtime|": {
+   "id": "106799730641209",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-01"
+  },
+  "brazil|cafu|RB|EpicBigTime|": {
+   "id": "88039581945293",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|cafu|RMF|EpicBigTime|": {
+   "id": "88035555413453",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|casemiro|DMF|Highlight|97": {
+   "id": "105629351978669",
+   "type": "Highlight",
+   "ovr": 85,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-23",
+   "approx": true
+  },
+  "brazil|casemiro|DMF|Showtime|": {
+   "id": "106784698181293",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-30"
+  },
+  "brazil|cassio|GK|Showtime|": {
+   "id": "106756244017231",
+   "type": "Showtime",
+   "ovr": 81,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|danilo|RB|Highlight|94": {
+   "id": "105850811231189",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-07"
+  },
+  "brazil|dida|GK|EpicBigTime|": {
+   "id": "88036360719819",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|eder militao|CB|Highlight|95": {
+   "id": "52890643315573",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|ederson|CMF|Highlight|94": {
+   "id": "52883932442165",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|edmilson|DMF|EpicBigTime|": {
+   "id": "88036360719884",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|gabriel|CB|EpicBigTime|": {
+   "id": "89138019807847",
+   "type": "BigTime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-07"
+  },
+  "brazil|joao pedro|CF|Showtime|": {
+   "id": "106745506689835",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22",
+   "bad": [
+    "106786308879147"
+   ]
+  },
+  "brazil|joelinton|CMF|Showtime|": {
+   "id": "106761612796044",
+   "type": "Showtime",
+   "ovr": 82,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|juliano belletti|RB|EpicBigTime|": {
+   "id": "88033407929867",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|junior|CMF|EpicBigTime|": {
+   "id": "88046561317015",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-16"
+  },
+  "brazil|kaka|AMF|EpicBigTime|": {
+   "id": "88045755829934",
+   "type": "Epic",
+   "ovr": 88,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-04"
+  },
+  "brazil|leo pereira|CB|Highlight|94": {
+   "id": "55069533859614",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-26"
+  },
+  "brazil|maicon|RB|EpicBigTime|": {
+   "id": "88039044946848",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|marcelo|LB|EpicBigTime|": {
+   "id": "88042803071068",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-04-30"
+  },
+  "brazil|marquinhos|CB|Showtime|": {
+   "id": "106745506608041",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|murillo|CB|Highlight|94": {
+   "id": "52891717098089",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-23"
+  },
+  "brazil|neymar|LWF|EpicBigTime|": {
+   "id": "89133993205152",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|pablo maia|DMF|Highlight|93": {
+   "id": "105887855424771",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-30"
+  },
+  "brazil|pele|CF|EpicBigTime|": {
+   "id": "88037702764935",
+   "type": "Epic",
+   "ovr": 88,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|raphinha|LWF|Highlight|96": {
+   "id": "52896012021812",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-26"
+  },
+  "brazil|raphinha|RWF|Highlight|96": {
+   "id": "52901380730932",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-21"
+  },
+  "brazil|rayan|RWF|Highlight|94": {
+   "id": "105857522233591",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-25"
+  },
+  "brazil|rivaldo|AMF|EpicBigTime|": {
+   "id": "89072253144526",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|roberto carlos|LB|EpicBigTime|": {
+   "id": "88039581945292",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|rodrygo|RMF|Highlight|96": {
+   "id": "52892522369217",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "brazil|roger ibanez|CB|Highlight|94": {
+   "id": "105760633769191",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|romario|CF|EpicBigTime|": {
+   "id": "88039045074383",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22",
+   "bad": [
+    "88044145348047"
+   ]
+  },
+  "brazil|ronaldinho|AMF|EpicBigTime|": {
+   "id": "89138288266704",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-25"
+  },
+  "brazil|ronaldinho|LWF|EpicBigTime|": {
+   "id": "88036360719824",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|thiago silva|CB|Showtime|": {
+   "id": "106794093418757",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-03"
+  },
+  "brazil|vinicius junior|LMF|Showtime|": {
+   "id": "106749533210935",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "brazil|vinicius junior|LWF|Showtime|": {
+   "id": "106773692401975",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-03"
+  },
+  "brazil|wesley|LB|Showtime|": {
+   "id": "106800535982322",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-15"
+  },
+  "brazil|zico|AMF|EpicBigTime|": {
+   "id": "88036360719854",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "colombia|alvaro montero|GK|Standard|74": {
+   "id": "108893",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|andres felipe roman|RB|Standard|73": {
+   "id": "117497",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|brayan vera|CB|Standard|72": {
+   "id": "119959",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|camilo vargas|GK|Standard|74": {
+   "id": "47988",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|carlos cuesta|CB|Standard|74": {
+   "id": "117505",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|cristian borja|LB|Standard|73": {
+   "id": "128424",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|cucho hernandez|CF|Standard|76": {
+   "id": "117934",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|daniel munoz|RB|Standard|77": {
+   "id": "120240",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|david ospina|GK|Standard|74": {
+   "id": "36703",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 86,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|davinson sanchez|CB|Standard|78": {
+   "id": "104612",
+   "type": "Standard",
+   "ovr": 78,
+   "max": 91,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|devis vasquez|GK|Standard|73": {
+   "id": "120137",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|didier moreno|DMF|Standard|72": {
+   "id": "47984",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|diego valoyes|RWF|Standard|73": {
+   "id": "120025",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|duvan zapata|CF|Standard|76": {
+   "id": "60060",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 88,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|eduard atuesta|CMF|Standard|73": {
+   "id": "120027",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|felipe pardo|RWF|Standard|71": {
+   "id": "41637",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|frank fabra|LB|Standard|74": {
+   "id": "104540",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|gustavo cuellar|DMF|Standard|74": {
+   "id": "61494",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|helibelton palacios|RB|Standard|71": {
+   "id": "102561",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|james rodriguez|AMF|Standard|74": {
+   "id": "41581",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|james rodriguez|RWF|Showtime|": {
+   "id": "106788187841133",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "colombia|jaminton campaz|LWF|Standard|74": {
+   "id": "120068",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jefferson lerma|DMF|Standard|75": {
+   "id": "109947",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jeison murillo|CB|Standard|71": {
+   "id": "16837767",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jhon arias|LWF|Standard|75": {
+   "id": "120119",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 89,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jhon arias|RWF|Highlight|94": {
+   "id": "105854837839159",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-23"
+  },
+  "colombia|jhon cordoba|CF|Standard|77": {
+   "id": "60876",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jhon duran|CF|Standard|77": {
+   "id": "128463",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jhon lucumi|CB|Highlight|94": {
+   "id": "105877386417266",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-04"
+  },
+  "colombia|jhon solis|CMF|Standard|72": {
+   "id": "144324",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|johan mojica|LB|Standard|73": {
+   "id": "60424",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|jorge carrascal|AMF|Standard|73": {
+   "id": "103966",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|juan fernando quintero|AMF|Standard|76": {
+   "id": "45685",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|juan portilla|DMF|Standard|74": {
+   "id": "128383",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|junior hernandez|LB|Standard|73": {
+   "id": "133087",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|luis diaz|LMF|Highlight|95": {
+   "id": "105802492925027",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-12"
+  },
+  "colombia|luis diaz|LWF|Showtime|": {
+   "id": "106780671726691",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-02"
+  },
+  "colombia|luis quinones|RWF|Standard|74": {
+   "id": "106267",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|luis suarez|CF|Standard|75": {
+   "id": "123749",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|nelson deossa|CMF|Standard|75": {
+   "id": "146202",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|santiago arias|RB|Standard|73": {
+   "id": "44857",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|sebastian gomez|CMF|Standard|72": {
+   "id": "119953",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|sebastian villa|LWF|Standard|77": {
+   "id": "109637",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|william tesillo|CB|Standard|74": {
+   "id": "109607",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "colombia|yerry mina|CB|Highlight|93": {
+   "id": "105818330558492",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-12"
+  },
+  "colombia|yerson mosquera|CB|Standard|73": {
+   "id": "135882",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|andrej kramaric|SS|Highlight|94": {
+   "id": "105857253742893",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-21"
+  },
+  "croatia|ante budimir|CF|Highlight|93": {
+   "id": "56163676827359",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-24"
+  },
+  "croatia|bruno petkovic|CF|Standard|74": {
+   "id": "60565",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 87,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|domagoj bradaric|LB|Standard|72": {
+   "id": "132547",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|dominik kotarski|GK|Standard|74": {
+   "id": "113595",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|dominik livakovic|GK|Highlight|94": {
+   "id": "105868259605436",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "croatia|duje caleta-car|CB|Standard|72": {
+   "id": "125039",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|filip uremovic|CB|Standard|71": {
+   "id": "114684",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|franjo ivanovic|CF|Standard|72": {
+   "id": "172489",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|igor matanovic|CF|Standard|71": {
+   "id": "173744",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|ivan perisic|LB|Highlight|93": {
+   "id": "56165824239143",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-03"
+  },
+  "croatia|ivan perisic|LMF|Highlight|94": {
+   "id": "105859401160231",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "croatia|ivan smolcic|RB|Standard|70": {
+   "id": "175348",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|ivor pandur|GK|Standard|71": {
+   "id": "140170",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|josip stanisic|RB|Highlight|94": {
+   "id": "105800613901030",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-30"
+  },
+  "croatia|josip sutalo|CB|Standard|76": {
+   "id": "133750",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|josko gvardiol|CB|Highlight|95": {
+   "id": "105742631830624",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "croatia|josko gvardiol|LB|Highlight|95": {
+   "id": "52869705368672",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "croatia|karlo letica|GK|Standard|72": {
+   "id": "125369",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|kristijan jakic|DMF|Standard|73": {
+   "id": "139727",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|luka modric|CMF|Showtime|": {
+   "id": "106788187833650",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "croatia|luka modric|DMF|Highlight|94": {
+   "id": "52898159428914",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "croatia|luka sucic|CMF|Highlight|94": {
+   "id": "105833094591541",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-30"
+  },
+  "croatia|luka vuskovic|CB|Highlight|94": {
+   "id": "105865306872490",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "croatia|marcelo brozovic|DMF|Standard|77": {
+   "id": "16824612",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|marco pasalic|RWF|Highlight|94": {
+   "id": "105855911630795",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "croatia|marin pongracic|CB|Standard|75": {
+   "id": "142080",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|mario pasalic|AMF|Highlight|94": {
+   "id": "105832020767000",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "croatia|marko pjaca|LWF|Standard|72": {
+   "id": "107479",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|martin baturina|CMF|Highlight|94": {
+   "id": "105768133208663",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "croatia|martin erlic|CB|Highlight|93": {
+   "id": "105856985311141",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-14"
+  },
+  "croatia|matej mitrovic|CB|Standard|72": {
+   "id": "16884751",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|mateo kovacic|CMF|Highlight|94": {
+   "id": "105871212324991",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-13"
+  },
+  "croatia|nikola moro|CMF|Standard|74": {
+   "id": "113271",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|nikola moro|DMF|Highlight|93": {
+   "id": "105845979462263",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "croatia|nikola vlasic|AMF|Highlight|94": {
+   "id": "55069802352350",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "croatia|petar musa|CF|Standard|76": {
+   "id": "125910",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "croatia|petar sucic|AMF|Highlight|93": {
+   "id": "56164750623419",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-28"
+  },
+  "croatia|petar sucic|DMF|Highlight|93": {
+   "id": "52901112349371",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "croatia|toni fruk|AMF|Standard|70": {
+   "id": "184115",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "england|adam wharton|DMF|Highlight|94": {
+   "id": "105802224521791",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|andy cole|CF|EpicBigTime|": {
+   "id": "88033407929779",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|ben white|RB|Showtime|": {
+   "id": "106730474290556",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|bukayo saka|RWF|Showtime|": {
+   "id": "106802415006264",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "england|cole palmer|RMF|EpicBigTime|": {
+   "id": "89135067044780",
+   "type": "BigTime",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|david beckham|RMF|EpicBigTime|": {
+   "id": "88036360719793",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|david seaman|GK|EpicBigTime|": {
+   "id": "88046292697896",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "england|dean henderson|GK|Highlight|93": {
+   "id": "52886079910746",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|declan rice|CMF|EpicBigTime|": {
+   "id": "89138019805599",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "england|declan rice|CMF|Highlight|98": {
+   "id": "105891345050015",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-23",
+   "approx": true
+  },
+  "england|declan rice|DMF|Highlight|96": {
+   "id": "52873463441823",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|djed spence|LB|Highlight|95": {
+   "id": "105874165198697",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-10"
+  },
+  "england|dominic calvert-lewin|CF|Highlight|94": {
+   "id": "55070607654887",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "england|elliot anderson|DMF|Showtime|": {
+   "id": "106773423990288",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-11"
+  },
+  "england|ezri konsa|CB|Highlight|95": {
+   "id": "105891345051850",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "england|frank lampard|CMF|EpicBigTime|": {
+   "id": "88036360719836",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-04-09"
+  },
+  "england|gary cahill|CB|EpicBigTime|": {
+   "id": "88045487423105",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "england|harry kane|SS|EpicBigTime|": {
+   "id": "88046024308919",
+   "type": "Epic",
+   "ovr": 88,
+   "max": 104,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-29"
+  },
+  "england|ivan toney|CF|Highlight|95": {
+   "id": "105868259601204",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "england|jack grealish|LMF|Highlight|93": {
+   "id": "52888495819515",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|jarrad branthwaite|CB|Highlight|95": {
+   "id": "55068460194657",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "england|jesse lingard|LMF|Showtime|": {
+   "id": "106794093440765",
+   "type": "Showtime",
+   "ovr": 82,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-03"
+  },
+  "england|john stones|CB|Showtime|": {
+   "id": "106786040363689",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-10"
+  },
+  "england|jordan pickford|GK|Highlight|94": {
+   "id": "52888227330230",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|jude bellingham|AMF|EpicBigTime|": {
+   "id": "89138556700485",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-02"
+  },
+  "england|jude bellingham|CMF|Showtime|": {
+   "id": "106732621793093",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|kobbie mainoo|CMF|Showtime|": {
+   "id": "106760002235412",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|kyle walker|RB|Highlight|94": {
+   "id": "55070607581343",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "england|luke shaw|LB|Highlight|95": {
+   "id": "55070607587294",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "england|marc guehi|CB|Highlight|95": {
+   "id": "56163676848342",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-06-24"
+  },
+  "england|michael owen|CF|EpicBigTime|": {
+   "id": "88039581945366",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|morgan rogers|LMF|Highlight|95": {
+   "id": "52904870408141",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-09"
+  },
+  "england|myles lewis-skelly|DMF|Highlight|95": {
+   "id": "105881144553165",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "england|nick pope|GK|Highlight|94": {
+   "id": "105779944330646",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|nico o'reilly|LB|Showtime|": {
+   "id": "106780940205246",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-31"
+  },
+  "england|paul scholes|LMF|EpicBigTime|": {
+   "id": "88040387251634",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-06"
+  },
+  "england|phil foden|AMF|Highlight|95": {
+   "id": "52893059235960",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|ray parlour|RMF|EpicBigTime|": {
+   "id": "88033407955778",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|reece james|RB|Highlight|94": {
+   "id": "105866649005150",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "england|rio ferdinand|CB|EpicBigTime|": {
+   "id": "88038776505140",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-13"
+  },
+  "england|sol campbell|CB|EpicBigTime|": {
+   "id": "88046292831716",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "england|steve mcmanaman|RMF|EpicBigTime|": {
+   "id": "88039850246968",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|steven gerrard|CMF|EpicBigTime|": {
+   "id": "88036360719796",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|tony adams|CB|EpicBigTime|": {
+   "id": "88032334054195",
+   "type": "Epic",
+   "ovr": 83,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "england|trent alexander-arnold|RB|Highlight|95": {
+   "id": "52896280460029",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "england|tyrick mitchell|LB|Highlight|94": {
+   "id": "105873896771214",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "england|wayne rooney|SS|EpicBigTime|": {
+   "id": "88039044943928",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "france|adrien rabiot|CMF|Highlight|95": {
+   "id": "56167434860491",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-11"
+  },
+  "france|adrien truffert|LB|Highlight|94": {
+   "id": "105845711053470",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "france|aurelien tchouameni|DMF|Highlight|96": {
+   "id": "52888764273638",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|brice samba|GK|Highlight|94": {
+   "id": "52882053314985",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|christian karembeu|RMF|EpicBigTime|": {
+   "id": "88040655555524",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-30"
+  },
+  "france|claude makelele|DMF|EpicBigTime|": {
+   "id": "88039581948642",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|dayot upamecano|CB|Highlight|95": {
+   "id": "56166361188271",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-05"
+  },
+  "france|desire doue|LWF|Highlight|95": {
+   "id": "56166361224544",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-05"
+  },
+  "france|desire doue|RWF|Showtime|": {
+   "id": "106800804418912",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "france|eduardo camavinga|AMF|Highlight|95": {
+   "id": "52883664008270",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|emmanuel petit|CMF|EpicBigTime|": {
+   "id": "88046292831676",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "france|franck ribery|LMF|EpicBigTime|": {
+   "id": "88040387126185",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-31"
+  },
+  "france|franck ribery|LWF|EpicBigTime|": {
+   "id": "88033407804329",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|hugo ekitike|CF|Highlight|99": {
+   "id": "52892522389919",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-23",
+   "approx": true
+  },
+  "france|hugo lloris|GK|EpicBigTime|": {
+   "id": "88044145222014",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-29"
+  },
+  "france|ibrahima konate|CB|Highlight|95": {
+   "id": "105873091445023",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "france|jean-philippe mateta|CF|Highlight|95": {
+   "id": "105858595930001",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-09"
+  },
+  "france|jules kounde|CB|Highlight|95": {
+   "id": "105680623218880",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|jules kounde|RB|Showtime|": {
+   "id": "106772887089344",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-20"
+  },
+  "france|kylian mbappe|CF|EpicBigTime|": {
+   "id": "89138556678270",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "france|lilian thuram|CB|EpicBigTime|": {
+   "id": "88036360723168",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|lilian thuram|RB|EpicBigTime|": {
+   "id": "88044145351392",
+   "type": "Epic",
+   "ovr": 89,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-09"
+  },
+  "france|lucas digne|LB|Highlight|94": {
+   "id": "105877654777889",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-01"
+  },
+  "france|lucas hernandez|CB|Highlight|95": {
+   "id": "105862085581069",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-09"
+  },
+  "france|lucas hernandez|LB|Highlight|94": {
+   "id": "105808666925325",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|maghnes akliouche|RMF|Highlight|95": {
+   "id": "105873359913676",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-24"
+  },
+  "france|malo gusto|RB|Highlight|93": {
+   "id": "105849469150860",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "france|marcel desailly|CB|EpicBigTime|": {
+   "id": "89138288270047",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-09"
+  },
+  "france|marcus thuram|CF|Showtime|": {
+   "id": "106744164492837",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|michael olise|AMF|Showtime|": {
+   "id": "106788724799833",
+   "type": "Showtime",
+   "ovr": 87,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-02"
+  },
+  "france|michael olise|RMF|Showtime|": {
+   "id": "106743896078681",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|michel platini|AMF|EpicBigTime|": {
+   "id": "88040387119839",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|mike maignan|GK|Highlight|95": {
+   "id": "56164482083871",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-28"
+  },
+  "france|n'golo kante|DMF|Showtime|": {
+   "id": "106736916728790",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|ousmane dembele|RWF|Showtime|": {
+   "id": "106782013894690",
+   "type": "Showtime",
+   "ovr": 87,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-28"
+  },
+  "france|patrick vieira|DMF|EpicBigTime|": {
+   "id": "88044145348029",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-09"
+  },
+  "france|raphael varane|CB|EpicBigTime|": {
+   "id": "88039850289220",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|rayan cherki|AMF|Highlight|95": {
+   "id": "55072755157525",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-09-10"
+  },
+  "france|robert pires|LMF|EpicBigTime|": {
+   "id": "88032065752589",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|robin risser|GK|Highlight|94": {
+   "id": "105837926442563",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "france|theo hernandez|LB|Highlight|95": {
+   "id": "105849469121172",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "france|thierry henry|CF|EpicBigTime|": {
+   "id": "89139361874801",
+   "type": "BigTime",
+   "ovr": 88,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-12"
+  },
+  "france|warren zaire-emery|CMF|Highlight|96": {
+   "id": "105832557733531",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "france|warren zaire-emery|RB|Highlight|96": {
+   "id": "52899501729435",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-26"
+  },
+  "france|william saliba|CB|Showtime|": {
+   "id": "106763491864289",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "france|youssouf fofana|CMF|Highlight|95": {
+   "id": "105874702069504",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-04"
+  },
+  "germany|angelo stiller|DMF|Highlight|95": {
+   "id": "105858059077036",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "germany|antonio rudiger|CB|Highlight|95": {
+   "id": "52912655014117",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "germany|assan ouedraogo|CMF|Highlight|94": {
+   "id": "105868259665891",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "germany|bastian schweinsteiger|DMF|EpicBigTime|": {
+   "id": "88044413653830",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-12"
+  },
+  "germany|david raum|LB|Highlight|94": {
+   "id": "105849737591393",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "germany|david raum|LMF|Highlight|93": {
+   "id": "52888764299873",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|deniz undav|CF|Highlight|94": {
+   "id": "56161529379414",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-15"
+  },
+  "germany|felix nmecha|CMF|Highlight|96": {
+   "id": "52902991360641",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-22",
+   "approx": true
+  },
+  "germany|felix nmecha|DMF|Showtime|": {
+   "id": "106781477040769",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-18"
+  },
+  "germany|florian wirtz|AMF|Highlight|96": {
+   "id": "105849737583300",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "germany|florian wirtz|SS|Highlight|95": {
+   "id": "52903796677316",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "germany|franz beckenbauer|CB|EpicBigTime|": {
+   "id": "88039581945324",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|franz beckenbauer|DMF|EpicBigTime|": {
+   "id": "88036092284396",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|gerd muller|CF|EpicBigTime|": {
+   "id": "88040655554922",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|ilkay gundogan|CMF|Standard|77": {
+   "id": "45945",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 88,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "germany|jamal musiala|AMF|Highlight|97": {
+   "id": "52883395582736",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|jamal musiala|LMF|Showtime|": {
+   "id": "106773155552016",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-23"
+  },
+  "germany|jamie leweling|RWF|Highlight|95": {
+   "id": "105857790655076",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-29"
+  },
+  "germany|jonas hofmann|AMF|Highlight|94": {
+   "id": "105838731702507",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-30"
+  },
+  "germany|jonathan burkardt|CF|Highlight|95": {
+   "id": "105839805475630",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-03"
+  },
+  "germany|jonathan tah|CB|Highlight|96": {
+   "id": "105874165184248",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-10"
+  },
+  "germany|joshua kimmich|CB|Highlight|95": {
+   "id": "52880979634637",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|joshua kimmich|RB|Highlight|95": {
+   "id": "52880174328269",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|kai havertz|CF|Highlight|95": {
+   "id": "56165019008842",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-07-04"
+  },
+  "germany|karim adeyemi|RWF|Showtime|": {
+   "id": "106799730668598",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-01"
+  },
+  "germany|karl-heinz rummenigge|CF|EpicBigTime|": {
+   "id": "88039045074413",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|kevin schade|LWF|Highlight|94": {
+   "id": "105849737587522",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "germany|kevin trapp|GK|Highlight|94": {
+   "id": "105845711022546",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "germany|leroy sane|RWF|Highlight|94": {
+   "id": "56164213690869",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-26"
+  },
+  "germany|lothar matthaus|CMF|EpicBigTime|": {
+   "id": "88039045074405",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|lothar matthaus|DMF|EpicBigTime|": {
+   "id": "88034213236197",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|malick thiaw|CB|Highlight|94": {
+   "id": "52891985515372",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|manuel neuer|GK|Showtime|": {
+   "id": "106788187832737",
+   "type": "Showtime",
+   "ovr": 88,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-26"
+  },
+  "germany|marco reus|LMF|EpicBigTime|": {
+   "id": "88036360631160",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|maximilian mittelstadt|LB|Highlight|93": {
+   "id": "105723841358689",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|miroslav klose|CF|EpicBigTime|": {
+   "id": "88044413651570",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "germany|nico schlotterbeck|CB|Highlight|96": {
+   "id": "105891076647837",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "germany|oliver baumann|GK|Highlight|94": {
+   "id": "105849737587523",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "germany|oliver kahn|GK|EpicBigTime|": {
+   "id": "88039045074375",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|philipp lahm|RB|EpicBigTime|": {
+   "id": "89138288138433",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "germany|robert andrich|CB|Highlight|94": {
+   "id": "52895743617950",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-30"
+  },
+  "germany|serge gnabry|LWF|Highlight|95": {
+   "id": "105832826072532",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-25"
+  },
+  "germany|thilo kehrer|CB|Standard|76": {
+   "id": "113284",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "germany|thomas muller|AMF|Showtime|": {
+   "id": "106766176132874",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|uli hoeneß|AMF|EpicBigTime|": {
+   "id": "88035823862329",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-18"
+  },
+  "germany|waldemar anton|CB|Highlight|95": {
+   "id": "105891076647663",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-22"
+  },
+  "italy|alessandro costacurta|RB|EpicBigTime|": {
+   "id": "88036360587367",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|alessandro del piero|CF|EpicBigTime|": {
+   "id": "89139630444046",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "italy|alessandro nesta|CB|EpicBigTime|": {
+   "id": "88039581926569",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-04-02"
+  },
+  "italy|andrea cambiaso|LMF|Highlight|94": {
+   "id": "105800077026754",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|andrea pirlo|DMF|EpicBigTime|": {
+   "id": "88044145348064",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "italy|christian abbiati|GK|EpicBigTime|": {
+   "id": "88039045074401",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|christian panucci|RB|EpicBigTime|": {
+   "id": "88038776567939",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|christian vieri|CF|EpicBigTime|": {
+   "id": "88040387118038",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|daniele de rossi|DMF|EpicBigTime|": {
+   "id": "88042803039763",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "italy|davide frattesi|CMF|Highlight|94": {
+   "id": "105874433622163",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "italy|domenico berardi|RWF|Highlight|93": {
+   "id": "105783165511769",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|fabio cannavaro|CB|EpicBigTime|": {
+   "id": "88041460996837",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "italy|federico bernardeschi|RWF|Highlight|93": {
+   "id": "105870138640149",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-03"
+  },
+  "italy|federico chiesa|LWF|Highlight|94": {
+   "id": "105749342699067",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|federico dimarco|LMF|EpicBigTime|": {
+   "id": "89138019804326",
+   "type": "BigTime",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "italy|filippo inzaghi|CF|EpicBigTime|": {
+   "id": "88044145348036",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "italy|francesco totti|AMF|EpicBigTime|": {
+   "id": "88039045074371",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|francesco totti|CF|EpicBigTime|": {
+   "id": "88045755960771",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-03"
+  },
+  "italy|franco baresi|CB|EpicBigTime|": {
+   "id": "88039581945329",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|gennaro gattuso|DMF|EpicBigTime|": {
+   "id": "88040387180672",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-31"
+  },
+  "italy|giacomo raspadori|SS|Highlight|94": {
+   "id": "105836047359836",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-09"
+  },
+  "italy|gianfranco zola|SS|EpicBigTime|": {
+   "id": "88040655554414",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|gianluca zambrotta|RB|EpicBigTime|": {
+   "id": "88044413760689",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "italy|gianluigi buffon|GK|EpicBigTime|": {
+   "id": "89138288133079",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 103,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "italy|gianluigi donnarumma|GK|Highlight|99": {
+   "id": "105799808558839",
+   "type": "Highlight",
+   "ovr": 85,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-07",
+   "approx": true
+  },
+  "italy|giorgio chiellini|CB|EpicBigTime|": {
+   "id": "88036360594067",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|leonardo bonucci|CB|EpicBigTime|": {
+   "id": "88038776537399",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|leonardo spinazzola|LB|Highlight|94": {
+   "id": "105837926385942",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-07"
+  },
+  "italy|lorenzo insigne|LWF|EpicBigTime|": {
+   "id": "88036360631451",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|marco carnesecchi|GK|Highlight|96": {
+   "id": "55069802361877",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "italy|massimo ambrosini|DMF|EpicBigTime|": {
+   "id": "88039581811665",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|massimo oddo|RB|EpicBigTime|": {
+   "id": "88039044943837",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|matteo politano|RWF|Highlight|94": {
+   "id": "52883127109900",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|niccolo fortini|LB|Standard|70": {
+   "id": "169461",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "italy|niccolo pisilli|CMF|Highlight|92": {
+   "id": "105856716927847",
+   "type": "Highlight",
+   "ovr": 77,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-11"
+  },
+  "italy|nicolo barella|CMF|Highlight|96": {
+   "id": "52890374870278",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|nicolo zaniolo|AMF|Highlight|95": {
+   "id": "55069802348765",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-17"
+  },
+  "italy|paolo maldini|CB|EpicBigTime|": {
+   "id": "88045755960770",
+   "type": "Epic",
+   "ovr": 89,
+   "max": 104,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-23"
+  },
+  "italy|paolo maldini|LB|EpicBigTime|": {
+   "id": "88041460993474",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-14"
+  },
+  "italy|riccardo calafiori|CB|Highlight|96": {
+   "id": "105750148024878",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|riccardo calafiori|LB|Highlight|96": {
+   "id": "52902186060334",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-08-27"
+  },
+  "italy|riccardo ferri|CB|EpicBigTime|": {
+   "id": "88039850362027",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|riccardo orsolini|RWF|Highlight|95": {
+   "id": "105868259603324",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "italy|roberto baggio|AMF|EpicBigTime|": {
+   "id": "88039045074407",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "italy|roberto baggio|SS|EpicBigTime|": {
+   "id": "88044145348071",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-15"
+  },
+  "italy|roberto donadoni|CMF|EpicBigTime|": {
+   "id": "88040387124205",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-22"
+  },
+  "japan|ayase ueda|CF|Showtime|": {
+   "id": "106783087658867",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "japan|ayumu seko|CB|Highlight|94": {
+   "id": "105855643153148",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-11"
+  },
+  "japan|ayumu seko|DMF|Highlight|91": {
+   "id": "105828799607548",
+   "type": "Highlight",
+   "ovr": 78,
+   "max": 91,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-13"
+  },
+  "japan|daichi kamada|AMF|Showtime|": {
+   "id": "106783087652853",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "japan|daichi kamada|CMF|Highlight|95": {
+   "id": "55070607667189",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-05-28"
+  },
+  "japan|daisuke matsui|RWF|EpicBigTime|": {
+   "id": "88046561133102",
+   "type": "Epic",
+   "ovr": 82,
+   "max": 97,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-16"
+  },
+  "japan|eiji kawashima|GK|EpicBigTime|": {
+   "id": "88045487393209",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "japan|gaku shibasaki|CMF|EpicBigTime|": {
+   "id": "88045487407066",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-20"
+  },
+  "japan|genta miura|CB|Highlight|91": {
+   "id": "105845442494916",
+   "type": "Highlight",
+   "ovr": 77,
+   "max": 91,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-08"
+  },
+  "japan|gotoku sakai|RB|EpicBigTime|": {
+   "id": "88045487429746",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-15"
+  },
+  "japan|hidetoshi nakata|AMF|EpicBigTime|": {
+   "id": "88041460993495",
+   "type": "Pinned",
+   "ovr": null,
+   "max": null,
+   "t": "2026-11-22",
+   "status": "confirmed",
+   "asof": "2026-06-01"
+  },
+  "japan|hiroki ito|CB|Showtime|": {
+   "id": "106783356085451",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-16"
+  },
+  "japan|hotaru yamaguchi|DMF|EpicBigTime|": {
+   "id": "88045487429751",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-15"
+  },
+  "japan|junnosuke suzuki|LB|Highlight|94": {
+   "id": "105855643177615",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-11"
+  },
+  "japan|kaishu sano|DMF|Showtime|": {
+   "id": "106783087654662",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "japan|kaoru mitoma|LWF|Standard|79": {
+   "id": "126860",
+   "type": "Standard",
+   "ovr": 79,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "japan|keisuke honda|CF|EpicBigTime|": {
+   "id": "88042803047215",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "japan|keito nakamura|LMF|Showtime|": {
+   "id": "106783087650006",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "japan|kensuke nagai|RWF|EpicBigTime|": {
+   "id": "88045487454479",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "japan|kento shiogai|CF|Highlight|94": {
+   "id": "105855374758570",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "japan|kodai sano|CMF|Standard|73": {
+   "id": "152634",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "japan|makoto hasebe|CB|EpicBigTime|": {
+   "id": "88040387120361",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-13"
+  },
+  "japan|makoto hasebe|DMF|EpicBigTime|": {
+   "id": "88041460862185",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "japan|masato morishige|CB|EpicBigTime|": {
+   "id": "88045487405981",
+   "type": "Epic",
+   "ovr": 83,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-15"
+  },
+  "japan|maya yoshida|CB|Highlight|93": {
+   "id": "105861548620873",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "japan|miki yamane|RB|Standard|74": {
+   "id": "121716",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "japan|ritsu doan|RMF|Showtime|": {
+   "id": "106783356067329",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-16"
+  },
+  "japan|ryo hatsuse|LB|Highlight|92": {
+   "id": "105885976340405",
+   "type": "Highlight",
+   "ovr": 77,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "japan|seigo narazaki|GK|EpicBigTime|": {
+   "id": "88041460859101",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-01"
+  },
+  "japan|seiya maikuma|RB|Highlight|93": {
+   "id": "105861548740954",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "japan|shinji kagawa|LMF|EpicBigTime|": {
+   "id": "88041460874200",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-04"
+  },
+  "japan|shinji okazaki|SS|EpicBigTime|": {
+   "id": "88036360600266",
+   "type": "Epic",
+   "ovr": 82,
+   "max": 96,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-13"
+  },
+  "japan|shogo taniguchi|CB|Showtime|": {
+   "id": "106783356022615",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-16"
+  },
+  "japan|shunsuke nakamura|AMF|EpicBigTime|": {
+   "id": "88041460859043",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-06-01"
+  },
+  "japan|shusaku nishikawa|GK|EpicBigTime|": {
+   "id": "88045487405817",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-20"
+  },
+  "japan|sota miura|LB|Standard|71": {
+   "id": "152898",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "japan|takashi inui|LWF|EpicBigTime|": {
+   "id": "88045487406166",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-17"
+  },
+  "japan|takashi usami|SS|EpicBigTime|": {
+   "id": "88045487448127",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-20"
+  },
+  "japan|takefusa kubo|RMF|EpicBigTime|": {
+   "id": "88039581932552",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-13"
+  },
+  "japan|takumi minamino|LMF|Highlight|93": {
+   "id": "52889032606112",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-04-13"
+  },
+  "japan|tsuyoshi watanabe|CB|Showtime|": {
+   "id": "106783356088205",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-16"
+  },
+  "japan|wataru endo|CMF|Highlight|93": {
+   "id": "105864501411930",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-15"
+  },
+  "japan|yu kobayashi|CF|EpicBigTime|": {
+   "id": "88045487406740",
+   "type": "Epic",
+   "ovr": 84,
+   "max": 85,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-11-01"
+  },
+  "japan|yukinari sugawara|RB|Highlight|94": {
+   "id": "105874433631452",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-10-08"
+  },
+  "japan|yuto nagatomo|LB|EpicBigTime|": {
+   "id": "88045755841990",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-14"
+  },
+  "japan|zion suzuki|GK|Showtime|": {
+   "id": "106783356096959",
+   "type": "Showtime",
+   "ovr": 87,
+   "max": 102,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-16"
+  },
+  "mexico|alan cervantes|DMF|Standard|72": {
+   "id": "119064",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|alex padilla|GK|Standard|71": {
+   "id": "157772",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|alvaro fidalgo|CMF|Standard|76": {
+   "id": "116848",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|angel sepulveda|CF|Standard|73": {
+   "id": "42715",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|brian gutierrez|CMF|Standard|74": {
+   "id": "142470",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|bryan gonzalez|LB|Standard|71": {
+   "id": "147906",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|diego campillo|DMF|Standard|71": {
+   "id": "164292",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|edson alvarez|DMF|Standard|76": {
+   "id": "118750",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 89,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|efrain alvarez|RMF|Standard|73": {
+   "id": "142610",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|erick sanchez|CMF|Standard|75": {
+   "id": "118927",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|german berterame|CF|Standard|76": {
+   "id": "111419",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|henry martin|CF|Standard|75": {
+   "id": "118994",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|hirving lozano|LWF|Standard|73": {
+   "id": "112334",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|hugo camberos|RWF|Standard|69": {
+   "id": "170936",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|isaias violante|LMF|Standard|69": {
+   "id": "147835",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|israel reyes|CB|Standard|74": {
+   "id": "147898",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|johan vasquez|CB|Standard|73": {
+   "id": "147191",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|jonathan gonzalez|DMF|Standard|69": {
+   "id": "119089",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|jordan carrillo|AMF|Standard|72": {
+   "id": "147886",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|julian araujo|RB|Standard|73": {
+   "id": "142606",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|julian quinones|CF|Standard|79": {
+   "id": "16896235",
+   "type": "Standard",
+   "ovr": 79,
+   "max": 79,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|kevin alvarez|RB|Standard|74": {
+   "id": "147902",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|luis gabriel rey|CB|Standard|66": {
+   "id": "168647",
+   "type": "Standard",
+   "ovr": 66,
+   "max": 66,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|luis malagon|GK|Standard|75": {
+   "id": "118792",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|luis romo|DMF|Standard|75": {
+   "id": "144713",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|mateo chavez|LB|Standard|71": {
+   "id": "167838",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|obed vargas|CMF|Standard|73": {
+   "id": "146751",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|omar govea|CMF|Standard|72": {
+   "id": "108722",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|rafa marquez|CB|EpicBigTime|": {
+   "id": "88040387118614",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-12"
+  },
+  "mexico|ramon juarez|CB|Standard|72": {
+   "id": "145748",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|raul jimenez|CF|Highlight|93": {
+   "id": "56165555822578",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-07-02"
+  },
+  "mexico|raul rangel|GK|Standard|73": {
+   "id": "154598",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|roberto alvarado|RWF|Standard|75": {
+   "id": "118895",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|rodolfo cota|GK|Standard|72": {
+   "id": "118806",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|rodrigo huescas|RB|Standard|73": {
+   "id": "147919",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|rogelio funes mori|CF|Standard|72": {
+   "id": "40918",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|santiago gimenez|CF|Standard|75": {
+   "id": "118744",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "mexico|santiago sandoval|AMF|Standard|60": {
+   "id": "178013",
+   "type": "Standard",
+   "ovr": 60,
+   "max": 60,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|abde ezzalzouli|LMF|Highlight|94": {
+   "id": "105851968964074",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-05-31"
+  },
+  "morocco|achraf hakimi|RB|Showtime|": {
+   "id": "106776645188904",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|amine adli|AMF|Highlight|94": {
+   "id": "105783434020767",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|anas bach|RB|Highlight|92": {
+   "id": "105861817219822",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 92,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "morocco|ayoub el kaabi|CF|Highlight|94": {
+   "id": "105851968938280",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|ayyoub bouaddi|DMF|Showtime|": {
+   "id": "106788724836718",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|azzedine ounahi|CMF|Standard|74": {
+   "id": "133100",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|bilal el khannouss|AMF|Highlight|94": {
+   "id": "105851968968056",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|bilal el khannouss|LWF|Highlight|94": {
+   "id": "105855106307448",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-30",
+   "approx": true
+  },
+  "morocco|brahim diaz|AMF|Showtime|": {
+   "id": "106749533208454",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-03-19"
+  },
+  "morocco|brahim diaz|RWF|Highlight|93": {
+   "id": "105880691523462",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|el mehdi benabid|GK|Highlight|92": {
+   "id": "105861817208648",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|eliesse ben seghir|LWF|Standard|75": {
+   "id": "84043713",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|ismael saibari|AMF|Highlight|93": {
+   "id": "105880691550364",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|ismael saibari|CF|Highlight|95": {
+   "id": "105874165213340",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-09-10"
+  },
+  "morocco|issa diop|CB|Standard|75": {
+   "id": "110645",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 89,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|jawad el yamiq|CB|Standard|74": {
+   "id": "112247",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|marouane louadni|CB|Highlight|92": {
+   "id": "105861817219819",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 92,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|medhi benatia|CB|EpicBigTime|": {
+   "id": "88039044973419",
+   "type": "Epic",
+   "ovr": 82,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-19"
+  },
+  "morocco|mohamed boulacsout|RB|Highlight|93": {
+   "id": "105861817219813",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "confirmed",
+   "asof": "2026-08-13"
+  },
+  "morocco|mounir chouiar|AMF|Highlight|93": {
+   "id": "105861817154804",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|munir el haddadi|RWF|Standard|71": {
+   "id": "101071",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|nayef aguerd|CB|Highlight|95": {
+   "id": "105851968940938",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|noussair mazraoui|LB|Highlight|93": {
+   "id": "56168508675153",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|omar el hilali|RB|Highlight|94": {
+   "id": "105785044642116",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "morocco|oussama el azzouzi|DMF|Standard|70": {
+   "id": "153595",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|oussama lamlioui|CF|Highlight|92": {
+   "id": "105861817219831",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 92,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "morocco|sofyan amrabat|DMF|Standard|77": {
+   "id": "83990825",
+   "type": "Standard",
+   "ovr": 77,
+   "max": 77,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|souffian el karouani|LB|Standard|73": {
+   "id": "16913899",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "t": "2026-11-23",
+   "status": "confirmed"
+  },
+  "morocco|soufiane rahimi|CF|Highlight|93": {
+   "id": "56166361216452",
+   "type": "Trending",
+   "ovr": 92,
+   "max": 94,
+   "t": "2026-11-23",
+   "approx": true,
+   "status": "likely"
+  },
+  "morocco|yassine bounou|GK|Showtime|": {
+   "id": "106764917858093",
+   "type": "Showtime",
+   "ovr": 82,
+   "max": 98,
+   "t": "2026-11-23",
+   "status": "likely"
+  },
+  "netherlands|arnaut danjuma|LWF|Highlight|93": {
+   "id": "105896176893674",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-22"
+  },
+  "netherlands|bart verbruggen|GK|Highlight|94": {
+   "id": "52904870417884",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-08"
+  },
+  "netherlands|clarence seedorf|CMF|EpicBigTime|": {
+   "id": "88036360586141",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|clarence seedorf|DMF|EpicBigTime|": {
+   "id": "88041460859805",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-02"
+  },
+  "netherlands|cody gakpo|LWF|Showtime|": {
+   "id": "106781745470620",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-24"
+  },
+  "netherlands|dennis bergkamp|CF|EpicBigTime|": {
+   "id": "88036360719834",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|denzel dumfries|RMF|Showtime|": {
+   "id": "106746580415858",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|devyne rensch|RB|Highlight|93": {
+   "id": "105835510506038",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-02"
+  },
+  "netherlands|dirk kuyt|RWF|EpicBigTime|": {
+   "id": "88040655687168",
+   "type": "Epic",
+   "ovr": 83,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|donyell malen|CF|Highlight|93": {
+   "id": "52900306996396",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-16"
+  },
+  "netherlands|donyell malen|RWF|Highlight|94": {
+   "id": "105850005998764",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-11"
+  },
+  "netherlands|edgar davids|DMF|EpicBigTime|": {
+   "id": "88045755827099",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-05"
+  },
+  "netherlands|edwin van der sar|GK|EpicBigTime|": {
+   "id": "88045755827094",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 103,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-17"
+  },
+  "netherlands|frank rijkaard|CB|EpicBigTime|": {
+   "id": "88033139494376",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-27"
+  },
+  "netherlands|frank rijkaard|DMF|EpicBigTime|": {
+   "id": "88036629155304",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|giovanni van bronckhorst|LB|EpicBigTime|": {
+   "id": "88046292760702",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-12"
+  },
+  "netherlands|gjivai zechiel|CMF|Highlight|93": {
+   "id": "52912655073911",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-22"
+  },
+  "netherlands|ian maatsen|LB|Highlight|94": {
+   "id": "105820746548514",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|jaap stam|CB|EpicBigTime|": {
+   "id": "88040655690467",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|jan paul van hecke|CB|Highlight|94": {
+   "id": "52904870408433",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-06"
+  },
+  "netherlands|jeremie frimpong|RB|Highlight|95": {
+   "id": "105847321659866",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-01"
+  },
+  "netherlands|johan cruyff|AMF|EpicBigTime|": {
+   "id": "88044145348075",
+   "type": "Epic",
+   "ovr": 89,
+   "max": 103,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-04"
+  },
+  "netherlands|johan cruyff|CF|EpicBigTime|": {
+   "id": "88039581945323",
+   "type": "Epic",
+   "ovr": 88,
+   "max": 103,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|jorrel hato|LB|Highlight|94": {
+   "id": "105827189026473",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-30"
+  },
+  "netherlands|jurrien timber|RB|Highlight|95": {
+   "id": "55072755156027",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-03"
+  },
+  "netherlands|justin kluivert|AMF|Highlight|94": {
+   "id": "105832826126493",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|kenny tete|RB|Highlight|94": {
+   "id": "105818330556620",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|marco van basten|CF|EpicBigTime|": {
+   "id": "88036360719849",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|mark van bommel|CMF|EpicBigTime|": {
+   "id": "88038776506440",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|matthijs de ligt|CB|Highlight|95": {
+   "id": "105708808945081",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|micky van de ven|CB|Showtime|": {
+   "id": "106800535966712",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-15"
+  },
+  "netherlands|micky van de ven|LB|Highlight|96": {
+   "id": "105850006017016",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-11"
+  },
+  "netherlands|nathan ake|CB|Showtime|": {
+   "id": "106792751262070",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-16"
+  },
+  "netherlands|phillip cocu|DMF|EpicBigTime|": {
+   "id": "88039850247068",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|robin roefs|GK|Highlight|94": {
+   "id": "55070607676904",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-28"
+  },
+  "netherlands|ronald koeman|CB|EpicBigTime|": {
+   "id": "88038776506699",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|roy makaay|CF|EpicBigTime|": {
+   "id": "88041460860895",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-26"
+  },
+  "netherlands|ruud gullit|AMF|EpicBigTime|": {
+   "id": "88039045074410",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|ruud gullit|CF|EpicBigTime|": {
+   "id": "88041460993514",
+   "type": "Epic",
+   "ovr": 89,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-23"
+  },
+  "netherlands|ryan gravenberch|CMF|Highlight|96": {
+   "id": "105850006007901",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-11"
+  },
+  "netherlands|ryan gravenberch|DMF|Showtime|": {
+   "id": "106743359205469",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|virgil van dijk|CB|EpicBigTime|": {
+   "id": "89135066951464",
+   "type": "BigTime",
+   "ovr": 85,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "netherlands|wesley sneijder|AMF|EpicBigTime|": {
+   "id": "88045755831094",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-14"
+  },
+  "netherlands|xavi simons|AMF|Showtime|": {
+   "id": "106766444664616",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-20"
+  },
+  "norway|alexander sørloth|CF|Showtime|": {
+   "id": "106785503555830",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-16"
+  },
+  "norway|andreas schjelderup|LWF|Highlight|94": {
+   "id": "105865306845091",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "norway|antonio nusa|LWF|Highlight|93": {
+   "id": "52905407300229",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-19"
+  },
+  "norway|erling haaland|CF|EpicBigTime|": {
+   "id": "89138556701095",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 103,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-23"
+  },
+  "norway|fredrik aursnes|CMF|Highlight|94": {
+   "id": "105868259638236",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-17"
+  },
+  "norway|julian ryerson|RB|Highlight|95": {
+   "id": "105891076647836",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-22"
+  },
+  "norway|julian ryerson|RMF|Highlight|93": {
+   "id": "52898159537052",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "norway|jørgen strand larsen|CF|Highlight|94": {
+   "id": "105838731713986",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "norway|kristian thorstvedt|AMF|Highlight|93": {
+   "id": "105832020840182",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "norway|martin ødegaard|AMF|Highlight|95": {
+   "id": "56163408385004",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-23"
+  },
+  "norway|martin ødegaard|CMF|Showtime|": {
+   "id": "106772618646508",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "norway|oscar bobb|RWF|Highlight|94": {
+   "id": "105895371625019",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-11"
+  },
+  "norway|sander berge|DMF|Highlight|94": {
+   "id": "105800613872994",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "portugal|antonio silva|CB|Highlight|94": {
+   "id": "105870675564081",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-10"
+  },
+  "portugal|bernardo silva|CMF|Highlight|95": {
+   "id": "52912923449122",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-29"
+  },
+  "portugal|bruno fernandes|AMF|EpicBigTime|": {
+   "id": "89138019757152",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-03"
+  },
+  "portugal|bruno fernandes|CMF|Highlight|95": {
+   "id": "52889301085280",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|danilo pereira|CB|Highlight|93": {
+   "id": "105692702746631",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|deco|CMF|EpicBigTime|": {
+   "id": "88040387251711",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|diogo costa|GK|Showtime|": {
+   "id": "106740406415422",
+   "type": "Showtime",
+   "ovr": 81,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|diogo dalot|RB|Highlight|94": {
+   "id": "105810814422392",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|fabio silva|CF|Highlight|93": {
+   "id": "105892687251310",
+   "type": "Highlight",
+   "ovr": 93,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-22"
+  },
+  "portugal|francisco conceicao|AMF|Highlight|93": {
+   "id": "52892790828459",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-08"
+  },
+  "portugal|francisco conceicao|RWF|Showtime|": {
+   "id": "106799193796011",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-01"
+  },
+  "portugal|goncalo guedes|LMF|Highlight|93": {
+   "id": "52897085760666",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|goncalo inacio|CB|Highlight|93": {
+   "id": "52896012049652",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-30"
+  },
+  "portugal|goncalo ramos|CF|Showtime|": {
+   "id": "106782282354314",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-04"
+  },
+  "portugal|joao cancelo|LB|Highlight|94": {
+   "id": "52899233184427",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|joao cancelo|RB|Highlight|94": {
+   "id": "52903796587179",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-08"
+  },
+  "portugal|joao felix|LWF|Highlight|95": {
+   "id": "105848932265344",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-04"
+  },
+  "portugal|joao neves|CMF|Highlight|95": {
+   "id": "56162334699096",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "portugal|joao neves|RB|Highlight|95": {
+   "id": "52883127168600",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|luis figo|RMF|EpicBigTime|": {
+   "id": "88036360719797",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|luis figo|RWF|EpicBigTime|": {
+   "id": "88041460993461",
+   "type": "Epic",
+   "ovr": 88,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-26"
+  },
+  "portugal|mateus fernandes|CMF|Highlight|95": {
+   "id": "105873359923147",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-18"
+  },
+  "portugal|matheus nunes|LWF|Highlight|93": {
+   "id": "52876147825415",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|nelson semedo|RB|Showtime|": {
+   "id": "106793019746456",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-15"
+  },
+  "portugal|nuno mendes|LB|Showtime|": {
+   "id": "106748459484820",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|nuno tavares|LB|Highlight|93": {
+   "id": "52904065107464",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-15"
+  },
+  "portugal|pedro neto|LMF|Showtime|": {
+   "id": "106762686548319",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|pedro neto|LWF|Highlight|94": {
+   "id": "52875879369055",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|pepe|CB|EpicBigTime|": {
+   "id": "88040387126189",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-09"
+  },
+  "portugal|renato veiga|CB|Highlight|94": {
+   "id": "105865306855034",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "portugal|ricardo quaresma|RWF|EpicBigTime|": {
+   "id": "88045487395246",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-15"
+  },
+  "portugal|ruben dias|CB|Highlight|96": {
+   "id": "105799808562360",
+   "type": "Highlight",
+   "ovr": 84,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|rui costa|AMF|EpicBigTime|": {
+   "id": "88039045077725",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|rui silva|GK|Highlight|94": {
+   "id": "105848932186223",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-04"
+  },
+  "portugal|tomas araujo|CB|Highlight|95": {
+   "id": "105868259643695",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-17"
+  },
+  "portugal|vitinha|CMF|Showtime|": {
+   "id": "106748459487131",
+   "type": "Showtime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "portugal|vitinha|DMF|EpicBigTime|": {
+   "id": "88040118816667",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-21"
+  },
+  "senegal|antoine mendy|RB|Highlight|93": {
+   "id": "105895640052973",
+   "type": "Highlight",
+   "ovr": 79,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-15"
+  },
+  "senegal|edouard mendy|GK|Highlight|95": {
+   "id": "105860290427681",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-31"
+  },
+  "senegal|el-hadji diouf|CF|EpicBigTime|": {
+   "id": "88039934308531",
+   "type": "Epic",
+   "ovr": 83,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-12"
+  },
+  "senegal|ismaila sarr|AMF|Highlight|94": {
+   "id": "105811082853913",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-12"
+  },
+  "senegal|ismaila sarr|RWF|Highlight|94": {
+   "id": "105764643520025",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-12"
+  },
+  "senegal|kalidou koulibaly|CB|Highlight|94": {
+   "id": "105735669256549",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-26"
+  },
+  "senegal|lamine camara|CMF|Highlight|94": {
+   "id": "105860290475507",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-31"
+  },
+  "senegal|moussa niakhate|CB|Highlight|93": {
+   "id": "105860290422217",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-31"
+  },
+  "senegal|nicolas jackson|CF|Showtime|": {
+   "id": "106797935502918",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-04"
+  },
+  "senegal|pape gueye|CMF|Highlight|93": {
+   "id": "56164566026195",
+   "type": "Trending",
+   "ovr": 93,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-27"
+  },
+  "senegal|pape gueye|DMF|Highlight|95": {
+   "id": "105785044617171",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-26"
+  },
+  "senegal|pape matar sarr|CMF|Highlight|93": {
+   "id": "105877386437993",
+   "type": "Highlight",
+   "ovr": 81,
+   "max": 93,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-04"
+  },
+  "senegal|sadio mane|LWF|EpicBigTime|": {
+   "id": "89137029898200",
+   "type": "BigTime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-12"
+  },
+  "spain|albert ferrer|RB|EpicBigTime|": {
+   "id": "88040387251675",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|alex baena|LWF|Highlight|96": {
+   "id": "105854569418342",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20",
+   "approx": true
+  },
+  "spain|andres iniesta|CMF|EpicBigTime|": {
+   "id": "88036360589289",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|andres iniesta|LMF|EpicBigTime|": {
+   "id": "89138288136169",
+   "type": "BigTime",
+   "ovr": 88,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-16"
+  },
+  "spain|aymeric laporte|CB|Highlight|94": {
+   "id": "105684112816546",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20"
+  },
+  "spain|dani olmo|AMF|Showtime|": {
+   "id": "106787651039542",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20"
+  },
+  "spain|david raya|GK|Showtime|": {
+   "id": "106778524224656",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-01"
+  },
+  "spain|david villa|CF|EpicBigTime|": {
+   "id": "88044145220884",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-17"
+  },
+  "spain|dean huijsen|CB|Showtime|": {
+   "id": "106766981558114",
+   "type": "Showtime",
+   "ovr": 84,
+   "max": 98,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|diego costa|CF|EpicBigTime|": {
+   "id": "88045487427597",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 103,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "spain|eric garcia|CB|Highlight|95": {
+   "id": "52898427956609",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|fermin lopez|AMF|Highlight|95": {
+   "id": "52905138878220",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-11-12"
+  },
+  "spain|fernando torres|CF|EpicBigTime|": {
+   "id": "88046292701296",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-10-11"
+  },
+  "spain|ferran torres|LWF|Highlight|95": {
+   "id": "52912386590735",
+   "type": "Trending",
+   "ovr": 95,
+   "max": 97,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-09-17"
+  },
+  "spain|gerard pique|CB|EpicBigTime|": {
+   "id": "88041460867519",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-18"
+  },
+  "spain|iker casillas|GK|EpicBigTime|": {
+   "id": "88036360586068",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|joan garcia|GK|Showtime|": {
+   "id": "106777987393262",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-21"
+  },
+  "spain|jordi alba|LB|EpicBigTime|": {
+   "id": "88033407835625",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|lamine yamal|RMF|EpicBigTime|": {
+   "id": "88040118843714",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|lamine yamal|RWF|EpicBigTime|": {
+   "id": "89138019858754",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-21"
+  },
+  "spain|marc cucurella|LB|Showtime|": {
+   "id": "106787651045215",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20"
+  },
+  "spain|marco asensio|AMF|Showtime|": {
+   "id": "106779597968380",
+   "type": "Showtime",
+   "ovr": 83,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-06-18"
+  },
+  "spain|marcos llorente|RB|Highlight|96": {
+   "id": "105800345424480",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-05-20",
+   "approx": true
+  },
+  "spain|nico williams|LMF|Highlight|96": {
+   "id": "105801687641013",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-02"
+  },
+  "spain|oihan sancet|AMF|Highlight|96": {
+   "id": "55068728625084",
+   "type": "Trending",
+   "ovr": 96,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|pau cubarsi|CB|Showtime|": {
+   "id": "106782819256128",
+   "type": "Showtime",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-12"
+  },
+  "spain|pedri|CMF|EpicBigTime|": {
+   "id": "89135067039781",
+   "type": "BigTime",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|pedro porro|RB|Highlight|94": {
+   "id": "56165824320532",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 96,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-03"
+  },
+  "spain|pedro porro|RMF|Highlight|95": {
+   "id": "52895743595540",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22",
+   "approx": true
+  },
+  "spain|raul|CF|EpicBigTime|": {
+   "id": "88039045003638",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|robin le normand|CB|Highlight|94": {
+   "id": "52890106443145",
+   "type": "Trending",
+   "ovr": 94,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|rodrigo riquelme|LMF|Highlight|94": {
+   "id": "105816720015622",
+   "type": "Highlight",
+   "ovr": 80,
+   "max": 94,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "spain|rodri|DMF|EpicBigTime|": {
+   "id": "89138556678367",
+   "type": "BigTime",
+   "ovr": 87,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20"
+  },
+  "spain|sergi barjuan|LB|EpicBigTime|": {
+   "id": "88038776638902",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|sergio busquets|DMF|EpicBigTime|": {
+   "id": "88033407833768",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|thiago alcantara|CMF|EpicBigTime|": {
+   "id": "88039850287270",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|unai simon|GK|Showtime|": {
+   "id": "106787651035597",
+   "type": "Showtime",
+   "ovr": 87,
+   "max": 102,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-20"
+  },
+  "spain|xabi alonso|DMF|EpicBigTime|": {
+   "id": "88035555413501",
+   "type": "Epic",
+   "ovr": 85,
+   "max": 99,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|xavi|CMF|EpicBigTime|": {
+   "id": "88040387117922",
+   "type": "Epic",
+   "ovr": 87,
+   "max": 101,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-04-16"
+  },
+  "spain|xavi|DMF|EpicBigTime|": {
+   "id": "88033139360610",
+   "type": "Epic",
+   "ovr": 86,
+   "max": 100,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-03-22"
+  },
+  "spain|yeray alvarez|CB|Highlight|95": {
+   "id": "105845711020494",
+   "type": "Highlight",
+   "ovr": 82,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-08-13"
+  },
+  "spain|yeremy pino|SS|Highlight|95": {
+   "id": "105859132827344",
+   "type": "Highlight",
+   "ovr": 83,
+   "max": 95,
+   "status": "likely",
+   "t": "2026-11-23",
+   "asof": "2026-07-16"
+  }
+ },
+ "miss": {
+  "spain|marcos alonso|CB|Highlight|94": {
+   "n": 1,
+   "t": "2026-11-23",
+   "asof": "2026-05-20"
+  }
+ }
+}
