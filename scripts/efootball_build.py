@@ -1129,7 +1129,7 @@ def _backfill_cards(wants, cache, today):
         except cardfetch.Unavailable as e:
             used += 1
             blocked += 1
-            log(f"  unavailable {name} {pos}: {e}")
+            log(f"  unavailable {name} ({pos}, {card_type} {rating:g}): {e}")
             if blocked >= CARD_BLOCK_ABORT:
                 log("Cards: search unavailable — stopping early.")
                 break
@@ -1153,6 +1153,8 @@ def _backfill_cards(wants, cache, today):
             cards[key] = entry
             miss.pop(key, None)
             found += 1
+            approximate = " — approximate rating match" if card.get("approx") else ""
+            log(f"  ok   {name} ({pos}, {card_type} {rating:g}, #{card['id']}){approximate}")
         else:
             entry = {"n": (miss.get(key) or {}).get("n", 0) + 1, "t": stamp}
             if as_of:
@@ -1162,10 +1164,13 @@ def _backfill_cards(wants, cache, today):
             cards.pop(key, None)
             miss[key] = entry
             missed += 1
+            log(
+                f"  null {name} ({pos}, {card_type} {rating:g}) — "
+                f"no matching card after {n} search request(s)"
+            )
         done += 1
         if done % 25 == 0:
             save_card_cache(cache)
-            log(f"  ... {done} looked up ({found} found, {missed} missing)")
     save_card_cache(cache)
     log(f"Cards: {found} found, {missed} missing, {used} request(s).")
 

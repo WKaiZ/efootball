@@ -3597,6 +3597,14 @@
    "status": "confirmed",
    "t": "2026-11-23"
   },
+  "denmark|joakim maehle|LB|Standard|75": {
+   "id": "119695",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 89,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
   "denmark|mathias jensen|CMF|Highlight|94": {
    "asof": "2026-04-14",
    "id": "105833094567530",
@@ -3859,6 +3867,14 @@
    "type": "Standard",
    "ovr": 72,
    "max": 72,
+   "status": "confirmed",
+   "t": "2026-11-23"
+  },
+  "egypt|marwan ateya|DMF|Standard|73": {
+   "id": "84056521",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
    "status": "confirmed",
    "t": "2026-11-23"
   },
@@ -13196,14 +13212,5 @@
    "type": "Highlight"
   }
  },
- "miss": {
-  "denmark|joakim maehle|LB|Standard|75": {
-   "n": 1,
-   "t": "2026-11-23"
-  },
-  "egypt|marwan ateya|DMF|Standard|73": {
-   "n": 1,
-   "t": "2026-11-23"
-  }
- }
+ "miss": {}
 }

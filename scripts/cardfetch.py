@@ -51,10 +51,21 @@ class Unavailable(Exception):
 
 
 def norm(s):
-    s = unicodedata.normalize("NFKD", s or "")
+    s = unicodedata.normalize("NFKD", s or "").lower()
+    s = s.translate(str.maketrans({
+        "æ": "ae", "ø": "o", "œ": "oe", "ß": "ss",
+        "ł": "l", "đ": "d", "ð": "d", "þ": "th",
+    }))
     s = "".join(c for c in s if not unicodedata.combining(c))
-    s = re.sub(r"[^\w\s]", " ", s.lower())
+    s = re.sub(r"[^\w\s]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+def _phonetic_token(token):
+    """A conservative key for common vowel and consonant spelling variants."""
+    token = token.replace("y", "i")
+    token = re.sub(r"[aeiou]", "a", token)
+    return re.sub(r"(.)\1+", r"\1", token)
 
 
 def card_group(card_type):
@@ -158,11 +169,19 @@ def name_score(want, got):
     if not a or not b:
         return 0
     if a == b:
-        return 2
+        return 3
     short, long = (a, b) if len(a) <= len(b) else (b, a)
     if _tokens_match(short, long):
-        return 1
+        return 2
     if len(a) == len(b) == 2 and a[1] == b[1] and a[0][0] == b[0][0]:
+        return 2
+
+    # Transliteration often changes vowels or doubles a consonant (for example,
+    # Ateya/Attia). Use this weaker match only when the complete token sequence
+    # agrees phonetically; pick() requires it to identify one player uniquely.
+    phonetic_a = [_phonetic_token(token) for token in a]
+    phonetic_b = [_phonetic_token(token) for token in b]
+    if len(phonetic_a) == len(phonetic_b) and phonetic_a == phonetic_b:
         return 1
     return 0
 
@@ -192,13 +211,14 @@ def _pick_card(cards, card_type, rating, strict):
     return best and {**best, "approx": True}
 
 
-def pick(cards, name, pos, card_type, rating, strict="exact"):
+def pick(cards, name, pos, card_type, rating, strict="exact", allow_phonetic=True):
     wanted = WANTED.get(card_type, {card_type})
     people = {}
     for c in cards:
         if c["pos"] == pos and c["type"] in wanted:
             people.setdefault(base_id(c["id"]), []).append(c)
-    for score in (2, 1):
+    scores = (3, 2, 1) if allow_phonetic else (3, 2)
+    for score in scores:
         hits = []
         for person_cards in people.values():
             if max(name_score(name, c["name"]) for c in person_cards) != score:
@@ -209,6 +229,8 @@ def pick(cards, name, pos, card_type, rating, strict="exact"):
         if len(hits) == 1:
             return hits[0]
         if hits:
+            if score == 1:
+                return None
             level = int(float(rating)) if card_type in RATED else None
             if level is None:
                 return None
@@ -226,7 +248,7 @@ def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_o
         cards, has_next = search(query, pos, page, as_of)
         requests += 1
         seen.extend(c for c in cards if c["id"] not in exclude)
-        if not has_next or pick(seen, name, pos, card_type, rating, strict):
+        if not has_next or pick(seen, name, pos, card_type, rating, strict, allow_phonetic=False):
             break
     return seen, requests
 
