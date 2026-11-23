@@ -1,261 +1,120 @@
 # efootball
 
-Tooling for drafting an eFootball "gameplan" (11 starters + 11 substitutes + 1 wildcard) for a national team. The pipeline scrapes shirt-number history from Transfermarkt, pulls the most recent ESPN match lineup to flag who is currently in the squad, then runs a deterministic builder that picks players for each formation slot and assigns each picked player a real jersey number they have actually worn.
+Tracks eFootball national-team squads. Each nation has a hand-maintained player pool; a deterministic drafter picks a gameplan (11 starters, 11 substitutes, 1 wildcard) with real jersey numbers scraped from Transfermarkt and ESPN, and a build script turns the results into JSON for a static site in `docs/`, published with GitHub Pages and refreshed daily by GitHub Actions.
 
-The SQLite database `pes.db` lives at the repo root. Nation files are grouped under `nations/`: `contenders/` (FIFA ranks 1–20), `challengers/` (21–50), `backup/` (51–100), and `reserve/` (101 and lower). Folder and file slugs follow FIFA's team labels, such as `cabo-verde` and `korea-republic`; pass a bare slug such as `france` to the scripts. `common/country_locator.py` resolves it. Comment-only reserve player files are ignored by automatic workflow discovery until a player row is added. The static site in `docs/` is built from the nation files and database by `scripts/efootball_build.py`.
+## Repo layout
 
-Nation completion is available for zsh and bash. Add `autoload -Uz compinit && compinit` followed by `source "/Users/wkaiz/Desktop/efootball/completions/run_workflow.zsh"` to `~/.zshrc`, then restart the shell. For bash, add `source "/Users/wkaiz/Desktop/efootball/completions/run_workflow.bash"` to `~/.bashrc`. Completion reads the nation folder names directly, so new nations appear automatically.
-
----
-
-## 1. Setup
-
-Requirements:
-
-- Python 3 (anything recent), with [`conda`](https://docs.conda.io/) on `PATH`. `run_workflow.sh` activates an env named `pes` by default (override with `ENV_NAME=...`).
-- A Chromium install for Playwright (used as a fallback when Transfermarkt's WAF blocks plain HTTP).
-
-Install:
-
-```bash
-conda create -n pes python=3.11 -y
-conda activate pes
-pip install -r requirements.txt
-python -m playwright install chromium
+```
+nations/<group>/<country>/   per-nation inputs and drafted squads
+  <country>_players.txt      player pool (hand-maintained)
+  <country>.txt              drafted squad (generated)
+nations/ranking.json         FIFA ranking snapshot used for grouping
+scripts/                     command-line entry points and site build
+jersey_fetch/                ESPN lineup + Transfermarkt jersey scraping
+gameplan/                    draft builder (lineup, formation, jersey assignment)
+common/                      country slug lookup
+reference/                   draft rules (draft_gameplan_rules.txt)
+data/                        caches: card_cache.json, photo caches, overrides
+docs/                        static site: index.html, squads.json, players.json, history.json
+pes.db                       SQLite: players, jersey history, game_data
+run_workflow.sh              local workflow wrapper
+.github/workflows/           site.yml (daily build), tm-probe.yml (diagnostic)
 ```
 
-`requirements.txt` pins the four runtime dependencies:
+Groups follow the FIFA men's ranking: `contenders` (1-20), `challengers` (21-50), `backup` (51-100), `reserve` (101+). Slugs follow FIFA labels (`cabo-verde`, `korea-republic`); scripts take a bare slug such as `france`.
 
-- `requests`, `beautifulsoup4` — ESPN/DuckDuckGo/Wikidata HTTP + HTML parsing.
-- `playwright` — headless Chromium for Transfermarkt pages and ID search.
-- `curl_cffi` — TLS-impersonating HTTP client tried first against Transfermarkt before falling back to Playwright.
+## File formats
 
----
+### `<country>_players.txt`
 
-### Transfermarkt human verification
-
-If fetching reports a bot check, run:
-
-```bash
-TRANSFERMARKT_INTERACTIVE=1 ./run_workflow.sh gabon
-```
-
-This opens installed Google Chrome and waits up to five minutes for you to complete
-verification. A dedicated `.transfermarkt-browser/` profile preserves browser data
-between players and runs; it is ignored by Git. This uses Playwright's
-[persistent browser context](https://playwright.dev/python/docs/api/class-browsertype#browser-type-launch-persistent-context).
-Keep the window open until the fetcher closes it. Verification may be requested again;
-this mode does not automatically solve CAPTCHAs or guarantee access.
-
-If Chrome is unavailable, use the installed Playwright Chromium:
-
-```bash
-TRANSFERMARKT_INTERACTIVE=1 PLAYWRIGHT_BROWSER_CHANNEL=chromium ./run_workflow.sh gabon
-```
-
-Set `TRANSFERMARKT_PROFILE_DIR` to use another dedicated profile directory. Run only
-one interactive fetcher per profile at a time. Blocked pages are reported as blocked,
-rather than as missing jersey history. Ctrl-C stops the entrypoint cleanly.
-
----
-
-## 2. Per-country inputs
-
-For each national team, use the FIFA-label slug in the appropriate group (for example, `nations/contenders/belgium/`, `nations/backup/iceland/`, or `nations/reserve/luxembourg/`) and include:
-
-### `<country>_players.txt` (required)
-
-One row per player+main-position combination. Comma-separated columns:
+One row per player and main position. `#` lines and blank lines are ignored; a player may have several rows for different positions.
 
 ```
 Name, MAIN_POS, RATING, RECENT, CARD_TYPE, [PROFICIENT_POSITIONS], [SEMIPROFICIENT_POSITIONS]
+Pelé, CF, 99.81, False, Epic, [CF, SS], [AMF]
 ```
 
-- `MAIN_POS` — one of `GK, CB, LB, RB, LWB, RWB, DMF, CMF, AMF, LMF, RMF, LWF, RWF, SS, CF`.
-- `RATING` — float; the builder is rating-driven.
-- `RECENT` — `True`/`False`. `True` means the player is in the latest national-team squad and locks their most recently worn jersey number. The workflow rewrites this column from ESPN's latest lineup when `--refetch` or `--lineup-only` is used.
-- `CARD_TYPE` — `Epic`, `BigTime`, `Showtime`, `Highlight`, or `Standard`. Anything other than those four "non-Standard" tiers is treated as Standard.
-- `[PROFICIENT_POSITIONS]` and `[SEMIPROFICIENT_POSITIONS]` — bracketed, comma-separated position lists (may be empty, e.g. `[]`).
+- `MAIN_POS`: `GK, CB, LB, RB, LWB, RWB, DMF, CMF, AMF, LMF, RMF, LWF, RWF, SS, CF`.
+- `RECENT`: `True` if the player is in the latest national-team squad (rewritten from ESPN by the workflow).
+- `CARD_TYPE`: `Epic`, `BigTime`, `Showtime`, `Highlight`, or `Standard`.
 
-A player can appear on multiple lines if they have separate cards for different main positions (see `nations/contenders/belgium/belgium_players.txt` for examples like Charles De Ketelaere as both `SS` and `AMF`). Lines starting with `#` and blank lines are ignored.
+### `<country>.txt`
 
-### Formation selection
-
-The default formation in `gameplan/formation.py` is:
-
-```
-CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK
-```
-
-The draft starts from the default formation and selects eligible alternatives
-while rendering each squad. It switches only when an alternate slot has a
-higher-tier Epic, BigTime, or Showtime main-position card among rendered starters
-and substitutes. Epic and BigTime share the top tier, above Showtime; equal tiers
-keep the current position. Allowed switches are LWF→LMF, RWF→RMF, CF→SS, and
-AMF→SS. Contender formations are calculated independently for each squad after
-excluding cards used in earlier squads. No formation files are needed.
-
-### `<country>.txt` (output, generated)
-
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Rows are aligned in fixed columns under a header row, exactly as the terminal prints them (one renderer, `render_lines`, produces both). `SLOT` is the formation slot, `POS` the card's main position, and `NO.` the assigned jersey number:
+Drafted by `scripts/draft_gameplan.py`. Contenders get a First and Second Squad (later squads exclude cards already used); challengers get one squad; backup and reserve nations list starters only.
 
 ```
 Starters:
-  SLOT  PLAYER                POS  RATING  NO.
-  CF    Thierry Henry         CF   100.03  #12
-  LWF   Franck Ribéry         LWF   98.32  #7
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Adriano           CF    98.68  #9
+  LWF   Ronaldinho        LWF   99.95  #10
   CB    VACANT
 ```
 
-`scripts/efootball_build.py` also still parses the older `[CF] Name (CF) rating 100.03 #12` layout found in git history. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers**, **backup** and **reserve** nations render a single squad (starters only for backup and reserve). The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows two squads for contenders and one for everyone else.
+The formation starts from `CF, LWF, RWF, AMF, CMF, DMF, LB, CB, CB, RB, GK` and switches a slot (e.g. LWF to LMF, CF to SS) only for a higher-tier special card. Full selection and numbering rules are in [`reference/draft_gameplan_rules.txt`](./reference/draft_gameplan_rules.txt).
 
----
+## Daily pipeline
 
-## 3. Running the workflow
+`.github/workflows/site.yml` runs every day (and on demand):
 
-The convenience wrapper:
+1. Runs `scripts/efootball_build.py`, which reads every nation's player and squad files plus `pes.db`, derives squad history from git, and writes `docs/squads.json`, `docs/players.json` and `docs/history.json`.
+2. Resolves player photos (Transfermarkt, then FotMob) and card images, within a per-run request budget, caching results under `data/`.
+3. Commits the updated JSON and caches back to `main`, which GitHub Pages serves.
+
+Drafting squads and scraping jersey numbers happen locally with `run_workflow.sh`.
+
+## Card images
+
+Card art comes from efHUB, found through pesdb.net's player search by name and main position, and is cached in `data/card_cache.json`. The site falls back to the player photo, then initials.
+
+- Existing rows follow the as-of-date rule: a special card is the newest matching card as of the date the row's current rating first appeared in git history.
+- Rows added or edited after 2026-11-23 take the newest card of that type for that player and position.
+- `Standard` matches the card whose OVR equals the whole-number part of `RATING` (nearest card if none is exact, marked approximate).
+- `Epic` and `BigTime` are interchangeable; `Showtime` matches Show Time cards.
+- `Highlight` covers both Highlight and Trending cards.
+- Automatic special-card picks are `likely` until the user confirms them; confirmed picks and all Standard cards are `confirmed`. Confirmed cards are never looked up again; editing a row's rating, card type or position makes it a new row.
+
+Try one lookup: `python3 scripts/cardfetch.py "Thierry Henry" CF Epic 100.03`.
+
+## Running locally
+
+Setup: `conda create -n pes python=3.11 -y && conda activate pes && pip install -r requirements.txt && python -m playwright install chromium` (`run_workflow.sh` activates the `pes` env; override with `ENV_NAME`).
 
 ```bash
-./run_workflow.sh                           # run for every country folder that has *_players.txt
-./run_workflow.sh france                    # run for one country
-./run_workflow.sh belgium france germany    # run for several countries
-./run_workflow.sh backup                    # run all populated backup nations
-./run_workflow.sh --lineup-only challengers  # lineup-only for populated challengers
-./run_workflow.sh --refetch france          # refresh ESPN lineup + reset/re-seed recent numbers; scrape only uncached players
-./run_workflow.sh --rescrape france         # force a full Transfermarkt re-scrape of every player (slow)
-./run_workflow.sh --lineup-only france      # refresh ESPN "recent" flags + seed latest squad numbers; skip Transfermarkt
+./run_workflow.sh                       # every nation with player rows
+./run_workflow.sh france germany        # specific nations
+./run_workflow.sh backup                # a whole group
+./run_workflow.sh --lineup-only france  # refresh ESPN recent flags/numbers only
+./run_workflow.sh --refetch france      # refresh lineup + reseed numbers; scrape new players
+./run_workflow.sh --rescrape france     # full Transfermarkt re-scrape (slow)
+python3 scripts/draft_gameplan.py france  # redraft from existing pes.db data
+python3 scripts/efootball_build.py        # rebuild the site JSON
 ```
 
-Flags:
+`--game-index N` uses the Nth most recent match. If Transfermarkt shows a bot check, rerun with `TRANSFERMARKT_INTERACTIVE=1` to verify in a browser window. Shell completion for nation names is in `completions/` (zsh and bash).
 
-- `--refetch` (aliases: `--refresh`, `--no-cache`) — light refresh, no per-player Transfermarkt refetch. Re-pulls the latest ESPN lineup (updating `recent` flags), then for every player in that lineup deletes the stale ESPN-seeded rows at the top of their jersey history (rows with a calendar-year season such as `2026`; Transfermarkt rows like `26/27` are never touched) and re-seeds their current squad number at row 0, i.e. the `--lineup-only` logic with a reset. Players with no cached numbers yet (new additions) are still scraped from Transfermarkt once.
-- `--rescrape` — the old full refetch: ignore cached jersey rows for this country and re-scrape every player from Transfermarkt; also re-pulls ESPN. Only needed if Transfermarkt's shirt history itself has changed.
-- `--lineup-only` (alias: `--espn-lineup`) — update the `recent` flags in `<country>_players.txt` from the latest ESPN match, and prepend each matched player's latest squad number at row 0 of the jersey DB (so the builder locks their current number). Skips all Transfermarkt traffic — only players whose Transfermarkt ID is already cached get their numbers seeded (run `--refetch` once first for new players).
-- A group name (`contender`/`contenders`, `challenger`/`challengers`, `backup`, or `reserve`) — apply the selected workflow to every nation in that group with at least one player row. Empty reserve templates are skipped until populated.
-- `--game-index <N>` — use the Nth most recent completed match instead of the latest (1 = latest, 2 = second latest, …). Useful when the most recent match has no public jersey numbers. Cannot be combined with `--gameid`.
+## Viewing the site
 
-Combining any two of `--refetch`, `--rescrape` and `--lineup-only` is an error. Unlike `--refetch`, `--lineup-only` does not reset stale seed rows, and it skips players without a cached Transfermarkt ID.
+GitHub Pages serves `docs/` from `main`. To preview locally, run `python3 -m http.server -d docs 8000` and open http://localhost:8000.
 
-For each country the script runs these stages in order:
+## Environment variables
 
-1. `python scripts/fetch_number.py <country>` — ESPN recent-flag update + Transfermarkt jersey scrape into `pes.db`.
-2. `python scripts/fetch_game_data.py <country>` — Reads `<country>_players.txt`, resolves names to `player_id`s, and writes a `game_data` row per player+position into `pes.db`.
-3. `python scripts/prune_unconsidered_standard.py <country>` — Individually probes Standard rows that weren’t considered by temporarily raising each rating to the next whole number. Rows that still never enter a position or wildcard selector are removed; `Recent=True` contenders are preserved. If any rows are removed, `game_data` is refreshed from the edited file.
-4. `python scripts/draft_gameplan.py <country>` — Selects eligible formation positions while rendering, then writes the final gameplan to `<country>/<country>.txt`.
+| Variable | Default | Purpose |
+|---|---|---|
+| `EFOOTBALL_CARD_LIMIT` | `150` | Card lookups per build run |
+| `EFOOTBALL_CARD_DELAY` | `6` | Seconds between card requests |
+| `EFOOTBALL_CARD_TTL_DAYS` | `7` | Days before a missed card lookup is retried |
+| `EFOOTBALL_CARD_TYPES` | `all` | Card types to look up: `all`, `special`, `standard` |
+| `EFOOTBALL_CARD_NEWEST_AFTER` | `2026-11-23` | Rows changed after this date take the newest card |
+| `EFOOTBALL_TM_LIMIT` | `23` | Transfermarkt photos resolved per build run |
+| `TRANSFERMARKT_INTERACTIVE` | unset | `1` opens a browser for Transfermarkt verification |
 
-You can also run any of those scripts directly if you only need that one stage.
+## Scripts
 
-Extra flags honored by `scripts/fetch_number.py` directly (not exposed by `run_workflow.sh`):
-
-- `--gameid <espnEventId>` — pin a specific ESPN match instead of auto-resolving the latest one.
-
-`--game-index` is available both in `run_workflow.sh` and in `scripts/fetch_number.py` directly.
-
----
-
-## 4. Database schema (`pes.db`)
-
-Created and migrated automatically. Three tables:
-
-- `players(player_id TEXT PRIMARY KEY, name TEXT)` — Transfermarkt ID → official Transfermarkt display name.
-- `jersey(player_id, idx, season, country, number)` — Per-player jersey history, ordered newest-first by `idx`. `country` is the club or national team Transfermarkt label; the workflow filters to the relevant national team when assigning numbers.
-- `game_data(country, player_id, position, rating, recent, card_type, proficient_positions, semiproficient_positions)` — One row per player+position+country combo, populated from `<country>_players.txt`.
-
-`scripts/fetch_game_data.py` deletes the existing `game_data` rows for the target country before reinserting, so it is always safe to rerun.
-
----
-
-## 5. Draft rules
-
-The full, authoritative description of starter/substitute/wildcard selection, jersey-number tiering, recent-flag locks, and vacancy-fill order lives in [`reference/draft_gameplan_rules.txt`](./reference/draft_gameplan_rules.txt). The implementation in `gameplan/` follows that document.
-
----
-
-## 5a. Card images
-
-The site shows each player's eFootball card art from [efHUB](https://efhub.com/) (`https://efimg.com/efootballhub22/images/player_cards/<card id>_l.png`), falling back to the Transfermarkt photo and then to initials. `scripts/cardfetch.py` finds the card id with pesdb.net's public player search (efHUB's own search API refuses outside requests; both sites use Konami's card ids). It filters by name and main position, sorted newest first.
-
-For special cards, "newest" means newest **as of the date the row's current rating first appeared** in the nation's `_players.txt` git history (pesdb's `time_added[max]` filter), because the row describes the card you had when you rated it. Rows unchanged since history began use that first date. Each row is matched like this:
-
-| Your `CARD_TYPE` | Card picked |
-|---|---|
-| `Standard` | The Standard card whose OVR equals the whole-number part of `RATING` |
-| `Epic` / `BigTime` | The newest Epic **or** Big Time card as of the row's date (the two labels are interchangeable) |
-| `Showtime` | The newest Show Time card as of the row's date |
-| `Highlight` | The newest Highlight card whose MAX equals the whole-number part of `RATING`, or Trending card whose unboosted OVR equals it, as of the row's date |
-
-Names match exactly, by subset ("Gabriel" → "Gabriel Magalhães"), by initials ("Karl-Heinz Rummenigge" → "K. Heinz Rummenigge"), by short form ("Rafa" → "Rafael"), or with one or two letters different ("Lamlioui" → "Lamlaoui", "Yahia Attiyat Allah" → "Yahya Attiat-Allah"). If the full name finds nothing, the surname and then the other name parts are searched. A match must point to exactly one person. Every row is assumed to have a card. For Standard and Highlight rows with no exact rating match, the closest card is used (within ±1 if possible, otherwise the nearest; Trending cards are compared by OVR or MAX) and marked `"approx": true`.
-
-Results live in `data/card_cache.json`: `cards` holds matches and `miss` holds lookups that found nothing. Each match has a `status`:
-
-- `likely`: an automatic special-card pick that hasn't been confirmed.
-- `confirmed`: a card you approved or chose, or any Standard card.
-
-A special card is looked up again only when its row's rating changes. It comes back `likely` unless the same card is found. Banned cards (`"bad"` ids) are never picked again, and misses are retried weekly. Each run of `scripts/efootball_build.py` spends its request budget on new special cards first, then on new Standard cards.
-
-Tunables:
-
-- `EFOOTBALL_CARD_LIMIT`: requests per run, default 150.
-- `EFOOTBALL_CARD_DELAY`: seconds between requests, default 6. A 429 response is retried after its `Retry-After` wait.
-- `EFOOTBALL_CARD_TTL_DAYS`: days between retries of a miss, default 7.
-- `EFOOTBALL_CARD_TYPES`: `all` (default), `special` or `standard`.
-
-Try one lookup by hand with `python3 scripts/cardfetch.py "Thierry Henry" CF Epic 100.03`.
-
----
-
-## 6. File-by-file reference
-
-### Repo root
-
-- `run_workflow.sh` — Bash entry point. Parses `--refetch` / `--rescrape` / `--lineup-only` / country args, activates the conda env, and runs the workflow stages per country. Auto-discovers `nations/<group>/<country>/*_players.txt` when no country is passed.
-- `common/` — Shared country-directory lookup used by the scraping, data-loading, and command-line code.
-- `scripts/` — Command-line entry points and site maintenance tools.
-- `scripts/fetch_number.py` — ESPN and Transfermarkt fetch entry point.
-- `scripts/fetch_game_data.py` — Reads `<country>_players.txt`, parses each line, fuzzy-matches the name to a `player_id` from the `players` table (with a Levenshtein fallback and a hardcoded `MANUAL_ID_OVERRIDES` map for ambiguous names), and writes the resulting rows into `game_data`. Reports parse warnings and unmatched names at the end.
-- `scripts/draft_gameplan.py` — Loads `game_data`, chooses eligible formation slots from rendered card tiers, calls `gameplan.builder.build_gameplan`, and writes the output to stdout and `<country>/<country>.txt`. Contenders receive one further pass (two squads); challengers draft a single squad, and backup and reserve nations show starters only.
-- `scripts/prune_unconsidered_standard.py` — Traces selector candidate entries, probes each baseline non-entrant at the next whole-number rating, and removes Standard rows that still reach no position or wildcard selector. Supports `--dry-run` for reporting without changes.
-- `scripts/cardfetch.py` — Card id lookup and selection for the site's card images (see 5a).
-- `scripts/sort_players.py` — Sorts each nation’s player file by position, rating, and card tier.
-- `reference/` — Draft rules and other maintained reference material.
-- `requirements.txt` — Python dependencies.
-- `pes.db` — SQLite database (committed). Holds `players`, `jersey`, and `game_data`.
-- `.gitignore` — Ignores Python cache files, planning data, and the Transfermarkt browser profile.
-- `nations/` — Per-country inputs and generated text output, grouped into `contenders/`, `challengers/`, `backup/`, and `reserve/` by the October 7, 2026 FIFA men's ranking. The complete 211-team snapshot and source link are in [`nations/ranking.json`](./nations/ranking.json); the reserve folder has one player-file template for each team ranked below 100.
-
-### `jersey_fetch/` — ESPN + Transfermarkt scraping
-
-- `run.py` — Orchestrates the scrape. Parses CLI args, reads `<country>_players.txt`, optionally fetches ESPN's latest match to flip `recent` flags and seed the most recent jersey number, then for each player resolves their Transfermarkt ID, fetches their `rueckennummern` page, parses national-team rows, and stores them in `pes.db` (or short-circuits on cached rows). If that page has no senior national numbers, it falls back to the player profile header shirt number and stores it as a `26/27` row for the expected nation.
-- `discovery.py` — Finds a player's Transfermarkt numeric ID using Wikidata's P2446 property first, then DuckDuckGo HTML search, then a Playwright-driven Transfermarkt search and DuckDuckGo browser search as fallbacks. `score_transfermarkt_candidate` ranks search hits.
-- `transfermarkt.py` — Fetches Transfermarkt HTML. Tries `curl_cffi` (Chrome TLS impersonation) first; on failure or AWS WAF challenge falls back to a hardened Playwright Chromium context (German locale, stealth init script, cookie-banner click). `extract_national_numbers_from_html` parses the `#yw2 .grid-view` table, skipping youth/B-team/Olympic rows. `extract_profile_shirt_number` reads the current `#N` from a player profile header.
-- `espn.py` — Resolves an ESPN team ID from the country label (filtering out women's competitions), finds the most recent completed match for that team, downloads its `summary` payload, and produces an `aliases + jersey + role` roster. `map_recent_players_to_roster` matches each ESPN entry against players in `<country>_players.txt`.
-- `matching.py` — Name-token compatibility helpers used by the ESPN matcher (initials, surname Levenshtein tolerance, role compatibility, scoring/tiebreak).
-- `players_file.py` — Parses CLI args (`parse_args`), resolves the per-country players file path, rewrites `<country>_players.txt` in place to update names or `recent` flags (`rewrite_players_txt`), and builds the local "profiles" + position search hints used by ESPN matching and Transfermarkt search.
-- `storage.py` — All `pes.db` access for this package: schema bootstrap (`init_db`), name→ID map, manual-override lookup, jersey insertion (with optional country-scoped delete), cache load, and warnings when a player's stored jersey rows do not include the expected nation.
-- `constants.py` — Shared constants: DB path (re-exported from `gameplan.constants`), HTTP user agents, manual Transfermarkt ID overrides per country, ESPN exclusions and manual role overrides, and the `POSITION_SEARCH_PHRASES` map used to disambiguate player searches.
-- `names.py` — `normalize_name`, DuckDuckGo redirect unwrapper, and a heuristic for invalid Transfermarkt page titles (WAF challenges, error pages).
-- `text_utils.py` — Levenshtein distance.
-- `__init__.py` — Marks the package; empty.
-
-### `gameplan/` — Draft builder
-
-- `builder.py` — `build_gameplan` is the entry point. Picks an initial lineup, runs the jersey-assignment phases, and then iteratively replaces starters whose preferred numbers cannot be assigned, fills vacancies in the documented stage order (`main` non-Std → `main` Std → `proficient` non-Std → `proficient` Std → `semiproficient` …), upgrades subs, and tries swap-based fills. Finally chooses a wildcard from the remaining pool.
-- `lineup.py` — `choose_initial_lineup` performs Stages A–D from `reference/draft_gameplan_rules.txt` for starters and the rating-driven first pass for substitutes (with a 4-tier `LWF`/`RWF` fallback for sub wings: non-Standard direct winger → non-Standard `SS` → Standard direct winger → Standard `SS` as last resort).
-- `jerseys.py` — Jersey number assignment. `load_jersey_stats` and `jersey_prefs_for_player` derive each player's preference list from `jersey` rows (Epic uses most-worn; everyone else uses newest-unique-first). `assign_jerseys` assigns numbers in the documented group order: starter non-Std main → starter non-Std proficient → starter Std main → starter Std proficient → sub non-Std normal → sub non-Std `SS`-on-wing → sub Std → sub non-Std `SS`-on-wing via proficient. Within each group, recent-flag locks run first, then card-tier buckets (Epic/BigTime > Showtime > Highlight > Standard), then a tie-break that won't steal another player's first-choice number.
-- `candidates.py` — Helpers for the builder's replacement loop: pick the next-best player for a slot (`next_candidate_for_slot`, `next_candidate_for_sub_wing`), refill empty subs (`refill_empty_subs`), and `try_free_jersey_via_swap` to free a recent player's preferred number by re-numbering a non-recent holder. `next_candidate_for_sub_wing` applies the 4-tier wing priority (non-Standard direct → non-Standard `SS` → Standard direct → Standard `SS`).
-- `data.py` — Loads `game_data` rows for a country into `PlayerRole` objects, loads formation file block(s) (`load_formations` / `load_formation`), and resolves the per-country file paths.
-- `formation.py` — `DEFAULT_FORMATION` and the mutable `FORMATION` list that the builder reads. `formation_selection.py` starts from `DEFAULT_FORMATION` and chooses eligible alternatives based on the rendered Epic/Showtime tier.
-- `models.py` — Plain-data classes: `PlayerRole` (one row of `game_data`) and `Assignment` (slot + player + jersey).
-- `constants.py` — `DB_PATH`, the set of non-Standard card types, the wing slot set used for the `SS` fallback, the `MATCH_STAGES` ordering used during sub vacancy fill, and `is_standard()`.
-- `__init__.py` — Marks the package; empty.
-
----
-
-## 7. Typical recipes
-
-- **First-time draft for a new country**: create `<group>/<country>/<country>_players.txt`, then `./run_workflow.sh <country>`. The first run can be slow because it scrapes Transfermarkt.
-- **Fastest refresh after a new international match**: `./run_workflow.sh --lineup-only <country>` to pull the latest ESPN squad and update `recent` flags, then `./run_workflow.sh <country>` to redraft using cached jerseys.
-- **After a new international match**: `./run_workflow.sh --refetch <country>` refreshes lineup flags and current numbers in seconds, without touching Transfermarkt for players already cached.
-- **Forcing a Transfermarkt re-scrape** (e.g. after an in-season jersey change): `./run_workflow.sh --rescrape <country>`.
-- **Most recent match has no public jersey numbers**: `./run_workflow.sh --refetch --game-index 2 <country>` to use the second-latest match instead. Increase the index for older matches.
-- **Drafting from existing data without scraping**: run only `python scripts/draft_gameplan.py <country>`. This requires `game_data` rows to already exist for that country in `pes.db`.
+- `scripts/efootball_build.py`: builds the site JSON, photos, card images, and squad history.
+- `scripts/draft_gameplan.py`: drafts a nation's squad(s) into `<country>.txt`.
+- `scripts/fetch_number.py`: ESPN lineup flags and Transfermarkt jersey history into `pes.db`.
+- `scripts/fetch_game_data.py`: loads `<country>_players.txt` into `pes.db`.
+- `scripts/prune_unconsidered_standard.py`: removes Standard rows that can never be selected.
+- `scripts/cardfetch.py`: card lookup and matching against pesdb.net.
+- `scripts/tmfetch.py`, `scripts/imgcache.py`: Transfermarkt photo fetching and cache.
+- `scripts/sort_players.py`, `scripts/prune_db.py`, `scripts/merge_json_conflict.py`: maintenance (sort player files, drop orphaned DB rows, merge JSON conflicts).

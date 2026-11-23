@@ -84,7 +84,9 @@ def _fetch(url, timeout=30):
                 wait = 60
             time.sleep(min(wait, RATE_LIMIT_MAX_WAIT) + 1)
         except Exception as e:
-            raise Unavailable(f"{type(e).__name__}: {e}") from e
+            if attempt == RATE_LIMIT_RETRIES:
+                raise Unavailable(f"{type(e).__name__}: {e}") from e
+            time.sleep(10 * (attempt + 1))
 
 
 def parse_results(page):
@@ -158,7 +160,11 @@ def name_score(want, got):
     if a == b:
         return 2
     short, long = (a, b) if len(a) <= len(b) else (b, a)
-    return 1 if _tokens_match(short, long) else 0
+    if _tokens_match(short, long):
+        return 1
+    if len(a) == len(b) == 2 and a[1] == b[1] and a[0][0] == b[0][0]:
+        return 1
+    return 0
 
 
 def _rating_value(card):
@@ -173,7 +179,7 @@ def _rating_gap(card, rating):
 
 
 def _pick_card(cards, card_type, rating, strict):
-    if card_type not in RATED:
+    if card_type not in RATED or strict == "newest":
         return cards[0] if cards else None
     level = int(float(rating))
     exact = [c for c in cards if _rating_value(c) == level]
@@ -203,11 +209,16 @@ def pick(cards, name, pos, card_type, rating, strict="exact"):
         if len(hits) == 1:
             return hits[0]
         if hits:
-            return None
+            level = int(float(rating)) if card_type in RATED else None
+            if level is None:
+                return None
+            hits.sort(key=lambda c: _rating_gap(c, level))
+            gaps = [_rating_gap(c, level) for c in hits[:2]]
+            return hits[0] if gaps[0] < gaps[1] else None
     return None
 
 
-def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of):
+def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of, strict="exact"):
     seen = []
     for page in range(1, MAX_PAGES + 1):
         if requests and delay:
@@ -215,7 +226,7 @@ def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_o
         cards, has_next = search(query, pos, page, as_of)
         requests += 1
         seen.extend(c for c in cards if c["id"] not in exclude)
-        if not has_next or pick(seen, name, pos, card_type, rating):
+        if not has_next or pick(seen, name, pos, card_type, rating, strict):
             break
     return seen, requests
 
@@ -228,18 +239,28 @@ def search_terms(name):
     return list(dict.fromkeys(terms))
 
 
-def resolve(name, pos, card_type, rating, delay=0.0, exclude=frozenset(), as_of=None):
-    if pos not in POSITIONS:
-        return None, 0
-    requests, seen = 0, []
+def _resolve_at(name, pos, card_type, rating, delay, exclude, as_of, requests, newest=False):
+    seen = []
+    first = "newest" if newest else "exact"
     for query in search_terms(name):
-        found_now, requests = _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of)
+        found_now, requests = _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_of, first)
         seen += [c for c in found_now if c["id"] not in {s["id"] for s in seen}]
-        found = pick(seen, name, pos, card_type, rating) or \
+        found = pick(seen, name, pos, card_type, rating, first) or \
             pick(seen, name, pos, card_type, rating, strict="near")
         if found:
             return found, requests
     return pick(seen, name, pos, card_type, rating, strict="any"), requests
+
+
+def resolve(name, pos, card_type, rating, delay=0.0, exclude=frozenset(), as_of=None, alt_pos=None,
+            newest=False):
+    requests = 0
+    for at in dict.fromkeys(p for p in (pos, alt_pos) if p in POSITIONS):
+        for when in dict.fromkeys((as_of, None)):
+            card, requests = _resolve_at(name, at, card_type, rating, delay, exclude, when, requests, newest)
+            if card:
+                return card, requests
+    return None, requests
 
 
 if __name__ == "__main__":

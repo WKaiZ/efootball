@@ -1,4 +1,4 @@
-Luis Suárez, CF, 98.73, False, Highlight, [CF, SS], [RWF]
+Luis Suárez, CF, 98.73, False, BigTime, [CF, SS], [RWF]
 Diego Forlán, CF, 98.33, False, Epic, [CF, SS, AMF], []
 Darwin Núñez, CF, 97.19, True, Showtime, [CF, LWF], [SS]
 Martín Satriano, CF, 93.09, True, Highlight, [CF], [SS, LMF, RMF]

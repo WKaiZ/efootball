@@ -46,6 +46,7 @@ CARD_DELAY = float(os.environ.get("EFOOTBALL_CARD_DELAY", "6"))
 CARD_TTL_DAYS = int(os.environ.get("EFOOTBALL_CARD_TTL_DAYS", "7"))
 CARD_TYPE_FILTER = os.environ.get("EFOOTBALL_CARD_TYPES", "all")
 CARD_BLOCK_ABORT = int(os.environ.get("EFOOTBALL_CARD_BLOCK_ABORT", "3"))
+CARD_NEWEST_AFTER = os.environ.get("EFOOTBALL_CARD_NEWEST_AFTER", "2026-11-23")
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -974,11 +975,14 @@ def build():
     _backfill_transfermarkt(all_players + extras, cache)
 
     card_cache = load_card_cache()
-    card_wants = [(c, p["name"], p["pos"], p["card_type"], p["rating"])
+    card_wants = [(c, p["name"], p["pos"], p["card_type"], p["rating"], p.get("days") or 0)
                   for c, p in all_players]
-    card_wants += [(c, e["name"], r[0], r[2], r[1]) for c, pool in pools.items()
+    card_wants += [(c, e["name"], r[0], r[2], r[1], None) for c, pool in pools.items()
                    for e in pool for r in e["rows"]]
-    card_wants = [(*w, card_since[w[0]](*w[1:])) for w in card_wants]
+    listed = {(c, norm(e["name"]), r[0], r[2]): r[3].split(",")[0] for c, pool in pools.items()
+              for e in pool for r in e["rows"]}
+    card_wants = [(*w[:5], card_since[w[0]](*w[1:5]), w[5], listed.get((w[0], norm(w[1]), w[2], w[3])))
+                  for w in card_wants]
     _backfill_cards(card_wants, card_cache, today)
 
     def card_img(c, name, pos, card_type, rating):
@@ -1078,25 +1082,27 @@ def _wanted_type(card_type):
 def _backfill_cards(wants, cache, today):
     cards, miss = cache["cards"], cache["miss"]
     queue, seen = [], set()
-    for c, name, pos, card_type, rating, since in wants:
+    for c, name, pos, card_type, rating, since, days, alt_pos in wants:
         key = card_key(c, name, pos, card_type, rating)
         if key in seen:
             continue
         seen.add(key)
         standard = card_type == "Standard"
         as_of = None if standard else since
+        prio = (0 if days is not None else 2) + (1 if standard else 0), -(days or 0)
+        newest = bool(as_of) and as_of > CARD_NEWEST_AFTER
         hit = cards.get(key)
         if card_type not in cardfetch.WANTED or not _wanted_type(card_type):
             continue
         if hit:
             if hit.get("status") == "confirmed" and not standard and "asof" not in hit:
                 hit["asof"] = as_of
-            elif not standard and hit.get("asof") != as_of:
-                queue.append((1, key, name, pos, card_type, rating, as_of))
+            elif not standard and hit.get("status") != "confirmed" and hit.get("asof") != as_of:
+                queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
         elif miss.get(key) and miss[key].get("asof") != as_of:
-            queue.append((0 if not standard else 2, key, name, pos, card_type, rating, as_of))
+            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
         elif _card_due(miss.get(key), today, CARD_TTL_DAYS):
-            queue.append((0 if not standard else 2, key, name, pos, card_type, rating, as_of))
+            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
     for store in (cards, miss):
         for key in [k for k in store if k not in seen]:
             del store[key]
@@ -1107,7 +1113,7 @@ def _backfill_cards(wants, cache, today):
         return
     log(f"Cards: {len(queue)} card(s) due, request budget {CARD_LIMIT}.")
     used = blocked = found = missed = done = 0
-    for _prio, key, name, pos, card_type, rating, as_of in queue:
+    for _prio, key, name, pos, card_type, rating, as_of, alt_pos, newest in queue:
         prev = cards.get(key) or miss.get(key) or {}
         bad = prev.get("bad", [])
         if used >= CARD_LIMIT:
@@ -1116,7 +1122,8 @@ def _backfill_cards(wants, cache, today):
             time.sleep(CARD_DELAY)
         try:
             card, n = cardfetch.resolve(name, pos, card_type, rating, delay=CARD_DELAY,
-                                        exclude=frozenset(bad), as_of=as_of)
+                                        exclude=frozenset(bad), as_of=as_of, alt_pos=alt_pos,
+                                        newest=newest)
             used += n
             blocked = 0
         except cardfetch.Unavailable as e:
