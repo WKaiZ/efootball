@@ -1,21 +1,24 @@
 Starters:
-  [CF] Abdul Aziz Al-Muqbali (CF) rating 68.73 #9
-  [LWF] Al-Mandhar Al-Alawi (LWF) rating 64.02 #15
-  [RWF] Ahmed Al-Riyami (RWF) rating 66.56 #33
-  [AMF] Omar Al-Malki (AMF) rating 65.96 #21
-  [CMF] Abdullah Fawaz (CMF) rating 68.99 #12
-  [DMF] Harib Al-Saadi (DMF) rating 70.45 #23
-  [LB] Ahmed Al-Kaabi (LB) rating 69.61 #14
-  [CB] Ahmed Al-Khamisi (CB) rating 68.74 #6
-  [CB] Khalid Al-Braiki (CB) rating 68.48 #16
-  [RB] Amjad Al-Harthi (RB) rating 67.63 #13
-  [GK] Ibrahim Al-Mukhaini (GK) rating 69.08 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Abdul Aziz Al-Muqbali  CF    68.73  #9
+  LWF   Al-Mandhar Al-Alawi    LWF   64.02  #15
+  RWF   Ahmed Al-Riyami        RWF   66.56  #33
+  AMF   Omar Al-Malki          AMF   65.96  #21
+  CMF   Abdullah Fawaz         CMF   68.99  #12
+  DMF   Harib Al-Saadi         DMF   70.45  #23
+  LB    Ahmed Al-Kaabi         LB    69.61  #14
+  CB    Ahmed Al-Khamisi       CB    68.74  #6
+  CB    Khalid Al-Braiki       CB    68.48  #16
+  RB    Amjad Al-Harthi        RB    67.63  #13
+  GK    Ibrahim Al-Mukhaini    GK    69.08  #1
 
 Substitutes:
-  [FW] Muhsen Al-Ghassani (CF) rating 67.44 #11
-  [MF] Jameel Al-Yahmadi (RMF) rating 70.08 #10
-  [DF] Ali Al-Busaidi (LB) rating 67.74 #17
-  [GK] Faiyz Al-Rusheidi (GK) rating 68.05 #18
+  SLOT  PLAYER                 POS  RATING  NO.
+  FW    Muhsen Al-Ghassani     CF    67.44  #11
+  MF    Jameel Al-Yahmadi      RMF   70.08  #10
+  DF    Ali Al-Busaidi         LB    67.74  #17
+  GK    Faiyz Al-Rusheidi      GK    68.05  #18
 
 Wildcard:
-  [WILD] Zahir Al-Aghbari (LMF) rating 69.83 #8
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Zahir Al-Aghbari       LMF   69.83  #8

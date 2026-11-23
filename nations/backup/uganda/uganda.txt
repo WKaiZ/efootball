@@ -1,23 +1,26 @@
 Starters:
-  [CF] Uche Ikpeazu (CF) rating 69.54 #9
-  [LWF] Melvyn Lorenzen (LWF) rating 69.80 #27
-  [RWF] Shafik Nana Kwikiriza (RWF) rating 65.28 #25
-  [AMF] Allan Okello (AMF) rating 68.46 #21
-  [CMF] Bobosi Byaruhanga (CMF) rating 67.43 #6
-  [DMF] Baba Alhassan (DMF) rating 67.77 #15
-  [LB] VACANT
-  [CB] Elio Capradossi (CB) rating 70.62 #13
-  [CB] Toby Sibbick (CB) rating 70.19 #5
-  [RB] VACANT
-  [GK] Denis Onyango (GK) rating 68.61 #18
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Uche Ikpeazu           CF    69.54  #9
+  LWF   Melvyn Lorenzen        LWF   69.80  #27
+  RWF   Shafik Nana Kwikiriza  RWF   65.28  #25
+  AMF   Allan Okello           AMF   68.46  #21
+  CMF   Bobosi Byaruhanga      CMF   67.43  #6
+  DMF   Baba Alhassan          DMF   67.77  #15
+  LB    VACANT
+  CB    Elio Capradossi        CB    70.62  #13
+  CB    Toby Sibbick           CB    70.19  #5
+  RB    VACANT
+  GK    Denis Onyango          GK    68.61  #18
 
 Substitutes:
-  [FW] Rogers Mato (LWF) rating 67.92 #7
-  [MF] Kenneth Semakula (DMF) rating 65.73 #4
-  [DF] Rogers Torach (CB) rating 67.83 #3
-  [GK] Salim Magoola (GK) rating 68.09 #19
+  SLOT  PLAYER                 POS  RATING  NO.
+  FW    Rogers Mato            LWF   67.92  #7
+  MF    Kenneth Semakula       DMF   65.73  #4
+  DF    Rogers Torach          CB    67.83  #3
+  GK    Salim Magoola          GK    68.09  #19
 
 Wildcard:
-  [WILD] Jude Ssemugabi (CF) rating 67.61 #22
-  [WILD] Ivan Ahimbisibwe (CF) rating 67.29 #28
-  [WILD] Khalid Aucho (DMF) rating 65.49 #8
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Jude Ssemugabi         CF    67.61  #22
+  WILD  Ivan Ahimbisibwe       CF    67.29  #28
+  WILD  Khalid Aucho           DMF   65.49  #8

@@ -1,21 +1,24 @@
 Starters:
-  [CF] Kiatisuk Senamuang (CF) rating 94.36 #13
-  [LMF] Iklas Sanron (LMF) rating 95.35 #16
-  [RWF] Suphanat Mueanta (RWF) rating 67.38 #10
-  [AMF] Chanathip Songkrasin (AMF) rating 70.19 #18
-  [CMF] Thitiphan Puangchan (CMF) rating 69.29 #19
-  [DMF] Kritsada Kaman (DMF) rating 68.79 #15
-  [LB] Nicholas Mickelson (LB) rating 93.42 #12
-  [CB] Manuel Bihr (CB) rating 68.49 #4
-  [CB] Elias Dolah (CB) rating 67.77 #5
-  [RB] Suphanan Bureerat (RB) rating 68.39 #21
-  [GK] Saranon Anuin (GK) rating 68.89 #20
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Kiatisuk Senamuang    CF    94.36  #13
+  LMF   Iklas Sanron          LMF   95.35  #16
+  RWF   Suphanat Mueanta      RWF   67.38  #10
+  AMF   Chanathip Songkrasin  AMF   70.19  #18
+  CMF   Thitiphan Puangchan   CMF   69.29  #19
+  DMF   Kritsada Kaman        DMF   68.79  #15
+  LB    Nicholas Mickelson    LB    93.42  #12
+  CB    Manuel Bihr           CB    68.49  #4
+  CB    Elias Dolah           CB    67.77  #5
+  RB    Suphanan Bureerat     RB    68.39  #21
+  GK    Saranon Anuin         GK    68.89  #20
 
 Substitutes:
-  [FW] Supachai Chaided (SS) rating 70.01 #9
-  [MF] Supachok Sarachat (LMF) rating 70.02 #7
-  [DF] Kevin Deeromram (LB) rating 71.27 #2
-  [GK] Patiwat Khammai (GK) rating 68.69 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  FW    Supachai Chaided      SS    70.01  #9
+  MF    Supachok Sarachat     LMF   70.02  #7
+  DF    Kevin Deeromram       LB    71.27  #2
+  GK    Patiwat Khammai       GK    68.69  #1
 
 Wildcard:
-  [WILD] Theerathon Bunmathan (LB) rating 69.84 #3
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Theerathon Bunmathan  LB    69.84  #3

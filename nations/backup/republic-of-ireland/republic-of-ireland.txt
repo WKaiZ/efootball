@@ -1,21 +1,24 @@
 Starters:
-  [CF] Troy Parrott (CF) rating 95.02 #7
-  [LWF] Sammie Szmodics (LWF) rating 74.76 #21
-  [RWF] Chiedozie Ogbene (RWF) rating 74.07 #20
-  [AMF] Finn Azaz (AMF) rating 73.70 #11
-  [CMF] Jason Knight (CMF) rating 73.04 #8
-  [DMF] John O'Shea (DMF) rating 96.26 #4
-  [LB] Ryan Manning (LB) rating 72.75 #18
-  [CB] Nathan Collins (CB) rating 93.51 #22
-  [CB] Dara O'Shea (CB) rating 74.02 #5
-  [RB] Matt Doherty (RB) rating 75.02 #2
-  [GK] Caoimhín Kelleher (GK) rating 94.38 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    Troy Parrott       CF    95.02  #7
+  LWF   Sammie Szmodics    LWF   74.76  #21
+  RWF   Chiedozie Ogbene   RWF   74.07  #20
+  AMF   Finn Azaz          AMF   73.70  #11
+  CMF   Jason Knight       CMF   73.04  #8
+  DMF   John O'Shea        DMF   96.26  #4
+  LB    Ryan Manning       LB    72.75  #18
+  CB    Nathan Collins     CB    93.51  #22
+  CB    Dara O'Shea        CB    74.02  #5
+  RB    Matt Doherty       RB    75.02  #2
+  GK    Caoimhín Kelleher  GK    94.38  #1
 
 Substitutes:
-  [FW] Mikey Johnston (LWF) rating 73.43 #14
-  [MF] Josh Cullen (DMF) rating 74.65 #6
-  [DF] Jake O'Brien (CB) rating 73.88 #12
-  [GK] Mark Travers (GK) rating 73.88 #23
+  SLOT  PLAYER             POS  RATING  NO.
+  FW    Mikey Johnston     LWF   73.43  #14
+  MF    Josh Cullen        DMF   74.65  #6
+  DF    Jake O'Brien       CB    73.88  #12
+  GK    Mark Travers       GK    73.88  #23
 
 Wildcard:
-  [WILD] Gavin Bazunu (GK) rating 73.60 #16
+  SLOT  PLAYER             POS  RATING  NO.
+  WILD  Gavin Bazunu       GK    73.60  #16

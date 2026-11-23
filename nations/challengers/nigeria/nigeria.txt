@@ -1,28 +1,31 @@
 Starters:
-  [CF] Nwankwo Kanu (CF) rating 97.42 #4
-  [LWF] Alex Iwobi (LWF) rating 94.03 #17
-  [RWF] Tijani Babangida (RWF) rating 96.81 #13
-  [AMF] Jay-Jay Okocha (AMF) rating 97.04 #10
-  [CMF] Frank Onyeka (CMF) rating 93.22 #8
-  [DMF] Raphael Onyedika (DMF) rating 94.24 #20
-  [LB] Bruno Onyemaechi (LB) rating 71.44 #3
-  [CB] Calvin Bassey (CB) rating 94.26 #21
-  [CB] Igoh Ogbu (CB) rating 73.58 #5
-  [RB] Bright Osayi-Samuel (RB) rating 93.16 #12
-  [GK] Maduka Okoye (GK) rating 73.41 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Nwankwo Kanu         CF    97.42  #4
+  LWF   Alex Iwobi           LWF   94.03  #17
+  RWF   Tijani Babangida     RWF   96.81  #13
+  AMF   Jay-Jay Okocha       AMF   97.04  #10
+  CMF   Frank Onyeka         CMF   93.22  #8
+  DMF   Raphael Onyedika     DMF   94.24  #20
+  LB    Bruno Onyemaechi     LB    71.44  #3
+  CB    Calvin Bassey        CB    94.26  #21
+  CB    Igoh Ogbu            CB    73.58  #5
+  RB    Bright Osayi-Samuel  RB    93.16  #12
+  GK    Maduka Okoye         GK    73.41  #1
 
 Substitutes:
-  [CF] Victor Osimhen (CF) rating 97.10 #9
-  [LWF] Chidera Ejuke (LWF) rating 75.04 #24
-  [RWF] Samuel Chukwueze (RWF) rating 94.32 #11
-  [AMF] Christantus Uche (AMF) rating 71.27 #7
-  [CMF] Fisayo Dele-Bashiru (CMF) rating 93.09 #14
-  [DMF] Augustine Oladapo (DMF) rating 67.36 #18
-  [LB] Zaidu Sanusi (LB) rating 71.34 #15
-  [CB] Emmanuel Fernandez (CB) rating 72.73 #6
-  [CB] Kevin Akpoguma (CB) rating 72.37 #22
-  [RB] Ola Aina (RB) rating 78.03 #2
-  [GK] Stanley Nwabali (GK) rating 71.36 #23
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Victor Osimhen       CF    97.10  #9
+  LWF   Chidera Ejuke        LWF   75.04  #24
+  RWF   Samuel Chukwueze     RWF   94.32  #11
+  AMF   Christantus Uche     AMF   71.27  #7
+  CMF   Fisayo Dele-Bashiru  CMF   93.09  #14
+  DMF   Augustine Oladapo    DMF   67.36  #18
+  LB    Zaidu Sanusi         LB    71.34  #15
+  CB    Emmanuel Fernandez   CB    72.73  #6
+  CB    Kevin Akpoguma       CB    72.37  #22
+  RB    Ola Aina             RB    78.03  #2
+  GK    Stanley Nwabali      GK    71.36  #23
 
 Wildcard:
-  [WILD] Paul Onuachu (CF) rating 96.37 #19
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Paul Onuachu         CF    96.37  #19

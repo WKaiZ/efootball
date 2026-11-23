@@ -1,21 +1,24 @@
 Starters:
-  [CF] Iñaki Williams (CF) rating 95.32 #19
-  [LMF] Antoine Semenyo (LMF) rating 97.50 #11
-  [RWF] Mohammed Kudus (RWF) rating 95.00 #20
-  [AMF] Amankwah Forson (AMF) rating 70.79 #13
-  [CMF] Alfred Duncan (CMF) rating 73.60 #8
-  [DMF] Thomas Partey (DMF) rating 73.56 #5
-  [LB] Gideon Mensah (LB) rating 72.29 #14
-  [CB] Mohammed Salisu (CB) rating 75.76 #6
-  [CB] Alidu Seidu (CB) rating 74.22 #2
-  [RB] Tariq Lamptey (RB) rating 73.52 #3
-  [GK] Lawrence Ati Zigi (GK) rating 72.59 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Iñaki Williams          CF    95.32  #19
+  LMF   Antoine Semenyo         LMF   97.50  #11
+  RWF   Mohammed Kudus          RWF   95.00  #20
+  AMF   Amankwah Forson         AMF   70.79  #13
+  CMF   Alfred Duncan           CMF   73.60  #8
+  DMF   Thomas Partey           DMF   73.56  #5
+  LB    Gideon Mensah           LB    72.29  #14
+  CB    Mohammed Salisu         CB    75.76  #6
+  CB    Alidu Seidu             CB    74.22  #2
+  RB    Tariq Lamptey           RB    73.52  #3
+  GK    Lawrence Ati Zigi       GK    72.59  #1
 
 Substitutes:
-  [FW] Joseph Paintsil (LWF) rating 76.12 #15
-  [MF] Christopher Bonsu Baah (LMF) rating 72.90 #7
-  [DF] Jerome Opoku (CB) rating 73.14 #18
-  [GK] Benjamin Asare (GK) rating 68.73 #16
+  SLOT  PLAYER                  POS  RATING  NO.
+  FW    Joseph Paintsil         LWF   76.12  #15
+  MF    Christopher Bonsu Baah  LMF   72.90  #7
+  DF    Jerome Opoku            CB    73.14  #18
+  GK    Benjamin Asare          GK    68.73  #16
 
 Wildcard:
-  [WILD] Abdul Mumin (CB) rating 73.11 #4
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Abdul Mumin             CB    73.11  #4

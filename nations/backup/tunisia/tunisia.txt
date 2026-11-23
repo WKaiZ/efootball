@@ -1,21 +1,24 @@
 Starters:
-  [CF] Issam Jebali (CF) rating 70.67 #9
-  [LWF] Naïm Sliti (LWF) rating 73.59 #23
-  [RWF] Khalil Ayari (RWF) rating 69.38 #7
-  [AMF] Hannibal (AMF) rating 73.94 #10
-  [CMF] Ferjani Sassi (CMF) rating 72.64 #13
-  [DMF] Ellyes Skhiri (DMF) rating 77.24 #17
-  [LB] Ali Abdi (LB) rating 73.21 #2
-  [CB] Montassar Talbi (CB) rating 73.72 #3
-  [CB] Yassine Meriah (CB) rating 71.71 #4
-  [RB] Yan Valery (RB) rating 70.95 #20
-  [GK] Aymen Dahmen (GK) rating 71.51 #16
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    Issam Jebali              CF    70.67  #9
+  LWF   Naïm Sliti                LWF   73.59  #23
+  RWF   Khalil Ayari              RWF   69.38  #7
+  AMF   Hannibal                  AMF   73.94  #10
+  CMF   Ferjani Sassi             CMF   72.64  #13
+  DMF   Ellyes Skhiri             DMF   77.24  #17
+  LB    Ali Abdi                  LB    73.21  #2
+  CB    Montassar Talbi           CB    73.72  #3
+  CB    Yassine Meriah            CB    71.71  #4
+  RB    Yan Valery                RB    70.95  #20
+  GK    Aymen Dahmen              GK    71.51  #16
 
 Substitutes:
-  [FW] Elias Achouri (LWF) rating 72.18 #27
-  [MF] Mohamed Ali Ben Romdhane (CMF) rating 71.79 #5
-  [DF] Ali Maâloul (LB) rating 72.47 #12
-  [GK] Bechir Ben Said (GK) rating 70.60 #22
+  SLOT  PLAYER                    POS  RATING  NO.
+  FW    Elias Achouri             LWF   72.18  #27
+  MF    Mohamed Ali Ben Romdhane  CMF   71.79  #5
+  DF    Ali Maâloul               LB    72.47  #12
+  GK    Bechir Ben Said           GK    70.60  #22
 
 Wildcard:
-  [WILD] Sebastian Tounekti (LWF) rating 72.07 #26
+  SLOT  PLAYER                    POS  RATING  NO.
+  WILD  Sebastian Tounekti        LWF   72.07  #26

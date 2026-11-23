@@ -1,12 +1,13 @@
 Starters:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Filip Andersen (CB) rating 61.76 #5
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER          POS  RATING  NO.
+  CF    VACANT
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    Filip Andersen  CB    61.76  #5
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT

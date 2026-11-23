@@ -1,12 +1,13 @@
 Starters:
-  [CF] Ioannis Pittas (CF) rating 72.66 #9
-  [LWF] Marinos Tzionis (LWF) rating 71.25 #21
-  [RWF] Marcus Edwards (RWF) rating 75.11 #23
-  [AMF] Charalampos Charalampous (CMF) rating 70.30 #5
-  [CMF] Grigoris Kastanos (CMF) rating 71.74 #20
-  [DMF] Charalampos Kyriakou (DMF) rating 71.22 #6
-  [LB] Anderson Correia (LB) rating 71.21 #7
-  [CB] Konstantinos Laifis (CB) rating 72.19 #19
-  [CB] Andreas Karo (CB) rating 71.57 #2
-  [RB] Minas Antoniou (RB) rating 71.18 #8
-  [GK] Neofytos Michail (GK) rating 71.63 #22
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    Ioannis Pittas            CF    72.66  #9
+  LWF   Marinos Tzionis           LWF   71.25  #21
+  RWF   Marcus Edwards            RWF   75.11  #23
+  AMF   Charalampos Charalampous  CMF   70.30  #5
+  CMF   Grigoris Kastanos         CMF   71.74  #20
+  DMF   Charalampos Kyriakou      DMF   71.22  #6
+  LB    Anderson Correia          LB    71.21  #7
+  CB    Konstantinos Laifis       CB    72.19  #19
+  CB    Andreas Karo              CB    71.57  #2
+  RB    Minas Antoniou            RB    71.18  #8
+  GK    Neofytos Michail          GK    71.63  #22

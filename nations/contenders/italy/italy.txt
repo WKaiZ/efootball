@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Alessandro Del Piero (CF) rating 99.36 #11
-  [LWF] Lorenzo Insigne (LWF) rating 97.73 #20
-  [RWF] Riccardo Orsolini (RWF) rating 95.09 #17
-  [AMF] Francesco Totti (AMF) rating 99.59 #10
-  [CMF] Roberto Donadoni (CMF) rating 97.54 #7
-  [DMF] Andrea Pirlo (DMF) rating 99.04 #21
-  [LB] Riccardo Calafiori (LB) rating 96.53 #5
-  [CB] Paolo Maldini (CB) rating 100.18 #3
-  [CB] Fabio Cannavaro (CB) rating 99.64 #13
-  [RB] Gianluca Zambrotta (RB) rating 98.41 #19
-  [GK] Gianluigi Buffon (GK) rating 100.22 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Alessandro Del Piero   CF    99.36  #11
+  LWF   Lorenzo Insigne        LWF   97.73  #20
+  RWF   Riccardo Orsolini      RWF   95.09  #17
+  AMF   Francesco Totti        AMF   99.59  #10
+  CMF   Roberto Donadoni       CMF   97.54  #7
+  DMF   Andrea Pirlo           DMF   99.04  #21
+  LB    Riccardo Calafiori     LB    96.53  #5
+  CB    Paolo Maldini          CB   100.18  #3
+  CB    Fabio Cannavaro        CB    99.64  #13
+  RB    Gianluca Zambrotta     RB    98.41  #19
+  GK    Gianluigi Buffon       GK   100.22  #1
 
 Substitutes:
-  [CF] Filippo Inzaghi (CF) rating 98.35 #9
-  [LWF] Federico Chiesa (LWF) rating 94.39 #14
-  [RWF] Matteo Politano (RWF) rating 94.89 #23
-  [AMF] Roberto Baggio (AMF) rating 97.83 #16
-  [CMF] Nicolò Barella (CMF) rating 96.03 #18
-  [DMF] Gennaro Gattuso (DMF) rating 98.45 #8
-  [LB] Leonardo Spinazzola (LB) rating 94.17 #4
-  [CB] Alessandro Nesta (CB) rating 98.91 #2
-  [CB] Franco Baresi (CB) rating 98.40 #6
-  [RB] Massimo Oddo (RB) rating 98.21 #22
-  [GK] Gianluigi Donnarumma (GK) rating 99.04 #12
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Filippo Inzaghi        CF    98.35  #9
+  LWF   Federico Chiesa        LWF   94.39  #14
+  RWF   Matteo Politano        RWF   94.89  #23
+  AMF   Roberto Baggio         AMF   97.83  #16
+  CMF   Nicolò Barella         CMF   96.03  #18
+  DMF   Gennaro Gattuso        DMF   98.45  #8
+  LB    Leonardo Spinazzola    LB    94.17  #4
+  CB    Alessandro Nesta       CB    98.91  #2
+  CB    Franco Baresi          CB    98.40  #6
+  RB    Massimo Oddo           RB    98.21  #22
+  GK    Gianluigi Donnarumma   GK    99.04  #12
 
 Wildcard:
-  [WILD] Gianfranco Zola (SS) rating 99.85 #15
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Gianfranco Zola        SS    99.85  #15
 
 Second Squad
 
 Starters:
-  [CF] Francesco Totti (CF) rating 99.49 #20
-  [LMF] Federico Dimarco (LMF) rating 98.01 #11
-  [RWF] Federico Bernardeschi (RWF) rating 93.35 #21
-  [SS] Roberto Baggio (SS) rating 99.61 #10
-  [CMF] Davide Frattesi (CMF) rating 94.09 #17
-  [DMF] Daniele De Rossi (DMF) rating 98.15 #16
-  [LB] Paolo Maldini (LB) rating 99.05 #3
-  [CB] Riccardo Ferri (CB) rating 97.48 #6
-  [CB] Leonardo Bonucci (CB) rating 97.17 #19
-  [RB] Alessandro Costacurta (RB) rating 97.15 #5
-  [GK] Christian Abbiati (GK) rating 97.74 #12
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Francesco Totti        CF    99.49  #20
+  LMF   Federico Dimarco       LMF   98.01  #11
+  RWF   Federico Bernardeschi  RWF   93.35  #21
+  SS    Roberto Baggio         SS    99.61  #10
+  CMF   Davide Frattesi        CMF   94.09  #17
+  DMF   Daniele De Rossi       DMF   98.15  #16
+  LB    Paolo Maldini          LB    99.05  #3
+  CB    Riccardo Ferri         CB    97.48  #6
+  CB    Leonardo Bonucci       CB    97.17  #19
+  RB    Alessandro Costacurta  RB    97.15  #5
+  GK    Christian Abbiati      GK    97.74  #12
 
 Substitutes:
-  [CF] Christian Vieri (CF) rating 98.01 #9
-  [LMF] Andrea Cambiaso (LMF) rating 94.42 #15
-  [RWF] Domenico Berardi (RWF) rating 93.34 #7
-  [SS] Giacomo Raspadori (SS) rating 94.07 #18
-  [CMF] Niccolò Pisilli (CMF) rating 92.12 #14
-  [DMF] Massimo Ambrosini (DMF) rating 97.01 #8
-  [LB] Niccolò Fortini (LB) rating 70.32 #25
-  [CB] Giorgio Chiellini (CB) rating 96.79 #4
-  [CB] Riccardo Calafiori (CB) rating 96.40 #13
-  [RB] Christian Panucci (RB) rating 96.96 #2
-  [GK] Marco Carnesecchi (GK) rating 96.73 #23
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Christian Vieri        CF    98.01  #9
+  LMF   Andrea Cambiaso        LMF   94.42  #15
+  RWF   Domenico Berardi       RWF   93.34  #7
+  SS    Giacomo Raspadori      SS    94.07  #18
+  CMF   Niccolò Pisilli        CMF   92.12  #14
+  DMF   Massimo Ambrosini      DMF   97.01  #8
+  LB    Niccolò Fortini        LB    70.32  #25
+  CB    Giorgio Chiellini      CB    96.79  #4
+  CB    Riccardo Calafiori     CB    96.40  #13
+  RB    Christian Panucci      RB    96.96  #2
+  GK    Marco Carnesecchi      GK    96.73  #23
 
 Wildcard:
-  [WILD] Nicolò Zaniolo (AMF) rating 95.92 #22
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Nicolò Zaniolo         AMF   95.92  #22

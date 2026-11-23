@@ -1,28 +1,31 @@
 Starters:
-  [CF] Mostafa Mohamed (CF) rating 73.34 #11
-  [LMF] Omar Marmoush (LMF) rating 95.74 #22
-  [RMF] Mohamed Salah (RMF) rating 97.93 #10
-  [AMF] Zizo (RWF) rating 73.11 #25
-  [CMF] Emam Ashour (CMF) rating 73.22 #8
-  [DMF] Hamdy Fathy (DMF) rating 94.20 #14
-  [LB] Mohamed Hamdi (LB) rating 72.26 #12
-  [CB] Mohamed Abdelmonem (CB) rating 72.62 #6
-  [CB] Ramy Rabia (CB) rating 72.48 #5
-  [RB] Mohamed Hany (RB) rating 71.29 #3
-  [GK] Oufa Shobeir (GK) rating 72.78 #23
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Mostafa Mohamed     CF    73.34  #11
+  LMF   Omar Marmoush       LMF   95.74  #22
+  RMF   Mohamed Salah       RMF   97.93  #10
+  AMF   Zizo                RWF   73.11  #25
+  CMF   Emam Ashour         CMF   73.22  #8
+  DMF   Hamdy Fathy         DMF   94.20  #14
+  LB    Mohamed Hamdi       LB    72.26  #12
+  CB    Mohamed Abdelmonem  CB    72.62  #6
+  CB    Ramy Rabia          CB    72.48  #5
+  RB    Mohamed Hany        RB    71.29  #3
+  GK    Oufa Shobeir        GK    72.78  #23
 
 Substitutes:
-  [CF] Osama Faisal (CF) rating 70.73 #7
-  [LMF] Ibrahim Adel (LWF) rating 72.28 #20
-  [RMF] Mostafa Fathi (RWF) rating 72.58 #18
-  [AMF] Mahmoud Saber (CMF) rating 70.34 #21
-  [CMF] Mohamed Shehata (CMF) rating 70.45 #15
-  [DMF] Marwan Ateya (DMF) rating 73.41 #19
-  [LB] Ahmed Fatouh (LB) rating 71.56 #13
-  [CB] Hossam Abdelmaguid (CB) rating 72.39 #4
-  [CB] Yasser Ibrahim (CB) rating 71.59 #2
-  [RB] Tarek Alaa (RB) rating 69.96 #24
-  [GK] Mohamed El Shenawy (GK) rating 72.66 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Osama Faisal        CF    70.73  #7
+  LMF   Ibrahim Adel        LWF   72.28  #20
+  RMF   Mostafa Fathi       RWF   72.58  #18
+  AMF   Mahmoud Saber       CMF   70.34  #21
+  CMF   Mohamed Shehata     CMF   70.45  #15
+  DMF   Marwan Ateya        DMF   73.41  #19
+  LB    Ahmed Fatouh        LB    71.56  #13
+  CB    Hossam Abdelmaguid  CB    72.39  #4
+  CB    Yasser Ibrahim      CB    71.59  #2
+  RB    Tarek Alaa          RB    69.96  #24
+  GK    Mohamed El Shenawy  GK    72.66  #1
 
 Wildcard:
-  [WILD] Mohanad Lasheen (DMF) rating 73.21 #17
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Mohanad Lasheen     DMF   73.21  #17

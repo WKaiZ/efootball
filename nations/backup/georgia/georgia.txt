@@ -1,21 +1,24 @@
 Starters:
-  [CF] Georges Mikautadze (CF) rating 96.00 #22
-  [LWF] Khvicha Kvaratskhelia (LWF) rating 99.65 #7
-  [RWF] Saba Lobjanidze (RWF) rating 73.60 #12
-  [AMF] Giorgi Chakvetadze (AMF) rating 74.79 #10
-  [CMF] Giorgi Kochorashvili (CMF) rating 70.27 #6
-  [DMF] Anzor Mekvabishvili (DMF) rating 69.12 #14
-  [LB] Saba Kharebashvili (LB) rating 69.80 #16
-  [CB] Giorgi Gvelesiani (CB) rating 70.64 #3
-  [CB] Saba Sazonov (CB) rating 70.46 #15
-  [RB] Giorgi Gocholeishvili (RB) rating 70.36 #26
-  [GK] Giorgi Mamardashvili (GK) rating 95.25 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Georges Mikautadze     CF    96.00  #22
+  LWF   Khvicha Kvaratskhelia  LWF   99.65  #7
+  RWF   Saba Lobjanidze        RWF   73.60  #12
+  AMF   Giorgi Chakvetadze     AMF   74.79  #10
+  CMF   Giorgi Kochorashvili   CMF   70.27  #6
+  DMF   Anzor Mekvabishvili    DMF   69.12  #14
+  LB    Saba Kharebashvili     LB    69.80  #16
+  CB    Giorgi Gvelesiani      CB    70.64  #3
+  CB    Saba Sazonov           CB    70.46  #15
+  RB    Giorgi Gocholeishvili  RB    70.36  #26
+  GK    Giorgi Mamardashvili   GK    95.25  #1
 
 Substitutes:
-  [FW] Zuriko Davitashvili (LWF) rating 73.22 #9
-  [MF] Gabriel Sigua (AMF) rating 68.32 #19
-  [DF] Saba Goglichidze (CB) rating 69.72 #5
-  [GK] Luka Gugeshashvili (GK) rating 70.67 #23
+  SLOT  PLAYER                 POS  RATING  NO.
+  FW    Zuriko Davitashvili    LWF   73.22  #9
+  MF    Gabriel Sigua          AMF   68.32  #19
+  DF    Saba Goglichidze       CB    69.72  #5
+  GK    Luka Gugeshashvili     GK    70.67  #23
 
 Wildcard:
-  [WILD] Giorgi Tsitaishvili (LWF) rating 72.16 #21
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Giorgi Tsitaishvili    LWF   72.16  #21

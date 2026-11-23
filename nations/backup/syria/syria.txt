@@ -1,21 +1,24 @@
 Starters:
-  [CF] Omar Khribin (CF) rating 73.15 #7
-  [LWF] Ibrahim Hesar (LWF) rating 68.61 #21
-  [RWF] VACANT
-  [AMF] Mohammed Osman (AMF) rating 70.66 #14
-  [CMF] Jalil Elías (CMF) rating 72.70 #8
-  [DMF] VACANT
-  [LB] Ignacio Abraham (LB) rating 72.28 #3
-  [CB] Emiliano Amor (CB) rating 72.94 #15
-  [CB] Aiham Ousou (CB) rating 72.47 #4
-  [RB] Facundo Mater (RB) rating 70.70 #18
-  [GK] VACANT
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    Omar Khribin     CF    73.15  #7
+  LWF   Ibrahim Hesar    LWF   68.61  #21
+  RWF   VACANT
+  AMF   Mohammed Osman   AMF   70.66  #14
+  CMF   Jalil Elías      CMF   72.70  #8
+  DMF   VACANT
+  LB    Ignacio Abraham  LB    72.28  #3
+  CB    Emiliano Amor    CB    72.94  #15
+  CB    Aiham Ousou      CB    72.47  #4
+  RB    Facundo Mater    RB    70.70  #18
+  GK    VACANT
 
 Substitutes:
-  [FW] Pablo Sabbag (CF) rating 72.23 #9
-  [MF] VACANT
-  [DF] Belal Halbouni (CB) rating 70.95 #12
-  [GK] VACANT
+  SLOT  PLAYER           POS  RATING  NO.
+  FW    Pablo Sabbag     CF    72.23  #9
+  MF    VACANT
+  DF    Belal Halbouni   CB    70.95  #12
+  GK    VACANT
 
 Wildcard:
-  [WILD] VACANT
+  SLOT  PLAYER           POS  RATING  NO.
+  WILD  VACANT

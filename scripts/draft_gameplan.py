@@ -1,7 +1,7 @@
 import os
-import re
 import sqlite3
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -89,6 +89,14 @@ def order_cb_pairs_by_rating(pairs):
     return pairs
 
 
+def _row(a):
+    return (a.slot, a.player.name, a.player.position, a.player.rating, a.jersey)
+
+
+def _vacant(slot):
+    return (slot, None, None, None, None)
+
+
 def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=False, omit_vacant_starters=False, max_starters=None, compact_bench=False):
     lines = []
     lines.append("Starters:")
@@ -101,11 +109,9 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     for slot, a in starter_pairs:
         if a is None:
             if not omit_vacant_starters:
-                lines.append(f"  [{slot}] VACANT")
+                lines.append(_vacant(slot))
         else:
-            lines.append(
-                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
-            )
+            lines.append(_row(a))
 
     if starters_only:
         return lines
@@ -116,11 +122,9 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
         for label, group in BENCH_GROUPS:
             a = sub_asg[BENCH_GROUPS.index((label, group))]
             if a is None:
-                lines.append(f"  [{label}] VACANT")
+                lines.append(_vacant(label))
                 continue
-            lines.append(
-                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
-            )
+            lines.append(_row(a))
         sub_asg = []
         slots = []
 
@@ -130,21 +134,17 @@ def format_squad(starter_asg, sub_asg, wildcard_asgs, slots, *, starters_only=Fa
     sub_pairs = order_cb_pairs_by_rating(list(zip(slots, sub_asg)))
     for slot, a in sub_pairs:
         if a is None:
-            lines.append(f"  [{slot}] VACANT")
+            lines.append(_vacant(slot))
         else:
-            lines.append(
-                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
-            )
+            lines.append(_row(a))
 
     lines.append("")
     lines.append("Wildcard:")
     if not wildcard_asgs:
-        lines.append("  [WILD] VACANT")
+        lines.append(_vacant("WILD"))
     else:
         for a in wildcard_asgs:
-            lines.append(
-                f"  [{a.slot}] {a.player.name} ({a.player.position}) rating {a.player.rating:.2f} #{a.jersey}"
-            )
+            lines.append(_row(a))
 
     return lines
 
@@ -186,27 +186,27 @@ def _squad_count(out_path):
     return SQUADS_PER_GROUP.get(_country_group(out_path), 1)
 
 
-_ROW = re.compile(r"^\s+\[(\w+)\] (.+) \((\w+)\) rating ([\d.]+) #(\d+)$")
-_VACANT = re.compile(r"^\s+\[(\w+)\] VACANT$")
+def _display_width(text):
+    return sum(0 if unicodedata.combining(ch) else 2 if unicodedata.east_asian_width(ch) in "WF" else 1 for ch in text)
 
 
-def _pretty(text):
-    lines = text.splitlines()
-    width = max((len(m.group(2)) for m in map(_ROW.match, lines) if m), default=0)
+def render_lines(lines):
+    width = max((_display_width(x[1]) for x in lines if isinstance(x, tuple) and x[1]), default=0)
+    width = max(width, len("PLAYER"))
     out = []
     for line in lines:
-        row = _ROW.match(line)
-        vacant = _VACANT.match(line)
-        if row:
-            slot, name, pos, rating, number = row.groups()
-            out.append(f"    {slot:<6}{name:<{width + 2}}{pos:<5}{float(rating):>6.2f}  #{number}")
-        elif vacant:
-            out.append(f"    {vacant.group(1):<6}VACANT")
-        elif line.endswith(":") or line.endswith("Squad"):
-            out.append(f"  {line}")
-        else:
+        if not isinstance(line, tuple):
             out.append(line)
-    return "\n".join(out)
+            if line.endswith(":"):
+                out.append(f"  {'SLOT':<6}{'PLAYER':<{width + 2}}{'POS':<5}{'RATING':>6}  NO.")
+            continue
+        slot, name, pos, rating, number = line
+        if name is None:
+            out.append(f"  {slot:<6}VACANT")
+        else:
+            pad = " " * (width + 2 - _display_width(name))
+            out.append(f"  {slot:<6}{name}{pad}{pos:<5}{rating:>6.2f}  #{number}")
+    return out
 
 
 def main():
@@ -253,9 +253,10 @@ def main():
                 compact_bench=_country_group(out_path) == "backup",
             )
 
-        text = "\n".join(lines) + "\n"
+        rendered = render_lines(lines)
+        text = "\n".join(rendered) + "\n"
         print(f"  {'squad':<10} {os.path.relpath(out_path, ROOT)}")
-        print(_pretty(text.rstrip("\n")))
+        print("\n".join(f"  {line}" if line else line for line in rendered))
 
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(text)

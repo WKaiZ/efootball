@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Noah Okafor (CF) rating 95.18 #19
-  [LWF] Rubén Vargas (LMF) rating 93.33 #17
-  [RWF] Dan Ndoye (RWF) rating 94.18 #11
-  [AMF] Johan Manzambi (AMF) rating 97.37 #9
-  [CMF] Granit Xhaka (CMF) rating 94.99 #10
-  [DMF] Ardon Jashari (DMF) rating 93.14 #14
-  [LB] Ulisses Garcia (LB) rating 93.18 #15
-  [CB] Manuel Akanji (CB) rating 95.17 #5
-  [CB] Nico Elvedi (CB) rating 93.74 #4
-  [RB] Denis Zakaria (RB) rating 93.96 #6
-  [GK] Gregor Kobel (GK) rating 95.39 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Noah Okafor          CF    95.18  #19
+  LWF   Rubén Vargas         LMF   93.33  #17
+  RWF   Dan Ndoye            RWF   94.18  #11
+  AMF   Johan Manzambi       AMF   97.37  #9
+  CMF   Granit Xhaka         CMF   94.99  #10
+  DMF   Ardon Jashari        DMF   93.14  #14
+  LB    Ulisses Garcia       LB    93.18  #15
+  CB    Manuel Akanji        CB    95.17  #5
+  CB    Nico Elvedi          CB    93.74  #4
+  RB    Denis Zakaria        RB    93.96  #6
+  GK    Gregor Kobel         GK    95.39  #1
 
 Substitutes:
-  [CF] Breel Embolo (CF) rating 75.96 #7
-  [LWF] Zeki Amdouni (CF) rating 73.77 #25
-  [RWF] Christian Fassnacht (RWF) rating 73.55 #16
-  [AMF] Xherdan Shaqiri (AMF) rating 93.01 #23
-  [CMF] Remo Freuler (CMF) rating 76.26 #8
-  [DMF] Edimilson Fernandes (DMF) rating 72.21 #20
-  [LB] Ricardo Rodríguez (CB) rating 74.21 #13
-  [CB] Fabian Schär (CB) rating 78.06 #22
-  [CB] Aurèle Amenda (CB) rating 74.32 #24
-  [RB] Lucas Blondel (RB) rating 73.95 #2
-  [GK] Yann Sommer (GK) rating 95.33 #12
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Breel Embolo         CF    75.96  #7
+  LWF   Zeki Amdouni         CF    73.77  #25
+  RWF   Christian Fassnacht  RWF   73.55  #16
+  AMF   Xherdan Shaqiri      AMF   93.01  #23
+  CMF   Remo Freuler         CMF   76.26  #8
+  DMF   Edimilson Fernandes  DMF   72.21  #20
+  LB    Ricardo Rodríguez    CB    74.21  #13
+  CB    Fabian Schär         CB    78.06  #22
+  CB    Aurèle Amenda        CB    74.32  #24
+  RB    Lucas Blondel        RB    73.95  #2
+  GK    Yann Sommer          GK    95.33  #12
 
 Wildcard:
-  [WILD] Philipp Köhn (GK) rating 92.97 #21
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Philipp Köhn         GK    92.97  #21
 
 Second Squad
 
 Starters:
-  [CF] Dan Ndoye (LMF) rating 93.45 #11
-  [LWF] Noah Okafor (LWF) rating 75.96 #19
-  [RWF] Renato Steffen (RWF) rating 71.81 #7
-  [AMF] Fabian Rieder (AMF) rating 73.21 #22
-  [CMF] Johan Manzambi (CMF) rating 76.07 #9
-  [DMF] Denis Zakaria (DMF) rating 93.53 #6
-  [LB] Miro Muheim (LB) rating 71.89 #4
-  [CB] Becir Omeragic (CB) rating 73.44 #2
-  [CB] Loris Benito (CB) rating 73.29 #3
-  [RB] Kevin Mbabu (RB) rating 73.14 #23
-  [GK] Roman Bürki (GK) rating 75.35 #21
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Dan Ndoye            LMF   93.45  #11
+  LWF   Noah Okafor          LWF   75.96  #19
+  RWF   Renato Steffen       RWF   71.81  #7
+  AMF   Fabian Rieder        AMF   73.21  #22
+  CMF   Johan Manzambi       CMF   76.07  #9
+  DMF   Denis Zakaria        DMF   93.53  #6
+  LB    Miro Muheim          LB    71.89  #4
+  CB    Becir Omeragic       CB    73.44  #2
+  CB    Loris Benito         CB    73.29  #3
+  RB    Kevin Mbabu          RB    73.14  #23
+  GK    Roman Bürki          GK    75.35  #21
 
 Substitutes:
-  [CF] Cedric Itten (CF) rating 72.42 #17
-  [LWF] Isaac Schmidt (RB) rating 68.68 #24
-  [RWF] Michel Aebischer (CMF) rating 73.38 #20
-  [AMF] Uran Bislimi (CMF) rating 72.30 #16
-  [CMF] Djibril Sow (CMF) rating 75.00 #15
-  [DMF] Sandro Lauper (DMF) rating 72.07 #8
-  [LB] Jordan Lotomba (RB) rating 72.30 #26
-  [CB] Cédric Zesiger (CB) rating 72.82 #14
-  [CB] Eray Cömert (CB) rating 71.42 #18
-  [RB] Silvan Widmer (RB) rating 72.99 #5
-  [GK] Jonas Omlin (GK) rating 74.12 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Cedric Itten         CF    72.42  #17
+  LWF   Isaac Schmidt        RB    68.68  #24
+  RWF   Michel Aebischer     CMF   73.38  #20
+  AMF   Uran Bislimi         CMF   72.30  #16
+  CMF   Djibril Sow          CMF   75.00  #15
+  DMF   Sandro Lauper        DMF   72.07  #8
+  LB    Jordan Lotomba       RB    72.30  #26
+  CB    Cédric Zesiger       CB    72.82  #14
+  CB    Eray Cömert          CB    71.42  #18
+  RB    Silvan Widmer        RB    72.99  #5
+  GK    Jonas Omlin          GK    74.12  #1
 
 Wildcard:
-  [WILD] Yvon Mvogo (GK) rating 73.80 #12
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Yvon Mvogo           GK    73.80  #12

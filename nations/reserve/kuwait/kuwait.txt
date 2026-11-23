@@ -1,12 +1,13 @@
 Starters:
-  [CF] Yousef Nasser (CF) rating 67.69 #20
-  [LWF] Mohammad Daham (LWF) rating 67.95 #7
-  [RWF] Ali Khalaf (RWF) rating 67.18 #17
-  [AMF] Eid Al-Rasheedi (AMF) rating 66.44 #11
-  [CMF] Ahmad Al-Dhefiri (CMF) rating 67.76 #8
-  [DMF] Sultan Al-Enezi (DMF) rating 66.97 #6
-  [LB] Meshari Al-Enezi (LB) rating 66.97 #3
-  [CB] Hamad Al-Harbi (CB) rating 67.38 #12
-  [CB] Khaled Ebrahim (CB) rating 67.28 #4
-  [RB] Sami Al-Sanea (RB) rating 65.54 #2
-  [GK] Khaled Al-Rashidi (GK) rating 68.05 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    Yousef Nasser      CF    67.69  #20
+  LWF   Mohammad Daham     LWF   67.95  #7
+  RWF   Ali Khalaf         RWF   67.18  #17
+  AMF   Eid Al-Rasheedi    AMF   66.44  #11
+  CMF   Ahmad Al-Dhefiri   CMF   67.76  #8
+  DMF   Sultan Al-Enezi    DMF   66.97  #6
+  LB    Meshari Al-Enezi   LB    66.97  #3
+  CB    Hamad Al-Harbi     CB    67.38  #12
+  CB    Khaled Ebrahim     CB    67.28  #4
+  RB    Sami Al-Sanea      RB    65.54  #2
+  GK    Khaled Al-Rashidi  GK    68.05  #1

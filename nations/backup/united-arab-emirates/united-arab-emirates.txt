@@ -1,21 +1,24 @@
 Starters:
-  [CF] Caio Canedo (CF) rating 72.75 #11
-  [LWF] Ali Saleh (LWF) rating 71.19 #7
-  [RWF] Hazem Mohammad (RWF) rating 62.78 #9
-  [AMF] Fábio Lima (AMF) rating 73.21 #10
-  [CMF] Abdalla Ramadan (CMF) rating 69.48 #6
-  [DMF] Yahya Nader (DMF) rating 68.33 #15
-  [LB] Mackenzie Hunt (LB) rating 68.37 #18
-  [CB] Sasa Ivkovic (CB) rating 71.48 #4
-  [CB] Lucas Pimenta (CB) rating 70.66 #3
-  [RB] Marcus Meloni (RB) rating 67.66 #16
-  [GK] Ali Khaseif (GK) rating 69.13 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Caio Canedo         CF    72.75  #11
+  LWF   Ali Saleh           LWF   71.19  #7
+  RWF   Hazem Mohammad      RWF   62.78  #9
+  AMF   Fábio Lima          AMF   73.21  #10
+  CMF   Abdalla Ramadan     CMF   69.48  #6
+  DMF   Yahya Nader         DMF   68.33  #15
+  LB    Mackenzie Hunt      LB    68.37  #18
+  CB    Sasa Ivkovic        CB    71.48  #4
+  CB    Lucas Pimenta       CB    70.66  #3
+  RB    Marcus Meloni       RB    67.66  #16
+  GK    Ali Khaseif         GK    69.13  #1
 
 Substitutes:
-  [FW] Yahya Al-Ghassani (LWF) rating 69.58 #20
-  [MF] Nicolás Giménez (AMF) rating 72.14 #8
-  [DF] Ala Zhir (CB) rating 68.67 #5
-  [GK] Khalid Eisa (GK) rating 69.04 #17
+  SLOT  PLAYER              POS  RATING  NO.
+  FW    Yahya Al-Ghassani   LWF   69.58  #20
+  MF    Nicolás Giménez     AMF   72.14  #8
+  DF    Ala Zhir            CB    68.67  #5
+  GK    Khalid Eisa         GK    69.04  #17
 
 Wildcard:
-  [WILD] Khalifa Al-Hammadi (CB) rating 68.66 #12
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Khalifa Al-Hammadi  CB    68.66  #12

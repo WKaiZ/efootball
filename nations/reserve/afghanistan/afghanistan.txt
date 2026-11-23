@@ -1,12 +1,13 @@
 Starters:
-  [CF] Fareed Sadat (CF) rating 66.77 #9
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER        POS  RATING  NO.
+  CF    Fareed Sadat  CF    66.77  #9
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT

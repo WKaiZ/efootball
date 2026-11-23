@@ -1,28 +1,31 @@
 Starters:
-  [CF] Rasmus Højlund (CF) rating 95.99 #9
-  [LWF] Jacob Bruun Larsen (LWF) rating 72.58 #11
-  [RWF] Gustav Isaksen (RWF) rating 93.22 #8
-  [AMF] Mikkel Damsgaard (AMF) rating 95.43 #14
-  [CMF] Pierre-Emile Højbjerg (CMF) rating 95.28 #23
-  [DMF] Morten Hjulmand (DMF) rating 78.18 #21
-  [LB] Patrick Dorgu (LB) rating 94.06 #17
-  [CB] Andreas Christensen (CB) rating 93.40 #6
-  [CB] Joachim Andersen (CB) rating 78.20 #2
-  [RB] Rasmus Nissen Kristensen (RB) rating 75.05 #13
-  [GK] Peter Schmeichel (GK) rating 99.74 #1
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    Rasmus Højlund            CF    95.99  #9
+  LWF   Jacob Bruun Larsen        LWF   72.58  #11
+  RWF   Gustav Isaksen            RWF   93.22  #8
+  AMF   Mikkel Damsgaard          AMF   95.43  #14
+  CMF   Pierre-Emile Højbjerg     CMF   95.28  #23
+  DMF   Morten Hjulmand           DMF   78.18  #21
+  LB    Patrick Dorgu             LB    94.06  #17
+  CB    Andreas Christensen       CB    93.40  #6
+  CB    Joachim Andersen          CB    78.20  #2
+  RB    Rasmus Nissen Kristensen  RB    75.05  #13
+  GK    Peter Schmeichel          GK    99.74  #1
 
 Substitutes:
-  [CF] William Osula (CF) rating 93.18 #10
-  [LWF] Mohamed Daramy (LWF) rating 71.39 #19
-  [RWF] Anders Dreyer (RWF) rating 76.97 #20
-  [AMF] Carlo Holse (AMF) rating 72.80 #24
-  [CMF] Mathias Jensen (CMF) rating 94.00 #7
-  [DMF] Christian Nørgaard (DMF) rating 76.02 #15
-  [LB] Joakim Maehle (LB) rating 75.98 #5
-  [CB] Victor Nelsson (CB) rating 75.48 #3
-  [CB] Rasmus Nicolaisen (CB) rating 74.97 #4
-  [RB] Alexander Bah (RB) rating 74.22 #18
-  [GK] Filip Jørgensen (GK) rating 75.48 #22
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    William Osula             CF    93.18  #10
+  LWF   Mohamed Daramy            LWF   71.39  #19
+  RWF   Anders Dreyer             RWF   76.97  #20
+  AMF   Carlo Holse               AMF   72.80  #24
+  CMF   Mathias Jensen            CMF   94.00  #7
+  DMF   Christian Nørgaard        DMF   76.02  #15
+  LB    Joakim Maehle             LB    75.98  #5
+  CB    Victor Nelsson            CB    75.48  #3
+  CB    Rasmus Nicolaisen         CB    74.97  #4
+  RB    Alexander Bah             RB    74.22  #18
+  GK    Filip Jørgensen           GK    75.48  #22
 
 Wildcard:
-  [WILD] Mika Biereth (CF) rating 92.94 #12
+  SLOT  PLAYER                    POS  RATING  NO.
+  WILD  Mika Biereth              CF    92.94  #12

@@ -1,21 +1,24 @@
 Starters:
-  [CF] Alonso Martínez (CF) rating 74.47 #12
-  [LWF] Álvaro Zamora (LWF) rating 71.19 #21
-  [RWF] Joel Campbell (RWF) rating 72.90 #9
-  [AMF] Brandon Aguilera (AMF) rating 69.23 #10
-  [CMF] Celso Borges (CMF) rating 69.99 #5
-  [DMF] Orlando Galo (DMF) rating 68.31 #14
-  [LB] Joseph Mora (LB) rating 70.07 #8
-  [CB] Juan Pablo Vargas (CB) rating 73.97 #4
-  [CB] Francisco Calvo (CB) rating 71.99 #15
-  [RB] Haxzel Quirós (RB) rating 68.78 #20
-  [GK] Keylor Navas (GK) rating 77.66 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    Alonso Martínez    CF    74.47  #12
+  LWF   Álvaro Zamora      LWF   71.19  #21
+  RWF   Joel Campbell      RWF   72.90  #9
+  AMF   Brandon Aguilera   AMF   69.23  #10
+  CMF   Celso Borges       CMF   69.99  #5
+  DMF   Orlando Galo       DMF   68.31  #14
+  LB    Joseph Mora        LB    70.07  #8
+  CB    Juan Pablo Vargas  CB    73.97  #4
+  CB    Francisco Calvo    CB    71.99  #15
+  RB    Haxzel Quirós      RB    68.78  #20
+  GK    Keylor Navas       GK    77.66  #1
 
 Substitutes:
-  [FW] Warren Madrigal (CF) rating 70.96 #17
-  [MF] Carlos Mora (RMF) rating 70.89 #22
-  [DF] Kendall Waston (CB) rating 71.13 #19
-  [GK] Patrick Sequeira (GK) rating 71.55 #23
+  SLOT  PLAYER             POS  RATING  NO.
+  FW    Warren Madrigal    CF    70.96  #17
+  MF    Carlos Mora        RMF   70.89  #22
+  DF    Kendall Waston     CB    71.13  #19
+  GK    Patrick Sequeira   GK    71.55  #23
 
 Wildcard:
-  [WILD] Julio Cascante (CB) rating 70.74 #6
+  SLOT  PLAYER             POS  RATING  NO.
+  WILD  Julio Cascante     CB    70.74  #6

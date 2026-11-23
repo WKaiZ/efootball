@@ -1,12 +1,13 @@
 Starters:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] Hamza Choudhury (RB) rating 70.33 #8
-  [GK] VACANT
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    VACANT
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    Hamza Choudhury  RB    70.33  #8
+  GK    VACANT

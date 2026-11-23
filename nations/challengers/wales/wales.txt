@@ -1,29 +1,32 @@
 Starters:
-  [CF] Kieffer Moore (CF) rating 72.92 #13
-  [LWF] Nathan Broadhead (LWF) rating 71.83 #23
-  [RWF] Gareth Bale (RWF) rating 100.80 #11
-  [AMF] Rubin Colwill (AMF) rating 70.54 #17
-  [CMF] Josh Sheehan (CMF) rating 70.51 #22
-  [DMF] Ethan Ampadu (DMF) rating 74.04 #5
-  [LB] Neco Williams (LB) rating 94.05 #3
-  [CB] Joe Rodon (CB) rating 93.30 #6
-  [CB] Chris Mepham (CB) rating 73.06 #2
-  [RB] Connor Roberts (RB) rating 72.95 #14
-  [GK] Karl Darlow (GK) rating 73.22 #1
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Kieffer Moore     CF    72.92  #13
+  LWF   Nathan Broadhead  LWF   71.83  #23
+  RWF   Gareth Bale       RWF  100.80  #11
+  AMF   Rubin Colwill     AMF   70.54  #17
+  CMF   Josh Sheehan      CMF   70.51  #22
+  DMF   Ethan Ampadu      DMF   74.04  #5
+  LB    Neco Williams     LB    94.05  #3
+  CB    Joe Rodon         CB    93.30  #6
+  CB    Chris Mepham      CB    73.06  #2
+  RB    Connor Roberts    RB    72.95  #14
+  GK    Karl Darlow       GK    73.22  #1
 
 Substitutes:
-  [CF] Isaak Davies (LWF) rating 67.40 #24
-  [LWF] Lewis Koumas (LWF) rating 69.31 #9
-  [RWF] David Brooks (RWF) rating 75.39 #7
-  [AMF] Harry Wilson (RMF) rating 78.17 #8
-  [CMF] Dylan Levitt (CMF) rating 69.92 #10
-  [DMF] VACANT
-  [LB] Ben Davies (LB) rating 73.25 #4
-  [CB] Ben Cabango (CB) rating 72.13 #16
-  [CB] Tom Lockyer (CB) rating 71.11 #18
-  [RB] Ronan Kpakio (RB) rating 68.04 #15
-  [GK] Danny Ward (GK) rating 72.21 #12
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Isaak Davies      LWF   67.40  #24
+  LWF   Lewis Koumas      LWF   69.31  #9
+  RWF   David Brooks      RWF   75.39  #7
+  AMF   Harry Wilson      RMF   78.17  #8
+  CMF   Dylan Levitt      CMF   69.92  #10
+  DMF   VACANT
+  LB    Ben Davies        LB    73.25  #4
+  CB    Ben Cabango       CB    72.13  #16
+  CB    Tom Lockyer       CB    71.11  #18
+  RB    Ronan Kpakio      RB    68.04  #15
+  GK    Danny Ward        GK    72.21  #12
 
 Wildcard:
-  [WILD] Daniel James (RWF) rating 73.94 #20
-  [WILD] Sorba Thomas (RMF) rating 72.51 #19
+  SLOT  PLAYER            POS  RATING  NO.
+  WILD  Daniel James      RWF   73.94  #20
+  WILD  Sorba Thomas      RMF   72.51  #19

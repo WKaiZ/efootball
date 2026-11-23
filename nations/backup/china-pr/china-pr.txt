@@ -1,21 +1,24 @@
 Starters:
-  [CF] Lei Wu (CF) rating 73.59 #7
-  [LWF] Zhurun Liu (LWF) rating 69.46 #13
-  [RWF] Fernandinho (RWF) rating 71.24 #17
-  [AMF] Serginho (AMF) rating 73.13 #8
-  [CMF] Xi Wu (CMF) rating 70.98 #15
-  [DMF] Shangyuan Wang (DMF) rating 70.51 #6
-  [LB] Shuai Li (LB) rating 70.86 #23
-  [CB] Tyias Browning (CB) rating 72.59 #2
-  [CB] Chenjie Zhu (CB) rating 71.58 #5
-  [RB] Tian Ming (RB) rating 70.98 #16
-  [GK] Junling Yan (GK) rating 71.68 #1
+  SLOT  PLAYER          POS  RATING  NO.
+  CF    Lei Wu          CF    73.59  #7
+  LWF   Zhurun Liu      LWF   69.46  #13
+  RWF   Fernandinho     RWF   71.24  #17
+  AMF   Serginho        AMF   73.13  #8
+  CMF   Xi Wu           CMF   70.98  #15
+  DMF   Shangyuan Wang  DMF   70.51  #6
+  LB    Shuai Li        LB    70.86  #23
+  CB    Tyias Browning  CB    72.59  #2
+  CB    Chenjie Zhu     CB    71.58  #5
+  RB    Tian Ming       RB    70.98  #16
+  GK    Junling Yan     GK    71.68  #1
 
 Substitutes:
-  [FW] Yuning Zhang (CF) rating 70.39 #9
-  [MF] Xizhe Zhang (AMF) rating 71.05 #10
-  [DF] Pengfei Han (CB) rating 71.54 #18
-  [GK] Dianzuo Liu (GK) rating 71.26 #12
+  SLOT  PLAYER          POS  RATING  NO.
+  FW    Yuning Zhang    CF    70.39  #9
+  MF    Xizhe Zhang     AMF   71.05  #10
+  DF    Pengfei Han     CB    71.54  #18
+  GK    Dianzuo Liu     GK    71.26  #12
 
 Wildcard:
-  [WILD] Dalei Wang (GK) rating 71.22 #14
+  SLOT  PLAYER          POS  RATING  NO.
+  WILD  Dalei Wang      GK    71.22  #14

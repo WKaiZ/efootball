@@ -1,21 +1,24 @@
 Starters:
-  [CF] Choco Lozano (CF) rating 73.42 #9
-  [LWF] Luis Palma (LWF) rating 72.30 #10
-  [RWF] Rigoberto Rivas (RWF) rating 69.40 #7
-  [AMF] Alexander López (AMF) rating 69.64 #15
-  [CMF] Bryan Acosta (CMF) rating 72.19 #6
-  [DMF] Kervin Arriaga (DMF) rating 71.36 #5
-  [LB] Joseph Rosales (LB) rating 71.31 #8
-  [CB] Denil Maldonado (CB) rating 70.48 #2
-  [CB] Marcelo Santos (CB) rating 68.45 #3
-  [RB] Andy Nájar (RB) rating 72.47 #14
-  [GK] Edrick Menjívar (GK) rating 69.01 #1
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    Choco Lozano     CF    73.42  #9
+  LWF   Luis Palma       LWF   72.30  #10
+  RWF   Rigoberto Rivas  RWF   69.40  #7
+  AMF   Alexander López  AMF   69.64  #15
+  CMF   Bryan Acosta     CMF   72.19  #6
+  DMF   Kervin Arriaga   DMF   71.36  #5
+  LB    Joseph Rosales   LB    71.31  #8
+  CB    Denil Maldonado  CB    70.48  #2
+  CB    Marcelo Santos   CB    68.45  #3
+  RB    Andy Nájar       RB    72.47  #14
+  GK    Edrick Menjívar  GK    69.01  #1
 
 Substitutes:
-  [FW] Romell Quioto (CF) rating 71.59 #12
-  [MF] David Ruíz (CMF) rating 71.19 #11
-  [DF] Luis Vega (CB) rating 68.14 #4
-  [GK] Luis López (GK) rating 68.16 #22
+  SLOT  PLAYER           POS  RATING  NO.
+  FW    Romell Quioto    CF    71.59  #12
+  MF    David Ruíz       CMF   71.19  #11
+  DF    Luis Vega        CB    68.14  #4
+  GK    Luis López       GK    68.16  #22
 
 Wildcard:
-  [WILD] Deybi Flores (DMF) rating 70.50 #20
+  SLOT  PLAYER           POS  RATING  NO.
+  WILD  Deybi Flores     DMF   70.50  #20

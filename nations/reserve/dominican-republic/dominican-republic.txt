@@ -1,12 +1,13 @@
 Starters:
-  [CF] Mariano Díaz (CF) rating 92.15 #9
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] Pablo Rosario (DMF) rating 72.97 #6
-  [LB] Junior Firpo (LB) rating 93.03 #3
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Xavier Valdez (GK) rating 65.72 #1
+  SLOT  PLAYER         POS  RATING  NO.
+  CF    Mariano Díaz   CF    92.15  #9
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   Pablo Rosario  DMF   72.97  #6
+  LB    Junior Firpo   LB    93.03  #3
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    Xavier Valdez  GK    65.72  #1

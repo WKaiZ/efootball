@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Ismael Saibari (CF) rating 95.35 #11
-  [LWF] Bilal El Khannouss (LWF) rating 94.36 #23
-  [RWF] Abde Ezzalzouli (LMF) rating 94.26 #17
-  [AMF] Brahim Díaz (AMF) rating 97.79 #10
-  [CMF] Mohamed Boulacsout (RB) rating 93.43 #7
-  [DMF] Ayyoub Bouaddi (DMF) rating 97.43 #6
-  [LB] Noussair Mazraoui (LB) rating 93.89 #3
-  [CB] Nayef Aguerd (CB) rating 95.28 #5
-  [CB] Marouane Louadni (CB) rating 92.57 #4
-  [RB] Achraf Hakimi (RB) rating 97.94 #2
-  [GK] Yassine Bounou (GK) rating 96.28 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Ismael Saibari         CF    95.35  #11
+  LWF   Bilal El Khannouss     LWF   94.36  #23
+  RWF   Abde Ezzalzouli        LMF   94.26  #17
+  AMF   Brahim Díaz            AMF   97.79  #10
+  CMF   Mohamed Boulacsout     RB    93.43  #7
+  DMF   Ayyoub Bouaddi         DMF   97.43  #6
+  LB    Noussair Mazraoui      LB    93.89  #3
+  CB    Nayef Aguerd           CB    95.28  #5
+  CB    Marouane Louadni       CB    92.57  #4
+  RB    Achraf Hakimi          RB    97.94  #2
+  GK    Yassine Bounou         GK    96.28  #1
 
 Substitutes:
-  [CF] Ayoub El Kaabi (CF) rating 94.26 #20
-  [LWF] Eliesse Ben Seghir (LWF) rating 75.27 #13
-  [RWF] Munir El Haddadi (RWF) rating 71.65 #9
-  [AMF] Amine Adli (AMF) rating 94.14 #21
-  [CMF] Azzedine Ounahi (CMF) rating 74.60 #8
-  [DMF] Sofyan Amrabat (DMF) rating 77.03 #16
-  [LB] Yahia Attiyat Allah (LB) rating 72.80 #25
-  [CB] Issa Diop (CB) rating 75.97 #14
-  [CB] Jawad El Yamiq (CB) rating 74.27 #18
-  [RB] Omar El Hilali (RB) rating 94.08 #15
-  [GK] El Mehdi Benabid (GK) rating 92.34 #12
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Ayoub El Kaabi         CF    94.26  #20
+  LWF   Eliesse Ben Seghir     LWF   75.27  #13
+  RWF   Munir El Haddadi       RWF   71.65  #9
+  AMF   Amine Adli             AMF   94.14  #21
+  CMF   Azzedine Ounahi        CMF   74.60  #8
+  DMF   Sofyan Amrabat         DMF   77.03  #16
+  LB    Yahia Attiyat Allah    LB    72.80  #25
+  CB    Issa Diop              CB    75.97  #14
+  CB    Jawad El Yamiq         CB    74.27  #18
+  RB    Omar El Hilali         RB    94.08  #15
+  GK    El Mehdi Benabid       GK    92.34  #12
 
 Wildcard:
-  [WILD] Soufiane Rahimi (CF) rating 93.00 #27
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Soufiane Rahimi        CF    93.00  #27
 
 Second Squad
 
 Starters:
-  [CF] Oussama Lamlioui (CF) rating 92.43 #9
-  [LWF] Mounir Chouiar (AMF) rating 93.25 #17
-  [RWF] Brahim Díaz (RWF) rating 93.36 #10
-  [AMF] Bilal El Khannouss (AMF) rating 94.21 #23
-  [CMF] Ismael Saibari (AMF) rating 93.24 #11
-  [DMF] Oussama El Azzouzi (DMF) rating 70.78 #16
-  [LB] Souffian El Karouani (LB) rating 73.47 #4
-  [CB] Medhi Benatia (CB) rating 94.38 #5
-  [CB] Romain Saïss (CB) rating 76.55 #6
-  [RB] Anas Bach (RB) rating 92.44 #3
-  [GK] Anas Zniti (GK) rating 71.78 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Oussama Lamlioui       CF    92.43  #9
+  LWF   Mounir Chouiar         AMF   93.25  #17
+  RWF   Brahim Díaz            RWF   93.36  #10
+  AMF   Bilal El Khannouss     AMF   94.21  #23
+  CMF   Ismael Saibari         AMF   93.24  #11
+  DMF   Oussama El Azzouzi     DMF   70.78  #16
+  LB    Souffian El Karouani   LB    73.47  #4
+  CB    Medhi Benatia          CB    94.38  #5
+  CB    Romain Saïss           CB    76.55  #6
+  RB    Anas Bach              RB    92.44  #3
+  GK    Anas Zniti             GK    71.78  #1
 
 Substitutes:
-  [CF] Youssef En-Nesyri (CF) rating 77.34 #19
-  [LWF] Amine Adli (LWF) rating 74.79 #21
-  [RWF] Ilias Akhomach (RWF) rating 73.46 #7
-  [AMF] Khalid Aït Ouarkhane (AMF) rating 67.90 #8
-  [CMF] Neil El Aynaoui (CMF) rating 73.76 #24
-  [DMF] Youssef Aït Bennasser (DMF) rating 70.48 #15
-  [LB] Anass Salah-Eddine (LB) rating 71.36 #26
-  [CB] Chadi Riad (CB) rating 74.06 #18
-  [CB] Adam Masina (CB) rating 73.22 #25
-  [RB] Noussair Mazraoui (RB) rating 75.30 #14
-  [GK] Munir El Kajoui (GK) rating 71.57 #12
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Youssef En-Nesyri      CF    77.34  #19
+  LWF   Amine Adli             LWF   74.79  #21
+  RWF   Ilias Akhomach         RWF   73.46  #7
+  AMF   Khalid Aït Ouarkhane   AMF   67.90  #8
+  CMF   Neil El Aynaoui        CMF   73.76  #24
+  DMF   Youssef Aït Bennasser  DMF   70.48  #15
+  LB    Anass Salah-Eddine     LB    71.36  #26
+  CB    Chadi Riad             CB    74.06  #18
+  CB    Adam Masina            CB    73.22  #25
+  RB    Noussair Mazraoui      RB    75.30  #14
+  GK    Munir El Kajoui        GK    71.57  #12
 
 Wildcard:
-  [WILD] Hamza Igamane (CF) rating 74.23 #20
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Hamza Igamane          CF    74.23  #20

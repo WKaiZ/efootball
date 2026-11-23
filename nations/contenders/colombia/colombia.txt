@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Jhon Durán (CF) rating 77.35 #9
-  [LWF] Luis Díaz (LWF) rating 97.29 #7
-  [RWF] James Rodríguez (RWF) rating 98.81 #10
-  [AMF] Jhon Arias (RWF) rating 94.34 #11
-  [CMF] Nelson Deossa (CMF) rating 75.04 #15
-  [DMF] Jefferson Lerma (DMF) rating 75.99 #16
-  [LB] Frank Fabra (LB) rating 74.28 #18
-  [CB] Jhon Lucumí (CB) rating 94.54 #3
-  [CB] Yerry Mina (CB) rating 93.36 #13
-  [RB] Daniel Muñoz (RB) rating 77.98 #2
-  [GK] Camilo Vargas (GK) rating 74.52 #12
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Jhon Durán              CF    77.35  #9
+  LWF   Luis Díaz               LWF   97.29  #7
+  RWF   James Rodríguez         RWF   98.81  #10
+  AMF   Jhon Arias              RWF   94.34  #11
+  CMF   Nelson Deossa           CMF   75.04  #15
+  DMF   Jefferson Lerma         DMF   75.99  #16
+  LB    Frank Fabra             LB    74.28  #18
+  CB    Jhon Lucumí             CB    94.54  #3
+  CB    Yerry Mina              CB    93.36  #13
+  RB    Daniel Muñoz            RB    77.98  #2
+  GK    Camilo Vargas           GK    74.52  #12
 
 Substitutes:
-  [CF] Cucho Hernández (CF) rating 76.34 #19
-  [LWF] Sebastián Villa (LWF) rating 77.18 #21
-  [RWF] Luis Quiñónes (RWF) rating 74.15 #22
-  [AMF] Juan Fernando Quintero (AMF) rating 76.04 #20
-  [CMF] Sebastián Gómez (CMF) rating 72.97 #5
-  [DMF] Gustavo Cuéllar (DMF) rating 74.20 #8
-  [LB] Johan Mojica (LB) rating 73.41 #17
-  [CB] Davinson Sánchez (CB) rating 78.43 #23
-  [CB] William Tesillo (CB) rating 74.06 #6
-  [RB] Santiago Arias (RB) rating 73.93 #4
-  [GK] Álvaro Montero (GK) rating 74.51 #24
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Cucho Hernández         CF    76.34  #19
+  LWF   Sebastián Villa         LWF   77.18  #21
+  RWF   Luis Quiñónes           RWF   74.15  #22
+  AMF   Juan Fernando Quintero  AMF   76.04  #20
+  CMF   Sebastián Gómez         CMF   72.97  #5
+  DMF   Gustavo Cuéllar         DMF   74.20  #8
+  LB    Johan Mojica            LB    73.41  #17
+  CB    Davinson Sánchez        CB    78.43  #23
+  CB    William Tesillo         CB    74.06  #6
+  RB    Santiago Arias          RB    73.93  #4
+  GK    Álvaro Montero          GK    74.51  #24
 
 Wildcard:
-  [WILD] Luis Suarez (CF) rating 75.09 #25
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Luis Suarez             CF    75.09  #25
 
 Second Squad
 
 Starters:
-  [CF] Luis Díaz (LMF) rating 95.17 #7
-  [LWF] Jhon Arias (LWF) rating 75.27 #10
-  [RWF] Diego Valoyes (RWF) rating 73.10 #9
-  [AMF] James Rodríguez (AMF) rating 74.75 #5
-  [CMF] Eduard Atuesta (CMF) rating 73.25 #20
-  [DMF] Juan Portilla (DMF) rating 74.30 #15
-  [LB] Cristián Borja (LB) rating 73.27 #18
-  [CB] Carlos Cuesta (CB) rating 74.04 #2
-  [CB] Yerson Mosquera (CB) rating 73.57 #3
-  [RB] Andrés Felipe Román (RB) rating 73.37 #21
-  [GK] David Ospina (GK) rating 74.26 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Luis Díaz               LMF   95.17  #7
+  LWF   Jhon Arias              LWF   75.27  #10
+  RWF   Diego Valoyes           RWF   73.10  #9
+  AMF   James Rodríguez         AMF   74.75  #5
+  CMF   Eduard Atuesta          CMF   73.25  #20
+  DMF   Juan Portilla           DMF   74.30  #15
+  LB    Cristián Borja          LB    73.27  #18
+  CB    Carlos Cuesta           CB    74.04  #2
+  CB    Yerson Mosquera         CB    73.57  #3
+  RB    Andrés Felipe Román     RB    73.37  #21
+  GK    David Ospina            GK    74.26  #1
 
 Substitutes:
-  [CF] Jhon Córdoba (CF) rating 77.21 #4
-  [LWF] Jáminton Campaz (LWF) rating 74.84 #23
-  [RWF] Felipe Pardo (RWF) rating 71.53 #11
-  [AMF] Jorge Carrascal (AMF) rating 73.89 #8
-  [CMF] Jhon Solís (CMF) rating 72.24 #14
-  [DMF] Didier Moreno (DMF) rating 72.97 #6
-  [LB] Junior Hernández (LB) rating 73.22 #13
-  [CB] Brayan Vera (CB) rating 72.18 #16
-  [CB] Jeison Murillo (CB) rating 71.62 #22
-  [RB] Helibelton Palacios (RB) rating 71.80 #17
-  [GK] Devis Vásquez (GK) rating 73.65 #24
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Jhon Córdoba            CF    77.21  #4
+  LWF   Jáminton Campaz         LWF   74.84  #23
+  RWF   Felipe Pardo            RWF   71.53  #11
+  AMF   Jorge Carrascal         AMF   73.89  #8
+  CMF   Jhon Solís              CMF   72.24  #14
+  DMF   Didier Moreno           DMF   72.97  #6
+  LB    Junior Hernández        LB    73.22  #13
+  CB    Brayan Vera             CB    72.18  #16
+  CB    Jeison Murillo          CB    71.62  #22
+  RB    Helibelton Palacios     RB    71.80  #17
+  GK    Devis Vásquez           GK    73.65  #24
 
 Wildcard:
-  [WILD] Duván Zapata (CF) rating 76.29 #19
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Duván Zapata            CF    76.29  #19

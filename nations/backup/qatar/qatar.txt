@@ -1,21 +1,24 @@
 Starters:
-  [CF] Almoez Ali (CF) rating 73.50 #19
-  [LWF] Akram Afif (LWF) rating 74.98 #11
-  [RWF] Abdelrahman Moustafa (RWF) rating 70.35 #17
-  [AMF] Hassan Al-Haydos (AMF) rating 72.35 #10
-  [CMF] Abdulaziz Hatim (CMF) rating 71.15 #6
-  [DMF] Karim Boudiaf (DMF) rating 73.01 #12
-  [LB] Sultan Al-Brake (LB) rating 71.92 #18
-  [CB] Lucas Mendes (CB) rating 73.43 #3
-  [CB] Boualem Khoukhi (CB) rating 72.44 #16
-  [RB] Pedro Miguel (RB) rating 72.27 #2
-  [GK] Meshaal Barsham (GK) rating 71.78 #22
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Almoez Ali            CF    73.50  #19
+  LWF   Akram Afif            LWF   74.98  #11
+  RWF   Abdelrahman Moustafa  RWF   70.35  #17
+  AMF   Hassan Al-Haydos      AMF   72.35  #10
+  CMF   Abdulaziz Hatim       CMF   71.15  #6
+  DMF   Karim Boudiaf         DMF   73.01  #12
+  LB    Sultan Al-Brake       LB    71.92  #18
+  CB    Lucas Mendes          CB    73.43  #3
+  CB    Boualem Khoukhi       CB    72.44  #16
+  RB    Pedro Miguel          RB    72.27  #2
+  GK    Meshaal Barsham       GK    71.78  #22
 
 Substitutes:
-  [FW] Ahmed Alaaeldin (CF) rating 69.71 #7
-  [MF] Ali Asad (AMF) rating 71.13 #8
-  [DF] Mohammed Waad (LB) rating 71.33 #4
-  [GK] Mahmoud Abunada (GK) rating 70.19 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  FW    Ahmed Alaaeldin       CF    69.71  #7
+  MF    Ali Asad              AMF   71.13  #8
+  DF    Mohammed Waad         LB    71.33  #4
+  GK    Mahmoud Abunada       GK    70.19  #1
 
 Wildcard:
-  [WILD] Bassam Al-Rawi (CB) rating 70.78 #15
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Bassam Al-Rawi        CB    70.78  #15

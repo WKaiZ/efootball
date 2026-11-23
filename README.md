@@ -97,7 +97,17 @@ excluding cards used in earlier squads. No formation files are needed.
 
 ### `<country>.txt` (output, generated)
 
-The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers**, **backup** and **reserve** nations render a single squad (starters only for backup and reserve). The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows two squads for contenders and one for everyone else.
+The drafted gameplan written by `scripts/draft_gameplan.py`. For **contenders**, it contains two sections — **First Squad** and **Second Squad** — each listing Starters, Substitutes, and the Wildcard with slot, main position, rating, and assigned jersey number. Rows are aligned in fixed columns under a header row, exactly as the terminal prints them (one renderer, `render_lines`, produces both). `SLOT` is the formation slot, `POS` the card's main position, and `NO.` the assigned jersey number:
+
+```
+Starters:
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Thierry Henry         CF   100.03  #12
+  LWF   Franck Ribéry         LWF   98.32  #7
+  CB    VACANT
+```
+
+`scripts/efootball_build.py` also still parses the older `[CF] Name (CF) rating 100.03 #12` layout found in git history. Each later squad excludes every *card* picked in the earlier ones (`player_id` + main position); a different-position card of the same player may still be used. Jersey numbers are assigned independently per squad and may overlap. **Challengers**, **backup** and **reserve** nations render a single squad (starters only for backup and reserve). The website overview shows nations only when all 11 first-squad starter slots are filled. The website shows two squads for contenders and one for everyone else.
 
 ---
 

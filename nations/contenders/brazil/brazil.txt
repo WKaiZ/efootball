@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Adriano (CF) rating 98.68 #9
-  [LWF] Ronaldinho (LWF) rating 99.95 #10
-  [RWF] Raphinha (RWF) rating 96.99 #11
-  [AMF] Kaká (AMF) rating 99.41 #7
-  [CMF] Ederson (CMF) rating 94.97 #17
-  [DMF] Bruno Guimarães (DMF) rating 98.17 #8
-  [LB] Roberto Carlos (LB) rating 99.93 #6
-  [CB] Gabriel (CB) rating 97.96 #3
-  [CB] Marquinhos (CB) rating 96.97 #4
-  [RB] Cafu (RB) rating 98.85 #2
-  [GK] Dida (GK) rating 97.90 #1
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Adriano           CF    98.68  #9
+  LWF   Ronaldinho        LWF   99.95  #10
+  RWF   Raphinha          RWF   96.99  #11
+  AMF   Kaká              AMF   99.41  #7
+  CMF   Ederson           CMF   94.97  #17
+  DMF   Bruno Guimarães   DMF   98.17  #8
+  LB    Roberto Carlos    LB    99.93  #6
+  CB    Gabriel           CB    97.96  #3
+  CB    Marquinhos        CB    96.97  #4
+  RB    Cafu              RB    98.85  #2
+  GK    Dida              GK    97.90  #1
 
 Substitutes:
-  [CF] João Pedro (CF) rating 98.24 #22
-  [LWF] Vinicius Junior (LWF) rating 99.34 #18
-  [RWF] Rayan (RWF) rating 94.04 #26
-  [AMF] Rivaldo (AMF) rating 97.67 #20
-  [CMF] Andrey Santos (CMF) rating 94.21 #21
-  [DMF] Casemiro (DMF) rating 97.38 #5
-  [LB] Marcelo (LB) rating 97.92 #12
-  [CB] Thiago Silva (CB) rating 95.80 #14
-  [CB] Bremer (CB) rating 94.92 #15
-  [RB] Maicon (RB) rating 98.30 #13
-  [GK] Alisson (GK) rating 95.99 #19
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    João Pedro        CF    98.24  #22
+  LWF   Vinicius Junior   LWF   99.34  #18
+  RWF   Rayan             RWF   94.04  #26
+  AMF   Rivaldo           AMF   97.67  #20
+  CMF   Andrey Santos     CMF   94.21  #21
+  DMF   Casemiro          DMF   97.38  #5
+  LB    Marcelo           LB    97.92  #12
+  CB    Thiago Silva      CB    95.80  #14
+  CB    Bremer            CB    94.92  #15
+  RB    Maicon            RB    98.30  #13
+  GK    Alisson           GK    95.99  #19
 
 Wildcard:
-  [WILD] Bebeto (CF) rating 97.56 #16
+  SLOT  PLAYER            POS  RATING  NO.
+  WILD  Bebeto            CF    97.56  #16
 
 Second Squad
 
 Starters:
-  [CF] Pelé (CF) rating 99.81 #10
-  [LWF] Neymar (LWF) rating 99.19 #11
-  [RMF] Cafu (RMF) rating 97.18 #14
-  [AMF] Zico (AMF) rating 98.94 #8
-  [CMF] Júnior (CMF) rating 96.98 #6
-  [DMF] Edmílson (DMF) rating 96.70 #5
-  [LB] Wesley (LB) rating 97.39 #2
-  [CB] Éder Militão (CB) rating 95.22 #3
-  [CB] Murillo (CB) rating 94.98 #17
-  [RB] Juliano Belletti (RB) rating 97.04 #13
-  [GK] Cássio (GK) rating 95.25 #16
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Pelé              CF    99.81  #10
+  LWF   Neymar            LWF   99.19  #11
+  RMF   Cafu              RMF   97.18  #14
+  AMF   Zico              AMF   98.94  #8
+  CMF   Júnior            CMF   96.98  #6
+  DMF   Edmílson          DMF   96.70  #5
+  LB    Wesley            LB    97.39  #2
+  CB    Éder Militão      CB    95.22  #3
+  CB    Murillo           CB    94.98  #17
+  RB    Juliano Belletti  RB    97.04  #13
+  GK    Cássio            GK    95.25  #16
 
 Substitutes:
-  [CF] Romário (CF) rating 98.28 #9
-  [LWF] Raphinha (LWF) rating 96.69 #19
-  [RMF] Rodrygo (RMF) rating 96.03 #21
-  [AMF] Ronaldinho (AMF) rating 98.60 #7
-  [CMF] Joelinton (CMF) rating 94.78 #18
-  [DMF] Pablo Maia (DMF) rating 93.04 #26
-  [LB] Alex Sandro (LB) rating 94.21 #12
-  [CB] Léo Pereira (CB) rating 94.91 #15
-  [CB] Roger Ibañez (CB) rating 94.31 #24
-  [RB] Danilo (RB) rating 94.04 #22
-  [GK] Bento (GK) rating 94.38 #1
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Romário           CF    98.28  #9
+  LWF   Raphinha          LWF   96.69  #19
+  RMF   Rodrygo           RMF   96.03  #21
+  AMF   Ronaldinho        AMF   98.60  #7
+  CMF   Joelinton         CMF   94.78  #18
+  DMF   Pablo Maia        DMF   93.04  #26
+  LB    Alex Sandro       LB    94.21  #12
+  CB    Léo Pereira       CB    94.91  #15
+  CB    Roger Ibañez      CB    94.31  #24
+  RB    Danilo            RB    94.04  #22
+  GK    Bento             GK    94.38  #1
 
 Wildcard:
-  [WILD] Vinicius Junior (LMF) rating 97.46 #20
+  SLOT  PLAYER            POS  RATING  NO.
+  WILD  Vinicius Junior   LMF   97.46  #20

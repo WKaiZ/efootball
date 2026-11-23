@@ -1,62 +1,68 @@
 First Squad
 
 Starters:
-  [CF] Karl-Heinz Rummenigge (CF) rating 99.39 #11
-  [LMF] Jamal Musiala (LMF) rating 97.68 #14
-  [RWF] Karim Adeyemi (RWF) rating 98.52 #19
-  [AMF] Uli Hoeneß (AMF) rating 98.18 #8
-  [CMF] Lothar Matthäus (CMF) rating 99.60 #10
-  [DMF] Bastian Schweinsteiger (DMF) rating 98.08 #7
-  [LB] David Raum (LB) rating 94.18 #22
-  [CB] Franz Beckenbauer (CB) rating 99.41 #5
-  [CB] Nico Schlotterbeck (CB) rating 96.57 #15
-  [RB] Philipp Lahm (RB) rating 100.12 #16
-  [GK] Manuel Neuer (GK) rating 100.29 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Karl-Heinz Rummenigge   CF    99.39  #11
+  LMF   Jamal Musiala           LMF   97.68  #14
+  RWF   Karim Adeyemi           RWF   98.52  #19
+  AMF   Uli Hoeneß              AMF   98.18  #8
+  CMF   Lothar Matthäus         CMF   99.60  #10
+  DMF   Bastian Schweinsteiger  DMF   98.08  #7
+  LB    David Raum              LB    94.18  #22
+  CB    Franz Beckenbauer       CB    99.41  #5
+  CB    Nico Schlotterbeck      CB    96.57  #15
+  RB    Philipp Lahm            RB   100.12  #16
+  GK    Manuel Neuer            GK   100.29  #1
 
 Substitutes:
-  [CF] Gerd Müller (CF) rating 99.05 #13
-  [LMF] Marco Reus (LMF) rating 97.37 #21
-  [RWF] Jamie Leweling (RWF) rating 95.10 #9
-  [AMF] Florian Wirtz (AMF) rating 96.12 #17
-  [CMF] Assan Ouédraogo (CMF) rating 94.02 #25
-  [DMF] Felix Nmecha (DMF) rating 97.61 #23
-  [LB] Maximilian Mittelstädt (LB) rating 93.26 #18
-  [CB] Jonathan Tah (CB) rating 96.56 #4
-  [CB] Antonio Rüdiger (CB) rating 95.72 #2
-  [RB] Joshua Kimmich (RB) rating 95.99 #6
-  [GK] Oliver Kahn (GK) rating 97.27 #12
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Gerd Müller             CF    99.05  #13
+  LMF   Marco Reus              LMF   97.37  #21
+  RWF   Jamie Leweling          RWF   95.10  #9
+  AMF   Florian Wirtz           AMF   96.12  #17
+  CMF   Assan Ouédraogo         CMF   94.02  #25
+  DMF   Felix Nmecha            DMF   97.61  #23
+  LB    Maximilian Mittelstädt  LB    93.26  #18
+  CB    Jonathan Tah            CB    96.56  #4
+  CB    Antonio Rüdiger         CB    95.72  #2
+  RB    Joshua Kimmich          RB    95.99  #6
+  GK    Oliver Kahn             GK    97.27  #12
 
 Wildcard:
-  [WILD] Kai Havertz (CF) rating 95.97 #20
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Kai Havertz             CF    95.97  #20
 
 Second Squad
 
 Starters:
-  [CF] Miroslav Klose (CF) rating 97.85 #11
-  [LWF] Serge Gnabry (LWF) rating 95.13 #20
-  [RWF] Leroy Sané (RWF) rating 94.89 #19
-  [AMF] Jamal Musiala (AMF) rating 97.02 #14
-  [CMF] Felix Nmecha (CMF) rating 96.78 #8
-  [DMF] Lothar Matthäus (DMF) rating 96.95 #10
-  [LB] David Raum (LMF) rating 93.96 #22
-  [CB] Joshua Kimmich (CB) rating 95.94 #6
-  [CB] Waldemar Anton (CB) rating 95.45 #3
-  [RB] Jonas Hofmann (AMF) rating 94.03 #18
-  [GK] Kevin Trapp (GK) rating 94.34 #12
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Miroslav Klose          CF    97.85  #11
+  LWF   Serge Gnabry            LWF   95.13  #20
+  RWF   Leroy Sané              RWF   94.89  #19
+  AMF   Jamal Musiala           AMF   97.02  #14
+  CMF   Felix Nmecha            CMF   96.78  #8
+  DMF   Lothar Matthäus         DMF   96.95  #10
+  LB    David Raum              LMF   93.96  #22
+  CB    Joshua Kimmich          CB    95.94  #6
+  CB    Waldemar Anton          CB    95.45  #3
+  RB    Jonas Hofmann           AMF   94.03  #18
+  GK    Kevin Trapp             GK    94.34  #12
 
 Substitutes:
-  [CF] Jonathan Burkardt (CF) rating 95.09 #7
-  [LWF] Kevin Schade (LWF) rating 94.09 #9
-  [RWF] Florian Wirtz (SS) rating 95.90 #17
-  [AMF] Thomas Müller (AMF) rating 95.36 #13
-  [CMF] İlkay Gündoğan (CMF) rating 77.18 #21
-  [DMF] Franz Beckenbauer (DMF) rating 96.90 #5
-  [LB] VACANT
-  [CB] Robert Andrich (CB) rating 94.99 #23
-  [CB] Malick Thiaw (CB) rating 94.99 #2
-  [RB] Thilo Kehrer (CB) rating 76.32 #15
-  [GK] Oliver Baumann (GK) rating 94.22 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Jonathan Burkardt       CF    95.09  #7
+  LWF   Kevin Schade            LWF   94.09  #9
+  RWF   Florian Wirtz           SS    95.90  #17
+  AMF   Thomas Müller           AMF   95.36  #13
+  CMF   İlkay Gündoğan          CMF   77.18  #21
+  DMF   Franz Beckenbauer       DMF   96.90  #5
+  LB    VACANT
+  CB    Robert Andrich          CB    94.99  #23
+  CB    Malick Thiaw            CB    94.99  #2
+  RB    Thilo Kehrer            CB    76.32  #15
+  GK    Oliver Baumann          GK    94.22  #1
 
 Wildcard:
-  [WILD] Angelo Stiller (DMF) rating 95.29 #16
-  [WILD] Deniz Undav (CF) rating 94.96 #26
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Angelo Stiller          DMF   95.29  #16
+  WILD  Deniz Undav             CF    94.96  #26

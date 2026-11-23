@@ -1,61 +1,67 @@
 First Squad
 
 Starters:
-  [CF] Erling Haaland (CF) rating 99.85 #9
-  [LWF] Andreas Schjelderup (LWF) rating 94.39 #21
-  [RWF] Oscar Bobb (RWF) rating 94.31 #22
-  [AMF] Kristian Thorstvedt (AMF) rating 93.18 #18
-  [CMF] Martin Ødegaard (CMF) rating 97.57 #10
-  [DMF] Sander Berge (DMF) rating 94.44 #8
-  [LB] Fredrik Aursnes (CMF) rating 94.20 #7
-  [CB] Kristoffer Ajer (CB) rating 75.93 #3
-  [CB] Leo Østigård (CB) rating 74.50 #4
-  [RB] Julian Ryerson (RB) rating 95.20 #14
-  [GK] Egil Selvik (GK) rating 72.64 #13
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Erling Haaland        CF    99.85  #9
+  LWF   Andreas Schjelderup   LWF   94.39  #21
+  RWF   Oscar Bobb            RWF   94.31  #22
+  AMF   Kristian Thorstvedt   AMF   93.18  #18
+  CMF   Martin Ødegaard       CMF   97.57  #10
+  DMF   Sander Berge          DMF   94.44  #8
+  LB    Fredrik Aursnes       CMF   94.20  #7
+  CB    Kristoffer Ajer       CB    75.93  #3
+  CB    Leo Østigård          CB    74.50  #4
+  RB    Julian Ryerson        RB    95.20  #14
+  GK    Egil Selvik           GK    72.64  #13
 
 Substitutes:
-  [CF] Alexander Sørloth (CF) rating 96.18 #19
-  [LWF] Antonio Nusa (LWF) rating 93.96 #20
-  [RWF] Ola Solbakken (RWF) rating 72.38 #11
-  [AMF] Thelo Aasgaard (AMF) rating 70.64 #23
-  [CMF] Hugo Vetlesen (CMF) rating 72.21 #15
-  [DMF] Patrik Berg (DMF) rating 74.74 #6
-  [LB] Fredrik Bjørkan (LB) rating 73.17 #25
-  [CB] Stian Gregersen (CB) rating 73.53 #2
-  [CB] Torbjørn Heggem (CB) rating 73.09 #17
-  [RB] Marcus Pedersen (RB) rating 74.11 #16
-  [GK] Ørjan Nyland (GK) rating 72.52 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Alexander Sørloth     CF    96.18  #19
+  LWF   Antonio Nusa          LWF   93.96  #20
+  RWF   Ola Solbakken         RWF   72.38  #11
+  AMF   Thelo Aasgaard        AMF   70.64  #23
+  CMF   Hugo Vetlesen         CMF   72.21  #15
+  DMF   Patrik Berg           DMF   74.74  #6
+  LB    Fredrik Bjørkan       LB    73.17  #25
+  CB    Stian Gregersen       CB    73.53  #2
+  CB    Torbjørn Heggem       CB    73.09  #17
+  RB    Marcus Pedersen       RB    74.11  #16
+  GK    Ørjan Nyland          GK    72.52  #1
 
 Wildcard:
-  [WILD] Andreas Hanche-Olsen (CB) rating 72.64 #24
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Andreas Hanche-Olsen  CB    72.64  #24
 
 Second Squad
 
 Starters:
-  [CF] Jørgen Strand Larsen (CF) rating 94.28 #11
-  [LWF] Jens Petter Hauge (LWF) rating 72.39 #23
-  [RWF] Mohamed Elyounoussi (SS) rating 74.75 #13
-  [AMF] Martin Ødegaard (AMF) rating 95.99 #10
-  [CMF] Morten Thorsby (CMF) rating 72.13 #2
-  [DMF] Felix Horn Myhre (CMF) rating 71.15 #18
-  [LB] Julian Ryerson (RMF) rating 93.98 #14
-  [CB] Jakob Glesnes (CB) rating 73.84 #6
-  [CB] Sondre Langås (CB) rating 71.50 #24
-  [RB] VACANT
-  [GK] Sander Tangvik (GK) rating 71.31 #12
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Jørgen Strand Larsen  CF    94.28  #11
+  LWF   Jens Petter Hauge     LWF   72.39  #23
+  RWF   Mohamed Elyounoussi   SS    74.75  #13
+  AMF   Martin Ødegaard       AMF   95.99  #10
+  CMF   Morten Thorsby        CMF   72.13  #2
+  DMF   Felix Horn Myhre      CMF   71.15  #18
+  LB    Julian Ryerson        RMF   93.98  #14
+  CB    Jakob Glesnes         CB    73.84  #6
+  CB    Sondre Langås         CB    71.50  #24
+  RB    VACANT
+  GK    Sander Tangvik        GK    71.31  #12
 
 Substitutes:
-  [CF] Aune Heggebø (CF) rating 71.23 #15
-  [LWF] Kristian Arnstad (LWF) rating 72.15 #19
-  [RWF] Aron Dønnum (RMF) rating 73.25 #20
-  [AMF] Fredrik Ulvestad (CMF) rating 70.99 #8
-  [CMF] Sverre Nypan (CMF) rating 71.48 #16
-  [DMF] VACANT
-  [LB] Birger Meling (LB) rating 72.28 #5
-  [CB] Henrik Falchener (CB) rating 71.06 #25
-  [CB] Colin Rösler (CB) rating 69.34 #21
-  [RB] Eivind Helland (CB) rating 67.52 #4
-  [GK] Viljar Myhra (GK) rating 70.76 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Aune Heggebø          CF    71.23  #15
+  LWF   Kristian Arnstad      LWF   72.15  #19
+  RWF   Aron Dønnum           RMF   73.25  #20
+  AMF   Fredrik Ulvestad      CMF   70.99  #8
+  CMF   Sverre Nypan          CMF   71.48  #16
+  DMF   VACANT
+  LB    Birger Meling         LB    72.28  #5
+  CB    Henrik Falchener      CB    71.06  #25
+  CB    Colin Rösler          CB    69.34  #21
+  RB    Eivind Helland        CB    67.52  #4
+  GK    Viljar Myhra          GK    70.76  #1
 
 Wildcard:
-  [WILD] Kristoffer Velde (LMF) rating 73.41 #7
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Kristoffer Velde      LMF   73.41  #7

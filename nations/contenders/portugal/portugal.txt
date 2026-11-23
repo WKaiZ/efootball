@@ -1,62 +1,68 @@
 First Squad
 
 Starters:
-  [CF] Gonçalo Ramos (CF) rating 96.12 #9
-  [LMF] Pedro Neto (LMF) rating 98.71 #17
-  [RWF] Luís Figo (RWF) rating 100.74 #7
-  [AMF] Bruno Fernandes (AMF) rating 98.59 #8
-  [CMF] Vitinha (CMF) rating 98.42 #23
-  [DMF] João Neves (CMF) rating 95.72 #15
-  [LB] Nuno Mendes (LB) rating 97.40 #19
-  [CB] Pepe (CB) rating 98.20 #3
-  [CB] Rúben Dias (CB) rating 96.96 #4
-  [RB] Nélson Semedo (RB) rating 96.17 #2
-  [GK] Diogo Costa (GK) rating 95.05 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Gonçalo Ramos        CF    96.12  #9
+  LMF   Pedro Neto           LMF   98.71  #17
+  RWF   Luís Figo            RWF  100.74  #7
+  AMF   Bruno Fernandes      AMF   98.59  #8
+  CMF   Vitinha              CMF   98.42  #23
+  DMF   João Neves           CMF   95.72  #15
+  LB    Nuno Mendes          LB    97.40  #19
+  CB    Pepe                 CB    98.20  #3
+  CB    Rúben Dias           CB    96.96  #4
+  RB    Nélson Semedo        RB    96.17  #2
+  GK    Diogo Costa          GK    95.05  #1
 
 Substitutes:
-  [CF] Fábio Silva (CF) rating 93.96 #18
-  [LMF] João Félix (LWF) rating 95.38 #11
-  [RWF] Ricardo Quaresma (RWF) rating 97.38 #27
-  [AMF] Rui Costa (AMF) rating 98.11 #10
-  [CMF] Deco (CMF) rating 96.53 #16
-  [DMF] Rúben Neves (DMF) rating 79.70 #21
-  [LB] Nuno Tavares (LB) rating 93.98 #5
-  [CB] António Silva (CB) rating 94.47 #24
-  [CB] Renato Veiga (CB) rating 94.29 #13
-  [RB] João Cancelo (RB) rating 94.97 #20
-  [GK] Rui Silva (GK) rating 94.31 #12
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Fábio Silva          CF    93.96  #18
+  LMF   João Félix           LWF   95.38  #11
+  RWF   Ricardo Quaresma     RWF   97.38  #27
+  AMF   Rui Costa            AMF   98.11  #10
+  CMF   Deco                 CMF   96.53  #16
+  DMF   Rúben Neves          DMF   79.70  #21
+  LB    Nuno Tavares         LB    93.98  #5
+  CB    António Silva        CB    94.47  #24
+  CB    Renato Veiga         CB    94.29  #13
+  RB    João Cancelo         RB    94.97  #20
+  GK    Rui Silva            GK    94.31  #12
 
 Wildcard:
-  [WILD] Francisco Conceição (RWF) rating 96.86 #14
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Francisco Conceição  RWF   96.86  #14
 
 Second Squad
 
 Starters:
-  [CF] Gonçalo Guedes (LMF) rating 93.76 #19
-  [LWF] Pedro Neto (LWF) rating 94.91 #17
-  [RMF] Luís Figo (RMF) rating 100.33 #7
-  [AMF] Francisco Conceição (AMF) rating 93.50 #14
-  [CMF] Bernardo Silva (CMF) rating 95.64 #10
-  [DMF] Vitinha (DMF) rating 97.75 #23
-  [LB] João Cancelo (LB) rating 94.50 #20
-  [CB] Tomás Araújo (CB) rating 95.26 #4
-  [CB] Gonçalo Inácio (CB) rating 93.99 #3
-  [RB] João Neves (RB) rating 95.62 #15
-  [GK] José Sá (GK) rating 75.58 #12
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Gonçalo Guedes       LMF   93.76  #19
+  LWF   Pedro Neto           LWF   94.91  #17
+  RMF   Luís Figo            RMF  100.33  #7
+  AMF   Francisco Conceição  AMF   93.50  #14
+  CMF   Bernardo Silva       CMF   95.64  #10
+  DMF   Vitinha              DMF   97.75  #23
+  LB    João Cancelo         LB    94.50  #20
+  CB    Tomás Araújo         CB    95.26  #4
+  CB    Gonçalo Inácio       CB    93.99  #3
+  RB    João Neves           RB    95.62  #15
+  GK    José Sá              GK    75.58  #12
 
 Substitutes:
-  [CF] Andre Silva (CF) rating 73.33 #9
-  [LWF] Matheus Nunes (LWF) rating 93.98 #18
-  [RMF] Francisco Trincão (RWF) rating 78.17 #16
-  [AMF] Ricardo Horta (AMF) rating 76.85 #21
-  [CMF] Mateus Fernandes (CMF) rating 95.30 #6
-  [DMF] João Palhinha (DMF) rating 78.20 #11
-  [LB] Nazinho (LB) rating 69.62 #5
-  [CB] Danilo Pereira (CB) rating 93.22 #13
-  [CB] VACANT
-  [RB] Diogo Dalot (RB) rating 94.01 #2
-  [GK] Anthony Lopes (GK) rating 74.64 #22
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Andre Silva          CF    73.33  #9
+  LWF   Matheus Nunes        LWF   93.98  #18
+  RMF   Francisco Trincão    RWF   78.17  #16
+  AMF   Ricardo Horta        AMF   76.85  #21
+  CMF   Mateus Fernandes     CMF   95.30  #6
+  DMF   João Palhinha        DMF   78.20  #11
+  LB    Nazinho              LB    69.62  #5
+  CB    Danilo Pereira       CB    93.22  #13
+  CB    VACANT
+  RB    Diogo Dalot          RB    94.01  #2
+  GK    Anthony Lopes        GK    74.64  #22
 
 Wildcard:
-  [WILD] Bruno Fernandes (CMF) rating 95.01 #8
-  [WILD] Samú Costa (DMF) rating 76.18 #24
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Bruno Fernandes      CMF   95.01  #8
+  WILD  Samú Costa           DMF   76.18  #24

@@ -1,21 +1,24 @@
 Starters:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] Maksim Kireev (AMF) rating 66.63 #7
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER         POS  RATING  NO.
+  CF    VACANT
+  LWF   VACANT
+  RWF   VACANT
+  AMF   Maksim Kireev  AMF   66.63  #7
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT
 
 Substitutes:
-  [FW] VACANT
-  [MF] VACANT
-  [DF] VACANT
-  [GK] VACANT
+  SLOT  PLAYER         POS  RATING  NO.
+  FW    VACANT
+  MF    VACANT
+  DF    VACANT
+  GK    VACANT
 
 Wildcard:
-  [WILD] VACANT
+  SLOT  PLAYER         POS  RATING  NO.
+  WILD  VACANT

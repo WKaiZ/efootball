@@ -1,21 +1,24 @@
 Starters:
-  [CF] Eldor Shomurodov (CF) rating 75.01 #14
-  [LWF] Jaloliddin Masharipov (LWF) rating 71.66 #10
-  [RWF] Azizbek Turgunboev (RWF) rating 70.31 #19
-  [AMF] Abbosbek Fayzullaev (AMF) rating 71.39 #22
-  [CMF] Otabek Shukurov (CMF) rating 71.85 #7
-  [DMF] Odildzhon Khamrobekov (DMF) rating 71.19 #9
-  [LB] Sherzod Nasrullaev (LB) rating 69.46 #13
-  [CB] Abdukodir Khusanov (CB) rating 94.13 #2
-  [CB] Khusniddin Alikulov (CB) rating 70.72 #23
-  [RB] Khozhiakbar Alizhonov (RB) rating 70.22 #3
-  [GK] Utkir Yusupov (GK) rating 70.50 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Eldor Shomurodov       CF    75.01  #14
+  LWF   Jaloliddin Masharipov  LWF   71.66  #10
+  RWF   Azizbek Turgunboev     RWF   70.31  #19
+  AMF   Abbosbek Fayzullaev    AMF   71.39  #22
+  CMF   Otabek Shukurov        CMF   71.85  #7
+  DMF   Odildzhon Khamrobekov  DMF   71.19  #9
+  LB    Sherzod Nasrullaev     LB    69.46  #13
+  CB    Abdukodir Khusanov     CB    94.13  #2
+  CB    Khusniddin Alikulov    CB    70.72  #23
+  RB    Khozhiakbar Alizhonov  RB    70.22  #3
+  GK    Utkir Yusupov          GK    70.50  #1
 
 Substitutes:
-  [FW] Oston Urunov (LWF) rating 70.46 #11
-  [MF] Akmal Mozgovoy (CMF) rating 70.52 #6
-  [DF] Rustam Ashurmatov (CB) rating 69.76 #5
-  [GK] Sandzhar Kuvvatov (GK) rating 69.46 #12
+  SLOT  PLAYER                 POS  RATING  NO.
+  FW    Oston Urunov           LWF   70.46  #11
+  MF    Akmal Mozgovoy         CMF   70.52  #6
+  DF    Rustam Ashurmatov      CB    69.76  #5
+  GK    Sandzhar Kuvvatov      GK    69.46  #12
 
 Wildcard:
-  [WILD] Sardor Sobirkhuzhaev (CMF) rating 70.28 #17
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Sardor Sobirkhuzhaev   CMF   70.28  #17

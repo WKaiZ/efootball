@@ -1,21 +1,24 @@
 Starters:
-  [CF] Pierre-Emerick Aubameyang (CF) rating 99.13 #9
-  [LWF] Denis Bouanga (LWF) rating 77.52 #20
-  [RWF] Jim Allevinah (RWF) rating 71.18 #11
-  [AMF] Guélor Kanga (AMF) rating 72.48 #12
-  [CMF] Samaké Nzé Bagnama (CMF) rating 64.44 #15
-  [DMF] Mario Lemina (DMF) rating 75.27 #18
-  [LB] Jacques Ekomié (LB) rating 71.17 #19
-  [CB] Bruno Ecuele Manga (CB) rating 71.27 #5
-  [CB] Aaron Appindangoyé (CB) rating 70.66 #2
-  [RB] Anthony Oyono (RB) rating 70.23 #3
-  [GK] Loyce Mbaba (GK) rating 68.82 #23
+  SLOT  PLAYER                     POS  RATING  NO.
+  CF    Pierre-Emerick Aubameyang  CF    99.13  #9
+  LWF   Denis Bouanga              LWF   77.52  #20
+  RWF   Jim Allevinah              RWF   71.18  #11
+  AMF   Guélor Kanga               AMF   72.48  #12
+  CMF   Samaké Nzé Bagnama         CMF   64.44  #15
+  DMF   Mario Lemina               DMF   75.27  #18
+  LB    Jacques Ekomié             LB    71.17  #19
+  CB    Bruno Ecuele Manga         CB    71.27  #5
+  CB    Aaron Appindangoyé         CB    70.66  #2
+  RB    Anthony Oyono              RB    70.23  #3
+  GK    Loyce Mbaba                GK    68.82  #23
 
 Substitutes:
-  [FW] Shavy Babicka (RWF) rating 70.58 #10
-  [MF] David Sambissa (RMF) rating 71.24 #7
-  [DF] Michel Mboula (CB) rating 70.24 #6
-  [GK] François Bekale (GK) rating 65.98 #16
+  SLOT  PLAYER                     POS  RATING  NO.
+  FW    Shavy Babicka              RWF   70.58  #10
+  MF    David Sambissa             RMF   71.24  #7
+  DF    Michel Mboula              CB    70.24  #6
+  GK    François Bekale            GK    65.98  #16
 
 Wildcard:
-  [WILD] André Poko (DMF) rating 70.41 #17
+  SLOT  PLAYER                     POS  RATING  NO.
+  WILD  André Poko                 DMF   70.41  #17

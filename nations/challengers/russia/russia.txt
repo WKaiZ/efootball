@@ -1,28 +1,31 @@
 Starters:
-  [CF] VACANT
-  [LWF] Arsen Zakharyan (AMF) rating 71.84 #10
-  [RWF] Aleksey Miranchuk (AMF) rating 74.47 #11
-  [AMF] Aleksandr Golovin (AMF) rating 76.72 #17
-  [CMF] Aleksey Batrakov (AMF) rating 70.80 #8
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Roman Neustädter (CB) rating 71.50 #3
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Matvey Safonov (GK) rating 78.87 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    VACANT
+  LWF   Arsen Zakharyan    AMF   71.84  #10
+  RWF   Aleksey Miranchuk  AMF   74.47  #11
+  AMF   Aleksandr Golovin  AMF   76.72  #17
+  CMF   Aleksey Batrakov   AMF   70.80  #8
+  DMF   VACANT
+  LB    VACANT
+  CB    Roman Neustädter   CB    71.50  #3
+  CB    VACANT
+  RB    VACANT
+  GK    Matvey Safonov     GK    78.87  #1
 
 Substitutes:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    VACANT
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT
 
 Wildcard:
-  [WILD] VACANT
+  SLOT  PLAYER             POS  RATING  NO.
+  WILD  VACANT

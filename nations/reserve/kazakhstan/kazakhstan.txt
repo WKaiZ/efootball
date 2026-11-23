@@ -1,12 +1,13 @@
 Starters:
-  [CF] Dastan Satpaev (CF) rating 69.08 #19
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER          POS  RATING  NO.
+  CF    Dastan Satpaev  CF    69.08  #19
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT

@@ -45,10 +45,25 @@ UA = (
     "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 )
 
-LINE_RE = re.compile(
-    r"^\s*\[(?P<slot>[A-Z]+)\]\s+(?P<name>.+?)\s+\((?P<pos>[A-Z]+)\)\s+"
-    r"rating\s+(?P<rating>[\d.]+)\s+#(?P<num>\d+)\s*$"
+LINE_RES = (
+    re.compile(
+        r"^\s*\[(?P<slot>[A-Z]+)\]\s+(?P<name>.+?)\s+\((?P<pos>[A-Z]+)\)\s+"
+        r"rating\s+(?P<rating>[\d.]+)\s+#(?P<num>\d+)\s*$"),
+    re.compile(
+        r"^\s*(?P<slot>[A-Z]{2,4})\s+(?P<name>\S.*?)\s+(?P<pos>[A-Z]{2,3})\s+"
+        r"(?P<rating>\d+(?:\.\d+)?)\s+#(?P<num>\d+)\s*$"),
 )
+
+def match_row(line):
+    for rx in LINE_RES:
+        m = rx.match(line)
+        if m:
+            return m
+    return None
+
+def squad_sig(m):
+    name = re.sub(r"\s+", " ", m["name"].strip())
+    return f"[{m['slot']}] {name} ({m['pos']}) rating {m['rating']} #{m['num']}"
 _SCOT = "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F"
 _WALES = "\U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F"
 _ENG = "\U0001F3F4\U000E0067\U000E0062\U000E0065\U000E006E\U000E0067\U000E007F"
@@ -317,8 +332,9 @@ def parse_squad_sigs(text):
         if low in SQUAD_HEADERS:
             squad = SQUAD_HEADERS[low]
             continue
-        if LINE_RE.match(line):
-            sigs.add((squad, squad_row_sig(line)))
+        m = match_row(line)
+        if m:
+            sigs.add((squad, squad_row_sig(squad_sig(m))))
     return sigs
 
 POOL_ROW_RE = re.compile(r"^\s*(?P<name>[^,\[\]]+?),\s*(?P<pos>[A-Z]+),")
@@ -419,7 +435,8 @@ def detect_renames(squad_texts, pool_texts, squad_now, pool_now, today):
 
 def apply_renames(text, renames):
     for old, new in renames.items():
-        text = re.sub(rf"(?m)^(\s*(?:\[[A-Z]+\]\s+)?){re.escape(old)}(?=\s+\(|\s*,)",
+        text = re.sub(rf"(?m)^(\s*(?:\[[A-Z]+\]\s+|[A-Z]{{2,4}}\s+)?){re.escape(old)}"
+                      r"(?=\s+\(|\s*,|\s+[A-Z]{2,3}\s+\d)",
                       lambda m: m[1] + new, text)
     return text
 
@@ -745,17 +762,17 @@ def _parse_players(text):
             section = "substitutes"; continue
         if low.startswith("wildcard"):
             section = "wildcard"; continue
-        m = LINE_RE.match(line)
+        m = match_row(line)
         if m:
             players.append({
                 "squad": squad, "section": section, "slot": m["slot"],
                 "name": m["name"].strip(),
                 "pos": m["pos"], "rating": float(m["rating"]), "number": int(m["num"]),
-                "row": row_sig(line),
+                "row": squad_sig(m),
             })
     return players
 
-VACANT_RE = re.compile(r"^\s*\[(?P<slot>[A-Z]+)\]\s+VACANT\s*$")
+VACANT_RE = re.compile(r"^\s*\[?(?P<slot>[A-Z]{2,4})\]?\s+VACANT\s*$")
 
 def _parse_vacant(text):
     vacant, squad, section = [], "first", None

@@ -1,12 +1,13 @@
 Starters:
-  [CF] Ali Sowe (CF) rating 72.40 #26
-  [LWF] Alieu Fadera (LWF) rating 71.06 #21
-  [RWF] Yankuba Minteh (RWF) rating 93.96 #7
-  [AMF] VACANT
-  [CMF] Ebou Adams (CMF) rating 70.71 #8
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Abubacarr Sedi Kinteh (CB) rating 69.63 #16
-  [CB] Noah Sonko Sundberg (CB) rating 69.03 #14
-  [RB] Saidy Janko (RB) rating 72.68 #17
-  [GK] VACANT
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Ali Sowe               CF    72.40  #26
+  LWF   Alieu Fadera           LWF   71.06  #21
+  RWF   Yankuba Minteh         RWF   93.96  #7
+  AMF   VACANT
+  CMF   Ebou Adams             CMF   70.71  #8
+  DMF   VACANT
+  LB    VACANT
+  CB    Abubacarr Sedi Kinteh  CB    69.63  #16
+  CB    Noah Sonko Sundberg    CB    69.03  #14
+  RB    Saidy Janko            RB    72.68  #17
+  GK    VACANT

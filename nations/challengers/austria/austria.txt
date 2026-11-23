@@ -1,29 +1,32 @@
 Starters:
-  [CF] Marko Arnautovic (CF) rating 75.30 #7
-  [LWF] Romano Schmid (LWF) rating 76.03 #18
-  [RWF] Patrick Wimmer (RWF) rating 73.79 #21
-  [AMF] Christoph Baumgartner (AMF) rating 94.18 #10
-  [CMF] Marcel Sabitzer (CMF) rating 94.04 #9
-  [DMF] Nicolas Seiwald (DMF) rating 76.52 #6
-  [LB] Phillipp Mwene (LB) rating 74.87 #16
-  [CB] David Alaba (CB) rating 94.09 #8
-  [CB] Philipp Lienhart (CB) rating 93.92 #15
-  [RB] Konrad Laimer (RB) rating 78.38 #20
-  [GK] Alexander Schlager (GK) rating 73.94 #17
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Marko Arnautovic       CF    75.30  #7
+  LWF   Romano Schmid          LWF   76.03  #18
+  RWF   Patrick Wimmer         RWF   73.79  #21
+  AMF   Christoph Baumgartner  AMF   94.18  #10
+  CMF   Marcel Sabitzer        CMF   94.04  #9
+  DMF   Nicolas Seiwald        DMF   76.52  #6
+  LB    Phillipp Mwene         LB    74.87  #16
+  CB    David Alaba            CB    94.09  #8
+  CB    Philipp Lienhart       CB    93.92  #15
+  RB    Konrad Laimer          RB    78.38  #20
+  GK    Alexander Schlager     GK    73.94  #17
 
 Substitutes:
-  [CF] Michael Gregoritsch (CF) rating 73.59 #11
-  [LWF] Thierno Ballo (LWF) rating 70.38 #22
-  [RWF] Raul Florucz (RWF) rating 72.14 #19
-  [AMF] Paul Wanner (AMF) rating 72.54 #24
-  [CMF] Xaver Schlager (CMF) rating 77.27 #4
-  [DMF] Dejan Ljubicic (DMF) rating 73.21 #14
-  [LB] David Schnegg (LB) rating 72.48 #23
-  [CB] Kevin Danso (CB) rating 77.27 #3
-  [CB] Stefan Posch (CB) rating 75.34 #5
-  [RB] VACANT
-  [GK] Patrick Pentz (GK) rating 73.49 #13
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Michael Gregoritsch    CF    73.59  #11
+  LWF   Thierno Ballo          LWF   70.38  #22
+  RWF   Raul Florucz           RWF   72.14  #19
+  AMF   Paul Wanner            AMF   72.54  #24
+  CMF   Xaver Schlager         CMF   77.27  #4
+  DMF   Dejan Ljubicic         DMF   73.21  #14
+  LB    David Schnegg          LB    72.48  #23
+  CB    Kevin Danso            CB    77.27  #3
+  CB    Stefan Posch           CB    75.34  #5
+  RB    VACANT
+  GK    Patrick Pentz          GK    73.49  #13
 
 Wildcard:
-  [WILD] Sasa Kalajdzic (CF) rating 73.40 #25
-  [WILD] Marco Friedl (CB) rating 73.40 #2
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Sasa Kalajdzic         CF    73.40  #25
+  WILD  Marco Friedl           CB    73.40  #2

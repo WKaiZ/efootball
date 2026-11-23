@@ -1,21 +1,24 @@
 Starters:
-  [CF] Nikola Krstović (CF) rating 93.21 #9
-  [LWF] Vladimir Jovovic (LWF) rating 69.74 #16
-  [RWF] Andrija Radulovic (RWF) rating 70.35 #21
-  [AMF] Vasilije Adžić (AMF) rating 70.07 #17
-  [CMF] Marko Jankovic (CMF) rating 71.48 #8
-  [DMF] Nikola Sipcic (CB) rating 71.69 #22
-  [LB] Adam Marusic (LB) rating 94.19 #23
-  [CB] Stefan Savić (CB) rating 75.59 #15
-  [CB] Igor Vujacic (CB) rating 73.04 #5
-  [RB] Marko Vukcevic (RB) rating 70.61 #4
-  [GK] Lazar Carević (GK) rating 72.51 #12
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    Nikola Krstović    CF    93.21  #9
+  LWF   Vladimir Jovovic   LWF   69.74  #16
+  RWF   Andrija Radulovic  RWF   70.35  #21
+  AMF   Vasilije Adžić     AMF   70.07  #17
+  CMF   Marko Jankovic     CMF   71.48  #8
+  DMF   Nikola Sipcic      CB    71.69  #22
+  LB    Adam Marusic       LB    94.19  #23
+  CB    Stefan Savić       CB    75.59  #15
+  CB    Igor Vujacic       CB    73.04  #5
+  RB    Marko Vukcevic     RB    70.61  #4
+  GK    Lazar Carević      GK    72.51  #12
 
 Substitutes:
-  [FW] Stevan Jovetić (SS) rating 73.50 #10
-  [MF] Nebojsa Kosovic (CMF) rating 71.28 #18
-  [DF] Slobodan Rubežić (CB) rating 71.77 #6
-  [GK] Danijel Petkovic (GK) rating 71.00 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  FW    Stevan Jovetić     SS    73.50  #10
+  MF    Nebojsa Kosovic    CMF   71.28  #18
+  DF    Slobodan Rubežić   CB    71.77  #6
+  GK    Danijel Petkovic   GK    71.00  #1
 
 Wildcard:
-  [WILD] Stefan Mugosa (CF) rating 72.72 #19
+  SLOT  PLAYER             POS  RATING  NO.
+  WILD  Stefan Mugosa      CF    72.72  #19

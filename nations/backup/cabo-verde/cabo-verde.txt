@@ -1,21 +1,24 @@
 Starters:
-  [CF] Dailon Livramento (CF) rating 70.47 #9
-  [LWF] Ryan Mendes (LWF) rating 71.57 #20
-  [RWF] Vasco Lopes (RWF) rating 69.82 #25
-  [AMF] David Costa (AMF) rating 65.30 #8
-  [CMF] Jamiro Monteiro (CMF) rating 71.25 #10
-  [DMF] Ayoni Santos (CMF) rating 63.99 #7
-  [LB] Dylan Tavares (LB) rating 67.68 #16
-  [CB] Logan Costa (CB) rating 75.22 #5
-  [CB] Ivanildo Fernandes (CB) rating 69.18 #4
-  [RB] Steven Moreira (RB) rating 73.46 #22
-  [GK] Vozinha (GK) rating 96.99 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Dailon Livramento   CF    70.47  #9
+  LWF   Ryan Mendes         LWF   71.57  #20
+  RWF   Vasco Lopes         RWF   69.82  #25
+  AMF   David Costa         AMF   65.30  #8
+  CMF   Jamiro Monteiro     CMF   71.25  #10
+  DMF   Ayoni Santos        CMF   63.99  #7
+  LB    Dylan Tavares       LB    67.68  #16
+  CB    Logan Costa         CB    75.22  #5
+  CB    Ivanildo Fernandes  CB    69.18  #4
+  RB    Steven Moreira      RB    73.46  #22
+  GK    Vozinha             GK    96.99  #1
 
 Substitutes:
-  [FW] Fabrício Garcia (RWF) rating 69.26 #17
-  [MF] Telmo Arcanjo (RMF) rating 71.91 #18
-  [DF] Wagner Pina (RB) rating 71.64 #2
-  [GK] CJ dos Santos (GK) rating 72.14 #23
+  SLOT  PLAYER              POS  RATING  NO.
+  FW    Fabrício Garcia     RWF   69.26  #17
+  MF    Telmo Arcanjo       RMF   71.91  #18
+  DF    Wagner Pina         RB    71.64  #2
+  GK    CJ dos Santos       GK    72.14  #23
 
 Wildcard:
-  [WILD] Sidny Lopes Cabral (RB) rating 71.26 #13
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Sidny Lopes Cabral  RB    71.26  #13

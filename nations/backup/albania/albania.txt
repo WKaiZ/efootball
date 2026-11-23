@@ -1,21 +1,24 @@
 Starters:
-  [CF] Armando Broja (CF) rating 74.56 #9
-  [LWF] Anis Mehmeti (LWF) rating 71.56 #24
-  [RWF] Arbnor Muja (RWF) rating 72.26 #16
-  [AMF] Ernest Muci (AMF) rating 94.79 #10
-  [CMF] Qazim Laci (CMF) rating 73.27 #14
-  [DMF] Ylber Ramadani (DMF) rating 70.83 #20
-  [LB] Mario Mitaj (LB) rating 70.76 #3
-  [CB] Ardian Ismajli (CB) rating 73.49 #18
-  [CB] Enea Mihaj (CB) rating 71.65 #13
-  [RB] Iván Balliu (RB) rating 71.21 #2
-  [GK] Alen Sherri (GK) rating 70.67 #12
+  SLOT  PLAYER            POS  RATING  NO.
+  CF    Armando Broja     CF    74.56  #9
+  LWF   Anis Mehmeti      LWF   71.56  #24
+  RWF   Arbnor Muja       RWF   72.26  #16
+  AMF   Ernest Muci       AMF   94.79  #10
+  CMF   Qazim Laci        CMF   73.27  #14
+  DMF   Ylber Ramadani    DMF   70.83  #20
+  LB    Mario Mitaj       LB    70.76  #3
+  CB    Ardian Ismajli    CB    73.49  #18
+  CB    Enea Mihaj        CB    71.65  #13
+  RB    Iván Balliu       RB    71.21  #2
+  GK    Alen Sherri       GK    70.67  #12
 
 Substitutes:
-  [FW] Myrto Uzuni (CF) rating 74.49 #11
-  [MF] Nedim Bajrami (AMF) rating 72.09 #8
-  [DF] Marash Kumbulla (CB) rating 71.44 #15
-  [GK] Simon Simoni (GK) rating 64.74 #1
+  SLOT  PLAYER            POS  RATING  NO.
+  FW    Myrto Uzuni       CF    74.49  #11
+  MF    Nedim Bajrami     AMF   72.09  #8
+  DF    Marash Kumbulla   CB    71.44  #15
+  GK    Simon Simoni      GK    64.74  #1
 
 Wildcard:
-  [WILD] Cristian Shpendi (CF) rating 70.29 #25
+  SLOT  PLAYER            POS  RATING  NO.
+  WILD  Cristian Shpendi  CF    70.29  #25

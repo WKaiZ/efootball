@@ -1,28 +1,31 @@
 Starters:
-  [CF] Andriy Shevchenko (CF) rating 100.14 #7
-  [LWF] Mykhaylo Mudryk (LWF) rating 74.88 #20
-  [RWF] Viktor Tsygankov (RWF) rating 75.67 #15
-  [AMF] Yegor Yarmolyuk (AMF) rating 93.26 #6
-  [CMF] Ruslan Malinovskyi (CMF) rating 74.93 #8
-  [DMF] Sergiy Sydorchuk (DMF) rating 71.46 #5
-  [LB] Vitaliy Mykolenko (LB) rating 93.23 #16
-  [CB] Ilya Zabarnyi (CB) rating 93.77 #13
-  [CB] Mykola Matvienko (CB) rating 75.37 #22
-  [RB] Yukhym Konoplya (RB) rating 73.20 #2
-  [GK] Andriy Lunin (GK) rating 91.28 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Andriy Shevchenko    CF   100.14  #7
+  LWF   Mykhaylo Mudryk      LWF   74.88  #20
+  RWF   Viktor Tsygankov     RWF   75.67  #15
+  AMF   Yegor Yarmolyuk      AMF   93.26  #6
+  CMF   Ruslan Malinovskyi   CMF   74.93  #8
+  DMF   Sergiy Sydorchuk     DMF   71.46  #5
+  LB    Vitaliy Mykolenko    LB    93.23  #16
+  CB    Ilya Zabarnyi        CB    93.77  #13
+  CB    Mykola Matvienko     CB    75.37  #22
+  RB    Yukhym Konoplya      RB    73.20  #2
+  GK    Andriy Lunin         GK    91.28  #1
 
 Substitutes:
-  [CF] Artem Dovbyk (CF) rating 77.99 #11
-  [LWF] Danylo Sikan (CF) rating 73.16 #9
-  [RWF] Oleksandr Zubkov (RWF) rating 75.15 #19
-  [AMF] Georgiy Sudakov (AMF) rating 76.49 #14
-  [CMF] Mykola Shaparenko (CMF) rating 73.22 #10
-  [DMF] Ivan Kalyuzhnyi (DMF) rating 67.61 #21
-  [LB] Oleksandr Zinchenko (LB) rating 74.57 #17
-  [CB] Oleksandr Svatok (CB) rating 73.00 #4
-  [CB] Valeriy Bondar (CB) rating 71.56 #3
-  [RB] Oleksandr Tymchyk (RB) rating 72.04 #18
-  [GK] Anatoliy Trubin (GK) rating 78.66 #12
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Artem Dovbyk         CF    77.99  #11
+  LWF   Danylo Sikan         CF    73.16  #9
+  RWF   Oleksandr Zubkov     RWF   75.15  #19
+  AMF   Georgiy Sudakov      AMF   76.49  #14
+  CMF   Mykola Shaparenko    CMF   73.22  #10
+  DMF   Ivan Kalyuzhnyi      DMF   67.61  #21
+  LB    Oleksandr Zinchenko  LB    74.57  #17
+  CB    Oleksandr Svatok     CB    73.00  #4
+  CB    Valeriy Bondar       CB    71.56  #3
+  RB    Oleksandr Tymchyk    RB    72.04  #18
+  GK    Anatoliy Trubin      GK    78.66  #12
 
 Wildcard:
-  [WILD] Dmytro Riznyk (GK) rating 73.38 #23
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Dmytro Riznyk        GK    73.38  #23

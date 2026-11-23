@@ -1,21 +1,24 @@
 Starters:
-  [CF] M'Bala Nzola (CF) rating 74.02 #17
-  [LWF] André Vidigal (LWF) rating 69.96 #7
-  [RWF] Zito Luvumbo (RWF) rating 73.25 #18
-  [AMF] Fredy (AMF) rating 71.30 #9
-  [CMF] Maestro (CMF) rating 71.83 #23
-  [DMF] Kelliano (DMF) rating 68.10 #20
-  [LB] Núrio Fortuna (LB) rating 71.55 #2
-  [CB] Clinton Mata (CB) rating 93.28 #4
-  [CB] David Carmo (CB) rating 76.03 #16
-  [RB] Eddie Afonso (RB) rating 64.71 #21
-  [GK] Neblú (GK) rating 71.63 #22
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    M'Bala Nzola     CF    74.02  #17
+  LWF   André Vidigal    LWF   69.96  #7
+  RWF   Zito Luvumbo     RWF   73.25  #18
+  AMF   Fredy            AMF   71.30  #9
+  CMF   Maestro          CMF   71.83  #23
+  DMF   Kelliano         DMF   68.10  #20
+  LB    Núrio Fortuna    LB    71.55  #2
+  CB    Clinton Mata     CB    93.28  #4
+  CB    David Carmo      CB    76.03  #16
+  RB    Eddie Afonso     RB    64.71  #21
+  GK    Neblú            GK    71.63  #22
 
 Substitutes:
-  [FW] Randy Nteka (CF) rating 72.32 #25
-  [MF] Beni Mukendi (CMF) rating 71.71 #15
-  [DF] Gaspar (CB) rating 74.10 #6
-  [GK] Signori Antonio (GK) rating 70.04 #12
+  SLOT  PLAYER           POS  RATING  NO.
+  FW    Randy Nteka      CF    72.32  #25
+  MF    Beni Mukendi     CMF   71.71  #15
+  DF    Gaspar           CB    74.10  #6
+  GK    Signori Antonio  GK    70.04  #12
 
 Wildcard:
-  [WILD] Buatu (CB) rating 72.46 #3
+  SLOT  PLAYER           POS  RATING  NO.
+  WILD  Buatu            CB    72.46  #3

@@ -1,23 +1,26 @@
 Starters:
-  [CF] Milan Djuric (CF) rating 72.68 #18
-  [LWF] Kerim Alajbegovic (LWF) rating 93.35 #19
-  [RWF] Esmir Bajraktarevic (RWF) rating 72.12 #11
-  [AMF] Haris Hajradinovic (AMF) rating 73.07 #20
-  [CMF] Armin Gigovic (CMF) rating 71.24 #8
-  [DMF] Benjamin Tahirović (DMF) rating 71.34 #6
-  [LB] VACANT
-  [CB] Sead Kolasinac (CB) rating 94.44 #5
-  [CB] Anel Ahmedhodzic (CB) rating 74.36 #16
-  [RB] Amar Dedic (RB) rating 74.78 #7
-  [GK] Vladan Kovacevic (GK) rating 73.61 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Milan Djuric         CF    72.68  #18
+  LWF   Kerim Alajbegovic    LWF   93.35  #19
+  RWF   Esmir Bajraktarevic  RWF   72.12  #11
+  AMF   Haris Hajradinovic   AMF   73.07  #20
+  CMF   Armin Gigovic        CMF   71.24  #8
+  DMF   Benjamin Tahirović   DMF   71.34  #6
+  LB    VACANT
+  CB    Sead Kolasinac       CB    94.44  #5
+  CB    Anel Ahmedhodzic     CB    74.36  #16
+  RB    Amar Dedic           RB    74.78  #7
+  GK    Vladan Kovacevic     GK    73.61  #1
 
 Substitutes:
-  [FW] Luka Menalo (LWF) rating 71.05 #10
-  [MF] Miroslav Stevanovic (LMF) rating 72.84 #13
-  [DF] Adrian Barisic (CB) rating 72.66 #3
-  [GK] VACANT
+  SLOT  PLAYER               POS  RATING  NO.
+  FW    Luka Menalo          LWF   71.05  #10
+  MF    Miroslav Stevanovic  LMF   72.84  #13
+  DF    Adrian Barisic       CB    72.66  #3
+  GK    VACANT
 
 Wildcard:
-  [WILD] Tarik Muharemović (CB) rating 72.39 #4
-  [WILD] Nihad Mujakic (CB) rating 71.00 #2
-  [WILD] Vladan Danilović (DMF) rating 70.24 #9
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Tarik Muharemović    CB    72.39  #4
+  WILD  Nihad Mujakic        CB    71.00  #2
+  WILD  Vladan Danilović     DMF   70.24  #9

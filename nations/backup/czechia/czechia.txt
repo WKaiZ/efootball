@@ -1,21 +1,24 @@
 Starters:
-  [CF] Jan Koller (CF) rating 97.42 #9
-  [LMF] Pavel Nedved (LMF) rating 99.94 #4
-  [RWF] Vaclav Cerny (RWF) rating 75.16 #17
-  [AMF] Tomas Rosicky (AMF) rating 97.98 #10
-  [CMF] Alex Král (CMF) rating 74.09 #21
-  [DMF] Tomáš Souček (DMF) rating 76.28 #22
-  [LB] David Jurásek (LB) rating 72.37 #14
-  [CB] Ladislav Krejci (CB) rating 76.09 #7
-  [CB] Tomas Holes (CB) rating 75.36 #3
-  [RB] Vladimír Coufal (RB) rating 92.96 #5
-  [GK] Petr Cech (GK) rating 99.70 #1
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    Jan Koller       CF    97.42  #9
+  LMF   Pavel Nedved     LMF   99.94  #4
+  RWF   Vaclav Cerny     RWF   75.16  #17
+  AMF   Tomas Rosicky    AMF   97.98  #10
+  CMF   Alex Král        CMF   74.09  #21
+  DMF   Tomáš Souček     DMF   76.28  #22
+  LB    David Jurásek    LB    72.37  #14
+  CB    Ladislav Krejci  CB    76.09  #7
+  CB    Tomas Holes      CB    75.36  #3
+  RB    Vladimír Coufal  RB    92.96  #5
+  GK    Petr Cech        GK    99.70  #1
 
 Substitutes:
-  [FW] Patrik Schick (CF) rating 94.47 #19
-  [MF] Pavel Sulc (AMF) rating 94.39 #15
-  [DF] David Zima (CB) rating 72.52 #6
-  [GK] Matej Kovar (GK) rating 75.66 #16
+  SLOT  PLAYER           POS  RATING  NO.
+  FW    Patrik Schick    CF    94.47  #19
+  MF    Pavel Sulc       AMF   94.39  #15
+  DF    David Zima       CB    72.52  #6
+  GK    Matej Kovar      GK    75.66  #16
 
 Wildcard:
-  [WILD] Lukas Provod (AMF) rating 75.92 #12
+  SLOT  PLAYER           POS  RATING  NO.
+  WILD  Lukas Provod     AMF   75.92  #12

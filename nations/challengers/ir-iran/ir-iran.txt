@@ -1,28 +1,31 @@
 Starters:
-  [CF] Mehdi Taremi (CF) rating 76.16 #9
-  [LWF] Mehdi Ghayedi (LWF) rating 72.15 #10
-  [RWF] Ali Gholizadeh (RWF) rating 71.20 #11
-  [AMF] Saman Ghoddos (AMF) rating 72.32 #14
-  [CMF] Seyed Mohammad Karimi (CMF) rating 70.85 #17
-  [DMF] Saeed Ezatolahi (DMF) rating 70.59 #6
-  [LB] Milad Mohammadi (LB) rating 71.62 #5
-  [CB] Hossein Kanaani (CB) rating 72.62 #13
-  [CB] Morteza Pouraliganji (CB) rating 72.54 #8
-  [RB] Sadegh Moharrami (RB) rating 72.06 #2
-  [GK] Alireza Beiranvand (GK) rating 72.45 #1
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    Mehdi Taremi              CF    76.16  #9
+  LWF   Mehdi Ghayedi             LWF   72.15  #10
+  RWF   Ali Gholizadeh            RWF   71.20  #11
+  AMF   Saman Ghoddos             AMF   72.32  #14
+  CMF   Seyed Mohammad Karimi     CMF   70.85  #17
+  DMF   Saeed Ezatolahi           DMF   70.59  #6
+  LB    Milad Mohammadi           LB    71.62  #5
+  CB    Hossein Kanaani           CB    72.62  #13
+  CB    Morteza Pouraliganji      CB    72.54  #8
+  RB    Sadegh Moharrami          RB    72.06  #2
+  GK    Alireza Beiranvand        GK    72.45  #1
 
 Substitutes:
-  [CF] Sardar Azmoun (CF) rating 73.05 #20
-  [LWF] Mehdi Torabi (LWF) rating 71.26 #27
-  [RWF] Omid Alishah (RWF) rating 70.16 #7
-  [AMF] Amirhossein Mahmoudi (AMF) rating 61.85 #25
-  [CMF] Amirmohammad Razzaghinia (CMF) rating 69.19 #15
-  [DMF] Mohammad Ghorbani (DMF) rating 67.97 #16
-  [LB] Omid Noorafkan (LB) rating 70.20 #21
-  [CB] Shoja Khalilzadeh (CB) rating 70.24 #4
-  [CB] Mohammad Daneshgar (CB) rating 69.85 #24
-  [RB] Saleh Hardani (RB) rating 69.94 #3
-  [GK] Payam Niazmand (GK) rating 70.36 #12
+  SLOT  PLAYER                    POS  RATING  NO.
+  CF    Sardar Azmoun             CF    73.05  #20
+  LWF   Mehdi Torabi              LWF   71.26  #27
+  RWF   Omid Alishah              RWF   70.16  #7
+  AMF   Amirhossein Mahmoudi      AMF   61.85  #25
+  CMF   Amirmohammad Razzaghinia  CMF   69.19  #15
+  DMF   Mohammad Ghorbani         DMF   67.97  #16
+  LB    Omid Noorafkan            LB    70.20  #21
+  CB    Shoja Khalilzadeh         CB    70.24  #4
+  CB    Mohammad Daneshgar        CB    69.85  #24
+  RB    Saleh Hardani             RB    69.94  #3
+  GK    Payam Niazmand            GK    70.36  #12
 
 Wildcard:
-  [WILD] Alireza Jahanbakhsh (RMF) rating 75.09 #18
+  SLOT  PLAYER                    POS  RATING  NO.
+  WILD  Alireza Jahanbakhsh       RMF   75.09  #18

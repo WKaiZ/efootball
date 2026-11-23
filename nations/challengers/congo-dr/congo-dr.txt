@@ -1,28 +1,31 @@
 Starters:
-  [CF] Yoane Wissa (CF) rating 94.87 #20
-  [LWF] Michel-Ange Balikwisha (LWF) rating 72.16 #27
-  [RWF] Théo Bongonda (RWF) rating 75.14 #10
-  [AMF] Gaël Kakuta (AMF) rating 71.58 #11
-  [CMF] Noah Sadiki (CMF) rating 94.31 #14
-  [DMF] Ngal'ayel Mukau (DMF) rating 72.80 #6
-  [LB] Arthur Masuaku (LB) rating 74.01 #26
-  [CB] Chancel Mbemba (CB) rating 74.53 #22
-  [CB] Steve Kapuadi (CB) rating 74.48 #3
-  [RB] Aaron Wan-Bissaka (RB) rating 75.43 #2
-  [GK] Matthieu Epolo (GK) rating 72.85 #21
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Yoane Wissa             CF    94.87  #20
+  LWF   Michel-Ange Balikwisha  LWF   72.16  #27
+  RWF   Théo Bongonda           RWF   75.14  #10
+  AMF   Gaël Kakuta             AMF   71.58  #11
+  CMF   Noah Sadiki             CMF   94.31  #14
+  DMF   Ngal'ayel Mukau         DMF   72.80  #6
+  LB    Arthur Masuaku          LB    74.01  #26
+  CB    Chancel Mbemba          CB    74.53  #22
+  CB    Steve Kapuadi           CB    74.48  #3
+  RB    Aaron Wan-Bissaka       RB    75.43  #2
+  GK    Matthieu Epolo          GK    72.85  #21
 
 Substitutes:
-  [CF] Simon Banza (CF) rating 94.11 #23
-  [LWF] Brian Cipenga (LWF) rating 71.44 #9
-  [RWF] Meschack Elia (SS) rating 71.08 #13
-  [AMF] William Balikwisha (AMF) rating 69.25 #28
-  [CMF] Edo Kayembe (CMF) rating 72.68 #25
-  [DMF] Charles Pickel (DMF) rating 70.99 #18
-  [LB] Joris Kayembe (LB) rating 73.23 #12
-  [CB] Axel Tuanzebe (CB) rating 73.98 #4
-  [CB] Willy Kambwala (CB) rating 73.02 #5
-  [RB] Gédéon Kalulu (RB) rating 71.41 #24
-  [GK] Lionel Mpasi-Nzau (GK) rating 72.81 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Simon Banza             CF    94.11  #23
+  LWF   Brian Cipenga           LWF   71.44  #9
+  RWF   Meschack Elia           SS    71.08  #13
+  AMF   William Balikwisha      AMF   69.25  #28
+  CMF   Edo Kayembe             CMF   72.68  #25
+  DMF   Charles Pickel          DMF   70.99  #18
+  LB    Joris Kayembe           LB    73.23  #12
+  CB    Axel Tuanzebe           CB    73.98  #4
+  CB    Willy Kambwala          CB    73.02  #5
+  RB    Gédéon Kalulu           RB    71.41  #24
+  GK    Lionel Mpasi-Nzau       GK    72.81  #1
 
 Wildcard:
-  [WILD] Cédric Bakambu (CF) rating 72.86 #17
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Cédric Bakambu          CF    72.86  #17

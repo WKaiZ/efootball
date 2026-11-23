@@ -1,21 +1,24 @@
 Starters:
-  [CF] Joel Pohjanpalo (CF) rating 73.71 #20
-  [LWF] Robert Taylor (LWF) rating 72.62 #8
-  [RWF] Oliver Antman (RWF) rating 72.18 #7
-  [AMF] Onni Valakari (AMF) rating 74.76 #15
-  [CMF] Kaan Kairinen (CMF) rating 71.08 #14
-  [DMF] Matti Peltola (DMF) rating 72.40 #2
-  [LB] Jere Uronen (LB) rating 71.89 #18
-  [CB] Robert Ivanov (CB) rating 69.88 #4
-  [CB] Arttu Hoskonen (CB) rating 69.81 #3
-  [RB] Nikolai Alho (RB) rating 69.43 #17
-  [GK] Lukas Hradecky (GK) rating 78.46 #1
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    Joel Pohjanpalo  CF    73.71  #20
+  LWF   Robert Taylor    LWF   72.62  #8
+  RWF   Oliver Antman    RWF   72.18  #7
+  AMF   Onni Valakari    AMF   74.76  #15
+  CMF   Kaan Kairinen    CMF   71.08  #14
+  DMF   Matti Peltola    DMF   72.40  #2
+  LB    Jere Uronen      LB    71.89  #18
+  CB    Robert Ivanov    CB    69.88  #4
+  CB    Arttu Hoskonen   CB    69.81  #3
+  RB    Nikolai Alho     RB    69.43  #17
+  GK    Lukas Hradecky   GK    78.46  #1
 
 Substitutes:
-  [FW] Marcus Forss (CF) rating 71.18 #19
-  [MF] Robin Lod (AMF) rating 72.72 #11
-  [DF] Miro Tenho (CB) rating 69.48 #5
-  [GK] Jesse Joronen (GK) rating 73.49 #12
+  SLOT  PLAYER           POS  RATING  NO.
+  FW    Marcus Forss     CF    71.18  #19
+  MF    Robin Lod        AMF   72.72  #11
+  DF    Miro Tenho       CB    69.48  #5
+  GK    Jesse Joronen    GK    73.49  #12
 
 Wildcard:
-  [WILD] Fredrik Jensen (AMF) rating 72.55 #9
+  SLOT  PLAYER           POS  RATING  NO.
+  WILD  Fredrik Jensen   AMF   72.55  #9

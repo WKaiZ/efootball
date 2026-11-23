@@ -1,21 +1,24 @@
 Starters:
-  [CF] Hákon Arnar Haraldsson (LMF) rating 93.91 #7
-  [LWF] Mikael Anderson (LWF) rating 71.33 #18
-  [RWF] Albert Gudmundsson (CF) rating 76.37 #11
-  [AMF] Kristian Hlynsson (AMF) rating 72.05 #20
-  [CMF] Mikael Egill Ellertsson (CMF) rating 70.50 #19
-  [DMF] Andri Fannar Baldursson (DMF) rating 68.18 #6
-  [LB] Logi Tómasson (LB) rating 69.34 #2
-  [CB] Daníel Leó Grétarsson (CB) rating 69.46 #3
-  [CB] Brynjar Ingi Bjarnason (CB) rating 68.73 #15
-  [RB] Dagur Dan Thórhallsson (RB) rating 71.19 #14
-  [GK] Elías Ólafsson (GK) rating 73.34 #1
+  SLOT  PLAYER                   POS  RATING  NO.
+  CF    Hákon Arnar Haraldsson   LMF   93.91  #7
+  LWF   Mikael Anderson          LWF   71.33  #18
+  RWF   Albert Gudmundsson       CF    76.37  #11
+  AMF   Kristian Hlynsson        AMF   72.05  #20
+  CMF   Mikael Egill Ellertsson  CMF   70.50  #19
+  DMF   Andri Fannar Baldursson  DMF   68.18  #6
+  LB    Logi Tómasson            LB    69.34  #2
+  CB    Daníel Leó Grétarsson    CB    69.46  #3
+  CB    Brynjar Ingi Bjarnason   CB    68.73  #15
+  RB    Dagur Dan Thórhallsson   RB    71.19  #14
+  GK    Elías Ólafsson           GK    73.34  #1
 
 Substitutes:
-  [FW] Orri Óskarsson (CF) rating 73.32 #9
-  [MF] Bjarki Bjarkason (LMF) rating 68.86 #17
-  [DF] Victor Pálsson (RB) rating 69.55 #4
-  [GK] Hákon Valdimarsson (GK) rating 71.94 #12
+  SLOT  PLAYER                   POS  RATING  NO.
+  FW    Orri Óskarsson           CF    73.32  #9
+  MF    Bjarki Bjarkason         LMF   68.86  #17
+  DF    Victor Pálsson           RB    69.55  #4
+  GK    Hákon Valdimarsson       GK    71.94  #12
 
 Wildcard:
-  [WILD] Rúnar Alex Rúnarsson (GK) rating 71.36 #13
+  SLOT  PLAYER                   POS  RATING  NO.
+  WILD  Rúnar Alex Rúnarsson     GK    71.36  #13

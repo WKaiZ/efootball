@@ -1,21 +1,24 @@
 Starters:
-  [CF] Steve Mounié (CF) rating 73.38 #9
-  [LWF] Adam Akimey (LWF) rating 65.77 #28
-  [RWF] Yamirou Ouorou (RWF) rating 65.76 #13
-  [AMF] Junior Olaitan (AMF) rating 71.71 #18
-  [CMF] Mattéo Ahlinvi (CMF) rating 68.22 #7
-  [DMF] Sessi D'Almeida (DMF) rating 69.90 #15
-  [LB] David Kiki (LB) rating 67.88 #12
-  [CB] Olivier Verdon (CB) rating 71.40 #6
-  [CB] Mohamed Tijani (CB) rating 69.23 #2
-  [RB] Tamimou Ouorou (RB) rating 66.33 #3
-  [GK] Marcel Dandjinou (GK) rating 67.81 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Steve Mounié        CF    73.38  #9
+  LWF   Adam Akimey         LWF   65.77  #28
+  RWF   Yamirou Ouorou      RWF   65.76  #13
+  AMF   Junior Olaitan      AMF   71.71  #18
+  CMF   Mattéo Ahlinvi      CMF   68.22  #7
+  DMF   Sessi D'Almeida     DMF   69.90  #15
+  LB    David Kiki          LB    67.88  #12
+  CB    Olivier Verdon      CB    71.40  #6
+  CB    Mohamed Tijani      CB    69.23  #2
+  RB    Tamimou Ouorou      RB    66.33  #3
+  GK    Marcel Dandjinou    GK    67.81  #1
 
 Substitutes:
-  [FW] Aiyegun Tosin (CF) rating 71.83 #10
-  [MF] Jodel Dossou (RMF) rating 70.58 #20
-  [DF] Moïse Adilehou (CB) rating 66.96 #4
-  [GK] Saturnin Allagbé (GK) rating 67.71 #16
+  SLOT  PLAYER              POS  RATING  NO.
+  FW    Aiyegun Tosin       CF    71.83  #10
+  MF    Jodel Dossou        RMF   70.58  #20
+  DF    Moïse Adilehou      CB    66.96  #4
+  GK    Saturnin Allagbé    GK    67.71  #16
 
 Wildcard:
-  [WILD] Andréas Hountondji (CF) rating 69.82 #17
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Andréas Hountondji  CF    69.82  #17

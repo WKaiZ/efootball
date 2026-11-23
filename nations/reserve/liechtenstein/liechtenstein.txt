@@ -1,12 +1,13 @@
 Starters:
-  [CF] VACANT
-  [LWF] VACANT
-  [RWF] VACANT
-  [AMF] VACANT
-  [CMF] Nicolas Hasler (CMF) rating 67.79 #18
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] VACANT
-  [CB] VACANT
-  [RB] VACANT
-  [GK] Benjamin Büchel (GK) rating 68.81 #1
+  SLOT  PLAYER           POS  RATING  NO.
+  CF    VACANT
+  LWF   VACANT
+  RWF   VACANT
+  AMF   VACANT
+  CMF   Nicolas Hasler   CMF   67.79  #18
+  DMF   VACANT
+  LB    VACANT
+  CB    VACANT
+  CB    VACANT
+  RB    VACANT
+  GK    Benjamin Büchel  GK    68.81  #1

@@ -1,21 +1,24 @@
 Starters:
-  [CF] Oday Dabbagh (CF) rating 72.08 #11
-  [LWF] Tamer Seyam (LWF) rating 68.14 #9
-  [RWF] Mahmoud Abu Warda (RWF) rating 66.17 #10
-  [AMF] Moustafa Zeidan (AMF) rating 69.89 #23
-  [CMF] Mohammed Rashid (CMF) rating 68.03 #3
-  [DMF] Oday Kharoub (DMF) rating 65.69 #6
-  [LB] Camilo Saldaña (LB) rating 67.44 #12
-  [CB] Yaser Hamed (CB) rating 68.84 #4
-  [CB] Michel Termanini (CB) rating 66.92 #15
-  [RB] Mus'ab Al-Batat (RB) rating 65.83 #7
-  [GK] Rami Hamadeh (GK) rating 67.92 #22
+  SLOT  PLAYER             POS  RATING  NO.
+  CF    Oday Dabbagh       CF    72.08  #11
+  LWF   Tamer Seyam        LWF   68.14  #9
+  RWF   Mahmoud Abu Warda  RWF   66.17  #10
+  AMF   Moustafa Zeidan    AMF   69.89  #23
+  CMF   Mohammed Rashid    CMF   68.03  #3
+  DMF   Oday Kharoub       DMF   65.69  #6
+  LB    Camilo Saldaña     LB    67.44  #12
+  CB    Yaser Hamed        CB    68.84  #4
+  CB    Michel Termanini   CB    66.92  #15
+  RB    Mus'ab Al-Batat    RB    65.83  #7
+  GK    Rami Hamadeh       GK    67.92  #22
 
 Substitutes:
-  [FW] Wessam Abou Ali (CF) rating 71.48 #19
-  [MF] Ataa Jaber (CMF) rating 67.59 #8
-  [DF] Samer Jondi (LB) rating 65.65 #14
-  [GK] Tawfiq Ali (GK) rating 65.91 #1
+  SLOT  PLAYER             POS  RATING  NO.
+  FW    Wessam Abou Ali    CF    71.48  #19
+  MF    Ataa Jaber         CMF   67.59  #8
+  DF    Samer Jondi        LB    65.65  #14
+  GK    Tawfiq Ali         GK    65.91  #1
 
 Wildcard:
-  [WILD] Omar Faraj (CF) rating 68.20 #13
+  SLOT  PLAYER             POS  RATING  NO.
+  WILD  Omar Faraj         CF    68.20  #13

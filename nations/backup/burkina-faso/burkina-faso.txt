@@ -1,21 +1,24 @@
 Starters:
-  [CF] Lassina Traoré (CF) rating 73.08 #2
-  [LWF] Dango Ouattara (LWF) rating 94.09 #7
-  [RWF] Ousseni Bouda (RWF) rating 72.86 #11
-  [AMF] Cedric Badolo (AMF) rating 69.35 #8
-  [CMF] Ibrahim Blati Touré (CMF) rating 69.58 #22
-  [DMF] Ismahila Ouédraogo (DMF) rating 69.68 #18
-  [LB] Arsène Kouassi (LB) rating 72.77 #26
-  [CB] Edmond Tapsoba (CB) rating 94.98 #12
-  [CB] Adamo Nagalo (CB) rating 73.46 #4
-  [RB] Issa Kaboré (RB) rating 74.08 #9
-  [GK] Hervé Koffi (GK) rating 75.66 #16
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Lassina Traoré       CF    73.08  #2
+  LWF   Dango Ouattara       LWF   94.09  #7
+  RWF   Ousseni Bouda        RWF   72.86  #11
+  AMF   Cedric Badolo        AMF   69.35  #8
+  CMF   Ibrahim Blati Touré  CMF   69.58  #22
+  DMF   Ismahila Ouédraogo   DMF   69.68  #18
+  LB    Arsène Kouassi       LB    72.77  #26
+  CB    Edmond Tapsoba       CB    94.98  #12
+  CB    Adamo Nagalo         CB    73.46  #4
+  RB    Issa Kaboré          RB    74.08  #9
+  GK    Hervé Koffi          GK    75.66  #16
 
 Substitutes:
-  [FW] Bertrand Traoré (RWF) rating 72.36 #10
-  [MF] Georgi Minoungou (RMF) rating 70.12 #19
-  [DF] Nasser Djiga (CB) rating 72.97 #5
-  [GK] Hillel Konaté (GK) rating 70.50 #23
+  SLOT  PLAYER               POS  RATING  NO.
+  FW    Bertrand Traoré      RWF   72.36  #10
+  MF    Georgi Minoungou     RMF   70.12  #19
+  DF    Nasser Djiga         CB    72.97  #5
+  GK    Hillel Konaté        GK    70.50  #23
 
 Wildcard:
-  [WILD] Issoufou Dayo (CB) rating 72.56 #14
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Issoufou Dayo        CB    72.56  #14

@@ -1,28 +1,31 @@
 Starters:
-  [CF] Benjamin Šeško (CF) rating 97.70 #11
-  [LWF] Benjamin Verbic (LWF) rating 71.09 #7
-  [RWF] Andrés Vombergar (CF) rating 72.14 #18
-  [AMF] Tomi Horvat (AMF) rating 70.37 #19
-  [CMF] Sandi Lovrić (CMF) rating 72.15 #8
-  [DMF] Jon Gorenc Stankovic (DMF) rating 71.61 #5
-  [LB] Jure Balkovec (LB) rating 70.42 #3
-  [CB] Jaka Bijol (CB) rating 75.78 #6
-  [CB] David Brekalo (CB) rating 72.57 #23
-  [RB] Petar Stojanović (RB) rating 71.23 #20
-  [GK] Jan Oblak (GK) rating 95.94 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Benjamin Šeško        CF    97.70  #11
+  LWF   Benjamin Verbic       LWF   71.09  #7
+  RWF   Andrés Vombergar      CF    72.14  #18
+  AMF   Tomi Horvat           AMF   70.37  #19
+  CMF   Sandi Lovrić          CMF   72.15  #8
+  DMF   Jon Gorenc Stankovic  DMF   71.61  #5
+  LB    Jure Balkovec         LB    70.42  #3
+  CB    Jaka Bijol            CB    75.78  #6
+  CB    David Brekalo         CB    72.57  #23
+  RB    Petar Stojanović      RB    71.23  #20
+  GK    Jan Oblak             GK    95.94  #1
 
 Substitutes:
-  [CF] Andraz Sporar (CF) rating 73.78 #9
-  [LWF] Danijel Sturm (LWF) rating 69.57 #15
-  [RWF] Tjas Begic (LWF) rating 66.63 #14
-  [AMF] Tian Nai Koren (AMF) rating 59.29 #24
-  [CMF] Adam Gnezda Cerin (CMF) rating 71.94 #22
-  [DMF] Adrian Zeljkovic (DMF) rating 71.17 #26
-  [LB] Erik Janza (LB) rating 69.44 #13
-  [CB] Vanja Drkusic (CB) rating 72.09 #21
-  [CB] David Zec (CB) rating 69.81 #17
-  [RB] Zan Karnicnik (RB) rating 70.94 #2
-  [GK] Igor Vekic (GK) rating 69.36 #16
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Andraz Sporar         CF    73.78  #9
+  LWF   Danijel Sturm         LWF   69.57  #15
+  RWF   Tjas Begic            LWF   66.63  #14
+  AMF   Tian Nai Koren        AMF   59.29  #24
+  CMF   Adam Gnezda Cerin     CMF   71.94  #22
+  DMF   Adrian Zeljkovic      DMF   71.17  #26
+  LB    Erik Janza            LB    69.44  #13
+  CB    Vanja Drkusic         CB    72.09  #21
+  CB    David Zec             CB    69.81  #17
+  RB    Zan Karnicnik         RB    70.94  #2
+  GK    Igor Vekic            GK    69.36  #16
 
 Wildcard:
-  [WILD] Timi Max Elsnik (CMF) rating 71.23 #10
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Timi Max Elsnik       CMF   71.23  #10

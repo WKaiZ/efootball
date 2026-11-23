@@ -1,22 +1,25 @@
 Starters:
-  [CF] Thanh Binh Dinh (CF) rating 65.90 #18
-  [LWF] Dinh Bac Nguyen (LWF) rating 69.43 #9
-  [RWF] VACANT
-  [AMF] Quang Hai Nguyen (AMF) rating 69.28 #19
-  [CMF] Pham Thanh Long Le (CMF) rating 69.29 #8
-  [DMF] Van Toan Hoang (DMF) rating 63.14 #22
-  [LB] Jason Pendant (LB) rating 70.37 #3
-  [CB] Hoang Viet Anh Bui (CB) rating 68.74 #20
-  [CB] Dinh Trong Tran (CB) rating 66.90 #6
-  [RB] Van Thanh Vu (RB) rating 67.63 #17
-  [GK] Filip Nguyen (GK) rating 70.34 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Thanh Binh Dinh     CF    65.90  #18
+  LWF   Dinh Bac Nguyen     LWF   69.43  #9
+  RWF   VACANT
+  AMF   Quang Hai Nguyen    AMF   69.28  #19
+  CMF   Pham Thanh Long Le  CMF   69.29  #8
+  DMF   Van Toan Hoang      DMF   63.14  #22
+  LB    Jason Pendant       LB    70.37  #3
+  CB    Hoang Viet Anh Bui  CB    68.74  #20
+  CB    Dinh Trong Tran     CB    66.90  #6
+  RB    Van Thanh Vu        RB    67.63  #17
+  GK    Filip Nguyen        GK    70.34  #1
 
 Substitutes:
-  [FW] Van Do Le (LMF) rating 63.02 #4
-  [MF] Van Khang Khuat (LMF) rating 68.12 #11
-  [DF] Van Hau Doan (LB) rating 68.06 #5
-  [GK] Van Viet Nguyen (GK) rating 64.48 #23
+  SLOT  PLAYER              POS  RATING  NO.
+  FW    Van Do Le           LMF   63.02  #4
+  MF    Van Khang Khuat     LMF   68.12  #11
+  DF    Van Hau Doan        LB    68.06  #5
+  GK    Van Viet Nguyen     GK    64.48  #23
 
 Wildcard:
-  [WILD] Tuan Tai Phan (LB) rating 66.87 #24
-  [WILD] Ngoc Tan Doan (CMF) rating 65.69 #12
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Tuan Tai Phan       LB    66.87  #24
+  WILD  Ngoc Tan Doan       CMF   65.69  #12

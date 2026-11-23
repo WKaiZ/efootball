@@ -1,21 +1,24 @@
 Starters:
-  [CF] Alexis Sánchez (CF) rating 73.76 #10
-  [LWF] Bruno Barticciotto (LWF) rating 74.28 #25
-  [RWF] Darío Osorio (RWF) rating 73.26 #11
-  [AMF] Carlos Palacios (AMF) rating 75.05 #9
-  [CMF] Williams Alarcón (CMF) rating 74.15 #21
-  [DMF] Erick Pulgar (DMF) rating 95.61 #13
-  [LB] Gabriel Suazo (LB) rating 93.22 #17
-  [CB] Guillermo Maripán (CB) rating 75.81 #3
-  [CB] Paulo Díaz (CB) rating 73.36 #5
-  [RB] Fabián Hormazábal (RB) rating 71.84 #2
-  [GK] Gabriel Castellón (GK) rating 74.07 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Alexis Sánchez      CF    73.76  #10
+  LWF   Bruno Barticciotto  LWF   74.28  #25
+  RWF   Darío Osorio        RWF   73.26  #11
+  AMF   Carlos Palacios     AMF   75.05  #9
+  CMF   Williams Alarcón    CMF   74.15  #21
+  DMF   Erick Pulgar        DMF   95.61  #13
+  LB    Gabriel Suazo       LB    93.22  #17
+  CB    Guillermo Maripán   CB    75.81  #3
+  CB    Paulo Díaz          CB    73.36  #5
+  RB    Fabián Hormazábal   RB    71.84  #2
+  GK    Gabriel Castellón   GK    74.07  #1
 
 Substitutes:
-  [FW] Fernando Zampedri (CF) rating 73.39 #22
-  [MF] Diego Valdés (AMF) rating 74.48 #15
-  [DF] Benjamín Kuscevic (CB) rating 73.29 #4
-  [GK] Lawrence Vigouroux (GK) rating 73.57 #12
+  SLOT  PLAYER              POS  RATING  NO.
+  FW    Fernando Zampedri   CF    73.39  #22
+  MF    Diego Valdés        AMF   74.48  #15
+  DF    Benjamín Kuscevic   CB    73.29  #4
+  GK    Lawrence Vigouroux  GK    73.57  #12
 
 Wildcard:
-  [WILD] Charles Aránguiz (CMF) rating 74.13 #20
+  SLOT  PLAYER              POS  RATING  NO.
+  WILD  Charles Aránguiz    CMF   74.13  #20

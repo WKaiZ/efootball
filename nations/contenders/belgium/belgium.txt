@@ -1,63 +1,69 @@
 First Squad
 
 Starters:
-  [CF] Charles De Ketelaere (CF) rating 97.93 #17
-  [LWF] Eden Hazard (LWF) rating 101.98 #10
-  [RWF] Jérémy Doku (LWF) rating 98.40 #11
-  [AMF] Kevin De Bruyne (AMF) rating 97.41 #7
-  [CMF] Roméo Lavia (DMF) rating 94.46 #6
-  [DMF] Amadou Onana (DMF) rating 95.16 #24
-  [LB] Joaquin Seys (LB) rating 93.38 #18
-  [CB] Vincent Kompany (CB) rating 99.12 #4
-  [CB] Thomas Vermaelen (CB) rating 96.44 #3
-  [RB] Timothy Castagne (RB) rating 94.09 #21
-  [GK] Thibaut Courtois (GK) rating 98.91 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Charles De Ketelaere    CF    97.93  #17
+  LWF   Eden Hazard             LWF  101.98  #10
+  RWF   Jérémy Doku             LWF   98.40  #11
+  AMF   Kevin De Bruyne         AMF   97.41  #7
+  CMF   Roméo Lavia             DMF   94.46  #6
+  DMF   Amadou Onana            DMF   95.16  #24
+  LB    Joaquin Seys            LB    93.38  #18
+  CB    Vincent Kompany         CB    99.12  #4
+  CB    Thomas Vermaelen        CB    96.44  #3
+  RB    Timothy Castagne        RB    94.09  #21
+  GK    Thibaut Courtois        GK    98.91  #1
 
 Substitutes:
-  [CF] Loïs Openda (CF) rating 95.37 #9
-  [LWF] Mika Godts (LWF) rating 94.34 #22
-  [RWF] Dodi Lukébakio (RWF) rating 76.32 #14
-  [AMF] Hans Vanaken (AMF) rating 93.99 #20
-  [CMF] Youri Tielemans (CMF) rating 77.66 #8
-  [DMF] Nicolas Raskin (CMF) rating 75.30 #23
-  [LB] Maxim De Cuyper (LB) rating 74.31 #5
-  [CB] Arthur Theate (CB) rating 95.49 #2
-  [CB] Koni De Winter (CB) rating 94.33 #16
-  [RB] Thomas Meunier (RB) rating 74.37 #15
-  [GK] Matz Sels (GK) rating 95.14 #13
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Loïs Openda             CF    95.37  #9
+  LWF   Mika Godts              LWF   94.34  #22
+  RWF   Dodi Lukébakio          RWF   76.32  #14
+  AMF   Hans Vanaken            AMF   93.99  #20
+  CMF   Youri Tielemans         CMF   77.66  #8
+  DMF   Nicolas Raskin          CMF   75.30  #23
+  LB    Maxim De Cuyper         LB    74.31  #5
+  CB    Arthur Theate           CB    95.49  #2
+  CB    Koni De Winter          CB    94.33  #16
+  RB    Thomas Meunier          RB    74.37  #15
+  GK    Matz Sels               GK    95.14  #13
 
 Wildcard:
-  [WILD] Diego Moreira (RMF) rating 94.99 #19
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Diego Moreira           RMF   94.99  #19
 
 Second Squad
 
 Starters:
-  [CF] Charles De Ketelaere (SS) rating 95.17 #17
-  [LMF] Leandro Trossard (LMF) rating 97.34 #10
-  [RWF] Alexis Saelemaekers (RMF) rating 94.99 #22
-  [AMF] Eden Hazard (AMF) rating 100.35 #7
-  [CMF] Arthur Vermeeren (CMF) rating 74.86 #23
-  [DMF] Axel Witsel (DMF) rating 73.93 #6
-  [LB] Diego Moreira (LMF) rating 74.58 #19
-  [CB] Brandon Mechele (CB) rating 94.19 #4
-  [CB] Zeno Debast (CB) rating 93.95 #2
-  [RB] Kyriani Sabbe (RB) rating 70.48 #16
-  [GK] Senne Lammens (GK) rating 93.92 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Charles De Ketelaere    SS    95.17  #17
+  LMF   Leandro Trossard        LMF   97.34  #10
+  RWF   Alexis Saelemaekers     RMF   94.99  #22
+  AMF   Eden Hazard             AMF  100.35  #7
+  CMF   Arthur Vermeeren        CMF   74.86  #23
+  DMF   Axel Witsel             DMF   73.93  #6
+  LB    Diego Moreira           LMF   74.58  #19
+  CB    Brandon Mechele         CB    94.19  #4
+  CB    Zeno Debast             CB    93.95  #2
+  RB    Kyriani Sabbe           RB    70.48  #16
+  GK    Senne Lammens           GK    93.92  #1
 
 Substitutes:
-  [CF] Romelu Lukaku (CF) rating 77.41 #9
-  [LMF] Thorgan Hazard (LWF) rating 74.26 #11
-  [RWF] Matias Fernandez-Pardo (LWF) rating 74.68 #26
-  [AMF] Dennis Praet (AMF) rating 72.26 #14
-  [CMF] Orel Mangala (CMF) rating 74.33 #18
-  [DMF] Mandela Keita (DMF) rating 71.60 #8
-  [LB] VACANT
-  [CB] Nathan Ngoy (CB) rating 74.06 #15
-  [CB] Siebe Van der Heyden (CB) rating 72.53 #25
-  [RB] VACANT
-  [GK] Koen Casteels (GK) rating 77.63 #12
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Romelu Lukaku           CF    77.41  #9
+  LMF   Thorgan Hazard          LWF   74.26  #11
+  RWF   Matias Fernandez-Pardo  LWF   74.68  #26
+  AMF   Dennis Praet            AMF   72.26  #14
+  CMF   Orel Mangala            CMF   74.33  #18
+  DMF   Mandela Keita           DMF   71.60  #8
+  LB    VACANT
+  CB    Nathan Ngoy             CB    74.06  #15
+  CB    Siebe Van der Heyden    CB    72.53  #25
+  RB    VACANT
+  GK    Koen Casteels           GK    77.63  #12
 
 Wildcard:
-  [WILD] Mike Penders (GK) rating 75.63 #13
-  [WILD] Christian Benteke (CF) rating 74.26 #20
-  [WILD] Benito Raman (CF) rating 72.22 #21
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Mike Penders            GK    75.63  #13
+  WILD  Christian Benteke       CF    74.26  #20
+  WILD  Benito Raman            CF    72.22  #21

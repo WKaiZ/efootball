@@ -1,63 +1,69 @@
 First Squad
 
 Starters:
-  [CF] El-Hadji Diouf (CF) rating 96.26 #11
-  [LWF] Sadio Mané (LWF) rating 97.89 #10
-  [RWF] Ismaïla Sarr (RWF) rating 94.13 #18
-  [AMF] Ousseynou Fall Seck (AMF) rating 64.50 #4
-  [CMF] Lamine Camara (CMF) rating 94.07 #8
-  [DMF] Pape Gueye (DMF) rating 95.17 #26
-  [LB] El Hadji Malick Diouf (LB) rating 75.23 #25
-  [CB] Kalidou Koulibaly (CB) rating 94.48 #3
-  [CB] Moussa Niakhaté (CB) rating 93.28 #19
-  [RB] Antoine Mendy (RB) rating 93.18 #24
-  [GK] Edouard Mendy (GK) rating 95.14 #16
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    El-Hadji Diouf         CF    96.26  #11
+  LWF   Sadio Mané             LWF   97.89  #10
+  RWF   Ismaïla Sarr           RWF   94.13  #18
+  AMF   Ousseynou Fall Seck    AMF   64.50  #4
+  CMF   Lamine Camara          CMF   94.07  #8
+  DMF   Pape Gueye             DMF   95.17  #26
+  LB    El Hadji Malick Diouf  LB    75.23  #25
+  CB    Kalidou Koulibaly      CB    94.48  #3
+  CB    Moussa Niakhaté        CB    93.28  #19
+  RB    Antoine Mendy          RB    93.18  #24
+  GK    Edouard Mendy          GK    95.14  #16
 
 Substitutes:
-  [CF] Nicolas Jackson (CF) rating 96.14 #7
-  [LWF] Abdallah Sima (LWF) rating 74.04 #21
-  [RWF] Ibrahim Mbaye (RWF) rating 73.55 #20
-  [AMF] Iliman Ndiaye (RMF) rating 77.42 #13
-  [CMF] Pape Matar Sarr (CMF) rating 93.12 #17
-  [DMF] Idrissa Gueye (DMF) rating 75.44 #5
-  [LB] Ismail Jakobs (LB) rating 73.54 #14
-  [CB] Mamadou Sarr (CB) rating 74.60 #2
-  [CB] Moustapha Mbow (CB) rating 73.07 #22
-  [RB] Youssouf Sabaly (RB) rating 73.45 #12
-  [GK] Yehvann Diouf (GK) rating 75.61 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Nicolas Jackson        CF    96.14  #7
+  LWF   Abdallah Sima          LWF   74.04  #21
+  RWF   Ibrahim Mbaye          RWF   73.55  #20
+  AMF   Iliman Ndiaye          RMF   77.42  #13
+  CMF   Pape Matar Sarr        CMF   93.12  #17
+  DMF   Idrissa Gueye          DMF   75.44  #5
+  LB    Ismail Jakobs          LB    73.54  #14
+  CB    Mamadou Sarr           CB    74.60  #2
+  CB    Moustapha Mbow         CB    73.07  #22
+  RB    Youssouf Sabaly        RB    73.45  #12
+  GK    Yehvann Diouf          GK    75.61  #1
 
 Wildcard:
-  [WILD] Boulaye Dia (CF) rating 74.99 #9
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Boulaye Dia            CF    74.99  #9
 
 Second Squad
 
 Starters:
-  [CF] Habib Diallo (CF) rating 74.11 #20
-  [LWF] Assane Diao (LWF) rating 74.32 #7
-  [RWF] Papa Amadou Diallo (RWF) rating 68.62 #10
-  [AMF] Ismaïla Sarr (AMF) rating 94.05 #18
-  [CMF] Pape Gueye (CMF) rating 93.99 #26
-  [DMF] Pathé Ciss (DMF) rating 72.97 #6
-  [LB] Layousse Samb (LB) rating 66.45 #13
-  [CB] Abdoulaye Seck (CB) rating 73.52 #4
-  [CB] Ousseynou Ba (CB) rating 71.68 #14
-  [RB] Ilay Camara (RB) rating 69.71 #2
-  [GK] Mory Diaw (GK) rating 72.45 #23
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Habib Diallo           CF    74.11  #20
+  LWF   Assane Diao            LWF   74.32  #7
+  RWF   Papa Amadou Diallo     RWF   68.62  #10
+  AMF   Ismaïla Sarr           AMF   94.05  #18
+  CMF   Pape Gueye             CMF   93.99  #26
+  DMF   Pathé Ciss             DMF   72.97  #6
+  LB    Layousse Samb          LB    66.45  #13
+  CB    Abdoulaye Seck         CB    73.52  #4
+  CB    Ousseynou Ba           CB    71.68  #14
+  RB    Ilay Camara            RB    69.71  #2
+  GK    Mory Diaw              GK    72.45  #23
 
 Substitutes:
-  [CF] Mbaye Diagne (CF) rating 73.53 #9
-  [LWF] Issa Soumaré (LWF) rating 73.23 #12
-  [RWF] Malick Mbaye (RWF) rating 68.02 #11
-  [AMF] Rassoul Ndiaye (CMF) rating 70.64 #24
-  [CMF] Habib Diarra (CMF) rating 74.24 #21
-  [DMF] Cheikh Niasse (DMF) rating 72.95 #19
-  [LB] VACANT
-  [CB] Nobel Mendy (CB) rating 71.40 #28
-  [CB] VACANT
-  [RB] Abdou Aziz Ndiaye (RB) rating 64.00 #27
-  [GK] Bingourou Kamara (GK) rating 71.75 #1
+  SLOT  PLAYER                 POS  RATING  NO.
+  CF    Mbaye Diagne           CF    73.53  #9
+  LWF   Issa Soumaré           LWF   73.23  #12
+  RWF   Malick Mbaye           RWF   68.02  #11
+  AMF   Rassoul Ndiaye         CMF   70.64  #24
+  CMF   Habib Diarra           CMF   74.24  #21
+  DMF   Cheikh Niasse          DMF   72.95  #19
+  LB    VACANT
+  CB    Nobel Mendy            CB    71.40  #28
+  CB    VACANT
+  RB    Abdou Aziz Ndiaye      RB    64.00  #27
+  GK    Bingourou Kamara       GK    71.75  #1
 
 Wildcard:
-  [WILD] Krépin Diatta (RMF) rating 74.16 #15
-  [WILD] Nampalys Mendy (DMF) rating 72.33 #22
-  [WILD] Dion Lopy (DMF) rating 72.22 #8
+  SLOT  PLAYER                 POS  RATING  NO.
+  WILD  Krépin Diatta          RMF   74.16  #15
+  WILD  Nampalys Mendy         DMF   72.33  #22
+  WILD  Dion Lopy              DMF   72.22  #8

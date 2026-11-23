@@ -1,28 +1,31 @@
 Starters:
-  [CF] Samuel Eto'o (CF) rating 99.80 #9
-  [LWF] Nicolas Moumi Ngamaleu (LWF) rating 73.85 #13
-  [RWF] Bryan Mbeumo (RWF) rating 98.62 #10
-  [AMF] Olivier Ntcham (CMF) rating 73.00 #21
-  [CMF] Frank Anguissa (CMF) rating 93.93 #8
-  [DMF] Carlos Baleba (DMF) rating 77.07 #17
-  [LB] Nouhou (LB) rating 74.67 #5
-  [CB] Enzo Boyomo (CB) rating 94.56 #22
-  [CB] Enzo Ebosse (CB) rating 74.47 #24
-  [RB] Olivier Mbaizo (RB) rating 70.68 #15
-  [GK] André Onana (GK) rating 77.26 #23
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Samuel Eto'o            CF    99.80  #9
+  LWF   Nicolas Moumi Ngamaleu  LWF   73.85  #13
+  RWF   Bryan Mbeumo            RWF   98.62  #10
+  AMF   Olivier Ntcham          CMF   73.00  #21
+  CMF   Frank Anguissa          CMF   93.93  #8
+  DMF   Carlos Baleba           DMF   77.07  #17
+  LB    Nouhou                  LB    74.67  #5
+  CB    Enzo Boyomo             CB    94.56  #22
+  CB    Enzo Ebosse             CB    74.47  #24
+  RB    Olivier Mbaizo          RB    70.68  #15
+  GK    André Onana             GK    77.26  #23
 
 Substitutes:
-  [CF] Danny Namaso (CF) rating 73.24 #14
-  [LWF] Georges-Kevin N'Koudou (LWF) rating 73.43 #7
-  [RWF] Christian Bassogog (RWF) rating 73.25 #11
-  [AMF] Jean Onana (CMF) rating 71.91 #12
-  [CMF] Olivier Kemen (CMF) rating 72.14 #20
-  [DMF] Martin Hongla (DMF) rating 70.98 #18
-  [LB] Lilian Njoh (LB) rating 70.88 #25
-  [CB] Christopher Wooh (CB) rating 74.37 #4
-  [CB] Gerzino Nyamsi (CB) rating 73.75 #6
-  [RB] Enzo Tchato (RB) rating 69.96 #26
-  [GK] Devis Epassy (GK) rating 71.54 #1
+  SLOT  PLAYER                  POS  RATING  NO.
+  CF    Danny Namaso            CF    73.24  #14
+  LWF   Georges-Kevin N'Koudou  LWF   73.43  #7
+  RWF   Christian Bassogog      RWF   73.25  #11
+  AMF   Jean Onana              CMF   71.91  #12
+  CMF   Olivier Kemen           CMF   72.14  #20
+  DMF   Martin Hongla           DMF   70.98  #18
+  LB    Lilian Njoh             LB    70.88  #25
+  CB    Christopher Wooh        CB    74.37  #4
+  CB    Gerzino Nyamsi          CB    73.75  #6
+  RB    Enzo Tchato             RB    69.96  #26
+  GK    Devis Epassy            GK    71.54  #1
 
 Wildcard:
-  [WILD] Jackson Tchatchoua (RMF) rating 73.60 #2
+  SLOT  PLAYER                  POS  RATING  NO.
+  WILD  Jackson Tchatchoua      RMF   73.60  #2

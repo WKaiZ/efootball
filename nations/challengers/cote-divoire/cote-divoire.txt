@@ -1,28 +1,31 @@
 Starters:
-  [CF] Didier Drogba (CF) rating 98.73 #11
-  [LWF] Simon Adingra (LWF) rating 76.28 #24
-  [RWF] Yan Diomande (RWF) rating 96.47 #10
-  [AMF] Amad Diallo (AMF) rating 93.78 #15
-  [CMF] Ibrahim Sangaré (DMF) rating 94.00 #18
-  [DMF] Yaya Touré (DMF) rating 97.66 #19
-  [LB] Hassane Kamara (LB) rating 74.14 #3
-  [CB] Evan Ndicka (CB) rating 95.99 #21
-  [CB] Odilon Kossounou (CB) rating 95.33 #7
-  [RB] Guéla Doué (RB) rating 74.34 #17
-  [GK] Alban Lafont (GK) rating 74.66 #23
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Didier Drogba         CF    98.73  #11
+  LWF   Simon Adingra         LWF   76.28  #24
+  RWF   Yan Diomande          RWF   96.47  #10
+  AMF   Amad Diallo           AMF   93.78  #15
+  CMF   Ibrahim Sangaré       DMF   94.00  #18
+  DMF   Yaya Touré            DMF   97.66  #19
+  LB    Hassane Kamara        LB    74.14  #3
+  CB    Evan Ndicka           CB    95.99  #21
+  CB    Odilon Kossounou      CB    95.33  #7
+  RB    Guéla Doué            RB    74.34  #17
+  GK    Alban Lafont          GK    74.66  #23
 
 Substitutes:
-  [CF] Ange-Yoan Bonny (CF) rating 92.98 #9
-  [LWF] Wilfried Zaha (LWF) rating 76.11 #12
-  [RWF] Nicolas Pépé (RWF) rating 94.28 #2
-  [AMF] Hamed Traoré (AMF) rating 74.22 #25
-  [CMF] Franck Kessié (CMF) rating 76.47 #8
-  [DMF] Seko Fofana (CMF) rating 75.45 #6
-  [LB] Christopher Operi (LB) rating 73.12 #13
-  [CB] Emmanuel Agbadou (CB) rating 94.67 #20
-  [CB] Oumar Solet (CB) rating 93.17 #5
-  [RB] Jean-Philippe Gbamin (CB) rating 72.22 #4
-  [GK] Yahia Fofana (GK) rating 74.47 #1
+  SLOT  PLAYER                POS  RATING  NO.
+  CF    Ange-Yoan Bonny       CF    92.98  #9
+  LWF   Wilfried Zaha         LWF   76.11  #12
+  RWF   Nicolas Pépé          RWF   94.28  #2
+  AMF   Hamed Traoré          AMF   74.22  #25
+  CMF   Franck Kessié         CMF   76.47  #8
+  DMF   Seko Fofana           CMF   75.45  #6
+  LB    Christopher Operi     LB    73.12  #13
+  CB    Emmanuel Agbadou      CB    94.67  #20
+  CB    Oumar Solet           CB    93.17  #5
+  RB    Jean-Philippe Gbamin  CB    72.22  #4
+  GK    Yahia Fofana          GK    74.47  #1
 
 Wildcard:
-  [WILD] Sébastien Haller (CF) rating 92.22 #22
+  SLOT  PLAYER                POS  RATING  NO.
+  WILD  Sébastien Haller      CF    92.22  #22

@@ -1,21 +1,24 @@
 Starters:
-  [CF] Feras Al-Buraikan (CF) rating 71.41 #9
-  [LWF] Salem Al-Dawsari (LWF) rating 72.13 #10
-  [RWF] Fahad Al-Muwallad (RWF) rating 73.24 #19
-  [AMF] Mohamed Kanno (CMF) rating 70.93 #23
-  [CMF] Musab Al-Juwayr (CMF) rating 73.27 #7
-  [DMF] Nasser Al-Dawsari (DMF) rating 70.98 #6
-  [LB] Yasser Al-Shahrani (LB) rating 70.24 #13
-  [CB] Ali Al-Bulayhi (CB) rating 72.53 #5
-  [CB] Abdulelah Al-Amri (CB) rating 71.19 #4
-  [RB] Sultan Al-Ghannam (RB) rating 74.06 #2
-  [GK] Nawaf Al-Aqidi (GK) rating 70.66 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Feras Al-Buraikan    CF    71.41  #9
+  LWF   Salem Al-Dawsari     LWF   72.13  #10
+  RWF   Fahad Al-Muwallad    RWF   73.24  #19
+  AMF   Mohamed Kanno        CMF   70.93  #23
+  CMF   Musab Al-Juwayr      CMF   73.27  #7
+  DMF   Nasser Al-Dawsari    DMF   70.98  #6
+  LB    Yasser Al-Shahrani   LB    70.24  #13
+  CB    Ali Al-Bulayhi       CB    72.53  #5
+  CB    Abdulelah Al-Amri    CB    71.19  #4
+  RB    Sultan Al-Ghannam    RB    74.06  #2
+  GK    Nawaf Al-Aqidi       GK    70.66  #1
 
 Substitutes:
-  [FW] Saleh Al-Shehri (CF) rating 71.30 #11
-  [MF] Abdulrahman Ghareeb (LMF) rating 70.36 #18
-  [DF] Saud Abdulhamid (RB) rating 73.85 #12
-  [GK] Mohammed Al-Owais (GK) rating 70.17 #21
+  SLOT  PLAYER               POS  RATING  NO.
+  FW    Saleh Al-Shehri      CF    71.30  #11
+  MF    Abdulrahman Ghareeb  LMF   70.36  #18
+  DF    Saud Abdulhamid      RB    73.85  #12
+  GK    Mohammed Al-Owais    GK    70.17  #21
 
 Wildcard:
-  [WILD] Nawaf Boushal (RB) rating 70.98 #26
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Nawaf Boushal        RB    70.98  #26

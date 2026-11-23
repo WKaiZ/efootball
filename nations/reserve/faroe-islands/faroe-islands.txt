@@ -1,12 +1,13 @@
 Starters:
-  [CF] Adrian Justinussen (CF) rating 69.91 #17
-  [LWF] VACANT
-  [RWF] Aron Benjaminsen (RWF) rating 64.28 #18
-  [AMF] VACANT
-  [CMF] VACANT
-  [DMF] VACANT
-  [LB] VACANT
-  [CB] Andrias Edmundsson (CB) rating 71.67 #5
-  [CB] VACANT
-  [RB] VACANT
-  [GK] VACANT
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Adrian Justinussen  CF    69.91  #17
+  LWF   VACANT
+  RWF   Aron Benjaminsen    RWF   64.28  #18
+  AMF   VACANT
+  CMF   VACANT
+  DMF   VACANT
+  LB    VACANT
+  CB    Andrias Edmundsson  CB    71.67  #5
+  CB    VACANT
+  RB    VACANT
+  GK    VACANT

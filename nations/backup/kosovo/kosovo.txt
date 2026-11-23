@@ -1,21 +1,24 @@
 Starters:
-  [CF] Vedat Muriqi (CF) rating 77.09 #18
-  [LWF] Ermal Krasniqi (LWF) rating 65.41 #17
-  [RWF] Milot Rashica (RWF) rating 74.18 #7
-  [AMF] Edon Zhegrova (AMF) rating 93.10 #10
-  [CMF] Valon Berisha (CMF) rating 71.18 #14
-  [DMF] Betim Fazliji (DMF) rating 67.44 #8
-  [LB] Donat Rrudhani (LMF) rating 69.16 #21
-  [CB] Amir Rrahmani (CB) rating 93.05 #13
-  [CB] Kreshnik Hajrizi (CB) rating 71.41 #3
-  [RB] Mërgim Vojvoda (RB) rating 74.38 #15
-  [GK] Arijanet Murić (GK) rating 92.28 #1
+  SLOT  PLAYER               POS  RATING  NO.
+  CF    Vedat Muriqi         CF    77.09  #18
+  LWF   Ermal Krasniqi       LWF   65.41  #17
+  RWF   Milot Rashica        RWF   74.18  #7
+  AMF   Edon Zhegrova        AMF   93.10  #10
+  CMF   Valon Berisha        CMF   71.18  #14
+  DMF   Betim Fazliji        DMF   67.44  #8
+  LB    Donat Rrudhani       LMF   69.16  #21
+  CB    Amir Rrahmani        CB    93.05  #13
+  CB    Kreshnik Hajrizi     CB    71.41  #3
+  RB    Mërgim Vojvoda       RB    74.38  #15
+  GK    Arijanet Murić       GK    92.28  #1
 
 Substitutes:
-  [FW] Albion Rrahmani (CF) rating 68.69 #9
-  [MF] Benjamin Kololli (LMF) rating 67.18 #20
-  [DF] Florent Hadergjonaj (RB) rating 73.00 #2
-  [GK] Amir Saipi (GK) rating 72.13 #16
+  SLOT  PLAYER               POS  RATING  NO.
+  FW    Albion Rrahmani      CF    68.69  #9
+  MF    Benjamin Kololli     LMF   67.18  #20
+  DF    Florent Hadergjonaj  RB    73.00  #2
+  GK    Amir Saipi           GK    72.13  #16
 
 Wildcard:
-  [WILD] Fidan Aliti (CB) rating 71.40 #5
+  SLOT  PLAYER               POS  RATING  NO.
+  WILD  Fidan Aliti          CB    71.40  #5

@@ -1,12 +1,13 @@
 Starters:
-  [CF] Tawanda Maswanhise (CF) rating 72.30 #19
-  [LWF] Walter Musona (LWF) rating 66.76 #12
-  [RWF] Bill Antonio (RWF) rating 68.32 #14
-  [AMF] Knowledge Musona (AMF) rating 71.32 #17
-  [CMF] Marshall Munetsi (CMF) rating 74.17 #8
-  [DMF] Marvelous Nakamba (DMF) rating 69.87 #18
-  [LB] Jordan Zemura (LB) rating 72.53 #7
-  [CB] Teenage Hadebe (CB) rating 72.82 #15
-  [CB] Brendan Galloway (CB) rating 69.53 #13
-  [RB] Tendayi Darikwa (RB) rating 69.85 #2
-  [GK] Elvis Chipezeze (GK) rating 67.69 #1
+  SLOT  PLAYER              POS  RATING  NO.
+  CF    Tawanda Maswanhise  CF    72.30  #19
+  LWF   Walter Musona       LWF   66.76  #12
+  RWF   Bill Antonio        RWF   68.32  #14
+  AMF   Knowledge Musona    AMF   71.32  #17
+  CMF   Marshall Munetsi    CMF   74.17  #8
+  DMF   Marvelous Nakamba   DMF   69.87  #18
+  LB    Jordan Zemura       LB    72.53  #7
+  CB    Teenage Hadebe      CB    72.82  #15
+  CB    Brendan Galloway    CB    69.53  #13
+  RB    Tendayi Darikwa     RB    69.85  #2
+  GK    Elvis Chipezeze     GK    67.69  #1
