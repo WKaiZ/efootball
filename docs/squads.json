@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 05:26 UTC",
+ "updated": "2026-11-23 18:35 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -361,7 +361,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/905011-1758702817.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/905011",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860558923477_l.png"
     },
     {
      "squad": "first",
@@ -415,7 +415,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/855015-1693383538.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/855015",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105819941263085_l.png"
     },
     {
      "squad": "first",
@@ -433,7 +433,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/560593-1756824680.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/560593",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860558880165_l.png"
     },
     {
      "squad": "first",
@@ -451,7 +451,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/245537-1672670443.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/245537",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105819404300031_l.png"
     },
     {
      "squad": "first",
@@ -469,7 +469,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/578391-1761076429.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/578391",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105829068038496_l.png"
     },
     {
      "squad": "first",
@@ -487,7 +487,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/284732-1730103772.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/284732",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860558858388_l.png"
     },
     {
      "squad": "first",
@@ -1347,7 +1347,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/756990-1758829907.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/756990",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105827725878291_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105727599453203_l.png"
     },
     {
      "squad": "first",
@@ -1437,7 +1437,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/352324-1633537886.JPG",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/352324",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105816451554136_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/53979149081432_l.png"
     },
     {
      "squad": "first",
@@ -1455,7 +1455,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/576024-1684920938.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/576024",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106782819217056_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106770739621536_l.png"
     },
     {
      "squad": "first",
@@ -1473,7 +1473,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/206050-1725530843.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/206050",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105830678575179_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105779675838539_l.png"
     },
     {
      "squad": "first",
@@ -1671,7 +1671,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4276-1719495009.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4276",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387120768_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776508032_l.png"
     },
     {
      "squad": "second",
@@ -1725,7 +1725,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/28003-1771694720.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/28003",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046829575511_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138556575063_l.png"
     },
     {
      "squad": "second",
@@ -2031,7 +2031,7 @@
      "joined": "2026-07-02",
      "img": "https://img.a.transfermarkt.technology/portrait/big/480763-1662668281.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/480763",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105745047731917_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105831752384205_l.png"
     },
     {
      "squad": "second",
@@ -2436,7 +2436,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/192557-1755032060.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/192557",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895103084857_l.png"
     },
     {
      "squad": "first",
@@ -2472,7 +2472,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/855731-1753260910.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/855731",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259646549_l.png"
     },
     {
      "squad": "first",
@@ -2544,7 +2544,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/128969-1668505563.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/128969",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52896548840583_l.png"
     },
     {
      "squad": "first",
@@ -2857,7 +2857,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/324278-1716315718.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/324278",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105743974017867_l.png"
     },
     {
      "squad": "first",
@@ -2875,7 +2875,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/106987-1711745992.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/106987",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105804640391294_l.png"
     },
     {
      "squad": "first",
@@ -2929,7 +2929,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/59016-1684921582.jpeg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/59016",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106777718857892_l.png"
     },
     {
      "squad": "first",
@@ -2947,7 +2947,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/225657-1658411602.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/225657",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52875342491586_l.png"
     },
     {
      "squad": "first",
@@ -3904,7 +3904,7 @@
      "joined": "2026-07-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/981196-1754511396.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/981196",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105855106317534_l.png"
     },
     {
      "squad": "first",
@@ -4246,7 +4246,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/381950-1757604189.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/381950",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105872286145944_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105840879197592_l.png"
     },
     {
      "squad": "second",
@@ -4390,7 +4390,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/503883-1755675220.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/503883",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52905407287059_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105866917449491_l.png"
     },
     {
      "squad": "second",
@@ -5960,7 +5960,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3373-1515762355.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3373",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581945296_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719824_l.png"
     },
     {
      "squad": "first",
@@ -6014,7 +6014,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/607854-1646648856.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/607854",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52901112311349_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52883932442165_l.png"
     },
     {
      "squad": "first",
@@ -6050,7 +6050,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7518-1726487760.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7518",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831692_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581945292_l.png"
     },
     {
      "squad": "first",
@@ -6086,7 +6086,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/181767-1672303747.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/181767",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106762149606313_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106745506608041_l.png"
     },
     {
      "squad": "first",
@@ -6104,7 +6104,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5937-1590418733.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5937",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348045_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581945293_l.png"
     },
     {
      "squad": "first",
@@ -6140,7 +6140,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/626724-1724792744.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/626724",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106786308879147_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106745506689835_l.png"
     },
     {
      "squad": "first",
@@ -6158,7 +6158,7 @@
      "joined": "2026-05-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/371998-1761575144.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/371998",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106801341253943_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106773692401975_l.png"
     },
     {
      "squad": "first",
@@ -6194,7 +6194,7 @@
      "joined": "2026-05-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3372-1588239928.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3372",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348046_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89072253144526_l.png"
     },
     {
      "squad": "first",
@@ -6223,8 +6223,8 @@
      "rating": 97.38,
      "number": 5,
      "card_type": "Highlight",
-     "since": "2026-05-29",
-     "days": 178,
+     "since": "2026-05-30",
+     "days": 177,
      "tenureRank": 0,
      "callups": 1,
      "joined": "2026-03-22",
@@ -6248,7 +6248,7 @@
      "joined": "2026-04-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/44501-1603112392.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/44501",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755861084_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88042803071068_l.png"
     },
     {
      "squad": "first",
@@ -6320,7 +6320,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/105470-1780389358.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/105470",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52905138780146_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52894669797362_l.png"
     },
     {
      "squad": "first",
@@ -6374,7 +6374,7 @@
      "joined": "2026-09-29",
      "img": "https://img.a.transfermarkt.technology/portrait/big/68290-1692601435.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/68290",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145253792_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89133993205152_l.png"
     },
     {
      "squad": "second",
@@ -6410,7 +6410,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/117619-1547817527.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/117619",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387251694_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719854_l.png"
     },
     {
      "squad": "second",
@@ -6446,7 +6446,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5343-1414137444.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5343",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831756_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719884_l.png"
     },
     {
      "squad": "second",
@@ -6554,7 +6554,7 @@
      "joined": "2026-06-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7942-1464018929.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7942",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348047_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045074383_l.png"
     },
     {
      "squad": "second",
@@ -6680,7 +6680,7 @@
      "joined": "2026-03-26",
      "img": "https://img.a.transfermarkt.technology/portrait/big/288431-1751370674.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/288431",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105857522134814_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55069533859614_l.png"
     },
     {
      "squad": "second",
@@ -8410,7 +8410,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4257-1683640611.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4257",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387118554_l.png"
     },
     {
      "squad": "first",
@@ -8446,7 +8446,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/413039-1769532496.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/413039",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106760002199005_l.png"
     },
     {
      "squad": "first",
@@ -8482,7 +8482,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/354361-1695026237.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/354361",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52890643310450_l.png"
     },
     {
      "squad": "first",
@@ -8536,7 +8536,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/541555-1728038860.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/541555",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105801687639335_l.png"
     },
     {
      "squad": "first",
@@ -8849,7 +8849,7 @@
      "joined": "2026-06-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/533738-1760114012.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/533738",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106781745473447_l.png"
     },
     {
      "squad": "first",
@@ -8885,7 +8885,7 @@
      "joined": "2026-06-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/638793-1758059596.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/638793",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52888227425571_l.png"
     },
     {
      "squad": "first",
@@ -8957,7 +8957,7 @@
      "joined": "2026-06-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/424204-1711745534.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/424204",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105835242060713_l.png"
     },
     {
      "squad": "first",
@@ -11575,7 +11575,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/388165-1740646948.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/388165",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56162334653278_l.png"
     },
     {
      "squad": "first",
@@ -11647,7 +11647,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/727089-1767005980.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/727089",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105855995501867_l.png"
     },
     {
      "squad": "first",
@@ -11773,7 +11773,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/344869-1726586877.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/344869",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259602535_l.png"
     },
     {
      "squad": "first",
@@ -12366,7 +12366,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/42460-1667991317.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/42460",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105737799898663_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105859401160231_l.png"
     },
     {
      "squad": "first",
@@ -12456,7 +12456,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/475959-1713391602.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/475959",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105779407488096_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52869705368672_l.png"
     },
     {
      "squad": "first",
@@ -12798,7 +12798,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/580451-1716240952.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/580451",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105839537039959_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105768133208663_l.png"
     },
     {
      "squad": "second",
@@ -12852,7 +12852,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/475959-1713391602.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/475959",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52891448640608_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105742631830624_l.png"
     },
     {
      "squad": "second",
@@ -13917,7 +13917,7 @@
      "joined": "2026-09-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3924-1683633427.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3924",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831745_l.png"
     },
     {
      "squad": "first",
@@ -13953,7 +13953,7 @@
      "joined": "2026-09-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1390649-1759779499.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1390649",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105877118037992_l.png"
     },
     {
      "squad": "first",
@@ -13971,7 +13971,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/536835-1747857754.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/536835",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56165371349549_l.png"
     },
     {
      "squad": "first",
@@ -13989,7 +13989,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/375885-1700738495.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/375885",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105819135917598_l.png"
     },
     {
      "squad": "first",
@@ -14007,7 +14007,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/13091-1719518647.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/13091",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387147266_l.png"
     },
     {
      "squad": "first",
@@ -14043,7 +14043,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/371149-1757605149.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/371149",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105824504626902_l.png"
     },
     {
      "squad": "first",
@@ -14061,7 +14061,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/644771-1730183693.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/644771",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105835510498270_l.png"
     },
     {
      "squad": "first",
@@ -14115,7 +14115,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/827734-1751380953.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/827734",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52889838036812_l.png"
     },
     {
      "squad": "first",
@@ -14151,7 +14151,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/343052-1758059244.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/343052",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105897519064260_l.png"
     },
     {
      "squad": "first",
@@ -14241,7 +14241,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/683895-1770396716.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/683895",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106772350248490_l.png"
     },
     {
      "squad": "first",
@@ -14259,7 +14259,7 @@
      "joined": "2026-11-17",
      "img": "https://img.a.transfermarkt.technology/portrait/big/463665-1739281800.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/463665",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105845979470381_l.png"
     },
     {
      "squad": "first",
@@ -14313,7 +14313,7 @@
      "joined": "2026-10-29",
      "img": "https://img.a.transfermarkt.technology/portrait/big/181375-1745174015.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/181375",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895103082616_l.png"
     }
    ],
    "dropouts": [
@@ -14370,7 +14370,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/610442-1757931324.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/610442",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55069802375077_l.png"
     },
     {
      "squad": "first",
@@ -14406,7 +14406,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/462823-1695026324.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/462823",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105845979482252_l.png"
     },
     {
      "squad": "first",
@@ -14424,7 +14424,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/540941-1668183899.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/540941",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105855911581292_l.png"
     },
     {
      "squad": "first",
@@ -14442,7 +14442,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/167799-1629882773.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/167799",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105839536957595_l.png"
     },
     {
      "squad": "first",
@@ -14478,7 +14478,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/926952-1747857569.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/926952",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105862890947646_l.png"
     },
     {
      "squad": "first",
@@ -14496,7 +14496,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/196948-1668183241.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/196948",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105805445698981_l.png"
     },
     {
      "squad": "first",
@@ -14550,7 +14550,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3465-1498486411.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3465",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581948647_l.png"
     },
     {
      "squad": "first",
@@ -14568,7 +14568,7 @@
      "joined": "2026-11-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/609556-1693217416.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/609556",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895371618501_l.png"
     },
     {
      "squad": "first",
@@ -14640,7 +14640,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/319859-1684771732.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/319859",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105833094567530_l.png"
     },
     {
      "squad": "first",
@@ -14766,7 +14766,7 @@
      "joined": "2026-04-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/565821-1736777758.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/565821",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52880711242249_l.png"
     }
    ],
    "dropouts": [
@@ -15177,7 +15177,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/439914-1781508134.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/439914",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105870138673385_l.png"
     },
     {
      "squad": "first",
@@ -15195,7 +15195,7 @@
      "joined": "2026-06-26",
      "img": "https://img.a.transfermarkt.technology/portrait/big/903611-1749390009.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/903611",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56164213744966_l.png"
     },
     {
      "squad": "first",
@@ -15213,7 +15213,7 @@
      "joined": "2026-08-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1074584-1739177410.jpeg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1074584",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105887855453877_l.png"
     },
     {
      "squad": "first",
@@ -15267,7 +15267,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/687626-1660729724.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/687626",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106782013927260_l.png"
     },
     {
      "squad": "first",
@@ -15285,7 +15285,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/659813-1727377918.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/659813",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105873359905555_l.png"
     },
     {
      "squad": "first",
@@ -15303,7 +15303,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/661171-1696508666.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/661171",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55072486740874_l.png"
     },
     {
      "squad": "first",
@@ -15321,7 +15321,7 @@
      "joined": "2026-08-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/893661-1666292051.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/893661",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259649757_l.png"
     },
     {
      "squad": "first",
@@ -15483,7 +15483,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/349599-1668498118.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/349599",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105782628691248_l.png"
     },
     {
      "squad": "first",
@@ -15619,7 +15619,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/445939-1747656490.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/445939",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106745238268680_l.png"
     },
     {
      "squad": "first",
@@ -15637,7 +15637,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/148455-1727337594.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/148455",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89135066963747_l.png"
     },
     {
      "squad": "first",
@@ -15691,7 +15691,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/340303-1762278201.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/340303",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106764917945800_l.png"
     },
     {
      "squad": "first",
@@ -16130,7 +16130,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1397-1476361136.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1397",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348118_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581945366_l.png"
     },
     {
      "squad": "first",
@@ -16166,7 +16166,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3139-1746174990.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3139",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348017_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719793_l.png"
     },
     {
      "squad": "first",
@@ -16328,7 +16328,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3238-1551429940.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3238",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387251635_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033407929779_l.png"
     },
     {
      "squad": "first",
@@ -16382,7 +16382,7 @@
      "joined": "2026-11-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/406635-1668524492.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/406635",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52893864542328_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52893059235960_l.png"
     },
     {
      "squad": "first",
@@ -16400,7 +16400,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_3109_31_2013_01_16_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3109",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831668_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719796_l.png"
     },
     {
      "squad": "first",
@@ -16454,7 +16454,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3235-1592469934.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3235",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145214260_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776505140_l.png"
     },
     {
      "squad": "first",
@@ -16490,7 +16490,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/314353-1701680958.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/314353",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105877117975293_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52896280460029_l.png"
     },
     {
      "squad": "first",
@@ -16508,7 +16508,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/130164-1668499964.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/130164",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105867185797302_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52888227330230_l.png"
     },
     {
      "squad": "first",
@@ -16616,7 +16616,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/581678-1748102891.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/581678",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106765907789637_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106732621793093_l.png"
     },
     {
      "squad": "second",
@@ -16634,7 +16634,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357662-1687962936.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357662",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105791755495839_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52873463441823_l.png"
     },
     {
      "squad": "second",
@@ -16814,7 +16814,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3163-1674475335.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3163",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831708_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719836_l.png"
     },
     {
      "squad": "second",
@@ -16886,7 +16886,7 @@
      "joined": "2026-07-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/392757-1683030598.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/392757",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105864769962198_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56163676848342_l.png"
     },
     {
      "squad": "second",
@@ -16922,7 +16922,7 @@
      "joined": "2026-09-02",
      "img": "https://img.a.transfermarkt.technology/portrait/big/258919-1716297478.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/258919",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105863964635994_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52886079910746_l.png"
     },
     {
      "squad": "second",
@@ -18027,7 +18027,7 @@
      "joined": "2026-03-26",
      "img": "https://img.a.transfermarkt.technology/portrait/big/22068-1663667692.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/22068",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360594345_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033407804329_l.png"
     },
     {
      "squad": "first",
@@ -18207,7 +18207,7 @@
      "joined": "2026-05-28",
      "img": "https://img.a.transfermarkt.technology/portrait/big/709726-1758714741.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/709726",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52892522389919_l.png"
     },
     {
      "squad": "first",
@@ -18279,7 +18279,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/182913-1681462009.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/182913",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105858595862475_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56167434860491_l.png"
     },
     {
      "squad": "first",
@@ -18297,7 +18297,7 @@
      "joined": "2026-09-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/225083-1770653003.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/225083",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/106779061095382_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106736916728790_l.png"
     },
     {
      "squad": "first",
@@ -18333,7 +18333,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357119-1669190550.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357119",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105927046971679_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105873091445023_l.png"
     },
     {
      "squad": "first",
@@ -18351,7 +18351,7 @@
      "joined": "2026-07-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/281963-1667830435.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/281963",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105858595920141_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105862085581069_l.png"
     },
     {
      "squad": "first",
@@ -18423,7 +18423,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/342229-1682683695.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/342229",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88047366549630_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138556678270_l.png"
     },
     {
      "squad": "second",
@@ -18513,7 +18513,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4182-1542019034.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4182",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755964130_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581948642_l.png"
     },
     {
      "squad": "second",
@@ -18549,7 +18549,7 @@
      "joined": "2026-09-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/164770-1727257324.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/164770",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755869252_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039850289220_l.png"
     },
     {
      "squad": "second",
@@ -18603,7 +18603,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/191056-1602242038.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/191056",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105859938040233_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52882053314985_l.png"
     },
     {
      "squad": "second",
@@ -18621,7 +18621,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/420002-1723202650.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/420002",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105872286138257_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105858595930001_l.png"
     },
     {
      "squad": "second",
@@ -18675,7 +18675,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/607223-1773302431.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/607223",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105872286157333_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55072755157525_l.png"
     },
     {
      "squad": "second",
@@ -18711,7 +18711,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/413112-1668500754.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/413112",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105927046976486_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52888764273638_l.png"
     },
     {
      "squad": "second",
@@ -19727,7 +19727,7 @@
      "joined": "2026-03-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1527-1448894024.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1527",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348069_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045074405_l.png"
     },
     {
      "squad": "first",
@@ -20015,7 +20015,7 @@
      "joined": "2026-03-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/161056-1700039639.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/161056",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52882858682829_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52880174328269_l.png"
     },
     {
      "squad": "first",
@@ -20033,7 +20033,7 @@
      "joined": "2026-03-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/206-1464084738.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/206",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755960775_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045074375_l.png"
     },
     {
      "squad": "first",
@@ -20051,7 +20051,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/309400-1782889722.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/309400",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52902722912074_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56165019008842_l.png"
     },
     {
      "squad": "second",
@@ -20123,7 +20123,7 @@
      "joined": "2026-03-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/580195-1781163507.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/580195",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105768133204752_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52883395582736_l.png"
     },
     {
      "squad": "second",
@@ -20141,7 +20141,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/406640-1709560961.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/406640",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52902991360641_l.png"
     },
     {
      "squad": "second",
@@ -20939,7 +20939,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/324503-1737497307.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/324503",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52901917619222_l.png"
     },
     {
      "squad": "first",
@@ -20957,7 +20957,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/451677-1754510866.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/451677",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105891345079046_l.png"
     },
     {
      "squad": "first",
@@ -20993,7 +20993,7 @@
      "joined": "2026-10-11",
      "img": "https://img.a.transfermarkt.technology/portrait/big/990148-1742566542.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/990148",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105891076665540_l.png"
     },
     {
      "squad": "first",
@@ -21065,7 +21065,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/415912-1691999569.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/415912",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259612150_l.png"
     },
     {
      "squad": "first",
@@ -21137,7 +21137,7 @@
      "joined": "2026-07-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1060087-1750779518.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1060087",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105832557753974_l.png"
     },
     {
      "squad": "first",
@@ -23072,7 +23072,7 @@
      "joined": "2026-06-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_103092_4023_2014_03_17_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/103092",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387120260_l.png"
     },
     {
      "squad": "first",
@@ -23180,7 +23180,7 @@
      "joined": "2026-06-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/730861-1773172293.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/730861",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105780749679834_l.png"
     },
     {
      "squad": "first",
@@ -23198,7 +23198,7 @@
      "joined": "2026-06-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/93740-1724337179.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/93740",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105785849923497_l.png"
     },
     {
      "squad": "first",
@@ -23234,7 +23234,7 @@
      "joined": "2026-06-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/451276-1758715234.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/451276",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105828799610127_l.png"
     },
     {
      "squad": "first",
@@ -25511,7 +25511,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/502821-1727382174.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/502821",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105891345074734_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52902186060334_l.png"
     },
     {
      "squad": "first",
@@ -25547,7 +25547,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5775-1454933483.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5775",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755964133_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460996837_l.png"
     },
     {
      "squad": "first",
@@ -25601,7 +25601,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5821-1590494397.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5821",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831684_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348036_l.png"
     },
     {
      "squad": "first",
@@ -25655,7 +25655,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4153-1487345469.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4153",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831719_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045074407_l.png"
     },
     {
      "squad": "first",
@@ -25673,7 +25673,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/255942-1725531625.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/255942",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105890808173830_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52890374870278_l.png"
     },
     {
      "squad": "first",
@@ -25691,7 +25691,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5813-1455612470.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5813",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755889792_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387180672_l.png"
     },
     {
      "squad": "first",
@@ -25709,7 +25709,7 @@
      "joined": "2026-06-11",
      "img": "https://img.a.transfermarkt.technology/portrait/big/118689-1663580982.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/118689",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105872017688854_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105837926385942_l.png"
     },
     {
      "squad": "first",
@@ -25727,7 +25727,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4171-1764952893.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4171",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755942057_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581926569_l.png"
     },
     {
      "squad": "first",
@@ -25781,7 +25781,7 @@
      "joined": "2026-05-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/315858-1761076746.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/315858",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105799808558839_l.png"
     },
     {
      "squad": "first",
@@ -25907,7 +25907,7 @@
      "joined": "2026-06-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5947-1454935412.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5947",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755829779_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88042803039763_l.png"
     },
     {
      "squad": "second",
@@ -25961,7 +25961,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/39983-1693590039.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/39983",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755859255_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776537399_l.png"
     },
     {
      "squad": "second",
@@ -26051,7 +26051,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/177843-1692883147.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/177843",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52898427889753_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105783165511769_l.png"
     },
     {
      "squad": "second",
@@ -26141,7 +26141,7 @@
      "joined": "2026-11-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/29260-1678025858.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/29260",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755835027_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360594067_l.png"
     },
     {
      "squad": "second",
@@ -26963,7 +26963,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/356141-1707947777.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/356141",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105850274443253_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55070607667189_l.png"
     },
     {
      "squad": "first",
@@ -27359,7 +27359,7 @@
      "joined": "2026-09-17",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_5875_123_2013_07_10_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5875",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292831703_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460993495_l.png"
     },
     {
      "squad": "second",
@@ -28343,7 +28343,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/91845-1771690023.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/91845",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106766176135223_l.png"
     },
     {
      "squad": "first",
@@ -28397,7 +28397,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/314398-1668504727.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/314398",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105867773017511_l.png"
     },
     {
      "squad": "first",
@@ -28469,7 +28469,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/503482-1700208062.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/503482",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52876953116252_l.png"
     },
     {
      "squad": "first",
@@ -28541,7 +28541,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/402167-1774193696.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/402167",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106775571455574_l.png"
     },
     {
      "squad": "first",
@@ -30604,7 +30604,7 @@
      "joined": "2026-10-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/386552-1725529617.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/386552",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55068997037051_l.png"
     },
     {
      "squad": "first",
@@ -30640,7 +30640,7 @@
      "joined": "2026-10-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/524925-1789573359.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/524925",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105886513221468_l.png"
     },
     {
      "squad": "first",
@@ -30676,7 +30676,7 @@
      "joined": "2026-10-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/297070-1664981394.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/297070",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105838731701031_l.png"
     },
     {
      "squad": "first",
@@ -31463,7 +31463,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/2904-1720390668.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/2904",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387118614_l.png"
     },
     {
      "squad": "first",
@@ -32544,7 +32544,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/654982-1782376778.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/654982",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105855106307448_l.png"
     },
     {
      "squad": "first",
@@ -32616,7 +32616,7 @@
      "joined": "2026-07-02",
      "img": "https://img.a.transfermarkt.technology/portrait/big/1097139-1741119960.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/1097139",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106788724836718_l.png"
     },
     {
      "squad": "first",
@@ -32634,7 +32634,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/340456-1783200177.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/340456",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56168508675153_l.png"
     },
     {
      "squad": "first",
@@ -32652,7 +32652,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/361914-1659355782.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/361914",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105851968940938_l.png"
     },
     {
      "squad": "first",
@@ -32670,7 +32670,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/518801-1739289709.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/518801",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105861817219819_l.png"
     },
     {
      "squad": "first",
@@ -32688,7 +32688,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/398073-1672304327.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/398073",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106776645188904_l.png"
     },
     {
      "squad": "first",
@@ -32706,7 +32706,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/207834-1668503728.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/207834",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106764917858093_l.png"
     },
     {
      "squad": "first",
@@ -32724,7 +32724,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/521127-1784903117.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/521127",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105851968938280_l.png"
     },
     {
      "squad": "first",
@@ -32742,7 +32742,7 @@
      "joined": "2026-05-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/810895-1758703148.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/810895",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/84043713_l.png"
     },
     {
      "squad": "first",
@@ -32760,7 +32760,7 @@
      "joined": "2026-09-10",
      "img": "https://img.a.transfermarkt.technology/portrait/big/223725-1687272900.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/223725",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/101071_l.png"
     },
     {
      "squad": "first",
@@ -32778,7 +32778,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/532776-1689710574.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/532776",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105783434020767_l.png"
     },
     {
      "squad": "first",
@@ -32796,7 +32796,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/593482-1668080946.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/593482",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/133100_l.png"
     },
     {
      "squad": "first",
@@ -32814,7 +32814,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/287579-1693604574.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/287579",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/83990825_l.png"
     },
     {
      "squad": "first",
@@ -32850,7 +32850,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/272622-1780316727.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/272622",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/110645_l.png"
     },
     {
      "squad": "first",
@@ -32868,7 +32868,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/235412-1779143037.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/235412",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/112247_l.png"
     },
     {
      "squad": "first",
@@ -32886,7 +32886,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/822331-1683211692.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/822331",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105785044642116_l.png"
     },
     {
      "squad": "first",
@@ -32904,7 +32904,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/544414-1780492700.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/544414",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105861817208648_l.png"
     },
     {
      "squad": "first",
@@ -32922,7 +32922,7 @@
      "joined": "2026-07-05",
      "img": "https://img.a.transfermarkt.technology/portrait/big/598506-1723144724.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/598506",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56166361216452_l.png"
     },
     {
      "squad": "second",
@@ -32940,7 +32940,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/732950-1726146772.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/732950",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105861817219831_l.png"
     },
     {
      "squad": "second",
@@ -32958,7 +32958,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/355641-1780492586.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/355641",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105861817154804_l.png"
     },
     {
      "squad": "second",
@@ -32976,7 +32976,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/314678-1744193327.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/314678",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105880691523462_l.png"
     },
     {
      "squad": "second",
@@ -32994,7 +32994,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/654982-1782376778.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/654982",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105851968968056_l.png"
     },
     {
      "squad": "second",
@@ -33012,7 +33012,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/702869-1783322302.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/702869",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105880691550364_l.png"
     },
     {
      "squad": "second",
@@ -33030,7 +33030,7 @@
      "joined": "2026-09-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/531065-1707127581.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/531065",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/153595_l.png"
     },
     {
      "squad": "second",
@@ -33048,7 +33048,7 @@
      "joined": "2026-09-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/541134-1723460557.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/541134",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/16913899_l.png"
     },
     {
      "squad": "second",
@@ -33066,7 +33066,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/45124-1437471177.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/45124",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039044973419_l.png"
     },
     {
      "squad": "second",
@@ -33102,7 +33102,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/518802-1780492649.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/518802",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105861817219822_l.png"
     },
     {
      "squad": "second",
@@ -33908,7 +33908,7 @@
      "joined": "2026-04-23",
      "img": "https://img.a.transfermarkt.technology/portrait/big/101045-1570441290.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/101045",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460993514_l.png"
     },
     {
      "squad": "first",
@@ -33926,7 +33926,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/434675-1682690965.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/434675",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106781745470620_l.png"
     },
     {
      "squad": "first",
@@ -33944,7 +33944,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4010-1781788440.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4010",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040655687168_l.png"
     },
     {
      "squad": "first",
@@ -33962,7 +33962,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/8021-1458823519.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/8021",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145348075_l.png"
     },
     {
      "squad": "first",
@@ -33980,7 +33980,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_4168_537_2013_05_22_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4168",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360586141_l.png"
     },
     {
      "squad": "first",
@@ -33998,7 +33998,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5758-1590390814.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5758",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755827099_l.png"
     },
     {
      "squad": "first",
@@ -34016,7 +34016,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3191-1490106460.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3191",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292760702_l.png"
     },
     {
      "squad": "first",
@@ -34034,7 +34034,7 @@
      "joined": "2026-03-27",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_3557_123_2012_12_27_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3557",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040655690467_l.png"
     },
     {
      "squad": "first",
@@ -34052,7 +34052,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/557459-1744313600.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/557459",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106800535966712_l.png"
     },
     {
      "squad": "first",
@@ -34070,7 +34070,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/420243-1702413077.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/420243",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55072755156027_l.png"
     },
     {
      "squad": "first",
@@ -34088,7 +34088,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3516-1719539293.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3516",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755827094_l.png"
     },
     {
      "squad": "first",
@@ -34106,7 +34106,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/74471-1590494247.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/74471",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719849_l.png"
     },
     {
      "squad": "first",
@@ -34124,7 +34124,7 @@
      "joined": "2026-10-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/355861-1674657323.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/355861",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105896176893674_l.png"
     },
     {
      "squad": "first",
@@ -34142,7 +34142,7 @@
      "joined": "2026-10-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/326029-1711746104.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/326029",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105850005998764_l.png"
     },
     {
      "squad": "first",
@@ -34160,7 +34160,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4673-1684166804.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4673",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755831094_l.png"
     },
     {
      "squad": "first",
@@ -34178,7 +34178,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/478573-1718097194.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/478573",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105850006007901_l.png"
     },
     {
      "squad": "first",
@@ -34196,7 +34196,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/5198-1719543769.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/5198",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039850247068_l.png"
     },
     {
      "squad": "first",
@@ -34214,7 +34214,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/904802-1701361717.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/904802",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105827189026473_l.png"
     },
     {
      "squad": "first",
@@ -34232,7 +34232,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/139208-1702049837.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/139208",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89135066951464_l.png"
     },
     {
      "squad": "first",
@@ -34250,7 +34250,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/70667-1590396050.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/70667",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033139494376_l.png"
     },
     {
      "squad": "first",
@@ -34268,7 +34268,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/484547-1689710682.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/484547",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105847321659866_l.png"
     },
     {
      "squad": "first",
@@ -34286,7 +34286,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/646991-1723035894.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/646991",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55070607676904_l.png"
     },
     {
      "squad": "first",
@@ -34304,7 +34304,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3994-1461327946.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3994",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460860895_l.png"
     },
     {
      "squad": "second",
@@ -34322,7 +34322,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/8021-1458823519.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/8021",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039581945323_l.png"
     },
     {
      "squad": "second",
@@ -34340,7 +34340,7 @@
      "joined": "2026-08-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/566931-1729778226.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/566931",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106766444664616_l.png"
     },
     {
      "squad": "second",
@@ -34358,7 +34358,7 @@
      "joined": "2026-09-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/321528-1746042223.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/321528",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106746580415858_l.png"
     },
     {
      "squad": "second",
@@ -34376,7 +34376,7 @@
      "joined": "2026-04-23",
      "img": "https://img.a.transfermarkt.technology/portrait/big/101045-1570441290.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/101045",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045074410_l.png"
     },
     {
      "squad": "second",
@@ -34394,7 +34394,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3515-1461328878.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3515",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776506440_l.png"
     },
     {
      "squad": "second",
@@ -34412,7 +34412,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_4168_537_2013_05_22_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4168",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460859805_l.png"
     },
     {
      "squad": "second",
@@ -34430,7 +34430,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/557459-1744313600.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/557459",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105850006017016_l.png"
     },
     {
      "squad": "second",
@@ -34448,7 +34448,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7940-1461231132.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7940",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776506699_l.png"
     },
     {
      "squad": "second",
@@ -34466,7 +34466,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/326031-1700659567.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/326031",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105708808945081_l.png"
     },
     {
      "squad": "second",
@@ -34484,7 +34484,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/206746-1746645948.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/206746",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105818330556620_l.png"
     },
     {
      "squad": "second",
@@ -34502,7 +34502,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/565093-1716990260.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/565093",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52904870417884_l.png"
     },
     {
      "squad": "second",
@@ -34520,7 +34520,7 @@
      "joined": "2026-11-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3187-1683297206.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3187",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719834_l.png"
     },
     {
      "squad": "second",
@@ -34556,7 +34556,7 @@
      "joined": "2026-10-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/326029-1711746104.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/326029",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52900306996396_l.png"
     },
     {
      "squad": "second",
@@ -34574,7 +34574,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/330659-1779893085.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/330659",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105832826126493_l.png"
     },
     {
      "squad": "second",
@@ -34592,7 +34592,7 @@
      "joined": "2026-11-16",
      "img": "https://img.a.transfermarkt.technology/portrait/big/571149-1753095450.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/571149",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52912655073911_l.png"
     },
     {
      "squad": "second",
@@ -34610,7 +34610,7 @@
      "joined": "2026-03-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/70667-1590396050.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/70667",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036629155304_l.png"
     },
     {
      "squad": "second",
@@ -34628,7 +34628,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/485585-1704795222.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/485585",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105820746548514_l.png"
     },
     {
      "squad": "second",
@@ -34646,7 +34646,7 @@
      "joined": "2026-10-29",
      "img": "https://img.a.transfermarkt.technology/portrait/big/177476-1784042249.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/177476",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106792751262070_l.png"
     },
     {
      "squad": "second",
@@ -34664,7 +34664,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/576314-1742501220.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/576314",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52904870408433_l.png"
     },
     {
      "squad": "second",
@@ -34682,7 +34682,7 @@
      "joined": "2026-11-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/557407-1683881379.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/557407",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105835510506038_l.png"
     },
     {
      "squad": "second",
@@ -34718,7 +34718,7 @@
      "joined": "2026-06-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/478573-1718097194.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/478573",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106743359205469_l.png"
     }
    ],
    "dropouts": [
@@ -35359,7 +35359,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3133-1714049981.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3133",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045755964140_l.png"
     },
     {
      "squad": "first",
@@ -35377,7 +35377,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/242631-1679652866.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/242631",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148790698_l.png"
     },
     {
      "squad": "first",
@@ -35395,7 +35395,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_4831_123_2013_03_21_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4831",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045487392207_l.png"
     },
     {
      "squad": "first",
@@ -35413,7 +35413,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3708-1570440349.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3708",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045487528683_l.png"
     },
     {
      "squad": "first",
@@ -35431,7 +35431,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/421637-1726605377.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/421637",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148804740_l.png"
     },
     {
      "squad": "first",
@@ -35449,7 +35449,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/699783-1754511026.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/699783",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148822987_l.png"
     },
     {
      "squad": "first",
@@ -35485,7 +35485,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/461883-1662989506.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/461883",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106797935500212_l.png"
     },
     {
      "squad": "first",
@@ -35521,7 +35521,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/358948-1767008109.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/358948",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148802861_l.png"
     },
     {
      "squad": "first",
@@ -35557,7 +35557,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/401923-1779987631.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/401923",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89135067033519_l.png"
     },
     {
      "squad": "first",
@@ -35593,7 +35593,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/401922-1767008430.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/401922",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148811346_l.png"
     },
     {
      "squad": "first",
@@ -35629,7 +35629,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/530742-1683029896.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/530742",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105869148824016_l.png"
     },
     {
      "squad": "first",
@@ -35755,7 +35755,7 @@
      "joined": "2026-06-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/272855-1756305316.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/272855",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106779597985415_l.png"
     }
    ],
    "dropouts": [
@@ -36467,7 +36467,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/418560-1709108116.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/418560",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138556701095_l.png"
     },
     {
      "squad": "first",
@@ -36485,7 +36485,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/670103-1697191976.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/670103",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105865306845091_l.png"
     },
     {
      "squad": "first",
@@ -36503,7 +36503,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/661207-1770716679.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/661207",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895371625019_l.png"
     },
     {
      "squad": "first",
@@ -36521,7 +36521,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/564785-1692883043.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/564785",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105832020840182_l.png"
     },
     {
      "squad": "first",
@@ -36539,7 +36539,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/316264-1782847069.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/316264",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106772618646508_l.png"
     },
     {
      "squad": "first",
@@ -36557,7 +36557,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/333014-1780049344.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/333014",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105800613872994_l.png"
     },
     {
      "squad": "first",
@@ -36575,7 +36575,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/223367-1737497700.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/223367",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259638236_l.png"
     },
     {
      "squad": "first",
@@ -36629,7 +36629,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/370789-1709561216.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/370789",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105891076647836_l.png"
     },
     {
      "squad": "first",
@@ -36665,7 +36665,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/238407-1716403969.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/238407",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106785503555830_l.png"
     },
     {
      "squad": "first",
@@ -36683,7 +36683,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/894914-1724337096.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/894914",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52905407300229_l.png"
     },
     {
      "squad": "first",
@@ -36881,7 +36881,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/429983-1743541067.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/429983",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105838731713986_l.png"
     },
     {
      "squad": "second",
@@ -36935,7 +36935,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/316264-1782847069.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/316264",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56163408385004_l.png"
     },
     {
      "squad": "second",
@@ -36989,7 +36989,7 @@
      "joined": "2026-06-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/370789-1709561216.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/370789",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52898159537052_l.png"
     },
     {
      "squad": "second",
@@ -38431,7 +38431,7 @@
      "joined": "2026-08-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/745191-1731056200.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/745191",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/53990691853358_l.png"
     },
     {
      "squad": "first",
@@ -38503,7 +38503,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/996897-1710077684.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/996897",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105765448873424_l.png"
     },
     {
      "squad": "first",
@@ -38557,7 +38557,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/215390-1746578699.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/215390",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105865038312124_l.png"
     },
     {
      "squad": "first",
@@ -38575,7 +38575,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/353032-1669365021.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/353032",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105858864369073_l.png"
     },
     {
      "squad": "first",
@@ -39866,7 +39866,7 @@
      "joined": "2026-07-03",
      "img": "https://img.a.transfermarkt.technology/portrait/big/550550-1681906158.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/550550",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106782282354314_l.png"
     },
     {
      "squad": "first",
@@ -39884,7 +39884,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487465-1763106447.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487465",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106762686548319_l.png"
     },
     {
      "squad": "first",
@@ -39902,7 +39902,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3446-1570440028.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3446",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460993461_l.png"
     },
     {
      "squad": "first",
@@ -39920,7 +39920,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/240306-1683882766.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/240306",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138019757152_l.png"
     },
     {
      "squad": "first",
@@ -39938,7 +39938,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487469-1749415169.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487469",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106748459487131_l.png"
     },
     {
      "squad": "first",
@@ -39956,7 +39956,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/670681-1701295511.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/670681",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56162334699096_l.png"
     },
     {
      "squad": "first",
@@ -39974,7 +39974,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/616341-1749417164.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/616341",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106748459484820_l.png"
     },
     {
      "squad": "first",
@@ -39992,7 +39992,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/14132-1606396269.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/14132",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387126189_l.png"
     },
     {
      "squad": "first",
@@ -40010,7 +40010,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/258004-1684921271.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/258004",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105799808562360_l.png"
     },
     {
      "squad": "first",
@@ -40028,7 +40028,7 @@
      "joined": "2026-09-25",
      "img": "https://img.a.transfermarkt.technology/portrait/big/231572-1765459986.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/231572",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106793019746456_l.png"
     },
     {
      "squad": "first",
@@ -40046,7 +40046,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357153-1716296015.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357153",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106740406415422_l.png"
     },
     {
      "squad": "first",
@@ -40064,7 +40064,7 @@
      "joined": "2026-09-27",
      "img": "https://img.a.transfermarkt.technology/portrait/big/505653-1766483527.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/505653",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105892687251310_l.png"
     },
     {
      "squad": "first",
@@ -40082,7 +40082,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/462250-1668165358.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/462250",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105848932265344_l.png"
     },
     {
      "squad": "first",
@@ -40100,7 +40100,7 @@
      "joined": "2026-10-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/4188-1730293194.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/4188",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045487395246_l.png"
     },
     {
      "squad": "first",
@@ -40118,7 +40118,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3624-1603456715.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3624",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045077725_l.png"
     },
     {
      "squad": "first",
@@ -40136,7 +40136,7 @@
      "joined": "2026-07-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/8564-1720495726.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/8564",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387251711_l.png"
     },
     {
      "squad": "first",
@@ -40172,7 +40172,7 @@
      "joined": "2026-10-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/535955-1730127360.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/535955",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52904065107464_l.png"
     },
     {
      "squad": "first",
@@ -40190,7 +40190,7 @@
      "joined": "2026-09-06",
      "img": "https://img.a.transfermarkt.technology/portrait/big/650568-1700235534.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/650568",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105870675564081_l.png"
     },
     {
      "squad": "first",
@@ -40208,7 +40208,7 @@
      "joined": "2026-07-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/805714-1749414999.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/805714",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105865306855034_l.png"
     },
     {
      "squad": "first",
@@ -40226,7 +40226,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/182712-1675080937.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/182712",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52903796587179_l.png"
     },
     {
      "squad": "first",
@@ -40244,7 +40244,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/234811-1666770953.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/234811",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105848932186223_l.png"
     },
     {
      "squad": "first",
@@ -40262,7 +40262,7 @@
      "joined": "2026-07-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487474-1749069081.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487474",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106799193796011_l.png"
     },
     {
      "squad": "second",
@@ -40280,7 +40280,7 @@
      "joined": "2026-10-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/225122-1701334424.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/225122",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52897085760666_l.png"
     },
     {
      "squad": "second",
@@ -40298,7 +40298,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487465-1763106447.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487465",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52875879369055_l.png"
     },
     {
      "squad": "second",
@@ -40316,7 +40316,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3446-1570440028.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3446",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719797_l.png"
     },
     {
      "squad": "second",
@@ -40334,7 +40334,7 @@
      "joined": "2026-07-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487474-1749069081.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487474",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52892790828459_l.png"
     },
     {
      "squad": "second",
@@ -40352,7 +40352,7 @@
      "joined": "2026-09-06",
      "img": "https://img.a.transfermarkt.technology/portrait/big/241641-1684311533.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/241641",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52912923449122_l.png"
     },
     {
      "squad": "second",
@@ -40370,7 +40370,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/487469-1749415169.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/487469",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040118816667_l.png"
     },
     {
      "squad": "second",
@@ -40388,7 +40388,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/182712-1675080937.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/182712",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52899233184427_l.png"
     },
     {
      "squad": "second",
@@ -40406,7 +40406,7 @@
      "joined": "2026-06-06",
      "img": "https://img.a.transfermarkt.technology/portrait/big/504087-1737497771.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/504087",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105868259643695_l.png"
     },
     {
      "squad": "second",
@@ -40424,7 +40424,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/549006-1716296254.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/549006",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52896012049652_l.png"
     },
     {
      "squad": "second",
@@ -40442,7 +40442,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/670681-1701295511.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/670681",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52883127168600_l.png"
     },
     {
      "squad": "second",
@@ -40496,7 +40496,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/601883-1761076097.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/601883",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52876147825415_l.png"
     },
     {
      "squad": "second",
@@ -40550,7 +40550,7 @@
      "joined": "2026-11-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/880245-1727786403.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/880245",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105873359923147_l.png"
     },
     {
      "squad": "second",
@@ -40604,7 +40604,7 @@
      "joined": "2026-11-18",
      "img": "https://img.a.transfermarkt.technology/portrait/big/141050-1668697507.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/141050",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105692702746631_l.png"
     },
     {
      "squad": "second",
@@ -40622,7 +40622,7 @@
      "joined": "2026-03-28",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357147-1727785546.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357147",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105810814422392_l.png"
     },
     {
      "squad": "second",
@@ -40658,7 +40658,7 @@
      "joined": "2026-03-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/240306-1683882766.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/240306",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52889301085280_l.png"
     },
     {
      "squad": "second",
@@ -42765,7 +42765,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3604-1414136710.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3604",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039934308531_l.png"
     },
     {
      "squad": "first",
@@ -42783,7 +42783,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/200512-1767005854.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/200512",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89137029898200_l.png"
     },
     {
      "squad": "first",
@@ -42801,7 +42801,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/410225-1765811669.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/410225",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105764643520025_l.png"
     },
     {
      "squad": "first",
@@ -42837,7 +42837,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/918969-1726834088.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/918969",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860290475507_l.png"
     },
     {
      "squad": "first",
@@ -42855,7 +42855,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/485963-1768814767.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/485963",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105785044617171_l.png"
     },
     {
      "squad": "first",
@@ -42891,7 +42891,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/93128-1697050549.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/93128",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105735669256549_l.png"
     },
     {
      "squad": "first",
@@ -42909,7 +42909,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/291200-1780384737.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/291200",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860290422217_l.png"
     },
     {
      "squad": "first",
@@ -42927,7 +42927,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/891998-1756827019.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/891998",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895640052973_l.png"
     },
     {
      "squad": "first",
@@ -42945,7 +42945,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/442531-1600951863.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/442531",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105860290427681_l.png"
     },
     {
      "squad": "first",
@@ -42963,7 +42963,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/776890-1757939139.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/776890",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106797935502918_l.png"
     },
     {
      "squad": "first",
@@ -43035,7 +43035,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/568693-1668163083.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/568693",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105877386437993_l.png"
     },
     {
      "squad": "first",
@@ -43233,7 +43233,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/410225-1765811669.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/410225",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105811082853913_l.png"
     },
     {
      "squad": "second",
@@ -43251,7 +43251,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/485963-1768814767.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/485963",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56164566026195_l.png"
     },
     {
      "squad": "second",
@@ -45732,7 +45732,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7349-1570439548.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7349",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039045003638_l.png"
     },
     {
      "squad": "first",
@@ -45750,7 +45750,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7600-1685447666.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7600",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138288136169_l.png"
     },
     {
      "squad": "first",
@@ -45768,7 +45768,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/937958-1773173768.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/937958",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138019858754_l.png"
     },
     {
      "squad": "first",
@@ -45786,7 +45786,7 @@
      "joined": "2026-07-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/293385-1780663091.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/293385",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106787651039542_l.png"
     },
     {
      "squad": "first",
@@ -45804,7 +45804,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7607-1476882942.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7607",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387117922_l.png"
     },
     {
      "squad": "first",
@@ -45822,7 +45822,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357565-1682587890.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357565",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138556678367_l.png"
     },
     {
      "squad": "first",
@@ -45840,7 +45840,7 @@
      "joined": "2026-07-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/284857-1765185117.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/284857",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106787651045215_l.png"
     },
     {
      "squad": "first",
@@ -45858,7 +45858,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/18944-1667548226.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/18944",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88041460867519_l.png"
     },
     {
      "squad": "first",
@@ -45876,7 +45876,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/962110-1712779232.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/962110",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106782819256128_l.png"
     },
     {
      "squad": "first",
@@ -45894,7 +45894,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/s_3152_123_2014_01_03_1.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3152",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040387251675_l.png"
     },
     {
      "squad": "first",
@@ -45912,7 +45912,7 @@
      "joined": "2026-07-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/262396-1709674901.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/262396",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106787651035597_l.png"
     },
     {
      "squad": "first",
@@ -45930,7 +45930,7 @@
      "joined": "2026-11-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/44779-1453805669.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/44779",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88045487427597_l.png"
     },
     {
      "squad": "first",
@@ -45948,7 +45948,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/709187-1709676169.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/709187",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105801687641013_l.png"
     },
     {
      "squad": "first",
@@ -45966,7 +45966,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/568157-1686664370.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/568157",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105859132827344_l.png"
     },
     {
      "squad": "first",
@@ -45984,7 +45984,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/636703-1698086824.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/636703",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52905138878220_l.png"
     },
     {
      "squad": "first",
@@ -46002,7 +46002,7 @@
      "joined": "2026-07-16",
      "img": "https://img.a.transfermarkt.technology/portrait/big/683840-1744278342.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/683840",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89135067039781_l.png"
     },
     {
      "squad": "first",
@@ -46020,7 +46020,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7476-1471439383.JPG",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7476",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88035555413501_l.png"
     },
     {
      "squad": "first",
@@ -46038,7 +46038,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/8063-1769125215.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/8063",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88038776638902_l.png"
     },
     {
      "squad": "first",
@@ -46056,7 +46056,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/890290-1750251451.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/890290",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106766981558114_l.png"
     },
     {
      "squad": "first",
@@ -46074,7 +46074,7 @@
      "joined": "2026-08-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/255488-1709675129.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/255488",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105845711020494_l.png"
     },
     {
      "squad": "first",
@@ -46092,7 +46092,7 @@
      "joined": "2026-09-26",
      "img": "https://img.a.transfermarkt.technology/portrait/big/553875-1730812390.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/553875",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56165824320532_l.png"
     },
     {
      "squad": "first",
@@ -46110,7 +46110,7 @@
      "joined": "2026-03-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/561613-1747386081.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/561613",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106777987393262_l.png"
     },
     {
      "squad": "first",
@@ -46128,7 +46128,7 @@
      "joined": "2026-06-01",
      "img": "https://img.a.transfermarkt.technology/portrait/big/262749-1780663789.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/262749",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106778524224656_l.png"
     },
     {
      "squad": "second",
@@ -46146,7 +46146,7 @@
      "joined": "2026-07-16",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7980-1684165569.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7980",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88044145220884_l.png"
     },
     {
      "squad": "second",
@@ -46164,7 +46164,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/548111-1761821030.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/548111",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105854569418342_l.png"
     },
     {
      "squad": "second",
@@ -46182,7 +46182,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/937958-1773173768.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/937958",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88040118843714_l.png"
     },
     {
      "squad": "second",
@@ -46200,7 +46200,7 @@
      "joined": "2026-11-15",
      "img": "https://img.a.transfermarkt.technology/portrait/big/571020-1709676037.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/571020",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55068728625084_l.png"
     },
     {
      "squad": "second",
@@ -46218,7 +46218,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7600-1685447666.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7600",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360589289_l.png"
     },
     {
      "squad": "second",
@@ -46236,7 +46236,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/65230-1740775050.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/65230",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033407833768_l.png"
     },
     {
      "squad": "second",
@@ -46254,7 +46254,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/69751-1740774854.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/69751",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033407835625_l.png"
     },
     {
      "squad": "second",
@@ -46272,7 +46272,7 @@
      "joined": "2026-06-04",
      "img": "https://img.a.transfermarkt.technology/portrait/big/466794-1693604801.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/466794",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52898427956609_l.png"
     },
     {
      "squad": "second",
@@ -46290,7 +46290,7 @@
      "joined": "2026-11-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/351809-1707948228.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/351809",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52890106443145_l.png"
     },
     {
      "squad": "second",
@@ -46308,7 +46308,7 @@
      "joined": "2026-03-27",
      "img": "https://img.a.transfermarkt.technology/portrait/big/282411-1773182531.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/282411",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105800345424480_l.png"
     },
     {
      "squad": "second",
@@ -46326,7 +46326,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3979-1684226777.jpeg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3979",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360586068_l.png"
     },
     {
      "squad": "second",
@@ -46344,7 +46344,7 @@
      "joined": "2026-10-11",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7767-1683642827.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7767",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88046292701296_l.png"
     },
     {
      "squad": "second",
@@ -46362,7 +46362,7 @@
      "joined": "2026-07-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/398184-1779789996.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/398184",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52912386590735_l.png"
     },
     {
      "squad": "second",
@@ -46380,7 +46380,7 @@
      "joined": "2026-09-26",
      "img": "https://img.a.transfermarkt.technology/portrait/big/553875-1730812390.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/553875",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52895743595540_l.png"
     },
     {
      "squad": "second",
@@ -46398,7 +46398,7 @@
      "joined": "2026-10-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/296622-1765459707.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/296622",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106779597968380_l.png"
     },
     {
      "squad": "second",
@@ -46416,7 +46416,7 @@
      "joined": "2026-10-07",
      "img": "https://img.a.transfermarkt.technology/portrait/big/60444-1694703091.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/60444",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88039850287270_l.png"
     },
     {
      "squad": "second",
@@ -46434,7 +46434,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/7607-1476882942.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/7607",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88033139360610_l.png"
     },
     {
      "squad": "second",
@@ -46452,7 +46452,7 @@
      "joined": "2026-11-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/461617-1701212385.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/461617",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105816720015622_l.png"
     },
     {
      "squad": "second",
@@ -46488,7 +46488,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/176553-1685546335.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/176553",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105684112816546_l.png"
     },
     {
      "squad": "second",
@@ -46506,7 +46506,7 @@
      "joined": "2026-11-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/844637-1779789749.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/844637",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105827994325287_l.png"
     },
     {
      "squad": "second",
@@ -46524,7 +46524,7 @@
      "joined": "2026-11-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/388516-1686153132.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/388516",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105890808184099_l.png"
     },
     {
      "squad": "second",
@@ -46542,7 +46542,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/709187-1709676169.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/709187",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52887958989749_l.png"
     }
    ],
    "dropouts": [
@@ -47881,7 +47881,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/346890-1692879855.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/346890",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105807861636245_l.png"
     },
     {
      "squad": "first",
@@ -47899,7 +47899,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/345886-1779793578.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/345886",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105874165191335_l.png"
     },
     {
      "squad": "first",
@@ -47917,7 +47917,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/365108-1718218474.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/365108",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105838194851539_l.png"
     },
     {
      "squad": "first",
@@ -47935,7 +47935,7 @@
      "joined": "2026-07-30",
      "img": "https://img.a.transfermarkt.technology/portrait/big/927353-1753954939.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/927353",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106788456409199_l.png"
     },
     {
      "squad": "first",
@@ -47953,7 +47953,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/111455-1689711080.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/111455",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56162603017656_l.png"
     },
     {
      "squad": "first",
@@ -47971,7 +47971,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/608172-1734438792.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/608172",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105824504650664_l.png"
     },
     {
      "squad": "first",
@@ -47989,7 +47989,7 @@
      "joined": "2026-08-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/192616-1700236348.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/192616",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105896176881795_l.png"
     },
     {
      "squad": "first",
@@ -48007,7 +48007,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/284730-1684165752.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/284730",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106780671715908_l.png"
     },
     {
      "squad": "first",
@@ -48025,7 +48025,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/192635-1691249306.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/192635",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52903796648518_l.png"
     },
     {
      "squad": "first",
@@ -48043,7 +48043,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/334526-1780491997.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/334526",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56166092749498_l.png"
     },
     {
      "squad": "first",
@@ -48061,7 +48061,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/257814-1709559904.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/257814",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56163945294573_l.png"
     },
     {
      "squad": "first",
@@ -48133,7 +48133,7 @@
      "joined": "2026-08-08",
      "img": "https://img.a.transfermarkt.technology/portrait/big/86792-1723811199.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/86792",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105871212322278_l.png"
     },
     {
      "squad": "first",
@@ -48259,7 +48259,7 @@
      "joined": "2026-07-17",
      "img": "https://img.a.transfermarkt.technology/portrait/big/42205-1669897427.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/42205",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105871212318483_l.png"
     },
     {
      "squad": "first",
@@ -48277,7 +48277,7 @@
      "joined": "2026-07-14",
      "img": "https://img.a.transfermarkt.technology/portrait/big/251322-1661531623.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/251322",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52893864545285_l.png"
     },
     {
      "squad": "second",
@@ -48295,7 +48295,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/365108-1718218474.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/365108",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52891448639187_l.png"
     },
     {
      "squad": "second",
@@ -48385,7 +48385,7 @@
      "joined": "2026-04-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/334526-1780491997.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/334526",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52883663993530_l.png"
     },
     {
      "squad": "second",
@@ -52290,7 +52290,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/546543-1681827179.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/546543",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106777450514613_l.png"
     },
     {
      "squad": "first",
@@ -52308,7 +52308,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/465822-1773849110.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/465822",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105838194867139_l.png"
     },
     {
      "squad": "first",
@@ -52326,7 +52326,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/248410-1668501457.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/248410",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89136946016341_l.png"
     },
     {
      "squad": "first",
@@ -52344,7 +52344,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/369081-1731018042.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/369081",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106773423963383_l.png"
     },
     {
      "squad": "first",
@@ -52362,7 +52362,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/476701-1715107512.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/476701",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105792829271114_l.png"
     },
     {
      "squad": "first",
@@ -52380,7 +52380,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/376514-1681910576.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/376514",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105895640018201_l.png"
     },
     {
      "squad": "first",
@@ -52398,7 +52398,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/480267-1736431980.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/480267",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106786040448448_l.png"
     },
     {
      "squad": "first",
@@ -52416,7 +52416,7 @@
      "joined": "2026-08-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/102423-1747343579.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/102423",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52883395548046_l.png"
     },
     {
      "squad": "first",
@@ -52434,7 +52434,7 @@
      "joined": "2026-08-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/953901-1691396102.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/953901",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52912655074031_l.png"
     },
     {
      "squad": "first",
@@ -52452,7 +52452,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/58088-1671035581.png",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/58088",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105858864287607_l.png"
     },
     {
      "squad": "first",
@@ -52470,7 +52470,7 @@
      "joined": "2026-09-13",
      "img": "https://img.a.transfermarkt.technology/portrait/big/640109-1626685122.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/640109",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105871212422820_l.png"
     },
     {
      "squad": "first",
@@ -52542,7 +52542,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/397458-1719565799.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/397458",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106755975663185_l.png"
     },
     {
      "squad": "first",
@@ -52578,7 +52578,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/496268-1706144655.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/496268",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106755438820479_l.png"
     },
     {
      "squad": "first",
@@ -52632,7 +52632,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/188862-1770771666.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/188862",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/53991228619568_l.png"
     },
     {
      "squad": "first",
@@ -52668,7 +52668,7 @@
      "joined": "2026-06-16",
      "img": "https://img.a.transfermarkt.technology/portrait/big/572675-1773786535.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/572675",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52896012059063_l.png"
     },
     {
      "squad": "second",
@@ -52686,7 +52686,7 @@
      "joined": "2026-08-09",
      "img": "https://img.a.transfermarkt.technology/portrait/big/3408-1456484557.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/3408",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/88036360719863_l.png"
     },
     {
      "squad": "second",
@@ -52704,7 +52704,7 @@
      "joined": "2026-06-16",
      "img": "https://img.a.transfermarkt.technology/portrait/big/572675-1773786535.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/572675",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56161797816759_l.png"
     },
     {
      "squad": "second",
@@ -52722,7 +52722,7 @@
      "joined": "2026-06-21",
      "img": "https://img.a.transfermarkt.technology/portrait/big/457533-1713630231.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/457533",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56163139999591_l.png"
     },
     {
      "squad": "second",
@@ -52848,7 +52848,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/369081-1731018042.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/369081",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52877489978615_l.png"
     },
     {
      "squad": "second",
@@ -53272,7 +53272,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/503770-1672838317.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/503770",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56168508688815_l.png"
     },
     {
      "squad": "first",
@@ -53308,7 +53308,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/315779-1691696699.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/315779",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/55068997039592_l.png"
     },
     {
      "squad": "first",
@@ -53326,7 +53326,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/467437-1758703514.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/467437",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56165555900116_l.png"
     },
     {
      "squad": "first",
@@ -53344,7 +53344,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/332697-1754245044.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/332697",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/387113187134317_l.png"
     },
     {
      "squad": "first",
@@ -53362,7 +53362,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/689505-1742036970.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/689505",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52895475173080_l.png"
     },
     {
      "squad": "first",
@@ -53380,7 +53380,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/349701-1703926612.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/349701",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105826652105091_l.png"
     },
     {
      "squad": "first",
@@ -53398,7 +53398,7 @@
      "joined": "2026-06-20",
      "img": "https://img.a.transfermarkt.technology/portrait/big/985806-1740780278.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/985806",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/56168508708296_l.png"
     },
     {
      "squad": "first",
@@ -53416,7 +53416,7 @@
      "joined": "2026-05-31",
      "img": "https://img.a.transfermarkt.technology/portrait/big/389253-1647191322.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/389253",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52905407294775_l.png"
     },
     {
      "squad": "first",
@@ -53740,7 +53740,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/315779-1691696699.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/315779",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/105803835094504_l.png"
     },
     {
      "squad": "second",
@@ -53758,7 +53758,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/332697-1754245044.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/332697",
-     "card": null
+     "card": "https://efimg.com/efootballhub22/images/player_cards/52894401416045_l.png"
     },
     {
      "squad": "second",
