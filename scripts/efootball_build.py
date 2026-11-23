@@ -971,8 +971,8 @@ def build():
         if not added and not removed:
             log("Nations unchanged.")
 
-    _resolve_fotmob(all_players, cache)
     _backfill_transfermarkt(all_players + extras, cache)
+    _resolve_fotmob(all_players + extras, cache)
 
     card_cache = load_card_cache()
     card_wants = [(c, p["name"], p["pos"], p["card_type"], p["rating"], p.get("days") or 0)
@@ -989,29 +989,26 @@ def build():
         hit = card_cache["cards"].get(card_key(c, name, pos, card_type, rating))
         return cardfetch.card_image(hit["id"]) if hit else None
 
-    def photo(tm_id):
-        return tm_cache.get(tm_id) if tm_id else None
+    def photo(country, name, tm_id):
+        url = tm_cache.get(tm_id) if tm_id else None
+        if url:
+            return url
+        fm_id = fm_cache.get(f"{country}|{norm(name)}")
+        return FOTMOB_IMG.format(id=fm_id) if fm_id else None
 
     def tm_link(tm_id):
         return TM_LINK.format(id=tm_id) if tm_id else None
 
     for c in out_countries:
         for p in c["players"]:
-            tm = tm_cache.get(p["tm_id"]) if p["tm_id"] else None
-            if tm:
-                p["img"] = tm
-            elif p["tm_id"]:
-                p["img"] = None
-            elif p["fm_id"]:
-                p["img"] = FOTMOB_IMG.format(id=p["fm_id"])
-            else:
-                p["img"] = None
+            p["img"] = photo(c["id"], p["name"], p["tm_id"])
             if p["tm_id"]:
                 p["tm"] = TM_LINK.format(id=p["tm_id"])
             p["card"] = card_img(c["id"], p["name"], p["pos"], p["card_type"], p["rating"])
             p.pop("fm_id", None); p.pop("tm_id", None); p.pop("row", None)
         for d in c["dropouts"]:
-            d["img"], d["tm"] = photo(d["tm_id"]), tm_link(d.pop("tm_id"))
+            d["img"] = photo(c["id"], d["name"], d["tm_id"])
+            d["tm"] = tm_link(d.pop("tm_id"))
 
     out = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
@@ -1023,7 +1020,7 @@ def build():
         "updated": out["updated"],
         "countries": {c: [{"name": e["name"], "recent": e["recent"],
                            "rows": [r + [card_img(c, e["name"], r[0], r[2], r[1])] for r in e["rows"]],
-                           "img": photo(e["tm_id"]), "tm": tm_link(e["tm_id"])}
+                           "img": photo(c, e["name"], e["tm_id"]), "tm": tm_link(e["tm_id"])}
                           for e in pool] for c, pool in pools.items()},
     }, open(PLAYERS_PATH, "w"), ensure_ascii=False, separators=(",", ":"))
     json.dump({"updated": out["updated"], "countries": histories},
@@ -1176,7 +1173,16 @@ def _backfill_cards(wants, cache, today):
 
 def _resolve_fotmob(all_players, cache):
     fm_cache = cache["fotmob"]
-    todo = [(c, p) for c, p in all_players if not p["fm_id"] and not p["tm_id"]]
+    tm_cache = cache["transfermarkt"]
+    todo, seen = [], set()
+    for c, p in all_players:
+        key = f"{c}|{norm(p['name'])}"
+        if fm_cache.get(key) or tm_cache.get(p.get("tm_id")):
+            continue
+        if key in seen:
+            continue
+        seen.add(key)
+        todo.append((c, p))
     if not todo:
         log("Fotmob: nothing to look up.")
         return
@@ -1185,9 +1191,12 @@ def _resolve_fotmob(all_players, cache):
         pid = fotmob_lookup(p["name"])
         fm_cache[f"{c}|{norm(p['name'])}"] = pid
         p["fm_id"] = pid
+        if pid:
+            log(f"  ok   {p['name']} (FotMob #{pid})")
+        else:
+            log(f"  null {p['name']} (no FotMob match)")
         if i % 25 == 0:
             save_cache(cache)
-            log(f"  ... {i}/{len(todo)}")
         time.sleep(0.15)
     save_cache(cache)
 

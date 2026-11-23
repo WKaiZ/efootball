@@ -54,7 +54,7 @@ Substitutes:
   LWF   Raphinha          LWF   96.69  #19
   RMF   Rodrygo           RMF   96.03  #21
   AMF   Ronaldinho        AMF   98.60  #7
-  CMF   Joelinton         CMF   94.78  #18
+  CMF   Bruno Guimarães   CMF   96.23  #18
   DMF   Pablo Maia        DMF   93.04  #26
   LB    Alex Sandro       LB    94.21  #12
   CB    Léo Pereira       CB    94.91  #15
