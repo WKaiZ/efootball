@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 18:43 UTC",
+ "updated": "2026-11-23 18:58 UTC",
  "source": "https://github.com/WKaiZ/efootball",
  "countries": [
   {
@@ -6222,7 +6222,7 @@
      "pos": "DMF",
      "rating": 97.38,
      "number": 5,
-     "card_type": "Highlight",
+     "card_type": "Showtime",
      "since": "2026-05-30",
      "days": 177,
      "tenureRank": 0,
@@ -6230,7 +6230,7 @@
      "joined": "2026-03-22",
      "img": "https://img.a.transfermarkt.technology/portrait/big/16306-1699018876.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/16306",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105629351978669_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/106784698181293_l.png"
     },
     {
      "squad": "first",
@@ -16194,7 +16194,7 @@
      "pos": "CMF",
      "rating": 98.93,
      "number": 4,
-     "card_type": "Highlight",
+     "card_type": "BigTime",
      "since": "2026-06-06",
      "days": 170,
      "tenureRank": 0,
@@ -16202,7 +16202,7 @@
      "joined": "2026-03-19",
      "img": "https://img.a.transfermarkt.technology/portrait/big/357662-1687962936.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/357662",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/105891345050015_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89138019805599_l.png"
     },
     {
      "squad": "first",
@@ -52264,7 +52264,7 @@
      "pos": "CF",
      "rating": 98.73,
      "number": 9,
-     "card_type": "Highlight",
+     "card_type": "BigTime",
      "since": "2026-04-12",
      "days": 225,
      "tenureRank": 1,
@@ -52272,7 +52272,7 @@
      "joined": "2026-04-12",
      "img": "https://img.a.transfermarkt.technology/portrait/big/44352-1771695059.jpg",
      "tm": "https://www.transfermarkt.com/x/profil/spieler/44352",
-     "card": "https://efimg.com/efootballhub22/images/player_cards/52873463367745_l.png"
+     "card": "https://efimg.com/efootballhub22/images/player_cards/89134261635137_l.png"
     },
     {
      "squad": "first",

@@ -345,7 +345,12 @@
     .card-tab.active { background:var(--panel-2); color:var(--accent); box-shadow:inset 0 -2px 0 var(--accent); }
     button.card-pick { width:100%; background:none; border:0; border-bottom:1px solid var(--line); color:inherit; font:inherit;
                        font-size:.85rem; text-align:left; cursor:pointer; align-items:center; }
-    button.card-pick:last-child { border-bottom:0; }
+    .card-row { display:flex; align-items:stretch; border-bottom:1px solid var(--line); }
+    .card-row:last-child { border-bottom:0; }
+    .card-row button.card-pick { flex:1; min-width:0; border-bottom:0; }
+    .card-link { display:flex; align-items:center; padding:0 .9rem; font-family:var(--mono); font-size:.7rem;
+                 color:var(--muted); border-left:1px solid var(--line); white-space:nowrap; }
+    .card-link:hover { color:var(--accent); background:var(--panel-2); }
     button.card-pick:hover, button.card-pick.active { background:var(--panel-2); }
     button.card-pick.active { box-shadow:inset 2px 0 0 var(--accent); }
     .card-rank { font-family:var(--mono); font-size:.72rem; color:var(--muted); min-width:3.2rem; text-align:right; }
@@ -1699,6 +1704,11 @@
     });
   }
 
+  function efhubURL(card) {
+    const m = /player_cards\/(\d+)_/.exec(card || "");
+    return m ? `https://efhub.com/players/${m[1]}` : null;
+  }
+
   function cardInfo(entry, pos) {
     const listings = entry.apps.filter(a => a.pos === pos);
     const row = entry.pool && entry.pool.rows.find(r => r[0] === pos);
@@ -1809,9 +1819,10 @@
         statHTML(cur.recent ? "yes" : "no", "Recent card");
     }
     const posPanel = panel("Cards", `${cards.length} card${cards.length === 1 ? "" : "s"} · pick one for its ladder and history`,
-      cards.map(x => `<button class="appear card-pick${x.pos === pos ? " active" : ""}" data-pos="${esc(x.pos)}">
+      cards.map(x => `<div class="card-row"><button class="appear card-pick${x.pos === pos ? " active" : ""}" data-pos="${esc(x.pos)}">
         <div><span class="ef-pos" data-line="${lineOf(x.pos)}">${esc(x.pos)}</span> ${esc(x.type)}${x.listing ? ` <span class="chip in">in squad</span>` : ""}</div>
-        <span class="card-side">${x.recent ? `<span class="chip">recent</span>` : ""}<span class="card-rank" title="${x.listing ? "position rank" : "would rank"}">${rankLabel(x)}</span><span class="card-rating">${x.rating.toFixed(2)}</span></span></button>`).join(""));
+        <span class="card-side">${x.recent ? `<span class="chip">recent</span>` : ""}<span class="card-rank" title="${x.listing ? "position rank" : "would rank"}">${rankLabel(x)}</span><span class="card-rating">${x.rating.toFixed(2)}</span></span></button>${efhubURL(x.card)
+        ? `<a class="card-link" href="${esc(efhubURL(x.card))}" target="_blank" rel="noopener" title="${esc(x.pos)} ${esc(x.type)} card on efHUB">efHUB ↗</a>` : ""}</div>`).join(""));
 
     root().innerHTML = `
       <a class="pl-back" href="#${esc(c.id)}">← ${c.flag||""} ${esc(c.name)} squad</a>
@@ -1832,6 +1843,7 @@
           </div>
           <div class="pl-stats">${stats}</div>
           <div class="pl-links">
+            ${efhubURL(cur.card) ? `<a href="${esc(efhubURL(cur.card))}" target="_blank" rel="noopener">efHUB ${esc(cur.pos)} card ↗</a>` : ""}
             ${p.tm ? `<a href="${esc(p.tm)}" target="_blank" rel="noopener">transfermarkt ↗</a>` : ""}
             <a href="#${esc(c.id)}">view squad</a>
           </div>

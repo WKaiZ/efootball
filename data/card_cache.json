@@ -1285,16 +1285,6 @@
    "t": "2026-11-23",
    "type": "Trending"
   },
-  "brazil|casemiro|DMF|Highlight|97": {
-   "approx": true,
-   "asof": "2026-11-23",
-   "id": "105629351978669",
-   "max": 96,
-   "ovr": 85,
-   "status": "likely",
-   "t": "2026-11-23",
-   "type": "Highlight"
-  },
   "brazil|casemiro|DMF|Showtime|": {
    "asof": "2026-05-30",
    "id": "106784698181293",
@@ -3747,16 +3737,6 @@
    "status": "confirmed",
    "t": "2026-11-22",
    "type": "Pinned"
-  },
-  "england|declan rice|CMF|Highlight|98": {
-   "approx": true,
-   "asof": "2026-11-23",
-   "id": "105891345050015",
-   "max": 97,
-   "ovr": 84,
-   "status": "likely",
-   "t": "2026-11-23",
-   "type": "Highlight"
   },
   "england|declan rice|DMF|Highlight|96": {
    "asof": "2026-03-19",
@@ -11955,16 +11935,6 @@
    "status": "confirmed",
    "t": "2026-11-23",
    "asof": "2026-04-12"
-  },
-  "uruguay|luis suarez|CF|Highlight|98": {
-   "id": "52873463367745",
-   "type": "Trending",
-   "ovr": 93,
-   "max": 95,
-   "status": "likely",
-   "t": "2026-11-23",
-   "asof": "2026-11-23",
-   "approx": true
   },
   "uruguay|manuel ugarte|DMF|Highlight|94": {
    "asof": "2026-04-12",
