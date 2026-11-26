@@ -26,7 +26,7 @@ Substitutes:
   CB    Jonathan Tah            CB    96.56  #4
   CB    Antonio Rüdiger         CB    95.72  #2
   RB    Joshua Kimmich          RB    95.99  #6
-  GK    Oliver Kahn             GK    97.27  #12
+  GK    Oliver Kahn             GK    95.91  #12
 
 Wildcard:
   SLOT  PLAYER                  POS  RATING  NO.
