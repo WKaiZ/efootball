@@ -14,7 +14,7 @@ jersey_fetch/                ESPN lineup + Transfermarkt jersey scraping
 gameplan/                    draft builder (lineup, formation, jersey assignment)
 common/                      country slug lookup
 reference/                   draft rules (draft_gameplan_rules.txt)
-data/                        caches: card_cache.json, photo caches, overrides
+data/                        caches: card_cache.json, photo caches, overrides, card_names.json
 docs/                        static site: index.html, squads.json, players.json, history.json
 pes.db                       SQLite: players, jersey history, game_data
 run_workflow.sh              local workflow wrapper
@@ -71,9 +71,11 @@ Card art comes from efHUB, found through pesdb.net's player search by name and m
 - `Standard` matches the card whose OVR equals the whole-number part of `RATING` (nearest card if none is exact, marked approximate).
 - `Epic` and `BigTime` are interchangeable; `Showtime` matches Show Time cards.
 - `Highlight` covers both Highlight and Trending cards.
-- Automatic special-card picks are `likely` until the user confirms them; confirmed picks and all Standard cards are `confirmed`. Confirmed cards are never looked up again; editing a row's rating, card type or position makes it a new row.
+- Automatic special-card picks are `likely` until the user confirms them; confirmed picks and all Standard cards are `confirmed`. Each cached card records the rating it was picked for. When a special card's row changes rating, the card is looked up again ahead of other lookups, even if confirmed, using the newest-card rule. Earlier rejections are cleared, and a different card comes back as `likely`. Otherwise confirmed cards are never looked up again. Changing a row's card type or position makes it a new row.
 
-Try one lookup: `python3 scripts/cardfetch.py "Thierry Henry" CF Epic 100.03`.
+If the name search finds nothing, the lookup searches pesdb by the player's nationality, position and (for Standard) exact OVR, then matches names loosely: a shared surname or given name, transliteration variants (ch/č, zh/j, kh/x), double letters, either name order, or a nickname prefix (Miguelito/Miguel). A Standard card is also tried at any position if the full name matches. Players no rule can match go in `data/card_names.json` (country → name in the players file → name on pesdb).
+
+Try one lookup: `python3 scripts/cardfetch.py "Thierry Henry" CF Epic 100.03` (add a country slug such as `france` as a fifth argument to enable the nationality fallback).
 
 ## Running locally
 

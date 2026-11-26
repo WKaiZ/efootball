@@ -41,6 +41,7 @@ HISTORY_PATH = os.path.join(ROOT, "docs", "history.json")
 CACHE_PATH = os.path.join(DATA_DIR, "img_cache.json")
 OVERRIDES_PATH = os.path.join(DATA_DIR, "overrides.json")
 CARD_CACHE_PATH = os.path.join(DATA_DIR, "card_cache.json")
+CARD_NAMES_PATH = os.path.join(DATA_DIR, "card_names.json")
 CARD_LIMIT = int(os.environ.get("EFOOTBALL_CARD_LIMIT") or "150")
 CARD_DELAY = float(os.environ.get("EFOOTBALL_CARD_DELAY", "6"))
 CARD_TTL_DAYS = int(os.environ.get("EFOOTBALL_CARD_TTL_DAYS", "7"))
@@ -1076,8 +1077,14 @@ def _wanted_type(card_type):
         return card_type == "Standard"
     return True
 
+def load_card_names():
+    data = json.load(open(CARD_NAMES_PATH)) if os.path.exists(CARD_NAMES_PATH) else {}
+    return {(c, norm(k)): v for c, names in data.items() if not c.startswith("_")
+            for k, v in names.items()}
+
 def _backfill_cards(wants, cache, today):
     cards, miss = cache["cards"], cache["miss"]
+    aliases = load_card_names()
     queue, seen = [], set()
     for c, name, pos, card_type, rating, since, days, alt_pos in wants:
         key = card_key(c, name, pos, card_type, rating)
@@ -1088,18 +1095,25 @@ def _backfill_cards(wants, cache, today):
         as_of = None if standard else since
         prio = (0 if days is not None else 2) + (1 if standard else 0), -(days or 0)
         newest = bool(as_of) and as_of > CARD_NEWEST_AFTER
+        if newest:
+            prio = -1, prio[1]
         hit = cards.get(key)
         if card_type not in cardfetch.WANTED or not _wanted_type(card_type):
             continue
+        rated = f"{float(rating):.2f}"
         if hit:
+            if "rating" not in hit and (standard or hit.get("asof") in (None, as_of)):
+                hit["rating"] = rated
             if hit.get("status") == "confirmed" and not standard and "asof" not in hit:
                 hit["asof"] = as_of
-            elif not standard and hit.get("status") != "confirmed" and hit.get("asof") != as_of:
-                queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
+            rerated = not standard and hit.get("rating") != rated
+            if rerated or (not standard and hit.get("status") != "confirmed"
+                           and hit.get("asof") != as_of):
+                queue.append(((-1, prio[1]) if rerated else prio, key, name, pos, card_type, rating, as_of, alt_pos, newest, rerated))
         elif miss.get(key) and miss[key].get("asof") != as_of:
-            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
+            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest, False))
         elif _card_due(miss.get(key), today, CARD_TTL_DAYS):
-            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest))
+            queue.append((prio, key, name, pos, card_type, rating, as_of, alt_pos, newest, False))
     for store in (cards, miss):
         for key in [k for k in store if k not in seen]:
             del store[key]
@@ -1110,17 +1124,21 @@ def _backfill_cards(wants, cache, today):
         return
     log(f"Cards: {len(queue)} card(s) due, request budget {CARD_LIMIT}.")
     used = blocked = found = missed = done = 0
-    for _prio, key, name, pos, card_type, rating, as_of, alt_pos, newest in queue:
+    for _prio, key, name, pos, card_type, rating, as_of, alt_pos, newest, rerated in queue:
         prev = cards.get(key) or miss.get(key) or {}
-        bad = prev.get("bad", [])
+        bad = [] if rerated else prev.get("bad", [])
         if used >= CARD_LIMIT:
             break
         if used:
             time.sleep(CARD_DELAY)
+        if rerated:
+            log(f"  rating changed {name} ({pos}, {card_type}): "
+                f"{prev.get('rating', '?')} -> {float(rating):.2f}, looking up again")
         try:
-            card, n = cardfetch.resolve(name, pos, card_type, rating, delay=CARD_DELAY,
-                                        exclude=frozenset(bad), as_of=as_of, alt_pos=alt_pos,
-                                        newest=newest)
+            country = key.split("|", 1)[0]
+            card, n = cardfetch.resolve(aliases.get((country, norm(name)), name), pos, card_type, rating,
+                                        delay=CARD_DELAY, exclude=frozenset(bad), as_of=as_of,
+                                        alt_pos=alt_pos, newest=newest, country=country)
             used += n
             blocked = 0
         except cardfetch.Unavailable as e:
@@ -1140,7 +1158,8 @@ def _backfill_cards(wants, cache, today):
             else:
                 status = "likely"
             entry = {"id": card["id"], "type": card["type"], "ovr": card["ovr"],
-                     "max": card["max"], "status": status, "t": stamp}
+                     "max": card["max"], "rating": f"{float(rating):.2f}",
+                     "status": status, "t": stamp}
             if as_of:
                 entry["asof"] = as_of
             if card.get("approx"):

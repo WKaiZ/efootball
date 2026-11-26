@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import html
+import json
 import re
 import sys
 import time
@@ -10,6 +11,7 @@ import urllib.parse
 import urllib.request
 
 SEARCH_URL = "https://pesdb.net/efootball/players/"
+NATIONS_URL = "https://pesdb.net/search-options.php?catalog=nationalities"
 CARD_IMG = "https://efimg.com/efootballhub22/images/player_cards/{id}_l.png"
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -40,6 +42,21 @@ WANTED = {
 }
 RATED = {"Standard", "Highlight"}
 
+NATION_LABELS = {
+    "central-african-republic": "Central African Rep.",
+    "dpr-korea": "Korea DPR",
+    "hong-kong": "Hong Kong, China",
+    "macau-china": "Macau",
+    "st-lucia": "Saint Lucia",
+    "turks-and-caicos-islands": "Turks and Caicos Is.",
+    "usa": "United States",
+}
+PARTICLES = {"al", "el", "de", "da", "do", "dos", "das", "del", "di", "van", "von", "der", "den",
+             "bin", "ben", "ibn", "abu", "le", "la"}
+FOLDS = (("dzh", "j"), ("zh", "j"), ("kh", "h"), ("ch", "c"), ("sh", "s"), ("ph", "f"),
+         ("x", "h"), ("y", "i"), ("w", "v"))
+_nations = None
+
 _CARD_RE = re.compile(r'<article class="efootball-result-card">(.*?)</article>', re.S)
 _ID_RE = re.compile(r'href="/efootball/players/[^"]*?-(\d+)"')
 _TYPE_RE = re.compile(r'class="card-type">([^<]*)<')
@@ -57,6 +74,7 @@ def norm(s):
         "ł": "l", "đ": "d", "ð": "d", "þ": "th",
     }))
     s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"(?<=\w)['\u2019\u02bc`](?=\w)", "", s)
     s = re.sub(r"[^\w\s]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -118,9 +136,23 @@ def parse_results(page):
     return cards
 
 
-def search(name, pos, page=1, as_of=None):
-    params = [("name", name), ("pos[]", str(POSITIONS.index(pos))),
-              ("sort", "time_added"), ("order", "desc")]
+def nation_id(country):
+    global _nations
+    fetched = _nations is None
+    if fetched:
+        _nations = {norm(n["label"]): n["id"] for n in json.loads(_fetch(NATIONS_URL))}
+    return _nations.get(norm(NATION_LABELS.get(country, country.replace("-", " ")))), fetched
+
+
+def search(name, pos, page=1, as_of=None, nation=None, ovr=None):
+    params = [("name", name)] if name else []
+    if pos:
+        params.append(("pos[]", str(POSITIONS.index(pos))))
+    if nation:
+        params.append(("nationality_id", nation))
+    if ovr is not None:
+        params += [("overall_rating[min]", str(ovr)), ("overall_rating[max]", str(ovr))]
+    params += [("sort", "time_added"), ("order", "desc")]
     if as_of:
         params.append(("time_added[max]", as_of))
     if page > 1:
@@ -253,6 +285,56 @@ def _collect(query, name, pos, card_type, rating, delay, requests, exclude, as_o
     return seen, requests
 
 
+def _fold(token):
+    for a, b in FOLDS:
+        token = token.replace(a, b)
+    return re.sub(r"(.)\1+", r"\1", token)
+
+
+def loose_score(want, got):
+    a = [_fold(t) for t in norm(want).split() if t not in PARTICLES]
+    b = [_fold(t) for t in norm(got).split() if t not in PARTICLES]
+    if not a or not b:
+        return 0
+    if sorted(a) == sorted(b) or "".join(a) == "".join(b):
+        return 3
+    shared = sum(1 for t in a if len(t) >= 4 and any(
+        t == u or (min(len(t), len(u)) >= 5 and (t.startswith(u) or u.startswith(t))) for u in b))
+    return min(shared, 2)
+
+
+def pick_loose(cards, name, card_type, rating, min_score=1, newest=False):
+    wanted = WANTED.get(card_type, {card_type})
+    people = {}
+    for c in cards:
+        if c["type"] in wanted:
+            people.setdefault(base_id(c["id"]), []).append(c)
+    scored = sorted(((max(loose_score(name, c["name"]) for c in cs), cs) for cs in people.values()),
+                    key=lambda x: -x[0])
+    if not scored or scored[0][0] < min_score or (len(scored) > 1 and scored[1][0] == scored[0][0]):
+        return None
+    return _pick_card(scored[0][1], card_type, rating, "newest" if newest else "any")
+
+
+def _resolve_by_nation(name, pos, card_type, rating, delay, exclude, as_of, requests, nation, newest=False):
+    ovr = int(float(rating)) if card_type == "Standard" else None
+    stages = [(pos, 1)] + ([(None, 3)] if ovr is not None else [])
+    for at, min_score in stages:
+        seen = []
+        for page in range(1, MAX_PAGES + 1):
+            if requests and delay:
+                time.sleep(delay)
+            cards, has_next = search(None, at, page, as_of, nation=nation, ovr=ovr)
+            requests += 1
+            seen += [c for c in cards if c["id"] not in exclude]
+            if not has_next:
+                break
+        card = pick_loose(seen, name, card_type, rating, min_score, newest)
+        if card:
+            return card, requests
+    return None, requests
+
+
 def search_terms(name):
     tokens = norm(name).split()
     terms = [name]
@@ -275,18 +357,28 @@ def _resolve_at(name, pos, card_type, rating, delay, exclude, as_of, requests, n
 
 
 def resolve(name, pos, card_type, rating, delay=0.0, exclude=frozenset(), as_of=None, alt_pos=None,
-            newest=False):
+            newest=False, country=None):
     requests = 0
     for at in dict.fromkeys(p for p in (pos, alt_pos) if p in POSITIONS):
         for when in dict.fromkeys((as_of, None)):
             card, requests = _resolve_at(name, at, card_type, rating, delay, exclude, when, requests, newest)
             if card:
                 return card, requests
-    return None, requests
+    if not country:
+        return None, requests
+    if _nations is None and requests and delay:
+        time.sleep(delay)
+    nation, fetched = nation_id(country)
+    requests += fetched
+    if not nation:
+        return None, requests
+    card, requests = _resolve_by_nation(name, pos, card_type, rating, delay, exclude, as_of, requests, nation,
+                                        newest)
+    return (card and {**card, "approx": True} if card_type != "Standard" else card), requests
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 5:
-        sys.exit("usage: cardfetch.py NAME POS CARD_TYPE RATING")
-    card, n = resolve(*sys.argv[1:5], delay=3)
+    if len(sys.argv) not in (5, 6):
+        sys.exit("usage: cardfetch.py NAME POS CARD_TYPE RATING [COUNTRY]")
+    card, n = resolve(*sys.argv[1:5], delay=3, country=sys.argv[5] if len(sys.argv) == 6 else None)
     print(card, card_image(card["id"]) if card else None, f"({n} request(s))")
