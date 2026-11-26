@@ -52,7 +52,7 @@ Substitutes:
   SLOT  PLAYER                    POS  RATING  NO.
   CF    Dennis Bergkamp           CF    97.55  #8
   LWF   Crysencio Summerville     LWF   75.86  #24
-  RMF   Donyell Malen             CF    93.55  #9
+  RMF   Donyell Malen             CF    94.55  #9
   AMF   Justin Kluivert           AMF   94.92  #19
   CMF   Gjivai Zechiël            CMF   93.99  #21
   DMF   Frank Rijkaard            DMF   95.70  #17
