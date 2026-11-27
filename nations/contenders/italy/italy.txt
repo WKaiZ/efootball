@@ -8,7 +8,7 @@ Starters:
   AMF   Francesco Totti        AMF   99.59  #10
   CMF   Roberto Donadoni       CMF   97.54  #7
   DMF   Andrea Pirlo           DMF   99.04  #21
-  LB    Alessandro Costacurta  LB    98.43  #4
+  LB    Alessandro Costacurta  LB    97.17  #4
   CB    Paolo Maldini          CB   100.18  #3
   CB    Fabio Cannavaro        CB    99.64  #5
   RB    Gianluca Zambrotta     RB    98.41  #19
@@ -30,7 +30,7 @@ Substitutes:
 
 Wildcard:
   SLOT  PLAYER                 POS  RATING  NO.
-  WILD  Giuseppe Bergomi       RB    98.01  #2
+  WILD  Christian Panucci      RB    96.96  #2
 
 Second Squad
 
@@ -59,7 +59,7 @@ Substitutes:
   LB    Riccardo Calafiori     LB    96.53  #13
   CB    Giorgio Chiellini      CB    96.79  #4
   CB    Giorgio Scalvini       CB    94.78  #14
-  RB    Christian Panucci      RB    96.96  #2
+  RB    Giuseppe Bergomi       RB    96.57  #2
   GK    Marco Carnesecchi      GK    96.73  #23
 
 Wildcard:
