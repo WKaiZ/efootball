@@ -2189,6 +2189,15 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "bolivia|guillermo viscarra|GK|Standard|72": {
+   "id": "65044",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.26",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "bolivia|jose sagredo|CB|Standard|70": {
    "id": "65024",
    "type": "Standard",
@@ -2251,6 +2260,24 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "70.84"
+  },
+  "bolivia|rodrigo banegas|GK|Standard|69": {
+   "id": "182784",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.85",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "bosnia-and-herzegovina|adrian barisic|CB|Standard|72": {
+   "id": "152162",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.66",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "bosnia-and-herzegovina|amar dedic|RB|Standard|74": {
    "id": "144430",
@@ -2326,6 +2353,15 @@
    "type": "Highlight",
    "rating": "93.35"
   },
+  "bosnia-and-herzegovina|luka menalo|LWF|Standard|71": {
+   "id": "16902606",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.05",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "bosnia-and-herzegovina|milan djuric|CF|Standard|72": {
    "id": "100479",
    "type": "Standard",
@@ -2334,6 +2370,25 @@
    "status": "confirmed",
    "t": "2026-11-24",
    "rating": "72.68"
+  },
+  "bosnia-and-herzegovina|miroslav stevanovic|LMF|Standard|72": {
+   "id": "46539",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.84",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "bosnia-and-herzegovina|nihad mujakic|CB|Standard|71": {
+   "id": "132335",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "71.00",
+   "status": "confirmed",
+   "t": "2026-11-27",
+   "approx": true
   },
   "bosnia-and-herzegovina|sead kolasinac|CB|Highlight|94": {
    "asof": "2026-11-12",
@@ -2344,6 +2399,24 @@
    "t": "2026-11-23",
    "type": "Highlight",
    "rating": "94.44"
+  },
+  "bosnia-and-herzegovina|tarik muharemovic|CB|Standard|72": {
+   "id": "167657",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.39",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "bosnia-and-herzegovina|vladan danilovic|DMF|Standard|70": {
+   "id": "140903",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.24",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "bosnia-and-herzegovina|vladan kovacevic|GK|Standard|73": {
    "id": "143788",
@@ -3536,6 +3609,24 @@
    "t": "2026-11-25",
    "rating": "70.24"
   },
+  "bulgaria|filip krastev|AMF|Standard|71": {
+   "id": "143186",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.00",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "bulgaria|georgi kostadinov|DMF|Standard|72": {
+   "id": "116102",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.54",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "bulgaria|georgi milanov|AMF|Standard|71": {
    "id": "46546",
    "type": "Standard",
@@ -3572,6 +3663,24 @@
    "t": "2026-11-25",
    "rating": "74.41"
   },
+  "bulgaria|kristian dimitrov|CB|Standard|69": {
+   "id": "136893",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.83",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "bulgaria|plamen iliev|GK|Standard|69": {
+   "id": "102786",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.72",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "bulgaria|radoslav kirilov|LWF|Standard|67": {
    "id": "117852",
    "type": "Standard",
@@ -3589,6 +3698,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "70.61"
+  },
+  "bulgaria|stanislav ivanov|RWF|Standard|70": {
+   "id": "142944",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.06",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "bulgaria|valentin antov|CB|Standard|72": {
    "id": "130326",
@@ -3625,6 +3743,15 @@
    "status": "confirmed",
    "t": "2026-11-24",
    "rating": "72.77"
+  },
+  "burkina-faso|bertrand traore|RWF|Standard|72": {
+   "id": "83947002",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.36",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "burkina-faso|cedric badolo|AMF|Standard|69": {
    "id": "84047236",
@@ -3691,6 +3818,15 @@
    "t": "2026-11-24",
    "rating": "74.08"
   },
+  "burkina-faso|issoufou dayo|CB|Standard|72": {
+   "id": "112401",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.56",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "burkina-faso|lassina traore|CF|Standard|73": {
    "id": "84013881",
    "type": "Standard",
@@ -3699,6 +3835,15 @@
    "status": "confirmed",
    "t": "2026-11-24",
    "rating": "73.08"
+  },
+  "burkina-faso|nasser djiga|CB|Standard|72": {
+   "id": "84032530",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.97",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "burkina-faso|ousseni bouda|RWF|Standard|72": {
    "id": "152827",
@@ -3719,6 +3864,15 @@
    "type": "Highlight",
    "rating": "94.35"
   },
+  "cabo-verde|cj dos santos|GK|Standard|72": {
+   "id": "152771",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.14",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "cabo-verde|david costa|AMF|Standard|65": {
    "id": "184732",
    "type": "Standard",
@@ -3736,6 +3890,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "67.68"
+  },
+  "cabo-verde|fabricio garcia|RWF|Standard|69": {
+   "id": "168604",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.26",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "cabo-verde|jamiro monteiro|CMF|Standard|71": {
    "id": "110425",
@@ -3764,6 +3927,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "cabo-verde|sidny lopes cabral|RB|Standard|71": {
+   "id": "177751",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.26",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "cabo-verde|steven moreira|RB|Standard|73": {
    "id": "60463",
    "type": "Standard",
@@ -3772,6 +3944,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "73.46"
+  },
+  "cabo-verde|telmo arcanjo|RMF|Standard|71": {
+   "id": "138371",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.91",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "cabo-verde|vasco lopes|RWF|Standard|69": {
    "id": "170064",
@@ -3791,6 +3972,15 @@
    "t": "2026-11-23",
    "type": "Showtime",
    "rating": "96.99"
+  },
+  "cabo-verde|wagner pina|RB|Standard|71": {
+   "id": "164675",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.64",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "cambodia|nick taylor|LWF|Standard|66": {
    "id": "152811",
@@ -4354,6 +4544,24 @@
    "t": "2026-11-25",
    "rating": "71.58"
   },
+  "china-pr|dalei wang|GK|Standard|71": {
+   "id": "50368260",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.22",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "china-pr|dianzuo liu|GK|Standard|71": {
+   "id": "50437546",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.26",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "china-pr|fernandinho|RWF|Standard|71": {
    "id": "117584",
    "type": "Standard",
@@ -4381,6 +4589,15 @@
    "rating": "73.59",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "china-pr|pengfei han|CB|Standard|71": {
+   "id": "50443239",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.54",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "china-pr|serginho|AMF|Standard|73": {
    "id": "16878796",
@@ -4435,6 +4652,24 @@
    "rating": "70.98",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "china-pr|xizhe zhang|AMF|Standard|71": {
+   "id": "16835680",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.05",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "china-pr|yuning zhang|CF|Standard|70": {
+   "id": "16888471",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.39",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "china-pr|zhurun liu|LWF|Standard|69": {
    "id": "16912787",
@@ -5121,6 +5356,15 @@
    "t": "2026-11-24",
    "rating": "69.23"
   },
+  "costa-rica|carlos mora|RMF|Standard|70": {
+   "id": "169949",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.89",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "costa-rica|celso borges|CMF|Standard|69": {
    "id": "39773",
    "type": "Standard",
@@ -5175,6 +5419,24 @@
    "t": "2026-11-24",
    "rating": "73.97"
   },
+  "costa-rica|julio cascante|CB|Standard|70": {
+   "id": "142479",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.74",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "costa-rica|kendall waston|CB|Standard|71": {
+   "id": "61688",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.13",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "costa-rica|keylor navas|GK|Standard|77": {
    "id": "39777",
    "type": "Standard",
@@ -5192,6 +5454,24 @@
    "status": "confirmed",
    "t": "2026-11-24",
    "rating": "68.31"
+  },
+  "costa-rica|patrick sequeira|GK|Standard|71": {
+   "id": "143860",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.55",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "costa-rica|warren madrigal|CF|Standard|70": {
+   "id": "169952",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.96",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "cote-divoire|alban lafont|GK|Standard|74": {
    "id": "110696",
@@ -5873,6 +6153,15 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "curacao|ar'jany martha|RWF|Standard|68": {
+   "id": "146921",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.31",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "curacao|armando obispo|CB|Standard|72": {
    "id": "118613",
    "type": "Standard",
@@ -5881,6 +6170,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "72.96"
+  },
+  "curacao|gervane kastaneer|CF|Standard|69": {
+   "id": "60473",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.31",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "curacao|jearl margaritha|LWF|Standard|69": {
    "id": "136579",
@@ -5926,6 +6224,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "70.31"
+  },
+  "curacao|shurandy sambo|RB|Standard|69": {
+   "id": "141186",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.75",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "curacao|tahith chong|AMF|Standard|72": {
    "id": "126302",
@@ -5991,6 +6298,15 @@
    "rating": "76.09",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "czechia|lukas provod|AMF|Standard|75": {
+   "id": "133439",
+   "type": "Standard",
+   "ovr": 75,
+   "max": 75,
+   "rating": "75.92",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "czechia|patrik schick|CF|Highlight|94": {
    "asof": "2026-06-30",
@@ -7783,6 +8099,15 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "finland|fredrik jensen|AMF|Standard|72": {
+   "id": "114085",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.55",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "finland|jere uronen|LB|Standard|71": {
    "id": "105043",
    "type": "Standard",
@@ -7791,6 +8116,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "71.89"
+  },
+  "finland|jesse joronen|GK|Standard|73": {
+   "id": "57011",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.49",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "finland|joel pohjanpalo|CF|Standard|73": {
    "id": "45373",
@@ -7818,6 +8152,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "78.46"
+  },
+  "finland|marcus forss|CF|Standard|71": {
+   "id": "16903829",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.18",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "finland|matti peltola|DMF|Standard|72": {
    "id": "162132",
@@ -8696,6 +9039,15 @@
    "t": "2026-11-25",
    "rating": "70.66"
   },
+  "gabon|andre poko|DMF|Standard|70": {
+   "id": "83931408",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.41",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "gabon|anthony oyono|RB|Standard|70": {
    "id": "84038680",
    "type": "Standard",
@@ -8714,6 +9066,15 @@
    "t": "2026-11-25",
    "rating": "71.27"
   },
+  "gabon|david sambissa|RMF|Standard|71": {
+   "id": "104284",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.24",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "gabon|denis bouanga|LWF|Standard|77": {
    "id": "108192",
    "type": "Standard",
@@ -8722,6 +9083,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "77.52"
+  },
+  "gabon|francois bekale|GK|Standard|65": {
+   "id": "84067451",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.98",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "gabon|guelor kanga|AMF|Standard|72": {
    "id": "84016222",
@@ -8768,6 +9138,15 @@
    "t": "2026-11-25",
    "rating": "75.27"
   },
+  "gabon|michel mboula|CB|Standard|70": {
+   "id": "173806",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.24",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "gabon|pierre-emerick aubameyang|CF|EpicBigTime|": {
    "asof": "2026-09-07",
    "id": "88045755866499",
@@ -8786,6 +9165,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "64.44"
+  },
+  "gabon|shavy babicka|RWF|Standard|70": {
+   "id": "84054092",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.58",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "gambia|yankuba minteh|RMF|Highlight|94": {
    "asof": "2026-10-16",
@@ -8813,6 +9201,15 @@
    "ovr": 69,
    "max": 69,
    "rating": "69.12",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "georgia|gabriel sigua|AMF|Standard|68": {
+   "id": "164847",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.32",
    "status": "confirmed",
    "t": "2026-11-27"
   },
@@ -8864,6 +9261,15 @@
    "type": "Highlight",
    "rating": "95.25"
   },
+  "georgia|giorgi tsitaishvili|LWF|Standard|72": {
+   "id": "124846",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.16",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "georgia|khvicha kvaratskhelia|LWF|EpicBigTime|": {
    "asof": "2026-09-07",
    "id": "89138019825360",
@@ -8884,6 +9290,24 @@
    "type": "Trending",
    "rating": "96.98"
   },
+  "georgia|luka gugeshashvili|GK|Standard|70": {
+   "id": "161217",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.67",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "georgia|saba goglichidze|CB|Standard|69": {
+   "id": "167983",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.72",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "georgia|saba kharebashvili|LB|Standard|69": {
    "id": "184516",
    "type": "Standard",
@@ -8901,6 +9325,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "73.60"
+  },
+  "georgia|zuriko davitashvili|LWF|Standard|73": {
+   "id": "132336",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.22",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "germany|aleksandar pavlovic|DMF|Highlight|94": {
    "id": "52881248123251",
@@ -9591,6 +10024,15 @@
    "type": "Trending",
    "rating": "91.99"
   },
+  "ghana|abdul mumin|CB|Standard|73": {
+   "id": "120430",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.11",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "ghana|alfred duncan|CMF|Standard|73": {
    "id": "47007",
    "type": "Standard",
@@ -9638,6 +10080,25 @@
    "asof": "2026-09-07",
    "rating": "95.82"
   },
+  "ghana|benjamin asare|GK|Standard|68": {
+   "id": "184178",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.73",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "ghana|christopher bonsu baah|LMF|Standard|72": {
+   "id": "16941684",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "72.90",
+   "status": "confirmed",
+   "t": "2026-11-27",
+   "approx": true
+  },
   "ghana|gideon mensah|LB|Standard|72": {
    "id": "133418",
    "type": "Standard",
@@ -9666,6 +10127,24 @@
    "t": "2026-11-23",
    "asof": "2026-09-07",
    "rating": "94.93"
+  },
+  "ghana|jerome opoku|CB|Standard|73": {
+   "id": "133264",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.14",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "ghana|joseph paintsil|LWF|Standard|76": {
+   "id": "125968",
+   "type": "Standard",
+   "ovr": 76,
+   "max": 76,
+   "rating": "76.12",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "ghana|lawrence ati zigi|GK|Standard|72": {
    "id": "118100",
@@ -9947,6 +10426,42 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "guatemala|aaron herrera|RB|Standard|70": {
+   "id": "142679",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.98",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "guatemala|allen yanes|RB|Standard|65": {
+   "id": "173666",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.99",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "guatemala|arquimides ordonez|CF|Standard|66": {
+   "id": "146689",
+   "type": "Standard",
+   "ovr": 66,
+   "max": 66,
+   "rating": "66.93",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "guatemala|darwin lom|CF|Standard|68": {
+   "id": "148697",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.07",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "guatemala|jonathan franco|DMF|Standard|64": {
    "id": "173660",
    "type": "Standard",
@@ -9974,6 +10489,15 @@
    "t": "2026-11-25",
    "rating": "65.55"
   },
+  "guatemala|luis moran|GK|Standard|66": {
+   "id": "182791",
+   "type": "Standard",
+   "ovr": 66,
+   "max": 66,
+   "rating": "66.26",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "guatemala|nathaniel mendez-laing|RWF|Standard|69": {
    "id": "45463",
    "type": "Standard",
@@ -10000,6 +10524,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "68.18"
+  },
+  "guatemala|olger escobar|AMF|Standard|69": {
+   "id": "173659",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.01",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "guatemala|rubio rubin|CF|Standard|71": {
    "id": "103537",
@@ -10046,6 +10579,24 @@
    "t": "2026-11-26",
    "rating": "69.72"
   },
+  "guinea|amadou diawara|DMF|Standard|72": {
+   "id": "109220",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.59",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "guinea|dembo sylla|RB|Standard|67": {
+   "id": "157904",
+   "type": "Standard",
+   "ovr": 67,
+   "max": 67,
+   "rating": "67.94",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "guinea|ibrahim diakite|RB|Standard|68": {
    "id": "151942",
    "type": "Standard",
@@ -10064,6 +10615,15 @@
    "t": "2026-11-25",
    "rating": "66.60"
   },
+  "guinea|ibrahima sory bangoura|DMF|Standard|67": {
+   "id": "164648",
+   "type": "Standard",
+   "ovr": 67,
+   "max": 67,
+   "rating": "67.56",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "guinea|ilaix moriba|CMF|Highlight|94": {
    "asof": "2026-09-07",
    "id": "105811351313466",
@@ -10073,6 +10633,15 @@
    "t": "2026-11-23",
    "type": "Highlight",
    "rating": "94.33"
+  },
+  "guinea|kandet diawara|LWF|Standard|68": {
+   "id": "133735",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.30",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "guinea|mouctar diakhaby|CB|Standard|73": {
    "id": "107985",
@@ -10165,6 +10734,24 @@
    "t": "2026-11-25",
    "rating": "72.22"
   },
+  "haiti|fafa picault|LWF|Standard|71": {
+   "id": "104790",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.73",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "haiti|grant leveille|GK|Standard|61": {
+   "id": "182643",
+   "type": "Standard",
+   "ovr": 61,
+   "max": 61,
+   "rating": "61.31",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "haiti|hannes delcroix|CB|Standard|72": {
    "id": "117374",
    "type": "Standard",
@@ -10229,6 +10816,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "honduras|david ruiz|CMF|Standard|71": {
+   "id": "160784",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.19",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "honduras|denil maldonado|CB|Standard|70": {
    "id": "130241",
    "type": "Standard",
@@ -10237,6 +10833,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "70.48"
+  },
+  "honduras|deybi flores|DMF|Standard|70": {
+   "id": "130246",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.50",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "honduras|edrick menjivar|GK|Standard|69": {
    "id": "144998",
@@ -10265,6 +10870,15 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "honduras|luis lopez|GK|Standard|68": {
+   "id": "61691",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.16",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "honduras|luis palma|LWF|Standard|72": {
    "id": "146500",
    "type": "Standard",
@@ -10273,6 +10887,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "72.30"
+  },
+  "honduras|luis vega|CB|Standard|68": {
+   "id": "165876",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.14",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "honduras|marcelo santos|CB|Standard|68": {
    "id": "154115",
@@ -10291,6 +10914,15 @@
    "status": "confirmed",
    "t": "2026-11-25",
    "rating": "69.40"
+  },
+  "honduras|romell quioto|CF|Standard|71": {
+   "id": "46787",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.59",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "hong-kong|everton camargo|RWF|Standard|71": {
    "id": "16940389",
@@ -10525,6 +11157,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "iceland|bjarki bjarkason|LMF|Standard|68": {
+   "id": "140318",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.86",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "iceland|daniel leo gretarsson|CB|Standard|69": {
    "id": "145822",
    "type": "Standard",
@@ -10579,6 +11220,33 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "71.33"
+  },
+  "iceland|orri oskarsson|CF|Standard|73": {
+   "id": "155752",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.32",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "iceland|runar alex runarsson|GK|Standard|71": {
+   "id": "120432",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.36",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "iceland|victor palsson|RB|Standard|69": {
+   "id": "47359",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.55",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "india|lallianzuala chhangte|RWF|Standard|70": {
    "id": "154447",
@@ -10864,6 +11532,42 @@
    "t": "2026-11-26",
    "rating": "69.57"
   },
+  "iraq|kevin yakob|CMF|Standard|68": {
+   "id": "158508",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.84",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "iraq|mohammed jawad|CF|Standard|70": {
+   "id": "16963793",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.58",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "iraq|mohammed salih|GK|Standard|66": {
+   "id": "16922639",
+   "type": "Standard",
+   "ovr": 66,
+   "max": 66,
+   "rating": "66.30",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "iraq|mohanad ali|CF|Standard|70": {
+   "id": "16912713",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.69",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "iraq|mohanad jeahze|LB|Standard|70": {
    "id": "16937379",
    "type": "Standard",
@@ -10909,6 +11613,15 @@
    "t": "2026-11-26",
    "rating": "70.53"
   },
+  "iraq|zaid tahseen|CB|Standard|68": {
+   "id": "16944707",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.93",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "israel|daniel peretz|GK|Standard|72": {
    "id": "165664",
    "type": "Standard",
@@ -10926,6 +11639,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "71.81"
+  },
+  "israel|eli dasa|RB|Standard|71": {
+   "id": "107312",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.18",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "israel|liel abada|RWF|Standard|73": {
    "id": "144753",
@@ -10953,6 +11675,24 @@
    "rating": "70.59",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "israel|omri glazer|GK|Standard|71": {
+   "id": "161181",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.00",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "israel|or blorian|CB|Standard|72": {
+   "id": "144754",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.32",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "israel|oscar gloukh|AMF|Standard|74": {
    "id": "168892",
@@ -11006,7 +11746,7 @@
    "type": "Epic",
    "ovr": 85,
    "max": 87,
-   "rating": "98.43",
+   "rating": "97.17",
    "status": "likely",
    "t": "2026-11-27",
    "asof": "2026-11-26"
@@ -11476,7 +12216,7 @@
    "type": "Epic",
    "ovr": 85,
    "max": 88,
-   "rating": "98.01",
+   "rating": "96.57",
    "status": "likely",
    "t": "2026-11-27",
    "asof": "2026-11-26"
@@ -11966,6 +12706,24 @@
    "t": "2026-11-26",
    "rating": "75.31"
   },
+  "jamaica|joel latibeaudiere|CB|Standard|70": {
+   "id": "118068",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.76",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "jamaica|kyle duncan|RB|Standard|71": {
+   "id": "113982",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.57",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "jamaica|michail antonio|CF|Standard|75": {
    "id": "101192",
    "type": "Standard",
@@ -11984,6 +12742,15 @@
    "status": "confirmed",
    "t": "2026-11-27"
   },
+  "jamaica|richard king|CB|Standard|69": {
+   "id": "169933",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.57",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "jamaica|rico henry|LB|Standard|74": {
    "id": "112806",
    "type": "Standard",
@@ -11993,6 +12760,15 @@
    "t": "2026-11-26",
    "rating": "74.45"
   },
+  "jamaica|rumarn burrell|CF|Standard|69": {
+   "id": "132978",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.61",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "jamaica|tayvon gray|RB|Standard|72": {
    "id": "142712",
    "type": "Standard",
@@ -12001,6 +12777,24 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "72.46"
+  },
+  "jamaica|trivante stewart|CF|Standard|65": {
+   "id": "165264",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.83",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "jamaica|tyreece campbell|LWF|Standard|69": {
+   "id": "176868",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.58",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "japan|ao tanaka|DMF|Highlight|92": {
    "asof": "2026-08-08",
@@ -12804,6 +13598,24 @@
    "type": "Showtime",
    "rating": "99.29"
   },
+  "jordan|ali olwan|CF|Standard|69": {
+   "id": "50478025",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.64",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "jordan|aref al-haj|LWF|Standard|70": {
+   "id": "16943126",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.02",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "jordan|ehsan haddad|RB|Standard|68": {
    "id": "50443809",
    "type": "Standard",
@@ -12849,6 +13661,15 @@
    "t": "2026-11-26",
    "rating": "66.89"
   },
+  "jordan|mousa al-tamari|RMF|Standard|74": {
+   "id": "116266",
+   "type": "Standard",
+   "ovr": 74,
+   "max": 74,
+   "rating": "74.23",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "jordan|nizar al-rashdan|DMF|Standard|69": {
    "id": "162937",
    "type": "Standard",
@@ -12866,6 +13687,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "70.73"
+  },
+  "jordan|saleem obaid|CB|Standard|70": {
+   "id": "16938445",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.32",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "jordan|yazan al-arab|CB|Standard|71": {
    "id": "16900471",
@@ -13105,6 +13935,15 @@
    "t": "2026-11-26",
    "rating": "72.33"
   },
+  "kosovo|albion rrahmani|CF|Standard|68": {
+   "id": "181645",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.69",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "kosovo|amir rrahmani|CB|Highlight|93": {
    "id": "105801419173947",
    "type": "Pinned",
@@ -13114,6 +13953,15 @@
    "t": "2026-11-23",
    "asof": "2026-09-07",
    "rating": "93.05"
+  },
+  "kosovo|amir saipi|GK|Standard|72": {
+   "id": "131945",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.13",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "kosovo|arijanet muric|GK|Highlight|92": {
    "asof": "2026-09-07",
@@ -13847,6 +14695,15 @@
    "t": "2026-11-26",
    "rating": "70.35"
   },
+  "montenegro|danijel petkovic|GK|Standard|71": {
+   "id": "102879",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.00",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "montenegro|igor vujacic|CB|Standard|73": {
    "id": "129144",
    "type": "Standard",
@@ -13883,6 +14740,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "montenegro|nebojsa kosovic|CMF|Standard|71": {
+   "id": "16887164",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.28",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "montenegro|nikola krstovic|CF|Highlight|93": {
    "asof": "2026-09-07",
    "id": "105818062222700",
@@ -13902,6 +14768,24 @@
    "t": "2026-11-26",
    "rating": "71.69"
   },
+  "montenegro|slobodan rubezic|CB|Standard|71": {
+   "id": "164933",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.77",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "montenegro|stefan mugosa|CF|Standard|72": {
+   "id": "129149",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.72",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "montenegro|stefan savic|CB|Standard|75": {
    "id": "43288",
    "type": "Standard",
@@ -13910,6 +14794,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "75.59"
+  },
+  "montenegro|stevan jovetic|SS|Standard|73": {
+   "id": "38051",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.50",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "montenegro|vasilije adzic|AMF|Standard|70": {
    "id": "170728",
@@ -14397,6 +15290,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "mozambique|bruno langa|LB|Standard|72": {
+   "id": "132874",
+   "type": "Standard",
+   "ovr": 72,
+   "max": 72,
+   "rating": "72.21",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "mozambique|clesio bauque|RWF|Standard|69": {
    "id": "83996655",
    "type": "Standard",
@@ -14452,6 +15354,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "mozambique|gildo vilanculos|RWF|Standard|69": {
+   "id": "84001175",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.33",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "mozambique|guima|DMF|Standard|71": {
    "id": "84010634",
    "type": "Standard",
@@ -14460,6 +15371,15 @@
    "rating": "71.02",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "mozambique|manuel kambala|DMF|Standard|69": {
+   "id": "84065068",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.50",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "mozambique|nene|CB|Standard|70": {
    "id": "84065030",
@@ -14488,6 +15408,15 @@
    "rating": "69.46",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "mozambique|witi|LMF|Standard|71": {
+   "id": "83995489",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.21",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "myanmar|hein htet aung|RWF|Standard|65": {
    "id": "170097",
@@ -15176,6 +16105,33 @@
    "type": "Showtime",
    "rating": "95.67"
   },
+  "new-zealand|alex paulsen|GK|Standard|71": {
+   "id": "170172",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.07",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "new-zealand|ben old|LB|Standard|71": {
+   "id": "170651",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.08",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "new-zealand|callum mccowatt|AMF|Standard|71": {
+   "id": "136826",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.86",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "new-zealand|chris wood|CF|Highlight|94": {
    "asof": "2026-09-07",
    "id": "105816988360530",
@@ -15222,6 +16178,15 @@
    "t": "2026-11-26",
    "rating": "72.32"
   },
+  "new-zealand|kosta barbarouses|CF|Standard|70": {
+   "id": "44354",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.68",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "new-zealand|liberato cacace|LB|Standard|71": {
    "id": "130446",
    "type": "Standard",
@@ -15239,6 +16204,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "69.55"
+  },
+  "new-zealand|marko stamenic|DMF|Standard|71": {
+   "id": "141791",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.68",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "new-zealand|max crocombe|GK|Standard|71": {
    "id": "107497",
@@ -15573,6 +16547,24 @@
    "t": "2026-11-26",
    "rating": "69.18"
   },
+  "north-macedonia|bojan miovski|CF|Standard|73": {
+   "id": "156825",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.33",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "north-macedonia|damjan siskovski|GK|Standard|71": {
+   "id": "106755",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.63",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "north-macedonia|danny musovski|CF|Standard|73": {
    "id": "143073",
    "type": "Standard",
@@ -15600,6 +16592,15 @@
    "t": "2026-11-26",
    "rating": "73.67"
   },
+  "north-macedonia|dejan iliev|GK|Standard|71": {
+   "id": "100535",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.50",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "north-macedonia|dimitar mitrovski|RWF|Standard|71": {
    "id": "170427",
    "type": "Standard",
@@ -15618,6 +16619,15 @@
    "t": "2026-11-26",
    "rating": "74.11"
   },
+  "north-macedonia|enis bardhi|AMF|Standard|73": {
+   "id": "118044",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.22",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "north-macedonia|ezgjan alioski|LB|Standard|69": {
    "id": "118057",
    "type": "Standard",
@@ -15626,6 +16636,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "69.96"
+  },
+  "north-macedonia|gjoko zajkov|CB|Standard|71": {
+   "id": "102242",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.33",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "north-macedonia|isnik alimi|CMF|Standard|72": {
    "id": "112637",
@@ -15663,6 +16682,15 @@
    "t": "2026-11-26",
    "rating": "72.35"
   },
+  "northern-ireland|ali mccann|CMF|Standard|71": {
+   "id": "123990",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.03",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "northern-ireland|conor bradley|RB|Highlight|94": {
    "id": "105761422326813",
    "type": "Pinned",
@@ -15682,6 +16710,15 @@
    "t": "2026-11-23",
    "type": "Trending",
    "rating": "91.79"
+  },
+  "northern-ireland|ethan galbraith|CMF|Standard|73": {
+   "id": "134472",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.12",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "northern-ireland|george best|RWF|EpicBigTime|": {
    "asof": "2026-09-07",
@@ -16076,6 +17113,15 @@
    "t": "2026-11-23",
    "rating": "72.52"
   },
+  "oman|abdul aziz al-muqbali|CF|Standard|68": {
+   "id": "16823355",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.73",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "oman|abdullah fawaz|CMF|Standard|68": {
    "id": "16900466",
    "type": "Standard",
@@ -16121,6 +17167,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "oman|ali al-busaidi|LB|Standard|67": {
+   "id": "16882193",
+   "type": "Standard",
+   "ovr": 67,
+   "max": 67,
+   "rating": "67.74",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "oman|amjad al-harthi|RB|Standard|67": {
    "id": "16922091",
    "type": "Standard",
@@ -16129,6 +17184,15 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "67.63"
+  },
+  "oman|faiyz al-rusheidi|GK|Standard|68": {
+   "id": "16823348",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.05",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "oman|harib al-saadi|DMF|Standard|70": {
    "id": "16889401",
@@ -16148,6 +17212,15 @@
    "t": "2026-11-26",
    "rating": "69.08"
   },
+  "oman|jameel al-yahmadi|RMF|Standard|70": {
+   "id": "16889403",
+   "type": "Standard",
+   "ovr": 70,
+   "max": 70,
+   "rating": "70.08",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "oman|khalid al-braiki|CB|Standard|68": {
    "id": "50462087",
    "type": "Standard",
@@ -16165,6 +17238,33 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "67.44"
+  },
+  "oman|omar al-malki|AMF|Standard|65": {
+   "id": "16889405",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.96",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "oman|zahir al-aghbari|LMF|Standard|69": {
+   "id": "16914008",
+   "type": "Standard",
+   "ovr": 69,
+   "max": 69,
+   "rating": "69.83",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "palestine|ataa jaber|CMF|Standard|67": {
+   "id": "50497721",
+   "type": "Standard",
+   "ovr": 67,
+   "max": 67,
+   "rating": "67.59",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "palestine|camilo saldana|LB|Standard|67": {
    "id": "50450486",
@@ -16238,6 +17338,15 @@
    "t": "2026-11-26",
    "rating": "65.69"
   },
+  "palestine|omar faraj|CF|Standard|68": {
+   "id": "50483755",
+   "type": "Standard",
+   "ovr": 68,
+   "max": 68,
+   "rating": "68.20",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "palestine|rami hamadeh|GK|Standard|67": {
    "id": "50497716",
    "type": "Standard",
@@ -16247,6 +17356,15 @@
    "t": "2026-11-26",
    "rating": "67.92"
   },
+  "palestine|samer jondi|LB|Standard|65": {
+   "id": "50497720",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.65",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "palestine|tamer seyam|LWF|Standard|68": {
    "id": "50496200",
    "type": "Standard",
@@ -16255,6 +17373,24 @@
    "status": "confirmed",
    "t": "2026-11-26",
    "rating": "68.14"
+  },
+  "palestine|tawfiq ali|GK|Standard|65": {
+   "id": "50497725",
+   "type": "Standard",
+   "ovr": 65,
+   "max": 65,
+   "rating": "65.91",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "palestine|wessam abou ali|CF|Standard|71": {
+   "id": "124031",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.48",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "palestine|yaser hamed|CB|Standard|68": {
    "id": "16943287",
@@ -16666,6 +17802,15 @@
    "status": "confirmed",
    "t": "2026-11-26"
   },
+  "peru|andy polo|RMF|Standard|73": {
+   "id": "103997",
+   "type": "Standard",
+   "ovr": 73,
+   "max": 73,
+   "rating": "73.18",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
   "peru|bryan reyna|LWF|Standard|71": {
    "id": "132262",
    "type": "Standard",
@@ -16719,6 +17864,24 @@
    "rating": "72.12",
    "status": "confirmed",
    "t": "2026-11-26"
+  },
+  "peru|miguel araujo|CB|Standard|71": {
+   "id": "45788",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.56",
+   "status": "confirmed",
+   "t": "2026-11-27"
+  },
+  "peru|paolo guerrero|CF|Standard|71": {
+   "id": "8823",
+   "type": "Standard",
+   "ovr": 71,
+   "max": 71,
+   "rating": "71.68",
+   "status": "confirmed",
+   "t": "2026-11-27"
   },
   "peru|pedro gallese|GK|Standard|74": {
    "id": "44023",
@@ -23286,5 +24449,10 @@
    "t": "2026-11-27"
   }
  },
- "miss": {}
+ "miss": {
+  "jordan|noor bane ataya|GK|Standard|67": {
+   "n": 1,
+   "t": "2026-11-27"
+  }
+ }
 }
