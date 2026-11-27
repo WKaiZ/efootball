@@ -11,7 +11,7 @@ Starters:
   LB    Antonee Robinson        LB    95.01  #5
   CB    Alex Freeman            CB    93.99  #16
   CB    Auston Trusty           CB    93.77  #6
-  RB    Sergiño Dest            RB    75.31  #2
+  RB    Sergiño Dest            RB    94.37  #2
   GK    Zack Steffen            GK    74.77  #22
 
 Substitutes:

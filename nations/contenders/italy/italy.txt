@@ -8,9 +8,9 @@ Starters:
   AMF   Francesco Totti        AMF   99.59  #10
   CMF   Roberto Donadoni       CMF   97.54  #7
   DMF   Andrea Pirlo           DMF   99.04  #21
-  LB    Riccardo Calafiori     LB    96.53  #5
+  LB    Alessandro Costacurta  LB    98.43  #4
   CB    Paolo Maldini          CB   100.18  #3
-  CB    Fabio Cannavaro        CB    99.64  #13
+  CB    Fabio Cannavaro        CB    99.64  #5
   RB    Gianluca Zambrotta     RB    98.41  #19
   GK    Gianluigi Buffon       GK   100.22  #1
 
@@ -22,15 +22,15 @@ Substitutes:
   AMF   Roberto Baggio         AMF   97.83  #16
   CMF   Nicolò Barella         CMF   96.03  #18
   DMF   Gennaro Gattuso        DMF   98.45  #8
-  LB    Leonardo Spinazzola    LB    94.17  #4
-  CB    Alessandro Nesta       CB    98.91  #2
+  LB    Cristiano Biraghi      LB    94.11  #15
+  CB    Alessandro Nesta       CB    98.91  #13
   CB    Franco Baresi          CB    98.40  #6
   RB    Massimo Oddo           RB    98.21  #22
   GK    Gianluigi Donnarumma   GK    99.04  #12
 
 Wildcard:
   SLOT  PLAYER                 POS  RATING  NO.
-  WILD  Gianfranco Zola        SS    99.85  #15
+  WILD  Giuseppe Bergomi       RB    98.01  #2
 
 Second Squad
 
@@ -39,7 +39,7 @@ Starters:
   CF    Francesco Totti        CF    99.49  #20
   LMF   Federico Dimarco       LMF   98.01  #11
   RWF   Federico Bernardeschi  RWF   93.35  #21
-  SS    Roberto Baggio         SS    99.61  #10
+  SS    Gianfranco Zola        SS    99.85  #10
   CMF   Davide Frattesi        CMF   94.09  #17
   DMF   Daniele De Rossi       DMF   98.15  #16
   LB    Paolo Maldini          LB    99.05  #3
@@ -53,12 +53,12 @@ Substitutes:
   CF    Christian Vieri        CF    98.01  #9
   LMF   Andrea Cambiaso        LMF   94.42  #15
   RWF   Domenico Berardi       RWF   93.34  #7
-  SS    Giacomo Raspadori      SS    94.07  #18
-  CMF   Niccolò Pisilli        CMF   92.12  #14
+  SS    Roberto Baggio         SS    99.61  #18
+  CMF   Fabio Miretti          CMF   73.92  #24
   DMF   Massimo Ambrosini      DMF   97.01  #8
-  LB    Niccolò Fortini        LB    70.32  #25
+  LB    Riccardo Calafiori     LB    96.53  #13
   CB    Giorgio Chiellini      CB    96.79  #4
-  CB    Riccardo Calafiori     CB    96.40  #13
+  CB    Giorgio Scalvini       CB    94.78  #14
   RB    Christian Panucci      RB    96.96  #2
   GK    Marco Carnesecchi      GK    96.73  #23
 

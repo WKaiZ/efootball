@@ -4,7 +4,7 @@ Starters:
   LWF   Simon Adingra         LWF   76.28  #24
   RWF   Yan Diomande          RWF   96.47  #10
   AMF   Amad Diallo           AMF   93.78  #15
-  CMF   Ibrahim Sangaré       DMF   94.00  #18
+  CMF   Franck Kessié         CMF   94.16  #8
   DMF   Yaya Touré            DMF   97.66  #19
   LB    Hassane Kamara        LB    74.14  #3
   CB    Evan Ndicka           CB    95.99  #21
@@ -18,8 +18,8 @@ Substitutes:
   LWF   Wilfried Zaha         LWF   76.11  #12
   RWF   Nicolas Pépé          RWF   94.28  #2
   AMF   Hamed Traoré          AMF   74.22  #25
-  CMF   Franck Kessié         CMF   76.47  #8
-  DMF   Seko Fofana           CMF   75.45  #6
+  CMF   Seko Fofana           CMF   75.45  #6
+  DMF   Ibrahim Sangaré       DMF   94.00  #18
   LB    Christopher Operi     LB    73.12  #13
   CB    Emmanuel Agbadou      CB    94.67  #20
   CB    Oumar Solet           CB    93.17  #5
